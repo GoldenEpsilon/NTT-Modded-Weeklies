@@ -20,7 +20,7 @@ jobs:
             print("Directory contents:")
             for f in os.listdir("mods/submissions"):
                 print(f)
-                file = open(f+"/data.txt");
+                file = open("mods/submissions/"+f+"/data.txt");
                 data = json.load(file);
                 for i in data:
                     print(i);
