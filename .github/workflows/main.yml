@@ -16,5 +16,5 @@ jobs:
           script: |
             import os
             print("Directory contents:")
-            for f in os.listdir("/mods/submissions"):
+            for f in os.listdir("mods/submissions"):
                 print(f)
