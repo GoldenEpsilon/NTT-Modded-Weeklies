@@ -1,0 +1,20 @@
+{
+	"name": "Example Daily!",
+	"description": false,
+	"can-resubmit": false,
+	"disable-vaults": false,
+	"seed": 3,
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "LOMuts",
+			"description": "Has a lot of mutations.\nI'm not quite sure what\nelse you'd want.",
+			"subfolder": true,
+			"url": "https://golden-epsilon.itch.io/lots-o-muts"
+		}
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crwn": false,
+}
