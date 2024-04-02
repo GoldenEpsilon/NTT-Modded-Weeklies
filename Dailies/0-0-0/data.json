@@ -1,17 +1,37 @@
 {
-	"name": "Example Daily!",
+	"name": "Testing Bed",
 	"description": false,
 	"can_resubmit": false,
 	"disable_vaults": false,
-	"seed": 3,
+	"starting_crown": true,
+	"starting_weapon": true,
+	"race_list": true,
+	"seed": 6414,
 	"mods": [
 		{
 			"download_type": "itch",
-			"name": "LOMuts",
-			"description": "Has a lot of mutations.\nI'm not quite sure what\nelse you'd want.",
-			"subfolder": true,
-			"url": "https://golden-epsilon.itch.io/lots-o-muts"
-		}
+			"name": "Feels Like Vanilla",
+			"description": false,
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "itch",
+			"name": "Detonator",
+			"description": false,
+			"url": "https://yokin.itch.io/detonator"
+		},
+		{
+			"download_type": "itch",
+			"name": "The Undergrowth",
+			"description": false,
+			"url": "https://attfooy.itch.io/undergrowth"
+		},
+		{
+			"download_type": "itch",
+			"name": "Blaacskills",
+			"description": false,
+			"url": "https://blaac.itch.io/weapon-mutations"
+		},
 	],
 	"race": false,
 	"wep": false,
