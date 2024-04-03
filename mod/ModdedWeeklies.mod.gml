@@ -521,8 +521,8 @@ if global.currentDate != "" {
 	prevDate = global.currentDate;
 }
 
-//file_download("http://worldclockapi.com/api/json/est/now", "ping.txt");
-file_load("ping.txt")
+file_download("http://worldclockapi.com/api/json/est/now", "ping.txt");
+//file_load("ping.txt")
 var d = 0;
 while (!file_loaded("ping.txt")){
 	if d++ > 100 break;
