@@ -4,35 +4,12 @@
 
     ~set up data
     "
-            scores =
-        {
-          testplayer: {
-          },
-          testplayer2: {
-          },
-        }
+    scoreboard = [{ name1:{},name2:{} },{...},{...}]
+    
     "
+    modded mutations
+    options button
     
-    from campfire mod
-    -port go button
-    -port back button 
-        disable it when in score menu
-    -port... the rest of it
-    
-    regain control of the base ui
-        menu ui object (RANDOM/ race name/discription)
-        
-    daily button
-        - under back button? top left like early access?
-        - slides original ui to the right
-            -combines weapon and name. hides race disciption
-            -hides name splash, new splash animation?
-            
-    menu tabs
-        daily 
-        modded daily
-        weekly
-        
     next daily countdown
     
     info on hover
@@ -42,23 +19,7 @@
         mutation
         killed by on hover over kills
         daily discription
-        
-        
-    if score button clicked start transition
-        menu.visible false, run script to resize game window and redraw menu
-            moves the character name and art
     
-    move charselect off sceen to right
-    keep go button in same place
-    
-    write a report about why modded dailies are bad actually
-        modded weeklies good
-        modded 3 daylies gooder
-        unmodded dailies good
-        co op dailies undecided
-      
-      
-      
         
     things i can use from go
     
@@ -69,19 +30,19 @@
             no reason to other then it is nice
             no reason not to unless it breaks something
           
-        shuffle the wasteland kings
+    x    shuffle the wasteland kings
             other than fish the others can be in any of the left/right/down locations or whereever plant spawned
             plant is og and deserves warmth
             i like it a lot
             fliped eyes and crystal are a little weird at first
             
-        fish is shifted slightly left or right on his log sometimes
+    x    fish is shifted slightly left or right on his log sometimes
         
-        weapons renamed to remove character names
+    x    weapons renamed to remove character names
             chicken sword -> sword
         
-        frog and skeleton disabled by default
-            frog running around is cute but is a very not NT thing that has become the norm from a whim of yal
+    x    frog and skeleton disabled by default
+            frog running around is cute but is a very not NT thing that has become the norm from a whim of yal when ntt was first and formost a co-op mod
 	        same for skel
 	        headcannon that frog is a curse the mutant gets from using the frog blaster
 	        actual cannon that melting melts and revives into skeleton, why he stand next to meltman?
@@ -89,13 +50,15 @@
 	        big dog command /bdog /bigdog
             inherent to go button (having room by default)
 	   
-	   skeleton and bigdog campfire animations
+	   skeleton and
+	x   bigdog 
+		campfire animations
 	        weird dog doesnt do animation
 	   
-        skins organize into columns
+    x    skins organize into columns
             make sure no break
             
-        character icons squish together then stack when out of room
+    x    character icons squish together then stack when out of room
             change to be gooder
                 if stacked
                 stay in the squished state until new button i clicked to expand 
@@ -106,7 +69,7 @@
             /gscale 2 makes game double size /gscale 4 4 times the size
             i like it, it is very useful but no real reason to add
            
-        hide the first 4 races if they are locked
+    x    hide the first 4 races if they are locked
             weird thing ntt doesnt do
         
 
@@ -114,19 +77,22 @@
  *                 *
 \* *  *   *   *  * */
 
-global.menu_surf1 = 0
-global.menu_surf2 = 0
+#macro debug false   	if debug trace("debug is on")
+#macro moddedweeklies_mod_file "ModdedWeeklies"
 
-	/*  characters unlocked  */	
-	global.frog = false;
-	global.skel = false;
-	global.bdog = false;
+#macro holdbackdelay 16;    /*  how long you have to hold to return to the main menu  */
 
-	/*	remove character names from weapons (chicken sword)		*/
-	global.wepnames = true;
 
-	/*  hide menu portraits  */
-	global.hideportraits = false;
+
+
+/*  characters unlocked  */	
+global.frog = false;
+global.skel = false;
+global.bdog = false;
+/*	remove character names from weapons (chicken sword)		*/
+global.wepnames = true;
+/*  hide menu portraits  */
+global.hideportraits = false;
 		
 	
 //characters
@@ -166,7 +132,10 @@ global.sprBackButton = sprite_add_base64("iVBORw0KGgoAAAANSUhEUgAAAKgAAAAeCAYAAA
 , 6, 16, 17);
 global.sprLoadoutSplat = sprite_add_base64("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"
 , 4, 109, 69);
-			
+	
+//surfaces
+global.menu_surf1 = 0
+global.menu_surf2 = 0		
 
 global.menu_opened = false
 global.menu_opening = [0,16]     //  min/start,max
@@ -174,23 +143,35 @@ global.menu_opening = [0,16]     //  min/start,max
 global.scoreboard_number_of_rows = 6    // number of rows displayed
 global.scoreboard_opened = -4       //which row is opened, -4 = none
 global.scoreboard_opening = [0,16]  //  min/start,max
+global.scoreboard_position = [0,0,0]    //where each is scrolled
+
+global.current_scoreboard = 0   //which tab is open
 
 
-#macro debug true   if debug trace("debug is on")
-#macro moddedweeklies_mod_file "moddedweeklies"
-
-#macro holdbackdelay 16;    /*  how long you have to hold to return to the main menu  */
 
 #macro menu_opened global.menu_opened
 #macro menu_opening global.menu_opening
 #macro scoreboard_number_of_rows global.scoreboard_number_of_rows
 #macro scoreboard_opened global.scoreboard_opened 
 #macro scoreboard_opening global.scoreboard_opening
-#macro scoreboard_anim scoreboard_opening[0]/scoreboard_opening[1]    //*scoreboard_anim
-#macro menu_anim menu_opening[0]/menu_opening[1]    //*menu_anim
+#macro scoreboard_anim scoreboard_opening[0]/scoreboard_opening[1]
+#macro menu_anim menu_opening[0]/menu_opening[1]
+#macro scoreboard_pos global.scoreboard_position
     
+//skin loadout icons
+#macro topheight 64;
+#macro botheight game_height-92;
+#macro width game_width-136;
+#macro fitskins ceil((botheight-topheight+1)/28);
+//char select
+#macro fitchar ceil(( (game_width-72)-8 )/17);
+
+global.ntte = false
+global.stack = 1
 if debug
-global.names = ["fish","eyes","crystal","yv","steroids","cuz","rebel","melting","robot","horor","plant","rogue","big dog","blaac"]
+global.names = ["fish","eyes","crystal","yv","steroids","cuz","rebel","melting","robot","horror","plant","rogue","big dog","blaac"]
+
+
 
 with instances_matching(CustomObject,"name","mod_ui_daily_button"){
     
@@ -204,38 +185,40 @@ with instances_matching(CustomObject,"name","mod_ui_daily_button"){
 update_scoreboard()
 
 #define update_scoreboard
-global.scoreboard = [
-	{
-		name : "", 
-		race : 0,
-		skin : 0,
-		kills : 0,
-		hard : 0,
-		area : 0,
-		subarea : 0,
-		loop : 0,
-		wep : 0,
-		bwep : 0,
-		crown : 0,
-		mutations : [1,2,3,4,5,6],
-		time : 55032,
-		color : c_red
-		
-	},
-]
+global.scoreboard = [{
+    p1 :{
+            name : "", 
+            race : 0,
+            skin : 0,
+            kills : 0,
+            hard : 0,
+            area : 0,
+            subarea : 0,
+            loop : 0,
+            wep : 0,
+            bwep : 0,
+            crown : 0,
+            mutations : [],
+            time : 55032,
+            color : c_red,
+            killed_by : [sprBanditIdle,"boy?"]
+            
+        },
+    },{},{}]
 
 if debug{
     
+    for(var _s = 0;_s<array_length(global.scoreboard);_s++){
+    
     var _array = []
-    for(var i = 1;i<22;i++){
+    for(var i = 1;i<333;i++){
         
         var _kills = irandom(10000)
         var _hard = ceil(_kills/240)
         var _area = ceil((_kills/32) mod 7)
-        var _race = irandom(10)
-        //var _race = irandom(11)
-        //if !irandom(10) _race = "detonator"
-        var _muts = [1,2,3,4,5,6]
+        var _race = irandom(11)
+        if !irandom(10) _race = "detonator"
+        var _muts = [1,2,3,4,5,6,choose("flamingpalms","compoundelbow","concentration","condensedmeat","powderedgums")]
         var _name = 
                 {
                     name : global.names[irandom(array_length(global.names)-1)],//"p"+string(i), 
@@ -251,30 +234,35 @@ if debug{
                     crown : irandom(13),
                     mutations : array_shuffle(_muts),
                     time : 55032,
-                    color : choose(c_red,c_aqua,c_lime,c_purple,c_dkgray,c_fuchsia,c_yellow,c_orange,c_blue)
+                    color : choose(c_red,c_aqua,c_lime,c_purple,c_dkgray,c_fuchsia,c_yellow,c_orange,c_blue),
+                    killed_by : [sprBanditIdle,"boy?"]
                 }
         _array[array_length(_array)]= _name
         }
-    global.scoreboard = _array
+    global.scoreboard[_s] = _array
+    
+    
+    }
 }
-var does_the_mod_exist = mod_exists("mod",moddedweeklies_mod_file)
+
+var does_the_mod_exist = mod_exists("mod", moddedweeklies_mod_file)
 
 if does_the_mod_exist{
     
-    global.scoreboard = {
-    }
+    global.scoreboard = [[],[],[]]
 
     global.scoreboard = 
-        mod_script_call("mod",moddedweeklies_mod_file,"get_scores_please")
+        mod_script_call("mod", moddedweeklies_mod_file, "getScores", "kills")
         //please sort them by kills/display order
 }
 
-global.scoreboard = array_shuffle(global.scoreboard)//sort_array_by(global.scoreboard,kills)
+if debug
+for(var s=0;s<array_length(global.scoreboard);s++)
+global.scoreboard[s] = array_shuffle(global.scoreboard[s])//sort_array_by(global.scoreboard,kills)
 
 
 
 #define go
-
 game_restart();
 instance_destroy();
 
@@ -305,21 +293,12 @@ if menu_opened{ //ease in
         menu_opening[0] = max(0,(menu_opening[0]-(max(0.02,menu_opening[0]*0.3)*current_time_scale))) 
 }
 
-//trace((scoreboard_opening[0]))
-//#define sort_array_by(_array,_how)
-//var old = _array;
-//var temp = [];
-//for(var i = 0;i<array_length(old);i++){
-//    for(var f = 0 f<array_length(old);f++){
-//        if old[f]._how > old[i]._how
-//            array
-//    }
-//}
 
 #define draw
-if !instance_exists(Campfire) exit;
 
 
+if GameCont.timer = 0{
+    
     draw_set_projection(0, 0)
     draw_set_color(c_black)
     var xx = -240+(322*menu_anim)
@@ -329,49 +308,64 @@ if !instance_exists(Campfire) exit;
 
     draw_reset_projection()
 
-
-if debug{
-    
-    
-    //with CharSelect ystart = 210 - 250*menu_anim    
-    with Menu visible = menu_opening[0] = 0
-    
+if debug
 if button_pressed(0,"horn")
     update_scoreboard()
 
 //if menu_opened{
   
-    
-    //if scoreboard_opened != -4 draw_text_nt(32,game_height-32,scoreboard_opened)
-    
     draw_set_projection(0, 0)
-    var xx = game_width-36 +222-(222*menu_anim)
-    var yy = game_height-48
     
-    var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,game_width-64,game_height-67,game_width,game_height-37)
+    //var xx = game_width-36 +222-(222*menu_anim)
+    //var yy = game_height-48
+    
+    //var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,game_width-64,game_height-67,game_width,game_height-37)
     
     //var _sprt = get_mapsprite(player_get_race_id(0),player_get_skin(0))
     //draw_sprite(_sprt[0],_sprt[1],xx-1*mouse_over,yy+1*mouse_over)
-        
-    var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,game_width-64,game_height-67,game_width,game_height-37)
     
     
     
     var xx = 16 -game_width +(game_width*menu_anim);
-    var yy = 48;
-    for(var i = 0;i<    min(scoreboard_number_of_rows,array_length(global.scoreboard) )    ;i++){
+    var yy = 48+8;
+    
+    //SCOREBOARD
+    //if debug{
+    //if button_check(0,"key1")
+    //    scoreboard_pos[global.current_scoreboard] -=1
+    //if button_check(0,"key2")
+    //    scoreboard_pos[global.current_scoreboard] +=1
+    //} 
+    //scoreboard_pos[global.current_scoreboard] = clamp(scoreboard_pos[global.current_scoreboard],0,array_length(global.scoreboard[global.current_scoreboard])-scoreboard_number_of_rows )
+    //
+    scoreboard_pos[global.current_scoreboard] = round(scoreboard_pos[global.current_scoreboard])
+	if scoreboard_pos[global.current_scoreboard] < 0 {scoreboard_pos[global.current_scoreboard] = 0}
+    
+    //if scoreboard_opened>(scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows) or scoreboard_opened<scoreboard_pos[global.current_scoreboard]
+    //    scoreboard_opened = -4
+    for(var i = scoreboard_pos[global.current_scoreboard]; i < (scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows) && i < array_length(global.scoreboard[global.current_scoreboard]); i++){
+        
         
 	    draw_set_halign(0)
         
-        var col2 = global.scoreboard[i].color
+        
+        
+        var f = i-scoreboard_pos[global.current_scoreboard]
+        
+        var col2 = global.scoreboard[global.current_scoreboard][i].color
         var col = make_color_hsv(color_get_hue(col2),color_get_saturation(col2)*0.8,color_get_value(col2)*0.7)
         
         var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx,yy-1,xx+game_width*0.8,yy+7)
         var _opened = i=scoreboard_opened
         
+        
+        draw_set_color(c_black)
+        if _opened
+        draw_rectangle(0,yy-4*scoreboard_anim,-game_width+((game_width*4)*menu_anim),yy+38*scoreboard_anim,0)
+        
         var xxx = 0
         var yyy = 0
-        var _pointless_wiggle = ceil(sin(current_frame + i)/2)
+        var _pointless_wiggle = ceil(sin(current_frame + f)/2)
         
         
         if mouse_over or scoreboard_opened = i{
@@ -379,7 +373,7 @@ if button_pressed(0,"horn")
         draw_rectangle(xx-20,yy-1,xx+(game_width-17)*menu_anim,yy+7*menu_anim,0) 
         draw_line(xx-20,yy+8+_opened,xx+(game_width-17)*menu_anim,yy+8*menu_anim+_opened)
         draw_set_color(c_white)
-            _pointless_wiggle= cos(current_frame + i)
+            _pointless_wiggle= cos(current_frame + f)
             
             if button_pressed(0,"fire") and mouse_over
                 if scoreboard_opened = i
@@ -393,10 +387,10 @@ if button_pressed(0,"horn")
         if _opened{
             draw_set_halign(0)
             draw_set_color(col)
-            if !is_string(global.scoreboard[i].race)
-            var _text = string(race_get_name(global.scoreboard[i].race))
+            if !is_string(global.scoreboard[global.current_scoreboard][i].race)
+            var _text = string(race_get_name(global.scoreboard[global.current_scoreboard][i].race))
             else
-                    _text = global.scoreboard[i].race
+                    _text = global.scoreboard[global.current_scoreboard][i].race
             if _text = "venuz" _text = "yung venuz"
                 
             draw_text(xx-32+(34*scoreboard_anim)+_pointless_wiggle*0.3,yy+10,_text)
@@ -404,47 +398,48 @@ if button_pressed(0,"horn")
         
         //bgun      //maybe second forloop to render all bweps first for less clipping
         xxx+= 4
-        var _sprt = weapon_get_sprt(global.scoreboard[i].bwep)
+        var _sprt = weapon_get_sprt(global.scoreboard[global.current_scoreboard][i].bwep)
         if _sprt != 0
         draw_sprite_ext(_sprt,0,
-        round(xx+xxx-5+((210*scoreboard_anim)*_opened))
+        round(xx+xxx-5+((260*scoreboard_anim)*_opened))
         ,round(yy+(_pointless_wiggle*(scoreboard_opened!=i))+((26*scoreboard_anim)*_opened))
         ,1,1,45-((45*scoreboard_anim)*_opened),_opened ? c_white:c_silver,1)
         xxx-=32
         
         //mapicon
-        var _sprt = get_mapsprite(global.scoreboard[i].race,global.scoreboard[i].skin)
+        var _sprt = get_mapsprite(global.scoreboard[global.current_scoreboard][i].race,global.scoreboard[global.current_scoreboard][i].skin)
         draw_sprite(_sprt[0],_sprt[1],round(xx+((167*scoreboard_anim)*_opened)),round(yy+(_pointless_wiggle*!_opened)+((10*scoreboard_anim)*_opened)))
         
-        //gun       // add melee weapon angle
-        xxx+=28
-        var _sprt = weapon_get_sprt(global.scoreboard[i].wep)
-        if _sprt != 0
-        draw_sprite_ext(_sprt,0,
-            round(xx+xxx+((180*scoreboard_anim)*_opened))
-            ,round(yy+4+(_pointless_wiggle*(scoreboard_opened!=i))+((22*scoreboard_anim)*_opened))
-            ,1,1,(45-45*_opened)*weapon_is_melee(global.scoreboard[i].wep)-15+((15*scoreboard_anim)*_opened),c_white,1)
-        
         //crown
-        xxx+=16
-        var _sprt = get_crownsprite(global.scoreboard[i].crown)
-        if global.scoreboard[i].crown != 0 and global.scoreboard[i].crown != 1
+        xxx+=48
+        var _sprt = get_crownsprite(global.scoreboard[global.current_scoreboard][i].crown)
+        if global.scoreboard[global.current_scoreboard][i].crown != 0 and global.scoreboard[global.current_scoreboard][i].crown != 1
         draw_sprite_ext(_sprt,current_frame*0.4,round(xx+xxx),round(yy+4+_pointless_wiggle+((22*scoreboard_anim)*_opened)),1,1,0,c_white,1)
         
-        xxx+=18
+        xxx+=-20
+        //gun       // add melee weapon angle
+        var _sprt = weapon_get_sprt(global.scoreboard[global.current_scoreboard][i].wep)
+        if _sprt != 0
+        draw_sprite_ext(_sprt,0,
+            round(xx+xxx+((230*scoreboard_anim)*_opened))
+            ,round(yy+4+(_pointless_wiggle*(scoreboard_opened!=i))+((22*scoreboard_anim)*_opened))
+            ,1,1,(45-45*_opened)*weapon_is_melee(global.scoreboard[global.current_scoreboard][i].wep)-15+((15*scoreboard_anim)*_opened),c_white,1)
+        
+        xxx+=24+16 + string_length(i+1)*4
         
         draw_set_color(c_gray)
         if scoreboard_opened = i or mouse_over
         draw_set_color(c_white)
         
         //ranking
-        draw_text(round(xx+xxx+(-8- 16*(scoreboard_anim*_opened)+_pointless_wiggle)),yy,i+1)
+        draw_set_halign(2)
+        draw_text(round(xx+xxx+(0- 16*(scoreboard_anim*_opened)+_pointless_wiggle)),yy,i+1)
         
         _pointless_wiggle*=1.5
         
         //name
 	    draw_set_halign(0)
-        var _text = string(global.scoreboard[i].name)
+        var _text = string(global.scoreboard[global.current_scoreboard][i].name)
             
         if _opened
             draw_text(round(xx+xxx+8+_pointless_wiggle),yy,_text)
@@ -457,7 +452,7 @@ if button_pressed(0,"horn")
         yyy+=((8*scoreboard_anim))*_opened
         
 	    _text =
-            string(global.scoreboard[i].kills)
+            string(global.scoreboard[global.current_scoreboard][i].kills)
         
 	    draw_set_halign(1)
         draw_text(xx+xxx,yy+yyy,_text)
@@ -471,16 +466,16 @@ if button_pressed(0,"horn")
         xxx+=24
         _text = 
             string("L"+
-            string(global.scoreboard[i].loop)
+            string(global.scoreboard[global.current_scoreboard][i].loop)
         )
         
-        if global.scoreboard[i].loop != 0
+        if global.scoreboard[global.current_scoreboard][i].loop != 0
         draw_text(xx+xxx,yy+yyy,_text)
         
         //area
         xxx+=32
         _text = 
-            string(string(global.scoreboard[i].area)+"-"+string(global.scoreboard[0].subarea))
+            string(string(global.scoreboard[global.current_scoreboard][i].area)+"-"+string(global.scoreboard[global.current_scoreboard][0].subarea))
         
         draw_text(xx+xxx,yy+yyy,_text)
         
@@ -491,16 +486,28 @@ if button_pressed(0,"horn")
             xxx=0
             
             //charselect
-            var _sprt = get_charsprite(global.scoreboard[i].race)
+            var _sprt = get_charsprite(global.scoreboard[global.current_scoreboard][i].race)
             draw_sprite(_sprt[0],_sprt[1],xx-32+(16*scoreboard_anim),yy-1)
             
             //mutations
-            var muts = global.scoreboard[i].mutations
+            var muts = global.scoreboard[global.current_scoreboard][i].mutations
             if array_length(muts) > 0{
             var mx = 0
+            var _ind = 0
             for(var m = 0;m<array_length(muts);m++){
-                
+                if is_string(muts[m]){
+                	_sprt = sprPortal
+                		//get the mods sprites
+                	if mod_exists("skill",muts[m]) and mod_script_exists("skill",muts[m],"skill_icon")
+                	_sprt = mod_script_call("skill",muts[m],"skill_icon")
+                	else
+                	_ind = current_frame *0.4
+                	
+                	draw_sprite(_sprt,_ind,xx+12+((48+(18*m))*scoreboard_anim),yy+30)
+                }
+                else
                 draw_sprite(sprSkillIconHUD,muts[m],xx+12+((48+(18*m))*scoreboard_anim),yy+30)
+                
                 
             }
                 
@@ -517,7 +524,7 @@ if button_pressed(0,"horn")
     
     draw_reset_projection()
 //}
-}
+
 
 
 
@@ -544,9 +551,8 @@ surface_reset_target()
     draw_surface_part(global.menu_surf1,0,36,game_width,game_height-72,-(game_width*1.2)*menu_anim,36)
 
     draw_reset_projection()
-
+}
 #define draw_gui
-if !instance_exists(Campfire) exit;
 with Loadout if selected menu_opened = false
 if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1{
     with instance_create(game_width-24,7,CustomObject){
@@ -604,6 +610,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1
     }
 }
 
+
 //if menu_opening[0] != 0{
 //    with Menu {
 //        var _my = (game_height-32)-250*menu_anim
@@ -614,170 +621,215 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1
 //}
 
 
+	//moveable camera
+//	var move_campfire = false
+//	for(var i = 0;i<3;i++){
+//		if point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i],view_yview[i]+32,view_xview[i]+game_width,view_yview[i]+game_height-32)
+//			and button_check(i,"fire") and !instance_exists(Spiral){
+//
+//				with Campfire{
+//					mask_index = mskNone;
+//					var dist = point_distance(mouse_x[i],mouse_y[i],xstart,ystart)*0.8
+//					var dir = point_direction(xstart,ystart,mouse_x[i],mouse_y[i])
+//					x = xstart+lengthdir_x(dist,dir)
+//					y = ystart+lengthdir_y(dist,dir)
+//				}
+//			}
+//		if player_get_race_id(i) = 0 and player_is_active(i)
+//				move_campfire = true;
+//		if button_pressed(i,"spec")
+//		with instances_matching(Campfire,"mask_index",mskNone){
+//			x= xstart
+//			y= ystart
+//			mask_index = -1;
+//		}
+//	}
+//	if move_campfire = false
+//	with instances_matching(Campfire,"mask_index",mskNone){
+//		x= xstart
+//		y= ystart
+//		mask_index = -1;
+//	}
+//	  //timeout
+//	//if move_campfire = false
+//	//if fork(){
+//	//	with instances_matching(Campfire,"mask_index",mskNone){
+//	//		wait 24
+//	//		if instance_exists(self) and mask_index = mskNone{
+//	//			x= xstart
+//	//			y= ystart
+//	//			mask_index = -1;
+//	//		}
+//	//	}
+//	//exit;
+//	//}
+	
 
-	//GO button
-    if array_length(instances_matching(CustomObject,"name","mod_ui_superbutton"))<1{
-        	
-			//shuffle the wastelandkings
-        	with instances_matching_le(CampChar,"num",4){
-        		var _dist = 4
-        		var _x = random_range(-_dist,_dist);
-        		var _y = random_range(-_dist,_dist);
-        		xstart += _x;
-        		if num != 1
-        			ystart += _y;
-        		else
-        			with LogMenu{
-        				spr_shadow_x += _x;
-        			}
-        		y = ystart
-        		x = xstart
-        	}
-        	//swap eyes and crystal
-        	if !irandom(2){
-        		with instances_matching(CampChar,"num",2){
-        			with instances_matching(CampChar,"num",3){
-        				var _x = x,
-        				_y = y;
-        				x=other.x;
-        				y= other.y;
-        				other.x=_x;
-        				other.y=_y;
-        				image_xscale = choose(1,-1);
-        				other.image_xscale = choose(-1,1)
-        			}
-        		}	
-        	}
-        	//swap eyes and melting
-        	if !irandom(2){
-        		with instances_matching(CampChar,"num",4){
-        			with instances_matching(CampChar,"num",3){
-        				var _x = x,
-        				_y = y;
-        				x=other.x;
-        				y= other.y;
-        				other.x=_x;
-        				other.y=_y;
-        				image_xscale = -1;
-        			}
-        		}	
-        	}
-        	//swap crystal and melting
-        	if !irandom(2){
-        		with instances_matching(CampChar,"num",4){
-        			with instances_matching(CampChar,"num",2){
-        				var _x = x,
-        				_y = y;
-        				x=other.x;
-        				y= other.y;
-        				other.x=_x;
-        				other.y=_y;
-        				image_xscale = choose(-1,1)
-        			}
-        		}	
-        	}
-        	//swap melting and plant
-        	if !irandom(5) and race_get_active(5){
-        		with instances_matching(CampChar,"num",4){
-        			with instances_matching(CampChar,"num",5){
-        				var _x = x,
-        				_y = y;
-        				x=other.x;
-        				y= other.y;
-        				other.x=_x;
-        				other.y=_y;
-        			}
-        		}	
-        	}
-        	//swap crystal and plant
-        	if !irandom(5) and race_get_active(5){
-        		with instances_matching(CampChar,"num",2){
-        			with instances_matching(CampChar,"num",5){
-        				var _x = x,
-        				_y = y;
-        				x=other.x;
-        				y= other.y;
-        				other.x=_x;
-        				other.y=_y;
-        			}
-        		}	
-        	}
-        	
-        	with CampChar{
-        		xstart = x
-        		ystart = y
-        		//image_alpha = 0
-        	}
-        	
-            with instance_create(10000,10000,CustomObject){
-                name = "mod_ui_superbutton";
-                sprite_index = sprGoButton;
-                image_speed = 0;
-                depth = 0;
-                yoffset = 1;
-                visible = false;
-                image_alpha = 0.6;
-                timer = 0;
-                if fork(){
-                while instance_exists(self){
-                    //with BackFromCharSelect{
-                    //    other.visible = visible
-                    //    with Loadout
-                    //        visible = other.visible
-                    //}
-                    timer ++
+
+
+//GO button
+if array_length(instances_matching(CustomObject,"name","mod_ui_superbutton"))<1{
+    	
+		//shuffle the wastelandkings
+    	with instances_matching_le(CampChar,"num",4){
+    		var _dist = 4
+    		var _x = random_range(-_dist,_dist);
+    		var _y = random_range(-_dist,_dist);
+    		xstart += _x;
+    		if num != 1
+    			ystart += _y;
+    		else
+    			with LogMenu{
+    				spr_shadow_x += _x;
+    			}
+    		y = ystart
+    		x = xstart
+    	}
+    	//swap eyes and crystal
+    	if !irandom(2){
+    		with instances_matching(CampChar,"num",2){
+    			with instances_matching(CampChar,"num",3){
+    				var _x = x,
+    				_y = y;
+    				x=other.x;
+    				y= other.y;
+    				other.x=_x;
+    				other.y=_y;
+    				image_xscale = choose(1,-1);
+    				other.image_xscale = choose(-1,1)
+    			}
+    		}	
+    	}
+    	//swap eyes and melting
+    	if !irandom(2){
+    		with instances_matching(CampChar,"num",4){
+    			with instances_matching(CampChar,"num",3){
+    				var _x = x,
+    				_y = y;
+    				x=other.x;
+    				y= other.y;
+    				other.x=_x;
+    				other.y=_y;
+    				image_xscale = -1;
+    			}
+    		}	
+    	}
+    	//swap crystal and melting
+    	if !irandom(2){
+    		with instances_matching(CampChar,"num",4){
+    			with instances_matching(CampChar,"num",2){
+    				var _x = x,
+    				_y = y;
+    				x=other.x;
+    				y= other.y;
+    				other.x=_x;
+    				other.y=_y;
+    				image_xscale = choose(-1,1)
+    			}
+    		}	
+    	}
+    	//swap melting and plant
+    	if !irandom(5) and race_get_active(5){
+    		with instances_matching(CampChar,"num",4){
+    			with instances_matching(CampChar,"num",5){
+    				var _x = x,
+    				_y = y;
+    				x=other.x;
+    				y= other.y;
+    				other.x=_x;
+    				other.y=_y;
+    			}
+    		}	
+    	}
+    	//swap crystal and plant
+    	if !irandom(5) and race_get_active(5){
+    		with instances_matching(CampChar,"num",2){
+    			with instances_matching(CampChar,"num",5){
+    				var _x = x,
+    				_y = y;
+    				x=other.x;
+    				y= other.y;
+    				other.x=_x;
+    				other.y=_y;
+    			}
+    		}	
+    	}
+    	
+    	with CampChar{
+    		xstart = x
+    		ystart = y
+    		//image_alpha = 0
+    	}
+    	
+        with instance_create(10000,10000,CustomObject){
+            name = "mod_ui_superbutton";
+            sprite_index = sprGoButton;
+            image_speed = 0;
+            depth = 0;
+            yoffset = 1;
+            visible = false;
+            image_alpha = 0.6;
+            timer = 0;
+            if fork(){
+            while instance_exists(self){
+                //with BackFromCharSelect{
+                //    other.visible = visible
+                //    with Loadout
+                //        visible = other.visible
+                //}
+                timer ++
+                
+                if GameCont.area != 0 {
+                    instance_delete(id)
+                    exit
                     
-                    if GameCont.area != 0 {
-                        instance_delete(id)
-                        exit
-                        
-                    }
-                    
-                    if visible = false{
-                    	if timer > 12{
-                    		for(var p = 0;p<4;p++){
-                    			if player_get_race_id(p) != 0
-                    				visible = true; 
-                    		}
-                    	}
-                    }
-                    else{
-                    var hover = 0;
-                    for(var i=0;i<maxp;i++){
-                        if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+game_width-sprite_get_width(sprGoButton)-10,view_yview[i]+game_height-31,view_xview[i]+game_width-10,view_yview[i]+game_height-31+sprite_get_height(sprGoButton)){
-                            if button_pressed(i,"fire"){
-                                script_bind_end_step(go,-1000);
-                                exit;
-                                
-                            }
-                            hover = 1;
+                }
+                
+                if visible = false{
+                	if timer > 12{
+                		for(var p = 0;p<4;p++){
+                			if player_get_race_id(p) != 0
+                				visible = true; 
+                		}
+                	}
+                }
+                else{
+                var hover = 0;
+                for(var i=0;i<maxp;i++){
+                    if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+game_width-sprite_get_width(sprGoButton)-10,view_yview[i]+game_height-31,view_xview[i]+game_width-10,view_yview[i]+game_height-31+sprite_get_height(sprGoButton)){
+                        if button_pressed(i,"fire"){
+                            script_bind_end_step(go,-1000);
+                            exit;
+                            
                         }
+                        hover = 1;
                     }
-                    if hover = 1{
-                        image_speed = 0.4;
-                        image_blend = c_white;
-                        image_alpha = 1;
-                        yoffset = -1;
-                    }
-                    else{
-    					if image_index+image_speed>=image_number or image_index<4{
-    						image_index = 0;
-    						image_speed = 0;
-    					}
-                        image_blend = c_white;
-                        image_alpha = 0.6;
-                        yoffset = 0;
-                    }
-                    	
-                    }
-                    wait 0;
                 }
-                exit;
+                if hover = 1{
+                    image_speed = 0.4;
+                    image_blend = c_white;
+                    image_alpha = 1;
+                    yoffset = -1;
                 }
+                else{
+					if image_index+image_speed>=image_number or image_index<4{
+						image_index = 0;
+						image_speed = 0;
+					}
+                    image_blend = c_white;
+                    image_alpha = 0.6;
+                    yoffset = 0;
+                }
+                	
+                }
+                wait 0;
+            }
+            exit;
             }
         }
-    //backbutton
-    with instances_matching(BackFromCharSelect,"mod_ui",null){
+    }
+//backbutton
+with instances_matching(BackFromCharSelect,"mod_ui",null){
 		if array_length(instances_matching(CustomObject,"name","mod_ui_backbutton"))=0
 		
     	with instance_create(0,0,CustomObject){
@@ -849,6 +901,8 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1
     	}
     	mod_ui = true
     } 
+
+with Loadout{
 //draw go button
 with instances_matching(CustomObject,"name","mod_ui_superbutton"){
     if visible
@@ -864,9 +918,24 @@ with instances_matching(CustomObject,"name","mod_ui_backbutton"){
 with instances_matching(CustomObject,"name","mod_ui_daily_button"){
 	draw_sprite_ext(sprite_index,image_index,x,y+yoffset,1,1,0,image_blend,1);
 } 
+}
 
 
-	
+//bigdog sprites		
+with instances_matching(CampChar,"num",13){
+    if "go_setsprites" not in self or go_setsprites = null{
+        with instance_create(x,y,PortalClear){ image_xscale = 2; image_yscale = 2 }
+        
+        	spr_slct =  sprScrapBossSleep;
+        	spr_to =    sprScrapBossIntro;
+        	spr_from =  sprScrapBossHurt;
+        	spr_menu =  sprScrapBossIdle;
+        	spr_shadow = shd96;
+        	sprite_index =  spr_slct;
+        go_setsprites = true;
+    }
+} 
+		
 //respawn skeleton
 if race_get_active(char_skeleton) and array_length(instances_matching(CampChar,"num",14))=0{
 	with Campfire{
@@ -951,11 +1020,106 @@ with instances_matching(CampChar,"num",char_frog){
 		}
 }
 	
+with Menu{
+    	
+	//make the first 4 races hidden if they are not unlocked . mimics how the game handles others by only removing them on reloading the campfire
+	if "hide_races" not in self{
+		with instances_matching_le(CampChar,"num",4){
+			if !race_get_active(num) instance_destroy();
+		}
+		hide_races = true;
+	}
+
+}
 	
+	
+with Loadout{
+//tabs
+draw_set_color(c_white)
+draw_set_halign(1)
+draw_set_valign(1)
+var xx = 64 -game_width +(game_width*menu_anim);
+var yy = 32;
+var _text = "-daily-"
+var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
+
+if mouse_over and button_pressed(0,"fire"){
+    //click
+    global.current_scoreboard = 0
+    scoreboard_opened = -4
+}
+var _active = global.current_scoreboard = 0
+draw_set_color((mouse_over or _active)?c_white:c_silver)
+draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
+
+
+xx+= max(string_length(_text)*8,64)
+var _text = "-daily-#modded"
+mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
+
+if mouse_over and button_pressed(0,"fire"){
+    //click
+    global.current_scoreboard = 1
+    scoreboard_opened = -4
+}
+var _active = global.current_scoreboard = 1
+draw_set_color((mouse_over or _active)?c_white:c_silver)
+draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
+var _text = "-daily-"   //jank to reset spacing without slicing the string
+
+
+xx+= max(string_length(_text)*8,64)
+var _text = "-weekly-#modded"
+var _active = global.current_scoreboard = 2
+mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
+
+if mouse_over and button_pressed(0,"fire"){
+    //click
+    global.current_scoreboard = 2
+    scoreboard_opened = -4
+}
+var _active = global.current_scoreboard = 2
+draw_set_color((mouse_over or _active)?c_white:c_silver)
+draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
+
+
+draw_set_halign(0)
+draw_set_valign(1)
+draw_set_color(c_white)	
+   
+//scoreboard scroll buttons
+var xx = 16 -game_width +(game_width*menu_anim);
+var yy = 36;
+var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
+
+if mouse_over and button_check(0,"fire"){
+    //click
+    scoreboard_pos[global.current_scoreboard] -=1
+}
+draw_set_color((mouse_over)?c_white:c_silver)
+var _render = (scoreboard_pos[global.current_scoreboard] != 0)
+draw_sprite_ext(sprLoadoutArrow,0,xx,yy-mouse_over,1,1,0,_render? ((mouse_over)?c_white:c_silver):c_dkgray,1)
+
+yy= game_height-44
+var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
+
+if mouse_over and button_check(0,"fire"){
+    //click
+    scoreboard_pos[global.current_scoreboard] +=1
+}
+var _render = (scoreboard_pos[global.current_scoreboard] != array_length(global.scoreboard[global.current_scoreboard])-scoreboard_number_of_rows)
+draw_sprite_ext(sprLoadoutArrow,1,xx,yy-mouse_over,1,1,0,_render? ((mouse_over)?c_white:c_silver):c_dkgray,1)
+
+
+scoreboard_pos[global.current_scoreboard] = clamp(scoreboard_pos[global.current_scoreboard],0,array_length(global.scoreboard[global.current_scoreboard])-scoreboard_number_of_rows )
+
+//if scoreboard_opened>(scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows) or scoreboard_opened<scoreboard_pos[global.current_scoreboard]
+//    scoreboard_opened = -4
+   
+}
    
 
 #define menu_draw(_y)
-if !instance_exists(Campfire) exit;
 
 
 with Menu{
@@ -972,6 +1136,161 @@ with Menu{
 instance_delete(id);
 
 
+#define step
+
+//stacking character select icons
+if GameCont.timer = 0
+with Loadout{
+	//for(var i=0;i<maxp;i++){
+    //	if player_is_local_nonsync(i){
+    //		if button_pressed(i,"spec") {
+    //			with Loadout{
+    //				selected = 0
+    //				with LoadoutCrown instance_destroy()
+    //				with LoadoutWep instance_destroy()
+    //				with LoadoutSkin instance_destroy()
+    //				with LoadoutSelect instance_destroy()
+    //			}
+    //		}
+    //	}
+    //}
+	
+	//there is a fake tv drawn over the tv object, confirmed fixed in 9945
+	//with TV{
+	//	image_alpha = 0;
+	//	mask_index = mskNone;
+	//}
+
+	//modded ones get a num
+    with instances_matching(CharSelect,"num",null)
+        num = array_length(instances_matching_lt(CharSelect,"id",id));
+    
+	var lowestystart = noone;
+	with instances_matching(CharSelect,"num",0)
+		lowestystart = self;
+    
+    	
+    var spacing = max(32-min(fitchar,instance_number(CharSelect)-(1*instance_number(CharSelect) = 13)),17);
+    with instances_matching(CharSelect,"visible",0)
+    	ystart = game_height*2;
+	with instances_matching(CharSelect,"visible",1){
+		
+        num = array_length(instances_matching_lt(CharSelect,"id",id));
+		
+    	xstart = (8)+(	((num-(1*(num>fitchar))) mod (fitchar-(1*(num>fitchar))))+(1*(num>=fitchar))	)*spacing;
+		ystart = (game_height-30) - (25)*( floor((num-(1*(num>fitchar)))/(fitchar-(1*(num>fitchar)))	))*global.stack
+					*min(1-(menu_anim*0.8),(1-((Loadout.openanim/5)*Loadout.selected)));
+		
+		//ystart = (game_height-30) - 25*( floor((num-(1*(num>fitchar)))/(fitchar-(1*(num>fitchar)))	));
+		if ystart<lowestystart.ystart
+			lowestystart = self;
+		depth = -1100+(game_height-ystart)/5;
+		
+	}
+	
+    var maxnum = instance_number(CharSelect)
+	if global.stack = -1{
+		if maxnum>fitchar
+		with instances_matching(CharSelect,"visible",1){
+			ystart -= (25-(12.5*(num=0)))*( floor((maxnum)/(fitchar)))*min(1-(menu_anim*0.8),(1-((Loadout.openanim/5)*Loadout.selected)));
+			if ystart<lowestystart.ystart
+				lowestystart = self;
+			depth = -1100+(game_height-ystart)/5;;
+		}
+	}
+	else with instances_matching(CharSelect,"num",0)
+		ystart -= (25-(12.5*(num=0)))*( floor((maxnum-1)/(fitchar)))*min(1-(menu_anim*0.8),(1-((Loadout.openanim/5)*Loadout.selected)));
+    
+    //redraw the menu
+    //with lowestystart{
+    //	if num > 0
+    //	with Menu visible = 0;
+    //	script_bind_draw(menu_draw,-1000,ystart);
+    //}
+    
+
+
+	if !global.ntte{
+	//script_bind_begin_step(begin_step,0);
+	//-1099929800824324160 = the last depth that draws above all
+	
+		//ntte and having 2+ rows of skins crashes. my guess is ntte setting xstart every frame to account for the extra crowns, causing a infinite loop with this
+		if selected {
+		    
+		    //loop through each column moving them to the next if they go below line
+		    while array_length( instances_matching_lt(LoadoutSkin,"ystart",topheight) ) != 0
+		        for(var i = game_width-134;i>0;i-=32){
+		        if array_length( instances_matching_lt(instances_matching(LoadoutSkin,"xstart",i),"ystart",topheight) )!=0
+		            with instances_matching(LoadoutSkin,"xstart",i){
+		                if ystart>botheight{
+		                    xstart -= 32;
+		                    ystart -= (fitskins*28)+1;
+		                }else
+		                    ystart++;
+		            }
+		        }
+		    //draw custom backsplat if needed
+		    if array_length( instances_matching_lt(LoadoutSkin,"xstart",game_width-134) ) != 0{
+		        var splashwidth = game_width-134;
+		        for(var i = game_width-134;i>0;i-=32)
+		            with instances_matching(LoadoutSkin,"xstart",i){
+		                splashwidth = i;
+		                //trace(xstart)
+		                continue;
+		            }
+		        script_bind_draw(draw_splat,-1002,(game_width-134)-splashwidth-12)
+		    }
+		    else
+		    if !instance_exists(LoadoutSkin){
+		    	script_bind_draw(draw_splat,-1002,-50);
+		    } 
+		} 
+	}	
+}
+//drawing bg splat for skin icons
+#define draw_splat(_w)
+    with Loadout{
+        //
+        visible = 0;
+        if openanim = 0 or "stretch" not in self stretch = 0;
+        openanim = min(openanim+1,4);
+        stretch = min(stretch+24-24*(stretch/_w),_w);
+        var o = game_width/4;
+        var w = -stretch;
+        draw_sprite_stretched(sprLoadoutOpen,min(openanim,4),view_xview_nonsync+64+o,view_yview_nonsync+game_height/6.9,game_width-64,game_height-(game_height/3.4));
+        draw_sprite_stretched(sprLoadoutOpen,min(openanim,4),view_xview_nonsync+64+w,view_yview_nonsync+game_height/6.9,game_width-64+stretch/3,game_height-(game_height/3.4));
+    
+        if fork(){
+            wait 1;
+            if !instance_exists(self) exit;
+            visible = 1;
+            exit;
+        }
+    }    
+instance_delete(id);
+
+#define begin_step
+script_bind_end_step(begin_hide	,	10000);
+script_bind_draw(end_unhide		,	-10010);
+
+
+
+
+instance_delete(id);
+	
+#define begin_hide
+draw_set_blend_mode(bm_normal) ;
+draw_set_fog(0,c_black,1,1);
+instance_delete(id);
+
+#define end_unhide
+if global.hidenumber>0{
+	draw_set_fog(1,c_black,1,1);
+	draw_set_blend_mode(bm_add);
+	
+}
+draw_set_alpha(0);
+instance_delete(id);
 #define array_shuffle(list)
 var _list = list;
 for (var i = 0; i < array_length(_list); i++) 
@@ -1002,14 +1321,13 @@ if !is_string(skin){
     if !is_string(race)
         sprt = [sprMapIcon,(race*2)+(skin)-2]
     else
-		sprt[1] = skin
+    sprt[1] = skin
 }else if mod_exists("skin",skin){
     sprt[0] = mod_script_call("skin",skin,"skin_mapicon")
     sprt[1] = 0
 }
 
 return sprt;
-
 #define get_charsprite(race)
 if(race_get_id(race) <= 16){
 	race = race_get_id(race)
@@ -1124,3 +1442,5 @@ sprite_restore(sprBigPortrait);
     
 surface_destroy(global.menu_surf1);
 surface_destroy(global.menu_surf2);
+surface_free(global.menu_surf1)
+surface_free(global.menu_surf2)
