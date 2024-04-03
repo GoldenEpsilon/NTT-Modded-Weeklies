@@ -38,6 +38,8 @@ global.currentDate = "";
 global.currentWeek = "";
 wait(3);
 while(!mod_sideload()){wait 1;}
+global.forks = 0;
+checkForUpdates("ModdedWeeklies", "GoldenEpsilon/NTT-Modded-Weeklies")
 global.qualified = true;
 current_time_scale = 1/(room_speed/30);
 if(global.qualified == true && !instance_exists(CharSelect)){
@@ -745,7 +747,7 @@ switch(str){
 }
 return retVal;
 
-#define checkForUpdates()
+#define checkForUpdates(_name, _repo)
 //loading the previous version file. 
 //The version file is a list of commits github provides, this mod just checks the sha
 file_load(_name+"version.json");
@@ -768,7 +770,7 @@ var newjson = json_decode(string_load(_name+"version.json"));
 wait file_unload(_name+"version.json");
 while(global.forks > 0){wait(1);}
 if(oldjson == false){
-	updateFiles("ModdedWeeklies", );
+	updateFiles(_name, _repo);
 }
 
 #define updateFiles(_name, _repo)
