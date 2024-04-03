@@ -72,6 +72,12 @@ while (!file_loaded("current.json")) {wait 1;}
 var dl = {};
 if(array_length(string_split(string_load("current.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
 	dl = json_decode(string_load("current.json"));
+	if dl == json_error {
+		trace("INVALID DAILY: " + global.currentDate);
+		trace("Please let the NT discord know.");
+		global.qualified = false;
+		exit;
+	}
 }
 file_unload("current.json");
 global.data = dl;
