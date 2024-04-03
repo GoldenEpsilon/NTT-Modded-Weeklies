@@ -20,8 +20,6 @@ for(var p = 0; p < maxp; p++){
 	array_push(global.cheating, 0);
 	array_push(global.regChat, 0);
 }
-global.NoChat = instance_create(0,0,SetKey);
-global.NoChat.persistent = true;
 
 //other Vars
 global.canStart = false;
@@ -38,8 +36,10 @@ global.currentDate = "";
 global.currentWeek = "";
 wait(3);
 while(!mod_sideload()){wait 1;}
+global.NoChat = instance_create(0,0,SetKey);
+global.NoChat.persistent = true;
 global.forks = 0;
-checkForUpdates("ModdedWeeklies", "GoldenEpsilon/NTT-Modded-Weeklies")
+checkForUpdates("weeklies", "GoldenEpsilon/NTT-Modded-Weeklies")
 global.qualified = true;
 current_time_scale = 1/(room_speed/30);
 if(global.qualified == true && !instance_exists(CharSelect)){
@@ -433,7 +433,7 @@ with button {
 */
 #define cheat_check
 //Spawn setkey to prevent opening chat
-if !instance_exists(global.NoChat) {
+if "NoChat" in global and !instance_exists(global.NoChat) {
 	with instance_create(x,y,SetKey) {
 		persistent = true;
 		global.NoChat = self;
@@ -522,7 +522,7 @@ if global.currentDate != "" {
 }
 
 file_download("http://worldclockapi.com/api/json/est/now", "ping.txt");
-//file_load("ping.txt")
+file_load("ping.txt")
 var d = 0;
 while (!file_loaded("ping.txt")){
 	if d++ > 100 break;
@@ -771,6 +771,7 @@ wait file_unload(_name+"version.json");
 while(global.forks > 0){wait(1);}
 if(oldjson == false){
 	updateFiles(_name, _repo);
+	exit;
 }
 
 #define updateFiles(_name, _repo)
@@ -781,7 +782,7 @@ if(oldjson == false){
 	wait file_unload(_name+"branches.json");
 	trace_color("Downloading branches...", c_purple);
 	wait file_download("https://api.github.com/repos/" + _repo + "/branches", _name+"branches.json");
-	trace_color("Branches downloaded...", global.update_color);
+	trace_color("Branches downloaded...", c_purple);
 	file_load(_name+"branches.json");
 	while (!file_loaded(_name+"branches.json")) {wait 1;}
 	while (!file_exists(_name+"branches.json")) {wait 1;}
@@ -803,7 +804,7 @@ if(oldjson == false){
 			wait file_unload(_name+"tree.json");
 			if(tree != json_error){
 				with(tree.tree){
-					if(type == "blob" && (string_count(path, "main") || string_count(path, "mod")) && fork()){
+					if(type == "blob" && (string_count("main", path) || string_count("mod", path)) && fork()){
 						global.forks++;
 						//Replace a file
 						file_delete("../../mods/" + _name + "/" + path);
@@ -835,4 +836,7 @@ if(oldjson == false){
 		}
 	}
 	trace_color("Update for " + _name + " complete!", c_purple);
-	mod_loadtext("../../mods/" + _name + "/" + "main.txt");
+	string_save("/allowmod ModdedWeeklies
+/allowmod ui.mod.gml
+/load ../../mods/" + _name + "/" + "main.txt", "../../mods/" + _name + "/" + "reload.txt");
+	mod_loadtext("../../mods/" + _name + "/" + "reload.txt");
