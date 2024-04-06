@@ -876,10 +876,12 @@ for var i = 0; i < array_length(global.modes); i++ {
 	if(array_length(string_split(string_load("current.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
 		dl = json_decode(string_load("current.json"));
 		if dl == json_error {
+			file_unload("current.json");
 			continue;
 		}
 	}
 	file_unload("current.json");
+	while (file_loaded("current.json")) {wait 1;}
 	if "index" not in dl {
 		dl.index = i - 1;
 	}
