@@ -1,3 +1,4 @@
+#define init
 //Todo:
 /*
 -> load data for the weekly from a json file or something
@@ -11,7 +12,7 @@
 -> leaderboards
 */
 
-#define init
+
 
 global.modes = [
 	{
@@ -413,7 +414,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 #define draw_pause
 //remove restart buttons
 if instance_exists(button) with button {
-	if /*num == 1 ||*/ num == 0 {
+	if num == 1/* || num == 0*/ {
 		instance_delete(self);
 	}
 }
@@ -851,18 +852,22 @@ if(oldjson == false){
 	}
 	trace_color("Update for " + _name + " complete!", c_purple);
 	string_save("/allowmod ModdedWeeklies\n/allowmod ui.mod.gml\n/load ../../mods/" + _name + "/" + "main.txt", "../../mods/" + _name + "/" + "reload.txt");
+	wait file_load("../../mods/" + _name + "/" + "reload.txt");
+	while !file_exists("../../mods/" + _name + "/" + "reload.txt") wait(0)
 	mod_loadtext("../../mods/" + _name + "/" + "reload.txt");
 
 #define loadModes()
-
 global.headers = ds_map_create();
 ds_map_set(global.headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
 ds_map_set(global.headers, "cache-control", "no-cache");	
 ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
-for var i = 0; i < global.modes; i++ {
+
+global.data = [];
+
+for var i = 0; i < array_length(global.modes); i++ {
 	file_delete("current.json");
 	while (file_exists("current.json")) {wait 1;}
-	http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/data.json`
+	http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[i].folder + `/` + global.currentDate + `/data.json`
 	, "GET", global.headers,
 	``
 	, "current.json");
@@ -876,10 +881,10 @@ for var i = 0; i < global.modes; i++ {
 	}
 	file_unload("current.json");
 	if "index" not in dl {
-		dl.index = global.currentMode - 1;
+		dl.index = i - 1;
 	}
 	if "modeName" not in dl {
-		dl.modeName = global.modes[global.currentMode].name;
+		dl.modeName = global.modes[i].name;
 	}
 	array_push(global.data, dl);
 }
