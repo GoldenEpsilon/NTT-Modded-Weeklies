@@ -29,7 +29,8 @@ global.modes = [
 	},
 	{
 		name: "Modded Weekly",
-		folder: "Weeklies"
+		folder: "Weeklies",
+		weekly: true
 	},
 	{
 		name: "Extra",
@@ -194,8 +195,8 @@ with get_current_data().mods {
 	array_push(modtext, self.name)
 }
 
-trace("Current Weekly:");
-trace("Mods : " + array_join(modtext, ", "));
+trace("Current " + get_current_data().name + ":");
+if array_length(modtext) trace("Mods : " + array_join(modtext, ", "));
 trace("Seed : " + string(get_current_data().seed));
 
 if(global.qualified == true && !instance_exists(CharSelect)){
@@ -207,15 +208,19 @@ if(global.qualified == true && !instance_exists(CharSelect)){
 		instance_destroy();
 		global.qualified = false;
 	}
-	trace("Disqualified for uploading results. reload the Weekly mod from the character select screen to qualify again.");
+	trace("Disqualified for uploading results. reload the weeklies mod from the character select screen to qualify again.");
 }
 
 global.canStart = true;
 
 #define game_start
 if(!global.active){return;}
-room_speed = 30;
-current_time_scale = 1;
+if(fork()) {
+	getCurrentDate();
+}
+//room_speed = 30;
+//current_time_scale = 1;
+current_time_scale = 1/(room_speed/30);
 global.finished = false;
 game_set_seed(get_current_data().seed);
 random_set_seed(get_current_data().seed);
@@ -280,7 +285,7 @@ if(global.qualified == true && global.canStart && global.ModNames != ""){
 		ModNames += mod_get_names("skin")[i]
 	}
 	if(ModNames != global.ModNames){
-		trace("Disqualified for uploading results. reload the weekly mod from the character select screen to qualify again. Reason: Incorrect mod list");
+		trace("Disqualified for uploading results. reload the weeklies mod from the character select screen to qualify again. Reason: Incorrect mod list");
 		global.qualified = false;
 	}
 }
@@ -302,7 +307,6 @@ if instance_exists(GameOverButton) with GameOverButton {
 }
 
 if(!global.finished && !instance_exists(Player) && global.start){
-	getCurrentDate();
 	var score = "";
 	with(GameCont){
 		var modtext = [];
@@ -414,8 +418,8 @@ if(!global.finished && !instance_exists(Player) && global.start){
 #define draw_pause
 //remove restart buttons
 if instance_exists(button) with button {
-	if num == 1/* || num == 0*/ {
-		instance_delete(self);
+	if num == 1 || num == 0 {
+		//instance_delete(self);
 	}
 }
 
@@ -460,10 +464,12 @@ if(global.qualified){
 #define draw_gui
 if(!global.active){return;}
 draw_set_font(fntSmall);
-if(global.qualified == true){
-	draw_text_nt(game_width - 25, game_height - 6, "Weekly");
-}else{
-	draw_text_nt(game_width - 7*4 - 25, game_height - 12, "DISQUALIFIED#       Weekly");
+if(instance_exists(Player)) {
+	if(global.qualified == true){
+		draw_text_nt(game_width - 25, game_height - 6 - 25, get_current_data().name);
+	}else{
+		draw_text_nt(game_width - 7*4 - 25, game_height - 12 - 25, "DISQUALIFIED#       " + get_current_data().name);
+	}
 }
 
 #define draw_gui_end
@@ -763,6 +769,7 @@ switch(str){
 return retVal;
 
 #define checkForUpdates(_name, _repo)
+trace("Checking for updates...");
 //loading the previous version file. 
 //The version file is a list of commits github provides, this mod just checks the sha
 file_load(_name+"version.json");
@@ -777,16 +784,18 @@ if(file_exists(_name+"version.json")){
 file_delete(_name+"version.json");
 while (file_exists(_name+"version.json")) {wait 1;}
 wait file_unload(_name+"version.json");
+trace("Downloading versions file");
 wait file_download("https://api.github.com/repos/" + _repo + "/commits", _name+"version.json");
 file_load(_name+"version.json");
 while (!file_loaded(_name+"version.json")) {wait 1;}
 while (!file_exists(_name+"version.json")) {wait 1;}
+trace("Downloaded versions file");
 var newjson = json_decode(string_load(_name+"version.json"));
 wait file_unload(_name+"version.json");
-while(global.forks > 0){wait(1);}
-if(oldjson == false){
+if(oldjson == false || oldjson == json_error || oldjson != newjson){
 	updateFiles(_name, _repo);
-	exit;
+}else{
+	trace("Update not needed!");
 }
 
 #define updateFiles(_name, _repo)
@@ -865,23 +874,25 @@ ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
 global.data = [];
 
 for var i = 0; i < array_length(global.modes); i++ {
-	file_delete("current.json");
-	while (file_exists("current.json")) {wait 1;}
+	file_delete("current"+global.modes[i].name+".json");
+	while (file_exists("current"+global.modes[i].name+".json")) {wait 1;}
+	trace(global.modes[i].folder)
 	http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[i].folder + `/` + global.currentDate + `/data.json`
 	, "GET", global.headers,
 	``
-	, "current.json");
-	while (!file_loaded("current.json")) {wait 1;}
+	, "current"+global.modes[i].name+".json");
+	while (!file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
+	trace(string_load("current"+global.modes[i].name+".json"))
 	var dl = {};
-	if(array_length(string_split(string_load("current.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
-		dl = json_decode(string_load("current.json"));
+	if(array_length(string_split(string_load("current"+global.modes[i].name+".json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
+		dl = json_decode(string_load("current"+global.modes[i].name+".json"));
 		if dl == json_error {
-			file_unload("current.json");
+			file_unload("current"+global.modes[i].name+".json");
 			continue;
 		}
 	}
-	file_unload("current.json");
-	while (file_loaded("current.json")) {wait 1;}
+	file_unload("current"+global.modes[i].name+".json");
+	while (file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
 	if "index" not in dl {
 		dl.index = i - 1;
 	}

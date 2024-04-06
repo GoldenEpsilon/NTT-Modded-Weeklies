@@ -22,6 +22,7 @@ for(var i = 0; i < array_length(modedata); i++) {
 		xstart = x
 		ystart = y
 		if fork(){
+		wait(0)
 		while instance_exists(self){
 			var hover = 0;
 			
@@ -81,6 +82,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_swap_button"))<1{
         xstart = x
         ystart = y
         if fork(){
+		wait(0)
         while instance_exists(self){
             var hover = 0;
             
