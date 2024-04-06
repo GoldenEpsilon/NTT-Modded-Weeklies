@@ -1,0 +1,40 @@
+{
+	"name": "Testing Bed",
+	"description": false,
+	"can_resubmit": false,
+	"disable_vaults": false,
+	"starting_crown": true,
+	"starting_weapon": true,
+	"race_list": true,
+	"seed": 5329,
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Feels Like Vanilla",
+			"description": false,
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "itch",
+			"name": "Detonator",
+			"description": false,
+			"url": "https://yokin.itch.io/detonator"
+		},
+		{
+			"download_type": "itch",
+			"name": "The Undergrowth",
+			"description": false,
+			"url": "https://attfooy.itch.io/undergrowth"
+		},
+		{
+			"download_type": "itch",
+			"name": "Blaacskills",
+			"description": false,
+			"url": "https://blaac.itch.io/weapon-mutations"
+		},
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crwn": false,
+}
