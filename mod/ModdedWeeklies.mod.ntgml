@@ -5,13 +5,39 @@
 -> run /cwep, /pwep, and /bwep to make sure people aren't cheating/set starter weapon
 -> set starting crown
 -> create UI for seeing weekly description
--> play button
+-> play buttonmodded
 -> score submission
 -> make score submission include base64 versions of sprites if the sprites are modded, so that they can be displayed
 -> leaderboards
 */
 
 #define init
+
+global.modes = [
+	{
+		name: "Invalid",
+		folder: "Invalid"
+	},
+	{
+		name: "Vanilla Daily",
+		folder: "VDailies"
+	},
+	{
+		name: "Modded Daily",
+		folder: "Dailies"
+	},
+	{
+		name: "Modded Weekly",
+		folder: "Weeklies"
+	},
+	{
+		name: "Extra",
+		folder: "Extras"
+	}
+]
+global.currentMode = 0;
+global.modeType = "";
+
 //Chat anticheat vars
 global.active = true;
 global.cheating = [];
@@ -30,10 +56,11 @@ global.endData = {
 };
 global.start = false;
 global.finished = false;
-global.leaderboard = {scores: []}
-global.data = {}
+global.leaderboard = [[], [], []]
+global.data = []
 global.currentDate = "";
 global.currentWeek = "";
+
 wait(3);
 while(!mod_sideload()){wait 1;}
 global.NoChat = instance_create(0,0,SetKey);
@@ -58,61 +85,53 @@ getCurrentDate();
 
 loadLeaderboards();
 
-global.headers = ds_map_create();
-ds_map_set(global.headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
-ds_map_set(global.headers, "cache-control", "no-cache");	
-ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
-file_delete("current.json");
-while (file_exists("current.json")) {wait 1;}
-http_request('https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/Dailies/' + global.currentDate + '/data.json'
-, "GET", global.headers,
-''
-, "current.json");
-while (!file_loaded("current.json")) {wait 1;}
-var dl = {};
-if(array_length(string_split(string_load("current.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
-	dl = json_decode(string_load("current.json"));
-	if dl == json_error {
-		trace("INVALID DAILY: " + global.currentDate);
-		trace("Please let the NT discord know.");
-		global.qualified = false;
-		exit;
-	}
+loadModes();
+
+mod_script_call("mod", "selectui", "modeSelectionButtons");
+
+while(global.currentMode == 0){
+	wait(1);
 }
-file_unload("current.json");
-global.data = dl;
 
 var i = 0;
-for(i = 0; array_length(mod_get_names("mod")) > i + 1; i=i){
-	if(mod_get_names("mod")[i] != mod_current && 
-	mod_get_names("mod")[i] != "GCFix" && 
-	mod_get_names("mod")[i] != "areadisplay" && 
-	mod_get_names("mod")[i] != "ui"){
+for(i = 0; i < array_length(mod_get_names("mod")); i=i){
+	var modname = mod_get_names("mod")[i];
+	if(modname != mod_current && 
+		modname != "GCFix" && 
+		modname != "areadisplay" && 
+		modname != "selectui" && 
+		modname != "ui"){
 		mod_unload(mod_get_names("mod")[i]);
 	} else {
 		i++;
 	}
 }
-for(i = 0; array_length(mod_get_names("weapon")) > 0; i=i){
-	mod_unload(mod_get_names("weapon")[i]);
+var weapon_mods = mod_get_names("weapon");
+for(i = 0; i < array_length(weapon_mods); i++){
+	mod_unload(weapon_mods[i]);
 }
-for(i = 0; array_length(mod_get_names("area")) > 0; i=i){
-	mod_unload(mod_get_names("area")[i]);
+var areamods = mod_get_names("area")
+for(i = 0; i < array_length(areamods); i++){
+	mod_unload(areamods[i]);
 }
-for(i = 0; array_length(mod_get_names("crown")) > 0; i=i){
-	mod_unload(mod_get_names("crown")[i]);
+var crownmods = mod_get_names("crown")
+for(i = 0; i < array_length(crownmods); i++){
+	mod_unload(crownmods[i]);
 }
-for(i = 0; array_length(mod_get_names("race")) > 0; i=i){
-	mod_unload(mod_get_names("race")[i]);
+var racemods = mod_get_names("race")
+for(i = 0; i < array_length(racemods); i++){
+	mod_unload(racemods[i]);
 }
-for(i = 0; array_length(mod_get_names("skill")) > 0; i=i){
-	mod_unload(mod_get_names("skill")[i]);
+var skillmods = mod_get_names("skill")
+for(i = 0; i < array_length(skillmods); i++){
+	mod_unload(skillmods[i]);
 }
-for(i = 0; array_length(mod_get_names("skin")) > 0; i=i){
-	mod_unload(mod_get_names("skin")[i]);
+var skinmods = mod_get_names("skin")
+for(i = 0; i < array_length(skinmods); i++){
+	mod_unload(skinmods[i]);
 }
 
-with global.data.mods {
+with get_current_data().mods {
 	switch self.download_type {
 		case "itch":
 			var api_key = "mD4JDfwnLXlsxPChbvGnttoOqHSNiYBmjTD1H2ya";
@@ -130,45 +149,14 @@ with global.data.mods {
 			while (!file_exists(self.name + " data.json")) {wait 1;}
 			var out = json_decode(string_load(self.name + " data.json"));
 			if("uploads" in out){
-				with(out.uploads[0]){
-					//check to see if it's just a .gml before unzipping
-					if(string_length(filename) == 0){
-						trace("ERROR: file is not held on itch.io servers, this downloader does not support external files.");
-						return;
-					}
-					switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
-						case ".gml":
-							file_download("https://api.itch.io/uploads/" + string(id) + "/download?api_key=" + api_key, "../../mods/WeeklyMods/" + filename);
-							break;
-						default:
-							file_download("https://api.itch.io/uploads/" + string(id) + "/download?api_key=" + api_key, filename);
-							file_delete("../../mods/WeeklyMods/" + other.name);
-							while (file_exists("../../mods/WeeklyMods/" + other.name)) {wait 1;}
-							zip_unzip(filename, "../../mods/WeeklyMods/" + other.name);
-					}
-					wait file_load("../../mods/WeeklyMods/" + other.name + "/main.txt");
-					if !file_exists("../../mods/WeeklyMods/" + other.name + "/main.txt") {
-						var subfiles = [];
-						wait file_find_all("../../mods/WeeklyMods/" + other.name, subfiles);
-						var maintxt = "";
-						with(subfiles){
-							if(self.ext == ""){
-								maintxt += "/load " + self.name + chr(10)
-							}else if(self.ext == ".txt" && self.name != "main.txt"){
-								maintxt += "/load " + self.name + chr(10)
-							}else if(self.ext == ".gml"){
-								maintxt += "/loadmod " + self.name + chr(10)
-							}
-						}
-						string_save(maintxt, "../../mods/WeeklyMods/" + other.name + "/main.txt")
-					}
-					trace(other.name + " Downloaded!");
-					mod_loadtext("../../mods/WeeklyMods/" + other.name + "/main.txt");
-				}
+				download_and_load(self.name, "https://api.itch.io/uploads/" + string(id) + "/download?api_key=" + api_key, out.uploads[0]);
 			}else{
 				trace("ERROR: incorrect response. Recieved response was:");
 				trace(out);
 			}
+			break;
+		case "direct":
+			download_and_load(self.name, self.url, self.filename);
 			break;
 	}
 }
@@ -201,13 +189,13 @@ for(i = 0; array_length(mod_get_names("skin")) > i; i++){
 }
 
 var modtext = [];
-with global.data.mods {
+with get_current_data().mods {
 	array_push(modtext, self.name)
 }
 
 trace("Current Weekly:");
 trace("Mods : " + array_join(modtext, ", "));
-trace("Seed : " + string(global.data.seed));
+trace("Seed : " + string(get_current_data().seed));
 
 if(global.qualified == true && !instance_exists(CharSelect)){
 	with(Player){
@@ -228,8 +216,8 @@ if(!global.active){return;}
 room_speed = 30;
 current_time_scale = 1;
 global.finished = false;
-game_set_seed(global.data.seed);
-random_set_seed(global.data.seed);
+game_set_seed(get_current_data().seed);
+random_set_seed(get_current_data().seed);
 global.start = true;
 
 global.endData.alias = "";
@@ -317,10 +305,10 @@ if(!global.finished && !instance_exists(Player) && global.start){
 	var score = "";
 	with(GameCont){
 		var modtext = [];
-		with global.data.mods {
+		with get_current_data().mods {
 			array_push(modtext, self.name)
 		}
-		score = global.endData.alias + ": Area " + string(area) + "-" + string(subarea) + " L" + string(loops) + " Kills: " + string(kills) + " Character: " + race_get_name(global.endData.data[0].race) + " Mods:" + array_join(modtext, ", ") + " Seed:" + string(global.data.seed);
+		score = global.endData.alias + ": Area " + string(area) + "-" + string(subarea) + " L" + string(loops) + " Kills: " + string(kills) + " Character: " + race_get_name(global.endData.data[0].race) + " Mods:" + array_join(modtext, ", ") + " Seed:" + string(get_current_data().seed);
 	}
 	trace(score);
 	global.finished = true;
@@ -359,28 +347,28 @@ if(!global.finished && !instance_exists(Player) && global.start){
 		ds_map_set(headers, "Accept", "application/vnd.github.full+json");	
 		file_delete("dl.txt");
 		while (file_exists("dl.txt")) {wait 1;}
-		http_request('https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/Dailies/' + global.currentDate + '/leaderboard.json'
+		http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/leaderboard.json`
 		, "GET", headers,
-		''
+		``
 		, "dl.txt");
 		while (!file_loaded("dl.txt")) {wait 1;}
 		var dl = "404";
 		var leaderboard = "";
-		if(string_count('"message":"Not Found"', string_load("dl.txt")) >= 1 || string_count('Bad Credentials', string_load("dl.txt")) >= 1){
+		if(string_count(`"message":"Not Found"`, string_load("dl.txt")) >= 1 || string_count(`Bad Credentials`, string_load("dl.txt")) >= 1){
 			leaderboard = dl;
 		}else{
-			dl = string_split(string_split(string_load("dl.txt"), '","encoding":"base64"')[0],'"content":"')[1];
-			dl = string_replace_all(dl, "\" + "n", "");
+			dl = string_split(string_split(string_load("dl.txt"), `","encoding":"base64"`)[0],`"content":"`)[1];
+			dl = string_replace_all(dl, "\\n", "");
 			leaderboard = base64Decode(dl);
 		}
 		file_unload("dl.txt");
 		if(string_copy(leaderboard, 0, 3) == "404" || json_decode(leaderboard) == json_error){
-			http_request('https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/Dailies/' + global.currentDate + '/leaderboard.json'
+			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/leaderboard.json`
 			, "PUT", headers,
-			'{
-			"message":"Leaderboard Update (New leaderboard!) (' + DataSubmission.name + ')",
-			"content":"'+base64(json_encode({scores: [DataSubmission]}))+'"
-			}'
+			`{
+			"message":"Leaderboard Update (New leaderboard!) (` + DataSubmission.name + `)",
+			"content":"`+base64(json_encode({scores: [DataSubmission]}))+`"
+			}`
 			, "out.txt");
 		}else{
 			leaderboard = json_decode(leaderboard);
@@ -392,24 +380,24 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				}
 			}
 			array_push(leaderboard.scores, DataSubmission);
-			if(!global.data.can_resubmit || !fail){
+			if(!get_current_data().can_resubmit || !fail){
 				file_delete("sha.txt");
 				while (file_exists("sha.txt")) {wait 1;}
-				http_request('https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/Dailies/' + global.currentDate + '/leaderboard.json'
+				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/leaderboard.json`
 				, "GET", headers,
-				''
+				``
 				, "sha.txt");
 				while (!file_loaded("sha.txt")) {wait 1;}
 				wait file_load("sha.txt");
-				sha = string_split(string_split(string_load("sha.txt"), '"sha":"')[1], '"')[0];
+				sha = string_split(string_split(string_load("sha.txt"), `"sha":"`)[1], `"`)[0];
 				file_unload("sha.txt");
-				http_request('https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/Dailies/' + global.currentDate + '/leaderboard.json'
+				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/leaderboard.json`
 				, "PUT", headers,
-				'{
-				"message":"Leaderboard Update (' + DataSubmission.name + ')",
-				"content":"'+base64(json_encode(leaderboard))+'",
-				"sha":"'+sha+'"
-				}'
+				`{
+				"message":"Leaderboard Update (` + DataSubmission.name + `)",
+				"content":"`+base64(json_encode(leaderboard))+`",
+				"sha":"`+sha+`"
+				}`
 				, "out.txt");
 			}else{
 				trace("You've already played this Daily!");
@@ -425,7 +413,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 #define draw_pause
 //remove restart buttons
 if instance_exists(button) with button {
-	if num == 1 || num == 0 {
+	if /*num == 1 ||*/ num == 0 {
 		instance_delete(self);
 	}
 }
@@ -496,28 +484,48 @@ global.regChat[_player] = 1;
 
 #define loadLeaderboards()
 if(fork()){
-	global.headers = ds_map_create();
-	ds_map_set(global.headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
-	ds_map_set(global.headers, "cache-control", "no-cache");	
-	ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
-	file_delete("leaderboard.json");
-	while (file_exists("leaderboard.json")) {wait 1;}
-	http_request('https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/Dailies/' + global.currentDate + '/leaderboard.json'
-	, "GET", global.headers,
-	''
-	, "leaderboard.json");
-	while (!file_loaded("leaderboard.json")) {wait 1;}
-	var dl = {scores: []};
-	if(array_length(string_split(string_load("leaderboard.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
-		dl = json_decode(string_load("leaderboard.json"));
+	global.leaderboard = [];
+	with(global.modes){
+		if self.name == "Invalid" {continue;}
+
+		global.headers = ds_map_create();
+		ds_map_set(global.headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
+		ds_map_set(global.headers, "cache-control", "no-cache");	
+		ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
+		file_delete("leaderboard.json");
+		while (file_exists("leaderboard.json")) {wait 1;}
+		http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + self.folder + `/` + global.currentDate + `/leaderboard.json`
+		, "GET", global.headers,
+		``
+		, "leaderboard.json");
+		while (!file_loaded("leaderboard.json")) {wait 1;}
+		var dl = {scores: []};
+		var ldb = dl.scores;
+		if(array_length(string_split(string_load("leaderboard.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
+			dl = json_decode(string_load("leaderboard.json"));
+		}
+		file_unload("leaderboard.json");
+		if dl != json_error {
+			ldb = dl.scores;
+		}
+		array_push(global.leaderboard, ldb);
 	}
-	file_unload("leaderboard.json");
-	if dl != json_error {
-		global.leaderboard = dl;
-		mod_variable_set("mod", "ui", "scoreboard", global.leaderboard.scores);
-	}
+	if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
 	exit;
 }
+
+#define getScores(sortingSystem)
+	switch(sortingSystem){
+		case "Kills":
+			with(global.leaderboard){
+				native_array_sort(self, function(elm1, elm2)
+				{
+					return elm1.kills - elm2.kills;
+				});
+			}
+			break;
+	}
+	return global.leaderboard;
 
 #define getCurrentDate()
 var checkDate = false
@@ -842,7 +850,79 @@ if(oldjson == false){
 		}
 	}
 	trace_color("Update for " + _name + " complete!", c_purple);
-	string_save("/allowmod ModdedWeeklies
-/allowmod ui.mod.gml
-/load ../../mods/" + _name + "/" + "main.txt", "../../mods/" + _name + "/" + "reload.txt");
+	string_save("/allowmod ModdedWeeklies\n/allowmod ui.mod.gml\n/load ../../mods/" + _name + "/" + "main.txt", "../../mods/" + _name + "/" + "reload.txt");
 	mod_loadtext("../../mods/" + _name + "/" + "reload.txt");
+
+#define loadModes()
+
+global.headers = ds_map_create();
+ds_map_set(global.headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
+ds_map_set(global.headers, "cache-control", "no-cache");	
+ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
+for var i = 0; i < global.modes; i++ {
+	file_delete("current.json");
+	while (file_exists("current.json")) {wait 1;}
+	http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/data.json`
+	, "GET", global.headers,
+	``
+	, "current.json");
+	while (!file_loaded("current.json")) {wait 1;}
+	var dl = {};
+	if(array_length(string_split(string_load("current.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
+		dl = json_decode(string_load("current.json"));
+		if dl == json_error {
+			continue;
+		}
+	}
+	file_unload("current.json");
+	if "index" not in dl {
+		dl.index = global.currentMode - 1;
+	}
+	if "modeName" not in dl {
+		dl.modeName = global.modes[global.currentMode].name;
+	}
+	array_push(global.data, dl);
+}
+
+#define get_current_data()
+	with(global.data) {
+		if modeName == global.modes[global.currentMode].name {
+			return self
+		}
+	}
+	return {};
+
+#define download_and_load(name, url, filename)
+//check to see if it's just a .gml before unzipping
+if(string_length(filename) == 0){
+	trace("ERROR: file not found. This is aserver-side issue, hopefully we are fixing it.");
+	return;
+}
+switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
+	case ".gml":
+		file_download(, "../../mods/WeeklyMods/" + name + "/" + filename);
+		break;
+	default:
+		file_download("https://api.itch.io/uploads/" + string(id) + "/download?api_key=" + api_key, filename);
+		file_delete("../../mods/WeeklyMods/" + name);
+		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
+		zip_unzip(filename, "../../mods/WeeklyMods/" + name);
+}
+wait file_load("../../mods/WeeklyMods/" + name + "/main.txt");
+if !file_exists("../../mods/WeeklyMods/" + name + "/main.txt") {
+	var subfiles = [];
+	wait file_find_all("../../mods/WeeklyMods/" + name, subfiles);
+	var maintxt = "";
+	with(subfiles){
+		if(self.ext == ""){
+			maintxt += "/load " + self.name + chr(10)
+		}else if(self.ext == ".txt" && self.name != "main.txt"){
+			maintxt += "/load " + self.name + chr(10)
+		}else if(self.ext == ".gml"){
+			maintxt += "/loadmod " + self.name + chr(10)
+		}
+	}
+	string_save(maintxt, "../../mods/WeeklyMods/" + name + "/main.txt")
+}
+trace(name + " Downloaded!");
+mod_loadtext("../../mods/WeeklyMods/" + name + "/main.txt");
