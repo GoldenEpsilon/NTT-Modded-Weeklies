@@ -37,7 +37,7 @@ global.modes = [
 		folder: "Extras"
 	}
 ]
-global.currentMode = 0;
+global.currentMode = "";
 global.modeType = "";
 
 //Chat anticheat vars
@@ -91,7 +91,7 @@ loadModes();
 
 mod_script_call("mod", "selectui", "modeSelectionButtons");
 
-while(global.currentMode == 0){
+while(global.currentMode == ""){
 	wait(1);
 }
 
@@ -132,34 +132,35 @@ var skinmods = mod_get_names("skin")
 for(i = 0; i < array_length(skinmods); i++){
 	mod_unload(skinmods[i]);
 }
-
-with get_current_data().mods {
-	switch self.download_type {
-		case "itch":
-			var api_key = "mD4JDfwnLXlsxPChbvGnttoOqHSNiYBmjTD1H2ya";
-			file_delete("itchdata.json");
-			while (file_exists("itchdata.json")) {wait 1;}
-			file_download(self.url + "/data.json", "itchdata.json");
-			while (!file_loaded("itchdata.json")) {wait 1;}
-			while (!file_exists("itchdata.json")) {wait 1;}
-			var modid = json_decode(string_load("itchdata.json")).id;
-			
-			file_delete(self.name + " data.json");
-			while (file_exists(self.name + " data.json")) {wait 1;}
-			file_download("https://api.itch.io/games/" + string(modid) + "/uploads?api_key=" + api_key, self.name + " data.json");
-			while (!file_loaded(self.name + " data.json")) {wait 1;}
-			while (!file_exists(self.name + " data.json")) {wait 1;}
-			var out = json_decode(string_load(self.name + " data.json"));
-			if("uploads" in out){
-				download_and_load(self.name, "https://api.itch.io/uploads/" + string(id) + "/download?api_key=" + api_key, out.uploads[0]);
-			}else{
-				trace("ERROR: incorrect response. Recieved response was:");
-				trace(out);
-			}
-			break;
-		case "direct":
-			download_and_load(self.name, self.url, self.filename);
-			break;
+if "mods" in get_current_data() {
+	with get_current_data().mods {
+		switch self.download_type {
+			case "itch":
+				var api_key = "mD4JDfwnLXlsxPChbvGnttoOqHSNiYBmjTD1H2ya";
+				file_delete("itchdata.json");
+				while (file_exists("itchdata.json")) {wait 1;}
+				file_download(self.url + "/data.json", "itchdata.json");
+				while (!file_loaded("itchdata.json")) {wait 1;}
+				while (!file_exists("itchdata.json")) {wait 1;}
+				var modid = json_decode(string_load("itchdata.json")).id;
+				
+				file_delete(self.name + " data.json");
+				while (file_exists(self.name + " data.json")) {wait 1;}
+				file_download("https://api.itch.io/games/" + string(modid) + "/uploads?api_key=" + api_key, self.name + " data.json");
+				while (!file_loaded(self.name + " data.json")) {wait 1;}
+				while (!file_exists(self.name + " data.json")) {wait 1;}
+				var out = json_decode(string_load(self.name + " data.json"));
+				if("uploads" in out){
+					download_and_load(self.name, "https://api.itch.io/uploads/" + string(id) + "/download?api_key=" + api_key, out.uploads[0]);
+				}else{
+					trace("ERROR: incorrect response. Recieved response was:");
+					trace(out);
+				}
+				break;
+			case "direct":
+				download_and_load(self.name, self.url, self.filename);
+				break;
+		}
 	}
 }
 
@@ -191,8 +192,10 @@ for(i = 0; array_length(mod_get_names("skin")) > i; i++){
 }
 
 var modtext = [];
-with get_current_data().mods {
-	array_push(modtext, self.name)
+if "mods" in get_current_data() {
+	with get_current_data().mods {
+		array_push(modtext, self.name)
+	}
 }
 
 trace("Current " + get_current_data().name + ":");
@@ -214,7 +217,10 @@ if(global.qualified == true && !instance_exists(CharSelect)){
 global.canStart = true;
 
 #define game_start
-if(!global.active){return;}
+if(!global.active || global.currentMode == ""){
+	global.active = false;
+	return;
+}
 if(fork()) {
 	getCurrentDate();
 }
@@ -253,6 +259,10 @@ with(Player){
 }
 
 #define step
+if(!global.active || global.currentMode == ""){
+	global.active = false;
+	return;
+}
 cheat_check();
 
 with(ProtoChest){instance_destroy();}
@@ -310,8 +320,10 @@ if(!global.finished && !instance_exists(Player) && global.start){
 	var score = "";
 	with(GameCont){
 		var modtext = [];
-		with get_current_data().mods {
-			array_push(modtext, self.name)
+		if "mods" in get_current_data() {
+			with get_current_data().mods {
+				array_push(modtext, self.name)
+			}
 		}
 		score = global.endData.alias + ": Area " + string(area) + "-" + string(subarea) + " L" + string(loops) + " Kills: " + string(kills) + " Character: " + race_get_name(global.endData.data[0].race) + " Mods:" + array_join(modtext, ", ") + " Seed:" + string(get_current_data().seed);
 	}
@@ -352,7 +364,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 		ds_map_set(headers, "Accept", "application/vnd.github.full+json");	
 		file_delete("dl.txt");
 		while (file_exists("dl.txt")) {wait 1;}
-		http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/leaderboard.json`
+		http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_mode_data(global.currentMode).folder + `/` + global.currentDate + `/leaderboard.json`
 		, "GET", headers,
 		``
 		, "dl.txt");
@@ -368,7 +380,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 		}
 		file_unload("dl.txt");
 		if(string_copy(leaderboard, 0, 3) == "404" || json_decode(leaderboard) == json_error){
-			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/leaderboard.json`
+			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_mode_data(global.currentMode).folder + `/` + global.currentDate + `/leaderboard.json`
 			, "PUT", headers,
 			`{
 			"message":"Leaderboard Update (New leaderboard!) (` + DataSubmission.name + `)",
@@ -388,7 +400,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			if(!get_current_data().can_resubmit || !fail){
 				file_delete("sha.txt");
 				while (file_exists("sha.txt")) {wait 1;}
-				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/leaderboard.json`
+				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_mode_data(global.currentMode).folder + `/` + global.currentDate + `/leaderboard.json`
 				, "GET", headers,
 				``
 				, "sha.txt");
@@ -396,7 +408,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				wait file_load("sha.txt");
 				sha = string_split(string_split(string_load("sha.txt"), `"sha":"`)[1], `"`)[0];
 				file_unload("sha.txt");
-				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + global.modes[global.currentMode].folder + `/` + global.currentDate + `/leaderboard.json`
+				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_mode_data(global.currentMode).folder + `/` + global.currentDate + `/leaderboard.json`
 				, "PUT", headers,
 				`{
 				"message":"Leaderboard Update (` + DataSubmission.name + `)",
@@ -455,6 +467,7 @@ if(global.qualified){
 			}else{
 				trace("Player " + string(p+1) + " could have run a command, I cannot verify, this session is disqualified. Restart the session to re-qualify.");
 				global.qualified = false;
+				global.active = false;
 				global.cheating[p] = 0;
 			}
 		}
@@ -784,12 +797,10 @@ if(file_exists(_name+"version.json")){
 file_delete(_name+"version.json");
 while (file_exists(_name+"version.json")) {wait 1;}
 wait file_unload(_name+"version.json");
-trace("Downloading versions file");
 wait file_download("https://api.github.com/repos/" + _repo + "/commits", _name+"version.json");
 file_load(_name+"version.json");
 while (!file_loaded(_name+"version.json")) {wait 1;}
 while (!file_exists(_name+"version.json")) {wait 1;}
-trace("Downloaded versions file");
 var newjson = json_decode(string_load(_name+"version.json"));
 wait file_unload(_name+"version.json");
 if(oldjson == false || oldjson == json_error || oldjson != newjson){
@@ -863,7 +874,7 @@ if(oldjson == false || oldjson == json_error || oldjson != newjson){
 	string_save("/allowmod ModdedWeeklies\n/allowmod ui.mod.gml\n/load ../../mods/" + _name + "/" + "main.txt", "../../mods/" + _name + "/" + "reload.txt");
 	wait file_load("../../mods/" + _name + "/" + "reload.txt");
 	while !file_exists("../../mods/" + _name + "/" + "reload.txt") wait(0)
-	mod_loadtext("../../mods/" + _name + "/" + "reload.txt");
+	mod_loadtext(_name + "/" + "reload.txt");
 
 #define loadModes()
 global.headers = ds_map_create();
@@ -876,13 +887,12 @@ global.data = [];
 for var i = 0; i < array_length(global.modes); i++ {
 	file_delete("current"+global.modes[i].name+".json");
 	while (file_exists("current"+global.modes[i].name+".json")) {wait 1;}
-	trace(global.modes[i].folder)
 	http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[i].folder + `/` + global.currentDate + `/data.json`
 	, "GET", global.headers,
 	``
 	, "current"+global.modes[i].name+".json");
 	while (!file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
-	trace(string_load("current"+global.modes[i].name+".json"))
+	//trace(string_load("current"+global.modes[i].name+".json"))
 	var dl = {};
 	if(array_length(string_split(string_load("current"+global.modes[i].name+".json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
 		dl = json_decode(string_load("current"+global.modes[i].name+".json"));
@@ -903,8 +913,11 @@ for var i = 0; i < array_length(global.modes); i++ {
 }
 
 #define get_current_data()
+	return get_mode_data(global.currentMode);
+
+#define get_mode_data(mode)
 	with(global.data) {
-		if modeName == global.modes[global.currentMode].name {
+		if modeName == mode {
 			return self
 		}
 	}

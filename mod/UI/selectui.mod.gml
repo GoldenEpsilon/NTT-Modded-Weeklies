@@ -10,10 +10,13 @@ if(array_length(modedata) == 0) {
     trace("Are you offline?")
 }
 for(var i = 0; i < array_length(modedata); i++) {
-	with instance_create(game_width/2 - ((array_length(modedata)/2 - (i+1)) * 48),game_height/2,CustomObject){
+	with instance_create(game_width/2 - ((array_length(modedata)/2 - i) * 48),game_height/2,CustomObject){
 		name = "mod_ui_swap_button";
 		sprite_index = global.swapButtonImage;
         image_index = modedata[i].index;
+		modeName = modedata[i].modeName;
+		xscale = 3;
+		yscale = 3;
 		image_speed = 0;
 		depth = 0;
 		yoffset = 1;
@@ -32,10 +35,10 @@ for(var i = 0; i < array_length(modedata); i++) {
 			//y = ystart - 210*menu_anim - 64*_loadout
 			
 			for(var i=0;i<maxp;i++){
-				if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index)){
+				if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index)*xscale,view_yview[i]+y+sprite_get_height(sprite_index)*yscale){
 					//trace(choose(""," ","  "),"hover")
 					if button_pressed(i,"fire"){
-                        mod_variable_set("mod", "ModdedWeeklies", "currentMode", i);
+                        mod_variable_set("mod", "ModdedWeeklies", "currentMode", modeName);
 						with(instances_matching(CustomObject, "name", "mod_ui_swap_button")){
 							instance_destroy();
 						}
@@ -71,9 +74,13 @@ for(var i = 0; i < array_length(modedata); i++) {
 #define draw_gui
 if(instance_exists(Menu))
 if array_length(instances_matching(CustomObject,"name","mod_ui_swap_button"))<1{
+	var modedata = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
     with instance_create(game_width-43,7,CustomObject){
         name = "mod_ui_swap_button";
-        sprite_index = sprDailyChallengeOn;
+        sprite_index = global.swapButtonImage;
+		image_index = "index" in modedata ? modedata.index : 0;
+		xscale = 1;
+		yscale = 1;
         image_speed = 0;
         depth = 0;
         yoffset = 1;
@@ -129,6 +136,6 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_swap_button"))<1{
 with Loadout {
     //draw daily button
     with instances_matching(CustomObject,"name","mod_ui_swap_button"){
-        draw_sprite_ext(sprite_index,image_index,x,y+yoffset,1,1,0,image_blend,1);
+        draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
     } 
 }

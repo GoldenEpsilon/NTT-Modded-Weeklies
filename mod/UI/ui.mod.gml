@@ -205,7 +205,7 @@ global.names = ["fish","eyes","crystal","yv","steroids","cuz","rebel","melting",
 
 with instances_matching(CustomObject,"name","mod_ui_daily_button"){
     
-    global.menu_opened = true
+    global.menu_opened = false
     instance_delete(id)
     
 }
