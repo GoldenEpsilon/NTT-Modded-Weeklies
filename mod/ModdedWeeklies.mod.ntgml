@@ -840,12 +840,13 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 			if(tree != json_error){
 				with(tree.tree){
 					if(type == "blob" && string_count("mod/", path) && fork()){
+						trace(path)
 						var newpath = string_replace(path, "mod/", "")
 						global.forks++;
 						//Replace a file
 						file_delete("../../mods/" + _name + "/" + newpath);
 						while (file_exists("../../mods/" + _name + "/" + newpath)) {wait 1;}
-						wait file_download("https://raw.githubusercontent.com/" + _repo + "/" + branches[0].name + "/" + newpath, "../../mods/" + _name + "/" + newpath);
+						wait file_download("https://raw.githubusercontent.com/" + _repo + "/" + branches[0].name + "/" + path, "../../mods/" + _name + "/" + newpath);
 						while (!file_exists("../../mods/" + _name + "/" + newpath)) {wait 1;}
 						global.forks--;
 						exit;
