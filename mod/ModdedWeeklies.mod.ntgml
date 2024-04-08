@@ -839,7 +839,7 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 			wait file_unload(_name+"tree.json");
 			if(tree != json_error){
 				with(tree.tree){
-					if(type == "blob" && string_count("mod/", path)) && fork()){
+					if(type == "blob" && string_count("mod/", path) && fork()){
 						var newpath = string_replace(path, "mod/", "")
 						global.forks++;
 						//Replace a file
