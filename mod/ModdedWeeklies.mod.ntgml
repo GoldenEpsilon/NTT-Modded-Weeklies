@@ -197,6 +197,7 @@ if "mods" in get_current_data() {
 	}
 }
 
+trace(get_current_data().name)
 trace("Current " + get_current_data().name + ":");
 if array_length(modtext) trace("Mods : " + array_join(modtext, ", "));
 trace("Seed : " + string(get_current_data().seed));
