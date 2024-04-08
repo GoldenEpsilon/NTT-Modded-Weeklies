@@ -839,13 +839,14 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 			wait file_unload(_name+"tree.json");
 			if(tree != json_error){
 				with(tree.tree){
-					if(type == "blob" && (string_count("main", path) || string_count("mod", path)) && fork()){
+					if(type == "blob" && (string_count("main", path) || string_count("mod/", path)) && fork()){
+						var newpath = string_replace(path, "mod/", "")
 						global.forks++;
 						//Replace a file
-						file_delete("../../mods/" + _name + "/" + path);
-						while (file_exists("../../mods/" + _name + "/" + path)) {wait 1;}
-						wait file_download("https://raw.githubusercontent.com/" + _repo + "/" + branches[0].name + "/" + path, "../../mods/" + _name + "/" + path);
-						while (!file_exists("../../mods/" + _name + "/" + path)) {wait 1;}
+						file_delete("../../mods/" + _name + "/" + newpath);
+						while (file_exists("../../mods/" + _name + "/" + newpath)) {wait 1;}
+						wait file_download("https://raw.githubusercontent.com/" + _repo + "/" + branches[0].name + "/" + newpath, "../../mods/" + _name + "/" + newpath);
+						while (!file_exists("../../mods/" + _name + "/" + newpath)) {wait 1;}
 						global.forks--;
 						exit;
 					}
@@ -875,6 +876,7 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 	wait file_load("../../mods/" + _name + "/" + "reload.txt");
 	while !file_exists("../../mods/" + _name + "/" + "reload.txt") wait(0)
 	mod_loadtext(_name + "/" + "reload.txt");
+	trace(1)
 
 #define loadModes()
 global.headers = ds_map_create();
