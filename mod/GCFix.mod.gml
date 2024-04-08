@@ -5,7 +5,10 @@ global.Collected = true;
 if(gc_is_enabled()){
 	gc_enable(false)
 }
-if(instance_exists(GenCont)){
+if (current_frame % 300 == 0) {
+	global.Collected = false;
+}
+if(instance_exists(GenCont) || instance_exists(Menu)){
 	if(!global.Collected){
 		global.Collected = true;
 		gc_collect()

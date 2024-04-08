@@ -10,13 +10,13 @@ if(array_length(modedata) == 0) {
     trace("Are you offline?")
 }
 for(var i = 0; i < array_length(modedata); i++) {
-	with instance_create(game_width/2 - ((array_length(modedata)/2 - i) * 48),game_height/2,CustomObject){
+	with instance_create(game_width/2 - ((array_length(modedata)/2 - i) * 72),game_height/2-48,CustomObject){
 		name = "mod_ui_swap_button";
 		sprite_index = global.swapButtonImage;
         image_index = modedata[i].index;
 		modeName = modedata[i].modeName;
-		xscale = 3;
-		yscale = 3;
+		xscale = 4;
+		yscale = 4;
 		image_speed = 0;
 		depth = 0;
 		yoffset = 1;
