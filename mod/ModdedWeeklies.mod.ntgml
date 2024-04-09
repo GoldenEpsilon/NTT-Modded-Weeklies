@@ -89,6 +89,8 @@ loadModes();
 
 mod_script_call("mod", "selectui", "modeSelectionButtons");
 
+trace("Today is " + global.currentDate);
+
 #define loadAllMods()
 global.canStart = false;
 var i = 0;
@@ -130,6 +132,12 @@ for(i = 0; i < array_length(skinmods); i++){
 }
 if "mods" in get_current_data() {
 	with get_current_data().mods {
+		if "patches" not in self {
+			self.patches = [];
+		}
+		if "patches" not in self {
+			self.globals = [];
+		}
 		switch self.download_type {
 			case "itch":
 				var api_key = "mD4JDfwnLXlsxPChbvGnttoOqHSNiYBmjTD1H2ya";
@@ -146,14 +154,14 @@ if "mods" in get_current_data() {
 				while (!file_exists(self.name + " data.json")) {wait 1;}
 				var out = json_decode(string_load(self.name + " data.json"));
 				if("uploads" in out && array_length(out.uploads)){
-					download_and_load(self.name, "https://api.itch.io/uploads/" + string(out.uploads[0].id) + "/download?api_key=" + api_key, out.uploads[0].filename);
+					download_and_load(self.name, "https://api.itch.io/uploads/" + string(out.uploads[0].id) + "/download?api_key=" + api_key, out.uploads[0].filename, self.patches, self.globals);
 				}else{
 					trace("ERROR: incorrect response. Recieved response was:");
 					trace(out);
 				}
 				break;
 			case "direct":
-				download_and_load(self.name, self.url, self.filename);
+				download_and_load(self.name, self.url, self.filename, self.patches, self.globals);
 				break;
 		}
 	}
@@ -386,6 +394,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			"content":"`+base64(json_encode({scores: [DataSubmission]}))+`"
 			}`
 			, "out.txt");
+			global.loaderboard = {scores: [DataSubmission]};
 		}else{
 			leaderboard = json_decode(leaderboard);
 			var fail = false;
@@ -415,12 +424,11 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				"sha":"`+sha+`"
 				}`
 				, "out.txt");
+				global.loaderboard = leaderboard;
 			}else{
 				trace("You've already played this Daily!");
 			}
 		}
-		wait(60);
-		loadLeaderboards()
 	}else{
 		trace("You were disqualified, so your scores were not uploaded.");
 	}
@@ -554,47 +562,32 @@ if global.currentDate != "" {
 	prevDate = global.currentDate;
 }
 
-file_download("http://worldclockapi.com/api/json/est/now", "ping.txt");
-file_load("ping.txt")
-var d = 0;
-while (!file_loaded("ping.txt")){
-	if d++ > 100 break;
-	wait 1;
+file_download("http://yal.cc/ping", "ping.txt");
+while (!file_loaded("ping.txt")) wait 1;
+var unixTime = real(string_load("ping.txt"));
+var unixDays = floor(unixTime/86400);
+var day = unixDays;
+var year = 1970;
+while(day > 365 + isLeapYear(year)){
+    year++;
+    day -= 365 + isLeapYear(year);
 }
-var str = string_load("ping.txt");
-if is_undefined(str){
-	trace("ERROR: Cannot connect to worldclockapi. Date cannot be loaded");
+var month = 1;
+while(day > daysInMonth(month, year)){
+    month++;
+    day -= daysInMonth(month, year);
 }
-file_unload("ping.txt");
-var json = json_decode(str);
-if json = json_error{
-	if(fork()){
-		wait 5;
-		trace("ERROR: World Clock API could not be reached!");
-		trace("         Date and Time could not be fetched!");
-		exit;
-	}
-	json = {};
-	global.currentDate = "0-0-0";
-	json.dayOfTheWeek = "Sunday";
-} else {
-	global.currentDate = string_copy(json.currentDateTime, 1, string_pos("T", json.currentDateTime) - 1);
-}
+/*trace("Unix time at Yellow's website:", unixTime);
+trace("Days since Unix Epoch:", unixDays);
+trace("current year?:", year);
+trace("current month?:", month);
+trace("current day?:", day);
+trace("current day of the week?:", (unixDays + 4) % 7);*/
 
-global.currentWeek = string_split(global.currentDate, "-");
-var weekDay = real(global.currentWeek[2]);
-var weekMonth = real(global.currentWeek[1]);
-var weekYear = real(global.currentWeek[0]);
 
-switch(json.dayOfTheWeek){
-	case "Sunday": break;
-	case "Monday": weekDay -= 1; break;
-	case "Tueday": weekDay -= 2; break;
-	case "Wednesday": weekDay -= 3; break;
-	case "Thursday": weekDay -= 4; break;
-	case "Friday": weekDay -= 5; break;
-	case "Saturday": weekDay -= 6; break;
-}
+var weekDay = day - (unixDays + 4) % 7;
+var weekMonth = month;
+var weekYear = year;
 if weekDay < 1 {
 	weekDay += 7;
 	weekMonth -= 1;
@@ -603,11 +596,55 @@ if weekMonth < 1 {
 	weekMonth += 1;
 	weekYear -= 1;
 }
+global.currentDate = string(year)+"-"+string_lpad(string(month), "0", 2)+"-"+string_lpad(string(day), "0", 2)
 global.currentWeek = string(weekYear)+"-"+string_lpad(string(weekMonth), "0", 2)+"-"+string_lpad(string(weekDay), "0", 2)
 
 if checkDate && prevDate != global.currentDate {
 	global.qualified = false;
 	trace("It is now a different day than when the mod was loaded. You have been disqualified.");
+}
+
+#define isLeapYear(year)
+return year % 4 == 0 && !(year % 100 == 0 && year % 400 == 0)
+
+#define daysInMonth(month, year)
+switch(month){
+    case 1:
+        return 31;
+        break;
+    case 2:
+        return 28 + isLeapYear(year);
+        break;
+    case 3:
+        return 31;
+        break;
+    case 4:
+        return 30;
+        break;
+    case 5:
+        return 31;
+        break;
+    case 6:
+        return 30;
+        break;
+    case 7:
+        return 31;
+        break;
+    case 8:
+        return 31;
+        break;
+    case 9:
+        return 30;
+        break;
+    case 10:
+        return 31;
+        break;
+    case 11:
+        return 30;
+        break;
+    case 12:
+        return 31;
+        break;
 }
 
 #define base64(str)
@@ -954,7 +991,7 @@ return {};
 	}
 	return {};
 
-#define download_and_load(name, url, filename)
+#define download_and_load(name, url, filename, patches, globals)
 //check to see if it's just a .gml before unzipping
 if(string_length(filename) == 0){
 	trace("ERROR: file not found. This is aserver-side issue, hopefully we are fixing it.");
@@ -962,6 +999,8 @@ if(string_length(filename) == 0){
 }
 switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 	case ".gml":
+		file_delete("../../mods/WeeklyMods/" + name);
+		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
 		file_download(url, "../../mods/WeeklyMods/" + name + "/" + filename);
 		while (!file_exists("../../mods/WeeklyMods/" + name + "/" + filename)) {wait 1;}
 		break;
@@ -971,6 +1010,14 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 }
+
+for(var i = 0; i < array_length(patches); i++){
+	file_delete("../../mods/WeeklyMods/" + name + "/" + patches[i].name);
+	while (file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].name)) {wait 1;}
+	file_download(patches[i].url, "../../mods/WeeklyMods/" + name + "/" + patches[i].name);
+	while (!file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].name)) {wait 1;}
+}
+
 wait file_load("../../mods/WeeklyMods/" + name + "/main.txt");
 while !file_loaded("../../mods/WeeklyMods/" + name + "/main.txt") {
 	wait(0)
@@ -1000,6 +1047,17 @@ while !file_loaded("../../mods/WeeklyMods/" + name + "/main.txt") {
 }
 trace(name + " Downloaded!");
 mod_loadtext("WeeklyMods/" + name + "/main.txt");
+
+if(fork()){
+	with(globals){
+		if "mod_type" not in self {
+			self.mod_type = "mod"
+		}
+		while(!mod_exists(self.mod_type, self.mod)){ wait(0) }
+		mod_variable_set(self.mod_type, self.mod, self.global, self.value);
+	}
+	exit;
+}
 
 #define getModeDate(mode)
 if "weekly" in mode && mode.weekly {return global.currentWeek}
