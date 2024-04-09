@@ -1007,6 +1007,7 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 	default:
 		file_download(url, filename);
 		file_delete("../../mods/WeeklyMods/" + name);
+		while (!file_exists(filename)) {wait 1;}
 		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 }
