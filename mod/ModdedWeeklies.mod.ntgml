@@ -1012,10 +1012,10 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 }
 
 for(var i = 0; i < array_length(patches); i++){
-	file_delete("../../mods/WeeklyMods/" + name + "/" + patches[i].name);
-	while (file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].name)) {wait 1;}
-	file_download(patches[i].url, "../../mods/WeeklyMods/" + name + "/" + patches[i].name);
-	while (!file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].name)) {wait 1;}
+	file_delete("../../mods/WeeklyMods/" + name + "/" + patches[i].file);
+	while (file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].file)) {wait 1;}
+	file_download(patches[i].url, "../../mods/WeeklyMods/" + name + "/" + patches[i].file);
+	while (!file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].file)) {wait 1;}
 }
 
 wait file_load("../../mods/WeeklyMods/" + name + "/main.txt");
