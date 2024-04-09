@@ -230,7 +230,6 @@ if(!global.active || global.currentMode == ""){
 }
 if(fork()) {
 	getCurrentDate();
-	loadLeaderboards();
 }
 //room_speed = 30;
 //current_time_scale = 1;
