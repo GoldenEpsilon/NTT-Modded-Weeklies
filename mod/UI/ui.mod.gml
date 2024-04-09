@@ -247,7 +247,7 @@ if debug{
                     mutations : array_shuffle(_muts),
                     time : 55032,
                     color : choose(c_red,c_aqua,c_lime,c_purple,c_dkgray,c_fuchsia,c_yellow,c_orange,c_blue),
-                    killed_by : [sprBanditIdle,"bandit"]
+                    death_cause : [sprBanditIdle,"bandit"]
                 }
         _array[array_length(_array)]= _name
         }
@@ -526,8 +526,8 @@ if button_pressed(0,"horn")
 	    var _y = yy+yyy
         var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,_x-12,_y-12,_x+32,_y+12)
         if hover_over and _opened and (scoreboard_anim > 0.9){
-        	script_bind_draw("ui_popup_draw",-1000,_x,_y,"killed by a "+string(global.scoreboard[global.current_scoreboard][i].killed_by[1]))
-        	draw_sprite(global.scoreboard[global.current_scoreboard][i].killed_by[0],current_frame*0.4,_x+122,_y)
+        	script_bind_draw("ui_popup_draw",-1000,_x,_y,"killed by a "+string(global.scoreboard[global.current_scoreboard][i].death_cause[1]))
+        	draw_sprite(global.scoreboard[global.current_scoreboard][i].death_cause[0],current_frame*0.4,_x+122,_y)
         }
 	    
         draw_text(xx+xxx,yy+yyy,_text)

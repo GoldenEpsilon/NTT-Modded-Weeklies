@@ -89,10 +89,8 @@ loadModes();
 
 mod_script_call("mod", "selectui", "modeSelectionButtons");
 
-while(global.currentMode == ""){
-	wait(1);
-}
-
+#define loadAllMods()
+global.canStart = false;
 var i = 0;
 for(i = 0; i < array_length(mod_get_names("mod")); i=i){
 	var modname = mod_get_names("mod")[i];
@@ -215,6 +213,7 @@ if(global.qualified == true && !instance_exists(CharSelect)){
 }
 
 global.canStart = true;
+global.active = true;
 
 #define game_start
 if(!global.active || global.currentMode == ""){
@@ -364,7 +363,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 		ds_map_set(headers, "Accept", "application/vnd.github.full+json");	
 		file_delete("dl.txt");
 		while (file_exists("dl.txt")) {wait 1;}
-		http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_data.folder + `/` + get_current_data + `/leaderboard.json`
+		http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
 		, "GET", headers,
 		``
 		, "dl.txt");
@@ -380,7 +379,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 		}
 		file_unload("dl.txt");
 		if(string_copy(leaderboard, 0, 3) == "404" || json_decode(leaderboard) == json_error){
-			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_data.folder + `/` + get_current_data + `/leaderboard.json`
+			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
 			, "PUT", headers,
 			`{
 			"message":"Leaderboard Update (New leaderboard!) (` + DataSubmission.name + `)",
@@ -400,7 +399,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			if(!get_current_data().can_resubmit || !fail){
 				file_delete("sha.txt");
 				while (file_exists("sha.txt")) {wait 1;}
-				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_data.folder + `/` + get_current_data + `/leaderboard.json`
+				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
 				, "GET", headers,
 				``
 				, "sha.txt");
@@ -408,7 +407,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				wait file_load("sha.txt");
 				sha = string_split(string_split(string_load("sha.txt"), `"sha":"`)[1], `"`)[0];
 				file_unload("sha.txt");
-				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_data.folder + `/` + get_current_data + `/leaderboard.json`
+				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
 				, "PUT", headers,
 				`{
 				"message":"Leaderboard Update (` + DataSubmission.name + `)",
@@ -851,7 +850,6 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 			if(tree != json_error){
 				with(tree.tree){
 					if(type == "blob" && string_count("mod/", path) && fork()){
-						trace(path)
 						var newpath = string_replace(path, "mod/", "")
 						global.forks++;
 						//Replace a file
@@ -936,6 +934,14 @@ for var i = 0; i < array_length(global.modes); i++ {
 	}
 	array_push(global.data, dl);
 }
+
+#define get_current_mode()
+with(global.modes) {
+	if name == global.currentMode {
+		return self
+	}
+}
+return {};
 
 #define get_current_data()
 	return get_mode_data(global.currentMode);

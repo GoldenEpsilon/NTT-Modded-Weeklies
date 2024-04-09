@@ -42,6 +42,7 @@ for(var i = 0; i < array_length(modedata); i++) {
 						with(instances_matching(CustomObject, "name", "mod_ui_swap_button")){
 							instance_destroy();
 						}
+                        mod_script_call("mod", "ModdedWeeklies", "loadAllMods");
 						exit;
 					}
 					hover = 1;
