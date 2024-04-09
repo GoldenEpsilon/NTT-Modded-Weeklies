@@ -1053,8 +1053,8 @@ if(fork()){
 		if "mod_type" not in self {
 			self.mod_type = "mod"
 		}
-		while(!mod_exists(self.mod_type, self.mod)){ wait(0) }
-		mod_variable_set(self.mod_type, self.mod, self.variable, self.value);
+		while(!mod_exists(self.mod_type, self.mod_name)){ wait(0) }
+		mod_variable_set(self.mod_type, self.mod_name, self.variable, self.value);
 	}
 	exit;
 }
