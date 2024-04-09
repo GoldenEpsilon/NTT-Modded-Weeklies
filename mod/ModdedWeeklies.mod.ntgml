@@ -230,6 +230,7 @@ if(!global.active || global.currentMode == ""){
 }
 if(fork()) {
 	getCurrentDate();
+	loadLeaderboards();
 }
 //room_speed = 30;
 //current_time_scale = 1;
@@ -394,7 +395,8 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			"content":"`+base64(json_encode({scores: [DataSubmission]}))+`"
 			}`
 			, "out.txt");
-			global.loaderboard = {scores: [DataSubmission]};
+			global.leaderboard = {scores: [DataSubmission]};
+			if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
 		}else{
 			leaderboard = json_decode(leaderboard);
 			var fail = false;
@@ -424,7 +426,8 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				"sha":"`+sha+`"
 				}`
 				, "out.txt");
-				global.loaderboard = leaderboard;
+				global.leaderboard = leaderboard;
+				if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
 			}else{
 				trace("You've already played this Daily!");
 			}
