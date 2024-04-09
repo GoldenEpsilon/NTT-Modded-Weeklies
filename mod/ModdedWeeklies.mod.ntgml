@@ -135,7 +135,7 @@ if "mods" in get_current_data() {
 		if "patches" not in self {
 			self.patches = [];
 		}
-		if "patches" not in self {
+		if "globals" not in self {
 			self.globals = [];
 		}
 		switch self.download_type {
