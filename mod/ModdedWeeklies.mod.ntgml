@@ -1048,7 +1048,7 @@ while !file_loaded("../../mods/WeeklyMods/" + name + "/main.txt") {
 trace(name + " Downloaded!");
 mod_loadtext("WeeklyMods/" + name + "/main.txt");
 
-/if(fork()){
+if(fork()){
 	with(globals){
 		if "mod_type" not in self {
 			self.mod_type = "mod"
