@@ -1048,13 +1048,13 @@ while !file_loaded("../../mods/WeeklyMods/" + name + "/main.txt") {
 trace(name + " Downloaded!");
 mod_loadtext("WeeklyMods/" + name + "/main.txt");
 
-if(fork()){
+/if(fork()){
 	with(globals){
 		if "mod_type" not in self {
 			self.mod_type = "mod"
 		}
 		while(!mod_exists(self.mod_type, self.mod)){ wait(0) }
-		mod_variable_set(self.mod_type, self.mod, self.global, self.value);
+		mod_variable_set(self.mod_type, self.mod, self.variable, self.value);
 	}
 	exit;
 }
