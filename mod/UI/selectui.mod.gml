@@ -1,8 +1,15 @@
 global.swapButtonImage = sprite_add("DailyIcons.png", 7, 0, 0);
 
-#define modeSelectionButtons()
-with(instances_matching(CustomObject, "name", "mod_ui_swap_button")){
+#define toggleModeSelectionButtons()
+mod_variable_set("mod", "ui", "menu_opened", false)
+with instances_matching(CustomObject,"name","mod_ui_option"){
 	instance_destroy();
+}
+if(array_length(instances_matching(CustomObject, "name", "mod_ui_mode_button")) > 0) {
+	with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
+		instance_destroy();
+	}
+	return;
 }
 var modedata = mod_variable_get("mod", "ModdedWeeklies", "data");
 if(array_length(modedata) == 0) {
@@ -11,7 +18,7 @@ if(array_length(modedata) == 0) {
 }
 for(var i = 0; i < array_length(modedata); i++) {
 	with instance_create(game_width/2 - ((array_length(modedata)/2 - i) * 72),game_height/2-48,CustomObject){
-		name = "mod_ui_swap_button";
+		name = "mod_ui_mode_button";
 		sprite_index = global.swapButtonImage;
         image_index = modedata[i].index;
 		modeName = modedata[i].modeName;
@@ -39,7 +46,7 @@ for(var i = 0; i < array_length(modedata); i++) {
 					//trace(choose(""," ","  "),"hover")
 					if button_pressed(i,"fire"){
                         mod_variable_set("mod", "ModdedWeeklies", "currentMode", modeName);
-						with(instances_matching(CustomObject, "name", "mod_ui_swap_button")){
+						with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
 							instance_destroy();
 						}
                         mod_script_call("mod", "ModdedWeeklies", "loadAllMods");
@@ -73,11 +80,16 @@ for(var i = 0; i < array_length(modedata); i++) {
 }
 
 #define draw_gui
+if mod_variable_get("mod", "ui", "menu_opened") && array_length(instances_matching(CustomObject, "name", "mod_ui_mode_button")) > 1 {
+	with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
+		instance_destroy();
+	}
+}
 if(instance_exists(Menu))
-if array_length(instances_matching(CustomObject,"name","mod_ui_swap_button"))<1{
+if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"))<1{
 	var modedata = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
     with instance_create(game_width-43,7,CustomObject){
-        name = "mod_ui_swap_button";
+        name = "mod_ui_mode_swap_button";
         sprite_index = global.swapButtonImage;
 		image_index = "index" in modedata ? modedata.index : 0;
 		xscale = 1;
@@ -99,8 +111,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_swap_button"))<1{
                     //trace(choose(""," ","  "),"hover")
                     if button_pressed(i,"fire"){
                         //exit;
-                        modeSelectionButtons();
-						exit;
+                        toggleModeSelectionButtons();
                     }
                     hover = 1;
                 }
@@ -130,8 +141,10 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_swap_button"))<1{
 }
 
 with Loadout {
-    //draw daily button
-    with instances_matching(CustomObject,"name","mod_ui_swap_button"){
+    with instances_matching(CustomObject,"name","mod_ui_mode_swap_button"){
+        draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
+    } 
+    with instances_matching(CustomObject,"name","mod_ui_mode_button"){
         draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
     } 
 }

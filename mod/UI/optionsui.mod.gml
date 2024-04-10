@@ -2,6 +2,10 @@ global.swapButtonImage = sprite_add("DailyIcons.png", 7, 0, 0);
 global.toggleImage = sprite_add("Toggle.png", 2, 4, 4);
 
 #define toggleOptions()
+mod_variable_set("mod", "ui", "menu_opened", false)
+with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
+	instance_destroy();
+}
 if(array_length(instances_matching(CustomObject,"name","mod_ui_option"))) {
     with instances_matching(CustomObject,"name","mod_ui_option"){
         instance_destroy();
@@ -56,6 +60,11 @@ while(lq_get_key(options, i) != undefined){
 }
 
 #define draw_gui
+if mod_variable_get("mod", "ui", "menu_opened") {
+    with instances_matching(CustomObject,"name","mod_ui_option"){
+        instance_destroy();
+    }
+}
 if(instance_exists(Menu))
 if array_length(instances_matching(CustomObject,"name","mod_ui_options_button"))<1{
     with instance_create(game_width-62,7,CustomObject){
@@ -81,7 +90,6 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_options_button"))
                     //trace(choose(""," ","  "),"hover")
                     if button_pressed(i,"fire"){
                         toggleOptions();
-                        exit;
                     }
                     hover = 1;
                 }
@@ -116,7 +124,7 @@ with Loadout {
     } 
     with instances_matching(CustomObject,"name","mod_ui_option"){
         draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
-        draw_set_font(fntM0)
+        draw_set_font(fntM)
         draw_text(x-sprite_width+8, y+sprite_height/4+yoffset, text)
         draw_sprite_ext(global.toggleImage,val,x+sprite_width-24,y+sprite_height/4+yoffset,2,2,0,image_blend,1);
     } 

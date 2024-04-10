@@ -102,7 +102,7 @@ if GameCont.area != GameCont.lastarea or GameCont.lastsubarea = 0{
 #define bigtext_draw(btext,i,f)
     draw_set_color(c_white)
     draw_set_halign(2)
-    draw_set_font(fntM0)
+    draw_set_font(fntM)
     if i < 100
     draw_sprite(sprUnlockPopupSplat,min(i,2),view_xview+game_width,view_yview+game_height)
     else

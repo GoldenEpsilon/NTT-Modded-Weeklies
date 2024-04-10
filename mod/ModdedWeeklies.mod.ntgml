@@ -10,6 +10,17 @@
 -> make score submission include base64 versions of sprites if the sprites are modded, so that they can be displayed
 */
 
+//check for debug
+global.debug = false;
+for(var p = 0; p < maxp; p++){
+	var alias = player_get_alias(p);
+	if alias == "Golden Epsilon" ||
+	alias == "blaac" ||
+	alias == "DragonStrive" ||
+	alias == "WigglerCola" {
+		global.debug = true;
+	}
+}
 
 //Chat anticheat vars
 global.active = true;
@@ -66,8 +77,10 @@ global.currentWeek = "";
 
 wait(3);
 while(!mod_sideload()){wait 1;}
-global.NoChat = instance_create(0,0,SetKey);
-global.NoChat.persistent = true;
+if !global.debug {
+	global.NoChat = instance_create(0,0,SetKey);
+	global.NoChat.persistent = true;
+}
 global.forks = 0;
 checkForUpdates("weeklies", "GoldenEpsilon/NTT-Modded-Weeklies")
 global.qualified = true;
@@ -90,7 +103,7 @@ loadLeaderboards();
 
 loadModes();
 
-mod_script_call("mod", "selectui", "modeSelectionButtons");
+mod_script_call("mod", "selectui", "toggleModeSelectionButtons");
 
 trace("Today is " + global.currentDate);
 
@@ -271,6 +284,70 @@ with(Player){
 }
 
 #define step
+
+if global.debug {
+	for(var p = 0; p < maxp; p++){
+		if button_pressed(p, "horn") {
+			global.leaderboard = [];
+			repeat(3){
+				var ldb = []
+				repeat(10) {
+					var allies = [];
+					var ultras = [];
+					var weapons = ds_list_create();
+					var mutations = [];
+					var numberofweapons = weapon_get_list(weapons);
+					repeat(irandom(3)+1) {
+						var race = irandom(15)+1+array_length(mod_get_names("race"))
+						if race > 16 {
+							race = mod_get_names("race")[race-17]
+						}else{
+							race = race_get_name(race)
+						}
+						array_push(allies, {
+							"alias": string(irandom(10000)),
+							"race": race,
+							"skin": irandom(1), //not great, but I don't want to code anything better rn
+							"wep": ds_list_find_index(weapons, irandom(numberofweapons-1)),
+							"bwep": ds_list_find_index(weapons, irandom(numberofweapons-1)),
+							"color": irandom(10000),
+						})
+						array_push(ultras,[race, irandom(ultra_count(race)-1)])
+					}
+					var mutList = mod_get_names("skill")
+					for(var i = 1; i < 30; i++) {
+						array_push(mutList, i)
+					}
+					repeat(irandom(15)){
+						array_push(mutations, mutList[irandom(array_length(mutList)-1)])
+					}
+					array_push(ldb, {
+						"name": string(irandom(100000)),
+						"kills": irandom(10000),
+						"race": allies[0].race,
+						"skin": allies[0].skin, //doesn't do modded skins or any number other than 2 skins
+						"area": irandom(7),
+						"subarea": irandom(2)+1,
+						"loop": irandom(10),
+						"hard": irandom(200),
+						"wep": allies[0].wep,
+						"bwep": allies[0].bwep,
+						"crown": irandom(12)+1, //doesn't do modded crowns
+						"mutations": mutations,
+						"ultras": ultras, //doesn't do cultras
+						"time": irandom(10000),
+						"killed_by": GameCont.deathcause,
+						"color": allies[0].color,
+						"allies": allies,
+					})
+				}
+				array_push(global.leaderboard, ldb)
+			}
+			if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
+		}
+	}
+}
+
 if(!global.active || global.currentMode == ""){
 	Menu.mode=0;
 	Menu.race_id=[0,0,0,0]
@@ -314,6 +391,7 @@ if(global.qualified == true && global.canStart && global.ModNames != ""){
 	}
 }
 */
+
 with(Player){
 	global.endData.data[index] = {
 		alias: player_get_alias(index),
@@ -474,10 +552,12 @@ with button {
 */
 #define cheat_check
 //Spawn setkey to prevent opening chat
-if "NoChat" in global and !instance_exists(global.NoChat) {
-	with instance_create(x,y,SetKey) {
-		persistent = true;
-		global.NoChat = self;
+if !global.debug {
+	if "NoChat" in global and !instance_exists(global.NoChat) {
+		with instance_create(x,y,SetKey) {
+			persistent = true;
+			global.NoChat = self;
+		}
 	}
 }
 
@@ -522,7 +602,7 @@ for(var p = 0; p < maxp; p++){
 		draw_rectangle(game_width/2-151, game_height/2-20, game_width/2+157, game_height/2+20, 0);
 		draw_set_halign(1);
 		draw_set_valign(1);
-		draw_set_font(fntM0);
+		draw_set_font(fntM);
 		draw_text_nt(game_width/2+5, game_height/2, "@rPLAYER " + string(p+1) + ",#IF YOU ARE NOT A CHEATER SAY SOMETHING.#DO NOT PRESS ESCAPE,#DO NOT SEND AN EMPTY MESSAGE");
 		draw_set_halign(0);
 		draw_set_valign(0);
