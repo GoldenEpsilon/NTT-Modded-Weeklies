@@ -549,7 +549,7 @@ if(fork()){
 			with(global.leaderboard){
 				native_array_sort(self, function(elm1, elm2)
 				{
-					return elm1.kills - elm2.kills;
+					return elm2.kills - elm1.kills;
 				});
 			}
 			break;
