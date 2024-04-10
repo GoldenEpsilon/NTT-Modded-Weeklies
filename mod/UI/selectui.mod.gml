@@ -39,10 +39,10 @@ for(var i = 0; i < array_length(modedata); i++) {
 					//trace(choose(""," ","  "),"hover")
 					if button_pressed(i,"fire"){
                         mod_variable_set("mod", "ModdedWeeklies", "currentMode", modeName);
-                        mod_script_call("mod", "ModdedWeeklies", "loadAllMods");
 						with(instances_matching(CustomObject, "name", "mod_ui_swap_button")){
 							instance_destroy();
 						}
+                        mod_script_call("mod", "ModdedWeeklies", "loadAllMods");
 						exit;
 					}
 					hover = 1;

@@ -367,7 +367,7 @@ draw_set_projection(0, 0)
     
     //if scoreboard_opened>(scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows) or scoreboard_opened<scoreboard_pos[global.current_scoreboard]
     //    scoreboard_opened = -4
-        for(var i = scoreboard_pos[global.current_scoreboard]  ;i<    (scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows ) && i < array_length(global.scoreboard[global.current_scoreboard])   ;i++){
+        for(var i = scoreboard_pos[global.current_scoreboard]  ;i<    (scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows ) && i >= 0 && i < array_length(global.scoreboard[global.current_scoreboard])   ;i++){
         
         
 	    draw_set_halign(0)
@@ -1537,12 +1537,15 @@ if is_string(race){
         sprt[1] = 0
         //i dont know how to make it use the skin if the sprite is or isnt a sprite strip
     }
+	if race_get_id(race) > 0 && race_get_id(race) <= 16 {
+		race = race_get_id(race)
+	}
 }
 if !is_string(skin){
     if !is_string(race)
         sprt = [sprMapIcon,(race*2)+(skin)-2]
     else
-    sprt[1] = skin
+    	sprt[1] = skin
 }else if mod_exists("skin",skin){
     sprt[0] = mod_script_call("skin",skin,"skin_mapicon")
     sprt[1] = 0
