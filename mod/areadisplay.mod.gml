@@ -34,6 +34,7 @@ switch(GameCont.area){
 }
 #define draw_gui
 if instance_exists(Player){
+    draw_set_font(fntM0)
     switch(global.playercount){
         case(1):
             draw_set_halign(fa_right);

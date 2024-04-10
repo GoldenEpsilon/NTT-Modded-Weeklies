@@ -417,6 +417,7 @@ draw_set_projection(0, 0)
                     _text = global.scoreboard[global.current_scoreboard][i].race
             if _text = "venuz" _text = "yung venuz"
                 
+        	draw_set_font(fntM0)
             draw_text(xx-32+(34*scoreboard_anim)+_pointless_wiggle*0.3,yy+10,_text)
         }
        
@@ -472,6 +473,7 @@ draw_set_projection(0, 0)
         
         //ranking
         draw_set_halign(2)
+        draw_set_font(fntM0)
         var _x = round(xx+xxx+(0- 16*(scoreboard_anim*_opened)+_pointless_wiggle))
         var _y = yy
         draw_text(_x,_y,i+1)
@@ -1246,6 +1248,7 @@ with Loadout{
 	
     //draw_set_projection(0, 0)
 	draw_set_color(c_white)
+    draw_set_font(fntM0)
 	draw_set_halign(1)
 	draw_set_valign(1)
 	var xx = 64 -game_width +(game_width*menu_anim);
