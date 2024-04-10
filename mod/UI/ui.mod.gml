@@ -1038,78 +1038,77 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_superbutton"))<1{
     }
 //backbutton
 with instances_matching(BackFromCharSelect,"mod_ui",null){
-		if array_length(instances_matching(CustomObject,"name","mod_ui_backbutton"))=0
-		
-    	with instance_create(0,0,CustomObject){
-    		name = "mod_ui_backbutton";
-    		sprite_index = global.sprBackIntro;
-    		image_alpha = 0.6;
-            image_speed = 0.4;
-            image_index = 0;
-            depth = 0;
-            visible = false;
-            yoffset = 0;
-    		holdcounter = 0;
-    		holdcountermax = holdbackdelay;
-    		if fork(){
-    			while instance_exists(self){
-    				if sprite_index = global.sprBackIntro{
-    					image_speed = 0.4;
-    					if image_index+image_speed>=image_number
-    						sprite_index = global.sprBackButton;
-    				}
-    				else{
-                    	var hover = 0;
-                    	var pushing = false;
-                    	for(var i=0;i<maxp;i++){
-    						if point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i],view_yview[i],view_xview[i]+28,view_yview[i]+28  - 210*menu_anim){
-	    						hover = 1;
-	    						if button_check(i,"fire"){
-	    							holdcounter += 1;
-	    							pushing = true;
-	    						}
-    						}
-    						if button_check(i,"spec"){
-    							holdcounter += 1;
-    							hover = 1;
-	    						pushing = true;
-    						}
-	    					if player_is_local_nonsync(i) and holdcounter > holdcountermax{
-	    						
-								script_bind_step(force_quit,0)
-	    						//global.enditall = true
-	    						exit;
-	    					}
-	    				}
-    					if hover{
-    						image_speed = 0.4;
-    						image_alpha = 1;
-    						visible = false;
-            				yoffset = -1*(!pushing);
-    					}
-    					else{
-    						if image_index+image_speed>=image_number or image_index<2{
-    							image_index = 0;
-    							image_speed = 0;
-    						}
-    						image_alpha = 0.6;
-            				yoffset = 0;
-    					}
-    					if pushing{
-    						image_index = 0;
-    						image_speed = 0;
-    					}else{
-    						holdcounter = max(holdcounter-(2),0);
-    					}
-    				}
-    				wait 1;
-    			}
-    			exit;
-    		}
-    	}
-    	ystart-=64
-    	mod_ui = true
-    } 
+	ystart-=64
+	mod_ui = true
+} 
+if array_length(instances_matching(CustomObject,"name","mod_ui_backbutton"))=0
+	with instance_create(0,0,CustomObject){
+		name = "mod_ui_backbutton";
+		sprite_index = global.sprBackIntro;
+		image_alpha = 0.6;
+		image_speed = 0.4;
+		image_index = 0;
+		depth = 0;
+		visible = false;
+		yoffset = 0;
+		holdcounter = 0;
+		holdcountermax = holdbackdelay;
+		if fork(){
+			while instance_exists(self){
+				if sprite_index = global.sprBackIntro{
+					image_speed = 0.4;
+					if image_index+image_speed>=image_number
+						sprite_index = global.sprBackButton;
+				}
+				else{
+					var hover = 0;
+					var pushing = false;
+					for(var i=0;i<maxp;i++){
+						if point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i],view_yview[i],view_xview[i]+28,view_yview[i]+28  - 210*menu_anim){
+							hover = 1;
+							if button_check(i,"fire"){
+								holdcounter += 1;
+								pushing = true;
+							}
+						}
+						if button_check(i,"spec"){
+							holdcounter += 1;
+							hover = 1;
+							pushing = true;
+						}
+						if player_is_local_nonsync(i) and holdcounter > holdcountermax{
+							
+							script_bind_step(force_quit,0)
+							//global.enditall = true
+							exit;
+						}
+					}
+					if hover{
+						image_speed = 0.4;
+						image_alpha = 1;
+						visible = false;
+						yoffset = -1*(!pushing);
+					}
+					else{
+						if image_index+image_speed>=image_number or image_index<2{
+							image_index = 0;
+							image_speed = 0;
+						}
+						image_alpha = 0.6;
+						yoffset = 0;
+					}
+					if pushing{
+						image_index = 0;
+						image_speed = 0;
+					}else{
+						holdcounter = max(holdcounter-(2),0);
+					}
+				}
+				wait 1;
+			}
+			exit;
+		}
+	}
 
 //draw buttons
 with Loadout{
@@ -1696,8 +1695,6 @@ if(argument0 = "portraits"){
 sprite_restore(sprBackButton);
 sprite_restore(sprBigPortrait);
 //sprite_restore(sprLoadoutSplat);
-
-with instances_matching_ne(BackFromCharSelect,"mod_ui",null) mod_ui = null
 
 reset_surfaces();
 
