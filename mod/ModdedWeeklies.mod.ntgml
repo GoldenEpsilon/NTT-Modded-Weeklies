@@ -99,6 +99,7 @@ for(i = 0; i < array_length(mod_get_names("mod")); i=i){
 	if(modname != mod_current && 
 		modname != "GCFix" && 
 		modname != "areadisplay" && 
+		modname != "miniintros" && 
 		modname != "selectui" && 
 		modname != "ui"){
 		mod_unload(mod_get_names("mod")[i]);
@@ -394,7 +395,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			"content":"`+base64(json_encode({scores: [DataSubmission]}))+`"
 			}`
 			, "out.txt");
-			global.leaderboard = {scores: [DataSubmission]};
+			global.leaderboard[get_current_mode().index] = [DataSubmission];
 			if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
 		}else{
 			leaderboard = json_decode(leaderboard);
@@ -425,7 +426,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				"sha":"`+sha+`"
 				}`
 				, "out.txt");
-				global.leaderboard = leaderboard;
+				global.leaderboard[get_current_mode().index] = leaderboard.scores;
 				if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
 			}else{
 				trace("You've already played this Daily!");
@@ -537,6 +538,7 @@ if(fork()){
 		if dl != json_error {
 			ldb = dl.scores;
 		}
+		self.index = array_length(global.leaderboard)
 		array_push(global.leaderboard, ldb);
 	}
 	if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");

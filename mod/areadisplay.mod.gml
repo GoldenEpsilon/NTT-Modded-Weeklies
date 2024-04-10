@@ -18,7 +18,7 @@ switch(GameCont.area){
         global.areaname = "???"; 
         break;
     case(107):  
-        global.areaname = "???"; 
+        global.areaname = "$$$"; 
         break;
     case(106):  
         global.areaname = "HQ"+string(GameCont.subarea); 
@@ -37,15 +37,15 @@ if instance_exists(Player){
     switch(global.playercount){
         case(1):
             draw_set_halign(fa_right);
-            draw_text_nt(game_width-2,(game_height-game_height/12)+10*(timer=false),global.areaname);
+            draw_text_nt(game_width-2,(game_height-20)+10*(timer=false),global.areaname);
             break;
         case(2):
             draw_set_halign(fa_left);
-            draw_text_nt(2,(game_height-game_height/12)+10*(timer=false),global.areaname);
+            draw_text_nt(2,(game_height-20)+10*(timer=false),global.areaname);
             break;
         default:
             draw_set_halign(fa_center);
-            draw_text_nt(game_width/2,game_height/12,global.areaname);
+            draw_text_nt(game_width/2,(game_height-20),global.areaname);
             break;
     }
     draw_set_halign(fa_left);
