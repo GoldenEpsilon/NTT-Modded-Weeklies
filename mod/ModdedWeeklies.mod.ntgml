@@ -64,6 +64,19 @@ global.options = {
 	frog: true,
 	skeleton: true,
 }
+
+if(fork()){
+	wait file_load("test.txt");
+	var options = json_decode(string_load("test.txt"));
+	if options != json_error {
+		var i = 0;
+		while(lq_get_key(options, i) != undefined){
+			lq_set(global.options, lq_get_key(options, i), lq_get_value(options, i))
+		}
+	}
+exit;
+}
+
 global.canStart = false;
 global.qualified = false;
 global.endData = {
@@ -1177,4 +1190,6 @@ return global.options
 return lq_get(global.options, option)
 
 #define set_option(option, val)
-return lq_set(global.options, option, val)
+lq_set(global.options, option, val)
+string_save(json_encode(global.options), "options.json");
+return 
