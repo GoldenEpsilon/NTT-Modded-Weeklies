@@ -1697,9 +1697,7 @@ sprite_restore(sprBackButton);
 sprite_restore(sprBigPortrait);
 //sprite_restore(sprLoadoutSplat);
 
-with(instances_matching(CustomObject,"name","mod_ui_backbutton")){
-	instance_destroy();
-}
+with instances_matching_ne(BackFromCharSelect,"mod_ui",null) mod_ui = null
 
 reset_surfaces();
 
