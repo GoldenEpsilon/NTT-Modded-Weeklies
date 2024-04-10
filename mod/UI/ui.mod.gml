@@ -525,7 +525,7 @@ if button_pressed(0,"horn")
 	    var _x = xx+xxx
 	    var _y = yy+yyy
         var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,_x-12,_y-12,_x+32,_y+12)
-        if hover_over and _opened and (scoreboard_anim > 0.9){
+        if hover_over and _opened and (scoreboard_anim > 0.9) and is_array(global.scoreboard[global.current_scoreboard][i].death_cause){
         	script_bind_draw("ui_popup_draw",-1000,_x,_y,"killed by a "+string(global.scoreboard[global.current_scoreboard][i].death_cause[1]))
         	draw_sprite(global.scoreboard[global.current_scoreboard][i].death_cause[0],current_frame*0.4,_x+122,_y)
         }

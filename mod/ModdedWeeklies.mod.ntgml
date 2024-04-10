@@ -7,10 +7,9 @@
 -> set starting crown
 -> create UI for seeing weekly description
 -> play buttonmodded
--> score submission
 -> make score submission include base64 versions of sprites if the sprites are modded, so that they can be displayed
--> leaderboards
 */
+
 
 global.modes = [
 	{
@@ -268,6 +267,8 @@ with(Player){
 
 #define step
 if(!global.active || global.currentMode == ""){
+	Menu.mode=0;
+	Menu.race_id=[0,0,0,0]
 	global.active = false;
 	return;
 }
