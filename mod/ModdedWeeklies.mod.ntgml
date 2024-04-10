@@ -340,11 +340,24 @@ if(!global.finished && !instance_exists(Player) && global.start){
 	
 	if(global.qualified){
 		var mutationList = [];
+		var ultraList = [];
 		var i = 0;
 		while (true) {
 			var mut = skill_get_at(i++);
 			if (mut == undefined) break;
-			array_push(mutationList, mut);
+			if mod_exists("skill", skill_get_at(i)) && mod_script_exists("skill", skill_get_at(i), "skill_ultra") && mod_script_call("skill", skill_get_at(i), "skill_ultra") {
+				array_push(ultraList, mut);
+			}else{
+				array_push(mutationList, mut);
+			}
+		}
+
+		with(allies) {
+			for(var i = 0; i < ultra_count(race); i++) {
+				if ultra_get(race, i) {
+					array_push(ultraList, [race, i]);
+				}
+			}
 		}
 		
 		var DataSubmission = {
@@ -360,6 +373,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			"bwep": global.endData.data[0].bwep,
 			"crown": GameCont.crown,
 			"mutations": mutationList,
+			"ultras": ultraList,
 			"time": GameCont.timer,
 			"death_cause": GameCont.deathcause,
 			"color": global.endData.data[0].color,
