@@ -16,8 +16,8 @@ for(var p = 0; p < maxp; p++){
 	var alias = player_get_alias(p);
 	if alias == "Golden Epsilon" ||
 	alias == "blaac" ||
-	alias == "DragonStrive" ||
-	alias == "WigglerCola" {
+	alias == "Dragonstrive" ||
+	alias == "wigglercola" {
 		global.debug = true;
 	}
 }
@@ -58,9 +58,11 @@ global.modes = [
 global.currentMode = "";
 global.modeType = "";
 global.options = {
-	areadisplay: true,
-	miniintros: true,
-	nttcharacters: true,
+	area_display: true,
+	mini_intros: true,
+	show_co_op: false,
+	frog: true,
+	skeleton: true,
 }
 global.canStart = false;
 global.qualified = false;
@@ -1172,7 +1174,7 @@ return global.currentDate
 return global.options
 
 #define get_option(option)
-return global.options[option]
+return lq_get(global.options, option)
 
 #define set_option(option, val)
-return global.options[option] = val
+return lq_set(global.options, option, val)

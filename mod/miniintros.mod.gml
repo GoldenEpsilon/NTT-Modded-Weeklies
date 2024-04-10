@@ -41,6 +41,9 @@ if GameCont.area != GameCont.lastarea or GameCont.lastsubarea = 0{
     bigtext(level)
 }
 #define step
+	if !mod_script_call("mod", "ModdedWeeklies", "get_option", "mini_intros") {
+		return;
+	}
     if(instance_exists(GenCont)) global.newLevel = 1;
     else if(global.newLevel){
         global.newLevel = 0;
