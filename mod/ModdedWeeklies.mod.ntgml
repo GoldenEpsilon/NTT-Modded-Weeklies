@@ -353,7 +353,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			}
 		}
 
-		with(allies) {
+		with(global.endData.data) {
 			for(var i = 0; i < ultra_count(race); i++) {
 				if ultra_get(race, i) {
 					array_push(ultraList, [race, i]);
