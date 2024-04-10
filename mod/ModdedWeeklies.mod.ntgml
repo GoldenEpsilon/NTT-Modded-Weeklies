@@ -406,7 +406,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				}
 			}
 			array_push(leaderboard.scores, DataSubmission);
-			if(!get_current_data().can_resubmit || !fail){
+			if(get_current_data().can_resubmit || !fail){
 				file_delete("sha.txt");
 				while (file_exists("sha.txt")) {wait 1;}
 				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
@@ -488,9 +488,9 @@ if(!global.active){return;}
 draw_set_font(fntSmall);
 if(instance_exists(Player)) {
 	if(global.qualified == true){
-		draw_text_nt(game_width - 25, game_height - 6 - 25, get_current_data().name);
+		draw_text_nt(0, game_height - 12, "[" + get_current_data().modeName + "]");
 	}else{
-		draw_text_nt(game_width - 7*4 - 25, game_height - 12 - 25, "DISQUALIFIED#       " + get_current_data().name);
+		draw_text_nt(0, game_height - 18, "[DISQUALIFIED]#" + "[" + get_current_data().modeName + "]");
 	}
 }
 
