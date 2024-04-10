@@ -1697,6 +1697,10 @@ sprite_restore(sprBackButton);
 sprite_restore(sprBigPortrait);
 //sprite_restore(sprLoadoutSplat);
 
+with(instances_matching(CustomObject,"name","mod_ui_backbutton")){
+	instance_destroy();
+}
+
 reset_surfaces();
 
 #define reset_surfaces   

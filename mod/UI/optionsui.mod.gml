@@ -129,3 +129,11 @@ with Loadout {
         draw_sprite_ext(global.toggleImage,val,x+sprite_width-24,y+sprite_height/4+yoffset,2,2,0,image_blend,1);
     } 
 }
+
+#define cleanup
+    with instances_matching(CustomObject,"name","mod_ui_options_button"){
+        instance_destroy();
+    }
+    with instances_matching(CustomObject,"name","mod_ui_option"){
+        instance_destroy();
+    }

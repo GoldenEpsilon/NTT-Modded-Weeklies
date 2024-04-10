@@ -148,3 +148,11 @@ with Loadout {
         draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
     } 
 }
+
+#define cleanup
+    with instances_matching(CustomObject,"name","mod_ui_mode_swap_button"){
+        instance_destroy();
+    }
+    with instances_matching(CustomObject,"name","mod_ui_mode_button"){
+        instance_destroy();
+    }

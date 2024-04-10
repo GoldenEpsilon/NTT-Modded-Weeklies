@@ -408,6 +408,7 @@ if(global.qualified == true && global.canStart && global.ModNames != ""){
 */
 
 with(Player){
+	if race == 0 continue;
 	global.endData.data[index] = {
 		alias: player_get_alias(index),
 		wep: wep,
