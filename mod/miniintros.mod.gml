@@ -79,7 +79,7 @@ if GameCont.area != GameCont.lastarea or GameCont.lastsubarea = 0{
         }
         else{
         	var bb = (hitid = 6) 
-        	text = death_cause(hitid)[1]
+        	text = killed_by(hitid)[1]
         	
         	if bb and GameCont.loops >= 1
         	text = string(text)+"s"
@@ -112,7 +112,7 @@ if GameCont.area != GameCont.lastarea or GameCont.lastsubarea = 0{
     draw_set_halign(0)
     instance_destroy()
 
-#define death_cause(_cause)
+#define killed_by(_cause)
 	/*
 		Returns the death cause associated with a given index as an array containing [Sprite, Name]
 	*/

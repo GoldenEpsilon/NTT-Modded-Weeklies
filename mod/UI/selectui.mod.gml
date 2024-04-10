@@ -39,10 +39,10 @@ for(var i = 0; i < array_length(modedata); i++) {
 					//trace(choose(""," ","  "),"hover")
 					if button_pressed(i,"fire"){
                         mod_variable_set("mod", "ModdedWeeklies", "currentMode", modeName);
+                        mod_script_call("mod", "ModdedWeeklies", "loadAllMods");
 						with(instances_matching(CustomObject, "name", "mod_ui_swap_button")){
 							instance_destroy();
 						}
-                        mod_script_call("mod", "ModdedWeeklies", "loadAllMods");
 						exit;
 					}
 					hover = 1;
@@ -94,18 +94,13 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_swap_button"))<1{
         while instance_exists(self){
             var hover = 0;
             
-            var _loadout = false
-            with Loadout if selected _loadout = true
-            
-            //y = ystart - 210*menu_anim - 64*_loadout
-            
             for(var i=0;i<maxp;i++){
                 if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index)){
                     //trace(choose(""," ","  "),"hover")
                     if button_pressed(i,"fire"){
                         //exit;
                         modeSelectionButtons();
-                        exit;
+						exit;
                     }
                     hover = 1;
                 }

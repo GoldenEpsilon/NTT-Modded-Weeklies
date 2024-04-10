@@ -11,6 +11,16 @@
 */
 
 
+//Chat anticheat vars
+global.active = true;
+global.cheating = [];
+global.regChat = [];
+for(var p = 0; p < maxp; p++){
+	array_push(global.cheating, 0);
+	array_push(global.regChat, 0);
+}
+
+//other Vars
 global.modes = [
 	{
 		name: "Invalid",
@@ -36,17 +46,11 @@ global.modes = [
 ]
 global.currentMode = "";
 global.modeType = "";
-
-//Chat anticheat vars
-global.active = true;
-global.cheating = [];
-global.regChat = [];
-for(var p = 0; p < maxp; p++){
-	array_push(global.cheating, 0);
-	array_push(global.regChat, 0);
+global.options = {
+	areadisplay: true,
+	miniintros: true,
+	nttcharacters: true,
 }
-
-//other Vars
 global.canStart = false;
 global.qualified = false;
 global.endData = {
@@ -100,6 +104,7 @@ for(i = 0; i < array_length(mod_get_names("mod")); i=i){
 		modname != "areadisplay" && 
 		modname != "miniintros" && 
 		modname != "selectui" && 
+		modname != "optionsui" && 
 		modname != "ui"){
 		mod_unload(mod_get_names("mod")[i]);
 	} else {
@@ -376,7 +381,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			"mutations": mutationList,
 			"ultras": ultraList,
 			"time": GameCont.timer,
-			"death_cause": GameCont.deathcause,
+			"killed_by": GameCont.deathcause,
 			"color": global.endData.data[0].color,
 			"allies": global.endData.data,
 		}
@@ -1082,3 +1087,12 @@ if(fork()){
 #define getModeDate(mode)
 if "weekly" in mode && mode.weekly {return global.currentWeek}
 return global.currentDate
+
+#define get_options()
+return global.options
+
+#define get_option(option)
+return global.options[option]
+
+#define set_option(option, val)
+return global.options[option] = val

@@ -1,5 +1,5 @@
-/loadsprite sprLoadoutSplat blank_strip3.png
-/loadsprite sprBackButton blank_strip3.png
+/load sprites
 /loadmod ui
 /loadmod selectui
+/loadmod optionsui
 /loadtext main2
