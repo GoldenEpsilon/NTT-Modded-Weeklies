@@ -146,6 +146,12 @@ with Loadout {
     } 
     with instances_matching(CustomObject,"name","mod_ui_mode_button"){
         draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
+        draw_set_font(fntM)
+		draw_set_halign(1)
+		draw_set_valign(1)
+		draw_text(x+sprite_width/2*xscale, y+yoffset+10, string_replace(modeName, " ", "#"));
+		draw_set_halign(0)
+		draw_set_valign(0)
     } 
 }
 
