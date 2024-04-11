@@ -72,9 +72,10 @@ if(fork()){
 		var i = 0;
 		while(lq_get_key(options, i) != undefined){
 			lq_set(global.options, lq_get_key(options, i), lq_get_value(options, i))
+			i++;
 		}
 	}
-exit;
+	exit;
 }
 
 global.canStart = false;
