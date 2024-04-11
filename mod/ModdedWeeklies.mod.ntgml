@@ -66,8 +66,8 @@ global.options = {
 }
 
 if(fork()){
-	wait file_load("test.txt");
-	var options = json_decode(string_load("test.txt"));
+	wait file_load("options.json");
+	var options = json_decode(string_load("options.json"));
 	if options != json_error {
 		var i = 0;
 		while(lq_get_key(options, i) != undefined){
@@ -90,13 +90,24 @@ global.data = []
 global.currentDate = "";
 global.currentWeek = "";
 
+global.forks = 0;
+
 wait(3);
+
 while(!mod_sideload()){wait 1;}
+
+getCurrentDate();
+
+loadLeaderboards();
+
+loadModes();
+
+while(global.currentMode == "") {wait(0)}
+
 if !global.debug {
 	global.NoChat = instance_create(0,0,SetKey);
 	global.NoChat.persistent = true;
 }
-global.forks = 0;
 checkForUpdates("weeklies", "GoldenEpsilon/NTT-Modded-Weeklies")
 global.qualified = true;
 current_time_scale = 1/(room_speed/30);
@@ -117,8 +128,6 @@ getCurrentDate();
 loadLeaderboards();
 
 loadModes();
-
-mod_script_call("mod", "selectui", "toggleModeSelectionButtons");
 
 trace("Today is " + global.currentDate);
 
@@ -285,7 +294,7 @@ with(Player){
 		wep: wep,
 		bwep: bwep,
 		color: player_get_color(index),
-		race: race,
+		race: race_id,
 		skin: bskin
 	}
 	global.endData.initialdata[index] = {
@@ -293,12 +302,13 @@ with(Player){
 		wep: wep,
 		bwep: bwep,
 		color: player_get_color(index),
-		race: race,
+		race: race_id,
 		skin: bskin
 	}
 }
 
 #define step
+if global.currentMode == "" {return;}
 
 if global.debug {
 	for(var p = 0; p < maxp; p++){
@@ -363,13 +373,14 @@ if global.debug {
 	}
 }
 
-if(!global.active || global.currentMode == ""){
+if(!global.active || global.currentMode == "" || !global.canStart){
+	with(CharSelect){
+		noinput = 3;
+	}
 	with(Menu){
-		mode=0;
 		race_id=[0,0,0,0]
 	}
 	global.active = false;
-	return;
 }
 cheat_check();
 
@@ -448,13 +459,12 @@ if(global.qualified == true && global.canStart && global.ModNames != ""){
 */
 
 with(Player){
-	if race == 0 continue;
 	global.endData.data[index] = {
 		alias: player_get_alias(index),
 		wep: wep,
 		bwep: bwep,
 		color: player_get_color(index),
-		race: race,
+		race: race_id,
 		skin: bskin
 	}
 }
@@ -518,6 +528,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			"killed_by": GameCont.deathcause,
 			"color": global.endData.data[0].color,
 			"allies": global.endData.data,
+			"loadout": global.endData.initialdata,
 		}
 	
 		headers = ds_map_create();
@@ -595,6 +606,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 }
 	
 #define draw_pause
+if global.currentMode == "" {return;}
 //remove restart buttons
 if instance_exists(button) with button {
 	if num == 1 || num == 0 {
@@ -644,6 +656,7 @@ if(global.qualified){
 }
 
 #define draw_gui
+if global.currentMode == "" {return;}
 if(!global.active){return;}
 draw_set_font(fntSmall);
 if(instance_exists(Player)) {
@@ -655,6 +668,7 @@ if(instance_exists(Player)) {
 }
 
 #define draw_gui_end
+if global.currentMode == "" {return;}
 for(var p = 0; p < maxp; p++){
 	if(global.cheating[p] == 1){
 		draw_set_color(make_color_rgb(51, 37, 30));
