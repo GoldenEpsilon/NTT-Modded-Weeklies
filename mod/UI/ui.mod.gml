@@ -227,7 +227,7 @@ var does_the_mod_exist = mod_exists("mod",moddedweeklies_mod_file)
 
 if does_the_mod_exist{
     
-    global.scoreboard = [{},{},{}]
+    global.scoreboard = [[],[],[]]
 
     global.scoreboard = 
         mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Kills")
@@ -357,10 +357,13 @@ draw_set_projection(0, 0)
     //scoreboard_pos[global.current_scoreboard] = clamp(scoreboard_pos[global.current_scoreboard],0,array_length(global.scoreboard[global.current_scoreboard])-scoreboard_number_of_rows )
     //
     scoreboard_pos[global.current_scoreboard] = round(scoreboard_pos[global.current_scoreboard])
+	if scoreboard_pos[global.current_scoreboard] < 0 {
+		scoreboard_pos[global.current_scoreboard] = 0;
+	}
     
     //if scoreboard_opened>(scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows) or scoreboard_opened<scoreboard_pos[global.current_scoreboard]
     //    scoreboard_opened = -4
-        for(var i = scoreboard_pos[global.current_scoreboard]  ;i<    (scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows ) && i >= 0 && i < array_length(global.scoreboard[global.current_scoreboard])   ;i++){
+        for(var i = scoreboard_pos[global.current_scoreboard]  ;i<    (scoreboard_pos[global.current_scoreboard]+scoreboard_number_of_rows ) && i < array_length(global.scoreboard[global.current_scoreboard])   ;i++){
         
         
 	    draw_set_halign(0)

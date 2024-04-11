@@ -373,6 +373,24 @@ if(!global.active || global.currentMode == ""){
 }
 cheat_check();
 
+if global.currentMode != "" {
+	with(Menu){
+		if "crown" in get_current_data() && get_current_data().crown != 0 {
+			var crwn = get_current_data().crown;
+			if is_array(crwn){
+				for(var i = 0; i < 4; i++) {
+					if(!array_contains(crown, crwn[i])){
+						crwn[i] = 1;
+					}
+				}
+				crown = crwn;
+			}else{
+				crown = [crwn, crwn, crwn, crwn]
+			}
+		}
+	}
+}
+
 if(instance_exists(Menu)){
 	if global.options.frog != mod_variable_get("mod", "ui", "frog") {
 		mod_variable_set("mod", "ui", "frog", global.options.frog)
@@ -687,8 +705,8 @@ if(fork()){
 #define getScores(sortingSystem)
 	switch(sortingSystem){
 		case "Kills":
-			with(global.leaderboard){
-				native_array_sort(self, function(elm1, elm2)
+			for(var i = 0; i < array_length(global.leaderboard); i++){
+				native_array_sort(global.leaderboard[i], function(elm1, elm2)
 				{
 					return elm2.kills - elm1.kills;
 				});
