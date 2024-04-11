@@ -759,9 +759,9 @@ with Loadout{
 if selected menu_opened = false
 //daily button
 if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1{
-    with instance_create(game_width-24,7,CustomObject){
+    with instance_create(game_width-24-8,7-4,CustomObject){
         name = "mod_ui_daily_button";
-        sprite_index = sprDailyChallengeOn;
+        sprite_index = sprCredits;
         image_speed = 0;
         depth = 0;
         yoffset = 1;
@@ -772,7 +772,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1
         if fork(){
         while instance_exists(self){
             var hover = 0;
-            x = game_width-24
+            x = game_width-24-8
             var _loadout = false
             with Loadout if selected _loadout = true
             

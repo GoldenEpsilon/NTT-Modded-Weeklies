@@ -67,9 +67,9 @@ if mod_variable_get("mod", "ui", "menu_opened") {
 }
 if(instance_exists(Menu))
 if array_length(instances_matching(CustomObject,"name","mod_ui_options_button"))<1{
-    with instance_create(game_width-62,7,CustomObject){
+    with instance_create(game_width-62-8,7-4,CustomObject){
         name = "mod_ui_options_button";
-        sprite_index = global.swapButtonImage;
+        sprite_index = sprOptions;
 		image_index = 4;
 		xscale = 1;
 		yscale = 1;

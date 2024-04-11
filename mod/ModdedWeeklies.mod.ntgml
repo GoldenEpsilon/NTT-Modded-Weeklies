@@ -1095,6 +1095,7 @@ ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
 global.data = [];
 
 for var i = 0; i < array_length(global.modes); i++ {
+	if global.modes[i].name == "Invalid" {continue;}
 	file_delete("current"+global.modes[i].name+".json");
 	while (file_exists("current"+global.modes[i].name+".json")) {wait 1;}
 	http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[i].folder + `/` + getModeDate(global.modes[i]) + `/data.json`
@@ -1130,6 +1131,21 @@ for var i = 0; i < array_length(global.modes); i++ {
 	}
 	if "modeName" not in dl {
 		dl.modeName = global.modes[i].name;
+	}
+	
+	if(!dl.can_resubmit) {
+		while(array_length(global.leaderboard) < i){wait(1)}
+		leaderboard = global.leaderboard[i-1];
+		var fail = false;
+		for(var i2 = 0; i2 < array_length(leaderboard); i2++){
+			// Checking specifically player 1
+			if leaderboard[i2].allies[0].alias == player_get_alias(0) {
+				fail = true;
+			}
+		}
+		dl.valid = !fail;
+	}else {
+		dl.valid = true;
 	}
 	array_push(global.data, dl);
 }

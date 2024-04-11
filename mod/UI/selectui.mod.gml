@@ -1,4 +1,4 @@
-global.swapButtonImage = sprite_add("DailyIcons.png", 7, 0, 0);
+global.swapButtonImage = sprite_add("DailyIcons.png", 8, 0, 0);
 
 #define toggleModeSelectionButtons()
 mod_variable_set("mod", "ui", "menu_opened", false)
@@ -20,7 +20,7 @@ for(var i = 0; i < array_length(modedata); i++) {
 	with instance_create(game_width/2 - ((array_length(modedata)/2 - i) * 72),game_height/2-48,CustomObject){
 		name = "mod_ui_mode_button";
 		sprite_index = global.swapButtonImage;
-        image_index = modedata[i].index;
+        image_index = "valid" in modedata[i] && modedata[i].valid ? modedata[i].index : 4;
 		modeName = modedata[i].modeName;
 		xscale = 4;
 		yscale = 4;
@@ -91,7 +91,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"
     with instance_create(game_width-43,7,CustomObject){
         name = "mod_ui_mode_swap_button";
         sprite_index = global.swapButtonImage;
-		image_index = "index" in modedata ? modedata.index : 0;
+		image_index = "index" in modedata && "valid" in modedata && modedata.valid ? modedata.index : 4;
 		xscale = 1;
 		yscale = 1;
         image_speed = 0;
@@ -104,6 +104,9 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"
         if fork(){
 		wait(0)
         while instance_exists(self){
+			modedata = mod_script_call("mod", "ModdedWeeklies", "get_current_data")
+			image_index = "index" in modedata && "valid" in modedata && modedata.valid ? modedata.index : 4;
+
             var hover = 0;
             
             for(var i=0;i<maxp;i++){
