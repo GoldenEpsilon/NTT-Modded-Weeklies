@@ -374,18 +374,17 @@ if(!global.active || global.currentMode == ""){
 cheat_check();
 
 if global.currentMode != "" {
-	with(Menu){
+	with(UberCont){
 		if "crown" in get_current_data() && get_current_data().crown != 0 {
-			var crwn = get_current_data().crown;
-			if is_array(crwn){
-				for(var i = 0; i < 4; i++) {
-					if(!array_contains(crown, crwn[i])){
-						crwn[i] = 1;
+			for(var i = 0; i < array_length(startcrown); i++) {
+				var crwn = get_current_data().crown;
+				if is_array(crwn){
+					if(!array_contains(crwn, startcrown[i])){
+						startcrown[i] = crwn[0];
 					}
+				}else{
+					startcrown[i] = crwn;
 				}
-				crown = crwn;
-			}else{
-				crown = [crwn, crwn, crwn, crwn]
 			}
 		}
 	}
