@@ -1040,6 +1040,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_superbutton"))<1{
         }
     }
 //backbutton
+/*
 with instances_matching(BackFromCharSelect,"mod_ui",null){
 	ystart-=64
 	mod_ui = true
@@ -1112,6 +1113,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_backbutton"))=0
 			exit;
 		}
 	}
+*/
 
 //draw buttons
 with Loadout{
@@ -1572,7 +1574,11 @@ if is_string(race){
         sprt[1] = 0
         //i dont know how to make it use the skin if the sprite is or isnt a sprite strip
     }
-}else{
+	if race_get_id(race) > 0 && race_get_id(race) <= 16 {
+		race = race_get_id(race)
+	}
+}
+if is_real(race){
     sprt = [sprCharSelect,race]
 }
 

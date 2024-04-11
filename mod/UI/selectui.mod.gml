@@ -91,7 +91,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"
     with instance_create(game_width-43,7,CustomObject){
         name = "mod_ui_mode_swap_button";
         sprite_index = global.swapButtonImage;
-		image_index = "index" in modedata && "valid" in modedata && modedata.valid ? modedata.index : 4;
+		image_index = "index" in modedata ? ("valid" in modedata && modedata.valid ? modedata.index : 4) : 0;
 		xscale = 1;
 		yscale = 1;
         image_speed = 0;
@@ -105,7 +105,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"
 		wait(0)
         while instance_exists(self){
 			modedata = mod_script_call("mod", "ModdedWeeklies", "get_current_data")
-			image_index = "index" in modedata && "valid" in modedata && modedata.valid ? modedata.index : 4;
+			image_index = "index" in modedata ? ("valid" in modedata && modedata.valid ? modedata.index : 4) : 0;
 
             var hover = 0;
             
