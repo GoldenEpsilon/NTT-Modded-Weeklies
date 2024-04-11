@@ -294,7 +294,7 @@ with(Player){
 		wep: wep,
 		bwep: bwep,
 		color: player_get_color(index),
-		race: race_id,
+		race: race_id < 17 ? race_id : race,
 		skin: bskin
 	}
 	global.endData.initialdata[index] = {
@@ -302,7 +302,7 @@ with(Player){
 		wep: wep,
 		bwep: bwep,
 		color: player_get_color(index),
-		race: race_id,
+		race: race_id < 17 ? race_id : race,
 		skin: bskin
 	}
 }
@@ -464,7 +464,7 @@ with(Player){
 		wep: wep,
 		bwep: bwep,
 		color: player_get_color(index),
-		race: race_id,
+		race: race_id < 17 ? race_id : race,
 		skin: bskin
 	}
 }
