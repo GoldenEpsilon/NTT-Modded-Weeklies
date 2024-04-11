@@ -364,8 +364,10 @@ if global.debug {
 }
 
 if(!global.active || global.currentMode == ""){
-	Menu.mode=0;
-	Menu.race_id=[0,0,0,0]
+	with(Menu){
+		mode=0;
+		race_id=[0,0,0,0]
+	}
 	global.active = false;
 	return;
 }
