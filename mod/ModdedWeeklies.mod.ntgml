@@ -586,6 +586,9 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				trace("You've already played this Daily!");
 			}
 		}
+		if !get_current_data().can_resubmit {
+			get_current_data().valid = false;
+		}
 	}else{
 		trace("You were disqualified, so your scores were not uploaded.");
 	}
@@ -644,10 +647,10 @@ if(global.qualified){
 if(!global.active){return;}
 draw_set_font(fntSmall);
 if(instance_exists(Player)) {
-	if(global.qualified == true){
-		draw_text_nt(0, game_height - 12, "[" + get_current_data().modeName + "]");
+	if(global.qualified == true && get_current_data().valid){
+		draw_text_nt(32, game_height - 6, "[" + get_current_data().modeName + "]");
 	}else{
-		draw_text_nt(0, game_height - 18, "[DISQUALIFIED]#" + "[" + get_current_data().modeName + "]");
+		draw_text_nt(32, game_height - 6, "[" + get_current_data().modeName + "]" + "[DISQUALIFIED]");
 	}
 }
 
