@@ -1,0 +1,24 @@
+{
+	"name":  false,
+	"description": false,
+	"can_resubmit": false,
+	"disable_vaults": false,
+	"starting_crown": true,
+	"starting_weapon": true,
+	"race_list": true,
+	"seed": 3631785,
+	"index": 6,
+	"mods": [
+
+		{
+			"download_type": "direct",
+			"name": "Grillskills",
+			"description": false,
+			"url": "https://cdn.discordapp.com/attachments/145126902074441729/901959980553486416/grillskills.mod.gml?ex=662592b0&is=66131db0&hm=c29f1196287d4eeb1540f3b0e57a4bd56d2bfc27649bf45ecebc1dff87dd95a5&"
+		},
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": 1,
+}

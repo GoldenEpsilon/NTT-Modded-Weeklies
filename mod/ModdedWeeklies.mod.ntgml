@@ -788,6 +788,14 @@ if(fork()){
 				});
 			}
 			break;
+		case "Difficulty":
+			for(var i = 0; i < array_length(global.leaderboard); i++){
+				native_array_sort(global.leaderboard[i], function(elm1, elm2)
+				{
+					return (elm2.hard != elm1.hard) ? (elm2.hard - elm1.hard) : elm2.kills - elm1.kills;
+				});
+			}
+			break;
 	}
 	return global.leaderboard;
 
@@ -801,7 +809,7 @@ if global.currentDate != "" {
 
 file_download("http://yal.cc/ping", "ping.txt");
 while (!file_loaded("ping.txt")) wait 1;
-var unixTime = real(string_load("ping.txt"));
+var unixTime = real(string_load("ping.txt")) - (3600*5); //CST
 var unixDays = floor(unixTime/86400);
 var day = unixDays;
 var year = 1970;
@@ -1329,4 +1337,42 @@ return lq_get(global.options, option)
 #define set_option(option, val)
 lq_set(global.options, option, val)
 string_save(json_encode(global.options), "options.json");
-return 
+
+
+#define chat_command
+if(argument0 = "loaddaily"){
+	if(fork()){
+		global.headers = ds_map_create();
+		ds_map_set(global.headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
+		ds_map_set(global.headers, "cache-control", "no-cache");	
+		ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
+		file_delete("current"+"TESTING"+".json");
+		while (file_exists("current"+"TESTING"+".json")) {wait 1;}
+		http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + argument1 + `/data.json`
+		, "GET", global.headers,
+		``
+		, "current"+"TESTING"+".json");
+		while (!file_loaded("current"+"TESTING"+".json")) {wait 1;}
+		//trace(string_load("current"+"TESTING"+".json"))
+		var dl = {};
+		if(array_length(string_split(string_load("current"+"TESTING"+".json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
+			dl = json_decode(string_load("current"+"TESTING"+".json"));
+			if dl == json_error {
+				file_unload("current"+"TESTING"+".json");
+				trace(argument1 + " not found");
+				exit;
+			}
+		}
+		file_unload("current"+"TESTING"+".json");
+		while (file_loaded("current"+"TESTING"+".json")) {wait 1;}
+		dl.index = 0;
+		dl.modeName = "TESTING";
+		dl.valid = false;
+		global.data[0] = dl;
+		global.currentMode = "TESTING"
+		global.qualified = false;
+		loadAllMods();
+		exit;
+	}
+    return true;
+}    

@@ -1,0 +1,69 @@
+{
+	"name": false,
+	"description": false,
+	"can_resubmit": false,
+	"disable_vaults": false,
+	"seed": 8363659,
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Feels Like Vanilla",
+			"description": false,
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "itch",
+			"name": "Detonator",
+			"description": false,
+			"url": "https://yokin.itch.io/detonator"
+		},
+		{
+			"download_type": "itch",
+			"name": "Scales",
+			"description": false,
+			"url": "https://dragonstrive.itch.io/scales",
+			"globals": [
+				{
+					"mod_type": "race",
+					"mod_name": "scales",
+					"variable": "simple_ultras",
+					"value": true
+				}
+			]
+		},
+		{
+			"download_type": "itch",
+			"name": "The Undergrowth",
+			"description": false,
+			"url": "https://attfooy.itch.io/undergrowth",
+			"patches": [
+				{
+					"file": "undergrowth.mod.gml",
+					"url": "https://cdn.discordapp.com/attachments/1224798368199479296/1225569068002705429/undergrowth.mod.gml?ex=66219b23&is=660f2623&hm=27a79a717b173d8e1ceba57b4eaff9bbf2ad495f7151e1ea8daace7a2bca5b0f&",
+				}
+			]
+		},
+		{
+			"download_type": "itch",
+			"name": "Blaacskills",
+			"description": false,
+			"url": "https://blaac.itch.io/weapon-mutations"
+		},
+		{
+			"download_type": "itch",
+			"name": "blaac mutation changes",
+			"description": false,
+			"url": "https://blaac.itch.io/bmutations"
+		},
+		{
+			"download_type": "itch",
+			"name": "blaac weapon changes",
+			"description": false,
+			"url": "https://blaac.itch.io/bweapons"
+		},
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": 1,
+}

@@ -1,0 +1,31 @@
+{
+	"name": "I Hope You Explode",
+	"description": false,
+	"can_resubmit": false,
+	"disable_vaults": false,
+	"seed": 2764289,
+	"mods": [
+		{
+			"download_type": "direct",
+			"name": "Defpack",
+			"description": false,
+			"url": "https://github.com/jsburger/defpack/archive/refs/heads/master.zip"
+		},
+		{
+			"download_type": "direct",
+			"name": "Lots O' Muts",
+			"description": false,
+			"url": "https://github.com/jsburger/defpack/archive/refs/heads/master.zip"
+		},
+		{
+			"download_type": "direct",
+			"name": "Varia 10K Weapons",
+			"description": false,
+			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1228396688012480574/VA_10K.zip?ex=662be490&is=66196f90&hm=80359e6719fb5e2751aaae345a0f7eeb91f05f69e855d6531ca811e190d3ff02&"
+		},
+	],
+	"race": false,
+	"wep": [true, 7, 14],
+	"bwep": false,
+	"crown": [true, 2],
+}

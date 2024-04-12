@@ -228,9 +228,7 @@ var does_the_mod_exist = mod_exists("mod",moddedweeklies_mod_file)
 
 if does_the_mod_exist{
 
-    global.scoreboard = 
-        mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Kills")
-        //please sort them by kills/display order
+    global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Kills")
 }
 }
 
@@ -535,7 +533,7 @@ draw_set_projection(0, 0)
         
         if hover_over and _opened and (scoreboard_anim > 0.9){
         	//var _text = area_get_name(global.scoreboard[global.current_scoreboard][i].area)
-        	script_bind_draw("ui_popup_draw",-1000,_x+64,_y,_text)
+        	script_bind_draw("ui_popup_draw",-1000,_x+64,_y,"Difficulty: " + string(global.scoreboard[global.current_scoreboard][i].hard))
         }
         
         
@@ -795,6 +793,7 @@ with Loadout{
 	//    scoreboard_opened = -4
    
     draw_reset_projection()
+	draw_set_valign(0)
 }
     
     
@@ -1320,6 +1319,7 @@ with Loadout{
 	    //click
 	    global.current_scoreboard = 0
 	    scoreboard_opened = -4
+		global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Kills")
 	}
 	var _active = global.current_scoreboard = 0
 	draw_set_color((mouse_over or _active)?c_white:c_silver)
@@ -1334,6 +1334,7 @@ with Loadout{
 	    //click
 	    global.current_scoreboard = 1
 	    scoreboard_opened = -4
+		global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Difficulty")
 	}
 	var _active = global.current_scoreboard = 1
 	draw_set_color((mouse_over or _active)?c_white:c_silver)
@@ -1350,6 +1351,7 @@ with Loadout{
 	    //click
 	    global.current_scoreboard = 2
 	    scoreboard_opened = -4
+		global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Difficulty")
 	}
 	var _active = global.current_scoreboard = 2
 	draw_set_color((mouse_over or _active)?c_white:c_silver)
@@ -1391,6 +1393,7 @@ with Loadout{
 	//    scoreboard_opened = -4
    
     draw_reset_projection()
+	draw_set_valign(0)
 }
 }
 #define ui_popup_draw(_x,_y,_text)
