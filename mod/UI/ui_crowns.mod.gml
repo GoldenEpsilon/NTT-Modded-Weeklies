@@ -8,7 +8,7 @@
 global.mod_bigcrown = sprite_add("sprites/mod_mutation.png",1,8,8)
 
 global.currentcrown = 1
-global.wantcrown = -1
+global.wantcrown = 1
 
 global.crowns = [0]
 

@@ -105,6 +105,13 @@ loadLeaderboards();
 
 loadModes();
 
+wait file_load("modestorage.txt");
+if file_exists("modestorage.txt") {
+	global.currentMode = string_load("modestorage.txt");
+	file_delete("modestorage.txt");
+	file_unload("modestorage.txt");
+}
+
 while(global.currentMode == "") {wait(0)}
 
 if !global.debug {
@@ -275,7 +282,7 @@ global.canStart = true;
 global.active = true;
 
 #define game_start
-if(!global.active || global.currentMode == ""){
+if(global.currentMode == ""){
 	global.active = false;
 	return;
 }
@@ -314,6 +321,47 @@ with(Player){
 		race: race_id < 17 && race_id > 0 ? race_id : race,
 		skin: bskin
 	}
+}
+
+var mutationList = [];
+var ultraList = [];
+var i = 0;
+while (true) {
+	var mut = skill_get_at(i++);
+	if (mut == undefined) break;
+	if mod_exists("skill", skill_get_at(i)) && mod_script_exists("skill", skill_get_at(i), "skill_ultra") && mod_script_call("skill", skill_get_at(i), "skill_ultra") {
+		array_push(ultraList, mut);
+	}else{
+		array_push(mutationList, mut);
+	}
+}
+
+with(global.endData.data) {
+	for(var i = 0; i < ultra_count(race); i++) {
+		if ultra_get(race, i) {
+			array_push(ultraList, [race, i]);
+		}
+	}
+}
+global.DataSubmission = {
+	"name": global.endData.alias,
+	"kills": GameCont.kills,
+	"race": global.endData.data[0].race,
+	"skin": global.endData.data[0].skin,
+	"area": GameCont.area,
+	"subarea": GameCont.subarea,
+	"loop": GameCont.loops,
+	"hard": GameCont.hard,
+	"wep": global.endData.data[0].wep,
+	"bwep": global.endData.data[0].bwep,
+	"crown": GameCont.crown,
+	"mutations": mutationList,
+	"ultras": ultraList,
+	"time": GameCont.timer,
+	"killed_by": GameCont.deathcause,
+	"color": global.endData.data[0].color,
+	"allies": global.endData.data,
+	"loadout": global.endData.initialdata,
 }
 
 #define step
@@ -382,7 +430,7 @@ if global.debug {
 	}
 }
 
-if(!global.active || global.currentMode == "" || !global.canStart){
+if(global.currentMode == "" || !global.canStart){
 	with(CharSelect){
 		noinput = 3;
 	}
@@ -473,8 +521,51 @@ with(Player){
 		wep: wep,
 		bwep: bwep,
 		color: player_get_color(index),
-		race: race_id < 17 && race_id > 0 ? race_id : race,
+		race: race_id < 17 && race_id > 0 ? race_id : self.race,
 		skin: bskin
+	}
+}
+
+if GameCont.timer > 0 {
+	var mutationList = [];
+	var ultraList = [];
+	var i = 0;
+	while (true) {
+		var mut = skill_get_at(i++);
+		if (mut == undefined) break;
+		if mod_exists("skill", skill_get_at(i)) && mod_script_exists("skill", skill_get_at(i), "skill_ultra") && mod_script_call("skill", skill_get_at(i), "skill_ultra") {
+			array_push(ultraList, mut);
+		}else{
+			array_push(mutationList, mut);
+		}
+	}
+
+	with(global.endData.data) {
+		for(var i = 0; i < ultra_count(race); i++) {
+			if ultra_get(race, i) {
+				array_push(ultraList, [race, i]);
+			}
+		}
+	}
+	global.DataSubmission = {
+		"name": global.endData.alias,
+		"kills": GameCont.kills,
+		"race": global.endData.data[0].race,
+		"skin": global.endData.data[0].skin,
+		"area": GameCont.area,
+		"subarea": GameCont.subarea,
+		"loop": GameCont.loops,
+		"hard": GameCont.hard,
+		"wep": global.endData.data[0].wep,
+		"bwep": global.endData.data[0].bwep,
+		"crown": GameCont.crown,
+		"mutations": mutationList,
+		"ultras": ultraList,
+		"time": GameCont.timer,
+		"killed_by": GameCont.deathcause,
+		"color": global.endData.data[0].color,
+		"allies": global.endData.data,
+		"loadout": global.endData.initialdata,
 	}
 }
 
@@ -497,49 +588,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 	trace(score);
 	global.finished = true;
 	
-	if(global.qualified){
-		var mutationList = [];
-		var ultraList = [];
-		var i = 0;
-		while (true) {
-			var mut = skill_get_at(i++);
-			if (mut == undefined) break;
-			if mod_exists("skill", skill_get_at(i)) && mod_script_exists("skill", skill_get_at(i), "skill_ultra") && mod_script_call("skill", skill_get_at(i), "skill_ultra") {
-				array_push(ultraList, mut);
-			}else{
-				array_push(mutationList, mut);
-			}
-		}
-
-		with(global.endData.data) {
-			for(var i = 0; i < ultra_count(race); i++) {
-				if ultra_get(race, i) {
-					array_push(ultraList, [race, i]);
-				}
-			}
-		}
-		
-		var DataSubmission = {
-			"name": global.endData.alias,
-			"kills": GameCont.kills,
-			"race": global.endData.data[0].race,
-			"skin": global.endData.data[0].skin,
-			"area": GameCont.area,
-			"subarea": GameCont.subarea,
-			"loop": GameCont.loops,
-			"hard": GameCont.hard,
-			"wep": global.endData.data[0].wep,
-			"bwep": global.endData.data[0].bwep,
-			"crown": GameCont.crown,
-			"mutations": mutationList,
-			"ultras": ultraList,
-			"time": GameCont.timer,
-			"killed_by": GameCont.deathcause,
-			"color": global.endData.data[0].color,
-			"allies": global.endData.data,
-			"loadout": global.endData.initialdata,
-		}
-	
+	if(global.qualified){	
 		headers = ds_map_create();
 		ds_map_set(headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
 		ds_map_set(headers, "cache-control", "no-cache");
@@ -565,22 +614,22 @@ if(!global.finished && !instance_exists(Player) && global.start){
 			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
 			, "PUT", headers,
 			`{
-			"message":"Leaderboard Update (New leaderboard!) (` + DataSubmission.name + `)",
-			"content":"`+base64(json_encode({scores: [DataSubmission]}))+`"
+			"message":"Leaderboard Update (New leaderboard!) (` + global.DataSubmission.name + `)",
+			"content":"`+base64(json_encode({scores: [global.DataSubmission]}))+`"
 			}`
 			, "out.txt");
-			global.leaderboard[get_current_mode().index] = [DataSubmission];
+			global.leaderboard[get_current_mode().index] = [global.DataSubmission];
 			if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
 		}else{
 			leaderboard = json_decode(leaderboard);
 			var fail = false;
 			for(var i = 0; i < array_length(leaderboard.scores); i++){
 				// Checking specifically player 1
-				if leaderboard.scores[i].allies[0].alias == DataSubmission.allies[0].alias {
+				if leaderboard.scores[i].allies[0].alias == global.DataSubmission.allies[0].alias {
 					fail = true;
 				}
 			}
-			array_push(leaderboard.scores, DataSubmission);
+			array_push(leaderboard.scores, global.DataSubmission);
 			if(get_current_data().can_resubmit || !fail){
 				file_delete("sha.txt");
 				while (file_exists("sha.txt")) {wait 1;}
@@ -595,7 +644,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
 				, "PUT", headers,
 				`{
-				"message":"Leaderboard Update (` + DataSubmission.name + `)",
+				"message":"Leaderboard Update (` + global.DataSubmission.name + `)",
 				"content":"`+base64(json_encode(leaderboard))+`",
 				"sha":"`+sha+`"
 				}`
@@ -1106,6 +1155,7 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 	}
 	trace_color("Update for " + _name + " complete!", c_purple);
 	string_save("/allowmod ModdedWeeklies\n/allowmod ui.mod.gml\n/load main.txt", "../../mods/" + _name + "/" + "reload.txt");
+	string_save(string(global.currentMode), "modestorage.txt");
 	wait file_load("../../mods/" + _name + "/" + "reload.txt");
 	while !file_exists("../../mods/" + _name + "/" + "reload.txt") wait(0)
 	mod_loadtext(_name + "/" + "reload.txt");

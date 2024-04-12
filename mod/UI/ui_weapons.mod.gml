@@ -100,7 +100,7 @@ global.information = {
 }
 ///global.information.wep[1] = ASSAULT RIFLE
 
-update_information_cool_script()
+//update_information_cool_script()
 
 
 if debug or debug2{
@@ -183,11 +183,6 @@ if race_get_active(i) global.raceactive += 1
 
    // load();
    
-   
-
-#define update_information_cool_script
-
-global.modedata = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
    
    
 #define game_start
@@ -275,6 +270,7 @@ for(var i = 1;i<array_length(raceray);i++){
 load_weps()
 //save()	
 #define load_weps
+var data = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
 
 //set starting weapons
 for(var i = 1;i<array_length(raceray);i++){
@@ -283,7 +279,7 @@ for(var i = 1;i<array_length(raceray);i++){
 	    g_list[|    racemap[? raceray[i]]	][@2] = 3
 	    
 	    
-		if global.information.wep[0]
+		if (!is_array(data.wep) && data.wep == false) || data.wep[0]
 	    	//weapon in slot 1
 			switch( raceray[i] ){
 				case("venuz"):	g_list[|racemap[? raceray[i]] ][@3] = wep_golden_revolver		break;
@@ -318,9 +314,12 @@ for(var i = 1;i<array_length(raceray);i++){
 	//}
 	
 	
-	
-	for(var _w = 1; _w< array_length(global.information.wep);_w++){
-		g_list[|racemap[? raceray[i]] ][@2+_w+global.information.wep[0]]= global.information.wep[_w]
+	if(is_array(data.wep)){
+		for(var _w = 1; _w< array_length(data.wep);_w++){
+			g_list[|racemap[? raceray[i]] ][@2+_w+data.wep[0]]= data.wep[_w]
+		}
+	}else if data.wep {
+		g_list[|racemap[? raceray[i]] ][@3]= data.wep
 	}
 	
 }
@@ -603,7 +602,7 @@ var yoffset = (8)*(scale=2.5)
 
 //draw things
 if open{
-	if race = "steroids" or global.information.bwep != false{
+	if race = "steroids" or mod_script_call("mod", "ModdedWeeklies", "get_current_data").bwep != false{
     xoffset += 8
     draw_sprite_ext(sprRevolverLoadout,( check_middle ? min((current_frame-3)*0.4 mod 36,6):0 ),w_x+20,w_y+(anim)+check_middle,1,1,0,c_white,0.8)
 }
@@ -661,10 +660,12 @@ with player_find(_index){
 	if wep = wep_super_disc_gun curse = 1
 	ammo[weapon_get_type(wep)] = typ_ammo[weapon_get_type(wep)]*3
 	
-	if global.information.bwep != false{
-		bwep = global.information.bwep
+	var data = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
+	if data.bwep != false{
+		bwep = data.bwep
 		ammo[weapon_get_type(bwep)] = typ_ammo[weapon_get_type(bwep)]*3
-		
+	}else if race_id == char_steroids {
+		bwep = wep_revolver
 	}
 	
 	GameCont.crown = gcrown
