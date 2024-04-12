@@ -1762,7 +1762,7 @@ if(argument0 = "portraits"){
 #define cleanup
 
 sprite_restore(sprBackButton);
-sprite_restore(sprBigPortrait);
+//sprite_restore(sprBigPortrait);
 //sprite_restore(sprLoadoutSplat);
 
 reset_surfaces();
