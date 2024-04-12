@@ -88,7 +88,7 @@ global.information = {
     
     "crown": [true, 6],
     "wep": [true],
-    "bwep": wep_auto_shotgun,
+    "bwep": false,
     "race": [1,2,3,4,5],
     
     "disable_vaults": false,
@@ -100,7 +100,7 @@ global.information = {
 }
 ///global.information.wep[1] = ASSAULT RIFLE
 
-//update_information_cool_script()
+update_information_cool_script()
 
 
 if debug or debug2{
@@ -184,6 +184,10 @@ if race_get_active(i) global.raceactive += 1
    // load();
    
    
+
+#define update_information_cool_script
+
+global.modedata = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
    
    
 #define game_start
