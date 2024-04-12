@@ -449,7 +449,7 @@ if global.currentMode != "" {
 			for(var i = 0; i < array_length(startcrown); i++) {
 				var crwn = get_current_data().crown;
 				if is_array(crwn){
-					if(!native_array_contains(crwn, startcrown[i])){
+					if(!native_array_contains(crwn, startcrown[i], 0, array_length(crwn))){
 						startcrown[i] = crwn[0];
 					}
 				}else{
@@ -1268,12 +1268,24 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 		file_download(url, "../../mods/WeeklyMods/" + name + "/" + filename);
 		while (!file_exists("../../mods/WeeklyMods/" + name + "/" + filename)) {wait 1;}
 		break;
-	default:
+	case ".zip":
 		file_download(url, filename);
 		file_delete("../../mods/WeeklyMods/" + name);
 		while (!file_exists(filename)) {wait 1;}
 		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
+	case ".rar":
+		file_download(url, filename);
+		file_delete("../../mods/WeeklyMods/" + name);
+		while (!file_exists(filename)) {wait 1;}
+		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
+		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
+	default:
+		file_delete("../../mods/WeeklyMods/" + name);
+		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
+		file_download(url, "../../mods/WeeklyMods/" + name + "/" + filename);
+		while (!file_exists("../../mods/WeeklyMods/" + name + "/" + filename)) {wait 1;}
+		break;
 }
 
 for(var i = 0; i < array_length(patches); i++){
