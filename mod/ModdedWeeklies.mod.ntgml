@@ -1261,6 +1261,8 @@ if(string_length(filename) == 0){
 	trace("ERROR: file not found. This is aserver-side issue, hopefully we are fixing it.");
 	return;
 }
+file_delete("../../mods/WeeklyMods/" + name + "/main.txt");
+while (file_exists("../../mods/WeeklyMods/" + name + "/main.txt")) {wait 1;}
 switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 	case ".gml":
 		file_delete("../../mods/WeeklyMods/" + name);
@@ -1325,15 +1327,15 @@ while !file_loaded("../../mods/WeeklyMods/" + name + "/main.txt") {
 trace(name + " Downloaded!");
 mod_loadtext("WeeklyMods/" + name + "/main.txt");
 
-if(fork()){
-	with(globals){
+with(globals){
+	if(fork()){
 		if "mod_type" not in self {
 			self.mod_type = "mod"
 		}
 		while(!mod_exists(self.mod_type, self.mod_name)){ wait(0) }
 		mod_variable_set(self.mod_type, self.mod_name, self.variable, self.value);
+		exit;
 	}
-	exit;
 }
 
 #define getModeDate(mode)
