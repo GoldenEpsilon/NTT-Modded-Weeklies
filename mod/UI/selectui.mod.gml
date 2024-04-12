@@ -1,4 +1,4 @@
-global.swapButtonImage = sprite_add("DailyIcons.png", 8, 0, 0);
+global.swapButtonImage = sprite_add("sprites/DailyIcons.png", 8, 0, 0);
 
 #define toggleModeSelectionButtons()
 mod_variable_set("mod", "ui", "menu_opened", false)
@@ -88,7 +88,7 @@ if mod_variable_get("mod", "ui", "menu_opened") && array_length(instances_matchi
 if(instance_exists(Menu))
 if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"))<1{
 	var modedata = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
-    with instance_create(game_width-43,7,CustomObject){
+    with instance_create(game_width-44,7,CustomObject){
         name = "mod_ui_mode_swap_button";
         sprite_index = global.swapButtonImage;
 		image_index = "index" in modedata ? ("valid" in modedata && modedata.valid ? modedata.index : 4) : 0;
@@ -146,10 +146,13 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"
 with Loadout {
     with instances_matching(CustomObject,"name","mod_ui_mode_swap_button"){
         draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
+        if array_length(instances_matching(CustomObject,"name","mod_ui_mode_button")) > 0{
+            draw_sprite_ext(global.swapButtonImage,7,x,y+yoffset,xscale,yscale,0,image_blend,1);
+		}
     } 
     with instances_matching(CustomObject,"name","mod_ui_mode_button"){
         draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
-        draw_set_font(fntM)
+		draw_set_font(fntM)
 		draw_set_halign(1)
 		draw_set_valign(1)
 		draw_text(x+sprite_width/2*xscale, y+yoffset+10, string_replace(modeName, " ", "#"));

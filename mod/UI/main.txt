@@ -1,5 +1,8 @@
 /load sprites
-/loadmod ui
-/loadmod selectui
-/loadmod optionsui
+/loadmod ui.mod.gml
+/loadmod ui_weapons.mod.gml
+/loadmod ui_start.wep.gml
+/loadmod ui_crowns.mod.gml
+/loadmod selectui.mod.gml
+/loadmod ui_options.mod.gml
 /loadtext main2

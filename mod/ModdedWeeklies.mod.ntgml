@@ -71,7 +71,9 @@ if(fork()){
 	if options != json_error {
 		var i = 0;
 		while(lq_get_key(options, i) != undefined){
-			lq_set(global.options, lq_get_key(options, i), lq_get_value(options, i))
+			if lq_exists(global.options, lq_get_key(options, i)){
+				lq_set(global.options, lq_get_key(options, i), lq_get_value(options, i))
+			}
 			i++;
 		}
 	}
@@ -141,17 +143,23 @@ for(i = 0; i < array_length(mod_get_names("mod")); i=i){
 		modname != "GCFix" && 
 		modname != "areadisplay" && 
 		modname != "miniintros" && 
+		modname != "ui" && 
+		modname != "ui_weapons" && 
+		modname != "ui_crowns" && 
 		modname != "selectui" && 
-		modname != "optionsui" && 
-		modname != "ui"){
-		mod_unload(mod_get_names("mod")[i]);
+		modname != "ui_options"){
+			mod_unload(mod_get_names("mod")[i]);
 	} else {
 		i++;
 	}
 }
-var weapon_mods = mod_get_names("weapon");
-for(i = 0; i < array_length(weapon_mods); i++){
-	mod_unload(weapon_mods[i]);
+for(i = 0; i < array_length(mod_get_names("weapon")); i=i){
+	var modname = mod_get_names("weapon")[i];
+	if(modname != "ui_start"){
+		mod_unload(mod_get_names("weapon")[i]);
+	} else {
+		i++;
+	}
 }
 var areamods = mod_get_names("area")
 for(i = 0; i < array_length(areamods); i++){

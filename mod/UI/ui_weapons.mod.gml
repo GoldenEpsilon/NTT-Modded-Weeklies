@@ -79,6 +79,7 @@ code option for steroids to start with 2
 \* * * * */
 
 #macro debug false
+#macro debug2 false
 
 global.information = {
     "name": "Testing Bed",
@@ -86,7 +87,7 @@ global.information = {
     "can_resubmit": false,
     
     "crown": [true, 6],
-    "wep": [true,wep_assault_rifle,wep_auto_shotgun],
+    "wep": [true],
     "bwep": wep_auto_shotgun,
     "race": [1,2,3,4,5],
     
@@ -102,7 +103,7 @@ global.information = {
 //update_information_cool_script()
 
 
-if debug{
+if debug or debug2{
 	// add all the weapons
 	var _currentweapons = ds_list_create()
 	weapon_get_list(_currentweapons, 0, 300)
@@ -155,13 +156,13 @@ if race_get_active(i) global.raceactive += 1
 
 
 //load the map here
-load_map()
+//load_map()
 	//sets the map of the saved races
 	//copies the save file to loadedarray. shouldnt have to have done this
 
 
 
-load_races()
+//load_races()
 
 //first_load()
 
@@ -186,7 +187,7 @@ load_races()
    
    
 #define game_start
-with instances_matching(Player,"wep","ui_weapon"){
+with instances_matching(Player,"wep","ui_start"){
 	setplayerwep(index)
 	//event_perform(ev_other,ev_room_end)
 }
@@ -289,7 +290,8 @@ for(var i = 1;i<array_length(raceray);i++){
 				case("bigdog"):	g_list[|racemap[? raceray[i]] ][@3] = wep_dog_spin_attack		break;
 				default:
 					if mod_script_exists("race",raceray[i],"race_swep")
-						g_list[|racemap[? i]][@3] = mod_script_call("race",raceray[i],"race_swep")
+						//g_list[|racemap[? i]][@3] = mod_script_call("race",raceray[i],"race_swep")
+						g_list[|racemap[? raceray[i]]][@3] = mod_script_call("race",raceray[i],"race_swep")
 					else 
 						g_list[|racemap[? raceray[i]]][@3] = wep_revolver
 			}
@@ -481,6 +483,12 @@ if instance_exists(Loadout){
 	//	}
 	//}
 }
+	if debug2{
+	if button_pressed(0,"key1"){
+		trace( g_list[| 2]	)
+		trace( "hi b")
+	}
+	}
 
 #define buttons
 //unselected close pos
@@ -515,6 +523,7 @@ if player_get_race_id(0) = 0 exit;
 
 var race = player_get_race(0);
 var num = g_list[| racemap[? race] ][2];	//
+var _how_many_guns = array_length(g_list[|racemap[? race]])
 var b_size = 8;
 var check_left = point_in_rectangle(mouse_x,mouse_y,l_x-b_size,b_y-b_size,l_x+b_size,b_y+b_size);
 var check_right= point_in_rectangle(mouse_x,mouse_y,r_x-b_size,b_y-b_size,r_x+b_size,b_y+b_size);
@@ -529,7 +538,7 @@ var clicked_left = 0;
 var clicked_right = 0;
 
 //make buttons work
-if check_right and button_pressed(0,"fire"){
+if check_right and button_pressed(0,"fire") and _how_many_guns>4{
     if num < array_length( g_list[| racemap[? race] ] )-1
         num += 1
     else
@@ -539,7 +548,7 @@ if check_right and button_pressed(0,"fire"){
     clicked_right = 2;
     anim -= 2
 }
-if check_left and button_pressed(0,"fire"){
+if check_left and button_pressed(0,"fire") and _how_many_guns>4{
     if num > 3
         num -= 1
     else
@@ -551,6 +560,7 @@ if check_left and button_pressed(0,"fire"){
 }
 
 var wep = g_list[| racemap[? race] ][num]
+	
 
 //var wep_spr = get_weapon_menu_sprite(wep)
 //var sprite = wep_spr[1]
@@ -595,11 +605,9 @@ if open{
 }
 	
 	
-	var _how_many_guns = array_length(g_list[|racemap[? race]])
-	
 	//buttons
-    draw_sprite_ext(sprDailyArrow,0,l_x-clicked_left,b_y+(anim)+!check_left,1,1,0,_how_many_guns>4?c_white:c_dkgray,(check_left ? 1:0.5))
-    draw_sprite_ext(sprDailyArrow,1,r_x+clicked_right,b_y+(anim)+!check_right,1,1,0,_how_many_guns>4?c_white:c_dkgray,(check_right ? 1:0.5))
+    draw_sprite_ext(sprDailyArrow,0,l_x-clicked_left,b_y+(anim)+!check_left,1,1,0,(check_left ? c_white:c_gray),_how_many_guns>4?1:0)
+    draw_sprite_ext(sprDailyArrow,1,r_x+clicked_right,b_y+(anim)+!check_right,1,1,0,(check_right ? c_white:c_gray),_how_many_guns>4?1:0)
     //wep
     draw_sprite_ext(sprite,( check_middle ?  min((current_frame*0.4 mod 36),(sprite_get_number(sprite)-(!customsprite))+!customsprite)   :0 ),
     w_x-xoffset+lengthdir_x(sprite_get_xoffset(sprite)*(scale)*(!customsprite),0)+lengthdir_x(sprite_get_yoffset(sprite)*(scale)*(!customsprite),90),
@@ -642,6 +650,7 @@ instance_delete(id)
 
 var race = player_get_race(_index)
 var gwep = g_list[| racemap[? race]][2]
+var gcrown = mod_variable_get("mod","ui_crowns","wantcrown")
 
 with player_find(_index){
 	wep = g_list[| racemap[? race] ][ gwep ]
@@ -653,6 +662,9 @@ with player_find(_index){
 		ammo[weapon_get_type(bwep)] = typ_ammo[weapon_get_type(bwep)]*3
 		
 	}
+	
+	GameCont.crown = gcrown
+	
 	
 	//with(instance_create(0, 0, Revive)){
 	//  try{

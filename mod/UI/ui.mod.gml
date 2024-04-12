@@ -2,21 +2,6 @@
  *                 *
        UI TIME
 
-list of things that make a weekly start
-
-	starting weapons
-	starting crowns
-	charcters
-	discription
-	
-	
-
-
-
-	double check go button following to L1
-
-
-
 
     ~set up data
     "
@@ -24,29 +9,25 @@ list of things that make a weekly start
     
     "
 	
-	
+
     
  *                 *
 \* *  *   *   *  * */
 
 #macro debug false  	if debug trace("debug is on")
+#macro debug2 false
 #macro moddedweeklies_mod_file "ModdedWeeklies"
+
+
+
 
 #macro holdbackdelay 16;    /*  how long you have to hold to return to the main menu  */
 
 
 global.game_size = [game_width,game_height]
 
-/*  characters unlocked  */	
-global.frog = false;
-global.skel = false;
-global.bdog = false;
 /*  hide menu portraits  */
 global.hideportraits = false;
-		
-	
-
-
 //sprites
 if global.hideportraits 
 	sprite_replace(sprBigPortrait,"sprites/blank_strip3.png",3,0,0);
@@ -108,7 +89,7 @@ global.splash_opening = [0,64] //  min/start,max
 #macro fitchar ceil(( (game_width-72)-8 )/17);//ceil(( (game_width-72)-8 )/17);
 global.ntte = false
 global.stack = 1
-if debug
+if debug or debug2
 global.names = ["fish","eyes","crystal","melting","plant","yv","steroids","robot","chicken","rebel","horror","rogue","detonator"]
 
 
@@ -147,10 +128,8 @@ global.scoreboard = [
     	        color : c_red,
     	        killed_by : [mskNone,"???"],
     	        ultras: [
-					  "Union",
-					  [5, 1],
-					  ["detonator", 0]
-					]
+						  [1, 0]
+						]
     	        
     	    },
     	},{
@@ -158,9 +137,28 @@ global.scoreboard = [
     	}
     ]
 
+
+/*  characters unlocked  */	
+global.frog = false;
+global.skel = false;
+global.bdog = false;
+
 global.options = mod_script_call("mod", "ModdedWeeklies", "get_options");
+			
+if debug2
+
+global.options = {
+	frog : false,
+	skeleton : false,
+	bigdog : false,
+	show_co_op: false,
+	area_display: true,
+	mini_intros: true
+	}
+			
 				
 //get information from file
+
 update_scoreboard()
 
 
@@ -185,7 +183,7 @@ if !global.options.skeleton{
 #define update_scoreboard
 global.scoreboard = [[],[],[]]
 
-if debug{
+if debug or debug2{
     
     for(var _s = 0;_s<array_length(global.scoreboard);_s++){
     
@@ -197,7 +195,7 @@ if debug{
         var _area = ceil((_kills/32) mod 7)
         if !irandom(5) _area = "undergrowth"
         var _race = i//1+irandom(11)
-        if !irandom(10) _race = "detonator"
+        if !irandom(10) _race = "scales"
         var _muts = [1,2,3,4,5,6,choose("flamingpalms","compoundelbow","concentration","condensedmeat","powderedgums")]
         var _name = 
                 {
@@ -215,27 +213,28 @@ if debug{
                     mutations : array_shuffle(_muts),
                     time : 55032,
                     color : choose(c_red,c_aqua,c_lime,c_purple,c_dkgray,c_fuchsia,c_yellow,c_orange,c_blue),
-                    killed_by : [sprBanditIdle,"bandit"]
+                    killed_by : [sprBanditIdle,"bandit"],
+    	        	ultras: [[_race,choose(0,1)],"ball"]
                 }
         _array[array_length(_array)]= _name
         }
     global.scoreboard[_s] = _array
     }
 }
+//trace(global.scoreboard)
 
+if !debug2{
 var does_the_mod_exist = mod_exists("mod",moddedweeklies_mod_file)
 
 if does_the_mod_exist{
-    
-    global.scoreboard = [[],[],[]]
 
     global.scoreboard = 
         mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Kills")
         //please sort them by kills/display order
 }
+}
 
-//sort by kills
-
+//shuffle
 if debug
 for(var s=0;s<array_length(global.scoreboard);s++)
 global.scoreboard[s] = array_shuffle(global.scoreboard[s])//sort_array_by(global.scoreboard,kills)
@@ -252,7 +251,7 @@ mod_loadtext("exit.txt");
 instance_destroy();
 #define game_start
 cleanup()
-with instances_matching_ne(BackFromCharSelect,"mod_ui",null) mod_ui = null
+//with instances_matching_ne(BackFromCharSelect,"mod_ui",null) mod_ui = null
 with instances_matching(CustomObject,"name","mod_ui_daily_button") instance_delete(id)
 with instances_matching(CustomObject,"name","mod_ui_superbutton") instance_delete(id)
 with instances_matching(CustomObject,"name","mod_ui_backbutton") instance_delete(id)
@@ -603,6 +602,59 @@ draw_set_projection(0, 0)
             }
                 
             }
+            //ultras
+            var ults = global.scoreboard[global.current_scoreboard][i].ultras
+            if array_length(muts) > 0{
+            var mx = array_length(muts)*18
+            var _ind = 0
+            for(var m = 0;m<array_length(ults);m++){
+            	
+        		var _x = mx+xx+xxx+12+((48+(18*m))*scoreboard_anim)
+        		var _y = yy+30
+        		var _name = "test"//skill_get_name(ults[m])
+        		
+        		var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,_x-5,_y-5,_x+5,_y+5)
+                
+                
+                	var _spr = global.mod_ultra
+                	if array_length(ults[m]) = 0{
+                		var _name = "mod"
+                		if mod_exists("skill",ults[m]){
+                			_name = mod_script_call("skill",ults[m],"skill_name")
+                			_spr = mod_script_call("skill",ults[m],"skill_icon")
+                		}
+                	}
+                	else{
+                		if !is_string(ults[m][0]){
+                			_spr = sprEGIconHUD
+                			_ind = (ults[m][0]*3)+ults[m][1]
+                			_name = ultra_get_name(ults[m][0],ults[m][1]+1)
+                		}else
+                		if mod_exists("race",ults[m][0]){
+                			_name = mod_script_call("race",ults[m][0],"race_ultra_name",ults[m][1]+1)
+                			_spr = mod_script_call("race",ults[m][0],"race_ultra_icon",ults[m][1]+1)
+                		}
+                	}
+    
+                	draw_sprite(_spr,_ind,_x,_y+hover_over)
+    
+    //            	var _get = false//skill_get_icon(ults[m]);
+    //            	if is_array(_get){
+    //            		_sprt = _get[0];
+    //            		_ind = _get[1];
+    //            	} else{
+	//                	_sprt = global.mod_mutation
+    //            	}
+    //            	
+    //            	draw_sprite(_sprt,_ind,_x,_y+hover_over)
+                
+            	if hover_over and scoreboard_anim > 0.9
+            		script_bind_draw("ui_popup_draw",-1000,_x,_y-4,_name)
+    //        		
+    //            
+            }
+                
+            }
         }
         
         
@@ -759,9 +811,9 @@ with Loadout{
 if selected menu_opened = false
 //daily button
 if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1{
-    with instance_create(game_width-24-8,7-4,CustomObject){
+    with instance_create(game_width-24,7,CustomObject){
         name = "mod_ui_daily_button";
-        sprite_index = sprCredits;
+        sprite_index = sprDailyChallengeOn;
         image_speed = 0;
         depth = 0;
         yoffset = 1;
@@ -772,7 +824,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1
         if fork(){
         while instance_exists(self){
             var hover = 0;
-            x = game_width-24-8
+            x = game_width-24
             var _loadout = false
             with Loadout if selected _loadout = true
             
@@ -783,6 +835,12 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1
                     //trace(choose(""," ","  "),"hover")
                     if button_pressed(i,"fire"){
                     	sound_play(menu_opened=true ? sndClickBack:sndClick)
+                        if _loadout 
+                        with Loadout{
+                            selected = false
+                            with LoadoutCrown instance_delete(id)
+                            with LoadoutSkin instance_delete(id)
+                        }
                         menu_opened = menu_opened=true ? false:true
                         //exit;
                         
@@ -1008,7 +1066,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_superbutton"))<1{
                 var hover = 0;
                 for(var i=0;i<maxp;i++){
                     if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+game_width-sprite_get_width(sprGoButton)-10,view_yview[i]+game_height-31,view_xview[i]+game_width-10,view_yview[i]+game_height-31+sprite_get_height(sprGoButton)){
-                        if button_pressed(i,"fire"){
+                        if button_pressed(i,"fire") && mod_variable_get("mod", "ModdedWeeklies", "canStart") {
                             script_bind_end_step(go,-1000);
                             exit;
                             
@@ -1039,8 +1097,10 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_superbutton"))<1{
             }
         }
     }
+    
+    
+    
 //backbutton
-/*
 with instances_matching(BackFromCharSelect,"mod_ui",null){
 	ystart-=64
 	mod_ui = true
@@ -1113,7 +1173,6 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_backbutton"))=0
 			exit;
 		}
 	}
-*/
 
 //draw buttons
 with Loadout{
@@ -1843,3 +1902,69 @@ surface_free(global.menu_surf_text)
 	 // None:
 	return [mskNone, ""];
     
+#define ultra_get_name(_r,_i)
+
+return loc_get("Races:"+string(_r)+":Ultra:"+string(_i)+":Name")
+
+
+#define loc_get(_key)
+	/*
+		Similar to "loc(key, defvalue)", but automatically defaults to the base game's actual value
+		
+		Ex:
+			loc_get("Skills:Name:1") == "RHINO SKIN"
+	*/
+	
+	 // Real:
+	var _loc = loc(_key, "");
+	if(_loc != "") return _loc;
+	
+	 // Store Defaults:
+	if(!mod_variable_exists("mod", mod_current, "loc_default")){
+		mod_variable_set("mod", mod_current, "loc_default", {
+			"Races" : [
+				{ Name: "RANDOM",   Passive: "???",                           Active: "???",                   TB: "",                                                                                Unlock: "",                         SkinUnlock: "",                                                        Ultra: [null, { Name: "BLOOD BOND",          Text: "HP PICKUPS ARE SHARED"                                           }, { Name: "GUN BOND",          Text: "AMMO PICKUPS ARE SHARED"                                                 }, { Name: "EXTRA LEVEL", Text: "BECAUSE SOMEONE FORGOT#TO DEFINE ULTRA MUTATION(S)" }] },
+				{ Name: "FISH",     Passive: "GETS MORE @yAMMO@w",            Active: "CAN @wROLL@s",          TB: "WATER BOOST",                                                                     Unlock: "UNLOCKED FROM THE START",  SkinUnlock: "LOOP WITH EVERY CHARACTER",                               Ultra: [null, { Name: "CONFISCATE",          Text: "@wENEMIES@s SOMETIMES DROP @wCHESTS@s"                           }, { Name: "GUN WARRANT",       Text: "@yINFINITE AMMO@s THE FIRST 7 SECONDS#AFTER EXITING A @pPORTAL@s"        }] },
+				{ Name: "CRYSTAL",  Passive: "MORE MAX @rHP@w",               Active: "CAN @wSHIELD@s",        TB: "@wTELEPORTATION@s#SHORTER @wSHIELDING@s",                                         Unlock: "UNLOCKED FROM THE START",  SkinUnlock: "REACH 4-?",                                               Ultra: [null, { Name: "FORTRESS",            Text: "+6 MAX @rHP@s"                                                   }, { Name: "JUGGERNAUT",        Text: "MOVE WHILE @wSHIELDED@s"                                                 }] },
+				{ Name: "EYES",     Passive: "SEES IN THE DARK",              Active: "TELEKINESIS",           TB: "STRONGER @wTELEKINESIS@s",                                                        Unlock: "REACH 2-1",                SkinUnlock: "REACH 2-?",                                               Ultra: [null, { Name: "PROJECTILE STYLE",    Text: "@wTELEKINESIS@s HOLDS YOUR @wPROJECTILES@s"                      }, { Name: "MONSTER STYLE",     Text: "PUSH NEARBY @wENEMIES@s AWAY#WHEN NOT USING @wTELEKINESIS@s"             }] },
+				{ Name: "MELTING",  Passive: "LESS MAX @rHP@w#MORE @gRADS@w", Active: "EXPLODE @wCORPSES@s",   TB: "BIGGER @wCORPSE EXPLOSIONS@s",                                                    Unlock: "DIE",                      SkinUnlock: "REACH THE NUCLEAR THRONE#NO RHINO SKIN OR STRONG SPIRIT", Ultra: [null, { Name: "BRAIN CAPACITY",      Text: "BLOW UP @rLOW HP @wENEMIES@s"                                    }, { Name: "DETACHMENT",        Text: "3 MORE @gMUTATIONS@s#LOSE HALF OF YOUR @rHP@s"                           }] },
+				{ Name: "PLANT",    Passive: "IS FASTER",                     Active: "@wSNARE@s ENEMIES",     TB: "@wSNARE@s FINISHES @wENEMIES@s#UNDER 33% @rHP@s",                                 Unlock: "REACH 3-1",                SkinUnlock: "REACH THE NUCLEAR THRONE#IN UNDER 10 MINUTES",            Ultra: [null, { Name: "TRAPPER",             Text: "BIG @wSNARE@s"                                                   }, { Name: "KILLER",            Text: "@wENEMIES@s KILLED ON YOUR @wSNARE@s#SPAWN @wSAPLINGS@s"                 }] },
+				{ Name: "Y.V.",     Passive: "HIGHER @wRATE OF FIRE@s",       Active: "@wPOP POP",             TB: "@wBRRRAP",                                                                        Unlock: "REACH 3-?",                SkinUnlock: "GET A GOLDEN WEAPON#FOR EVERY CHARACTER",                 Ultra: [null, { Name: "IMA GUN GOD",         Text: "HIGHER @wRATE OF FIRE@s"                                         }, { Name: "BACK 2 BIZNIZ",     Text: "FREE @wPOP POP@s UPGRADE"                                                }] },
+				{ Name: "STEROIDS", Passive: "INACCURATE#AUTOMATIC WEAPONS",  Active: "DUAL WIELDING",         TB: "FIRING GIVES @yAMMO@s FOR#YOUR OTHER @wWEAPON@s#MORE EFFECTIVE WHEN FIRING BOTH", Unlock: "REACH 6-1",                SkinUnlock: "DEFEAT ???",                                              Ultra: [null, { Name: "AMBIDEXTROUS",        Text: "DOUBLE @wWEAPONS@s FROM @wCHESTS@s"                              }, { Name: "GET LOADED",        Text: "@yAMMO CHESTS@s CONTAIN ALL @yAMMO TYPES@s"                              }] },
+				{ Name: "ROBOT",    Passive: "FINDS BETTER TECH",             Active: "CAN EAT @wWEAPONS@s",   TB: "BETTER @wWEAPON@s NUTRITION",                                                     Unlock: "REACH 5-1",                SkinUnlock: "EAT ???",                                                 Ultra: [null, { Name: "REFINED TASTE",       Text: "HIGH TIER @wWEAPONS@s ONLY#AUTO EAT @wWEAPONS@s LEFT BEHIND"     }, { Name: "REGURGITATE",       Text: "EATING @wWEAPONS@s CAN DROP @wCHESTS@s#AUTO EAT @wWEAPONS@s LEFT BEHIND" }] },
+				{ Name: "CHICKEN",  Passive: "HARD TO KILL",                  Active: "CAN THROW @wWEAPONS@s", TB: "THROWS PIERCE THROUGH @wENEMIES@s",                                               Unlock: "REACH 5-?",                SkinUnlock: "???",                                                     Ultra: [null, { Name: "HARDER TO KILL",      Text: "KILLS EXTEND BLEED TIME"                                         }, { Name: "DETERMINATION",     Text: "THROWN @wWEAPONS@s CAN TELEPORT BACK#TO YOUR SECONDARY SLOT"             }] },
+				{ Name: "REBEL",    Passive: "PORTALS @rHEAL@w",              Active: "CAN SPAWN @wALLIES@s",  TB: "HIGHER @wALLY@s RATE OF FIRE",                                                    Unlock: "??? THE NUCLEAR THRONE",   SkinUnlock: "DEFEAT ???",                                              Ultra: [null, { Name: "PERSONAL GUARD",      Text: "START A LEVEL WITH 2 @wALLIES@s#ALL @wALLIES@s HAVE MORE @rHP@s" }, { Name: "RIOT",              Text: "DOUBLE @wALLY@s SPAWNS"                                                  }] },
+				{ Name: "HORROR",   Passive: "EXTRA @gMUTATION@w CHOICE",     Active: "@gRADIATION@w BEAM",    TB: "BEAM CHARGES UP FASTER#PROLONGED BEAM USE @rHEALS@s YOU",                         Unlock: "???",                      SkinUnlock: "DEFEAT ???",                                              Ultra: [null, { Name: "STALKER",             Text: "@wENEMIES@s EXPLODE IN @gRADIATION@s ON DEATH"                   }, { Name: "ANOMALY",           Text: "@pPORTALS@s APPEAR EARLIER"                                              }, { Name: "MELTDOWN", Text: "DOUBLE @gRAD@s CAPACITY" }] },
+				{ Name: "ROGUE",    Passive: "BLAST ARMOR, @bHEAT@w",         Active: "@bPORTAL STRIKE@s",     TB: "STRONGER @bPORTAL STRIKE@s",                                                      Unlock: "REACH THE NUCLEAR THRONE", SkinUnlock: "DEFEAT ???",                                              Ultra: [null, { Name: "SUPER PORTAL STRIKE", Text: "DOUBLE @bPORTAL STRIKE@s PICKUPS#AND CAPACITY"                   }, { Name: "SUPER BLAST ARMOR", Text: "SUPER BLAST ARMOR"                                                       }] },
+				{ Name: "BIG DOG",  Passive: "MORE @rHP@w#SPIN ATTACK",       Active: "MISSILES",              TB: "FASTER MISSILES AND BULLETS",                                                     Unlock: "DEFEAT BIG DOG",           SkinUnlock: "NO B SKIN YET",                                           Ultra: [null, { Name: "ULTRA SPIN",          Text: "IMPROVED SPIN ATTACK"                                            }, { Name: "ULTRA MISSILES",    Text: "MISSILES FIRE BULLETS"                                                   }] },
+				{ Name: "SKELETON", Passive: "LESS HP, SPEED, AND ACCURACY",  Active: "BLOOD GAMBLE",          TB: "BETTER ODDS",                                                                     Unlock: "BECOME ???",               SkinUnlock: "FIRE ???",                                                Ultra: [null, { Name: "REDEMPTION",          Text: "BACK IN THE FLESH"                                               }, { Name: "DAMNATION",         Text: "FAST RELOAD AFTER BLOOD GAMBLE"                                          }] },
+				{ Name: "FROG",     Passive: "CAN'T STAND STILL",             Active: "@gTOXIC@w CLOUD",       TB: "TOXIC GAS SPREADS FASTER",                                                        Unlock: "???",                      SkinUnlock: "",                                                        Ultra: [null, { Name: "DISTANCE",            Text: "RADS CAN SPAWN TOXIC GAS"                                        }, { Name: "INTIMACY",          Text: "CONTINUOUSLY SPAWN TOXIC GAS"                                            }] },
+				{ Name: "CUZ",      Passive: "LIL BUDDY",                     Active: "GOT UR BACK",           TB: "GO 4 IT",                                                                         Unlock: "???",                      SkinUnlock: "",                                                        Ultra: [null, { Name: "GAME GOD",            Text: "PLAY HARD"                                                       }, { Name: "CAR GOD",           Text: "FAST LYFE"                                                               }] }
+			]
+		});
+	}
+	
+	 // Search for Default:
+	var _loc = global.loc_default;
+	with(string_split(_key, ":")){
+		 // LWO:
+		if(is_object(_loc)){
+			_loc = lq_get(_loc, self);
+			continue;
+		}
+		
+		 // Array:
+		if(is_array(_loc) && string_digits(self) == self){
+			var _index = real(self);
+			if(_index >= 0 && _index < array_length(_loc)){
+				_loc = _loc[_index];
+				continue;
+			}
+		}
+		
+		 // Failure:
+		return "";
+	}
+	if(is_object(_loc)) _loc = lq_get(_loc, "");
+	
+	return (is_string(_loc) ? _loc : "");
