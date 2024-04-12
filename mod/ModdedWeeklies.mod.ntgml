@@ -449,7 +449,7 @@ if global.currentMode != "" {
 			for(var i = 0; i < array_length(startcrown); i++) {
 				var crwn = get_current_data().crown;
 				if is_array(crwn){
-					if(!array_contains(crwn, startcrown[i])){
+					if(!native_array_contains(crwn, startcrown[i])){
 						startcrown[i] = crwn[0];
 					}
 				}else{
