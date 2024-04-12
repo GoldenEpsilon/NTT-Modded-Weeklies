@@ -182,6 +182,19 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_options_button"))
     }
 }
 
+with(Loadout){
+    //draw button
+    with instances_matching(CustomObject,"name","mod_ui_options_button"){
+        draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
+        if option_opened{
+            var xx = 1
+            var yy = 1
+            draw_sprite_ext(global.sprdailyicons,7,x,y+yoffset,xscale,yscale,0,image_blend,1);
+            //draw_rectangle_color(x+xx,y+yy+yoffset,x+xx+13,y+yy+sprite_get_yoffset(sprite_index)+yoffset+21,image_blend,image_blend,image_blend,image_blend,1)
+        }
+        
+    } 
+}
 
 #define draw_gui_end
 //animations
@@ -206,17 +219,6 @@ with Loadout {
         draw_sprite_ext(_sprite,clamp((sprite_get_number(_sprite)-1)*option_anim,0,sprite_get_number(_sprite))-1,game_width+32,36,1,-1,0,c_white,1)
         
     }
-    //draw button
-    with instances_matching(CustomObject,"name","mod_ui_options_button"){
-        draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
-        if option_opened{
-            var xx = 1
-            var yy = 1
-            draw_sprite_ext(global.sprdailyicons,7,x,y+yoffset,xscale,yscale,0,image_blend,1);
-            //draw_rectangle_color(x+xx,y+yy+yoffset,x+xx+13,y+yy+sprite_get_yoffset(sprite_index)+yoffset+21,image_blend,image_blend,image_blend,image_blend,1)
-        }
-        
-    } 
     //draw options
     with instances_matching(CustomObject,"name","mod_ui_option"){
         var _y = 0//-32*!option_anim

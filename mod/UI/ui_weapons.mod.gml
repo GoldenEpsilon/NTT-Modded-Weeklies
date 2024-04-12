@@ -102,6 +102,8 @@ global.information = {
 
 //update_information_cool_script()
 
+global.previousmode = "";
+
 
 if debug or debug2{
 	// add all the weapons
@@ -271,6 +273,9 @@ load_weps()
 //save()	
 #define load_weps
 var data = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
+if "wep" not in data {
+	data.wep = false;
+}
 
 //set starting weapons
 for(var i = 1;i<array_length(raceray);i++){
@@ -450,7 +455,10 @@ else instance_delete(id)
 if instance_exists(Loadout){
 	
 	
-	
+	if mod_variable_get("mod", "ModdedWeeklies", "currentMode") != global.previousmode {
+		global.previousmode = mod_variable_get("mod", "ModdedWeeklies", "currentMode");
+		load_races();
+	}
 	
     //check new mods
     if array_length(mod_get_names("race")) > array_length(modraces)
