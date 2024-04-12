@@ -92,6 +92,8 @@ global.leaderboard = [[], [], []]
 global.data = []
 global.currentDate = "";
 global.currentWeek = "";
+global.countdownStart = floor(current_frame/30)
+global.countdown = 0;
 
 global.forks = 0;
 
@@ -833,6 +835,8 @@ if weekMonth < 1 {
 }
 global.currentDate = string(year)+"-"+string_lpad(string(month), "0", 2)+"-"+string_lpad(string(day), "0", 2)
 global.currentWeek = string(weekYear)+"-"+string_lpad(string(weekMonth), "0", 2)+"-"+string_lpad(string(weekDay), "0", 2)
+global.countdownStart = floor(current_frame/30)
+global.countdown = 86400 - (unixTime % 86400);
 
 if checkDate && prevDate != global.currentDate {
 	global.qualified = false;
