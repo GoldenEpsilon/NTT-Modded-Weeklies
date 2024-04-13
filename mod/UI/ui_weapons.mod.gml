@@ -613,7 +613,8 @@ var yoffset = (8)*(scale=2.5)
 
 //draw things
 if open{
-	if race = "steroids" or mod_script_call("mod", "ModdedWeeklies", "get_current_data").bwep != false{
+	var data = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
+	if race = "steroids" or ("bwep" in data and data.bwep != false) {
     xoffset += 8
     draw_sprite_ext(sprRevolverLoadout,( check_middle ? min((current_frame-3)*0.4 mod 36,6):0 ),w_x+20,w_y+(anim)+check_middle,1,1,0,c_white,0.8)
 }

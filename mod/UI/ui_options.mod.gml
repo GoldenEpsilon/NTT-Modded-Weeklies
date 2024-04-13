@@ -20,9 +20,7 @@ global.test_options = {
 	}
 
 
-global.option_opened = false
 global.option_opening = [0,64]     //  min/start,max
-#macro option_opened global.option_opened
 #macro option_opening global.option_opening
 #macro option_anim option_opening[0]/option_opening[1]
 
@@ -31,7 +29,6 @@ update_campfire()
 #define toggleOptions()
 //mod_variable_set("mod", "ui", "menu_opened", false)
 
-global.option_opened = !global.option_opened
 
 with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
 	instance_destroy();
@@ -185,7 +182,7 @@ with(Loadout){
     //draw button
     with instances_matching(CustomObject,"name","mod_ui_options_button"){
         draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
-        if option_opened{
+        if array_length(instances_matching(CustomObject,"name","mod_ui_option")){
             var xx = 1
             var yy = 1
             draw_sprite_ext(global.sprdailyicons,7,x,y+yoffset,xscale,yscale,0,image_blend,1);
@@ -197,7 +194,7 @@ with(Loadout){
 
 #define draw_gui_end
 //animations
-if option_opened{ //ease in
+if array_length(instances_matching(CustomObject,"name","mod_ui_option")){ //ease in
     if option_opening[0] < option_opening[1]
         option_opening[0] += ((option_opening[1]-option_opening[0])/2)*current_time_scale
     
@@ -209,12 +206,14 @@ if option_opened{ //ease in
 with Loadout {
     //if loadout opened close options
     if selected
-        option_opened = false
+        with instances_matching(CustomObject,"name","mod_ui_option"){
+            instance_destroy();
+        }
     
     draw_set_color(image_blend)
     //draw splat bg
     if round(option_opening[0])>1{
-        var _sprite = option_opened? sprLoadoutOpen: sprLoadoutClose//global.sprLoadoutSplat
+        var _sprite = array_length(instances_matching(CustomObject,"name","mod_ui_option"))? sprLoadoutOpen: sprLoadoutClose//global.sprLoadoutSplat
         draw_sprite_ext(_sprite,clamp((sprite_get_number(_sprite)-1)*option_anim,0,sprite_get_number(_sprite))-1,game_width+32,36,1,-1,0,c_white,1)
         
     }
