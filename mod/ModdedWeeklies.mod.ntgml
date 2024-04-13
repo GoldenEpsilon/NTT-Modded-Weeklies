@@ -1361,6 +1361,12 @@ return global.currentDate
 #define get_options()
 return global.options
 
+#define save_options()
+if(fork()){
+	file_delete("options.json")
+	while(file_exists("options.json")){wait(1)}
+	string_save(json_encode(global.options), "options.json")
+}
 
 #define chat_command
 if(argument0 = "loaddaily"){

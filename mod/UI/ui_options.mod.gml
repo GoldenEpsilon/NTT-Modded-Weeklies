@@ -78,6 +78,7 @@ while(lq_get_key(options, i) != undefined){
                     if button_pressed(i,"fire") and option_anim = 1{
                         val = !val;
                         lq_set(mod_script_call("mod", "ModdedWeeklies", "get_options"), text, val)
+                        mod_script_call("mod", "ModdedWeeklies", "save_options")
                         if debug {
                             lq_set(global.test_options,text,val)
                         }
