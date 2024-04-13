@@ -563,7 +563,7 @@ draw_set_projection(0, 0)
             var _ind = 0
             for(var m = 0;m<array_length(muts);m++){
             	
-        		var _x = xx+xxx+12+((48+(18*m))*scoreboard_anim)
+        		var _x = xx+xxx+12+((48+(max(18, 180/array_length(muts))*m))*scoreboard_anim)
         		var _y = yy+30
         		var _name = skill_get_name(muts[m])
         		
@@ -599,7 +599,7 @@ draw_set_projection(0, 0)
                 
             }
             //ultras
-            var ults = global.scoreboard[global.current_scoreboard][i].ultras
+            var ults = "ultras" in global.scoreboard[global.current_scoreboard][i] ? global.scoreboard[global.current_scoreboard][i].ultras : []
             if array_length(muts) > 0{
             var mx = array_length(muts)*18
             var _ind = 0

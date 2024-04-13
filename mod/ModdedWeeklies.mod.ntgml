@@ -553,8 +553,8 @@ if GameCont.timer > 0 {
 
 	with(global.endData.data) {
 		for(var i = 0; i < ultra_count(race); i++) {
-			if ultra_get(race, i) {
-				array_push(ultraList, [race, i]);
+			if ultra_get(race, i+1) {
+				array_push(ultraList, [race, i+1]);
 			}
 		}
 	}
@@ -1179,6 +1179,7 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 	string_save(string(global.currentMode), "modestorage.txt");
 	wait file_load("../../mods/" + _name + "/" + "reload.txt");
 	while !file_exists("../../mods/" + _name + "/" + "reload.txt") wait(0)
+	sprite_restore(sprBackButton);
 	mod_loadtext(_name + "/" + "reload.txt");
 
 #define loadModes()
