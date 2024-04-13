@@ -33,7 +33,7 @@ switch(GameCont.area){
         
 }
 #define draw_gui
-if instance_exists(Player) && mod_script_call("mod", "ModdedWeeklies", "get_option", "area_display") {
+if instance_exists(Player) && mod_script_call("mod", "ModdedWeeklies", "get_options").area_display {
     draw_set_font(fntM)
     switch(global.playercount){
         case(1):

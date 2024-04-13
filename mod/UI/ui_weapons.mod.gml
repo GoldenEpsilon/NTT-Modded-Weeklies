@@ -164,7 +164,7 @@ if race_get_active(i) global.raceactive += 1
 
 
 
-//load_races()
+load_races()
 
 //first_load()
 
@@ -672,7 +672,7 @@ with player_find(_index){
 	ammo[weapon_get_type(wep)] = typ_ammo[weapon_get_type(wep)]*3
 	
 	var data = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
-	if data.bwep != false{
+	if "bwep" in data && data.bwep != false{
 		bwep = data.bwep
 		ammo[weapon_get_type(bwep)] = typ_ammo[weapon_get_type(bwep)]*3
 	}else if race_id == char_steroids {

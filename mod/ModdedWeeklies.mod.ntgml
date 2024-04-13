@@ -1354,13 +1354,6 @@ return global.currentDate
 #define get_options()
 return global.options
 
-#define get_option(option)
-return lq_get(global.options, option)
-
-#define set_option(option, val)
-lq_set(global.options, option, val)
-string_save(json_encode(global.options), "options.json");
-
 
 #define chat_command
 if(argument0 = "loaddaily"){

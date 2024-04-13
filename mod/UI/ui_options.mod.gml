@@ -43,8 +43,7 @@ if(array_length(instances_matching(CustomObject,"name","mod_ui_option"))) {
     return; 
 }
 var options = mod_script_call("mod", "ModdedWeeklies", "get_options");
-if debug
-var options = global.test_options
+if debug {options = global.test_options}
 
 var i = 0;
 while(lq_get_key(options, i) != undefined){
@@ -78,7 +77,7 @@ while(lq_get_key(options, i) != undefined){
                     //trace(choose(""," ","  "),"hover")
                     if button_pressed(i,"fire") and option_anim = 1{
                         val = !val;
-                        mod_script_call("mod", "ModdedWeeklies", "set_option", text, val);
+                        lq_set(mod_script_call("mod", "ModdedWeeklies", "get_options"), text, val)
                         if debug {
                             lq_set(global.test_options,text,val)
                         }
