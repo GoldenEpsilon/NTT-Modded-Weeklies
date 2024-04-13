@@ -606,6 +606,10 @@ switch (wep){
     case( wep_rusty_revolver				):customsprite = true ;sprite = sprRustyRevolverLoadout			break;
 	default:	sprite = weapon_get_sprite(g_list[|racemap[? race]][num]); scale=2.5;
 }
+if is_string(wep) and mod_variable_exists("wep",wep,"weapon_loadout"){
+    customsprite = true ;    sprite = mod_variable_get("wep",wep,"weapon_loadout");
+	scale = 1;
+}
 var xoffset = 32*(!customsprite)//((sprite_get_width(sprite)/2)+sprite_get_xoffset(sprite) )*(scale=2.5)
 var yoffset = (8)*(scale=2.5)
 

@@ -165,7 +165,8 @@ for(i = 0; i < array_length(mod_get_names("mod")); i=i){
 		modname != "ui_weapons" && 
 		modname != "ui_crowns" && 
 		modname != "selectui" && 
-		modname != "ui_options"){
+		modname != "ui_options" && 
+		modname != "ui_mods"){
 			mod_unload(mod_get_names("mod")[i]);
 	} else {
 		i++;

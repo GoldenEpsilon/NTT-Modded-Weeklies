@@ -5,6 +5,9 @@ mod_variable_set("mod", "ui", "menu_opened", false)
 with instances_matching(CustomObject,"name","mod_ui_option"){
 	instance_destroy();
 }
+with instances_matching(CustomObject,"name","mod_ui_desc"){
+	instance_destroy();
+}
 if(array_length(instances_matching(CustomObject, "name", "mod_ui_mode_button")) > 0) {
 	with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
 		instance_destroy();

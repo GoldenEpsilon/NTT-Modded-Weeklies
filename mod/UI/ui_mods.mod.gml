@@ -1,9 +1,9 @@
 global.sprdailyicons = sprite_add("sprites/DailyIcons.png", 8, 0, 0);
 global.sprtoggle = sprite_add("sprites/Toggle.png", 2, 4, 4);
-global.sprOptions = sprite_add("sprites/sprOptions.png", 0, 0, 0);
+global.sprMods = sprite_add("sprites/sprModList.png", 0, 0, 0);
 
 #macro debug false
-#macro button_position_from_right 4
+#macro button_position_from_right 3
 
 //save the options somewhere
 //update_campfire runs when an option is changed
@@ -33,74 +33,70 @@ update_campfire()
 with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
 	instance_destroy();
 }
-with instances_matching(CustomObject,"name","mod_ui_desc"){
-    instance_destroy();
+with(instances_matching(CustomObject, "name", "mod_ui_option")){
+	instance_destroy();
 }
-if(array_length(instances_matching(CustomObject,"name","mod_ui_option"))) {
-    with instances_matching(CustomObject,"name","mod_ui_option"){
+if(array_length(instances_matching(CustomObject,"name","mod_ui_desc"))) {
+    with instances_matching(CustomObject,"name","mod_ui_desc"){
         instance_destroy();
     }
     return; 
 }
-var options = mod_script_call("mod", "ModdedWeeklies", "get_options");
-if debug {options = global.test_options}
+var data = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
 
-var i = 0;
-while(lq_get_key(options, i) != undefined){
-    with instance_create(game_width-16,36+i*14,CustomObject){
-        name = "mod_ui_option";
-        sprite_index = sprKilledBySplat;
-		image_index = 2;
-		xscale = 2;
-		yscale = 1;
-        image_speed = 0;
-        depth = 0;
-        yoffset = 1;
-        visible = 0
-        image_alpha = 0.6;
-        xstart = x
-        ystart = y
-        text = lq_get_key(options, i)
-        val = lq_get_value(options, i)
-        index = i
-        if fork(){
-		wait(0)
-        while instance_exists(self){
-            var hover = 0;
-            
-            for(var i=0;i<maxp;i++){
-                if instance_exists(self) and 
+if "mods" not in data {
+    data = mod_script_call("mod", "ModdedWeeklies", "get_mode_data", "Modded Weekly")
+}
+
+if "mods" in data {
+    with(data.mods) {
+        with instance_create(game_width-16,36+i*14,CustomObject){
+            name = "mod_ui_desc";
+            sprite_index = sprKilledBySplat;
+            image_index = 2;
+            xscale = 2;
+            yscale = 1;
+            image_speed = 0;
+            depth = 0;
+            yoffset = 1;
+            visible = 0
+            image_alpha = 0.6;
+            xstart = x
+            ystart = y
+            text = other.name
+            val = other.description
+            color = c_white
+            if "color" in other {color = other.color}
+            index = i
+            if fork(){
+            wait(0)
+            while instance_exists(self){
+                var hover = 0;
                 
-                point_in_rectangle(mouse_x[i],mouse_y[i],
-                view_xview[i]+x-72,    view_yview[i]+y,
-                view_xview[i]+x+16, view_yview[i]+y+12){
-                    //trace(choose(""," ","  "),"hover")
-                    if button_pressed(i,"fire") and option_anim = 1{
-                        val = !val;
-                        lq_set(mod_script_call("mod", "ModdedWeeklies", "get_options"), text, val)
-                        if debug {
-                            lq_set(global.test_options,text,val)
-                        }
-                        update_campfire()
-                        
+                for(var i=0;i<maxp;i++){
+                    if instance_exists(self) and 
+                    
+                    point_in_rectangle(mouse_x[i],mouse_y[i],
+                    view_xview[i]+x-96,    view_yview[i]+y,
+                    view_xview[i]+x+16, view_yview[i]+y+12){
+                        hover = 1;
                     }
-                    hover = 1;
                 }
-            }
 
-            if hover = 1{
-                yoffset = -1;
-                image_blend = c_white
-            }else{
-                yoffset = 0;
-                image_blend = c_gray
+                if hover = 1{
+                    yoffset = -1;
+                    image_blend = color
+                }else{
+                    yoffset = 0;
+                    image_blend = c_gray
+                }
+                wait 0;
             }
-            wait 0;
+            exit;
+            }
         }
-        exit;
-        }
+        i++;
     }
-    i++;
 }
 
 #define draw_gui
@@ -110,17 +106,17 @@ if debug and button_pressed(0,"horn")
 
 // if scoreboard opened delete options
 //if mod_variable_get("mod", "ui", "menu_opened") {
-//    with instances_matching(CustomObject,"name","mod_ui_option"){
+//    with instances_matching(CustomObject,"name","mod_ui_desc"){
 //        instance_destroy();
 //    }
 //}
 
 //create options button
 if(instance_exists(Menu))
-if array_length(instances_matching(CustomObject,"name","mod_ui_options_button"))<1{
+if array_length(instances_matching(CustomObject,"name","mod_ui_mods_button"))<1{
     with instance_create(game_width-4-(20*button_position_from_right),7,CustomObject){
-        name = "mod_ui_options_button";
-        sprite_index = global.sprOptions;//global.swapButtonImage;
+        name = "mod_ui_mods_button";
+        sprite_index = global.sprMods;//global.swapButtonImage;
 		image_index = 4;
 		xscale = 1;
 		yscale = 1;
@@ -183,9 +179,9 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_options_button"))
 
 with(Loadout){
     //draw button
-    with instances_matching(CustomObject,"name","mod_ui_options_button"){
+    with instances_matching(CustomObject,"name","mod_ui_mods_button"){
         draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,image_blend,1);
-        if array_length(instances_matching(CustomObject,"name","mod_ui_option")){
+        if array_length(instances_matching(CustomObject,"name","mod_ui_desc")){
             var xx = 1
             var yy = 1
             draw_sprite_ext(global.sprdailyicons,7,x,y+yoffset,xscale,yscale,0,image_blend,1);
@@ -197,7 +193,7 @@ with(Loadout){
 
 #define draw_gui_end
 //animations
-if array_length(instances_matching(CustomObject,"name","mod_ui_option")){ //ease in
+if array_length(instances_matching(CustomObject,"name","mod_ui_desc")){ //ease in
     if option_opening[0] < option_opening[1]
         option_opening[0] += ((option_opening[1]-option_opening[0])/2)*current_time_scale
     
@@ -209,31 +205,48 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_option")){ //ease
 with Loadout {
     //if loadout opened close options
     if selected
-        with instances_matching(CustomObject,"name","mod_ui_option"){
+        with instances_matching(CustomObject,"name","mod_ui_desc"){
             instance_destroy();
         }
     
     draw_set_color(image_blend)
     //draw splat bg
     if round(option_opening[0])>1{
-        var _sprite = array_length(instances_matching(CustomObject,"name","mod_ui_option"))? sprLoadoutOpen: sprLoadoutClose//global.sprLoadoutSplat
+        var _sprite = array_length(instances_matching(CustomObject,"name","mod_ui_desc"))? sprLoadoutOpen: sprLoadoutClose//global.sprLoadoutSplat
         draw_sprite_ext(_sprite,clamp((sprite_get_number(_sprite)-1)*option_anim,0,sprite_get_number(_sprite))-1,game_width+32,36,1,-1,0,c_white,1)
         
     }
     //draw options
-    with instances_matching(CustomObject,"name","mod_ui_option"){
+    with instances_matching(CustomObject,"name","mod_ui_desc"){
         var _y = 0//-32*!option_anim
         var _x = (game_width+(y*2))*(1-option_anim)
         draw_set_halign(2)
         //draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,c_white,1);
-        draw_set_font(fntM)
+        draw_set_font(fntChat)
         //draw_text(x-sprite_width+8, y+sprite_height/4+yoffset, text)
         draw_set_color(image_blend)
-        draw_text((x-16)+_x, (y+4+yoffset)+_y, text)
+        draw_text((x)+_x, (y+4+yoffset)+_y, text)
         draw_set_color(c_white)
-        draw_sprite_ext(global.sprtoggle,val,(x)+_x,(y+sprite_height/4+yoffset)+_y,2,2,0,c_white,1);
         draw_set_halign(0)
     } 
+    //draw descriptions
+    with instances_matching(CustomObject,"name","mod_ui_desc"){
+        if(is_string(val)) {
+            var hover = 0;
+            
+            for(var i=0;i<maxp;i++){
+                if instance_exists(self) and 
+                
+                point_in_rectangle(mouse_x[i],mouse_y[i],
+                view_xview[i]+x-96,    view_yview[i]+y,
+                view_xview[i]+x+16, view_yview[i]+y+12){
+                    draw_tooltip(mouse_x[i],mouse_y[i],val);
+                    break;
+                    //hover = 1;
+                }
+            }
+        }
+    }
     
     draw_set_color(c_white)
     
@@ -265,9 +278,9 @@ else
 
 
 #define cleanup
-    with instances_matching(CustomObject,"name","mod_ui_options_button"){
+    with instances_matching(CustomObject,"name","mod_ui_mods_button"){
         instance_destroy();
     }
-    with instances_matching(CustomObject,"name","mod_ui_option"){
+    with instances_matching(CustomObject,"name","mod_ui_desc"){
         instance_destroy();
     }
