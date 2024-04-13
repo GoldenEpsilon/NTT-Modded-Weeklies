@@ -1095,6 +1095,7 @@ var oldjson = false;
 if(file_exists(_name+"oldversion.json")){
 	oldjson = json_decode(string_load(_name+"oldversion.json"));
 }
+file_delete(_name+"oldversion.json")
 
 //downloading the new version file over the old one
 //I delete for safety, there's a chance it isn't necessary
@@ -1110,7 +1111,6 @@ var newjson = json_decode(string_load(_name+"version.json"));
 wait file_unload(_name+"version.json");
 if(oldjson == false || oldjson == json_error || string_length(oldjson) != string_length(newjson)){
 	updateFiles(_name, _repo);
-	string_save(newjsonstr, _name+"oldversion.json");
 }else{
 	trace("Update not needed!");
 }
@@ -1178,6 +1178,7 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 		}
 	}
 	trace_color("Update for " + _name + " complete!", c_purple);
+	string_save(newjsonstr, _name+"oldversion.json");
 	string_save("/allowmod ModdedWeeklies\n/allowmod ui.mod.gml\n/load main.txt", "../../mods/" + _name + "/" + "reload.txt");
 	string_save(string(global.currentMode), "modestorage.txt");
 	wait file_load("../../mods/" + _name + "/" + "reload.txt");
