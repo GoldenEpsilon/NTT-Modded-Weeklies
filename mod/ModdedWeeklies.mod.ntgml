@@ -275,7 +275,7 @@ if(get_current_data().name != false) {
 	trace(get_current_data().name);
 }
 if array_length(modtext) trace("Mods : " + array_join(modtext, ", "));
-trace("Seed : " + string(get_current_data().seed));
+//trace("Seed : " + string(get_current_data().seed));
 
 if(global.qualified == true && !instance_exists(CharSelect)){
 	with(Player){
@@ -594,7 +594,7 @@ if(!global.finished && !instance_exists(Player) && global.start){
 				array_push(modtext, self.name)
 			}
 		}
-		score = global.endData.alias + ": Area " + string(area) + "-" + string(subarea) + " L" + string(loops) + " Kills: " + string(kills) + " Character: " + race_get_name(global.endData.data[0].race) + " Mods:" + array_join(modtext, ", ") + " Seed:" + string(get_current_data().seed);
+		score = global.endData.alias + ": Area " + string(area) + "-" + string(subarea) + " L" + string(loops) + " Kills: " + string(kills) + " Character: " + race_get_name(global.endData.data[0].race) + " Mods:" + array_join(modtext, ", ");
 	}
 	trace(score);
 	global.finished = true;
