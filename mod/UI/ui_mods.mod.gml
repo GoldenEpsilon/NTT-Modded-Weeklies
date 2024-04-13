@@ -88,7 +88,7 @@ if "mods" in data {
                     image_blend = color
                 }else{
                     yoffset = 0;
-                    image_blend = c_gray
+                    image_blend = merge_color(color, c_gray, 0.5)
                 }
                 wait 0;
             }
@@ -233,16 +233,16 @@ with Loadout {
     with instances_matching(CustomObject,"name","mod_ui_desc"){
         if(is_string(val)) {
             var hover = 0;
-            
             for(var i=0;i<maxp;i++){
                 if instance_exists(self) and 
                 
                 point_in_rectangle(mouse_x[i],mouse_y[i],
                 view_xview[i]+x-96,    view_yview[i]+y,
                 view_xview[i]+x+16, view_yview[i]+y+12){
-                    draw_tooltip(mouse_x[i],mouse_y[i],val);
+                    draw_set_projection(0,0)
+                    draw_tooltip(x,y,val);
+                    draw_reset_projection()
                     break;
-                    //hover = 1;
                 }
             }
         }
