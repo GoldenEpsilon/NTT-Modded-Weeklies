@@ -563,7 +563,7 @@ draw_set_projection(0, 0)
             var _ind = 0
             for(var m = 0;m<array_length(muts);m++){
             	
-        		var _x = xx+xxx+12+((48+(max(18, 180/array_length(muts))*m))*scoreboard_anim)
+        		var _x = xx+xxx+12+((48+(min(18, 180/array_length(muts))*m))*scoreboard_anim)
         		var _y = yy+30
         		var _name = skill_get_name(muts[m])
         		
@@ -601,38 +601,38 @@ draw_set_projection(0, 0)
             //ultras
             var ults = "ultras" in global.scoreboard[global.current_scoreboard][i] ? global.scoreboard[global.current_scoreboard][i].ultras : []
             if array_length(muts) > 0{
-            var mx = array_length(muts)*18
+            var mx = min(18*array_length(muts), 180)
             var _ind = 0
             for(var m = 0;m<array_length(ults);m++){
             	
-        		var _x = mx+xx+xxx+12+((48+(18*m))*scoreboard_anim)
+        		var _x = xx+xxx+12+((48+(min(18, 40/array_length(ults))*m)+mx)*scoreboard_anim)
         		var _y = yy+30
         		var _name = "test"//skill_get_name(ults[m])
         		
         		var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,_x-5,_y-5,_x+5,_y+5)
                 
                 
-                	var _spr = global.mod_ultra
-                	if array_length(ults[m]) = 0{
-                		var _name = "mod"
-                		if mod_exists("skill",ults[m]){
-                			_name = mod_script_call("skill",ults[m],"skill_name")
-                			_spr = mod_script_call("skill",ults[m],"skill_icon")
-                		}
-                	}
-                	else{
-                		if !is_string(ults[m][0]){
-                			_spr = sprEGIconHUD
-                			_ind = (ults[m][0]*3)+ults[m][1]
-                			_name = ultra_get_name(ults[m][0],ults[m][1]+1)
-                		}else
-                		if mod_exists("race",ults[m][0]){
-                			_name = mod_script_call("race",ults[m][0],"race_ultra_name",ults[m][1]+1)
-                			_spr = mod_script_call("race",ults[m][0],"race_ultra_icon",ults[m][1]+1)
-                		}
-                	}
-    
-                	draw_sprite(_spr,_ind,_x,_y+hover_over)
+				var _spr = global.mod_ultra
+				if array_length(ults[m]) = 0{
+					_name = is_string(ults[m]) ? ults[m] : "mod"
+					if mod_exists("skill",ults[m]){
+						_name = mod_script_call("skill",ults[m],"skill_name")
+						_spr = mod_script_call("skill",ults[m],"skill_icon")
+					}
+				}
+				else{
+					if !is_string(ults[m][0]){
+						_spr = sprEGIconHUD
+						_ind = (ults[m][0]*3)+ults[m][1]
+						_name = ultra_get_name(ults[m][0],ults[m][1]+1)
+					}else
+					if mod_exists("race",ults[m][0]){
+						_name = mod_script_call("race",ults[m][0],"race_ultra_name",ults[m][1]+1)
+						_spr = mod_script_call("race",ults[m][0],"race_ultra_icon",ults[m][1]+1)
+					}
+				}
+
+				draw_sprite(_spr,_ind,_x,_y+hover_over)
     
     //            	var _get = false//skill_get_icon(ults[m]);
     //            	if is_array(_get){
