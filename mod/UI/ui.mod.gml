@@ -1100,6 +1100,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_superbutton"))<1{
     
     
 //backbutton
+/*
 with instances_matching(BackFromCharSelect,"mod_ui",null){
 	ystart-=64
 	mod_ui = true
@@ -1172,7 +1173,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_backbutton"))=0
 			exit;
 		}
 	}
-
+*/
 //draw buttons
 with Loadout{
 	//draw go button

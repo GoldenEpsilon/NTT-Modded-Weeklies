@@ -191,7 +191,6 @@ with(Loadout){
     } 
 }
 
-#define draw_gui_end
 //animations
 if array_length(instances_matching(CustomObject,"name","mod_ui_desc")){ //ease in
     if option_opening[0] < option_opening[1]
@@ -229,13 +228,13 @@ with Loadout {
         draw_set_color(c_white)
         draw_set_halign(0)
     } 
+    draw_set_font(fntM0)
     //draw descriptions
     with instances_matching(CustomObject,"name","mod_ui_desc"){
         if(is_string(val)) {
             var hover = 0;
             for(var i=0;i<maxp;i++){
                 if instance_exists(self) and 
-                
                 point_in_rectangle(mouse_x[i],mouse_y[i],
                 view_xview[i]+x-96,    view_yview[i]+y,
                 view_xview[i]+x+16, view_yview[i]+y+12){

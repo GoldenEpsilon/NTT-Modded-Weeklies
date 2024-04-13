@@ -155,16 +155,7 @@ with Loadout {
 		}
     } 
 	if global.open >= 0 {
-		draw_sprite_ext(sprUnlockPopupSplat, global.open, game_widntM)
-			draw_set_halign(1)
-			draw_set_valign(1)
-			var remainingTime = mod_variable_get("mod", "ModdedWeeklies", "countdown") - (floor(current_frame/30) - mod_variable_get("mod", "ModdedWeeklies", "countdownStart"));
-			var remainingSeconds = remainingTime % 60;
-			var remainingMinutes = floor(remainingTime / 60) % 60
-			var remainingHours = floor(remainingTime / 3600)
-			draw_text(game_width/2, 48, "Time until next daily: " + string(remainingHours) + ":" + string(remainingMinutes) + ":" + string(remainingSeconds));
-			draw_set_halign(0)
-			draw_set_valign(0)th/2-5, 36, 1, 1, 180, c_white, 1);
+		draw_sprite_ext(sprUnlockPopupSplat, global.open, game_width/2-5, 36, 1, 1, 180, c_white, 1);
 		draw_sprite_ext(sprUnlockPopupSplat, global.open, game_width/2+5, 36, -1, 1, 180, c_white, 1);
 	}
 	if array_length(instances_matching(CustomObject,"name","mod_ui_mode_button")) > 0{

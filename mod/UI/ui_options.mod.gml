@@ -195,7 +195,6 @@ with(Loadout){
     } 
 }
 
-#define draw_gui_end
 //animations
 if array_length(instances_matching(CustomObject,"name","mod_ui_option")){ //ease in
     if option_opening[0] < option_opening[1]
@@ -229,7 +228,7 @@ with Loadout {
         draw_set_font(fntM)
         //draw_text(x-sprite_width+8, y+sprite_height/4+yoffset, text)
         draw_set_color(image_blend)
-        draw_text((x-16)+_x, (y+4+yoffset)+_y, text)
+        draw_text((x-16)+_x, (y+4+yoffset)+_y, string_replace(string_replace(text, "co_op", "co-op"), "_", " "))
         draw_set_color(c_white)
         draw_sprite_ext(global.sprtoggle,val,(x)+_x,(y+sprite_height/4+yoffset)+_y,2,2,0,c_white,1);
         draw_set_halign(0)
