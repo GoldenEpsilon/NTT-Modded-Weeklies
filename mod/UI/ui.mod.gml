@@ -501,7 +501,7 @@ draw_set_projection(0, 0)
 			if(!is_array(deathcause)) {
 				deathcause = killed_by(deathcause);
 			}
-        	script_bind_draw("ui_popup_draw",-1000,_x,_y,"killed by " + " "+string(deathcause[1]))
+        	script_bind_draw("ui_popup_draw",-1000,_x,_y,"killed by "+string(deathcause[1]))
         	draw_sprite(deathcause[0],current_frame*0.4,_x+122,_y)
         }
 	    

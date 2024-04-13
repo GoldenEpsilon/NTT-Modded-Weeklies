@@ -276,6 +276,9 @@ var data = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
 if "wep" not in data {
 	data.wep = false;
 }
+if "bwep" not in data {
+	data.bwep = false;
+}
 
 //set starting weapons
 for(var i = 1;i<array_length(raceray);i++){
