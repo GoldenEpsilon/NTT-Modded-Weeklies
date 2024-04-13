@@ -88,7 +88,7 @@ if "mods" in data {
                     image_blend = color
                 }else{
                     yoffset = 0;
-                    image_blend = merge_color(color, c_gray, 0.5)
+                    image_blend = merge_color(color, c_gray, 0.75)
                 }
                 wait 0;
             }

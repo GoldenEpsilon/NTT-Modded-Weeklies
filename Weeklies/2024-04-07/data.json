@@ -14,13 +14,14 @@
 		{
 			"download_type": "itch",
 			"name": "Detonator",
-			"description": false,
+			"description": "A classic mod, you get to explode your own projectiles.\nWatch for the explosions!",
+			"color": 4235519,
 			"url": "https://yokin.itch.io/detonator"
 		},
 		{
 			"download_type": "itch",
 			"name": "Scales",
-			"description": false,
+			"description": "A Dragon with fearsome defense and power.\nUse the counter to destroy your foes!",
 			"color": 32768,
 			"url": "https://dragonstrive.itch.io/scales",
 			"globals": [
@@ -35,7 +36,8 @@
 		{
 			"download_type": "itch",
 			"name": "The Undergrowth",
-			"description": false,
+			"description": "A dangerous new alternate area with\nunique enemies and a brand new set of weapons!",
+			"color": 32896,
 			"url": "https://attfooy.itch.io/undergrowth",
 			"patches": [
 				{
@@ -47,19 +49,20 @@
 		{
 			"download_type": "itch",
 			"name": "Blaacskills",
-			"description": false,
+			"description": "A set of weapon mutations that expand the pool\nand provide new meta opportunities!",
+			"color": 16711680,
 			"url": "https://blaac.itch.io/weapon-mutations"
 		},
 		{
 			"download_type": "itch",
 			"name": "blaac mutation changes",
-			"description": false,
+			"description": "A set of tweaks\nto vanilla mutations by blaac",
 			"url": "https://blaac.itch.io/bmutations"
 		},
 		{
 			"download_type": "itch",
 			"name": "blaac weapon changes",
-			"description": false,
+			"description": "A bunch of QOL changes\nto vanilla weapons by blaac",
 			"url": "https://blaac.itch.io/bweapons"
 		},
 	],
