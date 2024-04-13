@@ -65,6 +65,8 @@ global.options = {
 	skeleton: true,
 }
 
+global.newjsonstr = ""//Hack
+
 if(fork()){
 	wait file_load("options.json");
 	var options = json_decode(string_load("options.json"));
@@ -1106,7 +1108,7 @@ wait file_download("https://api.github.com/repos/" + _repo + "/commits", _name+"
 file_load(_name+"version.json");
 while (!file_loaded(_name+"version.json")) {wait 1;}
 while (!file_exists(_name+"version.json")) {wait 1;}
-var newjsonstr = string_load(_name+"version.json");
+global.newjsonstr = string_load(_name+"version.json");
 var newjson = json_decode(string_load(_name+"version.json"));
 wait file_unload(_name+"version.json");
 if(oldjson == false || oldjson == json_error || string_length(oldjson) != string_length(newjson)){
@@ -1178,7 +1180,7 @@ if(oldjson == false || oldjson == json_error || string_length(oldjson) != string
 		}
 	}
 	trace_color("Update for " + _name + " complete!", c_purple);
-	string_save(newjsonstr, _name+"oldversion.json");
+	string_save(global.newjsonstr, _name+"oldversion.json");
 	string_save("/allowmod ModdedWeeklies\n/allowmod ui.mod.gml\n/load main.txt", "../../mods/" + _name + "/" + "reload.txt");
 	string_save(string(global.currentMode), "modestorage.txt");
 	wait file_load("../../mods/" + _name + "/" + "reload.txt");
