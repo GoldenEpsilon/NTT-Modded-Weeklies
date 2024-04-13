@@ -26,13 +26,6 @@
 
 global.game_size = [game_width,game_height]
 
-/*  hide menu portraits  */
-global.hideportraits = false;
-//sprites
-if global.hideportraits 
-	sprite_replace(sprBigPortrait,"sprites/blank_strip3.png",3,0,0);
-
-
 global.sprBackIntro = sprite_add_base64("iVBORw0KGgoAAAANSUhEUgAAAaQAAAAcCAYAAAAuosuZAAAACXBIWXMAAAsSAAALEgHS3X78AAAAG3RFWHRTb2Z0d2FyZQBDZWxzeXMgU3R1ZGlvIFRvb2zBp+F8AAACCklEQVR42u3dXW7CMBAA4XCiqvc/RNUTpU9IEQIa/2y8xt+8UmmQEDuyG5vbvu8bAKzEz9dt//7db1f6tm3brnLO6rsJEgAxih/WVwXi6LvC2dMnSACWi9EVK4hHV3QkPsEnSACWC9F9aEaF6d2w5hMkAAvH6N3rEcOarw5BAiBGfCl8ggRgyRj1Hqx87T5BApAuJM/+33PlAC0dpr1cq/sECcA0q52SMPUYovcw/uftGb+VfYIEYIoAlZ4f6r1C+s/P1+4TJADTxWrESkmU4n2CBGC6CNVGqWVrqtb37r328JWcBcruEyQA00SpNhAlEet12PPoq4lSj1VgSSQy+AQJwDJRihi4WSJYcoVPVp8gAWge3iMuDY0M0qy+x63C0kiM9gkSgCmiJEh1n8erzyajT5AANEdIkPh6+AQJWHTF0epreY+1vtoBuprvzFOFGX2CBCSLxNlHhkf7jlf8RDwS3WuAruiLDFKkT5CAZFGa5Rc/W4NU42sZoHz5fYIEJFodtW6ljPD1uDmh9sBq7SPVfDl9ggRUDN7oQI1eJZ3ZfmnZUvyEMzN8/X2CBCRcKb36wkf+5PaZv3uMUM8glTLqPju+OJ8gAYnj9+oLHBGm0ig9C1R0lPg+2ydIwARRGrVVGDXMWnwtIebL7RMkAEWD5hjHXqs0Pj5BAjBNILMfFOZr9wkSACAFf9jghAUDVL1aAAAAAElFTkSuQmCC"
 , 15, 16, 16);
 global.sprBackButton = sprite_add_base64("iVBORw0KGgoAAAANSUhEUgAAAKgAAAAeCAYAAAC42FXcAAAACXBIWXMAAAsSAAALEgHS3X78AAAAG3RFWHRTb2Z0d2FyZQBDZWxzeXMgU3R1ZGlvIFRvb2zBp+F8AAADBElEQVR42u2cW24kIQxF8YYmSva/homSDXk+ZpAIA8Y2vlBdhb9a6lYdbN/iYawmZk4aIyJOKSVmprTADu/wUkqJNAIlIv796+/nj2+8k0/g5bgT0S15UfEUBZrfggzLhkriU3h1zFGi2cWLjGdXoPkt+Pj+H4hI4hN4zJzF0foe5t9qXmQ8qTN4ERadwCfwRlupSMG0/Hv/4qU8mEDL/UPPEGK5M2+HOFuWRbqKF77Ea2Etc70dD+BpxHniqRCoBqYdiAa+g8fM6fONlvtXL68j+3wjaDxb4ylfFHT+3r9YzaN/G/cpsVin9B28cibzinTGP49IkfGUxjPaAkTkr+RLvHCB5o1yngFa4B28eqmdmUm9/nlnUlQ8ezNprjag85dnUokXtsS3lsOizAEXqYYXKVKvfzPLPSKe0nJflMXgIu3xzIekI9Ij0pUiNZWZWicyaYDSsrST1xPpSv/qg0JxYBiKFBHPgUjh+atE2p5BtdAfDzD81uskgieJdJV/xR6MNKUpbf3SG09vMR+Zv+FVp+ohwCQieS2RXsU/lEhH/kWLdDaew2aRsitF6lCxDPBKvKrLxyxSpH+zd+jeeGpLQCvyR4qbDi43572NekQCd/LKUsdV/Ito8vDG03stGp0/cYmvH5g3sPV3EQk8vNgZNMK/1h55dTyH3Uz16cta4tAkcAevnDHL07O1pIL0zyvQO+VPLDOVtxgoB3fz6h7NaIHO+OcR6N3yp6qDahoXIhzcwdM2Luzwb1agd8ifulAvDXSmDNPrMkLyrHutaJ7WP+GuHMJb7Z+7zCRBWxZVk2yJFMXribRlOUaWlygqnp6Sz478oXjmmySLeYrmM61wETc7I7O0wUXF01ry2ZE/FM98k6SBSA0N0SKd4XlESkShvNX+vRpPfZNkgXkK2B6RRvAsItWc9iOTiPLvlXimmyQJpKl9aZ3M+76eSBE8qQO+bAXzinN3PF+VR9a/vunZqOvb6+hVeKMu81f376o8tUCVy/OS//05vOfwwgR67BjC/gB49PQf8OwrGQAAAABJRU5ErkJggg=="
@@ -138,49 +131,10 @@ global.scoreboard = [
     	},{
     	}
     ]
-
-
-/*  characters unlocked  */	
-global.frog = false;
-global.skel = false;
-global.bdog = false;
-
-global.options = mod_script_call("mod", "ModdedWeeklies", "get_options");
-			
-if debug2
-
-global.options = {
-	frog : false,
-	skeleton : false,
-	bigdog : false,
-	show_co_op: false,
-	area_display: true,
-	mini_intros: true
-	}
-			
 				
 //get information from file
 
 update_scoreboard()
-
-
-//characters
-if !global.options.frog{
-	race_set_active(15,0);
-	with instances_matching(CampChar,"num",15) instance_delete(id);
-	}
-if !global.options.skeleton{
-	race_set_active(14,0);
-	with instances_matching(CampChar,"num",14) instance_delete(id);
-	}
-/*if !global.options.bigdog{
-	race_set_active(13,0);
-	with instances_matching(CampChar,"num",13) instance_delete(id);
-    }
-	else{
-    race_set_active(13,1);
-}*/
-
 
 #define update_scoreboard
 global.scoreboard = [[],[],[]]
@@ -1720,46 +1674,6 @@ if(argument0 = "fps"){
 	}
     return true;
 }    
-if(argument0 = "frog"){
-    global.frog = global.frog ? false : true;
-    if global.frog 
-		race_set_active(15,1);
-    else{
-    	race_set_active(15,0);
-    	with instances_matching(CampChar,"num",15) instance_delete(id);
-    }
-    return true;
-}
-if(argument0 = "skel"){
-    global.skel = global.skel ? false : true;
-    if global.skel 
-		race_set_active(14,1);
-    else{
-    	race_set_active(14,0);
-    	with instances_matching(CampChar,"num",14) instance_delete(id);
-    }
-    return true;
-}
-if(argument0 = "bdog" or argument0 = "bigdog" or argument0 = "dog"){
-    global.bdog = global.bdog ? false : true;
-    if global.bdog{
-		race_set_active(13,1);
-        with instance_create(-10000,-10000,ScrapBoss) instance_destroy()
-    }
-    else
-    	race_set_active(13,0);
-    return true;
-}
-
-if(argument0 = "portraits"){
-    global.hideportraits = global.hideportraits ? false : true;
-    if global.hideportraits 
-		sprite_replace(sprBigPortrait,"sprites/blank_strip3.png",0,0,0);
-    else{
-    	sprite_restore(sprBigPortrait);
-    }
-    return true;
-}
 
 
 #define cleanup

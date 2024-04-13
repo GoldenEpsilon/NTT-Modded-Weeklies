@@ -11,12 +11,9 @@ global.sprOptions = sprite_add("sprites/sprOptions.png", 0, 0, 0);
 
 if debug
 global.test_options = {
-	frog : false,
-	skeleton : false,
-	bigdog : false,
-	show_co_op: false,
 	area_display: true,
-	mini_intros: true
+	mini_intros: true,
+	ntt_characters: true,
 	}
 
 
@@ -243,20 +240,22 @@ with Loadout {
 var options = mod_script_call("mod", "ModdedWeeklies", "get_options");
 if debug
 var options = global.test_options
+else{
+	wait file_load("ModdedWeeklies");
+	var options = mod_script_call("mod", "ModdedWeeklies", "get_options");
+}
 
   
-if options.frog
+if options.ntt_characters{
     race_set_active(15,1);
+    race_set_active(14,1);
+}
 else{
     race_set_active(15,0);
     with instances_matching(CampChar,"num",15) instance_delete(id);
-}
-if options.skeleton
-    race_set_active(14,1);
-else{
     race_set_active(14,0);
     with instances_matching(CampChar,"num",14) instance_delete(id);
-}  
+}
 /*if options.bigdog
     race_set_active(13,1);
 else

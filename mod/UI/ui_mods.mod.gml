@@ -24,8 +24,6 @@ global.option_opening = [0,64]     //  min/start,max
 #macro option_opening global.option_opening
 #macro option_anim option_opening[0]/option_opening[1]
 
-update_campfire()
-
 #define toggleOptions()
 //mod_variable_set("mod", "ui", "menu_opened", false)
 
@@ -46,6 +44,55 @@ var data = mod_script_call("mod", "ModdedWeeklies", "get_current_data");
 
 if "mods" not in data {
     data = mod_script_call("mod", "ModdedWeeklies", "get_mode_data", "Modded Weekly")
+}
+var i = 0;
+if "name" in data {
+    with instance_create(game_width-16,36+i*14,CustomObject){
+        name = "mod_ui_desc";
+        sprite_index = sprKilledBySplat;
+        image_index = 2;
+        xscale = 2;
+        yscale = 1;
+        image_speed = 0;
+        depth = 0;
+        yoffset = 1;
+        visible = 0
+        image_alpha = 0.6;
+        xstart = x
+        ystart = y
+        text = data.name
+        val = "description" in data ? data.description : false
+        color = c_white
+        if "color" in other {color = other.color}
+        index = i
+        if fork(){
+        wait(0)
+        while instance_exists(self){
+            var hover = 0;
+            
+            for(var i=0;i<maxp;i++){
+                if instance_exists(self) and 
+                
+                point_in_rectangle(mouse_x[i],mouse_y[i],
+                view_xview[i]+x-96,    view_yview[i]+y,
+                view_xview[i]+x+16, view_yview[i]+y+12){
+                    hover = 1;
+                }
+            }
+
+            if hover = 1{
+                yoffset = -1;
+                image_blend = color
+            }else{
+                yoffset = 0;
+                image_blend = merge_color(color, c_gray, 0.75)
+            }
+            wait 0;
+        }
+        exit;
+        }
+    }
+    i += 1.5;
 }
 
 if "mods" in data {
@@ -212,7 +259,7 @@ with Loadout {
     //draw splat bg
     if round(option_opening[0])>1{
         var _sprite = array_length(instances_matching(CustomObject,"name","mod_ui_desc"))? sprLoadoutOpen: sprLoadoutClose//global.sprLoadoutSplat
-        draw_sprite_ext(_sprite,clamp((sprite_get_number(_sprite)-1)*option_anim,0,sprite_get_number(_sprite))-1,game_width+32,36,1,-1,0,c_white,1)
+        draw_sprite_ext(_sprite,clamp((sprite_get_number(_sprite)-1)*option_anim,0,sprite_get_number(_sprite))-1,game_width,36,1,-1,0,c_white,1)
         
     }
     //draw options
@@ -221,7 +268,7 @@ with Loadout {
         var _x = (game_width+(y*2))*(1-option_anim)
         draw_set_halign(2)
         //draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,c_white,1);
-        draw_set_font(fntChat)
+        draw_set_font(fntM0)
         //draw_text(x-sprite_width+8, y+sprite_height/4+yoffset, text)
         draw_set_color(image_blend)
         draw_text((x)+_x, (y+4+yoffset)+_y, text)
@@ -250,29 +297,6 @@ with Loadout {
     draw_set_color(c_white)
     
 }
-#define update_campfire
-
-var options = mod_script_call("mod", "ModdedWeeklies", "get_options");
-if debug
-var options = global.test_options
-
-  
-if options.frog
-    race_set_active(15,1);
-else{
-    race_set_active(15,0);
-    with instances_matching(CampChar,"num",15) instance_delete(id);
-}
-if options.skeleton
-    race_set_active(14,1);
-else{
-    race_set_active(14,0);
-    with instances_matching(CampChar,"num",14) instance_delete(id);
-}  
-/*if options.bigdog
-    race_set_active(13,1);
-else
-    race_set_active(13,0);*/
 
 
 

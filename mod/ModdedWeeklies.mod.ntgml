@@ -60,9 +60,7 @@ global.modeType = "";
 global.options = {
 	area_display: true,
 	mini_intros: true,
-	show_co_op: false,
-	frog: true,
-	skeleton: true,
+	ntt_characters: true
 }
 
 global.newjsonstr = ""//Hack
