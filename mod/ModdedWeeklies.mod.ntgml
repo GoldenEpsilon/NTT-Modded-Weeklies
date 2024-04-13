@@ -1089,11 +1089,11 @@ return retVal;
 trace("Checking for updates...");
 //loading the previous version file. 
 //The version file is a list of commits github provides, this mod just checks the sha
-file_load(_name+"version.json");
-while (!file_loaded(_name+"version.json")) {wait 1;}
+file_load(_name+"oldversion.json");
+while (!file_loaded(_name+"oldversion.json")) {wait 1;}
 var oldjson = false;
-if(file_exists(_name+"version.json")){
-	oldjson = json_decode(string_load(_name+"version.json"));
+if(file_exists(_name+"oldversion.json")){
+	oldjson = json_decode(string_load(_name+"oldversion.json"));
 }
 
 //downloading the new version file over the old one
@@ -1105,10 +1105,12 @@ wait file_download("https://api.github.com/repos/" + _repo + "/commits", _name+"
 file_load(_name+"version.json");
 while (!file_loaded(_name+"version.json")) {wait 1;}
 while (!file_exists(_name+"version.json")) {wait 1;}
+var newjsonstr = string_load(_name+"version.json");
 var newjson = json_decode(string_load(_name+"version.json"));
 wait file_unload(_name+"version.json");
 if(oldjson == false || oldjson == json_error || string_length(oldjson) != string_length(newjson)){
 	updateFiles(_name, _repo);
+	string_save(newjsonstr, _name+"oldversion.json");
 }else{
 	trace("Update not needed!");
 }
