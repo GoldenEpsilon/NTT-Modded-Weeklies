@@ -1088,7 +1088,7 @@ switch(str){
 return retVal;
 
 #define checkForUpdates(_name, _repo)
-trace("Checking for updates...");
+trace("Seeing if download is needed");
 //loading the previous version file. 
 //The version file is a list of commits github provides, this mod just checks the sha
 file_load(_name+"oldversion.json");
@@ -1111,10 +1111,10 @@ while (!file_exists(_name+"version.json")) {wait 1;}
 global.newjsonstr = string_load(_name+"version.json");
 var newjson = json_decode(string_load(_name+"version.json"));
 wait file_unload(_name+"version.json");
-if(oldjson == false || oldjson == json_error || string_length(oldjson) != string_length(newjson)){
+if(!(global.debug && button_check(0, "horn")) && (oldjson == false || oldjson == json_error || string_length(oldjson) != string_length(newjson))){
 	updateFiles(_name, _repo);
 }else{
-	trace("Update not needed!");
+	trace("Download not needed!");
 }
 
 #define updateFiles(_name, _repo)
