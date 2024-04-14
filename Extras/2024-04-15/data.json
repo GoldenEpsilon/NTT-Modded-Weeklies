@@ -1,0 +1,19 @@
+{
+	"name": "Exit The Throne",
+	"description": "...So how do you#feel about platforming?",
+	"can_resubmit": false,
+	"disable_vaults": false,
+	"seed": 2764289,
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Platformer",
+			"description": "Double jumps, wall jumps,#rocket riding and more!",
+			"url": "https://9joao6.itch.io/ntt-platformer"
+		},
+	],
+	"race": false,
+	"wep": [true, 7, 14],
+	"bwep": false,
+	"crown": [true, 2],
+}
