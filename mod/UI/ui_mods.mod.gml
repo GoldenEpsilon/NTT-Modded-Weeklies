@@ -281,9 +281,22 @@ with Loadout {
                 point_in_rectangle(mouse_x[i],mouse_y[i],
                 view_xview[i]+x-96,    view_yview[i]+y,
                 view_xview[i]+x+16, view_yview[i]+y+12){
-                    draw_set_projection(0,0)
-                    draw_tooltip(x,y,val);
-                    draw_reset_projection()
+                    draw_set_color(make_color_rgb(15,15,25))
+                    var _round = 0//max(0.2,((round((mouse_delta_y[i])*8))/8))
+                    var xanim = -18
+                    var yoffset = 18
+                    var height = string_count("#", val)*8+4
+                    var ybonus = 8
+                    draw_set_halign(1)
+                    draw_rectangle(0,y-2+yoffset,game_width,y+yoffset-6,0)
+                    draw_rectangle(0,y+yoffset,game_width,y+height+yoffset+ybonus,0)
+                    draw_rectangle(0,y+height+2+yoffset+ybonus,game_width,y+height+yoffset+ybonus+4,0)
+                    draw_set_color(color)
+                    draw_text(game_width/2,y-8+yoffset,text)
+                    draw_set_color(c_silver)
+                    draw_text(game_width/2,y+yoffset+2,val);
+                    draw_set_color(c_white)
+                    draw_set_halign(0)
                     break;
                 }
             }
