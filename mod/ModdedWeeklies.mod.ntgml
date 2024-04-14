@@ -65,21 +65,6 @@ global.options = {
 
 global.newjsonstr = ""//Hack
 
-if(fork()){
-	wait file_load("options.json");
-	var options = json_decode(string_load("options.json"));
-	if options != json_error {
-		var i = 0;
-		while(lq_get_key(options, i) != undefined){
-			if lq_exists(global.options, lq_get_key(options, i)){
-				lq_set(global.options, lq_get_key(options, i), lq_get_value(options, i))
-			}
-			i++;
-		}
-	}
-	exit;
-}
-
 global.canStart = false;
 global.qualified = false;
 global.endData = {
@@ -96,6 +81,24 @@ global.countdownStart = floor(current_frame/30)
 global.countdown = 0;
 
 global.forks = 0;
+
+if(fork()){
+	wait file_load("options.json");
+	var optstr = string_load("options.json")
+	if is_string(optstr){
+		var options = json_decode(optstr);
+		if options != json_error {
+			var i = 0;
+			while(lq_get_key(options, i) != undefined){
+				if lq_exists(global.options, lq_get_key(options, i)){
+					lq_set(global.options, lq_get_key(options, i), lq_get_value(options, i))
+				}
+				i++;
+			}
+		}
+	}
+	exit;
+}
 
 wait(3);
 
@@ -289,6 +292,8 @@ if(global.qualified == true && !instance_exists(CharSelect)){
 	}
 	trace("Disqualified for uploading results. reload the weeklies mod from the character select screen to qualify again.");
 }
+
+game_set_seed(get_current_data().seed);
 
 global.canStart = true;
 global.active = true;
