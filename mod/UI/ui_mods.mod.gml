@@ -11,10 +11,6 @@ global.sprMods = sprite_add("sprites/sprModList.png", 0, 0, 0);
 
 if debug
 global.test_options = {
-	frog : false,
-	skeleton : false,
-	bigdog : false,
-	show_co_op: false,
 	area_display: true,
 	mini_intros: true
 	}

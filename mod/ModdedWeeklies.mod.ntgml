@@ -470,27 +470,6 @@ if global.currentMode != "" {
 	}
 }
 
-if(instance_exists(Menu)){
-	if global.options.frog != mod_variable_get("mod", "ui", "frog") {
-		mod_variable_set("mod", "ui", "frog", global.options.frog)
-		if global.options.frog
-			race_set_active(15,1);
-		else{
-			race_set_active(15,0);
-			with instances_matching(CampChar,"num",15) instance_delete(id);
-		}
-	}
-	if global.options.skeleton != mod_variable_get("mod", "ui", "skel") {
-		mod_variable_set("mod", "ui", "skel", global.options.skeleton)
-		if global.options.skeleton
-			race_set_active(15,1);
-		else{
-			race_set_active(15,0);
-			with instances_matching(CampChar,"num",15) instance_delete(id);
-		}
-	}
-}
-
 with(ProtoChest){instance_destroy();}
 
 //This chunk is redundant and VERY slow.
