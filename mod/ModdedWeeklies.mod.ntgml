@@ -294,6 +294,9 @@ global.canStart = true;
 global.active = true;
 
 #define game_start
+if(global.start){
+	SubmitRun();
+}
 if(global.currentMode == ""){
 	global.active = false;
 	return;
@@ -566,92 +569,7 @@ if instance_exists(GameOverButton) with GameOverButton {
 }
 
 if(!global.finished && !instance_exists(Player) && global.start){
-	var score = "";
-	with(GameCont){
-		var modtext = [];
-		if "mods" in get_current_data() {
-			with get_current_data().mods {
-				array_push(modtext, self.name)
-			}
-		}
-		score = global.endData.alias + ": Area " + string(area) + "-" + string(subarea) + " L" + string(loops) + " Kills: " + string(kills) + " Character: " + race_get_name(global.endData.data[0].race) + " Mods:" + array_join(modtext, ", ");
-	}
-	trace(score);
-	global.finished = true;
-	
-	if(global.qualified){	
-		headers = ds_map_create();
-		ds_map_set(headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
-		ds_map_set(headers, "cache-control", "no-cache");
-		ds_map_set(headers, "Accept", "application/vnd.github.full+json");	
-		file_delete("dl.txt");
-		while (file_exists("dl.txt")) {wait 1;}
-		http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
-		, "GET", headers,
-		``
-		, "dl.txt");
-		while (!file_loaded("dl.txt")) {wait 1;}
-		var dl = "404";
-		var leaderboard = "";
-		if(string_count(`"message":"Not Found"`, string_load("dl.txt")) >= 1 || string_count(`Bad Credentials`, string_load("dl.txt")) >= 1){
-			leaderboard = dl;
-		}else{
-			dl = string_split(string_split(string_load("dl.txt"), `","encoding":"base64"`)[0],`"content":"`)[1];
-			dl = string_replace_all(dl, "\\n", "");
-			leaderboard = base64Decode(dl);
-		}
-		file_unload("dl.txt");
-		if(string_copy(leaderboard, 0, 3) == "404" || json_decode(leaderboard) == json_error){
-			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
-			, "PUT", headers,
-			`{
-			"message":"Leaderboard Update (New leaderboard!) (` + global.DataSubmission.name + `)",
-			"content":"`+base64(json_encode({scores: [global.DataSubmission]}))+`"
-			}`
-			, "out.txt");
-			global.leaderboard[get_current_mode().index] = [global.DataSubmission];
-			if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
-		}else{
-			leaderboard = json_decode(leaderboard);
-			var fail = false;
-			for(var i = 0; i < array_length(leaderboard.scores); i++){
-				// Checking specifically player 1
-				if leaderboard.scores[i].allies[0].alias == global.DataSubmission.allies[0].alias {
-					fail = true;
-				}
-			}
-			array_push(leaderboard.scores, global.DataSubmission);
-			if(get_current_data().can_resubmit || !fail){
-				file_delete("sha.txt");
-				while (file_exists("sha.txt")) {wait 1;}
-				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
-				, "GET", headers,
-				``
-				, "sha.txt");
-				while (!file_loaded("sha.txt")) {wait 1;}
-				wait file_load("sha.txt");
-				sha = string_split(string_split(string_load("sha.txt"), `"sha":"`)[1], `"`)[0];
-				file_unload("sha.txt");
-				http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
-				, "PUT", headers,
-				`{
-				"message":"Leaderboard Update (` + global.DataSubmission.name + `)",
-				"content":"`+base64(json_encode(leaderboard))+`",
-				"sha":"`+sha+`"
-				}`
-				, "out.txt");
-				global.leaderboard[get_current_mode().index] = leaderboard.scores;
-				if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
-			}else{
-				trace("You've already played this Daily!");
-			}
-		}
-		if !get_current_data().can_resubmit {
-			get_current_data().valid = false;
-		}
-	}else{
-		trace("You were disqualified, so your scores were not uploaded.");
-	}
+	SubmitRun();
 }
 	
 #define draw_pause
@@ -1382,3 +1300,92 @@ if(argument0 = "loaddaily"){
 	}
     return true;
 }    
+
+#define SubmitRun
+var score = "";
+with(GameCont){
+	var modtext = [];
+	if "mods" in get_current_data() {
+		with get_current_data().mods {
+			array_push(modtext, self.name)
+		}
+	}
+	score = global.endData.alias + ": Area " + string(area) + "-" + string(subarea) + " L" + string(loops) + " Kills: " + string(kills) + " Character: " + race_get_name(global.endData.data[0].race) + " Mods:" + array_join(modtext, ", ");
+}
+trace(score);
+global.finished = true;
+
+if(global.qualified){	
+	headers = ds_map_create();
+	ds_map_set(headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
+	ds_map_set(headers, "cache-control", "no-cache");
+	ds_map_set(headers, "Accept", "application/vnd.github.full+json");	
+	file_delete("dl.txt");
+	while (file_exists("dl.txt")) {wait 1;}
+	http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
+	, "GET", headers,
+	``
+	, "dl.txt");
+	while (!file_loaded("dl.txt")) {wait 1;}
+	var dl = "404";
+	var leaderboard = "";
+	if(string_count(`"message":"Not Found"`, string_load("dl.txt")) >= 1 || string_count(`Bad Credentials`, string_load("dl.txt")) >= 1){
+		leaderboard = dl;
+	}else{
+		dl = string_split(string_split(string_load("dl.txt"), `","encoding":"base64"`)[0],`"content":"`)[1];
+		dl = string_replace_all(dl, "\\n", "");
+		leaderboard = base64Decode(dl);
+	}
+	file_unload("dl.txt");
+	if(string_copy(leaderboard, 0, 3) == "404" || json_decode(leaderboard) == json_error){
+		http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
+		, "PUT", headers,
+		`{
+		"message":"Leaderboard Update (New leaderboard!) (` + global.DataSubmission.name + `)",
+		"content":"`+base64(json_encode({scores: [global.DataSubmission]}))+`"
+		}`
+		, "out.txt");
+		global.leaderboard[get_current_mode().index] = [global.DataSubmission];
+		if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
+	}else{
+		leaderboard = json_decode(leaderboard);
+		var fail = false;
+		for(var i = 0; i < array_length(leaderboard.scores); i++){
+			// Checking specifically player 1
+			if leaderboard.scores[i].allies[0].alias == global.DataSubmission.allies[0].alias {
+				fail = true;
+			}
+		}
+		array_push(leaderboard.scores, global.DataSubmission);
+		if(get_current_data().can_resubmit || !fail){
+			file_delete("sha.txt");
+			while (file_exists("sha.txt")) {wait 1;}
+			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
+			, "GET", headers,
+			``
+			, "sha.txt");
+			while (!file_loaded("sha.txt")) {wait 1;}
+			wait file_load("sha.txt");
+			sha = string_split(string_split(string_load("sha.txt"), `"sha":"`)[1], `"`)[0];
+			file_unload("sha.txt");
+			http_request(`https://api.github.com/repos/GoldenEpsilon/NTT-Modded-Weeklies/contents/` + get_current_mode().folder + `/` + getModeDate(get_current_mode()) + `/leaderboard.json`
+			, "PUT", headers,
+			`{
+			"message":"Leaderboard Update (` + global.DataSubmission.name + `)",
+			"content":"`+base64(json_encode(leaderboard))+`",
+			"sha":"`+sha+`"
+			}`
+			, "out.txt");
+			global.leaderboard[get_current_mode().index] = leaderboard.scores;
+			if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
+		}else{
+			trace("You've already played this Daily!");
+		}
+	}
+	if !get_current_data().can_resubmit {
+		get_current_data().valid = false;
+	}
+}else{
+	trace("You were disqualified, so your scores were not uploaded.");
+}
+global.start = false;
