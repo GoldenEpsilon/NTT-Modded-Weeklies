@@ -167,7 +167,7 @@ with Loadout {
 			var remainingSeconds = remainingTime % 60;
 			var remainingMinutes = floor(remainingTime / 60) % 60
 			var remainingHours = floor(remainingTime / 3600)
-			draw_text(game_width/2, 48, "Time until next daily: " + string(remainingHours) + ":" + string_lpad(string(remainingMinutes), "0", 2) + ":" + string_lpad(string(remainingSeconds)), "0", 2);
+			draw_text(game_width/2, 48, "Time until next daily: " + string(remainingHours) + ":" + string_lpad(string(remainingMinutes), "0", 2) + ":" + string_lpad(string(remainingSeconds), "0", 2));
 			draw_set_halign(0)
 			draw_set_valign(0)
 		}
