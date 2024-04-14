@@ -140,12 +140,6 @@ if(global.qualified == true && !instance_exists(CharSelect)){
 	trace("Disqualified for uploading results, as you loaded the mod while in a run. Go back to the character select screen to start a new run.");
 }
 
-getCurrentDate();
-
-loadLeaderboards();
-
-loadModes();
-
 trace("Today is " + global.currentDate);
 
 #define loadAllMods()
@@ -1297,7 +1291,7 @@ if(argument0 = "loaddaily"){
 		dl.index = 0;
 		dl.modeName = "TESTING";
 		dl.valid = false;
-		global.data[0] = dl;
+		array_push(global.data, dl);
 		global.currentMode = "TESTING"
 		global.qualified = false;
 		loadAllMods();

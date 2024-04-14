@@ -1,9 +1,9 @@
 {
 	"name": "Exit The Throne",
 	"description": "...So how do you#feel about platforming?",
-	"can_resubmit": false,
+	"can_resubmit": true,
 	"disable_vaults": false,
-	"seed": 2764289,
+	"seed": 7252531,
 	"mods": [
 		{
 			"download_type": "itch",
@@ -13,7 +13,7 @@
 		},
 	],
 	"race": false,
-	"wep": [true, 7, 14],
+	"wep": false,
 	"bwep": false,
 	"crown": [true, 2],
 }
