@@ -1135,7 +1135,7 @@ for var i = 0; i < array_length(global.modes); i++ {
 		var fail = false;
 		for(var i2 = 0; i2 < array_length(leaderboard); i2++){
 			// Checking specifically player 1
-			if leaderboard[i2].allies[0].alias == player_get_alias(0) {
+			if string_lettersdigits(leaderboard[i2].allies[0].alias) == string_lettersdigits(player_get_alias(0)) {
 				fail = true;
 			}
 		}
@@ -1351,7 +1351,7 @@ if(global.qualified){
 		var fail = false;
 		for(var i = 0; i < array_length(leaderboard.scores); i++){
 			// Checking specifically player 1
-			if leaderboard.scores[i].allies[0].alias == global.DataSubmission.allies[0].alias {
+			if string_lettersdigits(leaderboard.scores[i].allies[0].alias) == string_lettersdigits(global.DataSubmission.allies[0].alias) {
 				fail = true;
 			}
 		}
