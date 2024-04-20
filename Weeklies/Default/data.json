@@ -1,0 +1,38 @@
+{
+	"name": "Modded Weekly (DEFAULT) (TELL GOLDEN EPSILON ASAP)",
+	"description": false,
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"seed": "Random",
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Feels Like Vanilla",
+			"description": "16 simple but unique#vanilla-style weapons#with a wide range of#designs and functions.",
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "itch",
+			"name": "Blaacskills",
+			"description": "A set of weapon mutations#that expand the pool and#provide new meta opportunities!",
+			"color": 16711680,
+			"url": "https://blaac.itch.io/weapon-mutations"
+		},
+		{
+			"download_type": "itch",
+			"name": "B Mutation Tweaks",
+			"description": "A set of tweaks#to vanilla mutations by blaac",
+			"url": "https://blaac.itch.io/bmutations"
+		},
+		{
+			"download_type": "itch",
+			"name": "B Weapon Tweaks",
+			"description": "A bunch of QOL changes#to vanilla weapons by blaac",
+			"url": "https://blaac.itch.io/bweapons"
+		},
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": 1,
+}

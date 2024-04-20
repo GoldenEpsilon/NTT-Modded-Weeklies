@@ -588,6 +588,8 @@ draw_set_projection(0, 0)
 					}
 				}
 
+				//trace(_spr)
+				//trace(_ind)
 				draw_sprite(_spr,_ind,_x,_y+hover_over)
     
     //            	var _get = false//skill_get_icon(ults[m]);

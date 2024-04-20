@@ -75,6 +75,7 @@ global.start = false;
 global.finished = false;
 global.leaderboard = [[], [], []]
 global.data = []
+global.unixTime = 0;
 global.currentDate = "";
 global.currentWeek = "";
 global.countdownStart = floor(current_frame/30)
@@ -122,22 +123,24 @@ if file_exists("modestorage.txt") {
 
 while(global.currentMode == "") {wait(0)}
 
-if !global.debug {
-	global.NoChat = instance_create(0,0,SetKey);
-	global.NoChat.persistent = true;
-}
-global.qualified = true;
-current_time_scale = 1/(room_speed/30);
-if(global.qualified == true && !instance_exists(CharSelect)){
-	with(Player){
-		instance_destroy();
-		global.qualified = false;
+if get_current_data().valid {
+	if !global.debug {
+		global.NoChat = instance_create(0,0,SetKey);
+		global.NoChat.persistent = true;
 	}
-	with(Revive){
-		instance_destroy();
-		global.qualified = false;
+	global.qualified = true;
+	current_time_scale = 1/(room_speed/30);
+	if(global.qualified == true && !instance_exists(CharSelect)){
+		with(Player){
+			instance_destroy();
+			global.qualified = false;
+		}
+		with(Revive){
+			instance_destroy();
+			global.qualified = false;
+		}
+		trace("Disqualified for uploading results, as you loaded the mod while in a run. Go back to the character select screen to start a new run.");
 	}
-	trace("Disqualified for uploading results, as you loaded the mod while in a run. Go back to the character select screen to start a new run.");
 }
 
 trace("Today is " + global.currentDate);
@@ -287,7 +290,8 @@ if(global.qualified == true && !instance_exists(CharSelect)){
 	trace("Disqualified for uploading results. reload the weeklies mod from the character select screen to qualify again.");
 }
 
-game_set_seed(get_current_data().seed);
+random_set_seed(get_seed());
+game_set_seed(get_seed());
 
 global.canStart = true;
 global.active = true;
@@ -307,8 +311,8 @@ if(fork()) {
 //current_time_scale = 1;
 current_time_scale = 1/(room_speed/30);
 global.finished = false;
-game_set_seed(get_current_data().seed);
-random_set_seed(get_current_data().seed);
+random_set_seed(get_seed());
+game_set_seed(get_seed());
 global.start = true;
 
 global.endData.alias = "";
@@ -654,13 +658,14 @@ global.regChat[_player] = 1;
 #define loadLeaderboards()
 if(fork()){
 	global.leaderboard = [];
+	global.headers = ds_map_create();
+	ds_map_set(global.headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
+	ds_map_set(global.headers, "cache-control", "no-cache");	
+	ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
 	with(global.modes){
 		if self.name == "Invalid" {continue;}
-
-		global.headers = ds_map_create();
-		ds_map_set(global.headers, "Authorization", "token 7349069d71cc5b8e1165"+"40e940c2ad5650ea32de");
-		ds_map_set(global.headers, "cache-control", "no-cache");	
-		ds_map_set(global.headers, "Accept", "application/vnd.github.full+json");
+		var dl = {scores: []};
+		var ldb = dl.scores;
 		file_delete("leaderboard.json");
 		while (file_exists("leaderboard.json")) {wait 1;}
 		http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + self.folder + `/` + getModeDate(self) + `/leaderboard.json`
@@ -668,8 +673,6 @@ if(fork()){
 		``
 		, "leaderboard.json");
 		while (!file_loaded("leaderboard.json")) {wait 1;}
-		var dl = {scores: []};
-		var ldb = dl.scores;
 		if(array_length(string_split(string_load("leaderboard.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
 			dl = json_decode(string_load("leaderboard.json"));
 		}
@@ -716,6 +719,7 @@ if global.currentDate != "" {
 file_download("http://yal.cc/ping", "ping.txt");
 while (!file_loaded("ping.txt")) wait 1;
 var unixTime = real(string_load("ping.txt")) - (3600*5); //CST
+global.unixTime = unixTime;
 var unixDays = floor(unixTime/86400);
 var day = unixDays;
 var year = 1970;
@@ -1101,15 +1105,40 @@ for var i = 0; i < array_length(global.modes); i++ {
 	while (!file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
 	//trace(string_load("current"+global.modes[i].name+".json"))
 	var dl = {};
+	var trydefault = true;
 	if(array_length(string_split(string_load("current"+global.modes[i].name+".json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
 		dl = json_decode(string_load("current"+global.modes[i].name+".json"));
+		trydefault = false;
 		if dl == json_error {
 			file_unload("current"+global.modes[i].name+".json");
-			continue;
+			trydefault = true;
 		}
 	}
 	file_unload("current"+global.modes[i].name+".json");
 	while (file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
+	if(trydefault) {
+		file_delete("current"+global.modes[i].name+".json");
+		while (file_exists("current"+global.modes[i].name+".json")) {wait 1;}
+		http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[i].folder + `/` + "Default" + `/data.json`
+		, "GET", global.headers,
+		``
+		, "current"+global.modes[i].name+".json");
+		while (!file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
+		//trace(string_load("current"+global.modes[i].name+".json"))
+		dl = {};
+		if(array_length(string_split(string_load("current"+global.modes[i].name+".json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
+			dl = json_decode(string_load("current"+global.modes[i].name+".json"));
+			if dl == json_error {
+				file_unload("current"+global.modes[i].name+".json");
+				dl = {};
+			}
+		}
+		file_unload("current"+global.modes[i].name+".json");
+		while (file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
+	}
+	if lq_size(dl) == 0 {
+		continue;
+	}
 	if "index" not in dl {
 		switch(global.modes[i].name){
 			case "Modded Daily":
@@ -1299,6 +1328,32 @@ if(argument0 = "loaddaily"){
 	}
     return true;
 }    
+if(argument0 = "loaddailyfile"){
+	if(fork()){
+		trace("loading " + argument1);
+		wait file_load(argument1);
+		while (!file_loaded(argument1)) {wait 1;}
+		var dl = {};
+		dl = json_decode(string_load(argument1));
+		if dl == json_error {
+			trace(file_exists(argument1));
+			file_unload(argument1);
+			trace(argument1 + " not found");
+			exit;
+		}
+		file_unload(argument1);
+		while (file_loaded(argument1)) {wait 1;}
+		dl.index = 0;
+		dl.modeName = "TESTING";
+		dl.valid = false;
+		array_push(global.data, dl);
+		global.currentMode = "TESTING"
+		global.qualified = false;
+		loadAllMods();
+		exit;
+	}
+    return true;
+}    
 
 #define SubmitRun
 var score = "";
@@ -1388,3 +1443,23 @@ if(global.qualified){
 	trace("You were disqualified, so your scores were not uploaded.");
 }
 global.start = false;
+
+#define get_seed()
+var seed = get_current_data().seed;
+if is_string(seed) {
+	var oldrseed = random_get_seed();
+	switch(seed) {
+		case "Daily":
+			random_set_seed(floor(global.unixTime/86400))
+		break;
+		case "Weekly":
+			random_set_seed(floor((global.unixTime/86400)/7))
+		break;
+		case "Random":
+			random_set_seed(global.unixTime + current_frame)
+			seed = irandom(10000000);
+		break;
+	}
+	random_set_seed(oldrseed)
+}
+return seed;
