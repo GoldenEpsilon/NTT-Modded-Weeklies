@@ -1,0 +1,26 @@
+{
+	"name": "Modded Weekly \\#2",
+	"description": false,
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"seed": "Random",
+	"mods": [
+		{
+			"download_type": "direct",
+			"name": "LOMuts Lite",
+			"filename": "LOMuts.zip",
+			"description": "Lots of Mutations!#What it sounds like on the tin.#Ultras and#some extra mechanics#are removed.",
+			"url": "https://github.com/GoldenEpsilon/LOMuts/releases/download/litev1/LOMuts.zip"
+		},
+		{
+			"download_type": "itch",
+			"name": "Portalspeed",
+			"description": "When you clear a level,#get a speed boost#to get to the#next level faster!",
+			"url": "https://dragonstrive.itch.io/portalspeed"
+		},
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": 1,
+}
