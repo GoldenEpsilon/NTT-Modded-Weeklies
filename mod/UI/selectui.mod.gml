@@ -123,7 +123,14 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"
             for(var i=0;i<maxp;i++){
                 if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index)){
                     //trace(choose(""," ","  "),"hover")
-                    if button_pressed(i,"fire"){
+					var caninput = true;
+					with(CharSelect) {
+						if noinput > 0 {
+							caninput = false;
+							break;
+						}
+					}
+                    if button_pressed(i,"fire") && caninput{
                         //exit;
                         toggleModeSelectionButtons();
                     }

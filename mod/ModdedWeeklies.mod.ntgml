@@ -449,11 +449,11 @@ if global.debug {
 }
 
 if(global.currentMode == "" || !global.canStart){
+	with(Menu){
+		//race_id=[0,0,0,0] //This should be uncommented eventually, but right now it's causing odd problems
+	}
 	with(CharSelect){
 		noinput = 3;
-	}
-	with(Menu){
-		race_id=[0,0,0,0]
 	}
 	global.active = false;
 }
