@@ -475,7 +475,8 @@ draw_set_projection(0, 0)
         //    string(string(global.scoreboard[global.current_scoreboard][i].area)+"-"+string(global.scoreboard[global.current_scoreboard][0].subarea))
         
         //if global.scoreboard[global.current_scoreboard][i].loop != 0
-        _text = area_get_name(global.scoreboard[global.current_scoreboard][i].area, 
+        _text = "D" + string(global.scoreboard[global.current_scoreboard][i].hard) + (_y == yy ? " " : "#" ) + 
+			area_get_name(global.scoreboard[global.current_scoreboard][i].area, 
         	global.scoreboard[global.current_scoreboard][i].subarea, 
         	global.scoreboard[global.current_scoreboard][i].loop, 
         	0, 
@@ -485,11 +486,11 @@ draw_set_projection(0, 0)
         //)+" "+ _text
         
        
-        draw_text_nt(_x,_y,_text)
+        draw_text_nt(_x,_y - (_y == yy ? 0 : 8 ),_text)
         
-        if hover_over and _opened and (scoreboard_anim > 0.9){
+        if hover_over and _opened and (scoreboard_anim > 0.9) and "pizzas" in global.scoreboard[global.current_scoreboard][i]{
         	//var _text = area_get_name(global.scoreboard[global.current_scoreboard][i].area)
-        	script_bind_draw("ui_popup_draw",-1000,_x+64,_y,"Difficulty: " + string(global.scoreboard[global.current_scoreboard][i].hard))
+        	script_bind_draw("ui_popup_draw",-1000,_x+64,_y,"Pizzas: " + string(global.scoreboard[global.current_scoreboard][i].pizzas))
         }
         
         
