@@ -1148,36 +1148,61 @@ for var i = 0; i < array_length(global.modes); i++ {
 	while (!file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
 	//trace(string_load("current"+global.modes[i].name+".json"))
 	var dl = {};
-	var trydefault = true;
+	var tryweekly = true;
 	if(array_length(string_split(string_load("current"+global.modes[i].name+".json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
 		dl = json_decode(string_load("current"+global.modes[i].name+".json"));
-		trydefault = false;
+		tryweekly = false;
 		if dl == json_error {
 			file_unload("current"+global.modes[i].name+".json");
-			trydefault = true;
+			tryweekly = true;
 		}
 	}
 	file_unload("current"+global.modes[i].name+".json");
 	while (file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
-	if(trydefault) {
+	if(tryweekly) {
 		file_delete("current"+global.modes[i].name+".json");
 		while (file_exists("current"+global.modes[i].name+".json")) {wait 1;}
-		http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[i].folder + `/` + "Default" + `/data.json`
+		http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[i].folder + `/` + global.currentWeek + `/data.json`
 		, "GET", global.headers,
 		``
 		, "current"+global.modes[i].name+".json");
 		while (!file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
 		//trace(string_load("current"+global.modes[i].name+".json"))
 		dl = {};
+		var trydefault = true;
 		if(array_length(string_split(string_load("current"+global.modes[i].name+".json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
 			dl = json_decode(string_load("current"+global.modes[i].name+".json"));
+			trydefault = false;
 			if dl == json_error {
 				file_unload("current"+global.modes[i].name+".json");
 				dl = {};
+				trydefault = true;
 			}
 		}
 		file_unload("current"+global.modes[i].name+".json");
 		while (file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
+		if(trydefault) {
+			file_delete("current"+global.modes[i].name+".json");
+			while (file_exists("current"+global.modes[i].name+".json")) {wait 1;}
+			http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + global.modes[i].folder + `/` + "Default" + `/data.json`
+			, "GET", global.headers,
+			``
+			, "current"+global.modes[i].name+".json");
+			while (!file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
+			//trace(string_load("current"+global.modes[i].name+".json"))
+			dl = {};
+			if(array_length(string_split(string_load("current"+global.modes[i].name+".json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
+				dl = json_decode(string_load("current"+global.modes[i].name+".json"));
+				if dl == json_error {
+					file_unload("current"+global.modes[i].name+".json");
+					dl = {};
+				}
+			}
+			file_unload("current"+global.modes[i].name+".json");
+			while (file_loaded("current"+global.modes[i].name+".json")) {wait 1;}
+		}else {
+			global.modes[i].weekly = true;
+		}
 	}
 	if lq_size(dl) == 0 {
 		continue;
