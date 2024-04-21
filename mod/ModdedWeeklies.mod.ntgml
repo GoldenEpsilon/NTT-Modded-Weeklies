@@ -202,39 +202,45 @@ for(i = 0; i < array_length(skinmods); i++){
 }
 if "mods" in get_current_data() {
 	with get_current_data().mods {
-		if "patches" not in self {
-			self.patches = [];
-		}
-		if "globals" not in self {
-			self.globals = [];
-		}
-		switch self.download_type {
-			case "itch":
-				var api_key = "mD4JDfwnLXlsxPChbvGnttoOqHSNiYBmjTD1H2ya";
-				file_delete("itchdata.json");
-				while (file_exists("itchdata.json")) {wait 1;}
-				file_download(self.url + "/data.json", "itchdata.json");
-				while (!file_loaded("itchdata.json")) {wait 1;}
-				while (!file_exists("itchdata.json")) {wait 1;}
-				var modid = json_decode(string_load("itchdata.json")).id;
-				file_delete(self.name + " data.json");
-				while (file_exists(self.name + " data.json")) {wait 1;}
-				file_download("https://api.itch.io/games/" + string(modid) + "/uploads?api_key=" + api_key, self.name + " data.json");
-				while (!file_loaded(self.name + " data.json")) {wait 1;}
-				while (!file_exists(self.name + " data.json")) {wait 1;}
-				var out = json_decode(string_load(self.name + " data.json"));
-				if("uploads" in out && array_length(out.uploads)){
-					download_and_load(self.name, "https://api.itch.io/uploads/" + string(out.uploads[0].id) + "/download?api_key=" + api_key, out.uploads[0].filename, self.patches, self.globals);
-				}else{
-					trace("ERROR: incorrect response. Recieved response was:");
-					trace(out);
-				}
-				break;
-			case "direct":
-				download_and_load(self.name, self.url, self.filename, self.patches, self.globals);
-				break;
+		if(fork()){
+			global.forks++;
+			if "patches" not in self {
+				self.patches = [];
+			}
+			if "globals" not in self {
+				self.globals = [];
+			}
+			switch self.download_type {
+				case "itch":
+					var api_key = "mD4JDfwnLXlsxPChbvGnttoOqHSNiYBmjTD1H2ya";
+					file_delete(self.name + " itchdata.json");
+					while (file_exists(self.name + " itchdata.json")) {wait 1;}
+					file_download(self.url + "/data.json", self.name + " itchdata.json");
+					while (!file_loaded(self.name + " itchdata.json")) {wait 1;}
+					while (!file_exists(self.name + " itchdata.json")) {wait 1;}
+					var modid = json_decode(string_load(self.name + " itchdata.json")).id;
+					file_delete(self.name + " data.json");
+					while (file_exists(self.name + " data.json")) {wait 1;}
+					file_download("https://api.itch.io/games/" + string(modid) + "/uploads?api_key=" + api_key, self.name + " data.json");
+					while (!file_loaded(self.name + " data.json")) {wait 1;}
+					while (!file_exists(self.name + " data.json")) {wait 1;}
+					var out = json_decode(string_load(self.name + " data.json"));
+					if("uploads" in out && array_length(out.uploads)){
+						download_and_load(self.name, "https://api.itch.io/uploads/" + string(out.uploads[0].id) + "/download?api_key=" + api_key, out.uploads[0].filename, self.patches, self.globals);
+					}else{
+						trace("ERROR: incorrect response. Recieved response was:");
+						trace(out);
+					}
+					break;
+				case "direct":
+					download_and_load(self.name, self.url, self.filename, self.patches, self.globals);
+					break;
+			}
+			global.forks--;
+			exit;
 		}
 	}
+	while(global.forks > 0) wait(0)
 }
 
 wait(30);
@@ -1211,15 +1217,11 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 		break;
 	case ".zip":
 		file_download(url, filename);
-		file_delete("../../mods/WeeklyMods/" + name);
-		while (!file_exists(filename)) {wait 1;}
-		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
+		recursive_delete("../../mods/WeeklyMods/" + name);
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 	case ".rar":
 		file_download(url, filename);
-		file_delete("../../mods/WeeklyMods/" + name);
-		while (!file_exists(filename)) {wait 1;}
-		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
+		recursive_delete("../../mods/WeeklyMods/" + name);
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 	default:
 		file_delete("../../mods/WeeklyMods/" + name);
@@ -1465,3 +1467,56 @@ if is_string(seed) {
 	random_set_seed(oldrseed)
 }
 return seed;
+
+#define recursive_delete(directory)
+folders = [directory];
+//number of searched layers
+layers = 0;
+//while folders has items
+forks = 0;
+//if it's the first scan
+first = 1;
+while(array_length(folders) > 0 || forks > 0) {
+	if(array_length(folders) > 0){
+		if(fork()){
+			forks++;
+			var curr_folder = folders[0];
+			//remove first item from folders
+			folders = array_slice(folders, 1, array_length(folders) - 1);
+			var temp_folders = [];
+			//array that keeps track of files to see what they are
+			var arr = [];
+			//when folders runs out of items, for some reason it returns 0
+			if(curr_folder == 0){
+				forks--;
+				exit;
+			}
+			//put all files in the directory folders[0] into arr
+			wait file_find_all(curr_folder, arr);
+			//for each item in arr
+			for (var i = 0; i < array_length(arr); i++) {
+				//"" means it's a folder, so add to temp_folders
+				if(arr[i].ext == ""){
+					array_push(temp_folders, arr[i].path);
+				}else{
+					//otherwise just file_delete
+					if(fork()){
+						forks++;
+						wait file_load(arr[i].path)
+						file_delete(arr[i].path);
+						while(file_exists(arr[i].path)){wait(1)}
+						file_unload(arr[i].path)
+						forks--;
+						exit;
+					}
+				}
+			}
+			array_copy(folders, array_length(folders), temp_folders, 0, array_length(temp_folders));
+			forks--;
+			first = 0;
+			exit;
+		}
+	}else{
+		wait(0);
+	}
+}
