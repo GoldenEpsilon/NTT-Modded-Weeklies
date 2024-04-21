@@ -6,11 +6,10 @@
 	"seed": "Weekly",
 	"mods": [
 		{
-			"download_type": "direct",
-			"name": "LOMuts Lite",
-			"filename": "LOMuts.zip",
-			"description": "Lots of Mutations!#What it sounds like on the tin.#Ultras and#some extra mechanics#are removed.",
-			"url": "https://github.com/GoldenEpsilon/LOMuts/releases/download/litev1/LOMuts.zip"
+			"download_type": "itch",
+			"name": "Feels Like Vanilla",
+			"description": "16 simple but unique#vanilla-style weapons#with a wide range of#designs and functions.",
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
 		},
 		{
 			"download_type": "direct",
@@ -27,10 +26,11 @@
 			"url": "https://blaac.itch.io/weapon-mutations"
 		},
 		{
-			"download_type": "itch",
-			"name": "Feels Like Vanilla",
-			"description": "16 simple but unique#vanilla-style weapons#with a wide range of#designs and functions.",
-			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+			"download_type": "direct",
+			"name": "LOMuts Lite",
+			"filename": "LOMuts.zip",
+			"description": "Lots of Mutations!#What it sounds like on the tin.#Ultras and#some extra mechanics#are removed.",
+			"url": "https://github.com/GoldenEpsilon/LOMuts/releases/download/litev1/LOMuts.zip"
 		},
 		{
 			"download_type": "itch",
