@@ -580,11 +580,11 @@ draw_set_projection(0, 0)
 					if !is_string(ults[m][0]){
 						_spr = sprEGIconHUD
 						_ind = (ults[m][0]*3)+ults[m][1]-1
-						_name = ultra_get_name(ults[m][0],ults[m][1]+1)
+						_name = ultra_get_name(ults[m][0],ults[m][1])
 					}else
 					if mod_exists("race",ults[m][0]){
-						_name = mod_script_call("race",ults[m][0],"race_ultra_name",ults[m][1]+1)
-						_spr = mod_script_call("race",ults[m][0],"race_ultra_icon",ults[m][1]+1)
+						_name = mod_script_call("race",ults[m][0],"race_ultra_name",ults[m][1])
+						_spr = mod_script_call("race",ults[m][0],"race_ultra_icon",ults[m][1])
 					}
 				}
 
