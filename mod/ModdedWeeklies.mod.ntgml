@@ -1451,9 +1451,11 @@ if is_string(seed) {
 	switch(seed) {
 		case "Daily":
 			random_set_seed(floor(global.unixTime/86400))
+			seed = irandom(10000000);
 		break;
 		case "Weekly":
 			random_set_seed(floor((global.unixTime/86400)/7))
+			seed = irandom(10000000);
 		break;
 		case "Random":
 			random_set_seed(global.unixTime + current_frame)
