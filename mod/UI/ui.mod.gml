@@ -123,7 +123,7 @@ global.scoreboard = [
     	        color : c_red,
     	        killed_by : [mskNone,"???"],
     	        ultras: [
-						  [1, 0]
+						  [1, 1]
 						]
     	        
     	    },
@@ -579,7 +579,7 @@ draw_set_projection(0, 0)
 				else{
 					if !is_string(ults[m][0]){
 						_spr = sprEGIconHUD
-						_ind = (ults[m][0]*3)+ults[m][1]
+						_ind = (ults[m][0]*3)+ults[m][1]-1
 						_name = ultra_get_name(ults[m][0],ults[m][1]+1)
 					}else
 					if mod_exists("race",ults[m][0]){
