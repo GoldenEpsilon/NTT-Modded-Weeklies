@@ -1,14 +1,4 @@
 #define init
-//Todo:
-/*
--> load data for the weekly from a json file or something
--> download mods and load them
--> run /cwep, /pwep, and /bwep to make sure people aren't cheating/set starter weapon
--> set starting crown
--> create UI for seeing weekly description
--> play buttonmodded
--> make score submission include base64 versions of sprites if the sprites are modded, so that they can be displayed
-*/
 
 //check for debug
 global.debug = false;
@@ -149,6 +139,15 @@ trace("Today is " + global.currentDate);
 
 #define loadAllMods()
 global.canStart = false;
+
+UberCont.hardmode = false;
+if(game_width == 426 && game_height != 240){
+	game_set_size(426, 240);
+}else if(game_width == 280 && game_height != 280){
+	game_set_size(280, 280);
+}else if game_width != 320 || game_height != 240 {
+	game_set_size(320, 240);
+}
 
 var aud = 0;
 while(audio_exists(aud)){
@@ -321,6 +320,14 @@ current_time_scale = 1/(room_speed/30);
 global.finished = false;
 random_set_seed(get_seed());
 game_set_seed(get_seed());
+UberCont.hardmode = false;
+if(game_width == 426 && game_height != 240){
+	game_set_size(426, 240);
+}else if(game_width == 280 && game_height != 280){
+	game_set_size(280, 280);
+}else if game_width != 320 || game_height != 240 {
+	game_set_size(320, 240);
+}
 global.start = true;
 
 global.endData.alias = "";
@@ -398,6 +405,14 @@ if(instance_exists(GenCont)) global.newLevel = 1;
 else if(global.newLevel){
 	global.newLevel = 0;
 	level_start();
+}
+
+if(game_width == 426 && game_height != 240){
+	game_set_size(426, 240);
+}else if(game_width == 280 && game_height != 280){
+	game_set_size(280, 280);
+}else if game_width != 320 || game_height != 240 {
+	game_set_size(320, 240);
 }
 
 if global.debug {
@@ -722,6 +737,17 @@ if(fork()){
 				});
 			}
 			break;
+	}
+	for (var l = 0; l < array_length(global.leaderboard); l++) {
+		var leaderboard = global.leaderboard[l];
+		for var i = 0; i < array_length(leaderboard); i++ {
+			for var i2 = i + 1; i2 < array_length(leaderboard); i2++ {
+				if string_lettersdigits(leaderboard[i].allies[0].alias) == string_lettersdigits(leaderboard[i2].allies[0].alias) {
+					array_delete(global.leaderboard[l], i2, 1)
+					i2--;
+				}
+			}
+		}
 	}
 	return global.leaderboard;
 
