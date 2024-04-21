@@ -53,7 +53,7 @@ global.current_scoreboard = 0   //which tab is open
 global.scoreboard_number_of_rows = 6    // number of rows displayed
 global.scoreboard_opened = -4       //which row is opened, -4 = none
 global.scoreboard_opening = [0,16]  //  min/start,max
-global.scoreboard_position = [0,0,0]    //where each is scrolled
+global.scoreboard_position = [0,0,0,0]    //where each is scrolled
 
 
 global.splash_opening = [0,64] //  min/start,max
@@ -1272,7 +1272,7 @@ with Loadout{
 	draw_set_valign(1)
 	var xx = 64 -game_width +(game_width*menu_anim);
 	var yy = 32;
-	var _text = "-daily-"
+	var _text = "daily"
 	var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
 	
 	if mouse_over and button_pressed(0,"fire"){
@@ -1286,8 +1286,8 @@ with Loadout{
 	draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
 	
 	
-	xx+= max(string_length(_text)*8,64)
-	var _text = "-daily-#modded"
+	xx+= 48
+	var _text = "daily#modded"
 	mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
 	
 	if mouse_over and button_pressed(0,"fire"){
@@ -1302,8 +1302,8 @@ with Loadout{
 	var _text = "-daily-"   //jank to reset spacing without slicing the string
 	
 	
-	xx+= max(string_length(_text)*8,64)
-	var _text = "-weekly-#modded"
+	xx+= 48
+	var _text = "weekly#modded"
 	var _active = global.current_scoreboard = 2
 	mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
 	
@@ -1314,6 +1314,22 @@ with Loadout{
 		global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Difficulty")
 	}
 	var _active = global.current_scoreboard = 2
+	draw_set_color((mouse_over or _active)?c_white:c_silver)
+	draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
+	
+	
+	xx+= 48
+	var _text = "extra"
+	var _active = global.current_scoreboard = 3
+	mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
+	
+	if mouse_over and button_pressed(0,"fire"){
+	    //click
+	    global.current_scoreboard = 3
+	    scoreboard_opened = -4
+		global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Difficulty")
+	}
+	var _active = global.current_scoreboard = 3
 	draw_set_color((mouse_over or _active)?c_white:c_silver)
 	draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
 	
