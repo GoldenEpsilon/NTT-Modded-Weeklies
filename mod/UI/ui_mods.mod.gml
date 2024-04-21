@@ -251,7 +251,7 @@ with Loadout {
             instance_destroy();
         }
     
-    draw_set_color(image_blend)
+    //draw_set_color(image_blend)
     //draw splat bg
     if round(option_opening[0])>1{
         var _sprite = array_length(instances_matching(CustomObject,"name","mod_ui_desc"))? sprLoadoutOpen: sprLoadoutClose//global.sprLoadoutSplat
@@ -266,9 +266,9 @@ with Loadout {
         //draw_sprite_ext(sprite_index,image_index,x,y+yoffset,xscale,yscale,0,c_white,1);
         draw_set_font(fntM0)
         //draw_text(x-sprite_width+8, y+sprite_height/4+yoffset, text)
-        draw_set_color(image_blend)
-        draw_text((x)+_x, (y+4+yoffset)+_y, text)
-        draw_set_color(c_white)
+        //draw_set_color(image_blend)
+        draw_text_nt((x)+_x, (y+4+yoffset)+_y, `@(color:${image_blend})`+text)
+        //draw_set_color(c_white)
         draw_set_halign(0)
     } 
     draw_set_font(fntM0)
@@ -291,10 +291,10 @@ with Loadout {
                     draw_rectangle(0,y-2+yoffset,game_width,y+yoffset-6,0)
                     draw_rectangle(0,y+yoffset,game_width,y+height+yoffset+ybonus,0)
                     draw_rectangle(0,y+height+2+yoffset+ybonus,game_width,y+height+yoffset+ybonus+4,0)
-                    draw_set_color(color)
-                    draw_text(game_width/2,y-8+yoffset,text)
-                    draw_set_color(c_silver)
-                    draw_text(game_width/2,y+yoffset+2,val);
+                    //draw_set_color(color)
+                    draw_text_nt(game_width/2,y-8+yoffset,`@(color:${color})`+text)
+                    //draw_set_color(c_silver)
+                    draw_text_nt(game_width/2,y+yoffset+2,"@s"+val);
                     draw_set_color(c_white)
                     draw_set_halign(0)
                     break;
