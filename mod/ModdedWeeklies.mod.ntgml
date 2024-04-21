@@ -204,8 +204,8 @@ for(i = 0; i < array_length(skinmods); i++){
 }
 if "mods" in get_current_data() {
 	with get_current_data().mods {
-		if(fork()){
-			global.forks++;
+		//if(fork()){
+			//global.forks++;
 			if "patches" not in self {
 				self.patches = [];
 			}
@@ -238,11 +238,11 @@ if "mods" in get_current_data() {
 					download_and_load(self.name, self.url, self.filename, self.patches, self.globals);
 					break;
 			}
-			global.forks--;
-			exit;
-		}
+			//global.forks--;
+			//exit;
+		//}
 	}
-	while(global.forks > 0) wait(0)
+	//while(global.forks > 0) wait(0)
 }
 
 wait(30);
@@ -1249,6 +1249,8 @@ for(var i = 0; i < array_length(patches); i++){
 	while (!file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].file)) {wait 1;}
 }
 
+wait(10)
+
 wait file_load("../../mods/WeeklyMods/" + name + "/main.txt");
 while !file_loaded("../../mods/WeeklyMods/" + name + "/main.txt") {
 	wait(0)
@@ -1531,6 +1533,7 @@ while(array_length(folders) > 0 || forks > 0) {
 		wait(0);
 	}
 }
+wait(10);
 
 #define level_start
 if GameCont.area == 102 {
