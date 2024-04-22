@@ -711,6 +711,21 @@ if(fork()){
 		file_unload("leaderboard.json");
 		if dl != json_error {
 			ldb = dl.scores;
+		} else {
+			file_delete("leaderboard.json");
+			while (file_exists("leaderboard.json")) {wait 1;}
+			http_request(`https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/` + self.folder + `/` + global.currentWeek + `/leaderboard.json`
+			, "GET", global.headers,
+			``
+			, "leaderboard.json");
+			while (!file_loaded("leaderboard.json")) {wait 1;}
+			if(array_length(string_split(string_load("leaderboard.json"), chr(34)+"message"+chr(34)+":"+chr(34)+"Not Found"+chr(34))) == 1){
+				dl = json_decode(string_load("leaderboard.json"));
+			}
+			file_unload("leaderboard.json");
+			if dl != json_error {
+				ldb = dl.scores;
+			}
 		}
 		self.index = array_length(global.leaderboard)
 		array_push(global.leaderboard, ldb);
