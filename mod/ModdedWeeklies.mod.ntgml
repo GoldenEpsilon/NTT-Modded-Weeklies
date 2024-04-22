@@ -1226,6 +1226,8 @@ for var i = 0; i < array_length(global.modes); i++ {
 	}
 	if "modeName" not in dl {
 		dl.modeName = global.modes[i].name;
+	}else {
+		global.modes[i].name = dl.modeName;
 	}
 	
 	if(!dl.can_resubmit) {
