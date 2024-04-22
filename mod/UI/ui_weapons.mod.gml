@@ -682,6 +682,8 @@ with player_find(_index){
 		ammo[weapon_get_type(bwep)] = typ_ammo[weapon_get_type(bwep)]*3
 	}else if race_id == char_steroids {
 		bwep = wep_revolver
+	}else {
+		bwep = 0
 	}
 	
 	GameCont.crown = gcrown
