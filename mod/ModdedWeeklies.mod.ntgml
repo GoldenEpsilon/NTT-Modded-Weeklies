@@ -231,6 +231,9 @@ if "mods" in get_current_data() {
 					var modid = json_decode(string_load(self.name + " itchdata.json")).id;
 					file_delete(self.name + " data.json");
 					while (file_exists(self.name + " data.json")) {wait 1;}
+					if is_undefined(modid) {
+						trace("ERROR: itch link failed for " + self.name);
+					}
 					file_download("https://api.itch.io/games/" + string(modid) + "/uploads?api_key=" + api_key, self.name + " data.json");
 					while (!file_loaded(self.name + " data.json")) {wait 1;}
 					while (!file_exists(self.name + " data.json")) {wait 1;}
