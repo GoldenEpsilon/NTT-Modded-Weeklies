@@ -203,6 +203,15 @@ for(i = 0; i < array_length(skinmods); i++){
 }
 if "mods" in get_current_data() {
 	with get_current_data().mods {
+		if "version" in self {
+			wait file_load("../../mods/WeeklyMods/" + self.name + "/version.txt");
+			wait file_load("../../mods/WeeklyMods/" + self.name + "/main.txt");
+			if string_load("../../mods/WeeklyMods/" + self.name + "/version.txt") == string(self.version) && file_exists("../../mods/WeeklyMods/" + self.name + "/main.txt") {
+				trace(name + " Already downloaded, loading!");
+				mod_loadtext("WeeklyMods/" + self.name + "/main.txt");
+				continue;
+			}
+		}
 		//if(fork()){
 			//global.forks++;
 			if "patches" not in self {
@@ -240,6 +249,9 @@ if "mods" in get_current_data() {
 			//global.forks--;
 			//exit;
 		//}
+		if "version" in self {
+			string_save(string(self.version), "../../mods/WeeklyMods/" + self.name + "/version.txt");
+		}
 	}
 	//while(global.forks > 0) wait(0)
 }
