@@ -55,7 +55,7 @@ for(var i = 0; i < array_length(modedata); i++) {
 							break;
 						}
 					}
-					if button_pressed(i,"fire") && caninput {
+					if button_pressed(i,"fire") && caninput && mod_variable_get("mod", "ModdedWeeklies", "currentMode") != modeName {
                         mod_variable_set("mod", "ModdedWeeklies", "currentMode", modeName);
 						with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
 							instance_destroy();
