@@ -255,6 +255,7 @@ if "mods" in get_current_data() {
 		if "version" in self {
 			string_save(string(self.version), "../../mods/WeeklyMods/" + self.name + "/version.txt");
 		}
+		wait(10);
 	}
 	//while(global.forks > 0) wait(0)
 }
