@@ -93,7 +93,7 @@ for(var i = 0; i < array_length(modedata); i++) {
 #define step
 if instance_exists(Menu) {
 	var buttons = instances_matching(CustomObject, "name", "mod_ui_mode_button");
-	if array_length(mod_variable_get("mod", "ModdedWeeklies", "data")) != array_length(buttons) {
+	if array_length(buttons) > 0 && array_length(mod_variable_get("mod", "ModdedWeeklies", "data")) != array_length(buttons) {
 		with(buttons){
 			instance_destroy();
 		}
