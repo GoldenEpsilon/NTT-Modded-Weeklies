@@ -10,6 +10,8 @@ global.mod_bigcrown = sprite_add("sprites/mod_mutation.png",1,8,8)
 global.currentcrown = 1
 global.wantcrown = 1
 
+global.previousmode = "";
+
 global.crowns = [0]
 
 update_information_cool_script()
@@ -17,6 +19,12 @@ update_information_cool_script()
 #define game_start
 if debug
 trace("crownmod: ",global.wantcrown)
+
+#define step
+	if mod_variable_get("mod", "ModdedWeeklies", "currentMode") != global.previousmode {
+		global.previousmode = mod_variable_get("mod", "ModdedWeeklies", "currentMode");
+		update_information_cool_script();
+	}
 
 #define update_information_cool_script
 
