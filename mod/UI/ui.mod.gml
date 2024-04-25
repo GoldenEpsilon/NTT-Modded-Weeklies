@@ -48,7 +48,7 @@ global.menu_surf_text = 0
 
 global.menu_opened = false
 global.menu_opening = [0,16]     //  min/start,max
-global.current_scoreboard = 0   //which tab is open
+global.current_scoreboard = 1   //which tab is open
 
 global.scoreboard_number_of_rows = 6    // number of rows displayed
 global.scoreboard_opened = -4       //which row is opened, -4 = none
@@ -1272,7 +1272,7 @@ with Loadout{
 	draw_set_valign(1)
 	var xx = 64 -game_width +(game_width*menu_anim);
 	var yy = 32;
-	var _text = "daily"
+	var _text = "vanilla#daily"
 	var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
 	
 	if mouse_over and button_pressed(0,"fire"){

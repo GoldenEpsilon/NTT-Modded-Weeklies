@@ -12,7 +12,7 @@ global.wantcrown = 1
 
 global.previousmode = "";
 
-global.crowns = [0]
+global.crowns = [1]
 
 update_information_cool_script()
 
@@ -64,10 +64,10 @@ if debug{
 
 if("crown" in global.modedata) {
     if !is_array(global.modedata.crown) {
-        global.modedata.crown = [false, global.modedata.crown];
+        global.modedata.crown = [global.modedata.crown];
     }
     global.crowns = global.modedata.crown
-    global.wantcrown = global.crowns[1];
+    global.wantcrown = global.crowns[0];
 }
 
 
@@ -119,8 +119,8 @@ with Loadout{
     var clicked_right = 0;
     
     //make buttons work
-    if check_right and button_pressed(0,"fire") and _how_many_crowns>2{
-        if num < _how_many_crowns-1
+    if check_right and button_pressed(0,"fire") and _how_many_crowns>1{
+        if num < _how_many_crowns
             num += 1
         else
             num = 1
@@ -129,11 +129,11 @@ with Loadout{
         clicked_right = 2;
         anim -= 2
     }
-    if check_left and button_pressed(0,"fire") and _how_many_crowns>2{
+    if check_left and button_pressed(0,"fire") and _how_many_crowns>1{
         if num > 1
             num -= 1
         else
-            num = _how_many_crowns-1 //
+            num = _how_many_crowns //
         global.currentcrown = num
         global.wantcrown = global.crowns[num]
         clicked_left = 2;
@@ -176,8 +176,8 @@ with Loadout{
 //draw things
     if open{
     	//buttons
-        draw_sprite_ext(sprDailyArrow,0,l_x-clicked_left,b_y+(anim)+!check_left,1,1,0,(check_left ? c_white:c_gray),_how_many_crowns>2?1:0)
-        draw_sprite_ext(sprDailyArrow,1,r_x+clicked_right,b_y+(anim)+!check_right,1,1,0,(check_right ? c_white:c_gray),_how_many_crowns>2?1:0)
+        draw_sprite_ext(sprDailyArrow,0,l_x-clicked_left,b_y+(anim)+!check_left,1,1,0,(check_left ? c_white:c_gray),_how_many_crowns>1?1:0)
+        draw_sprite_ext(sprDailyArrow,1,r_x+clicked_right,b_y+(anim)+!check_right,1,1,0,(check_right ? c_white:c_gray),_how_many_crowns>1?1:0)
         //wep
         draw_sprite_ext(sprite,index,
         w_x-xoffset+lengthdir_x(sprite_get_xoffset(sprite)*(scale)*(!customsprite),0)+lengthdir_x(sprite_get_yoffset(sprite)*(scale)*(!customsprite),90),
