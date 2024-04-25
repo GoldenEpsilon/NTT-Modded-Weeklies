@@ -90,6 +90,17 @@ for(var i = 0; i < array_length(modedata); i++) {
 	}
 }
 
+#define step
+if instance_exists(Menu) {
+	var buttons = instances_matching(CustomObject, "name", "mod_ui_mode_button");
+	if array_length(mod_variable_get("mod", "ModdedWeeklies", "data")) != buttons {
+		with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
+			instance_destroy();
+		}
+        toggleModeSelectionButtons();
+	}
+}
+
 #define draw_gui
 if mod_variable_get("mod", "ui", "menu_opened") && array_length(instances_matching(CustomObject, "name", "mod_ui_mode_button")) > 1 {
 	with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
