@@ -320,13 +320,12 @@ global.canStart = true;
 global.active = true;
 
 #define game_start
-if(global.start){
-	SubmitRun();
-}
 if(global.currentMode == ""){
 	global.active = false;
 	return;
 }
+random_set_seed(get_seed());
+game_set_seed(get_seed());
 if(fork()) {
 	getCurrentDate();
 }
@@ -334,8 +333,9 @@ if(fork()) {
 //current_time_scale = 1;
 current_time_scale = 1/(room_speed/30);
 global.finished = false;
-random_set_seed(get_seed());
-game_set_seed(get_seed());
+if(global.start){
+	SubmitRun();
+}
 UberCont.hardmode = false;
 if(game_width == 426 && game_height != 240){
 	game_set_size(426, 240);
