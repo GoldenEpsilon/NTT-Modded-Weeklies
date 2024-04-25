@@ -328,6 +328,7 @@ random_set_seed(get_seed());
 game_set_seed(get_seed());
 if(fork()) {
 	getCurrentDate();
+	exit;
 }
 //room_speed = 30;
 //current_time_scale = 1;
