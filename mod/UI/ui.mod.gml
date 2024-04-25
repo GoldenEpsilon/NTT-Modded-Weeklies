@@ -253,7 +253,7 @@ if GameCont.timer = 0{
     
     draw_set_projection(0, 0)
     draw_set_color(c_black)
-    var xx = -240+(322*menu_anim)
+    var xx = -240+(350*menu_anim)
     draw_rectangle(xx-200,36,xx-200+game_width*0.8,game_height-36,0)
     draw_sprite_ext(sprLoadoutOpen,floor(2+3*(menu_anim)),xx,game_height-36,-1,1,0,c_white,1)
     draw_sprite(global.sprLoadoutSplat,floor(3-(3*min(1,menu_anim*4))),game_width+64*(menu_anim),game_height-36)
@@ -389,7 +389,7 @@ draw_set_projection(0, 0)
         
         //mapicon
         var _sprt = get_mapsprite(global.scoreboard[global.current_scoreboard][i].race,global.scoreboard[global.current_scoreboard][i].skin)
-        draw_sprite_ext(_sprt[0],_sprt[1],round(xx+((167*scoreboard_anim)*_opened)),round(yy+(_pointless_wiggle*!_opened)+((10*scoreboard_anim)*_opened)),1,1,0,_sprt[0]=global.mod_mapicon?col:c_white,1)
+        draw_sprite_ext(_sprt[0],_sprt[1],round(xx+((176*scoreboard_anim)*_opened)),round(yy+(_pointless_wiggle*!_opened)+((10*scoreboard_anim)*_opened)),1,1,0,_sprt[0]=global.mod_mapicon?col:c_white,1)
         
         //crown
         xxx+=48
@@ -441,7 +441,7 @@ draw_set_projection(0, 0)
             draw_text(round(xx+xxx+_pointless_wiggle+(k*8)),yy,string_char_at(_text,k))  
         }
         //score
-        xxx+=96
+        xxx+=100
         yyy+=((8*scoreboard_anim))*_opened
         
 	    _text =
@@ -458,14 +458,16 @@ draw_set_projection(0, 0)
 				deathcause = killed_by(deathcause);
 			}
         	script_bind_draw("ui_popup_draw",-1000,_x,_y,"killed by "+string(deathcause[1]))
-        	draw_sprite(deathcause[0],current_frame*0.4,_x+122,_y)
+			if(!is_undefined(deathcause[0])){
+        		draw_sprite(deathcause[0],current_frame*0.4,_x+56,_y)
+			}
         }
 	    
         draw_text(xx+xxx,yy+yyy,_text)
         
         //area
 	    draw_set_halign(2)
-        xxx+=104
+        xxx+=124
         
 	    var _x = xx+xxx
 	    var _y = yy+yyy
@@ -1286,7 +1288,7 @@ with Loadout{
 	draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
 	
 	
-	xx+= 48
+	xx+= 52
 	var _text = "daily#modded"
 	mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
 	
@@ -1302,7 +1304,7 @@ with Loadout{
 	var _text = "-daily-"   //jank to reset spacing without slicing the string
 	
 	
-	xx+= 48
+	xx+= 52
 	var _text = "weekly#modded"
 	var _active = global.current_scoreboard = 2
 	mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
@@ -1318,7 +1320,7 @@ with Loadout{
 	draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
 	
 	
-	xx+= 48
+	xx+= 52
 	var _text = "extra"
 	var _active = global.current_scoreboard = 3
 	mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
