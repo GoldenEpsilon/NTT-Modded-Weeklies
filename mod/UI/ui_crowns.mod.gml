@@ -64,9 +64,10 @@ if debug{
 
 if("crown" in global.modedata) {
     if !is_array(global.modedata.crown) {
-        global.modedata.crown = [global.modedata.crown];
+        global.modedata.crown = [false, global.modedata.crown];
     }
     global.crowns = global.modedata.crown
+    global.wantcrown = global.crowns[1];
 }
 
 

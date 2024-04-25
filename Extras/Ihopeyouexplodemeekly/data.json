@@ -1,10 +1,17 @@
 {
 	"name": "I Hope You Explode",
-	"description": false,
+	"description": "No Boiling Veins#Explosive Starting Mutations#Only Explosive Weapons#@qI HOPE YOU EXPLODE",
 	"can_resubmit": false,
 	"disable_vaults": false,
-	"seed": "Daily",
+	"seed": "Random",
 	"mods": [
+		{
+			"download_type": "direct",
+			"name": "Defpack (Explosives Only)",
+			"description": false,
+			"filename": "defpack.zip",
+			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232936783327789066/defpack-meekly-explode.zip?ex=662b455c&is=6629f3dc&hm=bb3551791db7de9727760f602814cb8a8de94eb429ed41233936660b968749ac&"
+		},
 		{
 			"download_type": "direct",
 			"name": "LOMuts Lite",
@@ -31,7 +38,7 @@
 		{
 			"download_type": "direct",
 			"name": "Weekly Modifiers",
-			"description": false,
+			"description": "Modifiers:#No Boiling Veins#Explosive Starting Mutations#Only Explosive Weapons",
 			"filename": "modifiers.mod.gml",
 			"url": "https://raw.githubusercontent.com/GoldenEpsilon/NTT-Modded-Weeklies/main/ExtraMods/modifiers.mod.gml",
 			"globals": [
@@ -65,5 +72,5 @@
 	"race": false,
 	"wep": [false, 7, 14],
 	"bwep": false,
-	"crown": [false, 2],
+	"crown": 2,
 }
