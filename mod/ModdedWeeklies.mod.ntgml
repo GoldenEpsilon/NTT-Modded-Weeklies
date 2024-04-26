@@ -223,12 +223,21 @@ if "mods" in get_current_data() {
 			switch self.download_type {
 				case "itch":
 					var api_key = "mD4JDfwnLXlsxPChbvGnttoOqHSNiYBmjTD1H2ya";
-					file_delete(self.name + " itchdata.json");
-					while (file_exists(self.name + " itchdata.json")) {wait 1;}
-					file_download(self.url + "/data.json", self.name + " itchdata.json");
-					while (!file_loaded(self.name + " itchdata.json")) {wait 1;}
-					while (!file_exists(self.name + " itchdata.json")) {wait 1;}
-					var modid = json_decode(string_load(self.name + " itchdata.json")).id;
+					var retries = 0;
+					var itchstring = undefined;
+					while itchstring == undefined && retries < 10 {
+						file_delete(self.name + " itchdata.json");
+						while (file_exists(self.name + " itchdata.json")) {wait 1;}
+						file_download(self.url + "/data.json", self.name + " itchdata.json");
+						while (!file_loaded(self.name + " itchdata.json")) {wait 1;}
+						while (!file_exists(self.name + " itchdata.json")) {wait 1;}
+						itchstring = string_load(self.name + " itchdata.json")
+						retries++;
+					}
+					if is_undefined(itchstring) {
+						trace("ERROR: itch link failed for " + self.name);
+					}
+					var modid = json_decode(itchstring).id;
 					file_delete(self.name + " data.json");
 					while (file_exists(self.name + " data.json")) {wait 1;}
 					if is_undefined(modid) {
