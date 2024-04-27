@@ -3,6 +3,7 @@
 	"description": "No Boiling Veins#Explosive Starting Mutations#Only Explosive Weapons#@qI HOPE YOU EXPLODE",
 	"can_resubmit": false,
 	"disable_vaults": false,
+	"disable_crowns": true,
 	"seed": "Random",
 	"mods": [
 		{
@@ -10,7 +11,7 @@
 			"name": "Defpack (Explosives Only)",
 			"description": false,
 			"filename": "defpack.zip",
-			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232936783327789066/defpack-meekly-explode.zip?ex=662b455c&is=6629f3dc&hm=bb3551791db7de9727760f602814cb8a8de94eb429ed41233936660b968749ac&"
+			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232936783327789066/defpack-meekly-explode.zip?ex=662c96dc&is=662b455c&hm=81b2214bf1a27b6479fc20f5c11cc013ab2b155eb6777ea933847b81d8caa266&"
 		},
 		{
 			"download_type": "direct",
@@ -24,7 +25,7 @@
 			"name": "Varia 10K Weapons",
 			"description": false,
 			"filename": "va10kw.zip",
-			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232934141645815818/VA_10K.zip?ex=662b42e6&is=6629f166&hm=7f2844aae7604a7415536f217aaa0a16d9893d51f21bbed18dfa3151c08e9cd7&",
+			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232934141645815818/VA_10K.zip?ex=662c9466&is=662b42e6&hm=276a1d855c2073ab3074ebb6d1ed1eee7798de1b13315a27e7b0e35bafbab712&",
 			"globals": [
 				{
 					"mod_type": "mod",
@@ -36,11 +37,17 @@
 			]
 		},
 		{
+			"download_type": "itch",
+			"name": "Gunbucket",
+			"description": "A big old weapons pack#with over 100 weapons!",
+			"url": "https://wigglercola.itch.io/gunbucket"
+		},
+		{
 			"download_type": "direct",
 			"name": "Weekly Modifiers",
 			"description": "Modifiers:#No Boiling Veins#Explosive Starting Mutations#Only Explosive Weapons",
 			"filename": "modifiers.mod.gml",
-			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232942852825284618/modifiers.mod.gml?ex=662bf3c3&is=662aa243&hm=16b98d104a0801de2fdabe2be971f201b5ebaf8b0335d8dc13eff619fe701230&",
+			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232942852825284618/modifiers.mod.gml?ex=662c9c83&is=662b4b03&hm=bd27fa2522988382dcddd010013bbc248860c1bf009dee1abdc088b5cbcf5811&",
 			"globals": [
 				{
 					"mod_type": "mod",
@@ -67,6 +74,13 @@
 					"value": [false, false, false, false, true, false]
 				},
 			]
+		},
+		{
+			"download_type": "itch",
+			"name": "GE Tweaks",
+			"description": "A set of tweaks to improve the game#including flames burning iframes#toxic gas being nicer to work with#and discs being @qfun",
+			"color": 65535,
+			"url": "https://golden-epsilon.itch.io/ge-tweaks"
 		},
 	],
 	"race": false,

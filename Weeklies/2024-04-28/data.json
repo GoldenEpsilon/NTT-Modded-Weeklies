@@ -1,0 +1,51 @@
+{
+	"name": "Modded Weekly",
+	"description": false,
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"seed": "Random",
+	"mods": [
+		{
+			"download_type": "itch",
+			"version": 1,
+			"name": "Feels Like Vanilla",
+			"description": "16 simple but unique#vanilla-style weapons#with a wide range of#designs and functions.",
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "direct",
+			"version": 1,
+			"name": "Bosses Plus",
+			"description": "Adds Giga Maggot,#Big Sniper,#and Titank is here#as a special guest!",
+			"filename": "BossesPlus.zip",
+			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1233465901546733628/BossesPlusWeeklies.zip?ex=662d3223&is=662be0a3&hm=b32434c7b5f29186eba527b28597bd63a80ac9349e6c0f21865339b28cbe6322&"
+		},
+		{
+			"download_type": "itch",
+			"version": 1,
+			"name": "Blaacskills",
+			"description": "A set of weapon mutations#that expand the pool and#provide new meta opportunities!",
+			"color": 16711680,
+			"url": "https://blaac.itch.io/weapon-mutations"
+		},
+		{
+			"download_type": "direct",
+			"version": 1,
+			"name": "LOMuts Lite",
+			"filename": "LOMuts.zip",
+			"description": "Lots of Mutations!#What it sounds like on the tin.#Ultras and#some extra mechanics#are removed.",
+			"url": "https://github.com/GoldenEpsilon/LOMuts/releases/download/litev1/LOMuts.zip"
+		},
+		{
+			"download_type": "itch",
+			"version": 1,
+			"name": "Portalspeed",
+			"description": "When you clear a level,#get a speed boost#to get to the#next level faster!",
+			"url": "https://dragonstrive.itch.io/portalspeed"
+		},
+	],
+	"race": false,
+	"wep": [true,3,5,6,7,16,18,19,21,27],
+	"bwep": false,
+	"crown": 1,
+}

@@ -335,6 +335,12 @@ if(global.currentMode == ""){
 }
 random_set_seed(get_seed());
 game_set_seed(get_seed());
+if("disable_crowns" in get_current_data() && get_current_data().disable_crowns){
+	with(GameCont){crownpoints = -(1/0)}
+}
+if("disable_vaults" in get_current_data() && get_current_data().disable_vaults){
+	with(GameCont){vaults=100}
+}
 //room_speed = 30;
 //current_time_scale = 1;
 current_time_scale = 1/(room_speed/30);
