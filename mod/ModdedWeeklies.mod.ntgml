@@ -1322,10 +1322,12 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 	case ".zip":
 		file_download(url, filename);
 		recursive_delete("../../mods/WeeklyMods/" + name);
+		while (!file_exists(filename)) {wait 1;}
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 	case ".rar":
 		file_download(url, filename);
 		recursive_delete("../../mods/WeeklyMods/" + name);
+		while (!file_exists(filename)) {wait 1;}
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 	default:
 		file_delete("../../mods/WeeklyMods/" + name);
