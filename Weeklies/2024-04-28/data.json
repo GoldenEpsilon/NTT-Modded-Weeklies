@@ -3,7 +3,7 @@
 	"description": false,
 	"can_resubmit": true,
 	"disable_vaults": false,
-	"disable_crowns": true,
+	"disable_crowns": false,
 	"seed": "Random",
 	"mods": [
 		{
@@ -48,5 +48,5 @@
 	"race": false,
 	"wep": [true,3,5,6,7,16,18,19,21,27],
 	"bwep": false,
-	"crown": "outcasts",
+	"crown": 1,
 }
