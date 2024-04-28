@@ -225,19 +225,23 @@ if "mods" in get_current_data() {
 					var api_key = "mD4JDfwnLXlsxPChbvGnttoOqHSNiYBmjTD1H2ya";
 					var retries = 0;
 					var itchstring = undefined;
-					while itchstring == undefined && retries < 10 {
+					var itchstringjson = undefined;
+					while (itchstring == undefined || itchstringjson == undefined || itchstringjson == json_error) && retries < 10 {
 						file_delete(self.name + " itchdata.json");
 						while (file_exists(self.name + " itchdata.json")) {wait 1;}
 						file_download(self.url + "/data.json", self.name + " itchdata.json");
 						while (!file_loaded(self.name + " itchdata.json")) {wait 1;}
 						while (!file_exists(self.name + " itchdata.json")) {wait 1;}
 						itchstring = string_load(self.name + " itchdata.json")
+						if is_string(itchstring){
+							itchstringjson = json_decode(itchstring)
+						}
 						retries++;
 					}
-					if is_undefined(itchstring) {
+					if is_undefined(itchstring) || itchstringjson == undefined || itchstringjson == json_error {
 						trace("ERROR: itch link failed for " + self.name);
 					}
-					var modid = json_decode(itchstring).id;
+					var modid = itchstringjson.id;
 					file_delete(self.name + " data.json");
 					while (file_exists(self.name + " data.json")) {wait 1;}
 					if is_undefined(modid) {
@@ -1418,6 +1422,12 @@ if(argument0 = "loaddaily"){
 		dl.index = 0;
 		dl.modeName = "TESTING";
 		dl.valid = false;
+		for(var i = 0; i < array_length(global.modes); i++) {
+			if name == "TESTING" {
+				array_delete(global.modes, i, 1)
+				break;
+			}
+		}
 		array_push(global.data, dl);
 		global.currentMode = "TESTING"
 		global.qualified = false;
