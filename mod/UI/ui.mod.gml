@@ -35,6 +35,34 @@ global.sprLoadoutSplat = sprite_add_base64("iVBORw0KGgoAAAANSUhEUgAAAbQAAABFCAYA
 
 global.sprLeaderboard = sprite_add("sprites/sprLeaderboard.png", 0, 0, 0);
 
+global.leaderboardicons = {
+	epsilon: sprite_add("sprites/leaderboardicons/epsilon.png", 0, 0, 0),
+	masterdebugger: sprite_add("sprites/leaderboardicons/masterdebugger.png", 0, 0, 0),
+};
+
+global.leaderboardiconusers = {
+	"golden epsilon": {
+		name: "Developer",
+		icon: "epsilon",
+		color: make_color_rgb(255, 180, 0)
+	},
+	"borovik357": {
+		name: "Master Debugger#@s(Competition 4/21/2024)",
+		icon: "masterdebugger",
+		color: make_color_rgb(255, 180, 0)
+	},
+	"zhigugizh": {
+		name: "Master Debugger#@s(Competition 4/21/2024)",
+		icon: "masterdebugger",
+		color: make_color_rgb(200, 200, 210)
+	},
+	"longer staff": {
+		name: "Master Debugger#@s(Competition 4/21/2024)",
+		icon: "masterdebugger",
+		color: make_color_rgb(255, 100, 0)
+	},
+};
+
 global.mod_charselect = sprite_add("sprites/mod_charselect.png",1,0,0)
 global.mod_mapicon = sprite_add("sprites/mod_mapicon.png",1,8,8)
 global.mod_mutation = sprite_add("sprites/mod_mutation.png",1,8,8)
@@ -434,12 +462,36 @@ draw_set_projection(0, 0)
         var _text = string(global.scoreboard[global.current_scoreboard][i].name)
         
             
-        if _opened
+        if _opened {
+			if(lq_exists(global.leaderboardiconusers, string_lower(_text))){
+				var icon = lq_get(global.leaderboardiconusers, string_lower(_text))
+				draw_sprite_ext(lq_get(global.leaderboardicons, icon.icon), 0, round(xx+xxx+8-20), yy - 8, 1, 1, 0, icon.color, 1);
+        
+        		var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,round(xx+xxx+8-20),yy - 8,round(xx+xxx+8-20)+16,yy + 8)
+				if hover_over and (scoreboard_anim > 0.9) {
+					script_bind_draw("ui_popup_draw",-1000,_x+64,_y, icon.name)
+				}
+			}
             draw_text(round(xx+xxx+8+_pointless_wiggle),yy,_text)
-        else
-        for (var k = 1;k<clamp(string_length(_text)+1,1,9);k++){
-            draw_text(round(xx+xxx+_pointless_wiggle+(k*8)),yy,string_char_at(_text,k))  
-        }
+        } else {
+			var offset = 0;
+			if(lq_exists(global.leaderboardiconusers, string_lower(_text))){
+				var icon = lq_get(global.leaderboardiconusers, string_lower(_text))
+				draw_sprite_ext(lq_get(global.leaderboardicons, icon.icon), 0, round(xx+xxx+8+_pointless_wiggle), yy - 5, 1, 1, 0, icon.color, 1);
+				offset += sprite_get_width(lq_get(global.leaderboardicons, icon.icon))+2;
+        
+        		var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,round(xx+xxx+8+_pointless_wiggle),yy - 5,round(xx+xxx+8+_pointless_wiggle)+16,yy + 11)
+				if hover_over and (scoreboard_anim > 0.9) {
+					script_bind_draw("ui_popup_draw",-1000,_x+64,_y, icon.name)
+				}
+			}
+			var txt = _text;
+			while(string_width(txt) > 105 - offset - string_width(string(global.scoreboard[global.current_scoreboard][i].kills))){
+				txt = string_delete(txt, string_length(txt), 1);;
+			}
+            draw_text(round(xx+xxx+8+offset+_pointless_wiggle),yy,txt)  
+		}
+
         //score
         xxx+=100
         yyy+=((8*scoreboard_anim))*_opened

@@ -240,12 +240,18 @@ if "mods" in get_current_data() {
 					}
 					if is_undefined(itchstring) || itchstringjson == undefined || itchstringjson == json_error {
 						trace("ERROR: itch link failed for " + self.name);
+						trace("Please reload the weeklies mod.");
+						global.qualified = false;
+						break;
 					}
 					var modid = itchstringjson.id;
 					file_delete(self.name + " data.json");
 					while (file_exists(self.name + " data.json")) {wait 1;}
 					if is_undefined(modid) {
 						trace("ERROR: itch link failed for " + self.name);
+						trace("Please reload the weeklies mod.");
+						global.qualified = false;
+						break;
 					}
 					file_download("https://api.itch.io/games/" + string(modid) + "/uploads?api_key=" + api_key, self.name + " data.json");
 					while (!file_loaded(self.name + " data.json")) {wait 1;}
