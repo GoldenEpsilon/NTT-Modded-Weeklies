@@ -258,14 +258,24 @@ if "mods" in get_current_data() {
 					while (!file_exists(self.name + " data.json")) {wait 1;}
 					var out = json_decode(string_load(self.name + " data.json"));
 					if("uploads" in out && array_length(out.uploads)){
-						download_and_load(self.name, "https://api.itch.io/uploads/" + string(out.uploads[0].id) + "/download?api_key=" + api_key, out.uploads[0].filename, self.patches, self.globals);
+						if !download_and_load(self.name, "https://api.itch.io/uploads/" + string(out.uploads[0].id) + "/download?api_key=" + api_key, out.uploads[0].filename, self.patches, self.globals) {
+							trace("An error occurred during mod loading.");
+							trace("Please reload the weeklies mod.");
+							global.qualified = false;
+							break;
+						}
 					}else{
 						trace("ERROR: incorrect response. Recieved response was:");
 						trace(out);
 					}
 					break;
 				case "direct":
-					download_and_load(self.name, self.url, self.filename, self.patches, self.globals);
+					if !download_and_load(self.name, self.url, self.filename, self.patches, self.globals) {
+						trace("An error occurred during mod loading.");
+						trace("Please reload the weeklies mod.");
+						global.qualified = false;
+						break;
+					}
 					break;
 			}
 			//global.forks--;
@@ -1308,7 +1318,7 @@ return {};
 //check to see if it's just a .gml before unzipping
 if(string_length(filename) == 0){
 	trace("ERROR: file not found. This is aserver-side issue, hopefully we are fixing it.");
-	return;
+	return false;
 }
 file_delete("../../mods/WeeklyMods/" + name + "/main.txt");
 while (file_exists("../../mods/WeeklyMods/" + name + "/main.txt")) {wait 1;}
@@ -1318,22 +1328,38 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
 		file_download(url, "../../mods/WeeklyMods/" + name + "/" + filename);
 		while (!file_exists("../../mods/WeeklyMods/" + name + "/" + filename)) {wait 1;}
+		if string_load("../../mods/WeeklyMods/" + name + "/" + filename) == "This content is no longer available." {
+			trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
+			return false;
+		}
 		break;
 	case ".zip":
 		file_download(url, filename);
 		recursive_delete("../../mods/WeeklyMods/" + name);
 		while (!file_exists(filename)) {wait 1;}
+		if string_load(filename) == "This content is no longer available." {
+			trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
+			return false;
+		}
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 	case ".rar":
 		file_download(url, filename);
 		recursive_delete("../../mods/WeeklyMods/" + name);
 		while (!file_exists(filename)) {wait 1;}
+		if string_load(filename) == "This content is no longer available." {
+			trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
+			return false;
+		}
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 	default:
 		file_delete("../../mods/WeeklyMods/" + name);
 		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
 		file_download(url, "../../mods/WeeklyMods/" + name + "/" + filename);
 		while (!file_exists("../../mods/WeeklyMods/" + name + "/" + filename)) {wait 1;}
+		if string_load("../../mods/WeeklyMods/" + name + "/" + filename) == "This content is no longer available." {
+			trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
+			return false;
+		}
 		break;
 }
 
@@ -1342,6 +1368,10 @@ for(var i = 0; i < array_length(patches); i++){
 	while (file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].file)) {wait 1;}
 	file_download(patches[i].url, "../../mods/WeeklyMods/" + name + "/" + patches[i].file);
 	while (!file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].file)) {wait 1;}
+	if string_load("../../mods/WeeklyMods/" + name + "/" + patches[i].file) == "This content is no longer available." {
+		trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
+		return false;
+	}
 }
 
 wait(10)
@@ -1386,6 +1416,7 @@ with(globals){
 		exit;
 	}
 }
+return true;
 
 #define getModeDate(mode)
 if "weekly" in mode && mode.weekly {return global.currentWeek}
