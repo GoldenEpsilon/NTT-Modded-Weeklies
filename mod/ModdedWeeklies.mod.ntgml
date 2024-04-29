@@ -447,6 +447,10 @@ global.DataSubmission = {
 }
 
 #define step
+if(!global.finished && !instance_exists(Player) && global.start){
+	SubmitRun();
+}
+
 if global.currentMode == "" {return;}
 
 if(instance_exists(GenCont)) global.newLevel = 1;
@@ -649,10 +653,6 @@ if GameCont.timer > 0 {
 //clear game-over button
 if instance_exists(GameOverButton) with GameOverButton {
 	if num == 1 instance_delete(self);
-}
-
-if(!global.finished && !instance_exists(Player) && global.start){
-	SubmitRun();
 }
 	
 #define draw_pause
