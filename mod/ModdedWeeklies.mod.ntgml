@@ -95,7 +95,7 @@ if(fork()){
 
 wait(3);
 
-while(!mod_sideload()){wait 1;}
+cansideload = 1;
 
 //Eventually move past the mode check, but for now it should be here
 checkForUpdates("weeklies", "GoldenEpsilon/NTT-Modded-Weeklies")
@@ -1170,12 +1170,9 @@ if(!(global.debug && button_check(0, "horn")) && (oldjson == false || oldjson ==
 	}
 	trace_color("Update for " + _name + " complete!", c_purple);
 	string_save(global.newjsonstr, _name+"oldversion.json");
-	string_save("/allowmod ModdedWeeklies\n/allowmod ui.mod.gml\n/load main.txt", "../../mods/" + _name + "/" + "reload.txt");
-	string_save(string(global.currentMode), "modestorage.txt");
-	wait file_load("../../mods/" + _name + "/" + "reload.txt");
-	while !file_exists("../../mods/" + _name + "/" + "reload.txt") wait(0)
+	while !file_exists("../../mods/" + _name + "/" + "main.txt") wait(0)
 	sprite_restore(sprBackButton);
-	mod_loadtext(_name + "/" + "reload.txt");
+	mod_loadtext(_name + "/" + "main.txt");
 
 #define loadModes()
 global.headers = ds_map_create();

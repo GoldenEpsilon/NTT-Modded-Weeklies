@@ -23,6 +23,7 @@
 
 #macro holdbackdelay 16;    /*  how long you have to hold to return to the main menu  */
 
+cansideload = 1;
 
 global.game_size = [game_width,game_height]
 

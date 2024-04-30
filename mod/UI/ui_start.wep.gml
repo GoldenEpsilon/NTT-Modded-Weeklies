@@ -1,5 +1,6 @@
 
 #define init
+cansideload = 1;
 if fork(){
     wait 1
     mod_loadtext("setwep.txt")
