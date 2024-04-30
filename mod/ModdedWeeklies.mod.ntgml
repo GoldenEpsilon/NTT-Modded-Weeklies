@@ -64,7 +64,7 @@ global.endData = {
 	data: []
 };
 global.start = false;
-global.finished = false;
+global.finished = true;
 global.leaderboard = [[], [], []]
 global.data = []
 global.unixTime = 0;
@@ -530,7 +530,7 @@ if global.debug {
 	}
 }
 
-if(global.currentMode == "" || !global.canStart){
+if(global.currentMode == "" || !global.canStart || global.start){
 	with(Menu){
 		//race_id=[0,0,0,0] //This should be uncommented eventually, but right now it's causing odd problems
 	}
