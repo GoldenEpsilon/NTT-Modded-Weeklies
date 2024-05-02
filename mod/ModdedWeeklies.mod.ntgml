@@ -1337,6 +1337,7 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 			trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
 			return false;
 		}
+		trace("Unzipping " + filename);
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 	case ".rar":
 		file_download(url, filename);
@@ -1346,6 +1347,7 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 			trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
 			return false;
 		}
+		trace("Unzipping " + filename);
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
 	default:
 		file_delete("../../mods/WeeklyMods/" + name);
@@ -1617,6 +1619,8 @@ layers = 0;
 forks = 0;
 //if it's the first scan
 first = 1;
+trace("Deleting old files...");
+counter = 0;
 while(array_length(folders) > 0 || forks > 0) {
 	if(array_length(folders) > 0){
 		if(fork()){
@@ -1658,7 +1662,12 @@ while(array_length(folders) > 0 || forks > 0) {
 			exit;
 		}
 	}else{
-		wait(0);
+		wait(1);
+		counter++;
+		if counter > 300 {
+			trace("Still deleting old files... " + string(array_length(folders) + forks) + " files/folders left to delete currently");
+			counter = 0;
+		}
 	}
 }
 wait(10);
