@@ -1339,6 +1339,7 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 		}
 		trace("Unzipping " + filename);
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
+		break;
 	case ".rar":
 		file_download(url, filename);
 		recursive_delete("../../mods/WeeklyMods/" + name);
@@ -1349,6 +1350,7 @@ switch(string_lower(string_copy(filename, string_length(filename) - 3, 4))){
 		}
 		trace("Unzipping " + filename);
 		wait zip_unzip(filename, "../../mods/WeeklyMods/" + name);
+		break;
 	default:
 		file_delete("../../mods/WeeklyMods/" + name);
 		while (file_exists("../../mods/WeeklyMods/" + name)) {wait 1;}
