@@ -389,16 +389,16 @@ with(Player){
 	global.endData.alias += player_get_alias(index);
 	global.endData.data[index] = {
 		alias: player_get_alias(index),
-		wep: wep,
-		bwep: bwep,
+		wep: wep_raw(wep),
+		bwep: wep_raw(bwep),
 		color: player_get_color(index),
 		race: race_id < 17 && race_id > 0 ? race_id : race,
 		skin: bskin
 	}
 	global.endData.initialdata[index] = {
 		alias: player_get_alias(index),
-		wep: wep,
-		bwep: bwep,
+		wep: wep_raw(wep),
+		bwep: wep_raw(bwep),
 		color: player_get_color(index),
 		race: race_id < 17 && race_id > 0 ? race_id : race,
 		skin: bskin
@@ -597,8 +597,8 @@ if(global.qualified == true && global.canStart && global.ModNames != ""){
 with(Player){
 	global.endData.data[index] = {
 		alias: player_get_alias(index),
-		wep: wep,
-		bwep: bwep,
+		wep: wep_raw(wep),
+		bwep: wep_raw(bwep),
 		color: player_get_color(index),
 		race: race_id < 17 && race_id > 0 ? race_id : self.race,
 		skin: bskin
@@ -1679,3 +1679,26 @@ wait(10);
 if GameCont.area == 102 {
 	global.DataSubmission.pizzas++;
 }
+
+#define wep_raw(_wep)
+	/*
+		For use with LWO weapons
+		Call a weapon's "weapon_raw" script in case of wrapper weapons
+		
+		Ex:
+			wep_raw({ wep:{ wep:{ wep:123 }}}) == 123
+	*/
+	
+	var _raw = _wep;
+	
+	 // Find Base Weapon:
+	while(is_object(_raw)){
+		_raw = (("wep" in _raw) ? _raw.wep : wep_none);
+	}
+	
+	 // Wrapper:
+	if(is_string(_raw) && mod_script_exists("weapon", _raw, "weapon_raw")){
+		_raw = mod_script_call("weapon", _raw, "weapon_raw", _wep);
+	}
+	
+	return _raw;
