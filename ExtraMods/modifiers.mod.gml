@@ -102,13 +102,13 @@
 		if array_length(untagged) with untagged {
 			modifireTagged = true;
 			//reroll weapon
-			if roll && !global.allowedAmmotypes[@weapon_get_type(wep)] {
+			if roll && !global.allowedAmmoTypes[@weapon_get_type(wep)] {
 				var _seed = weapon_get_seed(wep);
 				wep = weapon_decide_seeded(_seed,0,GameCont.hard,weapon_get_gold(wep),-1);
 			}
 			
 			//if no weapons are available, make an ammo chest instead
-			if wep == wep_screwdriver && (global.meleeToggle == -1 || global.allowedAmmotypes[@0] == false){
+			if wep == wep_screwdriver && (global.meleeToggle == -1 || global.allowedAmmoTypes[@0] == false){
 				instance_create(x,y,AmmoChest);
 				instance_delete(self);
 			}
@@ -172,7 +172,7 @@
         var _wep = _list[| i];
         
         var _valid = !(
-        	!(global.allowedAmmotypes[@weapon_get_type(_wep)]) ||
+        	!(global.allowedAmmoTypes[@weapon_get_type(_wep)]) ||
         	(_wep == _exclude || (is_array(_exclude) && array_find_index(_exclude, _wep) >= 0)) 	|| 
         	((_gold > 0 && !weapon_get_gold(_wep)) || (_gold < 0 && weapon_get_gold(_wep)))
         );
