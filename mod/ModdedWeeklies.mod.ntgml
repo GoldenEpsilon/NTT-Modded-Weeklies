@@ -203,15 +203,15 @@ for(i = 0; i < array_length(skinmods); i++){
 }
 if "mods" in get_current_data() {
 	with get_current_data().mods {
-		if "version" in self {
-			wait file_load("../../mods/WeeklyMods/" + self.name + "/version.txt");
-			wait file_load("../../mods/WeeklyMods/" + self.name + "/main.txt");
-			if string_load("../../mods/WeeklyMods/" + self.name + "/version.txt") == string(self.version) && file_exists("../../mods/WeeklyMods/" + self.name + "/main.txt") {
-				trace(name + " Already downloaded, loading!");
-				mod_loadtext("WeeklyMods/" + self.name + "/main.txt");
-				continue;
-			}
+		
+		wait file_load("../../mods/WeeklyMods/" + self.name + "/version.txt");
+		wait file_load("../../mods/WeeklyMods/" + self.name + "/main.txt");
+		if string_load("../../mods/WeeklyMods/" + self.name + "/version.txt") == string(self.url) && file_exists("../../mods/WeeklyMods/" + self.name + "/main.txt") {
+			trace(name + " Already downloaded, loading!");
+			mod_loadtext("WeeklyMods/" + self.name + "/main.txt");
+			continue;
 		}
+		
 		//if(fork()){
 			//global.forks++;
 			if "patches" not in self {
@@ -281,9 +281,8 @@ if "mods" in get_current_data() {
 			//global.forks--;
 			//exit;
 		//}
-		if "version" in self {
-			string_save(string(self.version), "../../mods/WeeklyMods/" + self.name + "/version.txt");
-		}
+		string_save(string(self.url), "../../mods/WeeklyMods/" + self.name + "/version.txt");
+		
 		wait(10);
 	}
 	//while(global.forks > 0) wait(0)
@@ -1478,18 +1477,18 @@ if(argument0 = "loaddaily"){
 if(argument0 = "loaddailyfile"){
 	if(fork()){
 		trace("loading " + argument1);
-		wait file_load(argument1);
-		while (!file_loaded(argument1)) {wait 1;}
+		wait file_load("mods/" + argument1);
+		while (!file_loaded("mods/" + argument1)) {wait 1;}
 		var dl = {};
-		dl = json_decode(string_load(argument1));
+		dl = json_decode(string_load("mods/" + argument1));
 		if dl == json_error {
-			trace(file_exists(argument1));
-			file_unload(argument1);
-			trace(argument1 + " not found");
+			trace(file_exists("mods/" + argument1));
+			file_unload("mods/" + argument1);
+			trace("mods/" + argument1 + " not found");
 			exit;
 		}
-		file_unload(argument1);
-		while (file_loaded(argument1)) {wait 1;}
+		file_unload("mods/" + argument1);
+		while (file_loaded("mods/" + argument1)) {wait 1;}
 		dl.index = 0;
 		dl.modeName = "TESTING";
 		dl.valid = false;
