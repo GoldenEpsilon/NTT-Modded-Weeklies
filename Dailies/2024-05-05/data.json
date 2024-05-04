@@ -1,10 +1,10 @@
 {
-	"name": "Modded Weekly",
+	"name": "Daily",
 	"description": false,
-	"can_resubmit": true,
+	"can_resubmit": false,
 	"disable_vaults": false,
 	"disable_crowns": false,
-	"seed": "Random",
+	"seed": "Daily",
 	"mods": [
 		{
 			"download_type": "itch",

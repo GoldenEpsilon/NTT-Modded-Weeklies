@@ -1,7 +1,7 @@
 {
 	"name": "I Hope You Explode",
 	"description": "No Boiling Veins#Explosive Starting Mutations#Only Explosive Weapons#@qI HOPE YOU EXPLODE",
-	"can_resubmit": false,
+	"can_resubmit": true,
 	"disable_vaults": false,
 	"disable_crowns": true,
 	"seed": "Random",
@@ -11,7 +11,7 @@
 			"name": "Defpack (Explosives Only)",
 			"description": false,
 			"filename": "defpack.zip",
-			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232936783327789066/defpack-meekly-explode.zip?ex=662c96dc&is=662b455c&hm=81b2214bf1a27b6479fc20f5c11cc013ab2b155eb6777ea933847b81d8caa266&"
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/defpack-meekly-explode.zip"
 		},
 		{
 			"download_type": "direct",
@@ -22,10 +22,10 @@
 		},
 		{
 			"download_type": "direct",
-			"name": "Varia 10K Weapons",
+			"name": "Varia 10k",
 			"description": false,
-			"filename": "va10kw.zip",
-			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232934141645815818/VA_10K.zip?ex=662c9466&is=662b42e6&hm=276a1d855c2073ab3074ebb6d1ed1eee7798de1b13315a27e7b0e35bafbab712&",
+			"filename": "VA10k.zip",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/VA_10K.zip",
 			"globals": [
 				{
 					"mod_type": "mod",
@@ -47,7 +47,7 @@
 			"name": "Weekly Modifiers",
 			"description": "Modifiers:#No Boiling Veins#Explosive Starting Mutations#Only Explosive Weapons",
 			"filename": "modifiers.mod.gml",
-			"url": "https://cdn.discordapp.com/attachments/1227385027164246128/1232942852825284618/modifiers.mod.gml?ex=662c9c83&is=662b4b03&hm=bd27fa2522988382dcddd010013bbc248860c1bf009dee1abdc088b5cbcf5811&",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/modifiers.mod.gml",
 			"globals": [
 				{
 					"mod_type": "mod",
