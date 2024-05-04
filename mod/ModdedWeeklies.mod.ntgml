@@ -281,7 +281,9 @@ if "mods" in get_current_data() {
 			//global.forks--;
 			//exit;
 		//}
-		string_save(string(self.url), "../../mods/WeeklyMods/" + self.name + "/version.txt");
+		if global.qualified == true {
+			string_save(string(self.url), "../../mods/WeeklyMods/" + self.name + "/version.txt");
+		}
 		
 		wait(10);
 	}
