@@ -290,6 +290,12 @@ if "mods" in get_current_data() {
 	//while(global.forks > 0) wait(0)
 }
 
+wait(10);
+
+with(GmlMod){
+	if(name == "LibLoader"){cansideload=1}
+}
+
 wait(30);
 
 global.ModNames = "";
