@@ -9,7 +9,7 @@
 		{
 			"download_type": "itch",
 			"name": "Better Curses",
-			"description": "A complete curse overhaul!",
+			"description": "A complete overhaul to vanilla curses,#adding 16+ curse effects#that wildly change#the way a weapon plays",
 			"url": "https://dragonstrive.itch.io/bettercurses"
 		},
 		{
@@ -77,6 +77,13 @@
 			"filename": "Writhe.zip",
 			"description": "This Nuclear Throne mod adds Writhe,#a tangled mess of a mutant#who doesn't really know what's going on.",
 			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/Writhe.zip"
+		},
+		{
+			"download_type": "itch",
+			"name": "GE Tweaks",
+			"description": "A set of tweaks to improve the game#including flames burning iframes#toxic gas being nicer to work with#and discs being @qfun",
+			"color": 65535,
+			"url": "https://golden-epsilon.itch.io/ge-tweaks"
 		},
 	],
 	"race": false,
