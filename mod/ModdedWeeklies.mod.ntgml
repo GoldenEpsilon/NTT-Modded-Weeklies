@@ -652,7 +652,7 @@ if GameCont.timer > 0 {
 
 //clear game-over button
 if instance_exists(GameOverButton) with GameOverButton {
-	if num == 1 instance_delete(self);
+	if num == 1 && !get_current_data().can_resubmit instance_delete(self);
 }
 	
 #define draw_pause
