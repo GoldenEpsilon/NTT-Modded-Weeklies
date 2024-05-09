@@ -1,4 +1,4 @@
-#define init
+/*#define init
 global.Collected = true;
 
 #define step
@@ -21,4 +21,4 @@ if(instance_exists(GenCont) || instance_exists(Menu)){
 gc_enable(true)
 
 #define cleanup
-gc_enable(true)
+gc_enable(true)*/
