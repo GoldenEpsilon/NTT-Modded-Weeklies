@@ -1490,9 +1490,13 @@ if(argument0 = "loaddailyfile"){
 		var dl = {};
 		dl = json_decode(string_load("mods/" + argument1));
 		if dl == json_error {
-			trace(file_exists("mods/" + argument1));
+			if(file_exists("mods/" + argument1)) {
+				trace("mods/" + argument1 + " exists");
+			}else {
+				trace("mods/" + argument1 + " doesn't exist");
+			}
 			file_unload("mods/" + argument1);
-			trace("mods/" + argument1 + " not found");
+			trace("mods/" + argument1 + " errors on loading");
 			exit;
 		}
 		file_unload("mods/" + argument1);
