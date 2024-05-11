@@ -546,7 +546,7 @@ if(global.currentMode == "" || !global.canStart){
 	}
 }
 cheat_check();
-
+/*
 if global.currentMode != "" {
 	with(UberCont){
 		if "crown" in get_current_data() && get_current_data().crown != 0 {
@@ -563,7 +563,7 @@ if global.currentMode != "" {
 		}
 	}
 }
-
+*/
 with(ProtoChest){instance_destroy();}
 
 //This chunk is redundant and VERY slow.
