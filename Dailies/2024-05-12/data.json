@@ -1,0 +1,88 @@
+{
+  "name": false,
+  "can_resubmit": true,
+  "seed": "Daily",
+  "wep": false,
+  "bwep": false,
+  "crown": ["tiny",7],
+  "mods": [{
+      "download_type": "itch",
+      "url": "https://blaac.itch.io/crown-train",
+      "name": "CROWN TRAIN",
+      "description": "CROWNS STACK AND NO LONGER REPLACE#EACH OTHER",
+      "color": 65535
+    },{
+      "download_type": "direct",
+      "url": "https://github.com/13laac/misc_nt_mods/raw/main/infvaults.mod.gml",
+	  "filename": "infvaults.mod.gml",
+	  "name": "INF VAULTS",
+      "description": "UNLIMITED CROWN VAULT VISITS",
+      "color": 12632256
+    },{
+      "download_type": "itch",
+      "url": "https://blaac.itch.io/bweapons",
+      "name": "B WEAPON CHANGES",
+      "description": "SOME VISUAL CHANGES#@wHEAVY GRENADE LAUNCHER@s BUFF#@wFLAME CANNON@s BUFF#@wDEVASTATOR@s BUFF#@wLIGHTNING HAMMER@s BUFF#@wLIGHTNING CANNON@s CHANGED",
+      "color": 255
+    },{
+      "download_type": "itch",
+      "url": "https://blaac.itch.io/bmutations",
+      "name": "B MUTATION CHANGES",
+      "description": "@wEXTRA FEET@s MAKES FISH ROLL FURTHER#@wLUCKY SHOT@s GIVES RELEVANT AMMO#@wSHARP TEETH@s DAMAGE BUFF#@WSHOTGUN SHOLDERS@s BOUNCE OFF ENEMIES#@wFISH@s TB MOVEMENT BUFF#GUNWARRANT DURATION BUFF#@wCRYSTAL@s TB CONTROL BUFF#@wEYES@s PROJECTILE STYLE CONTROL BUFF#@wPLANT@s CAMERA FOLLOWS SNARE STRONGER#@wYV@s CAN POP E MELEE THAT COST AMMO#@wCHICKEN@s HARDER TO KILL BUFF#PICKS UP WEAPONS WHEN HOLDING PICKUP#@wROGUE@s HARDER TO TAP STIKE YOURSELF",
+	  "color": 65280
+    },{
+      "download_type": "itch",
+      "url": "https://golden-epsilon.itch.io/ge-tweaks",
+      "name": "GE TWEAKS",
+      "description": "A SET OF TWEAKS TO IMPROVE THE GAME#INCLUDING FLAMES BURNING IFRAMES#TOXIC BEING NICER TO WORK WITH#AND DISCS BEING FUN",
+	  "color": 65535
+    },{
+      "download_type": "itch",
+      "url": "https://dragonstrive.itch.io/portalspeed",
+      "name": "PORTALSPEED",
+      "description": "WHEN YOU CLEAR A LEVEL#GET A SPEED BOOST#TO GET TO THE#NEXT LEVEL FASTER!",
+      "color": 12632256
+    },{
+      "download_type": "itch",
+      "url": "https://yokin.itch.io/popo",
+      "name": "POPO",
+      "description": "VARIED IDPD SPAWNS#ON A NORMAL RUN YOU SHOULD SEE NEW IDPD#SPAWNS BEGIN SOMEWHERE AROUND PALACE.",
+	  "color": 16711680
+    },{
+      "download_type": "direct",
+      "url": "https://github.com/13laac/misc_nt_mods/raw/main/nopopostart.mod.gml",
+	  "filename": "nopopostart.mod.gml",
+	  "name": "NO POPO START",
+      "description": "START WITH CROWN BUT NO POLICE",
+      "color": 12632256
+    },{
+      "download_type": "direct",
+      "url": "https://github.com/13laac/misc_nt_mods/raw/main/tiny.crown.gml",
+	  "filename": "tiny.crown.gml",
+	  "name": "CROWN OF TINY",
+      "description": "SMALL",
+      "color": 65535
+    },{
+      "download_type": "direct",
+      "url": "https://github.com/13laac/misc_nt_mods/raw/main/curses.mod.gml",
+	  "filename": "curses.mod.gml",
+	  "name": "CURSES",
+      "description": "CROWN OF CURSES ADDS A CHANCE#TO RANDOMIZE PROPS AND ENEMIES",
+      "color": 8388736
+    },{
+      "download_type": "direct",
+      "url": "https://github.com/13laac/misc_nt_mods/raw/main/loopcurses.crown.gml",
+	  "filename": "loopcurses.crown.gml",
+	  "name": "LOOPCURSES",
+      "description": "CROWN OF CURSES APPEARS IN LOOP",
+      "color": 8388736
+    },{
+      "download_type": "direct",
+      "url": "https://github.com/13laac/misc_nt_mods/raw/main/portalweps.mod.gml",
+	  "filename": "portalweps.mod.gml",
+	  "name": "PORTAL WEP FIX",
+      "description": "WEAPONS NOW GO INTO THE PORTAL, WOW!",
+      "color": 8388736
+    }
+  ]
+  }
