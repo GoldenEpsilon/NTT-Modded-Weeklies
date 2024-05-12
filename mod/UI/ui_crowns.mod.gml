@@ -5,7 +5,7 @@
 
 //crown [ forced? , crown1 , crown2 , crown3 ...]
 
-global.mod_bigcrown = sprite_add("sprites/mod_mutation.png",1,8,8)
+global.mod_bigcrown = sprite_add("sprites/mod_crownbig.png",2,0,16)
 
 global.currentcrown = 1
 global.wantcrown = 1
@@ -71,7 +71,7 @@ if("crown" in global.modedata) {
 }
 
 
-#define draw_gui_end
+#define draw_gui
 with Loadout{
     with LoadoutCrown{
         instance_delete(id)
@@ -125,7 +125,7 @@ with Loadout{
         else
             num = 1
         global.currentcrown = num
-        global.wantcrown = global.crowns[num]
+        global.wantcrown = global.crowns[num-1]
         clicked_right = 2;
         anim -= 2
     }
@@ -135,7 +135,7 @@ with Loadout{
         else
             num = _how_many_crowns //
         global.currentcrown = num
-        global.wantcrown = global.crowns[num]
+        global.wantcrown = global.crowns[num-1]
         clicked_left = 2;
         anim -= 2
     }
@@ -158,13 +158,16 @@ with Loadout{
     if is_string(global.wantcrown){
         sprite = global.mod_bigcrown
         index = 0
-    	name = "mod"
+    	name = "UNLOADED MOD"
     	if mod_exists("crown",global.wantcrown){
-    	    if mod_variable_exists("crown",global.wantcrown,"crown_name")
-    	    name = mod_variable_get("crown",global.wantcrown,"crown_name")
-    	    else name = global.wantcrown
+    	    if mod_script_exists("crown",global.wantcrown,"crown_name"){
+    	    	name = mod_script_call("crown",global.wantcrown,"crown_name")}
+    	    else{
+    	    	name = global.wantcrown
+    	    }
     	    
-    	}
+    	}else
+    	index = 1
     }
     
     if global.wantcrown = -1{

@@ -56,7 +56,7 @@ if "name" in data {
         image_alpha = 0.6;
         xstart = x
         ystart = y
-        text = data.name
+        text = data.name = false ? "" : data.name
         val = "description" in data ? data.description : false
         color = c_white
         if "color" in other {
@@ -348,17 +348,20 @@ with Loadout {
                     draw_set_color(make_color_rgb(15,15,25))
                     var _round = 0//max(0.2,((round((mouse_delta_y[i])*8))/8))
                     var xanim = -18
-                    var yoffset = 18
+                    var yoffset = 12//18
                     var height = string_count("#", val)*8+4
                     var ybonus = 8
-                    draw_set_halign(1)
+                    while (y+yoffset+height) > (game_height-16)
+                    	yoffset-=8
+                    draw_set_halign(2)
                     draw_rectangle(0,y-2+yoffset,game_width,y+yoffset-6,0)
                     draw_rectangle(0,y+yoffset,game_width,y+height+yoffset+ybonus,0)
                     draw_rectangle(0,y+height+2+yoffset+ybonus,game_width,y+height+yoffset+ybonus+4,0)
                     //draw_set_color(color)
-                    draw_text_nt(game_width/2,y-8+yoffset,`@(color:${color})`+text)
+                    draw_text_nt(game_width-16,y-8+yoffset,`@(color:${color})`+text)
                     //draw_set_color(c_silver)
-                    draw_text_nt(game_width/2,y+yoffset+2,"@s"+val);
+                    draw_set_halign(0)
+                    draw_text_nt(8,y+yoffset+2,"@s"+val);
                     draw_set_color(c_white)
                     draw_set_halign(0)
                     break;
