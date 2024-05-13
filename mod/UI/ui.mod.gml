@@ -213,7 +213,7 @@ var does_the_mod_exist = mod_exists("mod",moddedweeklies_mod_file)
 
 if does_the_mod_exist{
 
-    global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Kills")
+    global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Difficulty")
 }
 }
 
