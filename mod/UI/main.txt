@@ -1,8 +1,8 @@
 /load sprites
-/loadmod ui.mod.gml
-/loadmod ui_weapons.mod.gml
-/loadmod ui_start.wep.gml
-/loadmod ui_crowns.mod.gml
+/loadmod mw_ui.mod.gml
+/loadmod mw_ui_weapons.mod.gml
+/loadmod mw_ui_start.wep.gml
+/loadmod mw_ui_crowns.mod.gml
 /loadmod selectui.mod.gml
-/loadmod ui_options.mod.gml
-/loadmod ui_mods.mod.gml
+/loadmod mw_ui_options.mod.gml
+/loadmod mw_ui_mods.mod.gml

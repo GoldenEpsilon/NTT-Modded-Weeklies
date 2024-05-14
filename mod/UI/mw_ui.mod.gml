@@ -410,7 +410,7 @@ draw_set_projection(0, 0)
         if _sprt != 0
         draw_sprite_ext(_sprt,0,_x,_y+hover_over,1,1,45-((45*scoreboard_anim)*_opened),_opened ? c_white:c_silver,1)
         if hover_over and _opened and (scoreboard_anim > 0.9) and global.scoreboard[global.current_scoreboard][i].bwep != 0
-        	script_bind_draw("ui_popup_draw",-1000,_x+8,_y-6,weapon_get_name(global.scoreboard[global.current_scoreboard][i].bwep))
+        	script_bind_draw("mw_ui_popup_draw",-1000,_x+8,_y-6,weapon_get_name(global.scoreboard[global.current_scoreboard][i].bwep))
             
         
         
@@ -429,7 +429,7 @@ draw_set_projection(0, 0)
         if global.scoreboard[global.current_scoreboard][i].crown != 0 and global.scoreboard[global.current_scoreboard][i].crown != 1
         draw_sprite_ext(_sprt,current_frame*0.4,_x,_y,1,1,0,c_white,1)
         if hover_over and _opened and (scoreboard_anim > 0.9) and global.scoreboard[global.current_scoreboard][i].crown != 1
-        	script_bind_draw("ui_popup_draw",-1000,_x+8,_y-6,crown_get_name(global.scoreboard[global.current_scoreboard][i].crown))
+        	script_bind_draw("mw_ui_popup_draw",-1000,_x+8,_y-6,crown_get_name(global.scoreboard[global.current_scoreboard][i].crown))
         
         xxx+=-20
         //gun       // add melee weapon angle
@@ -440,7 +440,7 @@ draw_set_projection(0, 0)
         if _sprt != 0
         draw_sprite_ext(_sprt,0,_x,_y+hover_over,1,1,(45-45*_opened)*weapon_is_melee(global.scoreboard[global.current_scoreboard][i].wep)-15+((15*scoreboard_anim)*_opened),c_white,1)
         if hover_over and _opened and (scoreboard_anim > 0.9) and global.scoreboard[global.current_scoreboard][i].wep != 0
-        	script_bind_draw("ui_popup_draw",-1000,_x+8,_y-6,weapon_get_name(global.scoreboard[global.current_scoreboard][i].wep))
+        	script_bind_draw("mw_ui_popup_draw",-1000,_x+8,_y-6,weapon_get_name(global.scoreboard[global.current_scoreboard][i].wep))
             
         
         xxx+=24+16 + string_length(i+1)*4
@@ -470,7 +470,7 @@ draw_set_projection(0, 0)
         
         		var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,round(xx+xxx+8-20),yy - 8,round(xx+xxx+8-20)+16,yy + 8)
 				if hover_over and (scoreboard_anim > 0.9) {
-					script_bind_draw("ui_popup_draw",-1000,_x+64,_y, icon.name)
+					script_bind_draw("mw_ui_popup_draw",-1000,_x+64,_y, icon.name)
 				}
 			}
             draw_text(round(xx+xxx+8+_pointless_wiggle),yy,_text)
@@ -483,7 +483,7 @@ draw_set_projection(0, 0)
         
         		var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,round(xx+xxx+8+_pointless_wiggle),yy - 5,round(xx+xxx+8+_pointless_wiggle)+16,yy + 11)
 				if hover_over and (scoreboard_anim > 0.9) {
-					script_bind_draw("ui_popup_draw",-1000,_x+64,_y, icon.name)
+					script_bind_draw("mw_ui_popup_draw",-1000,_x+64,_y, icon.name)
 				}
 			}
 			var txt = _text;
@@ -510,7 +510,7 @@ draw_set_projection(0, 0)
 			if(!is_array(deathcause)) {
 				deathcause = killed_by(deathcause);
 			}
-        	script_bind_draw("ui_popup_draw",-1000,_x,_y,"killed by "+string(deathcause[1]))
+        	script_bind_draw("mw_ui_popup_draw",-1000,_x,_y,"killed by "+string(deathcause[1]))
 			if(!is_undefined(deathcause[0])){
         		draw_sprite(deathcause[0],current_frame*0.4,_x+56,_y)
 			}
@@ -545,7 +545,7 @@ draw_set_projection(0, 0)
         
         if hover_over and _opened and (scoreboard_anim > 0.9) and "pizzas" in global.scoreboard[global.current_scoreboard][i]{
         	//var _text = area_get_name(global.scoreboard[global.current_scoreboard][i].area)
-        	script_bind_draw("ui_popup_draw",-1000,_x+64,_y,"Pizzas: " + string(global.scoreboard[global.current_scoreboard][i].pizzas))
+        	script_bind_draw("mw_ui_popup_draw",-1000,_x+64,_y,"Pizzas: " + string(global.scoreboard[global.current_scoreboard][i].pizzas))
         }
         
         
@@ -564,7 +564,7 @@ draw_set_projection(0, 0)
             var name = global.scoreboard[global.current_scoreboard][i].race
             
             //if hover_over
-            //	script_bind_draw("ui_popup_draw",-1000,_x+12,_y-6,race_get_name(name))
+            //	script_bind_draw("mw_ui_popup_draw",-1000,_x+12,_y-6,race_get_name(name))
             
             
             xxx+=48
@@ -604,7 +604,7 @@ draw_set_projection(0, 0)
                 draw_sprite(sprSkillIconHUD,muts[m],_x,_y+hover_over)
                 }
             	if hover_over and scoreboard_anim > 0.9
-            		script_bind_draw("ui_popup_draw",-1000,_x,_y-4,_name)
+            		script_bind_draw("mw_ui_popup_draw",-1000,_x,_y-4,_name)
             		
                 
             }
@@ -659,7 +659,7 @@ draw_set_projection(0, 0)
     //            	draw_sprite(_sprt,_ind,_x,_y+hover_over)
                 
             	if hover_over and scoreboard_anim > 0.9
-            		script_bind_draw("ui_popup_draw",-1000,_x,_y-4,_name)
+            		script_bind_draw("mw_ui_popup_draw",-1000,_x,_y-4,_name)
     //        		
     //            
             }
@@ -1473,7 +1473,7 @@ with Loadout{
 
 
 	//modded ones get a num
-    with instances_matching(CharSelect,"ui_num",null){
+    with instances_matching(CharSelect,"mw_ui_num",null){
         ui_num = array_length(instances_matching_lt(CharSelect,"id",id))
     }
     

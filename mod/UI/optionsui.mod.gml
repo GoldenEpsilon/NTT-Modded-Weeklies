@@ -2,7 +2,7 @@ global.swapButtonImage = sprite_add("DailyIcons.png", 7, 0, 0);
 global.toggleImage = sprite_add("Toggle.png", 2, 4, 4);
 
 #define toggleOptions()
-mod_variable_set("mod", "ui", "menu_opened", false)
+mod_variable_set("mod", "mw_ui", "menu_opened", false)
 with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
 	instance_destroy();
 }
@@ -60,7 +60,7 @@ while(lq_get_key(options, i) != undefined){
 }
 
 #define draw_gui
-if mod_variable_get("mod", "ui", "menu_opened") {
+if mod_variable_get("mod", "mw_ui", "menu_opened") {
     with instances_matching(CustomObject,"name","mod_ui_option"){
         instance_destroy();
     }

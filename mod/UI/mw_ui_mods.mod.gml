@@ -21,7 +21,7 @@ global.option_opening = [0,64]     //  min/start,max
 #macro option_anim option_opening[0]/option_opening[1]
 
 #define toggleOptions()
-//mod_variable_set("mod", "ui", "menu_opened", false)
+//mod_variable_set("mod", "mw_ui", "menu_opened", false)
 
 
 with(instances_matching(CustomObject, "name", "mod_ui_mode_button")){
@@ -212,7 +212,7 @@ if debug and button_pressed(0,"horn")
     trace(global.test_options)
 
 // if scoreboard opened delete options
-//if mod_variable_get("mod", "ui", "menu_opened") {
+//if mod_variable_get("mod", "mw_ui", "menu_opened") {
 //    with instances_matching(CustomObject,"name","mod_ui_desc"){
 //        instance_destroy();
 //    }

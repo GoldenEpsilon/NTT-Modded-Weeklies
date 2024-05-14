@@ -162,12 +162,12 @@ for(i = 0; i < array_length(mod_get_names("mod")); i=i){
 		modname != "GCFix" && 
 		modname != "areadisplay" && 
 		modname != "miniintros" && 
-		modname != "ui" && 
-		modname != "ui_weapons" && 
-		modname != "ui_crowns" && 
+		modname != "mw_ui" && 
+		modname != "mw_ui_weapons" && 
+		modname != "mw_ui_crowns" && 
 		modname != "selectui" && 
-		modname != "ui_options" && 
-		modname != "ui_mods"){
+		modname != "mw_ui_options" && 
+		modname != "mw_ui_mods"){
 			mod_unload(mod_get_names("mod")[i]);
 	} else {
 		i++;
@@ -175,7 +175,7 @@ for(i = 0; i < array_length(mod_get_names("mod")); i=i){
 }
 for(i = 0; i < array_length(mod_get_names("weapon")); i=i){
 	var modname = mod_get_names("weapon")[i];
-	if(modname != "ui_start"){
+	if(modname != "mw_ui_start"){
 		mod_unload(mod_get_names("weapon")[i]);
 	} else {
 		i++;
@@ -532,7 +532,7 @@ if global.debug {
 				}
 				array_push(global.leaderboard, ldb)
 			}
-			if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
+			if mod_exists("mod", "mw_ui") mod_script_call("mod", "mw_ui", "update_scoreboard");
 		}
 	}
 }
@@ -769,7 +769,7 @@ if(fork()){
 		self.index = array_length(global.leaderboard)
 		array_push(global.leaderboard, ldb);
 	}
-	if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
+	if mod_exists("mod", "mw_ui") mod_script_call("mod", "mw_ui", "update_scoreboard");
 	exit;
 }
 
@@ -1558,7 +1558,7 @@ if(global.qualified){
 		}`
 		, "out.txt");
 		global.leaderboard[get_current_mode().index] = [global.DataSubmission];
-		if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
+		if mod_exists("mod", "mw_ui") mod_script_call("mod", "mw_ui", "update_scoreboard");
 	}else{
 		leaderboard = json_decode(leaderboard);
 		var fail = false;
@@ -1589,7 +1589,7 @@ if(global.qualified){
 			}`
 			, "out.txt");
 			global.leaderboard[get_current_mode().index] = leaderboard.scores;
-			if mod_exists("mod", "ui") mod_script_call("mod", "ui", "update_scoreboard");
+			if mod_exists("mod", "mw_ui") mod_script_call("mod", "mw_ui", "update_scoreboard");
 		}else{
 			trace("You've already played this Daily!");
 		}

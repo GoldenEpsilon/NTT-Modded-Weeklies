@@ -188,7 +188,7 @@ load_races()
    
    
 #define game_start
-with instances_matching(Player,"wep","ui_start"){
+with instances_matching(Player,"wep","mw_ui_start"){
 	setplayerwep(index)
 	//event_perform(ev_other,ev_room_end)
 }
@@ -669,7 +669,7 @@ instance_delete(id)
 
 var race = player_get_race(_index)
 var gwep = g_list[| racemap[? race]][2]
-var gcrown = mod_variable_get("mod","ui_crowns","wantcrown")
+var gcrown = mod_variable_get("mod","mw_ui_crowns","wantcrown")
 
 with player_find(_index){
 	wep = g_list[| racemap[? race] ][ gwep ]
