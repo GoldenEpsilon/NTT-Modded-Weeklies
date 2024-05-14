@@ -792,7 +792,7 @@ with Loadout{
 	var yy= game_height-44
 	var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-12,yy-12,xx+12,yy+12)
 	
-	if ((mouse_over and button_check(0,"fire")) or button_check(0,"sout")) and scroll_interval{
+	if ((mouse_over and button_check(0,"fire")) or (button_check(0,"sout") and menu_anim > 0)) and scroll_interval{
 	    //click
 	    sound_play(sndClickBack)
 	    scoreboard_pos[global.current_scoreboard] += 1
@@ -819,6 +819,40 @@ with Loadout{
 
 with Menu
 with Loadout{
+if "menu_hover" not in Menu Menu.menu_hover = 0;
+if !Menu.menu_hover && button_check(0,"nort") and scroll_interval{
+	//click
+	sound_play(sndClickBack)
+	Menu.menu_hover *= -1;
+	if Menu.menu_hover == 0 Menu.menu_hover = 1;
+}
+if Menu.menu_hover && (menu_opened || 
+	array_length(instances_matching(CustomObject,"name","mod_ui_option")) ||
+	array_length(instances_matching(CustomObject,"name","mod_ui_mode_button")) ||
+	array_length(instances_matching(CustomObject,"name","mod_ui_desc"))){
+} else if Menu.menu_hover{
+	if button_check(0,"east") and scroll_interval and Menu.menu_hover < 4{
+		//click
+		sound_play(sndClickBack)
+		Menu.menu_hover++;
+	}
+	if button_check(0,"west") and scroll_interval and Menu.menu_hover > 1{
+		//click
+		sound_play(sndClickBack)
+		Menu.menu_hover--;
+	}
+	if button_check(0,"sout") and scroll_interval {
+		//click
+		sound_play(sndClickBack)
+		Menu.menu_hover *= -1;
+	}
+}
+if Menu.menu_hover {
+	with(CharSelect){
+		noinput = 3;
+	}
+}
+
 if selected menu_opened = false
 //daily button
 if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1{
@@ -842,7 +876,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_daily_button"))<1
             //y = ystart - 210*menu_anim - 64*_loadout
             
             for(var i=0;i<maxp;i++){
-                if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index)){
+                if instance_exists(self) and (Menu.menu_hover == 4 or point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index))){
                     //trace(choose(""," ","  "),"hover")
                     if button_pressed(i,"fire"){
                     	sound_play(menu_opened=true ? sndClickBack:sndClick)
@@ -1398,7 +1432,7 @@ with Loadout{
 	var yy = 36;
 	var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-12,yy-12,xx+12,yy+12)
 	
-	if ((mouse_over and button_check(0,"fire")) or button_check(0,"nort")) and scroll_interval{
+	if ((mouse_over and button_check(0,"fire")) or (button_check(0,"nort") and menu_anim > 0)) and scroll_interval{
 	    //click
 	    sound_play(sndClickBack)
 	    scoreboard_pos[global.current_scoreboard] -=1

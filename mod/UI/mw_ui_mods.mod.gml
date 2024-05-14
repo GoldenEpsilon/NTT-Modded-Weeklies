@@ -42,7 +42,7 @@ if "mods" not in data {
     data = mod_script_call("mod", "ModdedWeeklies", "get_mode_data", "Modded Weekly")
 }
 var i = 0;
-if "name" in data {
+if "name" in data && data.name != false {
     with instance_create(game_width-16,36+i*14,CustomObject){
         name = "mod_ui_desc";
         sprite_index = sprKilledBySplat;
@@ -56,7 +56,7 @@ if "name" in data {
         image_alpha = 0.6;
         xstart = x
         ystart = y
-        text = data.name = false ? "" : data.name
+        text = data.name
         val = "description" in data ? data.description : false
         color = c_white
         if "color" in other {
@@ -243,7 +243,7 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_mods_button"))<1{
             
             
             for(var i=0;i<maxp;i++){
-                if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index)){
+                if instance_exists(self) and (Menu.menu_hover == 2 or point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index))){
                     //trace(choose(""," ","  "),"hover")
                     if button_pressed(i,"fire"){
                         if _loadout 

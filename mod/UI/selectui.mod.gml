@@ -17,8 +17,8 @@ if(array_length(instances_matching(CustomObject, "name", "mod_ui_mode_button")) 
 }
 var modedata = mod_variable_get("mod", "ModdedWeeklies", "data");
 if(array_length(modedata) == 0) {
-    trace("No valid dailies/weeklies available!")
-    trace("Are you offline?")
+    trace("Still loading dailies/weeklies")
+    trace("Please wait!")
 }
 for(var i = 0; i < array_length(modedata); i++) {
 	with instance_create(game_width/2 - ((array_length(modedata)/2 - i) * 72),game_height/2-48,CustomObject){
@@ -132,16 +132,9 @@ if array_length(instances_matching(CustomObject,"name","mod_ui_mode_swap_button"
             var hover = 0;
             
             for(var i=0;i<maxp;i++){
-                if instance_exists(self) and point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index)){
+                if instance_exists(self) and (Menu.menu_hover == 3 or point_in_rectangle(mouse_x[i],mouse_y[i],view_xview[i]+x,view_yview[i]+y,view_xview[i]+x+sprite_get_width(sprite_index),view_yview[i]+y+sprite_get_height(sprite_index))){
                     //trace(choose(""," ","  "),"hover")
-					var caninput = true;
-					with(CharSelect) {
-						if noinput > 0 {
-							caninput = false;
-							break;
-						}
-					}
-                    if button_pressed(i,"fire") && caninput{
+                    if button_pressed(i,"fire"){
                         //exit;
                         toggleModeSelectionButtons();
                     }
