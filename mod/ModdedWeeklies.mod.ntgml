@@ -1436,7 +1436,7 @@ return global.options
 if(fork()){
 	file_delete("options.json")
 	while(file_exists("options.json")){wait(1)}
-	string_save(json_encode(global.options), "options.json")
+	string_save(json_encode(global.options, "    "), "options.json")
 }
 
 #define chat_command
@@ -1554,7 +1554,7 @@ if(global.qualified){
 		, "PUT", headers,
 		`{
 		"message":"Leaderboard Update (New leaderboard!) (` + global.DataSubmission.name + `)",
-		"content":"`+base64(json_encode({scores: [global.DataSubmission]}))+`"
+		"content":"`+base64(json_encode({scores: [global.DataSubmission]}, "    "))+`"
 		}`
 		, "out.txt");
 		global.leaderboard[get_current_mode().index] = [global.DataSubmission];
@@ -1584,7 +1584,7 @@ if(global.qualified){
 			, "PUT", headers,
 			`{
 			"message":"Leaderboard Update (` + global.DataSubmission.name + `)",
-			"content":"`+base64(json_encode(leaderboard))+`",
+			"content":"`+base64(json_encode(leaderboard, "    "))+`",
 			"sha":"`+sha+`"
 			}`
 			, "out.txt");
