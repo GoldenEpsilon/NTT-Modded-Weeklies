@@ -4417,6 +4417,59 @@
             "crown": false,
             "area": 107,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 70,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                25,
+                9,
+                8,
+                1,
+                "Staked Chest",
+                "Double Vision",
+                4,
+                5
+            ],
+            "time": 2443,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": "SuperClusterCannon",
+            "wep": 105,
+            "killed_by": -1,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
