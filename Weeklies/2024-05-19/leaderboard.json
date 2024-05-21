@@ -5228,6 +5228,59 @@
             "crown": 7,
             "area": 1,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 831,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Double Vision",
+                "Compressing Fist",
+                21,
+                "Garment Regenerator",
+                "Sadism",
+                "Duplicators",
+                "Thick Head",
+                "Staked Chest"
+            ],
+            "time": 13321,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": "SeekerBundle",
+            "wep": "SeekerBundle",
+            "killed_by": 24,
+            "hard": 25,
+            "loop": 1,
+            "crown": 7,
+            "area": 5,
+            "skin": 0
         }
     ]
 }
