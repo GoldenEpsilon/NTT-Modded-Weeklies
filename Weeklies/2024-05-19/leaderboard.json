@@ -1,64 +1,6553 @@
 {
     "scores": [
         {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 15.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 210,
+            "subarea": 3,
+            "ultras": [
+                [
+                    3,
+                    2
+                ]
+            ],
+            "mutations": [
+                17,
+                "Steel Nerves",
+                7,
+                8,
+                27,
+                25,
+                3,
+                13,
+                11
+            ],
+            "time": 6258.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "Torch_of_Distress",
+            "loadout": [
+                {
+                    "alias": "Torch_of_Distress",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708,
+                    "race": 3,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 0,
+            "bwep": "va_amr",
+            "wep": 13,
+            "loop": 1,
+            "hard": 17,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Torch_of_Distress",
+                    "wep": 13,
+                    "bwep": "va_amr",
+                    "color": 16736708,
+                    "race": 3,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
             "kills": 677,
-            "hard": 26
+            "subarea": 3,
+            "ultras": [
+                [
+                    3,
+                    2
+                ]
+            ],
+            "mutations": [
+                3,
+                "Muscle Memory",
+                13,
+                23,
+                7,
+                "Feed Forward Network",
+                "Thick Head",
+                14
+            ],
+            "time": 16431.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 36,
+            "bwep": "EnergyShovel",
+            "wep": "EnergySword",
+            "loop": 1,
+            "hard": 26,
+            "crown": 10,
+            "color": 16431718,
+            "area": 5,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": "EnergyShovel",
+                    "wep": "EnergySword",
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
         },
         {
-            "kills": 581,
-            "hard": 23
+            "kills": 280,
+            "subarea": 3,
+            "ultras": [
+                [
+                    3,
+                    2
+                ]
+            ],
+            "mutations": [
+                1,
+                13,
+                "Muscle Memory",
+                5,
+                "condensedmeat",
+                12,
+                "Compressing Fist",
+                11
+            ],
+            "time": 7458,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 94,
+            "bwep": "va_martial_war_axe",
+            "wep": "va_martial_longsword",
+            "loop": 1,
+            "hard": 18,
+            "crown": 13,
+            "color": 16431718,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": "va_martial_longsword",
+                    "bwep": "va_martial_war_axe",
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
         },
         {
-            "kills": 782,
-            "hard": 24
-        },
-        {
-            "kills": 926,
-            "hard": 30
-        },
-        {
-            "kills": 150,
-            "hard": 16
-        },
-        {
-            "kills": 139,
-            "hard": 16
-        },
-        {
-            "kills": 821,
-            "hard": 24
-        },
-        {
-            "kills": 16,
-            "hard": 15
-        },
-        {
-            "kills": 88,
-            "hard": 15
-        },
-        {
-            "kills": 2219,
-            "hard": 50
+            "kills": 146,
+            "subarea": 2,
+            "ultras": [
+                [
+                    3,
+                    2
+                ]
+            ],
+            "mutations": [
+                "Feed Forward Network",
+                13,
+                7,
+                4,
+                18,
+                "Steel Nerves",
+                "condensedmeat",
+                23
+            ],
+            "time": 4998.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 14,
+            "bwep": "va_martial_war_hammer",
+            "wep": "va_martial_shortsword",
+            "loop": 1,
+            "hard": 16,
+            "crown": false,
+            "color": 16431718,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": "va_martial_war_hammer",
+                    "wep": "va_martial_shortsword",
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
         },
         {
             "kills": 0,
-            "hard": 15
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 14.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 10.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 12.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 625,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 66,
+            "bwep": "va_martial_shortsword",
+            "wep": "va_martial_longsword",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 5.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 2.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 14.5,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 608,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                5,
+                "Sadism",
+                "Compressing Fist",
+                "Energized Intestines",
+                21,
+                14,
+                11,
+                "Thick Head"
+            ],
+            "time": 10492,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 59,
+            "bwep": "va_archmagus_bolt_caster",
+            "wep": "va_fumigator",
+            "loop": 1,
+            "hard": 21,
+            "crown": 1,
+            "color": 16736708,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_fumigator",
+                    "bwep": "va_archmagus_bolt_caster",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 391,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Double Vision",
+                8,
+                "Compressing Fist",
+                20,
+                "Duplicators",
+                5,
+                "Sadism",
+                28
+            ],
+            "time": 7855,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "SeekerBundle",
+            "wep": "va_breaker_cannon",
+            "loop": 1,
+            "hard": 19,
+            "crown": 1,
+            "color": 16736708,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": "SeekerBundle",
+                    "wep": "va_breaker_cannon",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 236,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 66,
+            "bwep": 1,
+            "wep": "va_arcsinusoid_cannon",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_arcsinusoid_cannon",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 363,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 66,
+            "bwep": 1,
+            "wep": "va_super_flechette_flak",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "va_super_flechette_flak",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 581,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                20,
+                1,
+                21,
+                8,
+                14,
+                25,
+                "Confidence",
+                "Thick Head",
+                9
+            ],
+            "time": 11437,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 92,
+            "bwep": "va_masterton",
+            "wep": "va_auto_marksman_rifle",
+            "loop": 1,
+            "hard": 23,
+            "crown": 1,
+            "color": 16736708,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_auto_marksman_rifle",
+                    "bwep": "va_masterton",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 410,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                8,
+                "excitedneurons",
+                14,
+                11,
+                10,
+                7,
+                16,
+                25,
+                1
+            ],
+            "time": 7083,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 95,
+            "bwep": "va_double_toil",
+            "wep": "doubleminigun",
+            "loop": 1,
+            "hard": 19,
+            "crown": 1,
+            "color": 16736708,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": "va_double_toil",
+                    "wep": "doubleminigun",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 782,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                14,
+                5,
+                "Staked Chest",
+                27,
+                "condensedmeat",
+                "compoundelbow",
+                22,
+                "Compressing Fist"
+            ],
+            "time": 13465,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 58,
+            "bwep": 105,
+            "wep": "hyperrifle",
+            "loop": 1,
+            "hard": 24,
+            "crown": false,
+            "color": 16736708,
+            "area": 5,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "hyperrifle",
+                    "bwep": 105,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 520,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 314,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Sadism",
+                11,
+                8,
+                1,
+                4,
+                "Double Vision",
+                21,
+                "Energized Intestines"
+            ],
+            "time": 4641,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 94,
+            "bwep": 105,
+            "wep": 12,
+            "loop": 1,
+            "hard": 18,
+            "crown": false,
+            "color": 16736708,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 747,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 66,
+            "bwep": 1,
+            "wep": "va_gatling_digsaw_launcher",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 510,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": "va_auto_marksman_rifle",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 415,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 586,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 507,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 584,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": "Spreader",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 47,
+            "subarea": 1,
+            "ultras": [
+                [
+                    3,
+                    2
+                ]
+            ],
+            "mutations": [
+                "luckyshot",
+                5,
+                "Muscle Memory",
+                23,
+                4,
+                22,
+                18,
+                27
+            ],
+            "time": 3399,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 0,
+            "bwep": "va_martial_war_axe",
+            "wep": "va_problem_solver",
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 16431718,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": "va_martial_war_axe",
+                    "wep": "va_problem_solver",
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                10,
+                "Staked Chest",
+                25,
+                "Fractured Fingers",
+                "Duplicators",
+                "Scrap Arms",
+                "Thick Head",
+                "Garment Regenerator"
+            ],
+            "time": 1538,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 12,
+            "wep": 63,
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 198,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Double Vision",
+                21,
+                "Energized Intestines",
+                23,
+                10,
+                5,
+                25,
+                "Steel Nerves",
+                "Scrap Arms"
+            ],
+            "time": 3153,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 51,
+            "bwep": "PikeSplinterGun",
+            "wep": 63,
+            "loop": 1,
+            "hard": 16,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 602,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 105,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 436,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 926,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "compoundelbow",
+                21,
+                "sharpteeth",
+                5,
+                "Steel Nerves",
+                28,
+                11,
+                20
+            ],
+            "time": 16497,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 34,
+            "bwep": 12,
+            "wep": "va_pummeler",
+            "loop": 1,
+            "hard": 30,
+            "crown": 1,
+            "color": 16736708,
+            "area": 7,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 783,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": "va_duster_flak",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 478,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 321,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 220,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Duplicators",
+                "Garment Regenerator",
+                "Staked Chest",
+                "Dynamic Calves",
+                "Compressing Fist",
+                "condensedmeat",
+                21,
+                "sharpteeth"
+            ],
+            "time": 3322,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 12,
+            "wep": 11,
+            "loop": 1,
+            "hard": 16,
+            "crown": false,
+            "color": 16736708,
+            "area": 100,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 142,
+            "subarea": 1,
+            "ultras": [
+                [
+                    14,
+                    2
+                ]
+            ],
+            "mutations": [
+                25,
+                22,
+                "Rocket Casings",
+                1,
+                27,
+                11,
+                "condensedmeat",
+                3
+            ],
+            "time": 2815,
+            "pizzas": 0,
+            "race": 14,
+            "name": "A. Johnes",
+            "loadout": [
+                {
+                    "alias": "A. Johnes",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 4662551,
+                    "race": 14,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 90,
+            "bwep": "EnergyShovel",
+            "wep": 35,
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 4662551,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "A. Johnes",
+                    "bwep": "EnergyShovel",
+                    "wep": 35,
+                    "color": 4662551,
+                    "race": 14,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 445,
+            "pizzas": 0,
+            "race": 14,
+            "name": "A. Johnes",
+            "loadout": [
+                {
+                    "alias": "A. Johnes",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 4662551,
+                    "race": 14,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 56,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 4662551,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "A. Johnes",
+                    "wep": 56,
+                    "bwep": 0,
+                    "color": 4662551,
+                    "race": 14,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 81,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Duplicators",
+                "Compressing Fist",
+                "Double Vision",
+                "Scrap Arms",
+                9,
+                "Fractured Fingers",
+                14,
+                21
+            ],
+            "time": 2143,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "SeekerBundle",
+            "wep": 11,
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 329,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 381,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 95,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                28,
+                "Energized Intestines",
+                11,
+                "Sadism",
+                5,
+                "Confidence",
+                "Compressing Fist",
+                12
+            ],
+            "time": 2131,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 11,
+            "wep": 11,
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 126,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "compoundelbow",
+                "Waste Gland",
+                "Energized Intestines",
+                21,
+                11,
+                "Compressing Fist",
+                "Double Vision",
+                "Confidence"
+            ],
+            "time": 3481,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 12,
+            "wep": "va_gluon_sprayer",
+            "loop": 1,
+            "hard": 17,
+            "crown": false,
+            "color": 16736708,
+            "area": 100,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 942,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": "va_sinusoid_minigun",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 592,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 12,
+            "wep": "va_auto_flechette_shotgun",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 818,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 67,
+            "bwep": 1,
+            "wep": "SuperClusterCannon",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 379,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 890,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": "va_basilisk",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 420,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 668,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 66,
+            "bwep": 1,
+            "wep": "va_super_magnum",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 358,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 471,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 515,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 435,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 265,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "excitedneurons",
+                "condensedmeat",
+                "compoundelbow",
+                25,
+                14,
+                9,
+                10,
+                "Rocket Casings",
+                "Waste Gland"
+            ],
+            "time": 5094,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 6,
+            "bwep": 12,
+            "wep": "doubleminigun",
+            "loop": 1,
+            "hard": 18,
+            "crown": 1,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 530,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": "va_pummeler",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 425,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 387,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Garment Regenerator",
+                9,
+                "compoundelbow",
+                "Energized Intestines",
+                8,
+                "Waste Gland",
+                "Double Vision",
+                11
+            ],
+            "time": 4322,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 6,
+            "bwep": 105,
+            "wep": 11,
+            "loop": 1,
+            "hard": 18,
+            "crown": 7,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 96,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Rocket Casings",
+                1,
+                11,
+                "Steel Nerves",
+                "Fractured Fingers",
+                "Scrap Arms",
+                28,
+                "Double Vision"
+            ],
+            "time": 2098,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 94,
+            "bwep": "va_heavy_breach_cannon",
+            "wep": "doubleminigun",
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 322,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 234,
+            "subarea": 2,
+            "ultras": [ ],
+            "mutations": [
+                7,
+                4
+            ],
+            "time": 6118,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 94,
+            "bwep": "EnergySword",
+            "wep": 11,
+            "hard": 16,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 100,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": "EnergySword",
+                    "wep": 11,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 100,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 2959,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 52,
+            "bwep": "AutoSuperShotgun",
+            "wep": 74,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": "AutoSuperShotgun",
+                    "wep": 74,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 82,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 2866,
+            "pizzas": 0,
+            "race": 1,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 91,
+            "bwep": "DiscoBallGun",
+            "wep": 115,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": "DiscoBallGun",
+                    "wep": 115,
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 19,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1723,
+            "pizzas": 0,
+            "race": 1,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 84,
+            "bwep": "va_automagic_bolt_caster",
+            "wep": 115,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": "va_automagic_bolt_caster",
+                    "wep": 115,
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 150,
+            "subarea": 2,
+            "ultras": [
+                [
+                    1,
+                    2
+                ]
+            ],
+            "mutations": [
+                27,
+                23,
+                "Fractured Fingers",
+                7,
+                25,
+                16,
+                13,
+                4,
+                "Scrap Arms"
+            ],
+            "time": 5756,
+            "pizzas": 0,
+            "race": 1,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "va_hoagie",
+            "wep": "va_double_toil",
+            "hard": 16,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 139,
+            "subarea": 2,
+            "ultras": [
+                [
+                    1,
+                    2
+                ]
+            ],
+            "mutations": [
+                10,
+                15,
+                7,
+                13,
+                "luckyshot",
+                "Thick Head",
+                8,
+                20
+            ],
+            "time": 4252,
+            "pizzas": 0,
+            "race": 1,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 94,
+            "bwep": 115,
+            "wep": 22,
+            "hard": 16,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 821,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                8,
+                17,
+                14,
+                "Sadism",
+                5,
+                7,
+                "Feed Forward Network",
+                1
+            ],
+            "time": 16299,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 21,
+            "bwep": "va_gluon_cleaver",
+            "wep": "EnergyShovel",
+            "hard": 24,
+            "loop": 1,
+            "crown": 7,
+            "color": 16736708,
+            "area": 4,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 250,
+            "subarea": 3,
+            "ultras": [
+                [
+                    10,
+                    2
+                ]
+            ],
+            "mutations": [
+                22,
+                3,
+                9,
+                17,
+                "Steel Nerves",
+                "Generative Adversarial Network",
+                "Thick Head",
+                1
+            ],
+            "time": 7246,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 4,
+            "bwep": "va_martial_longsword",
+            "wep": "doubleminigun",
+            "hard": 17,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 342,
+            "subarea": 2,
+            "ultras": [
+                [
+                    10,
+                    2
+                ]
+            ],
+            "mutations": [
+                22,
+                "Staked Chest",
+                10,
+                "Duplicators",
+                1,
+                "Sadism",
+                "compoundelbow",
+                "Steel Nerves"
+            ],
+            "time": 4670,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "EnergySword",
+            "wep": "va_archmagus_bolt_caster",
+            "hard": 16,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 100,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 4101,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "va_hyper_sniper",
+            "wep": 11,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 69,
+            "subarea": 1,
+            "ultras": [
+                [
+                    10,
+                    1
+                ]
+            ],
+            "mutations": [
+                21,
+                "Echo State Network",
+                "Garment Regenerator",
+                4,
+                13,
+                "Sadism",
+                17,
+                "Thick Head"
+            ],
+            "time": 5595,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 84,
+            "bwep": 105,
+            "wep": 74,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 335,
+            "subarea": 1,
+            "ultras": [
+                [
+                    10,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Muscle Memory",
+                13,
+                21,
+                1,
+                23,
+                8,
+                5,
+                "Feed Forward Network"
+            ],
+            "time": 7352,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 94,
+            "bwep": "va_archmagus_bolt_caster",
+            "wep": "EnergyShovel",
+            "hard": 18,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 340,
+            "subarea": 3,
+            "ultras": [
+                [
+                    10,
+                    1
+                ]
+            ],
+            "mutations": [
+                23,
+                "Shocked Skin",
+                "Muscle Memory",
+                7,
+                27,
+                8,
+                15,
+                21
+            ],
+            "time": 7246,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 117,
+            "wep": 10,
+            "hard": 18,
+            "loop": 1,
+            "crown": 1,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 226,
+            "subarea": 3,
+            "ultras": [ ],
+            "mutations": [
+                13,
+                17,
+                3,
+                "compoundelbow"
+            ],
+            "time": 4410,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 1,
+            "bwep": "EnergySword",
+            "wep": 11,
+            "hard": 17,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 10,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 34,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 21,
+            "pizzas": 1,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 46,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 27,
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 1,
+                    "bwep": 0,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 19.5,
+            "pizzas": 1,
+            "race": 3,
+            "name": "UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 16431718,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16431718,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 515,
+            "subarea": 1,
+            "ultras": [
+                [
+                    1,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Double Vision",
+                7,
+                21,
+                "compoundelbow",
+                4,
+                11,
+                5,
+                "Shattered Skull"
+            ],
+            "time": 9180,
+            "pizzas": 0,
+            "race": 1,
+            "name": "blaac",
+            "loadout": [
+                {
+                    "alias": "blaac",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 255,
+                    "race": 1,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 94,
+            "bwep": "SeekerBundle",
+            "wep": "va_super_flechette_flak",
+            "hard": 19,
+            "loop": 1,
+            "crown": 7,
+            "color": 255,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "blaac",
+                    "wep": "va_super_flechette_flak",
+                    "bwep": "SeekerBundle",
+                    "color": 255,
+                    "race": 1,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 95.5,
+            "pizzas": 0,
+            "race": 1,
+            "name": "blaac",
+            "loadout": [
+                {
+                    "alias": "blaac",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 255,
+                    "race": 1,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 1,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "color": 255,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "blaac",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 255,
+                    "race": 1,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 59,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1988,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 4,
+            "bwep": "va_pummeler",
+            "wep": "va_martial_war_hammer",
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 5862689,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": "va_pummeler",
+                    "wep": "va_martial_war_hammer",
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 277,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 16,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1341,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 84,
+            "bwep": "va_auto_marksman_rifle",
+            "wep": "va_sinusaber",
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 5862689,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 370,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 386,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "va_gluon_sprayer",
+            "wep": 39,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 88,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1403,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 89,
+            "bwep": "va_pummeler",
+            "wep": "EnergyShovel",
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 5862689,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 466,
+            "subarea": 3,
+            "ultras": [
+                [
+                    2,
+                    1
+                ]
+            ],
+            "mutations": [
+                23,
+                27,
+                "Muscle Memory",
+                1,
+                4,
+                7,
+                "Compressing Fist",
+                11
+            ],
+            "time": 17786,
+            "pizzas": 0,
+            "race": 2,
+            "name": "Golden Epsilon",
+            "loadout": [
+                {
+                    "alias": "Golden Epsilon",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5623039,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 17,
+            "bwep": "CombatHeavySlugger",
+            "wep": "va_martial_hand_axe",
+            "loop": 1,
+            "hard": 22,
+            "crown": 1,
+            "color": 5623039,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Golden Epsilon",
+                    "wep": "va_martial_hand_axe",
+                    "bwep": "CombatHeavySlugger",
+                    "color": 5623039,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 348,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Steel Nerves",
+                21,
+                "Garment Regenerator",
+                8,
+                7,
+                "Energized Intestines",
+                5,
+                "compoundelbow"
+            ],
+            "time": 5519,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 59,
+            "bwep": 112,
+            "wep": 112,
+            "loop": 1,
+            "hard": 19,
+            "crown": 1,
+            "color": 16736708,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 112,
+                    "bwep": 112,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 300,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                21,
+                23,
+                11,
+                26,
+                "Sadism",
+                "Confidence",
+                "Compressing Fist",
+                "Thick Head"
+            ],
+            "time": 5528,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 13,
+            "bwep": 12,
+            "wep": 63,
+            "loop": 1,
+            "hard": 19,
+            "crown": 1,
+            "color": 16736708,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 12,
+                    "wep": 63,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 685,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                10,
+                21,
+                "Steel Nerves",
+                "Energized Intestines",
+                "Duplicators",
+                "Sadism",
+                23,
+                "Waste Gland"
+            ],
+            "time": 11241,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 89,
+            "bwep": "PikeSplinterGun",
+            "wep": 11,
+            "loop": 1,
+            "hard": 24,
+            "crown": 1,
+            "color": 16736708,
+            "area": 5,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 11,
+                    "bwep": "PikeSplinterGun",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 551,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 113,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 552,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Compressing Fist",
+                "compoundelbow",
+                23,
+                "Double Vision",
+                1,
+                "Sloppy Fingers",
+                28,
+                10
+            ],
+            "time": 10487,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 29,
+            "bwep": 12,
+            "wep": 63,
+            "loop": 1,
+            "hard": 24,
+            "crown": 1,
+            "color": 16736708,
+            "area": 4,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 12,
+                    "wep": 63,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 760,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": "va_double_toil",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 778,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 499,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1467,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 105,
+            "wep": 54,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 70,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                25,
+                9,
+                8,
+                1,
+                "Staked Chest",
+                "Double Vision",
+                4,
+                5
+            ],
+            "time": 2443,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "SuperClusterCannon",
+            "wep": 105,
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 2219,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                25,
+                5,
+                11,
+                21,
+                "Duplicators",
+                "Thick Head",
+                "Steel Nerves",
+                "Staked Chest",
+                8
+            ],
+            "time": 30383,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 103,
+            "bwep": "va_archmagus_bolt_caster",
+            "wep": "va_archmagus_bolt_caster",
+            "loop": 3,
+            "hard": 50,
+            "crown": 1,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 571,
+            "subarea": 1,
+            "ultras": [
+                [
+                    1,
+                    2
+                ]
+            ],
+            "mutations": [
+                20,
+                23,
+                25,
+                7,
+                4,
+                17,
+                "Fractured Fingers",
+                "Filtering Teeth",
+                "Alchemic Stomach"
+            ],
+            "time": 7930,
+            "pizzas": 0,
+            "race": 1,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 15,
+            "bwep": 111,
+            "wep": 115,
+            "loop": 1,
+            "hard": 20,
+            "crown": 7,
+            "color": 16736708,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 81,
+                    "color": 16736708,
+                    "race": 12,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 437,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Double Vision",
+                "condensedmeat",
+                "Recurrent Neural Network",
+                28,
+                5,
+                "Compressing Fist",
+                10,
+                "excitedneurons"
+            ],
+            "time": 7451,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 45,
+            "bwep": "DiscoBallGun",
+            "wep": "va_pummeler",
+            "loop": 1,
+            "hard": 19,
+            "crown": 7,
+            "color": 16736708,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 148,
+            "subarea": 2,
+            "ultras": [
+                [
+                    12,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Alchemic Stomach",
+                8,
+                "Fractured Fingers",
+                "excitedneurons",
+                4,
+                7,
+                "Generative Adversarial Network",
+                27
+            ],
+            "time": 4970,
+            "pizzas": 0,
+            "race": 12,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 81,
+                    "color": 16736708,
+                    "race": 12,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "va_arcsinusoid_cannon",
+            "wep": "minigun",
+            "loop": 1,
+            "hard": 16,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 81,
+                    "color": 16736708,
+                    "race": 12,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 253,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                14,
+                "Garment Regenerator",
+                23,
+                21,
+                22,
+                "Filtering Teeth",
+                5,
+                "Duplicators"
+            ],
+            "time": 4459,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 92,
+            "bwep": "va_smartsaw_launcher",
+            "wep": "va_smartsaw_launcher",
+            "loop": 1,
+            "hard": 18,
+            "crown": 7,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 783,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                10,
+                3,
+                "Double Vision",
+                "condensedmeat",
+                "compoundelbow",
+                23,
+                "Sadism",
+                "Energized Intestines"
+            ],
+            "time": 8393,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 94,
+            "bwep": 12,
+            "wep": 12,
+            "loop": 1,
+            "hard": 21,
+            "crown": 7,
+            "color": 16736708,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 3,
+            "pizzas": 0,
+            "race": 12,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 81,
+                    "color": 16736708,
+                    "race": 12,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 81,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 81,
+                    "color": 16736708,
+                    "race": 12,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 785,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                8,
+                20,
+                25,
+                21,
+                "Energized Intestines",
+                22,
+                11,
+                "Compressing Fist",
+                1
+            ],
+            "time": 10914,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 98,
+            "bwep": 11,
+            "wep": 11,
+            "loop": 1,
+            "hard": 25,
+            "crown": 7,
+            "color": 16736708,
+            "area": 5,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 100,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1971,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "va_mass_driver",
+            "wep": "va_bigsaw_launcher",
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 446,
+            "subarea": 1,
+            "ultras": [
+                [
+                    12,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Fractured Fingers",
+                14,
+                27,
+                7,
+                "Shattered Skull",
+                25,
+                "powderedgums",
+                5,
+                "Shocked Skin"
+            ],
+            "time": 10813,
+            "pizzas": 0,
+            "race": 12,
+            "name": "Maggie",
+            "loadout": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 81,
+                    "color": 16736708,
+                    "race": 12,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 53,
+            "bwep": 10,
+            "wep": 105,
+            "loop": 1,
+            "hard": 19,
+            "crown": false,
+            "color": 16736708,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "bwep": 0,
+                    "wep": 81,
+                    "color": 16736708,
+                    "race": 12,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 697,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Staked Chest",
+                "Double Vision",
+                21,
+                19,
+                "Sadism",
+                "Steel Nerves",
+                25,
+                "luckyshot",
+                "Generative Adversarial Network"
+            ],
+            "time": 8593,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 17,
+            "bwep": "DiscoBallGun",
+            "wep": 11,
+            "loop": 1,
+            "hard": 20,
+            "crown": 7,
+            "color": 16736708,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 258,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                8,
+                "compoundelbow",
+                20,
+                "Garment Regenerator",
+                10,
+                4,
+                "Thick Head",
+                14
+            ],
+            "time": 4709,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 6,
+            "bwep": "SeekerBundle",
+            "wep": 112,
+            "loop": 1,
+            "hard": 17,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 629,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Confidence",
+                15,
+                1,
+                "Shocked Skin",
+                11,
+                "Shattered Skull",
+                4,
+                5
+            ],
+            "time": 6771,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 15,
+            "bwep": "AutoSuperShotgun",
+            "wep": 10,
+            "loop": 1,
+            "hard": 20,
+            "crown": 7,
+            "color": 16736708,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 290,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                9,
+                "Waste Gland",
+                "Double Vision",
+                "excitedneurons",
+                20,
+                11,
+                5,
+                8
+            ],
+            "time": 3925,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 0,
+            "bwep": "doubleminigun",
+            "wep": "minigun",
+            "loop": 1,
+            "hard": 18,
+            "crown": 7,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 831,
+            "subarea": 2,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Double Vision",
+                "Compressing Fist",
+                21,
+                "Garment Regenerator",
+                "Sadism",
+                "Duplicators",
+                "Thick Head",
+                "Staked Chest"
+            ],
+            "time": 13321,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 24,
+            "bwep": "SeekerBundle",
+            "wep": "SeekerBundle",
+            "loop": 1,
+            "hard": 25,
+            "crown": 7,
+            "color": 16736708,
+            "area": 5,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 650,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Compressing Fist",
+                20,
+                28,
+                "excitedneurons",
+                11,
+                4,
+                "Confidence",
+                1
+            ],
+            "time": 6533,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 58,
+            "bwep": "doubleminigun",
+            "wep": "va_masterton",
+            "loop": 1,
+            "hard": 19,
+            "crown": 7,
+            "color": 16736708,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 20,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1921,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 17,
+            "bwep": 97,
+            "wep": 118,
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 2,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 1,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 532,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": [
+                null,
+                "HEAVY BREACH GRENADE"
+            ],
+            "bwep": 1,
+            "wep": "va_heavy_breach_cannon",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 16736708,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 555,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 39,
+            "wep": "va_magus_bolt_caster",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 766,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 39,
+            "wep": "va_hoagie",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 4,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1027,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 39,
+            "wep": "va_sinusaber",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 999,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "va_gluon_sprayer",
+            "wep": "va_double_trouble",
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 5862689,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "va_double_trouble",
+                    "bwep": "va_gluon_sprayer",
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
         },
         {
             "kills": 161,
-            "hard": 17
+            "subarea": 2,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Rocket Casings",
+                16,
+                4,
+                "Sloppy Fingers",
+                "Sadism",
+                "Compressing Fist",
+                27,
+                1
+            ],
+            "time": 4022,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "va_gluon_cleaver",
+            "wep": "va_double_trouble",
+            "loop": 1,
+            "hard": 17,
+            "crown": false,
+            "color": 5862689,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": "va_gluon_cleaver",
+                    "wep": "va_double_trouble",
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 635,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 5862689,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": "va_super_magnum",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 1,
+                    "bwep": 1,
+                    "color": 5862689,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 354,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 5862689,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 67,
+            "bwep": 1,
+            "wep": "va_double_trouble",
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 1,
+                    "wep": 1,
+                    "color": 5862689,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
         },
         {
             "kills": 2099,
-            "hard": 40
+            "subarea": 1,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Sloppy Fingers",
+                "Steel Nerves",
+                13,
+                7,
+                27,
+                11,
+                22,
+                "condensedmeat"
+            ],
+            "time": 30865.068200000758225,
+            "pizzas": 2,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 94,
+            "bwep": "va_gluon_cleaver",
+            "wep": "va_vorpal_war_hammer",
+            "loop": 2,
+            "hard": 40,
+            "crown": 7,
+            "color": 5862689,
+            "area": 102,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "va_vorpal_war_hammer",
+                    "bwep": "va_gluon_cleaver",
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "skin": 1
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 23,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 25,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 15,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 6,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "loop": 1,
+            "hard": 14,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 656,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "loop": 1,
+            "hard": 15,
+            "crown": false,
+            "color": 5862689,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
         },
         {
             "kills": 1313,
-            "hard": 27
+            "subarea": 3,
+            "ultras": [
+                [
+                    2,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Muscle Memory",
+                13,
+                "Compressing Fist",
+                11,
+                27,
+                23,
+                7,
+                14
+            ],
+            "time": 31446.012400000137859,
+            "pizzas": 0,
+            "race": 2,
+            "name": "Golden Epsilon",
+            "loadout": [
+                {
+                    "alias": "Golden Epsilon",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5623039,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 98,
+            "bwep": 92,
+            "wep": "va_vorpal_shortsword",
+            "loop": 1,
+            "hard": 27,
+            "crown": 7,
+            "color": 5623039,
+            "area": 5,
+            "allies": [
+                {
+                    "alias": "Golden Epsilon",
+                    "bwep": 92,
+                    "wep": "va_vorpal_shortsword",
+                    "color": 5623039,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 16,
+            "pizzas": 1,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 17,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 14,
+            "pizzas": 1,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 22,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 12,
+            "pizzas": 1,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": 39,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 8,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "hard": 14,
+            "loop": 1,
+            "crown": false,
+            "color": 5862689,
+            "area": 107,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": 39,
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 355,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                5,
+                7,
+                "Duplicators"
+            ],
+            "time": 11408,
+            "pizzas": 0,
+            "race": 5,
+            "name": "Dibble",
+            "loadout": [
+                {
+                    "alias": "Dibble",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 5,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 58,
+            "bwep": "va_gluon_sprayer",
+            "wep": "va_smartsaw_launcher",
+            "hard": 18,
+            "loop": 1,
+            "crown": 9,
+            "color": 9532927,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Dibble",
+                    "wep": "va_smartsaw_launcher",
+                    "bwep": "va_gluon_sprayer",
+                    "race": 5,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 17,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [ ],
+            "time": 2630,
+            "pizzas": 0,
+            "race": 5,
+            "name": "Dibble",
+            "loadout": [
+                {
+                    "alias": "Dibble",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 5,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 0,
+            "bwep": "va_bigsaw_launcher",
+            "wep": "va_caster_hexblade",
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "color": 9532927,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Dibble",
+                    "bwep": "va_bigsaw_launcher",
+                    "wep": "va_caster_hexblade",
+                    "race": 5,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
         },
         {
             "kills": 411,
-            "hard": 19
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                7,
+                "Double Vision",
+                10,
+                "Duplicators",
+                "Dynamic Calves"
+            ],
+            "time": 12719,
+            "pizzas": 0,
+            "race": 5,
+            "name": "Dibble",
+            "loadout": [
+                {
+                    "alias": "Dibble",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 5,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 94,
+            "bwep": "va_automagic_bolt_caster",
+            "wep": "va_gluon_sprayer",
+            "hard": 19,
+            "loop": 1,
+            "crown": 9,
+            "color": 9532927,
+            "area": 2,
+            "allies": [
+                {
+                    "alias": "Dibble",
+                    "wep": "va_gluon_sprayer",
+                    "bwep": "va_automagic_bolt_caster",
+                    "race": 5,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 158,
+            "ultras": [
+                [
+                    7,
+                    2
+                ]
+            ],
+            "subarea": 2,
+            "mutations": [
+                4,
+                "Alchemic Stomach",
+                11,
+                "Compressing Fist",
+                "Confidence",
+                "Sadism",
+                "Sloppy Fingers",
+                27
+            ],
+            "time": 8644,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Golden Epsilon",
+            "loadout": [
+                {
+                    "alias": "Golden Epsilon",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": "va_archmagus_bolt_caster",
+            "wep": "va_gluon_rifle",
+            "hard": 16,
+            "loop": 1,
+            "crown": false,
+            "color": 5623039,
+            "area": 1,
+            "allies": [
+                {
+                    "alias": "Golden Epsilon",
+                    "bwep": "va_archmagus_bolt_caster",
+                    "wep": "va_gluon_rifle",
+                    "race": 7,
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
+        },
+        {
+            "kills": 617,
+            "ultras": [
+                [
+                    10,
+                    2
+                ]
+            ],
+            "subarea": 3,
+            "mutations": [
+                5,
+                "Alchemic Stomach",
+                "Compressing Fist",
+                4,
+                27,
+                "Sadism",
+                1,
+                "Garment Regenerator"
+            ],
+            "time": 14490,
+            "pizzas": 0,
+            "race": 10,
+            "name": "Golden Epsilon",
+            "loadout": [
+                {
+                    "alias": "Golden Epsilon",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 10,
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 94,
+            "bwep": "doubleminigun",
+            "wep": 107,
+            "hard": 23,
+            "loop": 1,
+            "crown": 1,
+            "color": 5623039,
+            "area": 3,
+            "allies": [
+                {
+                    "alias": "Golden Epsilon",
+                    "wep": 107,
+                    "bwep": "doubleminigun",
+                    "race": 10,
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "skin": 0
         }
     ]
 }
