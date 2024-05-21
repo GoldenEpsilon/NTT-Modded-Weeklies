@@ -5069,6 +5069,59 @@
             "crown": 7,
             "area": 3,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 258,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                8,
+                "compoundelbow",
+                20,
+                "Garment Regenerator",
+                10,
+                4,
+                "Thick Head",
+                14
+            ],
+            "time": 4709,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": "SeekerBundle",
+            "wep": 112,
+            "killed_by": 6,
+            "hard": 17,
+            "loop": 1,
+            "crown": false,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
