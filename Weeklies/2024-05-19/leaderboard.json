@@ -4922,6 +4922,45 @@
             "crown": 7,
             "area": 5,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 100,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1971,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": "va_mass_driver",
+            "wep": "va_bigsaw_launcher",
+            "killed_by": -1,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
