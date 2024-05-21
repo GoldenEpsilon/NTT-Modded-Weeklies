@@ -5334,6 +5334,45 @@
             "crown": 7,
             "area": 2,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 20,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [ ],
+            "time": 1921,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": 97,
+            "wep": 118,
+            "killed_by": 17,
+            "hard": 15,
+            "loop": 1,
+            "crown": false,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
