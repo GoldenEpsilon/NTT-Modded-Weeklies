@@ -5175,6 +5175,59 @@
             "crown": 7,
             "area": 3,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 290,
+            "subarea": 3,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                9,
+                "Waste Gland",
+                "Double Vision",
+                "excitedneurons",
+                20,
+                11,
+                5,
+                8
+            ],
+            "time": 3925,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": "doubleminigun",
+            "wep": "minigun",
+            "killed_by": 0,
+            "hard": 18,
+            "loop": 1,
+            "crown": 7,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
