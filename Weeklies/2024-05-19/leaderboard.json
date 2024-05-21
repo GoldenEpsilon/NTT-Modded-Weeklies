@@ -1,112 +1,6 @@
 {
     "scores": [
         {
-            "kills": 926,
-            "subarea": 2,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "mutations": [
-                "compoundelbow",
-                21,
-                "sharpteeth",
-                5,
-                "Steel Nerves",
-                28,
-                11,
-                20
-            ],
-            "time": 16497,
-            "pizzas": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": 1,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "race": 7,
-            "name": "Chump",
-            "killed_by": 34,
-            "bwep": 12,
-            "wep": "va_pummeler",
-            "loop": 1,
-            "hard": 30,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": 1,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "crown": 1,
-            "color": 16736708,
-            "area": 7,
-            "skin": 0
-        },
-        {
-            "kills": 821,
-            "subarea": 1,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "mutations": [
-                8,
-                17,
-                14,
-                "Sadism",
-                5,
-                7,
-                "Feed Forward Network",
-                1
-            ],
-            "time": 16299,
-            "pizzas": 0,
-            "allies": [
-                {
-                    "alias": "Maggie",
-                    "wep": 1,
-                    "bwep": 0,
-                    "color": 16736708,
-                    "race": 10,
-                    "skin": 1
-                }
-            ],
-            "race": 7,
-            "name": "Maggie",
-            "killed_by": 21,
-            "bwep": "va_gluon_cleaver",
-            "wep": "EnergyShovel",
-            "hard": 24,
-            "loop": 1,
-            "loadout": [
-                {
-                    "alias": "Maggie",
-                    "wep": 1,
-                    "bwep": 1,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "crown": 7,
-            "color": 16736708,
-            "area": 4,
-            "skin": 1
-        },
-        {
             "kills": 2219,
             "subarea": 1,
             "ultras": [
@@ -131,8 +25,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 1,
                     "bwep": 1,
+                    "wep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -148,8 +42,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": 1,
                     "bwep": 1,
+                    "wep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -159,45 +53,6 @@
             "color": 16736708,
             "area": 1,
             "skin": 0
-        },
-        {
-            "kills": 0,
-            "subarea": 1,
-            "ultras": [ ],
-            "mutations": [ ],
-            "time": 999,
-            "pizzas": 0,
-            "allies": [
-                {
-                    "alias": "Dragonstrive",
-                    "bwep": "va_gluon_sprayer",
-                    "wep": "va_double_trouble",
-                    "color": 5862689,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "race": 6,
-            "name": "Dragonstrive",
-            "killed_by": -1,
-            "bwep": "va_gluon_sprayer",
-            "wep": "va_double_trouble",
-            "loop": 1,
-            "hard": 15,
-            "loadout": [
-                {
-                    "alias": "Dragonstrive",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "color": 5862689,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "crown": false,
-            "color": 5862689,
-            "area": 1,
-            "skin": 1
         },
         {
             "kills": 161,
@@ -223,8 +78,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "va_double_trouble",
                     "bwep": "va_gluon_cleaver",
+                    "wep": "va_double_trouble",
                     "color": 5862689,
                     "race": 6,
                     "skin": 1
@@ -240,8 +95,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5862689,
                     "race": 6,
                     "skin": 1
@@ -276,8 +131,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": "va_gluon_cleaver",
                     "wep": "va_vorpal_war_hammer",
+                    "bwep": "va_gluon_cleaver",
                     "color": 5862689,
                     "race": 6,
                     "skin": 1
@@ -293,8 +148,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": 6,
                     "skin": 1
