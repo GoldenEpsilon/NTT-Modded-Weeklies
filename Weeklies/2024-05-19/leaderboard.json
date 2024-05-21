@@ -5122,6 +5122,59 @@
             "crown": false,
             "area": 1,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 629,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Confidence",
+                15,
+                1,
+                "Shocked Skin",
+                11,
+                "Shattered Skull",
+                4,
+                5
+            ],
+            "time": 6771,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": "AutoSuperShotgun",
+            "wep": 10,
+            "killed_by": 15,
+            "hard": 20,
+            "loop": 1,
+            "crown": 7,
+            "area": 3,
+            "skin": 0
         }
     ]
 }
