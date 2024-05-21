@@ -1575,6 +1575,7 @@ if(global.qualified){
 				}
 			}
 			array_push(leaderboard.scores, global.DataSubmission);
+			leaderboard.scores = cleanLeaderboard(leaderboard.scores);
 			if(get_current_data().can_resubmit || !fail){
 				file_delete("sha.txt");
 				while (file_exists("sha.txt")) {wait 1;}
@@ -1722,3 +1723,24 @@ if GameCont.area == 102 {
 	}
 	
 	return _raw;
+
+#define cleanLeaderboard(leaderboard)
+var bestof = {}
+var retLeaderboard = [];
+for var i = 0; i < array_length(leaderboard); i++ {
+	if lq_exists(bestof, leaderboard[i].name) {
+		if lq_get(bestof, leaderboard[i].name).kills <= leaderboard[i].kills {
+			lq_get(bestof, leaderboard[i].name).kills = leaderboard[i].kills
+		}
+		if lq_get(bestof, leaderboard[i].name).hard <= leaderboard[i].hard {
+			lq_get(bestof, leaderboard[i].name).hard = leaderboard[i].hard
+		}
+		if lq_get(bestof, leaderboard[i].name).kills <= leaderboard[i].kills || lq_get(bestof, leaderboard[i].name).hard <= leaderboard[i].hard {
+			array_push(retLeaderboard, leaderboard[i])
+		}
+	}else lq_set(bestof, leaderboard[i].name, {
+		kills: leaderboard[i].kills,
+		hard: leaderboard[i].hard,
+	});
+}
+return retLeaderboard;
