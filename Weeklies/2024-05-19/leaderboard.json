@@ -4509,6 +4509,60 @@
             "crown": false,
             "area": 107,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 2219,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                25,
+                5,
+                11,
+                21,
+                "Duplicators",
+                "Thick Head",
+                "Steel Nerves",
+                "Staked Chest",
+                8
+            ],
+            "time": 30383,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": "va_archmagus_bolt_caster",
+            "wep": "va_archmagus_bolt_caster",
+            "killed_by": 103,
+            "hard": 50,
+            "loop": 3,
+            "crown": 1,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
