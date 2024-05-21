@@ -5281,6 +5281,59 @@
             "crown": 7,
             "area": 5,
             "skin": 0
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 650,
+            "subarea": 1,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                "Compressing Fist",
+                20,
+                28,
+                "excitedneurons",
+                11,
+                4,
+                "Confidence",
+                1
+            ],
+            "time": 6533,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "bwep": "doubleminigun",
+            "wep": "va_masterton",
+            "killed_by": 58,
+            "hard": 19,
+            "loop": 1,
+            "crown": 7,
+            "area": 2,
+            "skin": 0
         }
     ]
 }
