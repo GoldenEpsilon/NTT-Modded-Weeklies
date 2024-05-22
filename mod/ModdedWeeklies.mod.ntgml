@@ -1738,9 +1738,12 @@ for var i = 0; i < array_length(leaderboard); i++ {
 		if lq_get(bestof, leaderboard[i].name).kills <= leaderboard[i].kills || lq_get(bestof, leaderboard[i].name).hard <= leaderboard[i].hard {
 			array_push(retLeaderboard, leaderboard[i])
 		}
-	}else lq_set(bestof, leaderboard[i].name, {
-		kills: leaderboard[i].kills,
-		hard: leaderboard[i].hard,
-	});
+	}else {
+		lq_set(bestof, leaderboard[i].name, {
+			kills: leaderboard[i].kills,
+			hard: leaderboard[i].hard,
+		});
+		array_push(retLeaderboard, leaderboard[i])
+	}
 }
 return retLeaderboard;
