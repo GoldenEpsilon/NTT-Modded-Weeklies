@@ -853,6 +853,59 @@
             "crown": 7,
             "area": 5,
             "skin": 1
+        },
+        {
+            "color": 16736708,
+            "pizzas": 0,
+            "kills": 6805,
+            "subarea": 2,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "mutations": [
+                1,
+                17,
+                23,
+                13,
+                27,
+                7,
+                4,
+                11
+            ],
+            "time": 78578,
+            "race": 6,
+            "name": "Sir Mittens IV",
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 111,
+                    "wep": "va_vorpal_longsword",
+                    "alias": "Sir Mittens IV",
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Sir Mittens IV",
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "bwep": 111,
+            "wep": "va_vorpal_longsword",
+            "killed_by": 36,
+            "hard": 64,
+            "loop": 3,
+            "crown": 7,
+            "area": 7,
+            "skin": 1
         }
     ]
 }
