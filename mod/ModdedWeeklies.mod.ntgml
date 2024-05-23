@@ -1574,8 +1574,8 @@ if(global.qualified){
 					fail = true;
 				}
 			}
-			array_push(leaderboard.scores, global.DataSubmission);
 			leaderboard.scores = cleanLeaderboard(leaderboard.scores);
+			array_push(leaderboard.scores, global.DataSubmission);
 			if(get_current_data().can_resubmit || !fail){
 				file_delete("sha.txt");
 				while (file_exists("sha.txt")) {wait 1;}
