@@ -1450,6 +1450,45 @@
             "area": 1,
             "skin": 0,
             "pizzas": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 1,
+            "killed_by": 66,
+            "time": 589,
+            "race": 7,
+            "allies": [
+                {
+                    "color": 12495495,
+                    "bwep": "EnergyShovel",
+                    "wep": 12,
+                    "race": 7,
+                    "skin": 0,
+                    "alias": "mufina"
+                }
+            ],
+            "name": "mufina",
+            "color": 12495495,
+            "bwep": "EnergyShovel",
+            "wep": 12,
+            "ultras": [ ],
+            "hard": 14,
+            "loop": 1,
+            "mutations": [ ],
+            "crown": false,
+            "loadout": [
+                {
+                    "color": 12495495,
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "skin": 0,
+                    "alias": "mufina"
+                }
+            ],
+            "area": 107,
+            "skin": 0,
+            "pizzas": 0
         }
     ]
 }
