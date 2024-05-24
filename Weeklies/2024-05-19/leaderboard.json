@@ -1452,16 +1452,16 @@
             "pizzas": 0
         },
         {
-            "kills": 0,
+            "kills": 22,
             "subarea": 1,
-            "killed_by": 66,
-            "time": 589,
+            "killed_by": 14,
+            "time": 3421,
             "race": 7,
             "allies": [
                 {
                     "color": 12495495,
-                    "bwep": "EnergyShovel",
-                    "wep": 12,
+                    "bwep": "mcleod",
+                    "wep": "va_bolt_upcaster",
                     "race": 7,
                     "skin": 0,
                     "alias": "mufina"
@@ -1469,12 +1469,26 @@
             ],
             "name": "mufina",
             "color": 12495495,
-            "bwep": "EnergyShovel",
-            "wep": 12,
-            "ultras": [ ],
-            "hard": 14,
+            "bwep": "mcleod",
+            "wep": "va_bolt_upcaster",
+            "ultras": [
+                [
+                    7,
+                    2
+                ]
+            ],
+            "hard": 15,
             "loop": 1,
-            "mutations": [ ],
+            "mutations": [
+                "Sloppy Fingers",
+                3,
+                4,
+                "compoundelbow",
+                11,
+                "Thick Head",
+                21,
+                23
+            ],
             "crown": false,
             "loadout": [
                 {
@@ -1486,7 +1500,7 @@
                     "alias": "mufina"
                 }
             ],
-            "area": 107,
+            "area": 1,
             "skin": 0,
             "pizzas": 0
         }
