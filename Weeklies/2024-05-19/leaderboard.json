@@ -1558,16 +1558,16 @@
             "pizzas": 0
         },
         {
-            "kills": 0,
-            "subarea": 0,
-            "killed_by": -1,
-            "time": 0,
+            "kills": 28,
+            "subarea": 1,
+            "killed_by": 17,
+            "time": 3002,
             "race": 1,
             "allies": [
                 {
                     "color": 12495495,
-                    "bwep": 0,
-                    "wep": 1,
+                    "bwep": 1,
+                    "wep": "va_sinusaber",
                     "race": 1,
                     "skin": 0,
                     "alias": "mufina"
@@ -1575,13 +1575,27 @@
             ],
             "name": "mufina",
             "color": 12495495,
-            "bwep": 0,
-            "wep": "mw_ui_start",
-            "ultras": [ ],
-            "hard": 0,
-            "loop": 0,
-            "mutations": [ ],
-            "crown": 1,
+            "bwep": 1,
+            "wep": "va_sinusaber",
+            "ultras": [
+                [
+                    1,
+                    2
+                ]
+            ],
+            "hard": 15,
+            "loop": 1,
+            "mutations": [
+                "Sloppy Fingers",
+                3,
+                23,
+                11,
+                7,
+                "Thick Head",
+                1,
+                4
+            ],
+            "crown": false,
             "loadout": [
                 {
                     "color": 12495495,
