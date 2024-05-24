@@ -1397,6 +1397,59 @@
             "area": 1,
             "skin": 0,
             "pizzas": 0
+        },
+        {
+            "kills": 153,
+            "subarea": 2,
+            "killed_by": 0,
+            "time": 6335,
+            "race": 1,
+            "allies": [
+                {
+                    "color": 12495495,
+                    "bwep": 2,
+                    "wep": "va_marksman_rifle",
+                    "race": 1,
+                    "skin": 0,
+                    "alias": "mufina"
+                }
+            ],
+            "name": "mufina",
+            "color": 12495495,
+            "bwep": 2,
+            "wep": "va_marksman_rifle",
+            "ultras": [
+                [
+                    1,
+                    2
+                ]
+            ],
+            "hard": 16,
+            "loop": 1,
+            "mutations": [
+                3,
+                11,
+                23,
+                "Filtering Teeth",
+                "Sloppy Fingers",
+                "Thick Head",
+                16,
+                4
+            ],
+            "crown": false,
+            "loadout": [
+                {
+                    "color": 12495495,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 1,
+                    "skin": 0,
+                    "alias": "mufina"
+                }
+            ],
+            "area": 1,
+            "skin": 0,
+            "pizzas": 0
         }
     ]
 }
