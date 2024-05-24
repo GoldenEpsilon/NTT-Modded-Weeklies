@@ -1611,16 +1611,16 @@
             "pizzas": 0
         },
         {
-            "kills": 459,
-            "subarea": 2,
-            "killed_by": 89,
-            "time": 13505,
+            "kills": 0,
+            "subarea": 1,
+            "killed_by": -1,
+            "time": 540,
             "race": 1,
             "allies": [
                 {
                     "color": 12495495,
-                    "bwep": "va_auto_flechette_shotgun",
-                    "wep": "AutoSuperShotgun",
+                    "bwep": 1,
+                    "wep": "va_bigsaw_launcher",
                     "race": 1,
                     "skin": 0,
                     "alias": "mufina"
@@ -1628,27 +1628,13 @@
             ],
             "name": "mufina",
             "color": 12495495,
-            "bwep": "va_auto_flechette_shotgun",
-            "wep": "AutoSuperShotgun",
-            "ultras": [
-                [
-                    1,
-                    2
-                ]
-            ],
-            "hard": 21,
+            "bwep": 1,
+            "wep": "va_bigsaw_launcher",
+            "ultras": [ ],
+            "hard": 14,
             "loop": 1,
-            "mutations": [
-                "Shattered Skull",
-                "powderedgums",
-                15,
-                "Sloppy Fingers",
-                4,
-                3,
-                "Steel Nerves",
-                23
-            ],
-            "crown": 9,
+            "mutations": [ ],
+            "crown": false,
             "loadout": [
                 {
                     "color": 12495495,
@@ -1659,7 +1645,7 @@
                     "alias": "mufina"
                 }
             ],
-            "area": 3,
+            "area": 107,
             "skin": 0,
             "pizzas": 0
         }
