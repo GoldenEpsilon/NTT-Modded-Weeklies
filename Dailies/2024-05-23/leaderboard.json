@@ -3,40 +3,93 @@
         {
             "kills": 0,
             "subarea": 1,
-            "killed_by": 67,
+            "ultras": [ ],
+            "mutations": [ ],
             "time": 1603,
             "loadout": [
                 {
-                    "color": 16736708,
-                    "bwep": 0,
+                    "alias": "Maggie",
                     "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708,
                     "race": 1,
-                    "skin": 1,
-                    "alias": "Maggie"
+                    "skin": 1
                 }
             ],
             "race": 1,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "bwep": 11,
-                    "wep": 115,
-                    "race": 1,
-                    "skin": 1,
-                    "alias": "Maggie"
-                }
-            ],
             "name": "Maggie",
-            "color": 16736708,
+            "pizzas": 0,
+            "killed_by": 67,
             "bwep": 11,
             "wep": 115,
-            "ultras": [ ],
             "hard": 14,
             "loop": 1,
-            "mutations": [ ],
             "crown": false,
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Maggie",
+                    "wep": 115,
+                    "bwep": 11,
+                    "color": 16736708,
+                    "race": 1,
+                    "skin": 1
+                }
+            ],
+            "color": 16736708,
             "area": 107,
+            "skin": 1
+        },
+        {
+            "kills": 3304,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                1,
+                4,
+                11,
+                7,
+                13,
+                27,
+                23,
+                "Steel Nerves"
+            ],
+            "time": 38999,
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "race": 6,
+            "pizzas": 0,
+            "name": "Sir Mittens IV",
+            "killed_by": 92,
+            "bwep": 35,
+            "wep": "va_martial_longsword",
+            "hard": 41,
+            "loop": 2,
+            "crown": 7,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "va_martial_longsword",
+                    "bwep": 35,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "area": 4,
             "skin": 1
         }
     ]
