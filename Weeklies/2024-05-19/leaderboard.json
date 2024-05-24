@@ -1611,16 +1611,16 @@
             "pizzas": 0
         },
         {
-            "kills": 0,
+            "kills": 82,
             "subarea": 1,
-            "killed_by": 66,
-            "time": 1995,
+            "killed_by": 92,
+            "time": 1458,
             "race": 1,
             "allies": [
                 {
                     "color": 12495495,
-                    "bwep": "va_mass_driver",
-                    "wep": "EnergyShovel",
+                    "bwep": "va_arcsinusoid_cannon",
+                    "wep": "va_bigsaw_launcher",
                     "race": 1,
                     "skin": 0,
                     "alias": "mufina"
@@ -1628,10 +1628,10 @@
             ],
             "name": "mufina",
             "color": 12495495,
-            "bwep": "va_mass_driver",
-            "wep": "EnergyShovel",
+            "bwep": "va_arcsinusoid_cannon",
+            "wep": "va_bigsaw_launcher",
             "ultras": [ ],
-            "hard": 14,
+            "hard": 15,
             "loop": 1,
             "mutations": [ ],
             "crown": false,
@@ -1645,7 +1645,7 @@
                     "alias": "mufina"
                 }
             ],
-            "area": 107,
+            "area": 1,
             "skin": 0,
             "pizzas": 0
         }
