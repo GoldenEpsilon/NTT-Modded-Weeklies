@@ -1611,16 +1611,16 @@
             "pizzas": 0
         },
         {
-            "kills": 82,
-            "subarea": 1,
-            "killed_by": 92,
-            "time": 1458,
+            "kills": 188,
+            "subarea": 2,
+            "killed_by": 0,
+            "time": 4218,
             "race": 1,
             "allies": [
                 {
                     "color": 12495495,
-                    "bwep": "va_arcsinusoid_cannon",
-                    "wep": "va_bigsaw_launcher",
+                    "bwep": "va_bigsaw_launcher",
+                    "wep": "va_hoagie",
                     "race": 1,
                     "skin": 0,
                     "alias": "mufina"
@@ -1628,12 +1628,26 @@
             ],
             "name": "mufina",
             "color": 12495495,
-            "bwep": "va_arcsinusoid_cannon",
-            "wep": "va_bigsaw_launcher",
-            "ultras": [ ],
-            "hard": 15,
+            "bwep": "va_bigsaw_launcher",
+            "wep": "va_hoagie",
+            "ultras": [
+                [
+                    1,
+                    2
+                ]
+            ],
+            "hard": 16,
             "loop": 1,
-            "mutations": [ ],
+            "mutations": [
+                "Double Vision",
+                "luckyshot",
+                21,
+                23,
+                7,
+                "Steel Nerves",
+                "Thick Head",
+                3
+            ],
             "crown": false,
             "loadout": [
                 {
