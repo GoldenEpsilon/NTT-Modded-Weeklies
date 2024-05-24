@@ -1558,16 +1558,16 @@
             "pizzas": 0
         },
         {
-            "kills": 28,
-            "subarea": 1,
-            "killed_by": 17,
-            "time": 3002,
+            "kills": 1358,
+            "subarea": 2,
+            "killed_by": 94,
+            "time": 20660,
             "race": 1,
             "allies": [
                 {
                     "color": 12495495,
-                    "bwep": 1,
-                    "wep": "va_sinusaber",
+                    "bwep": 92,
+                    "wep": "va_archmagus_bolt_caster",
                     "race": 1,
                     "skin": 0,
                     "alias": "mufina"
@@ -1575,27 +1575,27 @@
             ],
             "name": "mufina",
             "color": 12495495,
-            "bwep": 1,
-            "wep": "va_sinusaber",
+            "bwep": 92,
+            "wep": "va_archmagus_bolt_caster",
             "ultras": [
                 [
                     1,
-                    2
+                    1
                 ]
             ],
-            "hard": 15,
+            "hard": 30,
             "loop": 1,
             "mutations": [
-                "Sloppy Fingers",
+                21,
+                "Staked Chest",
+                "luckyshot",
+                4,
+                "Compressing Fist",
+                10,
                 3,
-                23,
-                11,
-                7,
-                "Thick Head",
-                1,
-                4
+                7
             ],
-            "crown": false,
+            "crown": 7,
             "loadout": [
                 {
                     "color": 12495495,
@@ -1606,7 +1606,7 @@
                     "alias": "mufina"
                 }
             ],
-            "area": 1,
+            "area": 100,
             "skin": 0,
             "pizzas": 0
         }
