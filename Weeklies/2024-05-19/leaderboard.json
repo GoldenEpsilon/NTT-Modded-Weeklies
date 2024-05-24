@@ -1506,9 +1506,9 @@
         },
         {
             "kills": 0,
-            "subarea": 1,
+            "subarea": 0,
             "killed_by": -1,
-            "time": 1,
+            "time": 0,
             "race": 1,
             "allies": [
                 {
@@ -1523,12 +1523,12 @@
             "name": "mufina",
             "color": 12495495,
             "bwep": 0,
-            "wep": 1,
+            "wep": "mw_ui_start",
             "ultras": [ ],
-            "hard": 14,
-            "loop": 1,
+            "hard": 0,
+            "loop": 0,
             "mutations": [ ],
-            "crown": false,
+            "crown": 1,
             "loadout": [
                 {
                     "color": 12495495,
@@ -1539,7 +1539,7 @@
                     "alias": "mufina"
                 }
             ],
-            "area": 107,
+            "area": 1,
             "skin": 0,
             "pizzas": 0
         }
