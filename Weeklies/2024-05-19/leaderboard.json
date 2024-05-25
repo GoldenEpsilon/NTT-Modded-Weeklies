@@ -2595,6 +2595,59 @@
             ],
             "area": 5,
             "skin": 1
+        },
+        {
+            "kills": 601,
+            "subarea": 1,
+            "killed_by": 89,
+            "time": 7757,
+            "pizzas": 0,
+            "race": 10,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 10,
+                    "skin": 1,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "name": "Weird lookin' dog",
+            "color": 16736708,
+            "bwep": "laserminigun",
+            "wep": "va_smartsaw_launcher",
+            "ultras": [
+                [
+                    10,
+                    1
+                ]
+            ],
+            "hard": 19,
+            "loop": 1,
+            "mutations": [
+                5,
+                7,
+                1,
+                17,
+                10,
+                "Generative Adversarial Network",
+                "Filtering Teeth",
+                4
+            ],
+            "crown": 7,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": "laserminigun",
+                    "wep": "va_smartsaw_launcher",
+                    "race": 10,
+                    "skin": 1,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "area": 2,
+            "skin": 1
         }
     ]
 }
