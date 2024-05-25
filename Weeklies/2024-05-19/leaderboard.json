@@ -1820,43 +1820,29 @@
             "allies": [
                 {
                     "alias": "Golden Epsilon",
-                    "bwep": "EnergyShovel",
-                    "wep": "EnergyShovel",
+                    "bwep": 1,
+                    "wep": 1,
                     "color": 5623039,
                     "race": 7,
                     "skin": 0
                 }
             ],
-            "killed_by": 92,
-            "kills": 669,
+            "killed_by": -1,
+            "kills": 0,
             "subarea": 1,
-            "time": 12901,
+            "time": 53,
             "color": 5623039,
             "race": 7,
             "name": "Golden Epsilon",
-            "pizzas": 1,
-            "ultras": [
-                [
-                    7,
-                    2
-                ]
-            ],
-            "mutations": [
-                17,
-                "Alchemic Stomach",
-                "Feed Forward Network",
-                27,
-                "Compressing Fist",
-                "Thick Head",
-                13,
-                "Sadism"
-            ],
-            "bwep": "EnergyShovel",
-            "wep": "EnergyShovel",
-            "hard": 25,
+            "pizzas": 0,
+            "ultras": [ ],
+            "mutations": [ ],
+            "bwep": 1,
+            "wep": 1,
+            "hard": 14,
             "loop": 1,
-            "crown": 9,
-            "area": 5,
+            "crown": false,
+            "area": 107,
             "skin": 0,
             "loadout": [
                 {
