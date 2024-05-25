@@ -1,0 +1,111 @@
+{
+	"name": false,
+	"description": false,
+	"can_resubmit": false,
+	"disable_vaults": false,
+	"disable_crowns": false,
+	"seed": "Daily",
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Feels Like Vanilla",
+			"description": "16 simple but unique#vanilla-style weapons#with a wide range of#designs and functions.",
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "direct",
+			"name": "LOMuts",
+			"filename": "LOMuts.zip",
+			"description": "Lots of Mutations!#What it sounds like on the tin.#Adds a third ultra#to all characters!",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/LOMuts.zip"
+		},
+		{
+			"download_type": "itch",
+			"name": "Portalspeed",
+			"description": "When you clear a level,#get a speed boost#to get to the#next level faster!",
+			"url": "https://dragonstrive.itch.io/portalspeed"
+		},
+		{
+			"download_type": "direct",
+			"name": "Varia 10k",
+			"filename": "VA10k.zip",
+			"description": "A semi-esoteric original-character based#weapon pack that adds#over 80 wild and powerful weapons,#ranging from swords and sorcery#to hitscan and hoagies",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/VA_10K.zip"
+		},
+		{
+			"download_type": "itch",
+			"name": "B Mutation Tweaks",
+			"description": "A set of tweaks#to vanilla mutations by blaac",
+			"url": "https://blaac.itch.io/bmutations"
+		},
+		{
+			"download_type": "itch",
+			"name": "B Weapon Tweaks",
+			"description": "A bunch of QOL changes#to vanilla weapons by blaac",
+			"url": "https://blaac.itch.io/bweapons"
+		},
+		{
+			"download_type": "direct",
+			"name": "Bosses Plus",
+			"description": "Adds Giga Maggot,#Big Sniper,#and Titank is here#as a special guest!",
+			"filename": "BossesPlus.zip",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/BossesPlusWeeklies.zip"
+		},
+		{
+			"download_type": "direct",
+			"name": "Printer",
+			"filename": "Printer.zip",
+			"description": "This mod adds Printer,#a drone printing sentient printer#that is occasionally posessed",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/Horsie.zip"
+		},
+		{
+			"download_type": "direct",
+			"name": "Horsie",
+			"filename": "Horsie.zip",
+			"description": "This mod adds Horsie,#a new playable character, #with a rushdown-centric playstyle.",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/Horsie.zip"
+		},
+		{
+			"download_type": "itch",
+			"name": "Shrimpstol",
+			"description": "This mod adds Shrimpstol#as a new character,#as his name says,#its a Pistol Shrimp but Mutated ",
+			"url": "https://thecorruptedone.itch.io/shrimpstol"
+		},
+		{
+			"download_type": "itch",
+			"name": "Acrobat",
+			"description": "This mod adds Acrobat,#an agile mutant that#eeks the throne for reasons unknown!",
+			"url": "https://dragonstrive.itch.io/acrobat"
+		},
+		{
+			"download_type": "direct",
+			"name": "Writhe",
+			"filename": "Writhe.zip",
+			"description": "This Nuclear Throne mod adds Writhe,#a tangled mess of a mutant#who doesn't really know what's going on.",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/Writhe.zip"
+		},
+		{
+			"download_type": "itch",
+			"name": "Chester",
+			"description": "Chester the Living Chest (not a mimic)#is a character focused a bit more in Resource management#due to the lack of Chests for you to find.",
+			"url": "https://mr-mediocrist.itch.io/chester"
+		},
+		{
+			"download_type": "itch",
+			"name": "Scales",
+			"description": "A studious dragon#of superior durability.#Use your active#before taking damage#to counter and#strike back!",
+			"color": 32768,
+			"url": "https://dragonstrive.itch.io/scales",
+		},
+		{
+			"download_type": "itch",
+			"name": "Mule's Kick",
+			"description": "A mutation#that adds another weapon slot!",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/Mules_Kick.zip",
+		},
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": false,
+}

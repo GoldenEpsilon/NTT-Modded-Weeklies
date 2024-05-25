@@ -77,7 +77,7 @@ global.menu_surf_text = 0
 
 global.menu_opened = false
 global.menu_opening = [0,16]     //  min/start,max
-global.current_scoreboard = 1   //which tab is open
+global.current_scoreboard = 2   //which tab is open
 
 global.scoreboard_number_of_rows = 6    // number of rows displayed
 global.scoreboard_opened = -4       //which row is opened, -4 = none
@@ -1408,19 +1408,21 @@ with Loadout{
 	
 	
 	xx+= 52
-	var _text = "extra"
-	var _active = global.current_scoreboard = 3
-	mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
-	
-	if mouse_over and button_pressed(0,"fire"){
-	    //click
-	    global.current_scoreboard = 3
-	    scoreboard_opened = -4
-		global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Difficulty")
+	if array_length(global.scoreboard) > 3 && array_length(global.scoreboard[3]) > 0 {
+		var _text = "extra"
+		var _active = global.current_scoreboard = 3
+		mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,xx-24,yy-12,xx+24,yy+12)
+		
+		if mouse_over and button_pressed(0,"fire"){
+			//click
+			global.current_scoreboard = 3
+			scoreboard_opened = -4
+			global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Difficulty")
+		}
+		var _active = global.current_scoreboard = 3
+		draw_set_color((mouse_over or _active)?c_white:c_silver)
+		draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
 	}
-	var _active = global.current_scoreboard = 3
-	draw_set_color((mouse_over or _active)?c_white:c_silver)
-	draw_text(xx,yy-mouse_over-(button_pressed(0,"fire")*-2*_active*mouse_over),_text)
 	
 	
 	draw_set_halign(0)

@@ -1516,11 +1516,11 @@ if(argument0 = "loaddailyfile"){
 #define SubmitRun
 var score = "";
 with(GameCont){
-	/*if(area == 0 && subarea == 0 && kills == 0){
+	if(global.DataSubmission.kills == 0){
 		global.finished = true;
 		global.start = false;
 		return;
-	}*/
+	}
 	var modtext = [];
 	if "mods" in get_current_data() {
 		with get_current_data().mods {
