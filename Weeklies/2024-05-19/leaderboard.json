@@ -2597,56 +2597,56 @@
             "skin": 1
         },
         {
-            "kills": 601,
-            "subarea": 1,
-            "killed_by": 89,
-            "time": 7757,
+            "kills": 757,
+            "subarea": 2,
+            "killed_by": 17,
+            "time": 15067,
             "pizzas": 0,
-            "race": 10,
+            "race": 12,
             "loadout": [
                 {
                     "color": 16736708,
                     "bwep": 0,
                     "wep": "mw_ui_start",
-                    "race": 10,
+                    "race": 12,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": "laserminigun",
-            "wep": "va_smartsaw_launcher",
+            "bwep": "EnergyShovel",
+            "wep": 80,
             "ultras": [
                 [
-                    10,
+                    12,
                     1
                 ]
             ],
-            "hard": 19,
+            "hard": 21,
             "loop": 1,
             "mutations": [
-                5,
-                7,
-                1,
+                13,
                 17,
-                10,
-                "Generative Adversarial Network",
-                "Filtering Teeth",
-                4
+                "Feed Forward Network",
+                7,
+                5,
+                14,
+                "Waste Gland",
+                23
             ],
             "crown": 7,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "laserminigun",
-                    "wep": "va_smartsaw_launcher",
-                    "race": 10,
+                    "bwep": "EnergyShovel",
+                    "wep": 80,
+                    "race": 12,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
-            "area": 2,
+            "area": 3,
             "skin": 1
         }
     ]
