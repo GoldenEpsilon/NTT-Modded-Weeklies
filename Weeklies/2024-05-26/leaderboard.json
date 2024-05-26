@@ -7,8 +7,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 17,
                     "wep": 6,
+                    "bwep": 17,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -31,8 +31,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -59,8 +59,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_martial_shortsword",
                     "bwep": "va_sticky_breacher",
+                    "wep": "va_martial_shortsword",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -82,8 +82,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -101,23 +101,23 @@
             "skin": 0
         },
         {
-            "kills": 25,
+            "kills": 14,
             "ultras": [ ],
             "subarea": 2,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 17,
-                    "bwep": "Acro-Bat",
+                    "wep": "Acro-Bat",
+                    "bwep": 7,
                     "race": "acrobat",
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "mutations": [
-                20
+                "Garment Regenerator"
             ],
-            "time": 1380,
+            "time": 1365,
             "race": "acrobat",
             "name": "Chump",
             "loadout": [
@@ -132,8 +132,8 @@
             ],
             "killed_by": 4,
             "pizzas": 0,
-            "bwep": "Acro-Bat",
-            "wep": 17,
+            "bwep": 7,
+            "wep": "Acro-Bat",
             "hard": 2,
             "loop": 0,
             "crown": false,
