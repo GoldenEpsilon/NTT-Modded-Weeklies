@@ -19,8 +19,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
                     "bwep": 17,
+                    "wep": 6,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -41,8 +41,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -70,8 +70,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_sticky_breacher",
                     "wep": "va_martial_shortsword",
+                    "bwep": "va_sticky_breacher",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -89,8 +89,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -117,8 +117,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": 71,
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -136,8 +136,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -169,8 +169,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 22,
                     "bwep": "SquareGun",
+                    "wep": 22,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -188,8 +188,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -217,8 +217,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": 57,
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -236,8 +236,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -256,8 +256,8 @@
             "allies": [
                 {
                     "alias": "UnK.",
-                    "wep": 1,
                     "bwep": 0,
+                    "wep": 1,
                     "race": "Printer",
                     "color": 16431718,
                     "skin": 0
@@ -276,9 +276,48 @@
             "loadout": [
                 {
                     "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "Printer",
+                    "color": 16431718,
+                    "skin": 0
+                }
+            ],
+            "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 13,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [ ],
+            "time": 1110.5,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": "mateba",
+                    "bwep": 0,
+                    "race": "scales",
+                    "color": 16431718,
+                    "skin": 0
+                }
+            ],
+            "race": "scales",
+            "pizzas": 0,
+            "name": "UnK.",
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": "mateba",
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "color": 16431718,
+            "loadout": [
+                {
+                    "alias": "UnK.",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": "Printer",
+                    "race": "scales",
                     "color": 16431718,
                     "skin": 0
                 }
