@@ -1,34 +1,24 @@
 {
     "scores": [
         {
-            "kills": 482,
-            "subarea": 1,
-            "killed_by": 59,
-            "time": 7906,
-            "pizzas": 0,
-            "race": 7,
-            "loadout": [
+            "allies": [
                 {
+                    "alias": "Weird lookin' dog",
+                    "wep": 11,
+                    "bwep": "hyperrifle",
                     "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
                     "race": 7,
-                    "skin": 1,
-                    "alias": "Weird lookin' dog"
+                    "skin": 1
                 }
             ],
-            "name": "Weird lookin' dog",
-            "color": 16736708,
-            "bwep": "hyperrifle",
-            "wep": 11,
+            "kills": 482,
+            "subarea": 1,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "hard": 18,
-            "loop": 1,
             "mutations": [
                 21,
                 16,
@@ -39,19 +29,82 @@
                 "Staked Chest",
                 "excitedneurons"
             ],
-            "crown": false,
-            "allies": [
+            "time": 7906,
+            "race": 7,
+            "name": "Weird lookin' dog",
+            "loadout": [
                 {
+                    "alias": "Weird lookin' dog",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
-                    "bwep": "hyperrifle",
-                    "wep": 11,
                     "race": 7,
-                    "skin": 1,
-                    "alias": "Weird lookin' dog"
+                    "skin": 1
                 }
             ],
+            "killed_by": 59,
+            "bwep": "hyperrifle",
+            "wep": 11,
+            "hard": 18,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
             "area": 2,
-            "skin": 1
+            "skin": 1,
+            "pizzas": 0
+        },
+        {
+            "allies": [
+                {
+                    "alias": "wigglercola",
+                    "wep": "va_magus_bolt_caster",
+                    "bwep": 111,
+                    "race": 3,
+                    "color": 16299775,
+                    "skin": 1
+                }
+            ],
+            "kills": 844,
+            "ultras": [
+                [
+                    3,
+                    2
+                ]
+            ],
+            "subarea": 3,
+            "mutations": [
+                21,
+                11,
+                23,
+                "Staked Chest",
+                17,
+                27,
+                1,
+                "Steel Nerves"
+            ],
+            "time": 12903,
+            "race": 3,
+            "name": "wigglercola",
+            "loadout": [
+                {
+                    "alias": "wigglercola",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 3,
+                    "color": 16299775,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 92,
+            "bwep": 111,
+            "wep": "va_magus_bolt_caster",
+            "hard": 23,
+            "loop": 1,
+            "crown": 7,
+            "color": 16299775,
+            "area": 3,
+            "skin": 1,
+            "pizzas": 0
         }
     ]
 }
