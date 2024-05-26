@@ -7,8 +7,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
                     "bwep": 17,
+                    "wep": 6,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -31,8 +31,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -59,8 +59,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_sticky_breacher",
                     "wep": "va_martial_shortsword",
+                    "bwep": "va_sticky_breacher",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -82,8 +82,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -107,8 +107,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": 71,
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -129,8 +129,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -148,23 +148,27 @@
             "skin": 0
         },
         {
-            "kills": 42,
+            "kills": 155,
             "ultras": [ ],
             "subarea": 3,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 1,
-                    "bwep": 19,
+                    "wep": "mcleod",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "mutations": [
-                8
+                25,
+                8,
+                13,
+                7,
+                "Precision Incision"
             ],
-            "time": 2202,
+            "time": 8055,
             "race": "Printer",
             "name": "Chump",
             "loadout": [
@@ -177,18 +181,15 @@
                     "skin": 0
                 }
             ],
-            "killed_by": [
-                null,
-                "Giga Maggot"
-            ],
+            "killed_by": 78,
             "pizzas": 0,
-            "bwep": 19,
-            "wep": 1,
-            "hard": 3,
+            "bwep": 0,
+            "wep": "mcleod",
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 1,
+            "area": 3,
             "skin": 0
         }
     ]
