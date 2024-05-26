@@ -7,8 +7,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 17,
                     "wep": 6,
+                    "bwep": 17,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -31,8 +31,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -59,8 +59,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_martial_shortsword",
                     "bwep": "va_sticky_breacher",
+                    "wep": "va_martial_shortsword",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -82,8 +82,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -101,54 +101,45 @@
             "skin": 0
         },
         {
-            "kills": 197,
+            "kills": 64,
             "ultras": [ ],
             "subarea": 3,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "minigun",
-                    "bwep": 3,
-                    "race": "acrobat",
+                    "wep": 3,
+                    "bwep": 1,
+                    "race": "writhe",
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "mutations": [
-                "Double Vision",
                 "Loner",
-                "Bloated Back",
-                8,
-                "Ruffled Feathers",
-                "Slim Pickings",
-                "Free Space",
-                "Bursted Chest",
-                21,
-                2,
-                20
+                "Iron Skin"
             ],
-            "time": 10289,
-            "race": "acrobat",
+            "time": 2641,
+            "race": "writhe",
             "name": "Chump",
             "loadout": [
                 {
                     "alias": "Chump",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": "acrobat",
+                    "race": "writhe",
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 102,
+            "killed_by": 5,
             "pizzas": 0,
-            "bwep": 3,
-            "wep": "minigun",
-            "hard": 7,
+            "bwep": 1,
+            "wep": 3,
+            "hard": 3,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 3,
+            "area": 1,
             "skin": 0
         }
     ]
