@@ -1422,7 +1422,6 @@ if(fork()){
 		wait(0)
 	}
 	trace(name + " Downloaded!");
-	global.loadticket--;
 	exit;
 }
 wait(10)
@@ -1440,7 +1439,8 @@ with(globals){
 	}
 }
 
-wait(0);
+wait(10);
+global.loadticket--;
 return true;
 
 #define getModeDate(mode)
