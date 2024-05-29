@@ -418,11 +418,14 @@ var i = 0;
 while (true) {
 	var mut = skill_get_at(i++);
 	if (mut == undefined) break;
-	if mod_exists("skill", skill_get_at(i)) && mod_script_exists("skill", skill_get_at(i), "skill_ultra") && mod_script_call("skill", skill_get_at(i), "skill_ultra") {
-		array_push(ultraList, mut);
-	}else{
-		array_push(mutationList, mut);
-	}
+		if mod_exists("skill", skill_get_at(i)) && mod_script_exists("skill", skill_get_at(i), "skill_ultra") {
+			var ult = mod_script_call("skill", skill_get_at(i), "skill_ultra");
+			if(is_string(ult) || is_real(ult) && ult != -1){
+				array_push(ultraList, mut);
+			}
+		}else{
+			array_push(mutationList, mut);
+		}
 }
 
 with(global.endData.data) {
@@ -619,8 +622,11 @@ if GameCont.timer > 0 {
 	while (true) {
 		var mut = skill_get_at(i++);
 		if (mut == undefined) break;
-		if mod_exists("skill", skill_get_at(i)) && mod_script_exists("skill", skill_get_at(i), "skill_ultra") && mod_script_call("skill", skill_get_at(i), "skill_ultra") {
-			array_push(ultraList, mut);
+		if mod_exists("skill", skill_get_at(i)) && mod_script_exists("skill", skill_get_at(i), "skill_ultra") {
+			var ult = mod_script_call("skill", skill_get_at(i), "skill_ultra");
+			if(is_string(ult) || is_real(ult) && ult != -1){
+				array_push(ultraList, mut);
+			}
 		}else{
 			array_push(mutationList, mut);
 		}
