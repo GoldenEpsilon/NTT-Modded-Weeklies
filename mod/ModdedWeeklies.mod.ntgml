@@ -1428,6 +1428,8 @@ wait(10)
 while(global.forks >= ticket){wait(0)}
 mod_loadtext("WeeklyMods/" + name + "/main.txt");
 
+wait(10);
+
 with(globals){
 	if(fork()){
 		if "mod_type" not in self {
@@ -1438,8 +1440,6 @@ with(globals){
 		exit;
 	}
 }
-
-wait(10);
 global.loadticket--;
 return true;
 
