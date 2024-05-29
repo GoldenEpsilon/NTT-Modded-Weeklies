@@ -1321,6 +1321,7 @@ return {};
 global.forks++;
 var ticket = global.forks;
 if(fork()){
+	trace("Downloading " + name);
 	//check to see if it's just a .gml before unzipping
 	if(string_length(filename) == 0){
 		trace("ERROR: file not found. This is aserver-side issue, hopefully we are fixing it.");
@@ -1420,16 +1421,11 @@ if(fork()){
 		wait(0)
 	}
 	trace(name + " Downloaded!");
+	global.forks--;
 	exit;
 }
 wait(10)
-trace(name);
-trace(ticket);
-trace(global.forks);
-while(global.forks <= ticket){wait(0)}
-trace(name + " Done");
-trace(ticket);
-trace(global.forks);
+while(global.forks >= ticket){wait(0)}
 mod_loadtext("WeeklyMods/" + name + "/main.txt");
 
 with(globals){
@@ -1444,7 +1440,6 @@ with(globals){
 }
 
 wait(0);
-global.forks--;
 return true;
 
 #define getModeDate(mode)
