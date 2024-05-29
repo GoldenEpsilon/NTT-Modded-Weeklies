@@ -1154,22 +1154,23 @@
         {
             "color": 5623039,
             "pizzas": 0,
-            "kills": 61,
-            "subarea": 3,
+            "kills": 85,
+            "subarea": 1,
             "ultras": [ ],
             "mutations": [
+                "Generative Adversarial Network",
                 "Slim Pickings",
-                "Explosive Gaze",
-                "Toxic Thoughts"
+                "Bloated Back",
+                1
             ],
-            "time": 2791,
+            "time": 4616,
             "race": 11,
             "name": "Golden Epsilon",
             "allies": [
                 {
                     "color": 5623039,
-                    "bwep": 17,
-                    "wep": 5,
+                    "bwep": "va_gluon_gun",
+                    "wep": 19,
                     "alias": "Golden Epsilon",
                     "race": 11,
                     "skin": 0
@@ -1185,13 +1186,13 @@
                     "skin": 0
                 }
             ],
-            "bwep": 17,
-            "wep": 5,
+            "bwep": "va_gluon_gun",
+            "wep": 19,
             "killed_by": -1,
-            "hard": 3,
+            "hard": 4,
             "loop": 0,
             "crown": false,
-            "area": 1,
+            "area": 2,
             "skin": 0
         }
     ]
