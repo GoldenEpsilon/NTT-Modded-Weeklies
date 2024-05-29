@@ -202,6 +202,7 @@ for(i = 0; i < array_length(skinmods); i++){
 	mod_unload(skinmods[i]);
 }
 if "mods" in get_current_data() {
+	global.loadticket = 0;
 	with get_current_data().mods {
 		
 		wait file_load("../../mods/WeeklyMods/" + self.name + "/version.txt");
@@ -212,8 +213,8 @@ if "mods" in get_current_data() {
 			continue;
 		}
 		
-		//if(fork()){
-			//global.forks++;
+		if(fork()){
+			global.forks++;
 			if "patches" not in self {
 				self.patches = [];
 			}
@@ -278,9 +279,9 @@ if "mods" in get_current_data() {
 					}
 					break;
 			}
-			//global.forks--;
-			//exit;
-		//}
+			global.forks--;
+			exit;
+		}
 		if global.qualified == true {
 			string_save(string(self.url) + string(global.currentDate), "../../mods/WeeklyMods/" + self.name + "/version.txt");
 		}
@@ -1318,14 +1319,14 @@ return {};
 	return {};
 
 #define download_and_load(name, url, filename, patches, globals)
-global.forks++;
-var ticket = global.forks;
+global.loadticket++;
+var ticket = global.loadticket;
 if(fork()){
 	trace("Downloading " + name);
 	//check to see if it's just a .gml before unzipping
 	if(string_length(filename) == 0){
 		trace("ERROR: file not found. This is aserver-side issue, hopefully we are fixing it.");
-		global.forks--;
+		global.loadticket--;
 		return false;
 	}
 	file_delete("../../mods/WeeklyMods/" + name + "/main.txt");
@@ -1337,7 +1338,7 @@ if(fork()){
 			file_download(url, "../../mods/WeeklyMods/" + name + "/" + filename);
 			while (!file_exists("../../mods/WeeklyMods/" + name + "/" + filename)) {wait 1;}
 			if string_load("../../mods/WeeklyMods/" + name + "/" + filename) == "This content is no longer available." {
-				global.forks--;
+				global.loadticket--;
 				trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
 				return false;
 			}
@@ -1348,7 +1349,7 @@ if(fork()){
 			while (!file_exists(filename)) {wait 1;}
 			if string_load(filename) == "This content is no longer available." {
 				trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
-				global.forks--;
+				global.loadticket--;
 				return false;
 			}
 			trace("Unzipping " + filename);
@@ -1360,7 +1361,7 @@ if(fork()){
 			while (!file_exists(filename)) {wait 1;}
 			if string_load(filename) == "This content is no longer available." {
 				trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
-				global.forks--;
+				global.loadticket--;
 				return false;
 			}
 			trace("Unzipping " + filename);
@@ -1373,7 +1374,7 @@ if(fork()){
 			while (!file_exists("../../mods/WeeklyMods/" + name + "/" + filename)) {wait 1;}
 			if string_load("../../mods/WeeklyMods/" + name + "/" + filename) == "This content is no longer available." {
 				trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
-			global.forks--;
+			global.loadticket--;
 				return false;
 			}
 			break;
@@ -1386,7 +1387,7 @@ if(fork()){
 		while (!file_exists("../../mods/WeeklyMods/" + name + "/" + patches[i].file)) {wait 1;}
 		if string_load("../../mods/WeeklyMods/" + name + "/" + patches[i].file) == "This content is no longer available." {
 			trace("ERROR: Discord link no longer works. Let Golden Epsilon know.");
-			global.forks--;
+			global.loadticket--;
 			return false;
 		}
 	}
@@ -1421,7 +1422,7 @@ if(fork()){
 		wait(0)
 	}
 	trace(name + " Downloaded!");
-	global.forks--;
+	global.loadticket--;
 	exit;
 }
 wait(10)
