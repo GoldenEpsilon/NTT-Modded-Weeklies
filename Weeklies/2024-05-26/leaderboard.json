@@ -1655,45 +1655,61 @@
             "skin": 0
         },
         {
-            "kills": 59,
+            "kills": 2166,
             "subarea": 3,
             "loadout": [
                 {
                     "color": 12133220,
                     "bwep": 0,
                     "wep": "mw_ui_start",
-                    "race": "horsie",
+                    "race": 2,
                     "skin": 0,
                     "alias": "Lee-Mon"
                 }
             ],
-            "killed_by": 0,
-            "time": 2493,
-            "race": "horsie",
+            "killed_by": -1,
+            "time": 52050,
+            "race": 2,
             "name": "Lee-Mon",
             "color": 12133220,
-            "pizzas": 0,
+            "pizzas": 2,
             "allies": [
                 {
                     "color": 12133220,
-                    "bwep": 4,
-                    "wep": "buckshot_pistol",
-                    "race": "horsie",
+                    "bwep": 60,
+                    "wep": "Spreader",
+                    "race": 2,
                     "skin": 0,
                     "alias": "Lee-Mon"
                 }
             ],
-            "bwep": 4,
-            "wep": "buckshot_pistol",
-            "ultras": [ ],
-            "hard": 3,
-            "loop": 0,
-            "mutations": [
-                "Ruffled Feathers",
-                "Mimicry"
+            "bwep": 60,
+            "wep": "Spreader",
+            "ultras": [
+                [
+                    2,
+                    2
+                ]
             ],
-            "crown": false,
-            "area": 1,
+            "hard": 44,
+            "loop": 2,
+            "mutations": [
+                23,
+                25,
+                11,
+                27,
+                "Slim Pickings",
+                "Shivering Spine",
+                "Telekinetic Tears",
+                "Sloppy Fingers",
+                10,
+                3,
+                "Thick Head",
+                "Groupthink",
+                "Explosive Gaze"
+            ],
+            "crown": 10,
+            "area": 3,
             "skin": 0
         }
     ]
