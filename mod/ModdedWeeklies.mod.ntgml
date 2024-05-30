@@ -210,6 +210,7 @@ if "mods" in get_current_data() {
 		if string_load("../../mods/WeeklyMods/" + self.name + "/version.txt") == string(self.url) + string(global.currentDate) && file_exists("../../mods/WeeklyMods/" + self.name + "/main.txt") {
 			trace(name + " Already downloaded, loading!");
 			mod_loadtext("WeeklyMods/" + self.name + "/main.txt");
+			wait(2);
 			continue;
 		}
 		
@@ -1431,7 +1432,7 @@ if(fork()){
 	exit;
 }
 wait(10)
-while(global.forks >= ticket){wait(0)}
+while(global.loadticket > ticket){wait(0);}
 mod_loadtext("WeeklyMods/" + name + "/main.txt");
 
 wait(10);
