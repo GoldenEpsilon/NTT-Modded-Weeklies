@@ -1566,6 +1566,48 @@
             "crown": false,
             "area": 2,
             "skin": 0
+        },
+        {
+            "kills": 62,
+            "subarea": 1,
+            "loadout": [
+                {
+                    "color": 12133220,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "horsie",
+                    "skin": 0,
+                    "alias": "Lee-Mon"
+                }
+            ],
+            "killed_by": 7,
+            "time": 3589,
+            "race": "horsie",
+            "name": "Lee-Mon",
+            "color": 12133220,
+            "pizzas": 0,
+            "allies": [
+                {
+                    "color": 12133220,
+                    "bwep": "buckshot_pistol",
+                    "wep": "hand_spade",
+                    "race": "horsie",
+                    "skin": 0,
+                    "alias": "Lee-Mon"
+                }
+            ],
+            "bwep": "buckshot_pistol",
+            "wep": "hand_spade",
+            "ultras": [ ],
+            "hard": 4,
+            "loop": 0,
+            "mutations": [
+                3,
+                "Sadism"
+            ],
+            "crown": false,
+            "area": 2,
+            "skin": 0
         }
     ]
 }
