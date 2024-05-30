@@ -1608,6 +1608,51 @@
             "crown": false,
             "area": 2,
             "skin": 0
+        },
+        {
+            "kills": 154,
+            "subarea": 3,
+            "loadout": [
+                {
+                    "color": 12133220,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "horsie",
+                    "skin": 0,
+                    "alias": "Lee-Mon"
+                }
+            ],
+            "killed_by": 15,
+            "time": 7307,
+            "race": "horsie",
+            "name": "Lee-Mon",
+            "color": 12133220,
+            "pizzas": 0,
+            "allies": [
+                {
+                    "color": 12133220,
+                    "bwep": "va_sawed_off_duster_shotgun",
+                    "wep": "SuperShotgun",
+                    "race": "horsie",
+                    "skin": 0,
+                    "alias": "Lee-Mon"
+                }
+            ],
+            "bwep": "va_sawed_off_duster_shotgun",
+            "wep": "SuperShotgun",
+            "ultras": [ ],
+            "hard": 8,
+            "loop": 0,
+            "mutations": [
+                "Double Vision",
+                "Shattered Skull",
+                "Steel Nerves",
+                23,
+                "Ruffled Feathers"
+            ],
+            "crown": 1,
+            "area": 3,
+            "skin": 0
         }
     ]
 }
