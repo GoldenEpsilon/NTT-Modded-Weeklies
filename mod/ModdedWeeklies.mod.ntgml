@@ -205,14 +205,14 @@ if "mods" in get_current_data() {
 	global.loadticket = 0;
 	with get_current_data().mods {
 		
-		wait file_load("../../mods/WeeklyMods/" + self.name + "/version.txt");
+		/*wait file_load("../../mods/WeeklyMods/" + self.name + "/version.txt");
 		wait file_load("../../mods/WeeklyMods/" + self.name + "/main.txt");
 		if string_load("../../mods/WeeklyMods/" + self.name + "/version.txt") == string(self.url) + string(global.currentDate) && file_exists("../../mods/WeeklyMods/" + self.name + "/main.txt") {
 			trace(name + " Already downloaded, loading!");
 			mod_loadtext("WeeklyMods/" + self.name + "/main.txt");
 			wait(2);
 			continue;
-		}
+		}*/
 		
 		if(fork()){
 			global.forks++;
