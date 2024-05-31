@@ -2386,7 +2386,7 @@
             "skin": 2
         },
         {
-            "kills": 280,
+            "kills": 176,
             "loadout": [
                 {
                     "alias": "Mr. Marco",
@@ -2397,37 +2397,38 @@
                     "skin": 1
                 }
             ],
-            "subarea": 2,
+            "subarea": 3,
             "allies": [
                 {
                     "alias": "Mr. Marco",
                     "bwep": "mcleod",
-                    "wep": "va_lancer_shotgun",
+                    "wep": "va_duster_shotgun",
                     "color": 9694,
                     "race": "chester",
                     "skin": 1
                 }
             ],
             "color": 9694,
-            "time": 14727,
+            "time": 7077,
             "mutations": [
-                9,
-                "sharpteeth",
-                4,
-                "Double Vision",
-                "powderedgums",
-                "Ruffled Feathers"
+                19,
+                "Ruffled Feathers",
+                "condensedmeat",
+                "Double Vision"
             ],
             "race": "chester",
             "name": "Mr. Marco",
-            "pizzas": 1,
+            "pizzas": 0,
             "bwep": "mcleod",
-            "wep": "va_lancer_shotgun",
-            "hard": 11,
+            "wep": "va_duster_shotgun",
+            "hard": 7,
             "loop": 0,
             "crown": false,
-            "killed_by": 25,
-            "area": 5,
+            "killed_by": [
+                null,
+                "Big Sniper"
+            ],
+            "area": 3,
             "ultras": [ ],
             "skin": 1
         }
