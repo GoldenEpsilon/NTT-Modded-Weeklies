@@ -2386,7 +2386,7 @@
             "skin": 2
         },
         {
-            "kills": 282,
+            "kills": 41,
             "loadout": [
                 {
                     "alias": "Mr. Marco",
@@ -2397,40 +2397,30 @@
                     "skin": 1
                 }
             ],
-            "subarea": 3,
+            "subarea": 2,
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": "va_eekhammer",
-                    "wep": "va_flechette_shotgun",
+                    "bwep": 4,
+                    "wep": 3,
                     "color": 9694,
                     "race": "chester",
                     "skin": 1
                 }
             ],
             "color": 9694,
-            "time": 15863,
-            "mutations": [
-                "Slim Pickings",
-                "Telekinetic Tears",
-                "Shivering Spine",
-                "Shell Cellulite",
-                9,
-                17,
-                27,
-                4,
-                "Duplicators"
-            ],
+            "time": 1067,
+            "mutations": [ ],
             "race": "chester",
             "name": "Mr. Marco",
             "pizzas": 0,
-            "bwep": "va_eekhammer",
-            "wep": "va_flechette_shotgun",
-            "hard": 12,
+            "bwep": 4,
+            "wep": 3,
+            "hard": 2,
             "loop": 0,
-            "crown": "outcasts",
-            "killed_by": 27,
-            "area": 5,
+            "crown": false,
+            "killed_by": 4,
+            "area": 1,
             "ultras": [ ],
             "skin": 1
         }
