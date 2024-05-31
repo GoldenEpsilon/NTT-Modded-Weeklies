@@ -10,19 +10,9 @@
             "time": 2189.5,
             "loadout": [
                 {
+                    "alias": "Daphne",
+                    "bwep": 0,
                     "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Daphne",
-                    "race": "Printer",
-                    "color": 16737962,
-                    "skin": 1
-                }
-            ],
-            "allies": [
-                {
-                    "wep": "fire_poker",
-                    "bwep": 0,
-                    "alias": "Daphne",
                     "race": "Printer",
                     "color": 16737962,
                     "skin": 1
@@ -30,16 +20,77 @@
             ],
             "race": "Printer",
             "name": "Daphne",
+            "pizzas": 0,
             "killed_by": -1,
             "bwep": 0,
             "wep": "fire_poker",
             "hard": 3,
             "loop": 0,
             "crown": false,
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 0,
+                    "wep": "fire_poker",
+                    "race": "Printer",
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
             "color": 16737962,
             "area": 1,
             "skin": 1
+        },
+        {
+            "kills": 249,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "Staked Chest",
+                "Slim Pickings",
+                "Shocked Skin",
+                "Cranial Valve",
+                "luckyshot",
+                21,
+                26,
+                4
+            ],
+            "time": 17601,
+            "loadout": [
+                {
+                    "alias": "fakuayala859",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 2,
+            "pizzas": 0,
+            "name": "fakuayala859",
+            "killed_by": [
+                null,
+                "Titank"
+            ],
+            "bwep": 112,
+            "wep": 23,
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "fakuayala859",
+                    "wep": 23,
+                    "bwep": 112,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "area": 5,
+            "skin": 0
         }
     ]
 }
