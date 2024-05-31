@@ -2473,7 +2473,7 @@
             "skin": 0
         },
         {
-            "kills": 1601,
+            "kills": 177,
             "loadout": [
                 {
                     "alias": "Mr. Marco",
@@ -2484,46 +2484,39 @@
                     "skin": 2
                 }
             ],
-            "subarea": 1,
+            "subarea": 3,
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 60,
-                    "wep": 110,
+                    "bwep": "mcleod",
+                    "wep": 23,
                     "color": 9694,
                     "race": "chester",
                     "skin": 2
                 }
             ],
             "color": 9694,
-            "time": 41224,
+            "time": 7327,
             "mutations": [
-                "Sloppy Fingers",
-                "Shattered Skull",
+                "powderedgums",
                 "Shell Cellulite",
-                27,
-                "Alchemic Stomach",
-                "Steel Nerves",
-                "Loner",
-                "Telekinetic Tears",
-                "Thick Head"
+                4,
+                15
             ],
             "race": "chester",
             "name": "Mr. Marco",
-            "pizzas": 1,
-            "bwep": 60,
-            "wep": 110,
-            "hard": 36,
-            "loop": 2,
-            "crown": 7,
-            "killed_by": 58,
-            "area": 0,
-            "ultras": [
-                [
-                    "chester",
-                    2
-                ]
+            "pizzas": 0,
+            "bwep": "mcleod",
+            "wep": 23,
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
+            "killed_by": [
+                null,
+                "Big Sniper"
             ],
+            "area": 3,
+            "ultras": [ ],
             "skin": 2
         }
     ]
