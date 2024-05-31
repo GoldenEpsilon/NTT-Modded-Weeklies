@@ -2473,7 +2473,7 @@
             "skin": 0
         },
         {
-            "kills": 1095,
+            "kills": 236,
             "loadout": [
                 {
                     "alias": "Mr. Marco",
@@ -2488,43 +2488,36 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": "SuperShotgun",
-                    "wep": 92,
+                    "bwep": "va_duster_shotgun",
+                    "wep": "va_martial_shortsword",
                     "color": 9694,
                     "race": "chester",
                     "skin": 1
                 }
             ],
             "color": 9694,
-            "time": 42237,
+            "time": 9197,
             "mutations": [
-                2,
-                12,
-                15,
                 "Shattered Skull",
-                "Pressurized Lungs",
-                "Slim Pickings",
-                "Cranial Valve",
-                "Bursted Chest",
-                "flamingpalms",
-                "Garment Regenerator"
+                25,
+                14,
+                9,
+                4
             ],
             "race": "chester",
             "name": "Mr. Marco",
-            "pizzas": 1,
-            "bwep": "SuperShotgun",
-            "wep": 92,
-            "hard": 30,
-            "loop": 1,
-            "crown": "chest",
-            "killed_by": 53,
-            "area": 5,
-            "ultras": [
-                [
-                    "chester",
-                    2
-                ]
+            "pizzas": 0,
+            "bwep": "va_duster_shotgun",
+            "wep": "va_martial_shortsword",
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
+            "killed_by": [
+                null,
+                "Big Sniper"
             ],
+            "area": 3,
+            "ultras": [ ],
             "skin": 1
         }
     ]
