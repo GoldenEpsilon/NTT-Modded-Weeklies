@@ -2473,7 +2473,7 @@
             "skin": 0
         },
         {
-            "kills": 236,
+            "kills": 905,
             "loadout": [
                 {
                     "alias": "Mr. Marco",
@@ -2488,36 +2488,47 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": "va_duster_shotgun",
-                    "wep": "va_martial_shortsword",
+                    "bwep": "mcleod",
+                    "wep": 76,
                     "color": 9694,
                     "race": "chester",
                     "skin": 1
                 }
             ],
             "color": 9694,
-            "time": 9197,
+            "time": 32380,
             "mutations": [
-                "Shattered Skull",
-                25,
-                14,
-                9,
-                4
+                7,
+                27,
+                10,
+                "Slim Pickings",
+                "Shocked Skin",
+                "Telekinetic Tears",
+                "Shell Cellulite",
+                "Double Vision",
+                "Loner",
+                "Shivering Spine",
+                "Mimicry"
             ],
             "race": "chester",
             "name": "Mr. Marco",
-            "pizzas": 0,
-            "bwep": "va_duster_shotgun",
-            "wep": "va_martial_shortsword",
-            "hard": 7,
-            "loop": 0,
-            "crown": false,
+            "pizzas": 1,
+            "bwep": "mcleod",
+            "wep": 76,
+            "hard": 27,
+            "loop": 1,
+            "crown": 7,
             "killed_by": [
                 null,
                 "Big Sniper"
             ],
             "area": 3,
-            "ultras": [ ],
+            "ultras": [
+                [
+                    "chester",
+                    2
+                ]
+            ],
             "skin": 1
         }
     ]
