@@ -2473,7 +2473,7 @@
             "skin": 0
         },
         {
-            "kills": 156,
+            "kills": 942,
             "loadout": [
                 {
                     "alias": "Mr. Marco",
@@ -2488,35 +2488,44 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 13,
-                    "wep": 38,
+                    "bwep": "mcleod",
+                    "wep": "Tsunami",
                     "color": 9694,
                     "race": "chester",
                     "skin": 2
                 }
             ],
             "color": 9694,
-            "time": 8091,
+            "time": 23561,
             "mutations": [
-                "Pressurized Lungs",
-                15,
-                14,
-                12
+                "Slim Pickings",
+                "Telekinetic Tears",
+                "Cranial Valve",
+                11,
+                4,
+                "excitedneurons",
+                26,
+                "Loner",
+                "Shivering Spine",
+                "Shell Cellulite",
+                "Double Vision"
             ],
             "race": "chester",
             "name": "Mr. Marco",
             "pizzas": 0,
-            "bwep": 13,
-            "wep": 38,
-            "hard": 7,
-            "loop": 0,
-            "crown": false,
-            "killed_by": [
-                null,
-                "Big Sniper"
+            "bwep": "mcleod",
+            "wep": "Tsunami",
+            "hard": 20,
+            "loop": 1,
+            "crown": 7,
+            "killed_by": 94,
+            "area": 1,
+            "ultras": [
+                [
+                    "chester",
+                    2
+                ]
             ],
-            "area": 3,
-            "ultras": [ ],
             "skin": 2
         }
     ]
