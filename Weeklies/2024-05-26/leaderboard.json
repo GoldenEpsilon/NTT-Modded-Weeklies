@@ -2386,7 +2386,7 @@
             "skin": 2
         },
         {
-            "kills": 41,
+            "kills": 98,
             "loadout": [
                 {
                     "alias": "Mr. Marco",
@@ -2397,30 +2397,36 @@
                     "skin": 1
                 }
             ],
-            "subarea": 2,
+            "subarea": 1,
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 4,
-                    "wep": 3,
+                    "bwep": 13,
+                    "wep": 71,
                     "color": 9694,
                     "race": "chester",
                     "skin": 1
                 }
             ],
             "color": 9694,
-            "time": 1067,
-            "mutations": [ ],
+            "time": 5426,
+            "mutations": [
+                "Loner",
+                "Cranial Valve",
+                11,
+                "Ruffled Feathers",
+                "condensedmeat"
+            ],
             "race": "chester",
             "name": "Mr. Marco",
             "pizzas": 0,
-            "bwep": 4,
-            "wep": 3,
-            "hard": 2,
+            "bwep": 13,
+            "wep": 71,
+            "hard": 5,
             "loop": 0,
             "crown": false,
-            "killed_by": 4,
-            "area": 1,
+            "killed_by": 0,
+            "area": 3,
             "ultras": [ ],
             "skin": 1
         }
