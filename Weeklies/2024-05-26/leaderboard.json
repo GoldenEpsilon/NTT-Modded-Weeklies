@@ -2564,18 +2564,11 @@
             "skin": 2
         },
         {
-            "kills": 208,
+            "kills": 0,
             "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                "powderedgums",
-                "Steel Nerves",
-                "Shattered Skull",
-                2,
-                "Aerodynamic Ankles",
-                "luckyshot"
-            ],
-            "time": 11278,
+            "subarea": 0,
+            "mutations": [ ],
+            "time": 0,
             "loadout": [
                 {
                     "alias": "Buczaj",
@@ -2589,24 +2582,24 @@
             "race": 11,
             "pizzas": 0,
             "name": "Buczaj",
-            "killed_by": 24,
-            "bwep": "va_marksman_rifle",
-            "wep": "va_martial_hand_axe",
-            "hard": 10,
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": "mw_ui_start",
+            "hard": 0,
             "loop": 0,
-            "crown": "outcasts",
+            "crown": 1,
             "color": 15628287,
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_martial_hand_axe",
-                    "bwep": "va_marksman_rifle",
+                    "wep": 1,
+                    "bwep": 0,
                     "race": 11,
                     "color": 15628287,
                     "skin": 0
                 }
             ],
-            "area": 5,
+            "area": 1,
             "skin": 0
         }
     ]
