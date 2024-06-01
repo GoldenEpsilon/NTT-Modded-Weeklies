@@ -3581,51 +3581,47 @@
             "skin": 0
         },
         {
-            "kills": 196,
+            "kills": 115,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 2,
             "mutations": [
-                13,
-                2,
-                3,
-                "powderedgums"
+                "Confidence",
+                9,
+                "Double Vision"
             ],
-            "time": 9298,
+            "time": 5570,
             "loadout": [
                 {
-                    "alias": "Abyss",
+                    "alias": "Dario sos",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": "scales",
-                    "color": 16431718,
-                    "skin": 1
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
                 }
             ],
-            "race": "scales",
+            "race": 2,
             "pizzas": 0,
-            "name": "Abyss",
-            "killed_by": [
-                null,
-                "Big Sniper"
-            ],
-            "bwep": 8,
-            "wep": "va_eekhammer",
-            "hard": 7,
+            "name": "Dario sos",
+            "killed_by": 15,
+            "bwep": "va_flechette_shotgun",
+            "wep": "mcleod",
+            "hard": 6,
             "loop": 0,
             "crown": false,
-            "color": 16431718,
+            "color": 16736708,
             "allies": [
                 {
-                    "alias": "Abyss",
-                    "wep": "va_eekhammer",
-                    "bwep": 8,
-                    "race": "scales",
-                    "color": 16431718,
-                    "skin": 1
+                    "alias": "Dario sos",
+                    "wep": "mcleod",
+                    "bwep": "va_flechette_shotgun",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
                 }
             ],
             "area": 3,
-            "skin": 1
+            "skin": 0
         }
     ]
 }
