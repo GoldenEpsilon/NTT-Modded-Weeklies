@@ -3467,6 +3467,45 @@
                     1
                 ]
             ]
+        },
+        {
+            "mutations": [ ],
+            "kills": 0,
+            "subarea": 0,
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Mr. Marco",
+                    "color": 9694,
+                    "race": "chester",
+                    "skin": 2
+                }
+            ],
+            "pizzas": 0,
+            "time": 0,
+            "race": "chester",
+            "name": "Mr. Marco",
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": "mw_ui_start",
+            "allies": [
+                {
+                    "bwep": 0,
+                    "wep": 4,
+                    "alias": "Mr. Marco",
+                    "color": 9694,
+                    "race": "chester",
+                    "skin": 2
+                }
+            ],
+            "hard": 0,
+            "loop": 0,
+            "color": 9694,
+            "crown": 1,
+            "area": 1,
+            "skin": 2,
+            "ultras": [ ]
         }
     ]
 }
