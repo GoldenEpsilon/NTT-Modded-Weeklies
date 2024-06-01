@@ -3581,44 +3581,48 @@
             "skin": 0
         },
         {
-            "kills": 36,
+            "kills": 107,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
-                "Ruffled Feathers"
+                18,
+                1,
+                4,
+                25,
+                "Recurrent Neural Network"
             ],
-            "time": 1323,
+            "time": 6914,
             "loadout": [
                 {
-                    "alias": "Abyss",
+                    "alias": "Dario sos",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": 6,
-                    "color": 16431718,
+                    "race": 2,
+                    "color": 16736708,
                     "skin": 0
                 }
             ],
-            "race": 6,
+            "race": 2,
             "pizzas": 0,
-            "name": "Abyss",
-            "killed_by": 0,
-            "bwep": 39,
-            "wep": 19,
-            "hard": 2,
+            "name": "Dario sos",
+            "killed_by": 15,
+            "bwep": 6,
+            "wep": 4,
+            "hard": 5,
             "loop": 0,
             "crown": false,
-            "color": 16431718,
+            "color": 16736708,
             "allies": [
                 {
-                    "alias": "Abyss",
-                    "wep": 19,
-                    "bwep": 39,
-                    "race": 6,
-                    "color": 16431718,
+                    "alias": "Dario sos",
+                    "wep": 4,
+                    "bwep": 6,
+                    "race": 2,
+                    "color": 16736708,
                     "skin": 0
                 }
             ],
-            "area": 1,
+            "area": 3,
             "skin": 0
         }
     ]
