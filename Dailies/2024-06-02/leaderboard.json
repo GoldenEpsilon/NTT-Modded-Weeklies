@@ -1,126 +1,177 @@
 {
     "scores": [
         {
-            "allies": [
-                {
-                    "alias": "Dibble",
-                    "bwep": 0,
-                    "wep": "Acro-Bat",
-                    "color": 9532927,
-                    "race": "acrobat",
-                    "skin": 0
-                }
-            ],
             "kills": 24,
             "subarea": 2,
+            "ultras": [ ],
+            "mutations": [ ],
             "time": 832,
-            "race": "acrobat",
-            "killed_by": 4,
-            "name": "Dibble",
-            "pizzas": 0,
-            "loadout": [
+            "allies": [
                 {
-                    "alias": "Dibble",
+                    "wep": "Acro-Bat",
                     "bwep": 0,
-                    "wep": "mw_ui_start",
+                    "alias": "Dibble",
                     "color": 9532927,
                     "race": "acrobat",
                     "skin": 0
                 }
             ],
+            "race": "acrobat",
+            "name": "Dibble",
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Dibble",
+                    "color": 9532927,
+                    "race": "acrobat",
+                    "skin": 0
+                }
+            ],
+            "killed_by": 4,
             "bwep": 0,
             "wep": "Acro-Bat",
-            "color": 9532927,
             "loop": 0,
             "hard": 2,
             "crown": false,
-            "ultras": [ ],
+            "pizzas": 0,
+            "color": 9532927,
             "area": 1,
-            "mutations": [ ],
             "skin": 0
         },
         {
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "wep": 3,
-                    "bwep": 1,
-                    "color": 15628287,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
             "kills": 59,
             "subarea": 3,
-            "time": 2040,
-            "race": 4,
-            "killed_by": [
-                null,
-                "Giga Maggot"
-            ],
-            "name": "Buczaj",
-            "pizzas": 0,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "color": 15628287,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "bwep": 1,
-            "wep": 3,
-            "color": 15628287,
-            "loop": 0,
-            "hard": 3,
-            "crown": false,
             "ultras": [ ],
-            "area": 1,
             "mutations": [
                 "Muscle Memory",
                 "Compressing Fist"
             ],
+            "time": 2040,
+            "allies": [
+                {
+                    "bwep": 1,
+                    "wep": 3,
+                    "alias": "Buczaj",
+                    "color": 15628287,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "race": 4,
+            "name": "Buczaj",
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Buczaj",
+                    "color": 15628287,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "killed_by": [
+                null,
+                "Giga Maggot"
+            ],
+            "bwep": 1,
+            "wep": 3,
+            "loop": 0,
+            "hard": 3,
+            "crown": false,
+            "pizzas": 0,
+            "color": 15628287,
+            "area": 1,
             "skin": 1
         },
         {
-            "allies": [
-                {
-                    "alias": "Weird lookin' dog",
-                    "wep": "Acro-Bat",
-                    "color": 16736708,
-                    "bwep": 3,
-                    "race": "acrobat",
-                    "skin": 0
-                }
-            ],
             "kills": 37,
             "subarea": 2,
+            "ultras": [ ],
+            "mutations": [ ],
             "time": 1185,
-            "killed_by": 4,
-            "race": "acrobat",
-            "name": "Weird lookin' dog",
-            "pizzas": 0,
-            "loadout": [
+            "allies": [
                 {
+                    "bwep": 3,
+                    "wep": "Acro-Bat",
                     "alias": "Weird lookin' dog",
-                    "wep": "mw_ui_start",
                     "color": 16736708,
-                    "bwep": 0,
                     "race": "acrobat",
                     "skin": 0
                 }
             ],
-            "color": 16736708,
+            "race": "acrobat",
+            "name": "Weird lookin' dog",
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Weird lookin' dog",
+                    "color": 16736708,
+                    "race": "acrobat",
+                    "skin": 0
+                }
+            ],
+            "killed_by": 4,
             "bwep": 3,
             "wep": "Acro-Bat",
             "hard": 2,
             "loop": 0,
             "crown": false,
-            "ultras": [ ],
+            "pizzas": 0,
+            "color": 16736708,
             "area": 1,
-            "mutations": [ ],
+            "skin": 0
+        },
+        {
+            "kills": 359,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "condensedmeat",
+                1,
+                "Loner",
+                "Telekinetic Tears",
+                "Slim Pickings",
+                "Free Space",
+                "Laser Focus",
+                "Shocked Skin",
+                "Shattered Skull",
+                8,
+                "excitedneurons"
+            ],
+            "time": 12587,
+            "allies": [
+                {
+                    "wep": 21,
+                    "bwep": 69,
+                    "alias": "Mr. Marco",
+                    "race": "chester",
+                    "color": 9694,
+                    "skin": 0
+                }
+            ],
+            "race": "chester",
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Mr. Marco",
+                    "race": "chester",
+                    "color": 9694,
+                    "skin": 0
+                }
+            ],
+            "name": "Mr. Marco",
+            "killed_by": 24,
+            "bwep": 69,
+            "wep": 21,
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
+            "color": 9694,
+            "pizzas": 0,
+            "area": 5,
             "skin": 0
         }
     ]
