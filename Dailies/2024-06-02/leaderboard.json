@@ -3,27 +3,17 @@
         {
             "kills": 24,
             "ultras": [ ],
-            "pizzas": 0,
             "subarea": 2,
             "mutations": [ ],
             "time": 832,
+            "pizzas": 0,
             "race": "acrobat",
             "name": "Dibble",
-            "loadout": [
-                {
-                    "alias": "Dibble",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": "acrobat",
-                    "color": 9532927,
-                    "skin": 0
-                }
-            ],
             "allies": [
                 {
                     "alias": "Dibble",
-                    "wep": "Acro-Bat",
                     "bwep": 0,
+                    "wep": "Acro-Bat",
                     "race": "acrobat",
                     "color": 9532927,
                     "skin": 0
@@ -35,9 +25,64 @@
             "hard": 2,
             "loop": 0,
             "crown": false,
+            "loadout": [
+                {
+                    "alias": "Dibble",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "acrobat",
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
             "color": 9532927,
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 59,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "Muscle Memory",
+                "Compressing Fist"
+            ],
+            "time": 2040,
+            "pizzas": 0,
+            "race": 4,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": 3,
+                    "bwep": 1,
+                    "race": 4,
+                    "color": 15628287,
+                    "skin": 1
+                }
+            ],
+            "name": "Buczaj",
+            "killed_by": [
+                null,
+                "Giga Maggot"
+            ],
+            "bwep": 1,
+            "wep": 3,
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 15628287,
+                    "skin": 1
+                }
+            ],
+            "color": 15628287,
+            "area": 1,
+            "skin": 1
         }
     ]
 }
