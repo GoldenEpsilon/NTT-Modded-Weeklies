@@ -3691,19 +3691,12 @@
             "skin": 0
         },
         {
-            "kills": 171,
+            "kills": 0,
             "ultras": [ ],
-            "subarea": 2,
-            "mutations": [
-                25,
-                27,
-                "Loner",
-                "Explosive Gaze",
-                "Steel Nerves",
-                "Mimicry"
-            ],
-            "time": 6574,
-            "pizzas": 1,
+            "subarea": 0,
+            "mutations": [ ],
+            "time": 0,
+            "pizzas": 0,
             "race": 4,
             "loadout": [
                 {
@@ -3716,24 +3709,24 @@
                 }
             ],
             "name": "Buczaj",
-            "killed_by": 16,
-            "bwep": 14,
-            "wep": "va_duster_shotgun",
-            "hard": 7,
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": "mw_ui_start",
+            "hard": 0,
             "loop": 0,
-            "crown": false,
+            "crown": 1,
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_duster_shotgun",
-                    "bwep": 14,
+                    "wep": 1,
+                    "bwep": 0,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
                 }
             ],
             "color": 15628287,
-            "area": 3,
+            "area": 1,
             "skin": 1
         }
     ]
