@@ -15,8 +15,8 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "wep": "mcleod",
                     "bwep": 12,
+                    "wep": "mcleod",
                     "color": 9694,
                     "race": 6,
                     "skin": 0
@@ -26,8 +26,8 @@
             "loadout": [
                 {
                     "alias": "Mr. Marco",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 9694,
                     "race": 6,
                     "skin": 0
@@ -64,8 +64,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": 38,
                     "wep": "mcleod",
+                    "bwep": 38,
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -75,8 +75,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -110,8 +110,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_martial_longsword",
                     "bwep": 63,
+                    "wep": "va_martial_longsword",
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -121,8 +121,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -159,8 +159,8 @@
             "allies": [
                 {
                     "alias": "Abyss",
-                    "wep": "va_martial_war_pike",
                     "bwep": 38,
+                    "wep": "va_martial_war_pike",
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -170,8 +170,8 @@
             "loadout": [
                 {
                     "alias": "Abyss",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -204,8 +204,8 @@
             "allies": [
                 {
                     "alias": "Abyss",
-                    "bwep": 21,
                     "wep": 8,
+                    "bwep": 21,
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -215,8 +215,8 @@
             "loadout": [
                 {
                     "alias": "Abyss",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -254,8 +254,8 @@
             "allies": [
                 {
                     "alias": "thecorruptedone132",
-                    "wep": 3,
                     "bwep": 55,
+                    "wep": 3,
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -265,8 +265,8 @@
             "loadout": [
                 {
                     "alias": "thecorruptedone132",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -281,103 +281,6 @@
             "crown": 4,
             "pizzas": 2,
             "color": 5243855,
-            "area": 5,
-            "skin": 0
-        },
-        {
-            "kills": 333,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                11,
-                1,
-                7,
-                "mules_kick",
-                "Arcane Arts",
-                "Duplicators",
-                23
-            ],
-            "time": 15911,
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "wep": 11,
-                    "bwep": 117,
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 2,
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Dario sos",
-            "killed_by": [
-                null,
-                "Titank"
-            ],
-            "bwep": 117,
-            "wep": 11,
-            "hard": 13,
-            "loop": 0,
-            "crown": 1,
-            "pizzas": 0,
-            "color": 16736708,
-            "area": 5,
-            "skin": 0
-        },
-        {
-            "kills": 337,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                7,
-                9,
-                "Sadism",
-                13,
-                21,
-                "sharpteeth",
-                "Compressing Fist"
-            ],
-            "time": 14376,
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 66,
-                    "wep": "SuperShotgun",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 2,
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Dario sos",
-            "killed_by": 69,
-            "bwep": 66,
-            "wep": "SuperShotgun",
-            "hard": 12,
-            "loop": 0,
-            "crown": 8,
-            "color": 16736708,
-            "pizzas": 0,
             "area": 5,
             "skin": 0
         },
@@ -405,8 +308,52 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mcleod",
                     "bwep": "AutoSuperShotgun",
+                    "wep": "mcleod",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 2,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Dario sos",
+            "killed_by": 13,
+            "bwep": "AutoSuperShotgun",
+            "wep": "mcleod",
+            "hard": 23,
+            "loop": 1,
+            "crown": 1,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 2,
+            "skin": 0
+        },
+        {
+            "kills": 214,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                23,
+                "Shell Cellulite",
+                22,
+                13
+            ],
+            "time": 8032,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": 30,
+                    "bwep": "minigun",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -424,15 +371,15 @@
                 }
             ],
             "name": "Dario sos",
-            "killed_by": 13,
-            "bwep": "AutoSuperShotgun",
-            "wep": "mcleod",
-            "hard": 23,
-            "loop": 1,
-            "crown": 1,
+            "killed_by": 15,
+            "bwep": "minigun",
+            "wep": 30,
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
             "color": 16736708,
             "pizzas": 0,
-            "area": 2,
+            "area": 3,
             "skin": 0
         }
     ]
