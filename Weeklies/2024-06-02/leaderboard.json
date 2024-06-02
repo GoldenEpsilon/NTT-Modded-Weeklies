@@ -14,8 +14,8 @@
             "time": 9888,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": 12,
+                    "wep": "mcleod",
                     "alias": "Mr. Marco",
                     "race": 6,
                     "color": 9694,
@@ -24,8 +24,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Mr. Marco",
                     "race": 6,
                     "color": 9694,
@@ -63,8 +63,8 @@
             "time": 14187.5,
             "allies": [
                 {
-                    "bwep": 38,
                     "wep": "mcleod",
+                    "bwep": 38,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -73,8 +73,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -97,9 +97,9 @@
         {
             "kills": 0,
             "ultras": [ ],
-            "subarea": 0,
+            "subarea": 1,
             "mutations": [ ],
-            "time": 0,
+            "time": 29,
             "allies": [
                 {
                     "wep": 39,
@@ -124,10 +124,10 @@
             "name": "Daphne",
             "killed_by": -1,
             "bwep": 0,
-            "wep": "mw_ui_start",
-            "hard": 0,
+            "wep": 39,
+            "hard": 1,
             "loop": 0,
-            "crown": 1,
+            "crown": false,
             "pizzas": 0,
             "color": 16737962,
             "area": 1,
