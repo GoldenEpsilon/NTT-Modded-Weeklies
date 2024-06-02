@@ -8,8 +8,52 @@
             "time": 631.5,
             "allies": [
                 {
-                    "wep": 39,
                     "bwep": 0,
+                    "wep": 39,
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "race": 6,
+            "name": "Daphne",
+            "killed_by": 0,
+            "bwep": 0,
+            "wep": 39,
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "pizzas": 0,
+            "color": 16737962,
+            "area": 1,
+            "skin": 1
+        },
+        {
+            "kills": 230,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                23,
+                13,
+                "Arcane Arts",
+                17
+            ],
+            "time": 8988,
+            "allies": [
+                {
+                    "wep": "va_martial_war_hammer",
+                    "bwep": 7,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -28,15 +72,15 @@
             ],
             "race": 6,
             "name": "Daphne",
-            "killed_by": 0,
-            "bwep": 0,
-            "wep": 39,
-            "hard": 1,
+            "killed_by": 78,
+            "bwep": 7,
+            "wep": "va_martial_war_hammer",
+            "hard": 8,
             "loop": 0,
             "crown": false,
-            "pizzas": 0,
+            "pizzas": 1,
             "color": 16737962,
-            "area": 1,
+            "area": 3,
             "skin": 1
         }
     ]
