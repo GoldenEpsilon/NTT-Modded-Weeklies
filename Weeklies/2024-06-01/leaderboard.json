@@ -16,8 +16,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 10,
                     "bwep": "minigun",
+                    "wep": 10,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -34,8 +34,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -64,8 +64,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 10,
                     "bwep": 23,
+                    "wep": 10,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -82,8 +82,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -118,8 +118,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 35,
                     "wep": 92,
+                    "bwep": 35,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -136,8 +136,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -173,8 +173,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": 46,
+                    "bwep": 0,
                     "race": 9,
                     "color": 15628287,
                     "skin": 0
@@ -191,8 +191,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 9,
                     "color": 15628287,
                     "skin": 0
@@ -222,32 +222,32 @@
             "allies": [
                 {
                     "alias": "UnK.",
-                    "wep": 10,
                     "bwep": "hyperrifle",
+                    "wep": 10,
                     "race": 10,
                     "color": 16431718,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P2",
-                    "wep": 112,
                     "bwep": 116,
+                    "wep": 112,
                     "race": 10,
                     "color": 7460113,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P3",
-                    "wep": 117,
                     "bwep": 112,
+                    "wep": 117,
                     "race": 10,
                     "color": 2697727,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P4",
-                    "wep": 76,
                     "bwep": "hyperrifle",
+                    "wep": 76,
                     "race": 10,
                     "color": 16749865,
                     "skin": 0
@@ -264,32 +264,32 @@
             "loadout": [
                 {
                     "alias": "UnK.",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 10,
                     "color": 16431718,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P2",
-                    "wep": 1,
                     "bwep": 0,
+                    "wep": 1,
                     "race": 10,
                     "color": 7460113,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P3",
-                    "wep": 1,
                     "bwep": 0,
+                    "wep": 1,
                     "race": 10,
                     "color": 2697727,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P4",
-                    "wep": 1,
                     "bwep": 0,
+                    "wep": 1,
                     "race": 10,
                     "color": 16749865,
                     "skin": 0
@@ -311,8 +311,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": 17,
                     "wep": 5,
+                    "bwep": 17,
                     "race": 6,
                     "color": 16737962,
                     "skin": 1
@@ -329,8 +329,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16737962,
                     "skin": 1
@@ -342,23 +342,19 @@
             "skin": 1
         },
         {
-            "kills": 293,
+            "kills": 71,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                "compoundelbow",
-                8,
-                "condensedmeat",
-                1,
-                14,
-                7
+                10,
+                "excitedneurons"
             ],
-            "time": 10313,
+            "time": 2453,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 6,
+                    "wep": 4,
+                    "bwep": 5,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -367,10 +363,10 @@
             "pizzas": 0,
             "race": 7,
             "name": "Chump",
-            "killed_by": 27,
-            "bwep": 6,
-            "wep": 6,
-            "hard": 12,
+            "killed_by": 10,
+            "bwep": 5,
+            "wep": 4,
+            "hard": 4,
             "loop": 0,
             "loadout": [
                 {
@@ -384,7 +380,7 @@
             ],
             "crown": 1,
             "color": 16736708,
-            "area": 5,
+            "area": 2,
             "skin": 0
         }
     ]
