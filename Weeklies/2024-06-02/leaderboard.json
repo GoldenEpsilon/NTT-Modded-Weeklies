@@ -14,8 +14,8 @@
             "time": 9888,
             "allies": [
                 {
-                    "bwep": 12,
                     "wep": "mcleod",
+                    "bwep": 12,
                     "alias": "Mr. Marco",
                     "color": 9694,
                     "race": 6,
@@ -24,8 +24,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Mr. Marco",
                     "color": 9694,
                     "race": 6,
@@ -63,8 +63,8 @@
             "time": 14187.5,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": 38,
+                    "wep": "mcleod",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -73,8 +73,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -109,8 +109,8 @@
             "time": 12520,
             "allies": [
                 {
-                    "bwep": 63,
                     "wep": "va_martial_longsword",
+                    "bwep": 63,
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -119,8 +119,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -158,8 +158,8 @@
             "time": 12230,
             "allies": [
                 {
-                    "bwep": 38,
                     "wep": "va_martial_war_pike",
+                    "bwep": 38,
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -168,8 +168,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -203,8 +203,8 @@
             "time": 10445,
             "allies": [
                 {
-                    "wep": 8,
                     "bwep": 21,
+                    "wep": 8,
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -213,8 +213,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -253,8 +253,8 @@
             "time": 36161,
             "allies": [
                 {
-                    "bwep": 55,
                     "wep": 3,
+                    "bwep": 55,
                     "alias": "thecorruptedone132",
                     "color": 5243855,
                     "race": 12,
@@ -263,8 +263,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "thecorruptedone132",
                     "color": 5243855,
                     "race": 12,
@@ -285,22 +285,15 @@
             "skin": 0
         },
         {
-            "kills": 204,
+            "kills": 0,
             "ultras": [ ],
             "subarea": 1,
-            "mutations": [
-                15,
-                11,
-                13,
-                7,
-                19,
-                "Steel Nerves"
-            ],
-            "time": 9833.5,
+            "mutations": [ ],
+            "time": 40,
             "allies": [
                 {
-                    "wep": "va_eekhammer",
-                    "bwep": 71,
+                    "wep": 39,
+                    "bwep": 0,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -319,15 +312,15 @@
             ],
             "race": 6,
             "name": "Daphne",
-            "killed_by": 25,
-            "bwep": 71,
-            "wep": "va_eekhammer",
-            "hard": 9,
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 39,
+            "hard": 1,
             "loop": 0,
             "crown": false,
             "pizzas": 0,
             "color": 16737962,
-            "area": 5,
+            "area": 1,
             "skin": 1
         }
     ]
