@@ -1,0 +1,80 @@
+{
+	"name": false,
+	"description": false,
+	"can_resubmit": false,
+	"disable_vaults": false,
+	"disable_crowns": false,
+	"seed": "Daily",
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Feels Like Vanilla",
+			"description": "16 simple but unique#vanilla-style weapons#with a wide range of#designs and functions.",
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "itch",
+			"name": "Blaacskills",
+			"description": "A set of weapon mutations#that expand the pool and#provide new meta opportunities!",
+			"color": 16711680,
+			"url": "https://blaac.itch.io/weapon-mutations"
+		},
+		{
+			"download_type": "direct",
+			"name": "LOMuts",
+			"filename": "LOMuts.zip",
+			"description": "Lots of Mutations!#What it sounds like on the tin.#Adds a third ultra#to all characters!",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/LOMuts.zip?v=new2"
+		},
+		{
+			"download_type": "itch",
+			"name": "Portalspeed",
+			"description": "When you clear a level,#get a speed boost#to get to the#next level faster!",
+			"url": "https://dragonstrive.itch.io/portalspeed"
+		},
+		{
+			"download_type": "itch",
+			"name": "Varia 10k",
+			"description": "A semi-esoteric original-character based#weapon pack that adds#over 80 wild and powerful weapons,#ranging from swords and sorcery#to hitscan and hoagies",
+			"url": "https://dragonstrive.itch.io/varia-addons"
+		},
+		{
+			"download_type": "itch",
+			"name": "B Mutation Tweaks",
+			"description": "A set of tweaks#to vanilla mutations by blaac",
+			"url": "https://blaac.itch.io/bmutations"
+		},
+		{
+			"download_type": "itch",
+			"name": "B Weapon Tweaks",
+			"description": "A bunch of QOL changes#to vanilla weapons by blaac",
+			"url": "https://blaac.itch.io/bweapons"
+		},
+		{
+			"download_type": "direct",
+			"name": "Bosses Plus",
+			"description": "Adds Giga Maggot,#Big Sniper,#and Titank is here#as a special guest!",
+			"filename": "BossesPlus.zip",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/BossesPlusWeeklies.zip"
+		},
+		{
+			"download_type": "direct",
+			"name": "Mule's Kick",
+			"filename": "Mules_Kick.zip",
+			"description": "A mutation#that adds another weapon slot!",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/Mules_Kick.zip",
+		},
+		{
+			"download_type": "direct",
+			"url": "https://github.com/13laac/misc_nt_mods/blob/main/strikes.mod.gml",
+			"filename": "strikes.mod.gml",
+			"name": "STRIKES",
+			"description": "EXPLOSIONS",
+			"color": 16711680
+		}
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": false,
+}
