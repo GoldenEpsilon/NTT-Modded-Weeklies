@@ -840,7 +840,7 @@ while (!file_loaded("ping.txt")) wait 1;
 var unixTime = real(string_load("ping.txt")) - (3600*5); //CST
 global.unixTime = unixTime;
 var unixDays = floor(unixTime/86400);
-var day = unixDays + 1; //(why +1?????)
+var day = unixDays;
 var year = 1970;
 while(day > 365 + isLeapYear(year)){
     year++;
@@ -848,8 +848,8 @@ while(day > 365 + isLeapYear(year)){
 }
 var month = 1;
 while(day > daysInMonth(month, year)){
-    month++;
     day -= daysInMonth(month, year);
+    month++;
 }
 /*trace("Unix time at Yellow's website:", unixTime);
 trace("Days since Unix Epoch:", unixDays);
