@@ -14,8 +14,8 @@
             "time": 9888,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": 12,
+                    "wep": "mcleod",
                     "alias": "Mr. Marco",
                     "race": 6,
                     "color": 9694,
@@ -24,8 +24,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Mr. Marco",
                     "race": 6,
                     "color": 9694,
@@ -63,8 +63,8 @@
             "time": 14187.5,
             "allies": [
                 {
-                    "bwep": 38,
                     "wep": "mcleod",
+                    "bwep": 38,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -73,8 +73,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -109,8 +109,56 @@
             "time": 12520,
             "allies": [
                 {
-                    "wep": "va_martial_longsword",
                     "bwep": 63,
+                    "wep": "va_martial_longsword",
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "race": 6,
+            "name": "Daphne",
+            "killed_by": [
+                null,
+                "Titank"
+            ],
+            "bwep": 63,
+            "wep": "va_martial_longsword",
+            "hard": 12,
+            "loop": 0,
+            "crown": 1,
+            "pizzas": 0,
+            "color": 16737962,
+            "area": 5,
+            "skin": 1
+        },
+        {
+            "kills": 185,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Shattered Skull",
+                "powderedgums",
+                3,
+                4,
+                5
+            ],
+            "time": 8637.5,
+            "allies": [
+                {
+                    "wep": "va_double_duster_shotgun",
+                    "bwep": 3,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -129,15 +177,12 @@
             ],
             "race": 6,
             "name": "Daphne",
-            "killed_by": [
-                null,
-                "Titank"
-            ],
-            "bwep": 63,
-            "wep": "va_martial_longsword",
-            "hard": 12,
+            "killed_by": 26,
+            "bwep": 3,
+            "wep": "va_double_duster_shotgun",
+            "hard": 9,
             "loop": 0,
-            "crown": 1,
+            "crown": false,
             "pizzas": 0,
             "color": 16737962,
             "area": 5,
