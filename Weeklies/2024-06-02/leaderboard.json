@@ -14,8 +14,18 @@
             "time": 9888,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": 12,
+                    "wep": "mcleod",
+                    "alias": "Mr. Marco",
+                    "race": 6,
+                    "color": 9694,
+                    "skin": 0
+                }
+            ],
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Mr. Marco",
                     "race": 6,
                     "color": 9694,
@@ -23,16 +33,6 @@
                 }
             ],
             "race": 6,
-            "loadout": [
-                {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Mr. Marco",
-                    "race": 6,
-                    "color": 9694,
-                    "skin": 0
-                }
-            ],
             "name": "Mr. Marco",
             "killed_by": 26,
             "bwep": 12,
@@ -63,8 +63,18 @@
             "time": 14187.5,
             "allies": [
                 {
-                    "bwep": 38,
                     "wep": "mcleod",
+                    "bwep": 38,
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -72,16 +82,6 @@
                 }
             ],
             "race": 6,
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Daphne",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 1
-                }
-            ],
             "name": "Daphne",
             "killed_by": 98,
             "bwep": 38,
@@ -95,51 +95,52 @@
             "skin": 1
         },
         {
-            "kills": 170,
+            "kills": 218,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 2,
             "mutations": [
-                "Steel Nerves",
-                23,
-                "Recurrent Neural Network",
-                "Mimicry"
+                "Loner",
+                "Cranial Valve",
+                25,
+                "Mimicry",
+                14,
+                "Shattered Skull",
+                "powderedgums",
+                2
             ],
-            "time": 10528,
+            "time": 10970.5,
             "allies": [
                 {
-                    "wep": 34,
-                    "bwep": 2,
-                    "alias": "Mr. Marco",
-                    "race": 14,
-                    "color": 9694,
-                    "skin": 0
+                    "wep": 10,
+                    "bwep": "va_gluon_rifle",
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
                 }
             ],
-            "race": 14,
             "loadout": [
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Mr. Marco",
-                    "race": 14,
-                    "color": 9694,
-                    "skin": 0
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
                 }
             ],
-            "name": "Mr. Marco",
-            "killed_by": [
-                null,
-                "Big Sniper"
-            ],
-            "bwep": 2,
-            "wep": 34,
-            "hard": 7,
+            "race": 6,
+            "name": "Daphne",
+            "killed_by": 24,
+            "bwep": "va_gluon_rifle",
+            "wep": 10,
+            "hard": 10,
             "loop": 0,
             "crown": false,
-            "color": 9694,
             "pizzas": 0,
-            "area": 3,
-            "skin": 0
+            "color": 16737962,
+            "area": 5,
+            "skin": 1
         }
     ]
 }
