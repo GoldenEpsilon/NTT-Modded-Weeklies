@@ -7,8 +7,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 19,
                     "wep": "Spreader",
+                    "bwep": 19,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -29,8 +29,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -54,8 +54,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 10,
                     "bwep": "minigun",
+                    "wep": 10,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -75,8 +75,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -94,61 +94,14 @@
             "skin": 0
         },
         {
-            "kills": 288,
-            "ultras": [ ],
-            "subarea": 1,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 12,
-                    "wep": 113,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "mutations": [
-                25,
-                11,
-                10,
-                23,
-                5,
-                "compoundelbow",
-                3
-            ],
-            "time": 13924,
-            "race": 7,
-            "name": "Chump",
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 60,
-            "pizzas": 0,
-            "bwep": 12,
-            "wep": 113,
-            "hard": 13,
-            "loop": 0,
-            "crown": 1,
-            "color": 16736708,
-            "area": 6,
-            "skin": 0
-        },
-        {
             "kills": 312,
             "ultras": [ ],
             "subarea": 3,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 10,
                     "bwep": 23,
+                    "wep": 10,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -170,8 +123,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -187,6 +140,60 @@
             "color": 16736708,
             "area": 7,
             "skin": 0
+        },
+        {
+            "kills": 3545,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "subarea": 1,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": 92,
+                    "bwep": 35,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "mutations": [
+                13,
+                23,
+                27,
+                "sharpteeth",
+                4,
+                21,
+                11,
+                25,
+                9
+            ],
+            "time": 67958,
+            "race": 6,
+            "name": "Sir Mittens IV",
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 94,
+            "pizzas": 0,
+            "bwep": 35,
+            "wep": 92,
+            "hard": 44,
+            "loop": 2,
+            "crown": 7,
+            "color": 16736708,
+            "area": 4,
+            "skin": 1
         }
     ]
 }
