@@ -14,8 +14,8 @@
             "time": 9888,
             "allies": [
                 {
-                    "bwep": 12,
                     "wep": "mcleod",
+                    "bwep": 12,
                     "alias": "Mr. Marco",
                     "race": 6,
                     "color": 9694,
@@ -24,8 +24,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Mr. Marco",
                     "race": 6,
                     "color": 9694,
@@ -63,8 +63,8 @@
             "time": 14187.5,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": 38,
+                    "wep": "mcleod",
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -73,8 +73,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -95,24 +95,22 @@
             "skin": 1
         },
         {
-            "kills": 218,
+            "kills": 275,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 3,
             "mutations": [
-                "Loner",
-                "Cranial Valve",
-                25,
-                "Mimicry",
                 14,
-                "Shattered Skull",
-                "powderedgums",
-                2
+                11,
+                "Arcane Arts",
+                17,
+                "concentration",
+                10
             ],
-            "time": 10970.5,
+            "time": 12520,
             "allies": [
                 {
-                    "wep": 10,
-                    "bwep": "va_gluon_rifle",
+                    "wep": "va_martial_longsword",
+                    "bwep": 63,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -131,12 +129,15 @@
             ],
             "race": 6,
             "name": "Daphne",
-            "killed_by": 24,
-            "bwep": "va_gluon_rifle",
-            "wep": 10,
-            "hard": 10,
+            "killed_by": [
+                null,
+                "Titank"
+            ],
+            "bwep": 63,
+            "wep": "va_martial_longsword",
+            "hard": 12,
             "loop": 0,
-            "crown": false,
+            "crown": 1,
             "pizzas": 0,
             "color": 16737962,
             "area": 5,
