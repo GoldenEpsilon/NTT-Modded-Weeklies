@@ -1,66 +1,9 @@
 {
     "scores": [
         {
-            "kills": 354,
-            "ultras": [ ],
-            "subarea": 3,
-            "allies": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "wep": "Spreader",
-                    "bwep": 19,
-                    "race": 6,
-                    "color": 16736708,
-                    "skin": 1
-                }
-            ],
-            "mutations": [
-                17,
-                27,
-                4,
-                "sharpteeth",
-                13,
-                7,
-                11
-            ],
-            "time": 12916,
-            "race": 6,
-            "name": "Sir Mittens IV",
-            "loadout": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "color": 16736708,
-                    "skin": 1
-                }
-            ],
-            "killed_by": 27,
-            "pizzas": 1,
-            "bwep": 19,
-            "wep": "Spreader",
-            "hard": 12,
-            "loop": 0,
-            "crown": 1,
-            "color": 16736708,
-            "area": 5,
-            "skin": 1
-        },
-        {
             "kills": 312,
-            "ultras": [ ],
             "subarea": 1,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": "minigun",
-                    "wep": 10,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "ultras": [ ],
             "mutations": [
                 "powderedgums",
                 "sharpteeth",
@@ -70,24 +13,34 @@
                 10
             ],
             "time": 12268,
-            "race": 7,
-            "name": "Chump",
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
+                    "wep": 10,
+                    "bwep": "minigun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 29,
             "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "killed_by": 29,
             "bwep": "minigun",
             "wep": 10,
             "hard": 12,
             "loop": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "crown": 1,
             "color": 16736708,
             "area": 6,
@@ -95,18 +48,8 @@
         },
         {
             "kills": 312,
-            "ultras": [ ],
             "subarea": 3,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 23,
-                    "wep": 10,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "ultras": [ ],
             "mutations": [
                 11,
                 23,
@@ -118,24 +61,34 @@
                 20
             ],
             "time": 16160,
-            "race": 7,
-            "name": "Chump",
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
+                    "wep": 10,
+                    "bwep": 23,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 37,
             "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "killed_by": 37,
             "bwep": 23,
             "wep": 10,
             "hard": 15,
             "loop": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "crown": 1,
             "color": 16736708,
             "area": 7,
@@ -143,22 +96,12 @@
         },
         {
             "kills": 3545,
+            "subarea": 1,
             "ultras": [
                 [
                     6,
                     1
                 ]
-            ],
-            "subarea": 1,
-            "allies": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "wep": 92,
-                    "bwep": 35,
-                    "race": 6,
-                    "color": 16736708,
-                    "skin": 1
-                }
             ],
             "mutations": [
                 13,
@@ -172,28 +115,151 @@
                 9
             ],
             "time": 67958,
-            "race": 6,
-            "name": "Sir Mittens IV",
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
+                    "bwep": 35,
+                    "wep": 92,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
-            "killed_by": 94,
             "pizzas": 0,
+            "race": 6,
+            "name": "Sir Mittens IV",
+            "killed_by": 94,
             "bwep": 35,
             "wep": 92,
             "hard": 44,
             "loop": 2,
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
             "crown": 7,
             "color": 16736708,
             "area": 4,
             "skin": 1
+        },
+        {
+            "kills": 1009,
+            "ultras": [
+                [
+                    3,
+                    2
+                ],
+                [
+                    3,
+                    2
+                ],
+                [
+                    3,
+                    2
+                ],
+                [
+                    3,
+                    2
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                16,
+                "excitedneurons",
+                7,
+                19,
+                22,
+                1,
+                5,
+                12
+            ],
+            "time": 41676.5,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": "minigun",
+                    "bwep": 1,
+                    "race": 3,
+                    "color": 16431718,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P2",
+                    "wep": 0,
+                    "bwep": 0,
+                    "race": 3,
+                    "color": 7460113,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P3",
+                    "wep": 117,
+                    "bwep": 1,
+                    "race": 3,
+                    "color": 2697727,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P4",
+                    "wep": "minigun",
+                    "bwep": 1,
+                    "race": 3,
+                    "color": 16749865,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 0,
+            "race": 3,
+            "name": "UnK.'s P4, UnK.'s P3, UnK.'s P2, UnK.",
+            "killed_by": 21,
+            "bwep": 1,
+            "wep": "minigun",
+            "hard": 25,
+            "loop": 1,
+            "loadout": [
+                {
+                    "alias": "UnK.",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 3,
+                    "color": 16431718,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P2",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 3,
+                    "color": 7460113,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P3",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 3,
+                    "color": 2697727,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P4",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 3,
+                    "color": 16749865,
+                    "skin": 0
+                }
+            ],
+            "crown": 9,
+            "color": 16431718,
+            "area": 4,
+            "skin": 0
         }
     ]
 }
