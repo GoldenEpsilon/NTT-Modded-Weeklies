@@ -2,7 +2,19 @@
     "scores": [
         {
             "kills": 210,
+            "allies": [
+                {
+                    "alias": "Mr. Marco",
+                    "color": 9694,
+                    "bwep": 12,
+                    "wep": "mcleod",
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "subarea": 1,
+            "color": 9694,
+            "time": 9888,
             "ultras": [ ],
             "mutations": [
                 5,
@@ -11,43 +23,43 @@
                 "Duplicators",
                 2
             ],
-            "time": 9888,
-            "allies": [
-                {
-                    "bwep": 12,
-                    "wep": "mcleod",
-                    "alias": "Mr. Marco",
-                    "color": 9694,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Mr. Marco",
-                    "color": 9694,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
             "race": 6,
             "name": "Mr. Marco",
-            "killed_by": 26,
+            "pizzas": 0,
             "bwep": 12,
             "wep": "mcleod",
+            "loadout": [
+                {
+                    "alias": "Mr. Marco",
+                    "color": 9694,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "hard": 9,
             "loop": 0,
-            "pizzas": 0,
+            "killed_by": 26,
             "crown": false,
-            "color": 9694,
             "area": 5,
             "skin": 0
         },
         {
             "kills": 254,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "wep": "mcleod",
+                    "bwep": 38,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
             "subarea": 3,
+            "color": 16737962,
+            "time": 14187.5,
             "ultras": [ ],
             "mutations": [
                 "Slim Pickings",
@@ -60,43 +72,43 @@
                 17,
                 "powderedgums"
             ],
-            "time": 14187.5,
-            "allies": [
-                {
-                    "wep": "mcleod",
-                    "bwep": 38,
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "loadout": [
-                {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
             "race": 6,
             "name": "Daphne",
-            "killed_by": 98,
+            "pizzas": 0,
             "bwep": 38,
             "wep": "mcleod",
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
             "hard": 12,
             "loop": 0,
-            "pizzas": 0,
+            "killed_by": 98,
             "crown": 1,
-            "color": 16737962,
             "area": 5,
             "skin": 1
         },
         {
             "kills": 275,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "bwep": 63,
+                    "wep": "va_martial_longsword",
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
             "subarea": 3,
+            "color": 16737962,
+            "time": 12520,
             "ultras": [ ],
             "mutations": [
                 14,
@@ -106,46 +118,46 @@
                 "concentration",
                 10
             ],
-            "time": 12520,
-            "allies": [
-                {
-                    "bwep": 63,
-                    "wep": "va_martial_longsword",
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
             "race": 6,
             "name": "Daphne",
+            "pizzas": 0,
+            "bwep": 63,
+            "wep": "va_martial_longsword",
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "hard": 12,
+            "loop": 0,
             "killed_by": [
                 null,
                 "Titank"
             ],
-            "bwep": 63,
-            "wep": "va_martial_longsword",
-            "hard": 12,
-            "loop": 0,
-            "pizzas": 0,
             "crown": 1,
-            "color": 16737962,
             "area": 5,
             "skin": 1
         },
         {
             "kills": 225,
+            "allies": [
+                {
+                    "alias": "Abyss",
+                    "color": 16431718,
+                    "bwep": 38,
+                    "wep": "va_martial_war_pike",
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "subarea": 2,
+            "color": 16431718,
+            "time": 12230,
             "ultras": [ ],
             "mutations": [
                 "mules_kick",
@@ -155,43 +167,43 @@
                 "Alchemic Stomach",
                 13
             ],
-            "time": 12230,
-            "allies": [
-                {
-                    "bwep": 38,
-                    "wep": "va_martial_war_pike",
-                    "alias": "Abyss",
-                    "color": 16431718,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Abyss",
-                    "color": 16431718,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
             "race": 6,
             "name": "Abyss",
-            "killed_by": 26,
+            "pizzas": 0,
             "bwep": 38,
             "wep": "va_martial_war_pike",
+            "loadout": [
+                {
+                    "alias": "Abyss",
+                    "color": 16431718,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "hard": 10,
             "loop": 0,
-            "pizzas": 0,
+            "killed_by": 26,
             "crown": false,
-            "color": 16431718,
             "area": 5,
             "skin": 0
         },
         {
             "kills": 286,
+            "allies": [
+                {
+                    "alias": "Abyss",
+                    "color": 16431718,
+                    "wep": 8,
+                    "bwep": 21,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "subarea": 1,
+            "color": 16431718,
+            "time": 10445,
             "ultras": [ ],
             "mutations": [
                 9,
@@ -200,83 +212,77 @@
                 "Telekinetic Tears",
                 "Shocked Skin"
             ],
-            "time": 10445,
-            "allies": [
-                {
-                    "wep": 8,
-                    "bwep": 21,
-                    "alias": "Abyss",
-                    "color": 16431718,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
-            "loadout": [
-                {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Abyss",
-                    "color": 16431718,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
             "race": 6,
             "name": "Abyss",
-            "killed_by": 21,
+            "pizzas": 0,
             "bwep": 21,
             "wep": 8,
+            "loadout": [
+                {
+                    "alias": "Abyss",
+                    "color": 16431718,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "hard": 8,
             "loop": 0,
-            "pizzas": 0,
+            "killed_by": 21,
             "crown": false,
-            "color": 16431718,
             "area": 4,
             "skin": 0
         },
         {
-            "kills": 106,
-            "ultras": [ ],
-            "subarea": 0,
-            "mutations": [
-                3,
-                "Slim Pickings",
-                "Telekinetic Tears",
-                "Explosive Gaze"
-            ],
-            "time": 4994.5,
             "allies": [
                 {
+                    "alias": "thecorruptedone132",
+                    "color": 5243855,
+                    "bwep": 55,
                     "wep": 3,
-                    "bwep": 19,
-                    "alias": "Daphne",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 1
+                    "race": 12,
+                    "skin": 0
                 }
             ],
+            "kills": 1185,
+            "subarea": 1,
+            "color": 5243855,
+            "time": 36161,
+            "ultras": [
+                "Mimicry"
+            ],
+            "mutations": [
+                13,
+                "condensedmeat",
+                "Confidence",
+                8,
+                "Sloppy Fingers",
+                "Compressing Fist",
+                "mules_kick",
+                "Super Backup"
+            ],
+            "race": 12,
+            "name": "thecorruptedone132",
+            "pizzas": 2,
+            "bwep": 55,
+            "wep": 3,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
+                    "alias": "thecorruptedone132",
+                    "color": 5243855,
                     "bwep": 0,
-                    "alias": "Daphne",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 1
+                    "wep": "mw_ui_start",
+                    "race": 12,
+                    "skin": 0
                 }
             ],
-            "race": 6,
-            "name": "Daphne",
-            "killed_by": -1,
-            "bwep": 19,
-            "wep": 3,
-            "hard": 4,
-            "loop": 0,
-            "crown": false,
-            "pizzas": 0,
-            "color": 16737962,
-            "area": 102,
-            "skin": 1
+            "hard": 30,
+            "loop": 1,
+            "killed_by": 94,
+            "crown": 4,
+            "area": 5,
+            "skin": 0
         }
     ]
 }
