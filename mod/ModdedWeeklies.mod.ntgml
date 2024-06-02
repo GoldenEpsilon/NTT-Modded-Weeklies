@@ -346,60 +346,6 @@ global.canStart = true;
 global.active = true;
 
 #define game_start
-if(global.currentMode == "" || !global.active){
-	global.active = false;
-	return;
-}
-
-global.ModNames = "";
-		     
-var i = 0;
-for(i = 0; array_length(mod_get_names("mod")) > i; i++){
-	global.ModNames += mod_get_names("mod")[i]
-}
-for(i = 0; array_length(mod_get_names("weapon")) > i; i++){
-	global.ModNames += mod_get_names("weapon")[i]
-}
-for(i = 0; array_length(mod_get_names("area")) > i; i++){
-	global.ModNames += mod_get_names("area")[i]
-}
-for(i = 0; array_length(mod_get_names("crown")) > i; i++){
-	global.ModNames += mod_get_names("crown")[i]
-}
-for(i = 0; array_length(mod_get_names("race")) > i; i++){
-	global.ModNames += mod_get_names("race")[i]
-}
-for(i = 0; array_length(mod_get_names("skill")) > i; i++){
-	global.ModNames += mod_get_names("skill")[i]
-}
-for(i = 0; array_length(mod_get_names("skin")) > i; i++){
-	global.ModNames += mod_get_names("skin")[i]
-}
-
-random_set_seed(get_seed());
-game_set_seed(get_seed());
-if("disable_crowns" in get_current_data() && get_current_data().disable_crowns){
-	with(GameCont){crownpoints = -(1/0)}
-}
-if("disable_vaults" in get_current_data() && get_current_data().disable_vaults){
-	with(GameCont){vaults=100}
-}
-//room_speed = 30;
-//current_time_scale = 1;
-current_time_scale = 1/(room_speed/30);
-global.finished = false;
-if(global.start){
-	SubmitRun();
-}
-UberCont.hardmode = false;
-if(game_width == 426 && game_height != 240){
-	game_set_size(426, 240);
-}else if(game_width == 280 && game_height != 280){
-	game_set_size(280, 280);
-}else if game_width != 320 || game_height != 240 {
-	game_set_size(320, 240);
-}
-global.start = true;
 
 global.endData.alias = "";
 global.endData.data = array_create(instance_number(Player));
@@ -471,6 +417,62 @@ global.DataSubmission = {
 	"allies": global.endData.data,
 	"loadout": global.endData.initialdata,
 }
+
+if(global.currentMode == "" || !global.active){
+	global.active = false;
+	return;
+}
+
+global.ModNames = "";
+		     
+var i = 0;
+for(i = 0; array_length(mod_get_names("mod")) > i; i++){
+	global.ModNames += mod_get_names("mod")[i]
+}
+for(i = 0; array_length(mod_get_names("weapon")) > i; i++){
+	global.ModNames += mod_get_names("weapon")[i]
+}
+for(i = 0; array_length(mod_get_names("area")) > i; i++){
+	global.ModNames += mod_get_names("area")[i]
+}
+for(i = 0; array_length(mod_get_names("crown")) > i; i++){
+	global.ModNames += mod_get_names("crown")[i]
+}
+for(i = 0; array_length(mod_get_names("race")) > i; i++){
+	global.ModNames += mod_get_names("race")[i]
+}
+for(i = 0; array_length(mod_get_names("skill")) > i; i++){
+	global.ModNames += mod_get_names("skill")[i]
+}
+for(i = 0; array_length(mod_get_names("skin")) > i; i++){
+	global.ModNames += mod_get_names("skin")[i]
+}
+
+random_set_seed(get_seed());
+game_set_seed(get_seed());
+if("disable_crowns" in get_current_data() && get_current_data().disable_crowns){
+	with(GameCont){crownpoints = -(1/0)}
+}
+if("disable_vaults" in get_current_data() && get_current_data().disable_vaults){
+	with(GameCont){vaults=100}
+}
+//room_speed = 30;
+//current_time_scale = 1;
+current_time_scale = 1/(room_speed/30);
+global.finished = false;
+if(global.start){
+	SubmitRun();
+}
+UberCont.hardmode = false;
+if(game_width == 426 && game_height != 240){
+	game_set_size(426, 240);
+}else if(game_width == 280 && game_height != 280){
+	game_set_size(280, 280);
+}else if game_width != 320 || game_height != 240 {
+	game_set_size(320, 240);
+}
+global.start = true;
+
 
 #define step
 if(!global.finished && !instance_exists(Player) && global.start){
