@@ -13,18 +13,8 @@
             "time": 8988,
             "allies": [
                 {
-                    "wep": "va_martial_war_hammer",
                     "bwep": 7,
-                    "alias": "Daphne",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 1
-                }
-            ],
-            "loadout": [
-                {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
+                    "wep": "va_martial_war_hammer",
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -32,6 +22,16 @@
                 }
             ],
             "race": 6,
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
             "name": "Daphne",
             "killed_by": 78,
             "bwep": 7,
@@ -57,18 +57,8 @@
             "time": 7341,
             "allies": [
                 {
-                    "bwep": 4,
                     "wep": 20,
-                    "alias": "Mr. Marco",
-                    "race": 3,
-                    "color": 9694,
-                    "skin": 0
-                }
-            ],
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
+                    "bwep": 4,
                     "alias": "Mr. Marco",
                     "race": 3,
                     "color": 9694,
@@ -76,6 +66,16 @@
                 }
             ],
             "race": 3,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Mr. Marco",
+                    "race": 3,
+                    "color": 9694,
+                    "skin": 0
+                }
+            ],
             "name": "Mr. Marco",
             "killed_by": -1,
             "bwep": 4,
@@ -89,48 +89,49 @@
             "skin": 0
         },
         {
-            "kills": 130,
+            "kills": 210,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
-                14,
-                13,
                 5,
-                3
+                9,
+                "Mimicry",
+                "Duplicators",
+                2
             ],
-            "time": 5493.5,
+            "time": 9888,
             "allies": [
                 {
                     "wep": "mcleod",
-                    "bwep": "va_sinusoid_pistol",
-                    "alias": "Daphne",
+                    "bwep": 12,
+                    "alias": "Mr. Marco",
                     "race": 6,
-                    "color": 16737962,
-                    "skin": 1
+                    "color": 9694,
+                    "skin": 0
                 }
             ],
+            "race": 6,
             "loadout": [
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Daphne",
+                    "alias": "Mr. Marco",
                     "race": 6,
-                    "color": 16737962,
-                    "skin": 1
+                    "color": 9694,
+                    "skin": 0
                 }
             ],
-            "race": 6,
-            "name": "Daphne",
-            "killed_by": 0,
-            "bwep": "va_sinusoid_pistol",
+            "name": "Mr. Marco",
+            "killed_by": 26,
+            "bwep": 12,
             "wep": "mcleod",
-            "hard": 6,
+            "hard": 9,
             "loop": 0,
             "crown": false,
+            "color": 9694,
             "pizzas": 0,
-            "color": 16737962,
-            "area": 3,
-            "skin": 1
+            "area": 5,
+            "skin": 0
         }
     ]
 }
