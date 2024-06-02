@@ -14,8 +14,8 @@
             "time": 9888,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": 12,
+                    "wep": "mcleod",
                     "alias": "Mr. Marco",
                     "color": 9694,
                     "race": 6,
@@ -24,8 +24,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Mr. Marco",
                     "color": 9694,
                     "race": 6,
@@ -63,8 +63,8 @@
             "time": 14187.5,
             "allies": [
                 {
-                    "bwep": 38,
                     "wep": "mcleod",
+                    "bwep": 38,
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -73,8 +73,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -109,8 +109,8 @@
             "time": 12520,
             "allies": [
                 {
-                    "wep": "va_martial_longsword",
                     "bwep": 63,
+                    "wep": "va_martial_longsword",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -119,8 +119,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -158,8 +158,8 @@
             "time": 12230,
             "allies": [
                 {
-                    "wep": "va_martial_war_pike",
                     "bwep": 38,
+                    "wep": "va_martial_war_pike",
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -168,8 +168,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -203,8 +203,8 @@
             "time": 10445,
             "allies": [
                 {
-                    "bwep": 21,
                     "wep": 8,
+                    "bwep": 21,
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -213,8 +213,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -235,21 +235,20 @@
             "skin": 0
         },
         {
-            "kills": 217,
+            "kills": 106,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 0,
             "mutations": [
-                1,
-                7,
-                14,
-                "Mimicry",
-                "powderedgums"
+                3,
+                "Slim Pickings",
+                "Telekinetic Tears",
+                "Explosive Gaze"
             ],
-            "time": 10156.5,
+            "time": 4994.5,
             "allies": [
                 {
-                    "wep": "va_sinusaber",
-                    "bwep": "va_razorpop",
+                    "wep": 3,
+                    "bwep": 19,
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -268,15 +267,15 @@
             ],
             "race": 6,
             "name": "Daphne",
-            "killed_by": 18,
-            "bwep": "va_razorpop",
-            "wep": "va_sinusaber",
-            "hard": 8,
+            "killed_by": -1,
+            "bwep": 19,
+            "wep": 3,
+            "hard": 4,
             "loop": 0,
             "crown": false,
-            "pizzas": 1,
+            "pizzas": 0,
             "color": 16737962,
-            "area": 3,
+            "area": 102,
             "skin": 1
         }
     ]
