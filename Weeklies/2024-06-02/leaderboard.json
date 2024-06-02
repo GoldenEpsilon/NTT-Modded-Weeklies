@@ -14,8 +14,8 @@
             "time": 9888,
             "allies": [
                 {
-                    "bwep": 12,
                     "wep": "mcleod",
+                    "bwep": 12,
                     "alias": "Mr. Marco",
                     "color": 9694,
                     "race": 6,
@@ -24,8 +24,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Mr. Marco",
                     "color": 9694,
                     "race": 6,
@@ -63,8 +63,8 @@
             "time": 14187.5,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": 38,
+                    "wep": "mcleod",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -73,8 +73,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -109,8 +109,8 @@
             "time": 12520,
             "allies": [
                 {
-                    "bwep": 63,
                     "wep": "va_martial_longsword",
+                    "bwep": 63,
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -119,8 +119,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -158,8 +158,8 @@
             "time": 12230,
             "allies": [
                 {
-                    "bwep": 38,
                     "wep": "va_martial_war_pike",
+                    "bwep": 38,
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -168,8 +168,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -203,8 +203,8 @@
             "time": 10445,
             "allies": [
                 {
-                    "wep": 8,
                     "bwep": 21,
+                    "wep": 8,
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -213,8 +213,8 @@
             ],
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Abyss",
                     "color": 16431718,
                     "race": 6,
@@ -253,8 +253,8 @@
             "time": 36161,
             "allies": [
                 {
-                    "bwep": 55,
                     "wep": 3,
+                    "bwep": 55,
                     "alias": "thecorruptedone132",
                     "color": 5243855,
                     "race": 12,
@@ -263,8 +263,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "thecorruptedone132",
                     "color": 5243855,
                     "race": 12,
@@ -300,8 +300,8 @@
             "time": 15911,
             "allies": [
                 {
-                    "bwep": 117,
                     "wep": 11,
+                    "bwep": 117,
                     "alias": "Dario sos",
                     "race": 2,
                     "color": 16736708,
@@ -310,8 +310,8 @@
             ],
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Dario sos",
                     "race": 2,
                     "color": 16736708,
@@ -335,19 +335,21 @@
             "skin": 0
         },
         {
-            "kills": 144,
+            "kills": 210,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                13,
                 11,
-                22
+                13,
+                "concentration",
+                "Filtering Teeth",
+                7
             ],
-            "time": 7091,
+            "time": 8963.5,
             "allies": [
                 {
-                    "wep": "va_sinusoid_pistol",
-                    "bwep": "va_eekhammer",
+                    "wep": "va_martial_sawtooth_sword",
+                    "bwep": "va_sinusoid_pistol",
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -366,18 +368,15 @@
             ],
             "race": 6,
             "name": "Daphne",
-            "killed_by": [
-                null,
-                "Big Sniper"
-            ],
-            "bwep": "va_eekhammer",
-            "wep": "va_sinusoid_pistol",
-            "hard": 7,
+            "killed_by": 19,
+            "bwep": "va_sinusoid_pistol",
+            "wep": "va_martial_sawtooth_sword",
+            "hard": 8,
             "loop": 0,
             "crown": false,
             "pizzas": 0,
             "color": 16737962,
-            "area": 3,
+            "area": 4,
             "skin": 1
         }
     ]
