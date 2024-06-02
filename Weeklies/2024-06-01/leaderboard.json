@@ -7,8 +7,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "Spreader",
                     "bwep": 19,
+                    "wep": "Spreader",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -29,8 +29,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -46,6 +46,52 @@
             "color": 16736708,
             "area": 5,
             "skin": 1
+        },
+        {
+            "kills": 312,
+            "ultras": [ ],
+            "subarea": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 10,
+                    "bwep": "minigun",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "mutations": [
+                "powderedgums",
+                "sharpteeth",
+                "excitedneurons",
+                23,
+                1,
+                10
+            ],
+            "time": 12268,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 29,
+            "pizzas": 0,
+            "bwep": "minigun",
+            "wep": 10,
+            "hard": 12,
+            "loop": 0,
+            "crown": 1,
+            "color": 16736708,
+            "area": 6,
+            "skin": 0
         }
     ]
 }
