@@ -1,45 +1,6 @@
 {
     "scores": [
         {
-            "kills": 1,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [ ],
-            "time": 631.5,
-            "allies": [
-                {
-                    "bwep": 0,
-                    "wep": 39,
-                    "alias": "Daphne",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 1
-                }
-            ],
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Daphne",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 1
-                }
-            ],
-            "race": 6,
-            "name": "Daphne",
-            "killed_by": 0,
-            "bwep": 0,
-            "wep": 39,
-            "hard": 1,
-            "loop": 0,
-            "crown": false,
-            "pizzas": 0,
-            "color": 16737962,
-            "area": 1,
-            "skin": 1
-        },
-        {
             "kills": 230,
             "ultras": [ ],
             "subarea": 3,
@@ -52,18 +13,8 @@
             "time": 8988,
             "allies": [
                 {
-                    "wep": "va_martial_war_hammer",
                     "bwep": 7,
-                    "alias": "Daphne",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 1
-                }
-            ],
-            "loadout": [
-                {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
+                    "wep": "va_martial_war_hammer",
                     "alias": "Daphne",
                     "race": 6,
                     "color": 16737962,
@@ -71,6 +22,16 @@
                 }
             ],
             "race": 6,
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
             "name": "Daphne",
             "killed_by": 78,
             "bwep": 7,
@@ -82,6 +43,50 @@
             "color": 16737962,
             "area": 3,
             "skin": 1
+        },
+        {
+            "kills": 172,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                11,
+                "Scrap Arms",
+                "condensedmeat",
+                25
+            ],
+            "time": 7341,
+            "allies": [
+                {
+                    "wep": 20,
+                    "bwep": 4,
+                    "alias": "Mr. Marco",
+                    "race": 3,
+                    "color": 9694,
+                    "skin": 0
+                }
+            ],
+            "race": 3,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Mr. Marco",
+                    "race": 3,
+                    "color": 9694,
+                    "skin": 0
+                }
+            ],
+            "name": "Mr. Marco",
+            "killed_by": -1,
+            "bwep": 4,
+            "wep": 20,
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
+            "color": 9694,
+            "pizzas": 0,
+            "area": 3,
+            "skin": 0
         }
     ]
 }
