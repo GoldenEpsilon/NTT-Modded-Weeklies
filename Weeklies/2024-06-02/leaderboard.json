@@ -1,8 +1,6 @@
 {
     "scores": [
         {
-            "pizzas": 0,
-            "color": 9694,
             "kills": 210,
             "subarea": 1,
             "ultras": [ ],
@@ -14,40 +12,40 @@
                 2
             ],
             "time": 9888,
-            "race": 6,
-            "name": "Mr. Marco",
             "allies": [
                 {
-                    "color": 9694,
-                    "bwep": 12,
                     "wep": "mcleod",
+                    "bwep": 12,
                     "alias": "Mr. Marco",
+                    "color": 9694,
                     "race": 6,
                     "skin": 0
                 }
             ],
             "loadout": [
                 {
-                    "color": 9694,
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Mr. Marco",
+                    "color": 9694,
                     "race": 6,
                     "skin": 0
                 }
             ],
+            "race": 6,
+            "name": "Mr. Marco",
+            "killed_by": 26,
             "bwep": 12,
             "wep": "mcleod",
-            "killed_by": 26,
             "hard": 9,
             "loop": 0,
+            "pizzas": 0,
             "crown": false,
+            "color": 9694,
             "area": 5,
             "skin": 0
         },
         {
-            "pizzas": 0,
-            "color": 16737962,
             "kills": 254,
             "subarea": 3,
             "ultras": [ ],
@@ -63,40 +61,40 @@
                 "powderedgums"
             ],
             "time": 14187.5,
-            "race": 6,
-            "name": "Daphne",
             "allies": [
                 {
-                    "color": 16737962,
-                    "wep": "mcleod",
                     "bwep": 38,
+                    "wep": "mcleod",
                     "alias": "Daphne",
+                    "color": 16737962,
                     "race": 6,
                     "skin": 1
                 }
             ],
             "loadout": [
                 {
-                    "color": 16737962,
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Daphne",
+                    "color": 16737962,
                     "race": 6,
                     "skin": 1
                 }
             ],
+            "race": 6,
+            "name": "Daphne",
+            "killed_by": 98,
             "bwep": 38,
             "wep": "mcleod",
-            "killed_by": 98,
             "hard": 12,
             "loop": 0,
+            "pizzas": 0,
             "crown": 1,
+            "color": 16737962,
             "area": 5,
             "skin": 1
         },
         {
-            "pizzas": 0,
-            "color": 16737962,
             "kills": 275,
             "subarea": 3,
             "ultras": [ ],
@@ -109,43 +107,43 @@
                 10
             ],
             "time": 12520,
-            "race": 6,
-            "name": "Daphne",
             "allies": [
                 {
-                    "color": 16737962,
-                    "bwep": 63,
                     "wep": "va_martial_longsword",
+                    "bwep": 63,
                     "alias": "Daphne",
+                    "color": 16737962,
                     "race": 6,
                     "skin": 1
                 }
             ],
             "loadout": [
                 {
-                    "color": 16737962,
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Daphne",
+                    "color": 16737962,
                     "race": 6,
                     "skin": 1
                 }
             ],
-            "bwep": 63,
-            "wep": "va_martial_longsword",
+            "race": 6,
+            "name": "Daphne",
             "killed_by": [
                 null,
                 "Titank"
             ],
+            "bwep": 63,
+            "wep": "va_martial_longsword",
             "hard": 12,
             "loop": 0,
+            "pizzas": 0,
             "crown": 1,
+            "color": 16737962,
             "area": 5,
             "skin": 1
         },
         {
-            "color": 16431718,
-            "pizzas": 0,
             "kills": 225,
             "subarea": 2,
             "ultras": [ ],
@@ -158,36 +156,82 @@
                 13
             ],
             "time": 12230,
-            "race": 6,
-            "name": "Abyss",
             "allies": [
                 {
-                    "color": 16431718,
-                    "bwep": 38,
                     "wep": "va_martial_war_pike",
+                    "bwep": 38,
                     "alias": "Abyss",
+                    "color": 16431718,
                     "race": 6,
                     "skin": 0
                 }
             ],
             "loadout": [
                 {
-                    "color": 16431718,
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Abyss",
+                    "color": 16431718,
                     "race": 6,
                     "skin": 0
                 }
             ],
+            "race": 6,
+            "name": "Abyss",
+            "killed_by": 26,
             "bwep": 38,
             "wep": "va_martial_war_pike",
-            "killed_by": 26,
             "hard": 10,
             "loop": 0,
+            "pizzas": 0,
             "crown": false,
+            "color": 16431718,
             "area": 5,
             "skin": 0
+        },
+        {
+            "kills": 117,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                9,
+                23,
+                "Precision Incision",
+                "Steel Nerves"
+            ],
+            "time": 6973,
+            "allies": [
+                {
+                    "wep": "tree_pruner",
+                    "bwep": "va_double_duster_shotgun",
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Daphne",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "race": 6,
+            "name": "Daphne",
+            "killed_by": 15,
+            "bwep": "va_double_duster_shotgun",
+            "wep": "tree_pruner",
+            "hard": 6,
+            "loop": 0,
+            "crown": false,
+            "pizzas": 0,
+            "color": 16737962,
+            "area": 3,
+            "skin": 1
         }
     ]
 }
