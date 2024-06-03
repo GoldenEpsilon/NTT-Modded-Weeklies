@@ -3,6 +3,7 @@
         {
             "ultras": [ ],
             "kills": 254,
+            "subarea": 3,
             "mutations": [
                 "Slim Pickings",
                 "Shocked Skin",
@@ -14,7 +15,6 @@
                 17,
                 "powderedgums"
             ],
-            "subarea": 3,
             "pizzas": 0,
             "time": 14187.5,
             "race": 6,
@@ -52,6 +52,7 @@
         {
             "ultras": [ ],
             "kills": 275,
+            "subarea": 3,
             "mutations": [
                 14,
                 11,
@@ -60,7 +61,6 @@
                 "concentration",
                 10
             ],
-            "subarea": 3,
             "pizzas": 0,
             "time": 12520,
             "race": 6,
@@ -101,6 +101,7 @@
         {
             "ultras": [ ],
             "kills": 225,
+            "subarea": 2,
             "mutations": [
                 "mules_kick",
                 "Double Vision",
@@ -109,7 +110,6 @@
                 "Alchemic Stomach",
                 13
             ],
-            "subarea": 2,
             "pizzas": 0,
             "time": 12230,
             "race": 6,
@@ -147,6 +147,7 @@
         {
             "ultras": [ ],
             "kills": 286,
+            "subarea": 1,
             "mutations": [
                 9,
                 "powderedgums",
@@ -154,7 +155,6 @@
                 "Telekinetic Tears",
                 "Shocked Skin"
             ],
-            "subarea": 1,
             "pizzas": 0,
             "time": 10445,
             "race": 6,
@@ -194,6 +194,7 @@
                 "Mimicry"
             ],
             "kills": 1185,
+            "subarea": 1,
             "mutations": [
                 13,
                 "condensedmeat",
@@ -204,7 +205,6 @@
                 "mules_kick",
                 "Super Backup"
             ],
-            "subarea": 1,
             "pizzas": 2,
             "time": 36161,
             "race": 12,
@@ -242,6 +242,7 @@
         {
             "ultras": [ ],
             "kills": 277,
+            "subarea": 3,
             "mutations": [
                 15,
                 "Ruffled Feathers",
@@ -252,7 +253,6 @@
                 10,
                 "Sadism"
             ],
-            "subarea": 3,
             "pizzas": 0,
             "time": 12660,
             "race": 2,
@@ -295,6 +295,7 @@
                 ]
             ],
             "kills": 1039,
+            "subarea": 3,
             "mutations": [
                 13,
                 23,
@@ -306,7 +307,6 @@
                 22,
                 12
             ],
-            "subarea": 3,
             "pizzas": 1,
             "time": 40027,
             "race": 2,
@@ -352,6 +352,7 @@
                 ]
             ],
             "kills": 1932,
+            "subarea": 2,
             "mutations": [
                 "powderedgums",
                 "Shattered Skull",
@@ -362,7 +363,6 @@
                 9,
                 10
             ],
-            "subarea": 2,
             "pizzas": 0,
             "time": 49261,
             "race": 6,
@@ -399,34 +399,34 @@
         },
         {
             "ultras": [ ],
-            "kills": 126,
+            "kills": 233,
             "mutations": [
-                "Compressing Fist",
-                "Slim Pickings",
-                "Telekinetic Tears",
-                "Cranial Valve",
-                "Double Vision",
-                15
+                "concentration",
+                23,
+                "powderedgums",
+                "Generative Adversarial Network",
+                "Precision Incision",
+                2
             ],
-            "subarea": 2,
+            "subarea": 3,
             "pizzas": 0,
-            "time": 7789.5,
+            "time": 15666,
             "race": 2,
             "name": "Daphne",
-            "killed_by": 17,
-            "bwep": 21,
-            "wep": "mcleod",
+            "killed_by": 25,
+            "bwep": 58,
+            "wep": "va_martial_rapier",
             "allies": [
                 {
-                    "bwep": 21,
-                    "wep": "mcleod",
+                    "bwep": 58,
+                    "wep": "va_martial_rapier",
                     "alias": "Daphne",
                     "race": 2,
-                    "skin": 0,
+                    "skin": 1,
                     "color": 16737962
                 }
             ],
-            "hard": 6,
+            "hard": 11,
             "loop": 0,
             "loadout": [
                 {
@@ -434,13 +434,13 @@
                     "wep": "mw_ui_start",
                     "alias": "Daphne",
                     "race": 2,
-                    "skin": 0,
+                    "skin": 1,
                     "color": 16737962
                 }
             ],
             "crown": false,
-            "area": 3,
-            "skin": 0,
+            "area": 5,
+            "skin": 1,
             "color": 16737962
         }
     ]
