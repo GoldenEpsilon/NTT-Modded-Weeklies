@@ -20,8 +20,8 @@
             "allies": [
                 {
                     "alias": "thecorruptedone132",
-                    "wep": 3,
                     "bwep": 55,
+                    "wep": 3,
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -39,8 +39,8 @@
             "loadout": [
                 {
                     "alias": "thecorruptedone132",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -74,8 +74,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 35,
                     "wep": "va_martial_longsword",
+                    "bwep": 35,
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -96,8 +96,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -130,8 +130,8 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 110,
                     "wep": 25,
+                    "bwep": 110,
                     "color": 9694,
                     "race": 6,
                     "skin": 0
@@ -149,8 +149,8 @@
             "loadout": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 9694,
                     "race": 6,
                     "skin": 0
@@ -180,8 +180,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "va_smartsaw_launcher",
                     "wep": "va_martial_war_axe",
+                    "bwep": "va_smartsaw_launcher",
                     "color": 16737962,
                     "race": 3,
                     "skin": 0
@@ -199,8 +199,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16737962,
                     "race": 3,
                     "skin": 0
@@ -228,8 +228,8 @@
             "allies": [
                 {
                     "alias": "Abyss",
-                    "wep": 8,
                     "bwep": "va_smartsaw_launcher",
+                    "wep": 8,
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -247,8 +247,8 @@
             "loadout": [
                 {
                     "alias": "Abyss",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -281,8 +281,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 60,
                     "wep": 33,
+                    "bwep": 60,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -300,8 +300,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -335,8 +335,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 113,
                     "bwep": 0,
+                    "wep": 113,
                     "race": 9,
                     "color": 15628287,
                     "skin": 0
@@ -354,8 +354,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 9,
                     "color": 15628287,
                     "skin": 0
@@ -366,21 +366,21 @@
             "skin": 0
         },
         {
-            "kills": 40,
+            "kills": 168,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                5,
-                "Ruffled Feathers",
-                25,
-                7
+                "va_quantum_associative_network",
+                "mules_kick",
+                1,
+                "concentration"
             ],
-            "time": 2200,
+            "time": 8012,
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_duster_shotgun",
-                    "bwep": 1,
+                    "wep": "fire_poker",
+                    "bwep": "hand_spade",
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -389,15 +389,12 @@
             "race": 4,
             "pizzas": 0,
             "name": "Buczaj",
-            "killed_by": [
-                null,
-                "GREED"
-            ],
-            "bwep": 1,
-            "wep": "va_duster_shotgun",
-            "hard": 3,
+            "killed_by": 51,
+            "bwep": "hand_spade",
+            "wep": "fire_poker",
+            "hard": 8,
             "loop": 0,
-            "crown": false,
+            "crown": "outcasts",
             "color": 15628287,
             "loadout": [
                 {
@@ -409,7 +406,7 @@
                     "skin": 1
                 }
             ],
-            "area": 1,
+            "area": 3,
             "skin": 1
         }
     ]
