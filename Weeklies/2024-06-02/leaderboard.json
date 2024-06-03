@@ -19,8 +19,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": 38,
                     "wep": "mcleod",
+                    "bwep": 38,
                     "race": 6,
                     "color": 16737962,
                     "skin": 1
@@ -31,8 +31,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16737962,
                     "skin": 1
@@ -65,8 +65,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_martial_longsword",
                     "bwep": 63,
+                    "wep": "va_martial_longsword",
                     "race": 6,
                     "color": 16737962,
                     "skin": 1
@@ -77,8 +77,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 16737962,
                     "skin": 1
@@ -118,8 +118,8 @@
             "allies": [
                 {
                     "alias": "thecorruptedone132",
-                    "wep": 3,
                     "bwep": 55,
+                    "wep": 3,
                     "race": 12,
                     "color": 5243855,
                     "skin": 0
@@ -130,8 +130,8 @@
             "loadout": [
                 {
                     "alias": "thecorruptedone132",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 12,
                     "color": 5243855,
                     "skin": 0
@@ -166,8 +166,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 5,
                     "wep": "va_bolt_caster",
+                    "bwep": 5,
                     "race": 2,
                     "color": 15628287,
                     "skin": 1
@@ -178,8 +178,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 2,
                     "color": 15628287,
                     "skin": 1
@@ -220,8 +220,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 35,
                     "wep": "va_martial_longsword",
+                    "bwep": 35,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -232,8 +232,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -276,8 +276,8 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 110,
                     "wep": 25,
+                    "bwep": 110,
                     "race": 6,
                     "color": 9694,
                     "skin": 0
@@ -288,8 +288,8 @@
             "loadout": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 9694,
                     "skin": 0
@@ -323,8 +323,8 @@
             "allies": [
                 {
                     "alias": "Abyss",
-                    "wep": "va_double_flechette_shotgun",
                     "bwep": 52,
+                    "wep": "va_double_flechette_shotgun",
                     "race": 6,
                     "color": 16431718,
                     "skin": 0
@@ -335,8 +335,8 @@
             "loadout": [
                 {
                     "alias": "Abyss",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 16431718,
                     "skin": 0
@@ -357,21 +357,18 @@
             "skin": 0
         },
         {
-            "kills": 179,
+            "kills": 84,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                "condensedmeat",
-                "Shell Cellulite",
-                "Shattered Skull",
-                "Mimicry"
+                7
             ],
-            "time": 8864,
+            "time": 2849,
             "allies": [
                 {
                     "alias": "Abyss",
-                    "wep": "va_duster_shotgun",
-                    "bwep": "mcleod",
+                    "wep": 88,
+                    "bwep": 4,
                     "race": 6,
                     "color": 16431718,
                     "skin": 0
@@ -391,16 +388,16 @@
             "name": "Abyss",
             "killed_by": [
                 null,
-                "Big Sniper"
+                "Giga Maggot"
             ],
-            "bwep": "mcleod",
-            "wep": "va_duster_shotgun",
-            "hard": 8,
+            "bwep": 4,
+            "wep": 88,
+            "hard": 3,
             "loop": 0,
-            "crown": 4,
+            "crown": false,
             "color": 16431718,
             "pizzas": 0,
-            "area": 3,
+            "area": 1,
             "skin": 0
         }
     ]
