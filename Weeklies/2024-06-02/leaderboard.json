@@ -5,7 +5,6 @@
                 "Mimicry"
             ],
             "kills": 1185,
-            "subarea": 1,
             "mutations": [
                 13,
                 "condensedmeat",
@@ -16,6 +15,7 @@
                 "mules_kick",
                 "Super Backup"
             ],
+            "subarea": 1,
             "pizzas": 2,
             "time": 36161,
             "race": 12,
@@ -53,7 +53,6 @@
         {
             "ultras": [ ],
             "kills": 277,
-            "subarea": 3,
             "mutations": [
                 15,
                 "Ruffled Feathers",
@@ -64,6 +63,7 @@
                 10,
                 "Sadism"
             ],
+            "subarea": 3,
             "pizzas": 0,
             "time": 12660,
             "race": 2,
@@ -106,7 +106,6 @@
                 ]
             ],
             "kills": 1039,
-            "subarea": 3,
             "mutations": [
                 13,
                 23,
@@ -118,6 +117,7 @@
                 22,
                 12
             ],
+            "subarea": 3,
             "pizzas": 1,
             "time": 40027,
             "race": 2,
@@ -163,7 +163,6 @@
                 ]
             ],
             "kills": 1932,
-            "subarea": 2,
             "mutations": [
                 "powderedgums",
                 "Shattered Skull",
@@ -174,6 +173,7 @@
                 9,
                 10
             ],
+            "subarea": 2,
             "pizzas": 0,
             "time": 49261,
             "race": 6,
@@ -211,7 +211,6 @@
         {
             "ultras": [ ],
             "kills": 303,
-            "subarea": 3,
             "mutations": [
                 25,
                 "Shell Cellulite",
@@ -221,6 +220,7 @@
                 3,
                 5
             ],
+            "subarea": 3,
             "pizzas": 0,
             "time": 16930,
             "race": 6,
@@ -263,7 +263,6 @@
                 "Compressing Fist"
             ],
             "kills": 467,
-            "subarea": 1,
             "mutations": [
                 27,
                 7,
@@ -274,6 +273,7 @@
                 13,
                 "Galactic Style"
             ],
+            "subarea": 1,
             "pizzas": 0,
             "time": 25561,
             "race": 3,
@@ -310,31 +310,35 @@
         },
         {
             "ultras": [ ],
-            "kills": 134,
+            "kills": 206,
             "mutations": [
-                11,
                 27,
+                1,
+                "Double Vision",
                 8
             ],
-            "subarea": 1,
+            "subarea": 3,
             "pizzas": 0,
-            "time": 4855,
+            "time": 7443,
             "race": 6,
             "name": "Daphne",
-            "killed_by": -1,
-            "bwep": 19,
-            "wep": "va_eekhammer",
+            "killed_by": [
+                null,
+                "Big Sniper"
+            ],
+            "bwep": "va_gluon_gun",
+            "wep": "mcleod",
             "allies": [
                 {
-                    "bwep": 19,
-                    "wep": "va_eekhammer",
+                    "bwep": "va_gluon_gun",
+                    "wep": "mcleod",
                     "alias": "Daphne",
                     "race": 6,
                     "skin": 1,
                     "color": 16737962
                 }
             ],
-            "hard": 4,
+            "hard": 7,
             "loop": 0,
             "loadout": [
                 {
@@ -347,7 +351,7 @@
                 }
             ],
             "crown": false,
-            "area": 2,
+            "area": 3,
             "skin": 1,
             "color": 16737962
         }
