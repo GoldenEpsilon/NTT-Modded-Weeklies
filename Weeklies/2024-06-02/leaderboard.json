@@ -1,51 +1,6 @@
 {
     "scores": [
         {
-            "kills": 210,
-            "subarea": 1,
-            "ultras": [ ],
-            "mutations": [
-                5,
-                9,
-                "Mimicry",
-                "Duplicators",
-                2
-            ],
-            "time": 9888,
-            "allies": [
-                {
-                    "bwep": 12,
-                    "wep": "mcleod",
-                    "alias": "Mr. Marco",
-                    "color": 9694,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
-            "race": 6,
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Mr. Marco",
-                    "color": 9694,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
-            "name": "Mr. Marco",
-            "killed_by": 26,
-            "bwep": 12,
-            "wep": "mcleod",
-            "hard": 9,
-            "loop": 0,
-            "crown": false,
-            "pizzas": 0,
-            "color": 9694,
-            "area": 5,
-            "skin": 0
-        },
-        {
             "kills": 254,
             "subarea": 3,
             "ultras": [ ],
@@ -63,9 +18,9 @@
             "time": 14187.5,
             "allies": [
                 {
-                    "wep": "mcleod",
-                    "bwep": 38,
                     "alias": "Daphne",
+                    "bwep": 38,
+                    "wep": "mcleod",
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -74,9 +29,9 @@
             "race": 6,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Daphne",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -109,9 +64,9 @@
             "time": 12520,
             "allies": [
                 {
-                    "bwep": 63,
-                    "wep": "va_martial_longsword",
                     "alias": "Daphne",
+                    "wep": "va_martial_longsword",
+                    "bwep": 63,
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -120,9 +75,9 @@
             "race": 6,
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -158,9 +113,9 @@
             "time": 12230,
             "allies": [
                 {
-                    "bwep": 38,
-                    "wep": "va_martial_war_pike",
                     "alias": "Abyss",
+                    "wep": "va_martial_war_pike",
+                    "bwep": 38,
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -169,9 +124,9 @@
             "race": 6,
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "Abyss",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -203,9 +158,9 @@
             "time": 10445,
             "allies": [
                 {
-                    "wep": 8,
-                    "bwep": 21,
                     "alias": "Abyss",
+                    "bwep": 21,
+                    "wep": 8,
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -214,9 +169,9 @@
             "race": 6,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Abyss",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -253,9 +208,9 @@
             "time": 36161,
             "allies": [
                 {
-                    "bwep": 55,
-                    "wep": 3,
                     "alias": "thecorruptedone132",
+                    "wep": 3,
+                    "bwep": 55,
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -264,9 +219,9 @@
             "race": 12,
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "thecorruptedone132",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -301,9 +256,9 @@
             "time": 12660,
             "allies": [
                 {
-                    "wep": "va_bolt_caster",
-                    "bwep": 5,
                     "alias": "Buczaj",
+                    "bwep": 5,
+                    "wep": "va_bolt_caster",
                     "race": 2,
                     "color": 15628287,
                     "skin": 1
@@ -312,9 +267,9 @@
             "race": 2,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Buczaj",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 15628287,
                     "skin": 1
@@ -355,9 +310,9 @@
             "time": 40027,
             "allies": [
                 {
-                    "wep": "va_martial_longsword",
-                    "bwep": 35,
                     "alias": "Dario sos",
+                    "bwep": 35,
+                    "wep": "va_martial_longsword",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -366,9 +321,9 @@
             "race": 2,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -411,9 +366,9 @@
             "time": 49261,
             "allies": [
                 {
-                    "wep": 25,
-                    "bwep": 110,
                     "alias": "Mr. Marco",
+                    "bwep": 110,
+                    "wep": 25,
                     "race": 6,
                     "color": 9694,
                     "skin": 0
@@ -422,9 +377,9 @@
             "race": 6,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Mr. Marco",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 9694,
                     "skin": 0
@@ -439,6 +394,60 @@
             "crown": 7,
             "color": 9694,
             "pizzas": 0,
+            "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 496,
+            "ultras": [
+                [
+                    2,
+                    2
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                27,
+                13,
+                25,
+                3,
+                23,
+                "Compressing Fist",
+                "excitedneurons",
+                18,
+                "Thick Head"
+            ],
+            "time": 46855,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "va_martial_longsword",
+                    "bwep": "va_amr",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 2,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Dario sos",
+            "killed_by": -1,
+            "bwep": "va_amr",
+            "wep": "va_martial_longsword",
+            "hard": 18,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "pizzas": 1,
             "area": 1,
             "skin": 0
         }
