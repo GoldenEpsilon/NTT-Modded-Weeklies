@@ -20,8 +20,8 @@
             "allies": [
                 {
                     "alias": "thecorruptedone132",
-                    "bwep": 55,
                     "wep": 3,
+                    "bwep": 55,
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -32,8 +32,8 @@
             "loadout": [
                 {
                     "alias": "thecorruptedone132",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -68,8 +68,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_bolt_caster",
                     "bwep": 5,
+                    "wep": "va_bolt_caster",
                     "color": 15628287,
                     "race": 2,
                     "skin": 1
@@ -80,8 +80,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 15628287,
                     "race": 2,
                     "skin": 1
@@ -122,8 +122,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "va_martial_longsword",
                     "bwep": 35,
+                    "wep": "va_martial_longsword",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -134,8 +134,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -178,8 +178,8 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "wep": 25,
                     "bwep": 110,
+                    "wep": 25,
                     "color": 9694,
                     "race": 6,
                     "skin": 0
@@ -190,8 +190,8 @@
             "loadout": [
                 {
                     "alias": "Mr. Marco",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 9694,
                     "race": 6,
                     "skin": 0
@@ -228,8 +228,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_martial_war_axe",
                     "bwep": "va_smartsaw_launcher",
+                    "wep": "va_martial_war_axe",
                     "color": 16737962,
                     "race": 3,
                     "skin": 0
@@ -240,8 +240,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 3,
                     "skin": 0
@@ -276,8 +276,8 @@
             "allies": [
                 {
                     "alias": "Abyss",
-                    "bwep": "va_smartsaw_launcher",
                     "wep": 8,
+                    "bwep": "va_smartsaw_launcher",
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -288,8 +288,8 @@
             "loadout": [
                 {
                     "alias": "Abyss",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -329,8 +329,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 33,
                     "bwep": 60,
+                    "wep": 33,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -341,8 +341,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -360,48 +360,57 @@
             "skin": 0
         },
         {
-            "kills": 249,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                "Staked Chest",
-                8,
-                11,
-                "Scrap Arms",
-                21
+            "kills": 474,
+            "ultras": [
+                [
+                    9,
+                    1
+                ]
             ],
-            "time": 11332,
+            "subarea": 1,
+            "mutations": [
+                27,
+                13,
+                "Mimicry",
+                "Thick Head",
+                "Double Vision",
+                "Compressing Fist",
+                "Loner",
+                "Rubber Rounds",
+                1
+            ],
+            "time": 24942,
             "allies": [
                 {
-                    "alias": "Chump",
-                    "wep": 62,
-                    "bwep": 66,
-                    "race": 7,
-                    "color": 16736708,
+                    "alias": "Buczaj",
+                    "wep": 113,
+                    "bwep": 0,
+                    "race": 9,
+                    "color": 15628287,
                     "skin": 0
                 }
             ],
-            "race": 7,
+            "race": 9,
             "loadout": [
                 {
-                    "alias": "Chump",
+                    "alias": "Buczaj",
                     "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
+                    "bwep": 0,
+                    "race": 9,
+                    "color": 15628287,
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "killed_by": 25,
-            "bwep": 66,
-            "wep": 62,
-            "hard": 11,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
+            "name": "Buczaj",
+            "killed_by": 92,
+            "bwep": 0,
+            "wep": 113,
+            "hard": 18,
+            "loop": 1,
+            "crown": "outcasts",
+            "color": 15628287,
             "pizzas": 0,
-            "area": 5,
+            "area": 1,
             "skin": 0
         }
     ]
