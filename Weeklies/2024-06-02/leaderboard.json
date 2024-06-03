@@ -20,8 +20,8 @@
             "allies": [
                 {
                     "alias": "thecorruptedone132",
-                    "bwep": 55,
                     "wep": 3,
+                    "bwep": 55,
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -32,8 +32,8 @@
             "loadout": [
                 {
                     "alias": "thecorruptedone132",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5243855,
                     "race": 12,
                     "skin": 0
@@ -68,8 +68,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_bolt_caster",
                     "bwep": 5,
+                    "wep": "va_bolt_caster",
                     "color": 15628287,
                     "race": 2,
                     "skin": 1
@@ -80,8 +80,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 15628287,
                     "race": 2,
                     "skin": 1
@@ -122,8 +122,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "va_martial_longsword",
                     "bwep": 35,
+                    "wep": "va_martial_longsword",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -134,8 +134,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -178,8 +178,8 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "wep": 25,
                     "bwep": 110,
+                    "wep": 25,
                     "color": 9694,
                     "race": 6,
                     "skin": 0
@@ -190,8 +190,8 @@
             "loadout": [
                 {
                     "alias": "Mr. Marco",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 9694,
                     "race": 6,
                     "skin": 0
@@ -228,8 +228,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_martial_war_axe",
                     "bwep": "va_smartsaw_launcher",
+                    "wep": "va_martial_war_axe",
                     "color": 16737962,
                     "race": 3,
                     "skin": 0
@@ -240,8 +240,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 3,
                     "skin": 0
@@ -276,8 +276,8 @@
             "allies": [
                 {
                     "alias": "Abyss",
-                    "bwep": "va_smartsaw_launcher",
                     "wep": 8,
+                    "bwep": "va_smartsaw_launcher",
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -288,8 +288,8 @@
             "loadout": [
                 {
                     "alias": "Abyss",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16431718,
                     "race": 6,
                     "skin": 0
@@ -329,8 +329,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 33,
                     "bwep": 60,
+                    "wep": 33,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -341,8 +341,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -360,22 +360,26 @@
             "skin": 0
         },
         {
-            "kills": 189,
+            "kills": 353,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                21,
-                11,
-                25,
-                10,
-                13
+                "compoundelbow",
+                "Slim Pickings",
+                "Disco Nose",
+                "Cruelty-Free Veganlust",
+                "Staked Chest",
+                "Ruffled Feathers",
+                "Thick Head",
+                5,
+                "Laser Focus"
             ],
-            "time": 7361,
+            "time": 12288,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "mcleod",
-                    "bwep": "va_gluon_gun",
+                    "wep": "va_razorpop",
+                    "bwep": 30,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -393,15 +397,18 @@
                 }
             ],
             "name": "Chump",
-            "killed_by": 78,
-            "bwep": "va_gluon_gun",
-            "wep": "mcleod",
-            "hard": 7,
+            "killed_by": [
+                null,
+                "THE DISCO"
+            ],
+            "bwep": 30,
+            "wep": "va_razorpop",
+            "hard": 12,
             "loop": 0,
-            "crown": false,
+            "crown": 1,
             "color": 16736708,
             "pizzas": 0,
-            "area": 3,
+            "area": 5,
             "skin": 0
         }
     ]
