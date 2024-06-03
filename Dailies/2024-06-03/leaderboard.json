@@ -1,6 +1,16 @@
 {
     "scores": [
         {
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Dibble",
+                    "race": 8,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
             "kills": 196,
             "ultras": [ ],
             "subarea": 3,
@@ -12,16 +22,6 @@
                 "Rocket Casings"
             ],
             "time": 8453,
-            "allies": [
-                {
-                    "alias": "Dibble",
-                    "wep": "smg",
-                    "bwep": 114,
-                    "race": 8,
-                    "color": 9532927,
-                    "skin": 0
-                }
-            ],
             "race": 8,
             "pizzas": 0,
             "name": "Dibble",
@@ -34,18 +34,62 @@
             "hard": 7,
             "loop": 0,
             "crown": false,
-            "color": 9532927,
-            "loadout": [
+            "allies": [
                 {
+                    "bwep": 114,
+                    "wep": "smg",
                     "alias": "Dibble",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "race": 8,
                     "color": 9532927,
                     "skin": 0
                 }
             ],
+            "color": 9532927,
             "area": 3,
+            "skin": 0
+        },
+        {
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "blaac",
+                    "race": 1,
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "kills": 87,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "sharpteeth"
+            ],
+            "time": 2315,
+            "race": 1,
+            "pizzas": 0,
+            "name": "blaac",
+            "killed_by": [
+                null,
+                "Giga Maggot"
+            ],
+            "bwep": 1,
+            "wep": 5,
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
+            "allies": [
+                {
+                    "wep": 5,
+                    "bwep": 1,
+                    "alias": "blaac",
+                    "race": 1,
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "color": 255,
+            "area": 1,
             "skin": 0
         }
     ]
