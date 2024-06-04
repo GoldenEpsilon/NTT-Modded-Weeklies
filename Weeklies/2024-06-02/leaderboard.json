@@ -587,54 +587,6 @@
             "skin": 1
         },
         {
-            "kills": 212,
-            "subarea": 1,
-            "killed_by": 55,
-            "time": 12325,
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "skin": 1,
-                    "alias": "Weird lookin' dog"
-                }
-            ],
-            "race": 7,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "bwep": 13,
-                    "wep": 7,
-                    "race": 7,
-                    "skin": 1,
-                    "alias": "Weird lookin' dog"
-                }
-            ],
-            "name": "Weird lookin' dog",
-            "color": 16736708,
-            "bwep": 13,
-            "wep": 7,
-            "ultras": [ ],
-            "hard": 9,
-            "loop": 0,
-            "mutations": [
-                "Waste Gland",
-                7,
-                "Loner",
-                "Dynamic Calves",
-                "Slim Pickings",
-                "Explosive Ears",
-                "Disco Nose",
-                2
-            ],
-            "crown": false,
-            "pizzas": 1,
-            "area": 4,
-            "skin": 1
-        },
-        {
             "kills": 213,
             "subarea": 1,
             "killed_by": 19,
@@ -677,6 +629,45 @@
             "crown": false,
             "pizzas": 1,
             "area": 4,
+            "skin": 0
+        },
+        {
+            "kills": 0,
+            "subarea": 0,
+            "killed_by": -1,
+            "time": 0,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 11,
+                    "skin": 0,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "race": 11,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": 1,
+                    "race": 11,
+                    "skin": 0,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "name": "Weird lookin' dog",
+            "color": 16736708,
+            "bwep": 0,
+            "wep": "mw_ui_start",
+            "ultras": [ ],
+            "hard": 0,
+            "loop": 0,
+            "mutations": [ ],
+            "crown": 1,
+            "pizzas": 0,
+            "area": 1,
             "skin": 0
         }
     ]
