@@ -635,10 +635,10 @@
             "skin": 1
         },
         {
-            "kills": 92,
+            "kills": 97,
             "subarea": 1,
-            "killed_by": 72,
-            "time": 3617,
+            "killed_by": 7,
+            "time": 3616,
             "loadout": [
                 {
                     "color": 16736708,
@@ -653,8 +653,8 @@
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 3,
-                    "wep": 5,
+                    "bwep": "smg",
+                    "wep": 17,
                     "race": 7,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
@@ -662,14 +662,14 @@
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": 3,
-            "wep": 5,
+            "bwep": "smg",
+            "wep": 17,
             "ultras": [ ],
             "hard": 4,
             "loop": 0,
             "mutations": [
-                "Shell Cellulite",
-                22
+                16,
+                10
             ],
             "crown": false,
             "pizzas": 0,
