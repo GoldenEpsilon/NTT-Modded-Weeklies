@@ -583,6 +583,53 @@
             "pizzas": 1,
             "area": 3,
             "skin": 1
+        },
+        {
+            "kills": 147,
+            "subarea": 2,
+            "killed_by": 72,
+            "time": 8641,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 10,
+                    "skin": 1,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "race": 10,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 6,
+                    "wep": "mcleod",
+                    "race": 10,
+                    "skin": 1,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "name": "Weird lookin' dog",
+            "color": 16736708,
+            "bwep": 6,
+            "wep": "mcleod",
+            "ultras": [ ],
+            "hard": 7,
+            "loop": 0,
+            "mutations": [
+                "Staked Chest",
+                "Arcane Arts",
+                23,
+                "Slim Pickings",
+                "Energized Intestines",
+                "Free Space",
+                "Buckshot Back"
+            ],
+            "crown": false,
+            "pizzas": 1,
+            "area": 3,
+            "skin": 1
         }
     ]
 }
