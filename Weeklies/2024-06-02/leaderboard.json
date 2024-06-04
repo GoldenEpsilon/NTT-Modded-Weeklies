@@ -635,10 +635,10 @@
             "skin": 1
         },
         {
-            "kills": 21,
-            "subarea": 1,
+            "kills": 178,
+            "subarea": 3,
             "killed_by": 72,
-            "time": 870,
+            "time": 7709,
             "loadout": [
                 {
                     "color": 16736708,
@@ -653,8 +653,8 @@
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 1,
-                    "wep": 1,
+                    "bwep": "va_double_duster_shotgun",
+                    "wep": 5,
                     "race": 7,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
@@ -662,15 +662,22 @@
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": 1,
-            "wep": 1,
+            "bwep": "va_double_duster_shotgun",
+            "wep": 5,
             "ultras": [ ],
-            "hard": 1,
+            "hard": 8,
             "loop": 0,
-            "mutations": [ ],
+            "mutations": [
+                "Muscle Memory",
+                1,
+                "Slim Pickings",
+                "Telekinetic Tears",
+                "Shocked Skin",
+                "Mimicry"
+            ],
             "crown": false,
-            "pizzas": 0,
-            "area": 1,
+            "pizzas": 1,
+            "area": 3,
             "skin": 1
         }
     ]
