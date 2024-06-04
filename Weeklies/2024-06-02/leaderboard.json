@@ -635,45 +635,46 @@
             "skin": 1
         },
         {
-            "kills": 97,
-            "subarea": 1,
-            "killed_by": 7,
-            "time": 3616,
+            "kills": 117,
+            "subarea": 2,
+            "killed_by": 72,
+            "time": 6668,
             "loadout": [
                 {
                     "color": 16736708,
-                    "bwep": 1,
+                    "bwep": 0,
                     "wep": "mw_ui_start",
-                    "race": 7,
+                    "race": 12,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
-            "race": 7,
+            "race": 12,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "smg",
-                    "wep": 17,
-                    "race": 7,
+                    "bwep": 8,
+                    "wep": 81,
+                    "race": 12,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": "smg",
-            "wep": 17,
+            "bwep": 8,
+            "wep": 81,
             "ultras": [ ],
-            "hard": 4,
+            "hard": 6,
             "loop": 0,
             "mutations": [
-                16,
-                10
+                2,
+                27,
+                "Rocket Casings"
             ],
             "crown": false,
             "pizzas": 0,
-            "area": 2,
+            "area": 3,
             "skin": 1
         }
     ]
