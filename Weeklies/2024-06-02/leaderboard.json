@@ -635,10 +635,10 @@
             "skin": 1
         },
         {
-            "kills": 38,
-            "subarea": 2,
+            "kills": 124,
+            "subarea": 1,
             "killed_by": 72,
-            "time": 1256,
+            "time": 6162,
             "loadout": [
                 {
                     "color": 16736708,
@@ -653,8 +653,8 @@
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 3,
-                    "wep": 81,
+                    "bwep": 81,
+                    "wep": "mcleod",
                     "race": 12,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
@@ -662,15 +662,19 @@
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": 3,
-            "wep": 81,
+            "bwep": 81,
+            "wep": "mcleod",
             "ultras": [ ],
-            "hard": 2,
+            "hard": 6,
             "loop": 0,
-            "mutations": [ ],
+            "mutations": [
+                7,
+                4,
+                "Ruffled Feathers"
+            ],
             "crown": false,
-            "pizzas": 0,
-            "area": 1,
+            "pizzas": 1,
+            "area": 3,
             "skin": 1
         }
     ]
