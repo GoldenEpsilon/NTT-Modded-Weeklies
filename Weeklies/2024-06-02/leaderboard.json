@@ -635,49 +635,49 @@
             "skin": 1
         },
         {
-            "kills": 132,
-            "subarea": 0,
-            "killed_by": 14,
-            "time": 4769,
+            "kills": 213,
+            "subarea": 1,
+            "killed_by": 19,
+            "time": 10178,
             "loadout": [
                 {
                     "color": 16736708,
                     "bwep": 0,
                     "wep": "mw_ui_start",
-                    "race": 5,
-                    "skin": 1,
+                    "race": 9,
+                    "skin": 0,
                     "alias": "Weird lookin' dog"
                 }
             ],
-            "race": 5,
+            "race": 9,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 17,
-                    "wep": 3,
-                    "race": 5,
-                    "skin": 1,
+                    "bwep": 5,
+                    "wep": "mcleod",
+                    "race": 9,
+                    "skin": 0,
                     "alias": "Weird lookin' dog"
                 }
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": 17,
-            "wep": 3,
+            "bwep": 5,
+            "wep": "mcleod",
             "ultras": [ ],
-            "hard": 4,
+            "hard": 9,
             "loop": 0,
             "mutations": [
-                20,
-                "Slim Pickings",
-                "Disco Nose",
-                "Bursted Chest",
-                10
+                15,
+                "Arcane Arts",
+                "Garment Regenerator",
+                28,
+                "Shattered Skull"
             ],
             "crown": false,
-            "pizzas": 0,
-            "area": 102,
-            "skin": 1
+            "pizzas": 1,
+            "area": 4,
+            "skin": 0
         }
     ]
 }
