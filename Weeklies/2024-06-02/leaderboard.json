@@ -589,48 +589,48 @@
             "skin": 1
         },
         {
-            "kills": 131,
+            "kills": 152,
             "subarea": 1,
             "killed_by": 72,
-            "time": 7432,
+            "time": 9640,
             "loadout": [
                 {
                     "color": 16736708,
                     "bwep": 0,
                     "wep": "mw_ui_start",
-                    "race": 10,
+                    "race": 6,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
-            "race": 10,
+            "race": 6,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 7,
-                    "wep": 88,
-                    "race": 10,
+                    "bwep": "va_hoagie",
+                    "wep": 6,
+                    "race": 6,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": 7,
-            "wep": 88,
+            "bwep": "va_hoagie",
+            "wep": 6,
             "ultras": [ ],
-            "hard": 6,
+            "hard": 11,
             "loop": 0,
             "mutations": [
-                "Scrap Arms",
+                "compoundelbow",
                 "Loner",
                 "Disco Nose",
-                "Mimicry",
-                13
+                "Absorbing Abs",
+                "Scrap Arms"
             ],
-            "crown": false,
+            "crown": 1,
             "pizzas": 1,
-            "area": 3,
+            "area": 5,
             "skin": 1
         }
     ]
