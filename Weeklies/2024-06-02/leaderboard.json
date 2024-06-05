@@ -689,11 +689,14 @@
             "skin": 1
         },
         {
-            "kills": 49,
-            "subarea": 2,
-            "killed_by": 72,
-            "time": 847,
-            "pizzas": 0,
+            "kills": 1290,
+            "subarea": 3,
+            "killed_by": [
+                null,
+                "Big Sniper"
+            ],
+            "time": 34494,
+            "pizzas": 2,
             "race": 7,
             "loadout": [
                 {
@@ -707,24 +710,35 @@
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": 6,
-            "wep": 1,
-            "ultras": [ ],
-            "hard": 2,
-            "loop": 0,
-            "mutations": [ ],
-            "crown": false,
+            "bwep": 22,
+            "wep": 94,
+            "ultras": [
+                "Double Vision"
+            ],
+            "hard": 27,
+            "loop": 1,
+            "mutations": [
+                14,
+                "Mimicry",
+                "compoundelbow",
+                23,
+                8,
+                10,
+                "condensedmeat",
+                "Intellect"
+            ],
+            "crown": 7,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 6,
-                    "wep": 1,
+                    "bwep": 22,
+                    "wep": 94,
                     "race": 7,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
-            "area": 1,
+            "area": 3,
             "skin": 1
         }
     ]
