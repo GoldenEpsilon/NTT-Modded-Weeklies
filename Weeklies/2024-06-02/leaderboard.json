@@ -689,11 +689,11 @@
             "skin": 1
         },
         {
-            "kills": 198,
-            "subarea": 1,
+            "kills": 36,
+            "subarea": 2,
             "killed_by": 72,
-            "time": 9104,
-            "pizzas": 1,
+            "time": 1192,
+            "pizzas": 0,
             "race": 7,
             "loadout": [
                 {
@@ -707,32 +707,26 @@
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": "va_digsaw_launcher",
-            "wep": "va_double_duster_shotgun",
+            "bwep": 1,
+            "wep": 1,
             "ultras": [ ],
-            "hard": 10,
+            "hard": 2,
             "loop": 0,
             "mutations": [
-                22,
-                11,
-                "Absorbing Abs",
-                "Slim Pickings",
-                "Bursted Chest",
-                "Energized Intestines",
-                23
+                22
             ],
-            "crown": 1,
+            "crown": false,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "va_digsaw_launcher",
-                    "wep": "va_double_duster_shotgun",
+                    "bwep": 1,
+                    "wep": 1,
                     "race": 7,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
-            "area": 4,
+            "area": 1,
             "skin": 1
         }
     ]
