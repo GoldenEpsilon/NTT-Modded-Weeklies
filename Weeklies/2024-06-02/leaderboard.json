@@ -542,96 +542,6 @@
             "skin": 0
         },
         {
-            "kills": 152,
-            "subarea": 1,
-            "time": 9640,
-            "killed_by": 72,
-            "pizzas": 1,
-            "race": 6,
-            "name": "Weird lookin' dog",
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "skin": 1,
-                    "alias": "Weird lookin' dog"
-                }
-            ],
-            "color": 16736708,
-            "bwep": "va_hoagie",
-            "wep": 6,
-            "ultras": [ ],
-            "hard": 11,
-            "loop": 0,
-            "mutations": [
-                "compoundelbow",
-                "Loner",
-                "Disco Nose",
-                "Absorbing Abs",
-                "Scrap Arms"
-            ],
-            "crown": 1,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "wep": 6,
-                    "bwep": "va_hoagie",
-                    "race": 6,
-                    "skin": 1,
-                    "alias": "Weird lookin' dog"
-                }
-            ],
-            "area": 5,
-            "skin": 1
-        },
-        {
-            "kills": 213,
-            "subarea": 1,
-            "time": 10178,
-            "killed_by": 19,
-            "pizzas": 1,
-            "race": 9,
-            "name": "Weird lookin' dog",
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 9,
-                    "skin": 0,
-                    "alias": "Weird lookin' dog"
-                }
-            ],
-            "color": 16736708,
-            "bwep": 5,
-            "wep": "mcleod",
-            "ultras": [ ],
-            "hard": 9,
-            "loop": 0,
-            "mutations": [
-                15,
-                "Arcane Arts",
-                "Garment Regenerator",
-                28,
-                "Shattered Skull"
-            ],
-            "crown": false,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "wep": "mcleod",
-                    "bwep": 5,
-                    "race": 9,
-                    "skin": 0,
-                    "alias": "Weird lookin' dog"
-                }
-            ],
-            "area": 4,
-            "skin": 0
-        },
-        {
             "kills": 165,
             "subarea": 3,
             "time": 8861,
@@ -776,6 +686,47 @@
                 }
             ],
             "area": 7,
+            "skin": 1
+        },
+        {
+            "kills": 30,
+            "subarea": 2,
+            "killed_by": 72,
+            "time": 1590,
+            "pizzas": 0,
+            "race": 1,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 1,
+                    "skin": 1,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "name": "Weird lookin' dog",
+            "color": 16736708,
+            "bwep": 4,
+            "wep": 19,
+            "ultras": [ ],
+            "hard": 2,
+            "loop": 0,
+            "mutations": [
+                "mules_kick"
+            ],
+            "crown": false,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 4,
+                    "wep": 19,
+                    "race": 1,
+                    "skin": 1,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "area": 1,
             "skin": 1
         }
     ]
