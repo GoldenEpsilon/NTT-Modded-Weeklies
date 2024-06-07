@@ -705,39 +705,31 @@
                     "skin": 1
                 }
             ],
-            "kills": 163,
-            "subarea": 3,
+            "kills": 10,
+            "subarea": 1,
             "ultras": [ ],
-            "mutations": [
-                1,
-                27,
-                4,
-                "Ruffled Feathers"
-            ],
-            "time": 6819,
+            "mutations": [ ],
+            "time": 200,
             "race": 6,
             "name": "Sir Mittens IV",
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 6,
-                    "wep": 17,
+                    "bwep": 0,
+                    "wep": 39,
                     "alias": "Sir Mittens IV",
                     "race": 6,
                     "skin": 1
                 }
             ],
             "pizzas": 0,
-            "bwep": 6,
-            "wep": 17,
-            "killed_by": [
-                null,
-                "Big Sniper"
-            ],
-            "hard": 7,
+            "bwep": 0,
+            "wep": 39,
+            "killed_by": -1,
+            "hard": 1,
             "loop": 0,
             "crown": false,
-            "area": 3,
+            "area": 1,
             "skin": 1
         }
     ]
