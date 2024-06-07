@@ -1,17 +1,6 @@
 {
     "scores": [
         {
-            "loadout": [
-                {
-                    "color": 5243855,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "thecorruptedone132",
-                    "race": 12,
-                    "skin": 0
-                }
-            ],
-            "color": 5243855,
             "kills": 1185,
             "subarea": 1,
             "ultras": [
@@ -28,40 +17,40 @@
                 "Super Backup"
             ],
             "time": 36161,
-            "race": 12,
-            "name": "thecorruptedone132",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 5243855,
-                    "wep": 3,
-                    "bwep": 55,
                     "alias": "thecorruptedone132",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5243855,
                     "race": 12,
                     "skin": 0
                 }
             ],
+            "race": 12,
+            "name": "thecorruptedone132",
             "pizzas": 2,
+            "killed_by": 94,
             "bwep": 55,
             "wep": 3,
-            "killed_by": 94,
             "hard": 30,
             "loop": 1,
             "crown": 4,
+            "color": 5243855,
+            "allies": [
+                {
+                    "alias": "thecorruptedone132",
+                    "bwep": 55,
+                    "wep": 3,
+                    "color": 5243855,
+                    "race": 12,
+                    "skin": 0
+                }
+            ],
             "area": 5,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 9694,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Mr. Marco",
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
-            "color": 9694,
             "kills": 1932,
             "subarea": 2,
             "ultras": [
@@ -81,40 +70,40 @@
                 10
             ],
             "time": 49261,
-            "race": 6,
-            "name": "Mr. Marco",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 9694,
-                    "bwep": 110,
-                    "wep": 25,
                     "alias": "Mr. Marco",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 9694,
                     "race": 6,
                     "skin": 0
                 }
             ],
+            "race": 6,
+            "name": "Mr. Marco",
             "pizzas": 0,
+            "killed_by": 84,
             "bwep": 110,
             "wep": 25,
-            "killed_by": 84,
             "hard": 36,
             "loop": 2,
             "crown": 7,
+            "color": 9694,
+            "allies": [
+                {
+                    "alias": "Mr. Marco",
+                    "wep": 25,
+                    "bwep": 110,
+                    "color": 9694,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "area": 1,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 16737962,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Daphne",
-                    "race": 3,
-                    "skin": 0
-                }
-            ],
-            "color": 16737962,
             "kills": 467,
             "subarea": 1,
             "ultras": [
@@ -131,40 +120,40 @@
                 "Galactic Style"
             ],
             "time": 25561,
-            "race": 3,
-            "name": "Daphne",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16737962,
-                    "bwep": "va_smartsaw_launcher",
-                    "wep": "va_martial_war_axe",
                     "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16737962,
                     "race": 3,
                     "skin": 0
                 }
             ],
+            "race": 3,
+            "name": "Daphne",
             "pizzas": 0,
+            "killed_by": 1,
             "bwep": "va_smartsaw_launcher",
             "wep": "va_martial_war_axe",
-            "killed_by": 1,
             "hard": 17,
             "loop": 1,
             "crown": false,
+            "color": 16737962,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": "va_martial_war_axe",
+                    "bwep": "va_smartsaw_launcher",
+                    "color": 16737962,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
             "area": 1,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 16431718,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Abyss",
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
-            "color": 16431718,
             "kills": 355,
             "subarea": 3,
             "ultras": [ ],
@@ -179,40 +168,40 @@
                 "Shattered Skull"
             ],
             "time": 21828,
-            "race": 6,
-            "name": "Abyss",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16431718,
-                    "wep": 8,
-                    "bwep": "va_smartsaw_launcher",
                     "alias": "Abyss",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16431718,
                     "race": 6,
                     "skin": 0
                 }
             ],
+            "race": 6,
+            "name": "Abyss",
             "pizzas": 0,
+            "killed_by": 37,
             "bwep": "va_smartsaw_launcher",
             "wep": 8,
-            "killed_by": 37,
             "hard": 17,
             "loop": 0,
             "crown": "outcasts",
+            "color": 16431718,
+            "allies": [
+                {
+                    "alias": "Abyss",
+                    "bwep": "va_smartsaw_launcher",
+                    "wep": 8,
+                    "color": 16431718,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "area": 7,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "color": 16736708,
             "kills": 1185,
             "subarea": 3,
             "ultras": [
@@ -232,40 +221,40 @@
                 3
             ],
             "time": 29789,
-            "race": 7,
-            "name": "Chump",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16736708,
-                    "bwep": 60,
-                    "wep": 33,
                     "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
                     "race": 7,
                     "skin": 0
                 }
             ],
+            "race": 7,
+            "name": "Chump",
             "pizzas": 0,
+            "killed_by": 91,
             "bwep": 60,
             "wep": 33,
-            "killed_by": 91,
             "hard": 30,
             "loop": 1,
             "crown": 1,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 33,
+                    "bwep": 60,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "area": 5,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 15628287,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Buczaj",
-                    "race": 9,
-                    "skin": 0
-                }
-            ],
-            "color": 15628287,
             "kills": 474,
             "subarea": 1,
             "ultras": [
@@ -286,40 +275,40 @@
                 1
             ],
             "time": 24942,
-            "race": 9,
-            "name": "Buczaj",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 15628287,
-                    "wep": 113,
-                    "bwep": 0,
                     "alias": "Buczaj",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 15628287,
                     "race": 9,
                     "skin": 0
                 }
             ],
+            "race": 9,
+            "name": "Buczaj",
             "pizzas": 0,
+            "killed_by": 92,
             "bwep": 0,
             "wep": 113,
-            "killed_by": 92,
             "hard": 18,
             "loop": 1,
             "crown": "outcasts",
+            "color": 15628287,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "bwep": 0,
+                    "wep": 113,
+                    "color": 15628287,
+                    "race": 9,
+                    "skin": 0
+                }
+            ],
             "area": 1,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 9532927,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Dibble",
-                    "race": 8,
-                    "skin": 0
-                }
-            ],
-            "color": 9532927,
             "kills": 754,
             "subarea": 3,
             "ultras": [
@@ -337,40 +326,40 @@
                 "Fast Food"
             ],
             "time": 37106,
-            "race": 8,
-            "name": "Dibble",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 9532927,
-                    "bwep": "minigun",
-                    "wep": "va_automagic_bolt_caster",
                     "alias": "Dibble",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 9532927,
                     "race": 8,
                     "skin": 0
                 }
             ],
+            "race": 8,
+            "name": "Dibble",
             "pizzas": 0,
+            "killed_by": 84,
             "bwep": "minigun",
             "wep": "va_automagic_bolt_caster",
-            "killed_by": 84,
             "hard": 20,
             "loop": 1,
             "crown": 13,
+            "color": 9532927,
+            "allies": [
+                {
+                    "alias": "Dibble",
+                    "wep": "va_automagic_bolt_caster",
+                    "bwep": "minigun",
+                    "color": 9532927,
+                    "race": 8,
+                    "skin": 0
+                }
+            ],
             "area": 1,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Dario sos",
-                    "race": 2,
-                    "skin": 0
-                }
-            ],
-            "color": 16736708,
             "kills": 2538,
             "subarea": 1,
             "ultras": [
@@ -392,40 +381,40 @@
                 "Double Vision"
             ],
             "time": 95850.018600000432343,
-            "race": 2,
-            "name": "Dario sos",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16736708,
-                    "bwep": "va_vorpal_zweihander",
-                    "wep": "va_pummeler",
                     "alias": "Dario sos",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708,
                     "race": 2,
                     "skin": 0
                 }
             ],
+            "race": 2,
+            "name": "Dario sos",
             "pizzas": 2,
+            "killed_by": 29,
             "bwep": "va_vorpal_zweihander",
             "wep": "va_pummeler",
-            "killed_by": 29,
             "hard": 45,
             "loop": 2,
             "crown": 1,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "va_pummeler",
+                    "bwep": "va_vorpal_zweihander",
+                    "color": 16736708,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
             "area": 4,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "fakuayala859",
-                    "race": 2,
-                    "skin": 1
-                }
-            ],
-            "color": 16736708,
             "kills": 60,
             "subarea": 3,
             "ultras": [ ],
@@ -433,40 +422,40 @@
                 "Confidence"
             ],
             "time": 2332,
-            "race": 2,
-            "name": "fakuayala859",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16736708,
-                    "bwep": "mcleod",
-                    "wep": "va_duster_shotgun",
                     "alias": "fakuayala859",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708,
                     "race": 2,
                     "skin": 1
                 }
             ],
+            "race": 2,
+            "name": "fakuayala859",
             "pizzas": 0,
+            "killed_by": 72,
             "bwep": "mcleod",
             "wep": "va_duster_shotgun",
-            "killed_by": 72,
             "hard": 3,
             "loop": 0,
             "crown": false,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "fakuayala859",
+                    "wep": "va_duster_shotgun",
+                    "bwep": "mcleod",
+                    "color": 16736708,
+                    "race": 2,
+                    "skin": 1
+                }
+            ],
             "area": 1,
             "skin": 1
         },
         {
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "fakuayala859",
-                    "race": 2,
-                    "skin": 1
-                }
-            ],
-            "color": 16736708,
             "kills": 72,
             "subarea": 3,
             "ultras": [ ],
@@ -475,40 +464,40 @@
                 21
             ],
             "time": 3136,
-            "race": 2,
-            "name": "fakuayala859",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16736708,
-                    "wep": 1,
-                    "bwep": 21,
                     "alias": "fakuayala859",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
                     "race": 2,
                     "skin": 1
                 }
             ],
+            "race": 2,
+            "name": "fakuayala859",
             "pizzas": 0,
+            "killed_by": 72,
             "bwep": 21,
             "wep": 1,
-            "killed_by": 72,
             "hard": 3,
             "loop": 0,
             "crown": false,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "fakuayala859",
+                    "bwep": 21,
+                    "wep": 1,
+                    "color": 16736708,
+                    "race": 2,
+                    "skin": 1
+                }
+            ],
             "area": 1,
             "skin": 1
         },
         {
-            "loadout": [
-                {
-                    "color": 5862689,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Dragonstrive",
-                    "race": 2,
-                    "skin": 0
-                }
-            ],
-            "color": 5862689,
             "kills": 147,
             "subarea": 2,
             "ultras": [ ],
@@ -519,40 +508,40 @@
                 16
             ],
             "time": 6453,
-            "race": 2,
-            "name": "Dragonstrive",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 5862689,
-                    "bwep": "mcleod",
-                    "wep": "smg",
                     "alias": "Dragonstrive",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5862689,
                     "race": 2,
                     "skin": 0
                 }
             ],
+            "race": 2,
+            "name": "Dragonstrive",
             "pizzas": 1,
+            "killed_by": 17,
             "bwep": "mcleod",
             "wep": "smg",
-            "killed_by": 17,
             "hard": 7,
             "loop": 0,
             "crown": false,
+            "color": 5862689,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "smg",
+                    "bwep": "mcleod",
+                    "color": 5862689,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
             "area": 3,
             "skin": 0
         },
         {
-            "loadout": [
-                {
-                    "color": 12133220,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "alias": "lee-mon",
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "color": 12133220,
             "kills": 165,
             "subarea": 3,
             "ultras": [ ],
@@ -563,40 +552,40 @@
                 "Steel Nerves"
             ],
             "time": 8861,
-            "race": 7,
-            "name": "lee-mon",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 12133220,
-                    "bwep": 66,
-                    "wep": "va_snubnose",
                     "alias": "lee-mon",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 12133220,
                     "race": 7,
                     "skin": 1
                 }
             ],
+            "race": 7,
+            "name": "lee-mon",
             "pizzas": 1,
+            "killed_by": 14,
             "bwep": 66,
             "wep": "va_snubnose",
-            "killed_by": 14,
             "hard": 9,
             "loop": 0,
             "crown": 1,
+            "color": 12133220,
+            "allies": [
+                {
+                    "alias": "lee-mon",
+                    "wep": "va_snubnose",
+                    "bwep": 66,
+                    "color": 12133220,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
             "area": 3,
             "skin": 1
         },
         {
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Sir Mittens IV",
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "color": 16736708,
             "kills": 1130,
             "subarea": 2,
             "ultras": [
@@ -618,40 +607,40 @@
                 18
             ],
             "time": 35611,
-            "race": 6,
-            "name": "Sir Mittens IV",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16736708,
-                    "bwep": 35,
-                    "wep": "va_caster_hexblade",
                     "alias": "Sir Mittens IV",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708,
                     "race": 6,
                     "skin": 1
                 }
             ],
+            "race": 6,
+            "name": "Sir Mittens IV",
             "pizzas": 1,
+            "killed_by": 92,
             "bwep": 35,
             "wep": "va_caster_hexblade",
-            "killed_by": 92,
             "hard": 26,
             "loop": 1,
             "crown": 7,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "va_caster_hexblade",
+                    "bwep": 35,
+                    "color": 16736708,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
             "area": 3,
             "skin": 1
         },
         {
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "alias": "Weird lookin' dog",
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "color": 16736708,
             "kills": 1290,
             "subarea": 3,
             "ultras": [
@@ -668,69 +657,84 @@
                 "Intellect"
             ],
             "time": 34494,
-            "race": 7,
-            "name": "Weird lookin' dog",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16736708,
-                    "wep": 94,
-                    "bwep": 22,
                     "alias": "Weird lookin' dog",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
                     "race": 7,
                     "skin": 1
                 }
             ],
+            "race": 7,
+            "name": "Weird lookin' dog",
             "pizzas": 2,
-            "bwep": 22,
-            "wep": 94,
             "killed_by": [
                 null,
                 "Big Sniper"
             ],
+            "bwep": 22,
+            "wep": 94,
             "hard": 27,
             "loop": 1,
             "crown": 7,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "Weird lookin' dog",
+                    "bwep": 22,
+                    "wep": 94,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
             "area": 3,
             "skin": 1
         },
         {
-            "color": 16736708,
+            "kills": 109,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Steel Nerves",
+                14,
+                16
+            ],
+            "time": 7090.5,
             "loadout": [
                 {
-                    "color": 16736708,
-                    "bwep": 0,
+                    "alias": "UnK.",
                     "wep": "mw_ui_start",
-                    "alias": "Sir Mittens IV",
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "kills": 10,
-            "subarea": 1,
-            "ultras": [ ],
-            "mutations": [ ],
-            "time": 200,
-            "race": 6,
-            "name": "Sir Mittens IV",
-            "allies": [
-                {
-                    "color": 16736708,
                     "bwep": 0,
-                    "wep": 39,
-                    "alias": "Sir Mittens IV",
-                    "race": 6,
-                    "skin": 1
+                    "race": 3,
+                    "color": 16431718,
+                    "skin": 0
                 }
             ],
-            "pizzas": 0,
-            "bwep": 0,
-            "wep": 39,
-            "killed_by": -1,
-            "hard": 1,
+            "race": 3,
+            "pizzas": 1,
+            "name": "UnK.",
+            "killed_by": 17,
+            "bwep": "tree_pruner",
+            "wep": 5,
+            "hard": 6,
             "loop": 0,
             "crown": false,
-            "area": 1,
-            "skin": 1
+            "color": 16431718,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 5,
+                    "bwep": "tree_pruner",
+                    "race": 3,
+                    "color": 16431718,
+                    "skin": 0
+                }
+            ],
+            "area": 3,
+            "skin": 0
         }
     ]
 }
