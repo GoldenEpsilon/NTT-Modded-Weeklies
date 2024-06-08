@@ -909,33 +909,34 @@
             "skin": 1
         },
         {
-            "kills": 106,
+            "kills": 217,
             "subarea": 2,
-            "killed_by": 59,
-            "time": 6818,
+            "killed_by": 15,
+            "time": 7940,
             "pizzas": 1,
-            "race": 1,
+            "race": 10,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 31,
-                    "wep": "va_martial_war_pike",
-                    "race": 1,
+                    "bwep": 79,
+                    "wep": "va_dustdropper",
+                    "race": 10,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": 31,
-            "wep": "va_martial_war_pike",
+            "bwep": 79,
+            "wep": "va_dustdropper",
             "ultras": [ ],
             "hard": 7,
             "loop": 0,
             "mutations": [
                 14,
-                "Staked Chest",
-                21
+                8,
+                22,
+                20
             ],
             "crown": false,
             "loadout": [
@@ -943,7 +944,7 @@
                     "color": 16736708,
                     "bwep": 0,
                     "wep": "mw_ui_start",
-                    "race": 1,
+                    "race": 10,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
                 }
