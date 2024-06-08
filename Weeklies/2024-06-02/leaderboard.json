@@ -909,17 +909,17 @@
             "skin": 1
         },
         {
-            "kills": 217,
+            "kills": 158,
             "subarea": 2,
-            "killed_by": 15,
-            "time": 7940,
+            "killed_by": 14,
+            "time": 6918,
             "pizzas": 1,
             "race": 10,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 79,
-                    "wep": "va_dustdropper",
+                    "bwep": "va_hoagie",
+                    "wep": 17,
                     "race": 10,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
@@ -927,16 +927,18 @@
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": 79,
-            "wep": "va_dustdropper",
+            "bwep": "va_hoagie",
+            "wep": 17,
             "ultras": [ ],
             "hard": 7,
             "loop": 0,
             "mutations": [
-                14,
-                8,
-                22,
-                20
+                4,
+                "Rocket Casings",
+                "Slim Pickings",
+                "Bursted Chest",
+                "Buckshot Back",
+                "Ruffled Feathers"
             ],
             "crown": false,
             "loadout": [
