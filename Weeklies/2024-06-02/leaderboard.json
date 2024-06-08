@@ -947,6 +947,48 @@
             ],
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 133,
+            "subarea": 1,
+            "killed_by": 9,
+            "time": 3642,
+            "loadout": [
+                {
+                    "color": 4517495,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 12,
+                    "skin": 0,
+                    "alias": "LaPerlis_XD"
+                }
+            ],
+            "race": 12,
+            "pizzas": 0,
+            "name": "LaPerlis_XD",
+            "color": 4517495,
+            "bwep": 4,
+            "wep": "hand_saw",
+            "ultras": [ ],
+            "hard": 4,
+            "loop": 0,
+            "mutations": [
+                "Shattered Skull",
+                14
+            ],
+            "crown": false,
+            "allies": [
+                {
+                    "color": 4517495,
+                    "bwep": 4,
+                    "wep": "hand_saw",
+                    "race": 12,
+                    "skin": 0,
+                    "alias": "LaPerlis_XD"
+                }
+            ],
+            "area": 2,
+            "skin": 0
         }
     ]
 }
