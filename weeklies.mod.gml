@@ -3,6 +3,8 @@ var _repo = "GoldenEpsilon/NTT-Modded-Weeklies";
 
 global.forks = 0;
 
+cansideload = 1;
+
 while(!mod_sideload()){wait 1;}
 
 trace_color("Downloading Modded Weeklies!", c_purple);
