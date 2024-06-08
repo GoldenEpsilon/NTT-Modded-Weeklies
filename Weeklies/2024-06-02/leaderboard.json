@@ -826,56 +826,45 @@
             "skin": 0
         },
         {
-            "kills": 611,
+            "kills": 28,
             "subarea": 2,
-            "killed_by": 72,
-            "time": 31605,
+            "killed_by": 4,
+            "time": 2600,
             "loadout": [
                 {
-                    "color": 16736708,
+                    "color": 4517495,
                     "bwep": 0,
                     "wep": "mw_ui_start",
-                    "race": 1,
-                    "skin": 1,
-                    "alias": "Weird lookin' dog"
+                    "race": 12,
+                    "skin": 0,
+                    "alias": "LaPerlis_XD"
                 }
             ],
-            "race": 1,
-            "pizzas": 1,
-            "name": "Weird lookin' dog",
-            "color": 16736708,
-            "bwep": 22,
-            "wep": 115,
-            "ultras": [
-                27
-            ],
-            "hard": 19,
-            "loop": 1,
+            "race": 12,
+            "pizzas": 0,
+            "name": "LaPerlis_XD",
+            "color": 4517495,
+            "bwep": 81,
+            "wep": 3,
+            "ultras": [ ],
+            "hard": 2,
+            "loop": 0,
             "mutations": [
-                13,
-                "Slim Pickings",
-                "Iron Skin",
-                "Bursted Chest",
-                "Arcane Arts",
-                "condensedmeat",
-                "Mimicry",
-                3,
-                4,
-                "Adaptable"
+                "Filtering Teeth"
             ],
             "crown": false,
             "allies": [
                 {
-                    "color": 16736708,
-                    "bwep": 22,
-                    "wep": 115,
-                    "race": 1,
-                    "skin": 1,
-                    "alias": "Weird lookin' dog"
+                    "color": 4517495,
+                    "bwep": 81,
+                    "wep": 3,
+                    "race": 12,
+                    "skin": 0,
+                    "alias": "LaPerlis_XD"
                 }
             ],
             "area": 1,
-            "skin": 1
+            "skin": 0
         }
     ]
 }
