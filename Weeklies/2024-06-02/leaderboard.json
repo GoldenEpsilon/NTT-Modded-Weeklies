@@ -909,17 +909,17 @@
             "skin": 1
         },
         {
-            "kills": 79,
-            "subarea": 3,
+            "kills": 111,
+            "subarea": 0,
             "killed_by": 72,
-            "time": 2960,
+            "time": 4979,
             "pizzas": 0,
             "race": 1,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "va_sinusoid_pistol",
-                    "wep": 3,
+                    "bwep": 88,
+                    "wep": 1,
                     "race": 1,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
@@ -927,13 +927,14 @@
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": "va_sinusoid_pistol",
-            "wep": 3,
+            "bwep": 88,
+            "wep": 1,
             "ultras": [ ],
-            "hard": 3,
+            "hard": 4,
             "loop": 0,
             "mutations": [
-                5
+                11,
+                "Double Vision"
             ],
             "crown": false,
             "loadout": [
@@ -946,7 +947,7 @@
                     "alias": "Weird lookin' dog"
                 }
             ],
-            "area": 1,
+            "area": 102,
             "skin": 1
         }
     ]
