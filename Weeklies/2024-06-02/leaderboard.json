@@ -909,17 +909,17 @@
             "skin": 1
         },
         {
-            "kills": 150,
-            "subarea": 2,
+            "kills": 79,
+            "subarea": 3,
             "killed_by": 72,
-            "time": 7537,
-            "pizzas": 1,
+            "time": 2960,
+            "pizzas": 0,
             "race": 1,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "mcleod",
-                    "wep": 6,
+                    "bwep": "va_sinusoid_pistol",
+                    "wep": 3,
                     "race": 1,
                     "skin": 1,
                     "alias": "Weird lookin' dog"
@@ -927,16 +927,12 @@
             ],
             "name": "Weird lookin' dog",
             "color": 16736708,
-            "bwep": "mcleod",
-            "wep": 6,
+            "bwep": "va_sinusoid_pistol",
+            "wep": 3,
             "ultras": [ ],
-            "hard": 7,
+            "hard": 3,
             "loop": 0,
             "mutations": [
-                "Steel Nerves",
-                10,
-                "Loner",
-                "Iron Skin",
                 5
             ],
             "crown": false,
@@ -950,7 +946,7 @@
                     "alias": "Weird lookin' dog"
                 }
             ],
-            "area": 3,
+            "area": 1,
             "skin": 1
         }
     ]
