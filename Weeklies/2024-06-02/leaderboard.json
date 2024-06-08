@@ -867,10 +867,10 @@
             "skin": 0
         },
         {
-            "kills": 8,
-            "subarea": 3,
+            "kills": 36,
+            "subarea": 1,
             "killed_by": 72,
-            "time": 529,
+            "time": 2908,
             "loadout": [
                 {
                     "color": 4517495,
@@ -885,24 +885,26 @@
             "pizzas": 0,
             "name": "LaPerlis_XD",
             "color": 4517495,
-            "bwep": 21,
-            "wep": 81,
+            "bwep": 81,
+            "wep": "mcleod",
             "ultras": [ ],
-            "hard": 1,
+            "hard": 2,
             "loop": 0,
-            "mutations": [ ],
+            "mutations": [
+                17
+            ],
             "crown": false,
             "allies": [
                 {
                     "color": 4517495,
-                    "bwep": 21,
-                    "wep": 81,
+                    "bwep": 81,
+                    "wep": "mcleod",
                     "race": 12,
                     "skin": 0,
                     "alias": "LaPerlis_XD"
                 }
             ],
-            "area": 1,
+            "area": 2,
             "skin": 0
         }
     ]
