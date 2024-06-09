@@ -1,21 +1,18 @@
 {
     "scores": [
         {
-            "kills": 600,
-            "subarea": 2,
-            "pizzas": 0,
-            "color": 5862689,
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Dragonstrive",
+                    "wep": "SquareGun",
+                    "bwep": 115,
                     "color": 5862689,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "race": 1,
                     "skin": 0
                 }
             ],
-            "time": 25815,
+            "kills": 600,
+            "subarea": 2,
             "ultras": [
                 [
                     1,
@@ -34,85 +31,85 @@
                 22,
                 11
             ],
+            "time": 25815,
             "race": 1,
             "name": "Dragonstrive",
-            "allies": [
-                {
-                    "alias": "Dragonstrive",
-                    "color": 5862689,
-                    "wep": "SquareGun",
-                    "bwep": 115,
-                    "race": 1,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
+            "killed_by": 34,
             "bwep": 115,
             "wep": "SquareGun",
             "hard": 20,
             "loop": 1,
-            "killed_by": 34,
             "crown": 11,
+            "color": 5862689,
             "area": 1,
-            "skin": 0
-        },
-        {
-            "kills": 84,
-            "subarea": 3,
-            "pizzas": 0,
-            "color": 16736708,
+            "skin": 0,
             "loadout": [
                 {
-                    "alias": "Sir Mittens IV",
-                    "color": 16736708,
-                    "bwep": 0,
+                    "alias": "Dragonstrive",
                     "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 1,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "bwep": "va_eekhammer",
+                    "wep": 21,
+                    "color": 16736708,
                     "race": 6,
                     "skin": 1
                 }
             ],
-            "time": 2554,
+            "kills": 84,
+            "subarea": 3,
             "ultras": [ ],
             "mutations": [
                 "Steel Nerves",
                 "Precision Incision"
             ],
+            "time": 2554,
             "race": 6,
             "name": "Sir Mittens IV",
-            "allies": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "color": 16736708,
-                    "bwep": "va_eekhammer",
-                    "wep": 21,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
+            "pizzas": 0,
+            "killed_by": 6,
             "bwep": "va_eekhammer",
             "wep": 21,
             "hard": 3,
             "loop": 0,
-            "killed_by": 6,
             "crown": false,
-            "area": 1,
-            "skin": 1
-        },
-        {
-            "kills": 200,
-            "subarea": 1,
-            "pizzas": 0,
             "color": 16736708,
+            "area": 1,
+            "skin": 1,
             "loadout": [
                 {
-                    "alias": "Dario sos",
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
+                    "alias": "Sir Mittens IV",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 6,
+                    "skin": 1
+                }
+            ]
+        },
+        {
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "SquareGun",
+                    "bwep": 2,
+                    "color": 16736708,
                     "race": 2,
                     "skin": 0
                 }
             ],
-            "time": 10852,
+            "kills": 200,
+            "subarea": 1,
             "ultras": [ ],
             "mutations": [
                 20,
@@ -121,74 +118,83 @@
                 "Compressing Fist",
                 "Ruffled Feathers"
             ],
+            "time": 10852,
             "race": 2,
             "name": "Dario sos",
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "color": 16736708,
-                    "wep": "SquareGun",
-                    "bwep": 2,
-                    "race": 2,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
+            "killed_by": 25,
             "bwep": 2,
             "wep": "SquareGun",
             "hard": 9,
             "loop": 0,
-            "killed_by": 25,
             "crown": false,
+            "color": 16736708,
             "area": 5,
-            "skin": 0
-        },
-        {
-            "kills": 154,
-            "subarea": 2,
-            "color": 5862689,
-            "pizzas": 0,
+            "skin": 0,
             "loadout": [
                 {
-                    "alias": "Dragonstrive",
-                    "color": 5862689,
-                    "bwep": 0,
+                    "alias": "Dario sos",
                     "wep": "mw_ui_start",
-                    "race": 6,
+                    "bwep": 0,
+                    "color": 16736708,
+                    "race": 2,
                     "skin": 0
                 }
-            ],
-            "time": 7245,
-            "ultras": [ ],
-            "mutations": [
-                25,
-                1,
-                19,
-                "Slim Pickings",
-                "Buckshot Back",
-                "Bursted Chest",
-                12,
-                "Rocket Casings"
-            ],
-            "race": 6,
-            "name": "Dragonstrive",
+            ]
+        },
+        {
             "allies": [
                 {
-                    "alias": "Dragonstrive",
-                    "color": 5862689,
-                    "bwep": "va_breach_cannon",
-                    "wep": 17,
+                    "alias": "Sir Mittens IV",
+                    "wep": "va_vorpal_longsword",
+                    "bwep": "hyperrifle",
                     "race": 6,
-                    "skin": 0
+                    "color": 16736708,
+                    "skin": 1
                 }
             ],
-            "bwep": "va_breach_cannon",
-            "wep": 17,
-            "hard": 6,
-            "loop": 0,
-            "killed_by": 0,
-            "crown": false,
-            "area": 3,
-            "skin": 0
+            "kills": 1767,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                "condensedmeat",
+                "Muscle Memory",
+                11,
+                "Thick Head",
+                7,
+                "Mimicry",
+                18,
+                4,
+                "Precision Incision"
+            ],
+            "time": 50212,
+            "race": 6,
+            "name": "Sir Mittens IV",
+            "pizzas": 0,
+            "killed_by": 29,
+            "bwep": "hyperrifle",
+            "wep": "va_vorpal_longsword",
+            "hard": 32,
+            "loop": 1,
+            "crown": 7,
+            "color": 16736708,
+            "area": 6,
+            "skin": 1,
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ]
         }
     ]
 }
