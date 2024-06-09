@@ -16,8 +16,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 7,
                     "bwep": 0,
+                    "wep": 7,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -27,6 +27,56 @@
             "bwep": 0,
             "wep": 7,
             "hard": 1,
+            "loop": 0,
+            "crown": 2,
+            "color": 16736708,
+            "area": 1,
+            "skin": 0,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 143,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze",
+                "Steel Nerves",
+                "Alchemic Stomach",
+                "Waste Gland",
+                4
+            ],
+            "time": 4670,
+            "race": 2,
+            "name": "Dario sos",
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": 7,
+                    "bwep": 7,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": [
+                null,
+                "SMALL EXPLOSION"
+            ],
+            "bwep": 7,
+            "wep": 7,
+            "hard": 3,
             "loop": 0,
             "crown": 2,
             "color": 16736708,
