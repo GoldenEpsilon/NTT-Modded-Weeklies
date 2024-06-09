@@ -20,8 +20,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 7,
                     "bwep": 7,
+                    "wep": 7,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -42,8 +42,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -51,36 +51,42 @@
             ]
         },
         {
-            "pizzas": 0,
-            "kills": 16,
+            "pizzas": 1,
+            "kills": 240,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
-                "Explosive Gaze"
+                "Explosive Gaze",
+                "Sadism",
+                "Loner",
+                "Survivor's Instinct",
+                "Compressing Fist",
+                "Ruffled Feathers",
+                "Waste Gland"
             ],
-            "time": 292,
+            "time": 14257,
             "race": 2,
             "name": "Dario sos",
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 7,
-                    "bwep": 0,
+                    "wep": 52,
+                    "bwep": "DrillGun",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "killed_by": 72,
-            "bwep": 0,
-            "wep": 7,
-            "hard": 1,
+            "bwep": "DrillGun",
+            "wep": 52,
+            "hard": 9,
             "loop": 0,
             "crown": 2,
             "color": 16736708,
-            "area": 1,
+            "area": 3,
             "skin": 0,
             "loadout": [
                 {
