@@ -4,8 +4,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -28,7 +28,16 @@
             "time": 24014,
             "race": 2,
             "name": "Dario sos",
-            "pizzas": 1,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "bwep": "HyperDrillGun",
+                    "wep": "sonic hammer",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 30,
             "bwep": "HyperDrillGun",
             "wep": "sonic hammer",
@@ -38,23 +47,14 @@
             "color": 16736708,
             "area": 6,
             "skin": 0,
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "wep": "sonic hammer",
-                    "bwep": "HyperDrillGun",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
+            "pizzas": 1
         },
         {
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -74,7 +74,16 @@
             "time": 6011,
             "race": 6,
             "name": "Sir Mittens IV",
-            "pizzas": 1,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "abris pistol",
+                    "bwep": 14,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
             "killed_by": 72,
             "bwep": 14,
             "wep": "abris pistol",
@@ -84,23 +93,14 @@
             "color": 16736708,
             "area": 102,
             "skin": 1,
-            "allies": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "bwep": 14,
-                    "wep": "abris pistol",
-                    "race": 6,
-                    "color": 16736708,
-                    "skin": 1
-                }
-            ]
+            "pizzas": 1
         },
         {
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -119,7 +119,16 @@
             "time": 2844,
             "race": 7,
             "name": "Chump",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 1,
+                    "bwep": 14,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": [
                 null,
                 "SMALL EXPLOSION"
@@ -132,23 +141,14 @@
             "color": 16736708,
             "area": 1,
             "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 14,
-                    "wep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
+            "pizzas": 0
         },
         {
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -167,7 +167,16 @@
             "time": 3105,
             "race": 7,
             "name": "Chump",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "push piston",
+                    "bwep": 14,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 56,
             "bwep": 14,
             "wep": "push piston",
@@ -177,23 +186,14 @@
             "color": 16736708,
             "area": 2,
             "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 14,
-                    "wep": "push piston",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
+            "pizzas": 0
         },
         {
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -212,7 +212,16 @@
             "time": 3195,
             "race": 7,
             "name": "Chump",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 14,
+                    "wep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 72,
             "bwep": 14,
             "wep": 1,
@@ -222,23 +231,14 @@
             "color": 16736708,
             "area": 2,
             "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 1,
-                    "bwep": 14,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
+            "pizzas": 0
         },
         {
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -257,7 +257,16 @@
             "time": 3233,
             "race": 7,
             "name": "Chump",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "abris pistol",
+                    "bwep": 14,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 59,
             "bwep": 14,
             "wep": "abris pistol",
@@ -267,62 +276,53 @@
             "color": 16736708,
             "area": 2,
             "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 14,
-                    "wep": "abris pistol",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
+            "pizzas": 0
         },
         {
             "loadout": [
                 {
-                    "alias": "Chump",
+                    "alias": "one more miserable person",
                     "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 5623039,
                     "skin": 0
                 }
             ],
-            "kills": 18,
+            "kills": 5,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
                 "Explosive Gaze"
             ],
-            "time": 935,
-            "race": 7,
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": [
-                null,
-                "SMALL EXPLOSION"
-            ],
-            "bwep": 14,
-            "wep": 1,
-            "hard": 2,
-            "loop": 0,
-            "crown": 2,
-            "color": 16736708,
-            "area": 1,
-            "skin": 0,
+            "time": 314,
+            "race": 4,
+            "name": "one more miserable person",
             "allies": [
                 {
-                    "alias": "Chump",
-                    "wep": 1,
-                    "bwep": 14,
-                    "race": 7,
-                    "color": 16736708,
+                    "alias": "one more miserable person",
+                    "wep": 7,
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 5623039,
                     "skin": 0
                 }
-            ]
+            ],
+            "killed_by": [
+                null,
+                " EXPLOSION"
+            ],
+            "bwep": 0,
+            "wep": 7,
+            "hard": 1,
+            "loop": 0,
+            "crown": 2,
+            "color": 5623039,
+            "area": 1,
+            "skin": 0,
+            "pizzas": 0
         }
     ]
 }
