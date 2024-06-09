@@ -2,60 +2,14 @@
     "scores": [
         {
             "ultras": [ ],
-            "kills": 349,
-            "mutations": [
-                3,
-                "Rocket Casings",
-                1,
-                "luckyshot",
-                "excitedneurons",
-                19
-            ],
-            "subarea": 2,
-            "allies": [
-                {
-                    "bwep": 17,
-                    "wep": "va_double_duster_shotgun",
-                    "alias": "Froloket",
-                    "color": 16736708,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "time": 14588,
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Froloket",
-                    "color": 16736708,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "race": 6,
-            "name": "Froloket",
-            "killed_by": 24,
-            "bwep": 17,
-            "wep": "va_double_duster_shotgun",
-            "hard": 12,
-            "loop": 0,
-            "pizzas": 1,
-            "crown": 11,
-            "color": 16736708,
-            "area": 100,
-            "skin": 1
-        },
-        {
-            "ultras": [ ],
             "kills": 205,
+            "subarea": 2,
             "mutations": [
                 3,
                 "Rocket Casings",
                 1,
                 "luckyshot"
             ],
-            "subarea": 2,
             "allies": [
                 {
                     "bwep": "mcleod",
@@ -93,13 +47,13 @@
         {
             "ultras": [ ],
             "kills": 200,
+            "subarea": 2,
             "mutations": [
                 3,
                 "sharpteeth",
                 1,
                 "luckyshot"
             ],
-            "subarea": 2,
             "allies": [
                 {
                     "wep": 17,
@@ -137,6 +91,7 @@
         {
             "ultras": [ ],
             "kills": 451,
+            "subarea": 1,
             "mutations": [
                 3,
                 "Rocket Casings",
@@ -146,7 +101,6 @@
                 19,
                 "compoundelbow"
             ],
-            "subarea": 1,
             "allies": [
                 {
                     "bwep": "va_snubnose",
@@ -179,6 +133,51 @@
             "color": 16736708,
             "crown": 11,
             "area": 7,
+            "skin": 1
+        },
+        {
+            "ultras": [ ],
+            "kills": 262,
+            "mutations": [
+                5,
+                "Rocket Casings",
+                19,
+                "luckyshot",
+                "excitedneurons"
+            ],
+            "subarea": 3,
+            "allies": [
+                {
+                    "bwep": 17,
+                    "wep": 4,
+                    "alias": "Froloket",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "time": 6828,
+            "loadout": [
+                {
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "alias": "Froloket",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "race": 7,
+            "name": "Froloket",
+            "killed_by": 15,
+            "bwep": 17,
+            "wep": 4,
+            "hard": 9,
+            "loop": 0,
+            "pizzas": 1,
+            "color": 16736708,
+            "crown": 11,
+            "area": 3,
             "skin": 1
         }
     ]
