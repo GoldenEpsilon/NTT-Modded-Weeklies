@@ -6,8 +6,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": 1,
                     "skin": 0
@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 115,
                     "wep": "SquareGun",
+                    "bwep": 115,
                     "color": 5862689,
                     "race": 1,
                     "skin": 0
@@ -53,6 +53,49 @@
                 9,
                 22,
                 11
+            ]
+        },
+        {
+            "kills": 69,
+            "subarea": 2,
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5862689,
+                    "race": 10,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 0,
+            "time": 1874,
+            "race": 10,
+            "name": "Dragonstrive",
+            "killed_by": 1,
+            "bwep": 3,
+            "wep": 17,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 3,
+                    "wep": 17,
+                    "color": 5862689,
+                    "race": 10,
+                    "skin": 0
+                }
+            ],
+            "color": 5862689,
+            "hard": 2,
+            "loop": 0,
+            "crown": false,
+            "area": 1,
+            "ultras": [ ],
+            "skin": 0,
+            "mutations": [
+                "va_liquid_state_machine",
+                3,
+                "luckyshot"
             ]
         }
     ]
