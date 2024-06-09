@@ -22,8 +22,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 52,
                     "bwep": "DrillGun",
+                    "wep": 52,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -41,8 +41,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -50,38 +50,42 @@
             ]
         },
         {
-            "pizzas": 0,
-            "kills": 82,
+            "pizzas": 1,
+            "kills": 343,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
                 "Explosive Gaze",
-                "Ruffled Feathers",
-                1
+                1,
+                "Pressurized Lungs",
+                "Echo State Network",
+                "Thick Head",
+                "Alchemic Stomach",
+                "Mimicry"
             ],
-            "time": 6016,
+            "time": 24014,
             "race": 2,
             "name": "Dario sos",
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "push piston",
-                    "bwep": 7,
+                    "wep": "sonic hammer",
+                    "bwep": "HyperDrillGun",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 72,
-            "bwep": 7,
-            "wep": "push piston",
-            "hard": 4,
+            "killed_by": 30,
+            "bwep": "HyperDrillGun",
+            "wep": "sonic hammer",
+            "hard": 14,
             "loop": 0,
             "crown": 2,
             "color": 16736708,
-            "area": 2,
+            "area": 6,
             "skin": 0,
             "loadout": [
                 {
