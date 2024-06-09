@@ -22,8 +22,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 52,
                     "bwep": "DrillGun",
+                    "wep": 52,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -41,8 +41,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -51,37 +51,40 @@
         },
         {
             "pizzas": 0,
-            "kills": 80,
+            "kills": 60,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
                 "Explosive Gaze",
-                "Ruffled Feathers",
-                "Cruelty-Free Veganlust"
+                12,
+                8
             ],
-            "time": 3498,
+            "time": 2541,
             "race": 2,
             "name": "Dario sos",
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "abris pistol",
-                    "bwep": 7,
+                    "wep": 7,
+                    "bwep": 0,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 72,
-            "bwep": 7,
-            "wep": "abris pistol",
-            "hard": 4,
+            "killed_by": [
+                null,
+                "SMALL EXPLOSION"
+            ],
+            "bwep": 0,
+            "wep": 7,
+            "hard": 3,
             "loop": 0,
             "crown": 2,
             "color": 16736708,
-            "area": 2,
+            "area": 1,
             "skin": 0,
             "loadout": [
                 {
