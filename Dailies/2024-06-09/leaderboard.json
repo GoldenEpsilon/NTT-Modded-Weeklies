@@ -19,8 +19,8 @@
             "allies": [
                 {
                     "alias": "Froloket",
-                    "wep": "va_double_duster_shotgun",
                     "bwep": 17,
+                    "wep": "va_double_duster_shotgun",
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -38,8 +38,8 @@
             "loadout": [
                 {
                     "alias": "Froloket",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -58,6 +58,50 @@
                 "luckyshot"
             ],
             "time": 6449,
+            "race": 2,
+            "name": "Dario sos",
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "bwep": "mcleod",
+                    "wep": 17,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 51,
+            "bwep": "mcleod",
+            "wep": 17,
+            "hard": 6,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 3,
+            "skin": 0,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 200,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                3,
+                "sharpteeth",
+                1,
+                "luckyshot"
+            ],
+            "time": 7188,
             "race": 2,
             "name": "Dario sos",
             "allies": [
