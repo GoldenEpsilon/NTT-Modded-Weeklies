@@ -1,0 +1,101 @@
+{
+	"name": "I Hope You Explode 2",
+	"description": "No Boiling Veins#Explosive Starting Mutations#Only Explosive Weapons#Airstrikes???#@r@qI HOPE YOU EXPLODE",
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"disable_crowns": true,
+	"index": 3,
+	"seed": "Random",
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Adaptation",
+			"description": "Kill loop bosses to#reroll your mutations!#Find the perfect#skill set!",
+			"color": 65300,
+			"url": "https://dragonstrive.itch.io/adaptation"
+		},
+		{
+			"download_type": "itch",
+			"name": "Feels Like Vanilla",
+			"description": "16 simple but unique#vanilla-style weapons#with a wide range of#designs and functions.",
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "direct",
+			"name": "LOMuts",
+			"filename": "LOMuts.zip",
+			"description": "Lots of Mutations!#What it sounds like on the tin.#Adds a third ultra#to all characters!",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/LOMuts.zip?v=new"
+		},
+		{
+			"download_type": "itch",
+			"name": "Portalspeed",
+			"description": "When you clear a level,#get a speed boost#to get to the#next level faster!",
+			"url": "https://dragonstrive.itch.io/portalspeed"
+		},
+		{
+			"download_type": "itch",
+			"name": "B Mutation Tweaks",
+			"description": "A set of tweaks#to vanilla mutations by blaac.",
+			"url": "https://blaac.itch.io/bmutations"
+		},
+		{
+			"download_type": "direct",
+			"name": "Defpack (Explosives Only)",
+			"description": false,
+			"filename": "defpack.zip",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/defpack-meekly-explode.zip"
+		},
+		{
+			"download_type": "itch",
+			"name": "Gunbucket",
+			"description": "A big old weapons pack#with over 100 weapons!",
+			"url": "https://wigglercola.itch.io/gunbucket"
+		},
+		{
+			"download_type": "direct",
+			"name": "Weekly Modifiers",
+			"description": "Modifiers:#No Boiling Veins#Explosive Starting Mutations#Only Explosive Weapons",
+			"filename": "modifiers.mod.gml",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/modifiers.mod.gml",
+			"globals": [
+				{
+					"mod_type": "mod",
+					"mod_name": "modifiers",
+					"variable": "bannedMuts",
+					"value": [14]
+				},
+				{
+					"mod_type": "mod",
+					"mod_name": "modifiers",
+					"variable": "starterMuts",
+					"value": ["Fractured Fingers", "Explosive Ears", "Explosive Gaze"]
+				},
+				{
+					"mod_type": "mod",
+					"mod_name": "modifiers",
+					"variable": "banWeapons",
+					"value": true
+				},
+				{
+					"mod_type": "mod",
+					"mod_name": "modifiers",
+					"variable": "allowedAmmoTypes",
+					"value": [false, false, false, false, true, false]
+				},
+			]
+		},
+		{
+			"download_type": "direct",
+			"url": "https://raw.githubusercontent.com/13laac/misc_nt_mods/main/strikes.mod.gml",
+			"filename": "strikes.mod.gml",
+			"name": "STRIKES",
+			"description": "RUN",
+			"color": 16711680
+		}
+	],
+	"race": false,
+	"wep": [false, 7, 14, 47],
+	"bwep": false,
+	"crown": 2,
+}
