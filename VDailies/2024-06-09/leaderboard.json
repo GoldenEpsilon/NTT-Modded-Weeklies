@@ -1,7 +1,16 @@
 {
     "scores": [
         {
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Froloket",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "kills": 202,
             "ultras": [ ],
             "subarea": 2,
@@ -17,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Froloket",
-                    "wep": 4,
                     "bwep": 37,
+                    "wep": 4,
                     "color": 16736708,
                     "race": 6,
                     "skin": 0
@@ -33,19 +42,19 @@
             "color": 16736708,
             "area": 3,
             "skin": 0,
-            "loadout": [
-                {
-                    "alias": "Froloket",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "color": 16736708,
-                    "race": 6,
-                    "skin": 0
-                }
-            ]
+            "pizzas": 0
         },
         {
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 11,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "kills": 323,
             "ultras": [ ],
             "subarea": 3,
@@ -64,8 +73,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 3,
                     "bwep": 89,
+                    "wep": 3,
                     "race": 11,
                     "color": 16736708,
                     "skin": 0
@@ -80,16 +89,51 @@
             "color": 16736708,
             "area": 5,
             "skin": 0,
+            "pizzas": 0
+        },
+        {
             "loadout": [
                 {
-                    "alias": "Dario sos",
+                    "alias": "one more miserable person",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": 11,
-                    "color": 16736708,
+                    "race": 6,
+                    "color": 5623039,
                     "skin": 0
                 }
-            ]
+            ],
+            "kills": 235,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                23,
+                11,
+                22,
+                7
+            ],
+            "time": 8324,
+            "race": 6,
+            "name": "one more miserable person",
+            "allies": [
+                {
+                    "alias": "one more miserable person",
+                    "wep": 3,
+                    "bwep": 38,
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 78,
+            "bwep": 38,
+            "wep": 3,
+            "hard": 7,
+            "loop": 0,
+            "crown": 1,
+            "color": 5623039,
+            "area": 3,
+            "skin": 0,
+            "pizzas": 0
         }
     ]
 }
