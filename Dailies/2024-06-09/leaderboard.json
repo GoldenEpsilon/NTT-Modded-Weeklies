@@ -1,8 +1,10 @@
 {
     "scores": [
         {
-            "ultras": [ ],
+            "pizzas": 1,
             "kills": 349,
+            "ultras": [ ],
+            "subarea": 2,
             "mutations": [
                 3,
                 "Rocket Casings",
@@ -11,40 +13,82 @@
                 "excitedneurons",
                 19
             ],
-            "subarea": 2,
-            "allies": [
-                {
-                    "bwep": 17,
-                    "wep": "va_double_duster_shotgun",
-                    "alias": "Froloket",
-                    "color": 16736708,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
             "time": 14588,
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Froloket",
-                    "color": 16736708,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
             "race": 6,
             "name": "Froloket",
+            "allies": [
+                {
+                    "alias": "Froloket",
+                    "wep": "va_double_duster_shotgun",
+                    "bwep": 17,
+                    "color": 16736708,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
             "killed_by": 24,
             "bwep": 17,
             "wep": "va_double_duster_shotgun",
             "hard": 12,
             "loop": 0,
-            "pizzas": 1,
-            "color": 16736708,
             "crown": 11,
+            "color": 16736708,
             "area": 100,
-            "skin": 1
+            "skin": 1,
+            "loadout": [
+                {
+                    "alias": "Froloket",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708,
+                    "race": 6,
+                    "skin": 1
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 205,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                3,
+                "Rocket Casings",
+                1,
+                "luckyshot"
+            ],
+            "time": 6449,
+            "race": 2,
+            "name": "Dario sos",
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": 17,
+                    "bwep": "mcleod",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 51,
+            "bwep": "mcleod",
+            "wep": 17,
+            "hard": 6,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 3,
+            "skin": 0,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
         }
     ]
 }
