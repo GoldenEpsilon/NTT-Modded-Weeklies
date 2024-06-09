@@ -20,8 +20,8 @@
             "allies": [
                 {
                     "alias": "Froloket",
-                    "wep": 17,
                     "bwep": "va_snubnose",
+                    "wep": 17,
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -39,8 +39,8 @@
             "loadout": [
                 {
                     "alias": "Froloket",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -66,8 +66,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "va_auto_duster_shotgun",
                     "bwep": "mcleod",
+                    "wep": "va_auto_duster_shotgun",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -85,8 +85,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -116,8 +116,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mcleod",
                     "bwep": "va_auto_duster_shotgun",
+                    "wep": "mcleod",
                     "race": 11,
                     "color": 16736708,
                     "skin": 0
@@ -131,6 +131,47 @@
             "crown": 8,
             "color": 16736708,
             "area": 5,
+            "skin": 0,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 11,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 31,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                3
+            ],
+            "time": 757,
+            "race": 11,
+            "name": "Dario sos",
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": 17,
+                    "bwep": 1,
+                    "race": 11,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 17,
+            "hard": 2,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
             "skin": 0,
             "loadout": [
                 {
