@@ -22,8 +22,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "bwep": "DrillGun",
                     "wep": 52,
+                    "bwep": "DrillGun",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -41,8 +41,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -51,35 +51,37 @@
         },
         {
             "pizzas": 0,
-            "kills": 59,
+            "kills": 82,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
-                "Explosive Gaze"
+                "Explosive Gaze",
+                "Ruffled Feathers",
+                1
             ],
-            "time": 1442,
+            "time": 6016,
             "race": 2,
             "name": "Dario sos",
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 7,
-                    "bwep": 0,
+                    "wep": "push piston",
+                    "bwep": 7,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "killed_by": 72,
-            "bwep": 0,
-            "wep": 7,
-            "hard": 2,
+            "bwep": 7,
+            "wep": "push piston",
+            "hard": 4,
             "loop": 0,
             "crown": 2,
             "color": 16736708,
-            "area": 1,
+            "area": 2,
             "skin": 0,
             "loadout": [
                 {
