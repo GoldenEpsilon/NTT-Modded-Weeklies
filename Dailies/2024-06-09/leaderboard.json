@@ -3,13 +3,13 @@
         {
             "ultras": [ ],
             "kills": 205,
-            "subarea": 2,
             "mutations": [
                 3,
                 "Rocket Casings",
                 1,
                 "luckyshot"
             ],
+            "subarea": 2,
             "allies": [
                 {
                     "bwep": "mcleod",
@@ -47,13 +47,13 @@
         {
             "ultras": [ ],
             "kills": 200,
-            "subarea": 2,
             "mutations": [
                 3,
                 "sharpteeth",
                 1,
                 "luckyshot"
             ],
+            "subarea": 2,
             "allies": [
                 {
                     "wep": 17,
@@ -91,7 +91,6 @@
         {
             "ultras": [ ],
             "kills": 451,
-            "subarea": 1,
             "mutations": [
                 3,
                 "Rocket Casings",
@@ -101,6 +100,7 @@
                 19,
                 "compoundelbow"
             ],
+            "subarea": 1,
             "allies": [
                 {
                     "bwep": "va_snubnose",
@@ -137,26 +137,27 @@
         },
         {
             "ultras": [ ],
-            "kills": 262,
+            "kills": 333,
             "mutations": [
                 5,
                 "Rocket Casings",
                 19,
                 "luckyshot",
-                "excitedneurons"
+                "excitedneurons",
+                "Duplicators"
             ],
-            "subarea": 3,
+            "subarea": 2,
             "allies": [
                 {
-                    "bwep": 17,
-                    "wep": 4,
+                    "bwep": 4,
+                    "wep": 17,
                     "alias": "Froloket",
                     "color": 16736708,
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "time": 6828,
+            "time": 8883,
             "loadout": [
                 {
                     "bwep": 1,
@@ -169,15 +170,15 @@
             ],
             "race": 7,
             "name": "Froloket",
-            "killed_by": 15,
-            "bwep": 17,
-            "wep": 4,
-            "hard": 9,
+            "killed_by": 69,
+            "bwep": 4,
+            "wep": 17,
+            "hard": 11,
             "loop": 0,
-            "pizzas": 1,
+            "pizzas": 0,
             "color": 16736708,
             "crown": 11,
-            "area": 3,
+            "area": 100,
             "skin": 1
         }
     ]
