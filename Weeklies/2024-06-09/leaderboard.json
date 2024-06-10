@@ -18,8 +18,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -37,8 +37,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "SquareGun",
                     "bwep": 2,
+                    "wep": "SquareGun",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -71,8 +71,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -90,8 +90,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": 77,
                     "bwep": "va_martial_longsword",
+                    "wep": 77,
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -124,8 +124,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 5862689,
                     "race": 7,
                     "skin": 0
@@ -143,8 +143,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": 90,
                     "bwep": 49,
+                    "wep": 90,
                     "color": 5862689,
                     "race": 7,
                     "skin": 0
@@ -167,8 +167,8 @@
             "loadout": [
                 {
                     "alias": "fakuayala859",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 2,
                     "color": 16736708,
                     "skin": 1
@@ -186,110 +186,11 @@
             "allies": [
                 {
                     "alias": "fakuayala859",
-                    "bwep": 6,
                     "wep": "va_duster_shotgun",
+                    "bwep": 6,
                     "race": 2,
                     "color": 16736708,
                     "skin": 1
-                }
-            ]
-        },
-        {
-            "pizzas": 0,
-            "kills": 224,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                22,
-                4,
-                "Scrap Arms",
-                12,
-                "Thick Head",
-                "Garment Regenerator",
-                7,
-                "sharpteeth"
-            ],
-            "time": 14491.5,
-            "race": 10,
-            "name": "UnK.'s P4, UnK.'s P3, UnK.'s P2, UnK.",
-            "loadout": [
-                {
-                    "alias": "UnK.",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 10,
-                    "color": 16431718,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P2",
-                    "bwep": 0,
-                    "wep": 1,
-                    "race": 10,
-                    "color": 7460113,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P3",
-                    "bwep": 0,
-                    "wep": 1,
-                    "race": 10,
-                    "color": 2697727,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P4",
-                    "bwep": 0,
-                    "wep": 1,
-                    "race": 10,
-                    "color": 16749865,
-                    "skin": 0
-                }
-            ],
-            "killed_by": [
-                null,
-                "GREED"
-            ],
-            "bwep": 3,
-            "wep": "va_snubnose",
-            "hard": 8,
-            "loop": 0,
-            "crown": false,
-            "color": 16431718,
-            "area": 4,
-            "skin": 0,
-            "allies": [
-                {
-                    "alias": "UnK.",
-                    "bwep": 3,
-                    "wep": "va_snubnose",
-                    "race": 10,
-                    "color": 16431718,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P2",
-                    "bwep": 34,
-                    "wep": 17,
-                    "race": 10,
-                    "color": 7460113,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P3",
-                    "bwep": 1,
-                    "wep": 5,
-                    "race": 10,
-                    "color": 2697727,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P4",
-                    "bwep": "va_sinusoid_rifle",
-                    "wep": "va_duster_shotgun",
-                    "race": 10,
-                    "color": 16749865,
-                    "skin": 0
                 }
             ]
         },
@@ -317,6 +218,100 @@
             "loadout": [
                 {
                     "alias": "UnK.",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 10,
+                    "color": 16431718,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P2",
+                    "bwep": 0,
+                    "wep": 1,
+                    "race": 10,
+                    "color": 7460113,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P3",
+                    "bwep": 0,
+                    "wep": 1,
+                    "race": 10,
+                    "color": 2697727,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P4",
+                    "bwep": 0,
+                    "wep": 1,
+                    "race": 10,
+                    "color": 16749865,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 38,
+            "bwep": 117,
+            "wep": "va_amr",
+            "hard": 22,
+            "loop": 1,
+            "crown": 10,
+            "color": 16431718,
+            "area": 2,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "bwep": 117,
+                    "wep": "va_amr",
+                    "race": 10,
+                    "color": 16431718,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P2",
+                    "bwep": 87,
+                    "wep": "va_auto_duster_shotgun",
+                    "race": 10,
+                    "color": 7460113,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P3",
+                    "bwep": "va_auto_flechette_shotgun",
+                    "wep": 50,
+                    "race": 10,
+                    "color": 2697727,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P4",
+                    "bwep": "va_magnum",
+                    "wep": "va_double_flechette_shotgun",
+                    "race": 10,
+                    "color": 16749865,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 42,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                9,
+                13,
+                "Ruffled Feathers",
+                "Slim Pickings",
+                "Bursted Chest",
+                "Rubber Rounds"
+            ],
+            "time": 2707,
+            "race": 10,
+            "name": "UnK.'s P4, UnK.'s P3, UnK.'s P2, UnK.",
+            "loadout": [
+                {
+                    "alias": "UnK.",
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "race": 10,
@@ -348,44 +343,47 @@
                     "skin": 0
                 }
             ],
-            "killed_by": 38,
-            "bwep": 117,
-            "wep": "va_amr",
-            "hard": 22,
-            "loop": 1,
-            "crown": 10,
+            "killed_by": [
+                null,
+                "GREED"
+            ],
+            "bwep": 1,
+            "wep": 4,
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
             "color": 16431718,
-            "area": 2,
+            "area": 1,
             "skin": 0,
             "allies": [
                 {
                     "alias": "UnK.",
-                    "wep": "va_amr",
-                    "bwep": 117,
+                    "wep": 4,
+                    "bwep": 1,
                     "race": 10,
                     "color": 16431718,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P2",
-                    "wep": "va_auto_duster_shotgun",
-                    "bwep": 87,
+                    "wep": 1,
+                    "bwep": 0,
                     "race": 10,
                     "color": 7460113,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P3",
-                    "wep": 50,
-                    "bwep": "va_auto_flechette_shotgun",
+                    "wep": 0,
+                    "bwep": 0,
                     "race": 10,
                     "color": 2697727,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P4",
-                    "wep": "va_double_flechette_shotgun",
-                    "bwep": "va_magnum",
+                    "wep": "fire_poker",
+                    "bwep": 1,
                     "race": 10,
                     "color": 16749865,
                     "skin": 0
