@@ -1,16 +1,7 @@
 {
     "scores": [
         {
-            "allies": [
-                {
-                    "wep": 7,
-                    "bwep": 0,
-                    "alias": "blaac",
-                    "race": 1,
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "kills": 51,
             "ultras": [ ],
             "subarea": 2,
@@ -25,9 +16,9 @@
             "name": "blaac",
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "blaac",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 1,
                     "color": 255,
                     "skin": 0
@@ -42,19 +33,19 @@
             "color": 255,
             "area": 1,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
+                    "alias": "blaac",
                     "bwep": 0,
                     "wep": 7,
-                    "alias": "blaac",
                     "race": 1,
                     "color": 255,
                     "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 28,
             "ultras": [ ],
             "subarea": 2,
@@ -68,9 +59,9 @@
             "name": "blaac",
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "blaac",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 1,
                     "color": 255,
                     "skin": 0
@@ -85,20 +76,20 @@
             "color": 255,
             "area": 1,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
+                    "alias": "blaac",
                     "wep": 7,
                     "bwep": 0,
-                    "alias": "blaac",
                     "race": 1,
                     "color": 255,
                     "skin": 0
                 }
-            ],
-            "kills": 16,
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 6,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
@@ -106,32 +97,86 @@
                 "Explosive Ears",
                 "Explosive Gaze"
             ],
-            "time": 481,
-            "race": 1,
-            "name": "blaac",
+            "time": 375,
+            "race": 10,
+            "name": "UnK.'s P4, UnK.'s P3, UnK.'s P2, UnK.",
             "loadout": [
                 {
+                    "alias": "UnK.",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "blaac",
-                    "race": 1,
-                    "color": 255,
+                    "race": 10,
+                    "color": 16431718,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P2",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 10,
+                    "color": 7460113,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P3",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 10,
+                    "color": 2697727,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P4",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 10,
+                    "color": 16749865,
                     "skin": 0
                 }
             ],
-            "killed_by": [
-                null,
-                " EXPLOSION"
-            ],
+            "killed_by": 55,
             "bwep": 0,
             "wep": 7,
             "hard": 1,
             "loop": 0,
             "crown": 2,
-            "color": 255,
+            "color": 16431718,
             "area": 1,
             "skin": 0,
-            "pizzas": 0
+            "allies": [
+                {
+                    "alias": "UnK.",
+                    "wep": 7,
+                    "bwep": 0,
+                    "race": 10,
+                    "color": 16431718,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P2",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 10,
+                    "color": 7460113,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P3",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 10,
+                    "color": 2697727,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P4",
+                    "wep": 1,
+                    "bwep": 0,
+                    "race": 10,
+                    "color": 16749865,
+                    "skin": 0
+                }
+            ]
         }
     ]
 }
