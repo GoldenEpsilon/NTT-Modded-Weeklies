@@ -3,8 +3,8 @@
         {
             "allies": [
                 {
-                    "bwep": 0,
                     "wep": 7,
+                    "bwep": 0,
                     "alias": "blaac",
                     "race": 1,
                     "color": 255,
@@ -25,6 +25,49 @@
             "name": "blaac",
             "loadout": [
                 {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "blaac",
+                    "race": 1,
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 55,
+            "bwep": 0,
+            "wep": 7,
+            "hard": 2,
+            "loop": 0,
+            "crown": 2,
+            "color": 255,
+            "area": 1,
+            "skin": 0,
+            "pizzas": 0
+        },
+        {
+            "allies": [
+                {
+                    "bwep": 0,
+                    "wep": 7,
+                    "alias": "blaac",
+                    "race": 1,
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "kills": 28,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze"
+            ],
+            "time": 764,
+            "race": 1,
+            "name": "blaac",
+            "loadout": [
+                {
                     "bwep": 0,
                     "wep": "mw_ui_start",
                     "alias": "blaac",
@@ -33,7 +76,7 @@
                     "skin": 0
                 }
             ],
-            "killed_by": 55,
+            "killed_by": 0,
             "bwep": 0,
             "wep": 7,
             "hard": 2,
@@ -55,15 +98,15 @@
                     "skin": 0
                 }
             ],
-            "kills": 28,
+            "kills": 16,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
                 "Explosive Gaze"
             ],
-            "time": 764,
+            "time": 481,
             "race": 1,
             "name": "blaac",
             "loadout": [
@@ -76,10 +119,13 @@
                     "skin": 0
                 }
             ],
-            "killed_by": 0,
+            "killed_by": [
+                null,
+                " EXPLOSION"
+            ],
             "bwep": 0,
             "wep": 7,
-            "hard": 2,
+            "hard": 1,
             "loop": 0,
             "crown": 2,
             "color": 255,
