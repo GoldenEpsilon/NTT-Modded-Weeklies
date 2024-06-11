@@ -1,0 +1,51 @@
+{
+    "scores": [
+        {
+            "pizzas": 0,
+            "kills": 22,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze",
+                1
+            ],
+            "time": 1172,
+            "race": 7,
+            "name": "Dibble",
+            "loadout": [
+                {
+                    "alias": "Dibble",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
+            "killed_by": [
+                null,
+                "SMALL EXPLOSION"
+            ],
+            "bwep": 1,
+            "wep": 7,
+            "hard": 2,
+            "loop": 0,
+            "crown": 2,
+            "color": 9532927,
+            "area": 1,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Dibble",
+                    "wep": 7,
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ]
+        }
+    ]
+}
