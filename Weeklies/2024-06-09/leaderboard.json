@@ -536,6 +536,53 @@
             ],
             "area": 3,
             "skin": 1
+        },
+        {
+            "kills": 297,
+            "subarea": 1,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "bwep": 0,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "color": 16737962,
+            "time": 16513.5,
+            "killed_by": 36,
+            "race": 6,
+            "name": "Daphne",
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": "va_martial_war_pike",
+                    "color": 16737962,
+                    "bwep": "va_martial_sawtooth_sword",
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "bwep": "va_martial_sawtooth_sword",
+            "wep": "va_martial_war_pike",
+            "pizzas": 0,
+            "hard": 13,
+            "loop": 0,
+            "ultras": [ ],
+            "crown": false,
+            "mutations": [
+                1,
+                27,
+                5,
+                "Double Vision",
+                "Absorbing Abs",
+                28,
+                "Arcane Arts"
+            ],
+            "area": 7,
+            "skin": 1
         }
     ]
 }
