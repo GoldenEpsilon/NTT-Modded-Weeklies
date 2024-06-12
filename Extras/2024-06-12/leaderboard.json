@@ -4,8 +4,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 14,
                     "bwep": 0,
+                    "wep": 14,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -26,8 +26,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -37,6 +37,49 @@
             "bwep": 0,
             "wep": 14,
             "hard": 2,
+            "loop": 0,
+            "crown": 2,
+            "color": 15628287,
+            "area": 1,
+            "skin": 1,
+            "pizzas": 0
+        },
+        {
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": 47,
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 15628287,
+                    "skin": 1
+                }
+            ],
+            "kills": 2,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze"
+            ],
+            "time": 130,
+            "race": 4,
+            "name": "Buczaj",
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 15628287,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 47,
+            "hard": 1,
             "loop": 0,
             "crown": 2,
             "color": 15628287,
