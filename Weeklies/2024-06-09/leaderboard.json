@@ -491,6 +491,49 @@
             ],
             "area": 3,
             "skin": 1
+        },
+        {
+            "kills": 137,
+            "subarea": 1,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "bwep": 0,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "color": 16737962,
+            "time": 5085,
+            "killed_by": 64,
+            "race": 6,
+            "name": "Daphne",
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": "tree_pruner",
+                    "color": 16737962,
+                    "bwep": "va_gluon_gun",
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "bwep": "va_gluon_gun",
+            "wep": "tree_pruner",
+            "pizzas": 0,
+            "hard": 5,
+            "loop": 0,
+            "ultras": [ ],
+            "crown": false,
+            "mutations": [
+                "Confidence",
+                "Mimicry",
+                "Feed Forward Network"
+            ],
+            "area": 3,
+            "skin": 1
         }
     ]
 }
