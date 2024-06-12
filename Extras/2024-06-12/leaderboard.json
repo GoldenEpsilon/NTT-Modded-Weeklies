@@ -4,8 +4,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 14,
                     "wep": 7,
+                    "bwep": 14,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -28,8 +28,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -50,8 +50,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "toxic carronader",
                     "bwep": 14,
+                    "wep": "toxic carronader",
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -74,8 +74,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -96,22 +96,30 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 14,
-                    "bwep": 0,
+                    "wep": 7,
+                    "bwep": 47,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
                 }
             ],
-            "kills": 17,
+            "kills": 202,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
-                "Explosive Gaze"
+                "Explosive Gaze",
+                "Slim Pickings",
+                "Iron Skin",
+                "Disco Nose",
+                5,
+                27,
+                "Loner",
+                "Shivering Spine",
+                "Filtering Teeth"
             ],
-            "time": 463,
+            "time": 10969,
             "race": 4,
             "name": "Buczaj",
             "loadout": [
@@ -124,16 +132,16 @@
                     "skin": 1
                 }
             ],
-            "killed_by": -1,
-            "bwep": 0,
-            "wep": 14,
-            "hard": 1,
+            "killed_by": 55,
+            "bwep": 47,
+            "wep": 7,
+            "hard": 10,
             "loop": 0,
             "crown": 2,
             "color": 15628287,
-            "area": 1,
+            "area": 4,
             "skin": 1,
-            "pizzas": 0
+            "pizzas": 1
         }
     ]
 }
