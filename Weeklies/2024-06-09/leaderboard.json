@@ -538,6 +538,50 @@
             ],
             "area": 5,
             "skin": 1
+        },
+        {
+            "kills": 122,
+            "subarea": 1,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "bwep": 0,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "color": 16737962,
+            "time": 4875.5,
+            "killed_by": 14,
+            "race": 6,
+            "name": "Daphne",
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": 4,
+                    "color": 16737962,
+                    "bwep": "mcleod",
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
+            "bwep": "mcleod",
+            "wep": 4,
+            "pizzas": 0,
+            "hard": 5,
+            "loop": 0,
+            "ultras": [ ],
+            "crown": false,
+            "mutations": [
+                25,
+                "Duplicators",
+                11,
+                "Mimicry"
+            ],
+            "area": 3,
+            "skin": 1
         }
     ]
 }
