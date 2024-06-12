@@ -17,8 +17,8 @@
             "loadout": [
                 {
                     "alias": "Dibble",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 9532927,
                     "race": 7,
                     "skin": 0
@@ -39,8 +39,8 @@
             "allies": [
                 {
                     "alias": "Dibble",
-                    "bwep": 1,
                     "wep": 7,
+                    "bwep": 1,
                     "color": 9532927,
                     "race": 7,
                     "skin": 0
@@ -63,8 +63,8 @@
             "loadout": [
                 {
                     "alias": "PochtIKaRasiK",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 6,
                     "skin": 1
@@ -82,8 +82,8 @@
             "allies": [
                 {
                     "alias": "PochtIKaRasiK",
-                    "wep": 7,
                     "bwep": 7,
+                    "wep": 7,
                     "color": 255,
                     "race": 6,
                     "skin": 1
@@ -106,8 +106,8 @@
             "loadout": [
                 {
                     "alias": "fakuayala859",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 1
@@ -121,6 +121,54 @@
             "crown": 2,
             "color": 16736708,
             "area": 1,
+            "skin": 1,
+            "allies": [
+                {
+                    "alias": "fakuayala859",
+                    "bwep": 0,
+                    "wep": 7,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 71,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze",
+                8,
+                9
+            ],
+            "time": 3842,
+            "race": 2,
+            "name": "fakuayala859",
+            "loadout": [
+                {
+                    "alias": "fakuayala859",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "killed_by": [
+                null,
+                "SMALL EXPLOSION"
+            ],
+            "bwep": 0,
+            "wep": 7,
+            "hard": 4,
+            "loop": 0,
+            "crown": 2,
+            "color": 16736708,
+            "area": 2,
             "skin": 1,
             "allies": [
                 {
