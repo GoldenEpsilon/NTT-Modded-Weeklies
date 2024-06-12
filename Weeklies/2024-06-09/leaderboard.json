@@ -540,45 +540,45 @@
             "skin": 1
         },
         {
-            "kills": 122,
-            "subarea": 1,
+            "kills": 153,
+            "subarea": 3,
             "loadout": [
                 {
                     "alias": "Daphne",
                     "wep": "mw_ui_start",
                     "color": 16737962,
                     "bwep": 0,
-                    "race": 6,
+                    "race": 1,
                     "skin": 1
                 }
             ],
             "color": 16737962,
-            "time": 4875.5,
-            "killed_by": 14,
-            "race": 6,
+            "time": 6273,
+            "killed_by": 78,
+            "race": 1,
             "name": "Daphne",
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": 4,
+                    "wep": "fire_poker",
                     "color": 16737962,
-                    "bwep": "mcleod",
-                    "race": 6,
+                    "bwep": "minigun",
+                    "race": 1,
                     "skin": 1
                 }
             ],
-            "bwep": "mcleod",
-            "wep": 4,
+            "bwep": "minigun",
+            "wep": "fire_poker",
             "pizzas": 0,
-            "hard": 5,
+            "hard": 7,
             "loop": 0,
             "ultras": [ ],
             "crown": false,
             "mutations": [
-                25,
-                "Duplicators",
-                11,
-                "Mimicry"
+                "Double Vision",
+                1,
+                "Sloppy Fingers",
+                8
             ],
             "area": 3,
             "skin": 1
