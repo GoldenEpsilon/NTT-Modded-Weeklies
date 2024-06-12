@@ -584,8 +584,8 @@
             "skin": 0
         },
         {
-            "kills": 222,
-            "subarea": 3,
+            "kills": 96,
+            "subarea": 2,
             "loadout": [
                 {
                     "alias": "Daphne",
@@ -597,33 +597,31 @@
                 }
             ],
             "color": 16737962,
-            "time": 9222,
-            "killed_by": 17,
+            "time": 6196,
+            "killed_by": 14,
             "race": 1,
             "name": "Daphne",
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": 3,
+                    "wep": "tree_pruner",
                     "color": 16737962,
-                    "bwep": "va_sinusoid_pistol",
+                    "bwep": "va_gluon_gun",
                     "race": 1,
                     "skin": 1
                 }
             ],
-            "bwep": "va_sinusoid_pistol",
-            "wep": 3,
+            "bwep": "va_gluon_gun",
+            "wep": "tree_pruner",
             "pizzas": 0,
-            "hard": 7,
+            "hard": 6,
             "loop": 0,
             "ultras": [ ],
             "crown": false,
             "mutations": [
-                13,
-                23,
-                "Steel Nerves",
-                2,
-                "Compressing Fist"
+                "Compressing Fist",
+                5,
+                1
             ],
             "area": 3,
             "skin": 1
