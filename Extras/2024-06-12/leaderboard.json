@@ -4,52 +4,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
-                    "wep": 14,
-                    "race": 4,
-                    "color": 15628287,
-                    "skin": 1
-                }
-            ],
-            "kills": 21,
-            "ultras": [ ],
-            "subarea": 2,
-            "mutations": [
-                "Fractured Fingers",
-                "Explosive Ears",
-                "Explosive Gaze",
-                12
-            ],
-            "time": 1885,
-            "race": 4,
-            "name": "Buczaj",
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 4,
-                    "color": 15628287,
-                    "skin": 1
-                }
-            ],
-            "killed_by": 55,
-            "bwep": 0,
-            "wep": 14,
-            "hard": 2,
-            "loop": 0,
-            "crown": 2,
-            "color": 15628287,
-            "area": 1,
-            "skin": 1,
-            "pizzas": 0
-        },
-        {
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "wep": 7,
                     "bwep": 14,
+                    "wep": 7,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -71,8 +27,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -82,6 +38,49 @@
             "bwep": 14,
             "wep": 7,
             "hard": 3,
+            "loop": 0,
+            "crown": 2,
+            "color": 15628287,
+            "area": 1,
+            "skin": 1,
+            "pizzas": 0
+        },
+        {
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "push piston",
+                    "bwep": 14,
+                    "race": 4,
+                    "color": 15628287,
+                    "skin": 1
+                }
+            ],
+            "kills": 22,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze"
+            ],
+            "time": 1204,
+            "race": 4,
+            "name": "Buczaj",
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 15628287,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 72,
+            "bwep": 14,
+            "wep": "push piston",
+            "hard": 2,
             "loop": 0,
             "crown": 2,
             "color": 15628287,
