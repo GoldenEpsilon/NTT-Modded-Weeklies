@@ -6,31 +6,31 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "color": 15628287,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 4,
                     "skin": 1
                 }
             ],
-            "color": 15628287,
+            "pizzas": 1,
             "time": 10969,
             "killed_by": 55,
             "race": 4,
             "name": "Buczaj",
+            "color": 15628287,
+            "bwep": 47,
+            "wep": 7,
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 7,
-                    "bwep": 47,
                     "color": 15628287,
+                    "bwep": 47,
+                    "wep": 7,
                     "race": 4,
                     "skin": 1
                 }
             ],
-            "bwep": 47,
-            "wep": 7,
-            "pizzas": 1,
             "loop": 0,
             "hard": 10,
             "ultras": [ ],
@@ -52,107 +52,19 @@
             "skin": 1
         },
         {
-            "kills": 15,
-            "subarea": 2,
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "color": 16737962,
-            "time": 1460.5,
-            "killed_by": 0,
-            "race": 4,
-            "name": "Daphne",
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "wep": 14,
-                    "color": 16737962,
-                    "bwep": 7,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "bwep": 7,
-            "wep": 14,
-            "pizzas": 0,
-            "hard": 2,
-            "loop": 0,
-            "ultras": [ ],
-            "crown": 2,
-            "mutations": [
-                "Fractured Fingers",
-                "Explosive Ears",
-                "Explosive Gaze",
-                8
-            ],
-            "area": 1,
-            "skin": 1
-        },
-        {
-            "kills": 30,
-            "subarea": 2,
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "color": 16737962,
-            "time": 1529,
-            "killed_by": 4,
-            "race": 4,
-            "name": "Daphne",
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "wep": 7,
-                    "color": 16737962,
-                    "bwep": 14,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "bwep": 14,
-            "wep": 7,
-            "pizzas": 0,
-            "hard": 2,
-            "loop": 0,
-            "ultras": [ ],
-            "crown": 2,
-            "mutations": [
-                "Fractured Fingers",
-                "Explosive Ears",
-                "Explosive Gaze",
-                "Waste Gland"
-            ],
-            "area": 1,
-            "skin": 1
-        },
-        {
             "kills": 155,
             "subarea": 2,
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "skin": 1
                 }
             ],
-            "color": 16737962,
+            "pizzas": 1,
             "time": 7036,
             "killed_by": [
                 null,
@@ -160,19 +72,19 @@
             ],
             "race": 6,
             "name": "Daphne",
+            "color": 16737962,
+            "bwep": "ShrapnelLauncher",
+            "wep": 52,
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": 52,
                     "color": 16737962,
                     "bwep": "ShrapnelLauncher",
+                    "wep": 52,
                     "race": 6,
                     "skin": 1
                 }
             ],
-            "bwep": "ShrapnelLauncher",
-            "wep": 52,
-            "pizzas": 1,
             "hard": 7,
             "loop": 0,
             "ultras": [ ],
@@ -190,6 +102,59 @@
             ],
             "area": 3,
             "skin": 1
+        },
+        {
+            "kills": 666,
+            "subarea": 2,
+            "loadout": [
+                {
+                    "alias": "Mr. Marco",
+                    "color": 826115,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 1,
+            "time": 22765,
+            "killed_by": 51,
+            "race": 2,
+            "name": "Mr. Marco",
+            "color": 826115,
+            "bwep": 15,
+            "wep": "VelocityBazooka",
+            "allies": [
+                {
+                    "alias": "Mr. Marco",
+                    "color": 826115,
+                    "wep": "VelocityBazooka",
+                    "bwep": 15,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
+            "hard": 21,
+            "loop": 1,
+            "ultras": [ ],
+            "crown": 2,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze",
+                "Alchemic Stomach",
+                "Thick Head",
+                "Double Vision",
+                "Slim Pickings",
+                "Free Space",
+                "Disco Nose",
+                "Steel Nerves",
+                "Generative Adversarial Network",
+                8,
+                2
+            ],
+            "area": 106,
+            "skin": 0
         }
     ]
 }
