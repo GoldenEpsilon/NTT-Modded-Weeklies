@@ -93,6 +93,50 @@
             ],
             "area": 1,
             "skin": 1
+        },
+        {
+            "kills": 15,
+            "subarea": 2,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "bwep": 0,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "color": 16737962,
+            "time": 1460.5,
+            "killed_by": 0,
+            "race": 4,
+            "name": "Daphne",
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": 14,
+                    "color": 16737962,
+                    "bwep": 7,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "bwep": 7,
+            "wep": 14,
+            "pizzas": 0,
+            "hard": 2,
+            "loop": 0,
+            "ultras": [ ],
+            "crown": 2,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze",
+                8
+            ],
+            "area": 1,
+            "skin": 1
         }
     ]
 }
