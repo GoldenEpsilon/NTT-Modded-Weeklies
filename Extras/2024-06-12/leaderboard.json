@@ -96,49 +96,6 @@
             "skin": 1
         },
         {
-            "kills": 19,
-            "subarea": 1,
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "color": 16737962,
-            "time": 541,
-            "killed_by": 0,
-            "race": 4,
-            "name": "Daphne",
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "wep": 7,
-                    "color": 16737962,
-                    "bwep": 14,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "bwep": 14,
-            "wep": 7,
-            "pizzas": 0,
-            "hard": 1,
-            "loop": 0,
-            "ultras": [ ],
-            "crown": 2,
-            "mutations": [
-                "Fractured Fingers",
-                "Explosive Ears",
-                "Explosive Gaze"
-            ],
-            "area": 1,
-            "skin": 1
-        },
-        {
             "kills": 30,
             "subarea": 2,
             "loadout": [
@@ -178,6 +135,49 @@
                 "Explosive Ears",
                 "Explosive Gaze",
                 "Waste Gland"
+            ],
+            "area": 1,
+            "skin": 1
+        },
+        {
+            "kills": 5,
+            "subarea": 1,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "bwep": 0,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "color": 16737962,
+            "time": 66,
+            "killed_by": 56,
+            "race": 4,
+            "name": "Daphne",
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": 14,
+                    "color": 16737962,
+                    "bwep": 0,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "bwep": 0,
+            "wep": 14,
+            "pizzas": 0,
+            "hard": 1,
+            "loop": 0,
+            "ultras": [ ],
+            "crown": 2,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze"
             ],
             "area": 1,
             "skin": 1
