@@ -18,8 +18,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -37,8 +37,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "SquareGun",
                     "bwep": 2,
+                    "wep": "SquareGun",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -71,8 +71,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -90,8 +90,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": 77,
                     "bwep": "va_martial_longsword",
+                    "wep": 77,
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -124,8 +124,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 5862689,
                     "race": 7,
                     "skin": 0
@@ -143,8 +143,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": 90,
                     "bwep": 49,
+                    "wep": 90,
                     "color": 5862689,
                     "race": 7,
                     "skin": 0
@@ -167,8 +167,8 @@
             "loadout": [
                 {
                     "alias": "fakuayala859",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 2,
                     "color": 16736708,
                     "skin": 1
@@ -186,8 +186,8 @@
             "allies": [
                 {
                     "alias": "fakuayala859",
-                    "bwep": 6,
                     "wep": "va_duster_shotgun",
+                    "bwep": 6,
                     "race": 2,
                     "color": 16736708,
                     "skin": 1
@@ -218,32 +218,32 @@
             "loadout": [
                 {
                     "alias": "UnK.",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 10,
                     "color": 16431718,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P2",
-                    "wep": 1,
                     "bwep": 0,
+                    "wep": 1,
                     "race": 10,
                     "color": 7460113,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P3",
-                    "wep": 1,
                     "bwep": 0,
+                    "wep": 1,
                     "race": 10,
                     "color": 2697727,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P4",
-                    "wep": 1,
                     "bwep": 0,
+                    "wep": 1,
                     "race": 10,
                     "color": 16749865,
                     "skin": 0
@@ -261,32 +261,32 @@
             "allies": [
                 {
                     "alias": "UnK.",
-                    "wep": "va_amr",
                     "bwep": 117,
+                    "wep": "va_amr",
                     "race": 10,
                     "color": 16431718,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P2",
-                    "wep": "va_auto_duster_shotgun",
                     "bwep": 87,
+                    "wep": "va_auto_duster_shotgun",
                     "race": 10,
                     "color": 7460113,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P3",
-                    "wep": 50,
                     "bwep": "va_auto_flechette_shotgun",
+                    "wep": 50,
                     "race": 10,
                     "color": 2697727,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P4",
-                    "wep": "va_double_flechette_shotgun",
                     "bwep": "va_magnum",
+                    "wep": "va_double_flechette_shotgun",
                     "race": 10,
                     "color": 16749865,
                     "skin": 0
@@ -310,8 +310,8 @@
             "loadout": [
                 {
                     "alias": "blaac",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 1,
                     "color": 255,
                     "skin": 0
@@ -329,8 +329,8 @@
             "allies": [
                 {
                     "alias": "blaac",
-                    "bwep": "va_snubnose",
                     "wep": 66,
+                    "bwep": "va_snubnose",
                     "race": 1,
                     "color": 255,
                     "skin": 0
@@ -358,8 +358,8 @@
             "loadout": [
                 {
                     "alias": "Dibble",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 15,
                     "color": 9532927,
                     "skin": 0
@@ -377,8 +377,8 @@
             "allies": [
                 {
                     "alias": "Dibble",
-                    "bwep": "va_heavy_breach_cannon",
                     "wep": 106,
+                    "bwep": "va_heavy_breach_cannon",
                     "race": 15,
                     "color": 9532927,
                     "skin": 0
@@ -387,49 +387,45 @@
         },
         {
             "pizzas": 0,
-            "kills": 315,
+            "kills": 167,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
-                "Alchemic Stomach",
-                "Duplicators",
-                "Confidence",
-                25,
-                "Shell Cellulite",
-                7,
-                "Garment Regenerator",
-                11
+                12,
+                26,
+                "Ruffled Feathers",
+                9
             ],
-            "time": 20817,
-            "race": 15,
-            "name": "Dibble",
+            "time": 9780,
+            "race": 2,
+            "name": "fakuayala859",
             "loadout": [
                 {
-                    "alias": "Dibble",
+                    "alias": "fakuayala859",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": 15,
-                    "color": 9532927,
-                    "skin": 0
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 1
                 }
             ],
-            "killed_by": 34,
-            "bwep": "va_smartsaw_launcher",
-            "wep": "PlasmaCarbine",
-            "hard": 14,
+            "killed_by": 19,
+            "bwep": "va_martial_dagger",
+            "wep": 62,
+            "hard": 8,
             "loop": 0,
             "crown": false,
-            "color": 9532927,
-            "area": 7,
-            "skin": 0,
+            "color": 16736708,
+            "area": 4,
+            "skin": 1,
             "allies": [
                 {
-                    "alias": "Dibble",
-                    "wep": "PlasmaCarbine",
-                    "bwep": "va_smartsaw_launcher",
-                    "race": 15,
-                    "color": 9532927,
-                    "skin": 0
+                    "alias": "fakuayala859",
+                    "wep": 62,
+                    "bwep": "va_martial_dagger",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 1
                 }
             ]
         }
