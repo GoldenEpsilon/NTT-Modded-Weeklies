@@ -584,8 +584,8 @@
             "skin": 0
         },
         {
-            "kills": 216,
-            "subarea": 1,
+            "kills": 222,
+            "subarea": 3,
             "loadout": [
                 {
                     "alias": "Daphne",
@@ -597,35 +597,35 @@
                 }
             ],
             "color": 16737962,
-            "time": 8471.5,
-            "killed_by": 0,
+            "time": 9222,
+            "killed_by": 17,
             "race": 1,
             "name": "Daphne",
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_martial_rapier",
+                    "wep": 3,
                     "color": 16737962,
-                    "bwep": 2,
+                    "bwep": "va_sinusoid_pistol",
                     "race": 1,
                     "skin": 1
                 }
             ],
-            "bwep": 2,
-            "wep": "va_martial_rapier",
+            "bwep": "va_sinusoid_pistol",
+            "wep": 3,
             "pizzas": 0,
-            "hard": 8,
+            "hard": 7,
             "loop": 0,
             "ultras": [ ],
             "crown": false,
             "mutations": [
-                "excitedneurons",
-                "Confidence",
-                11,
-                "Mimicry",
-                "Double Vision"
+                13,
+                23,
+                "Steel Nerves",
+                2,
+                "Compressing Fist"
             ],
-            "area": 4,
+            "area": 3,
             "skin": 1
         }
     ]
