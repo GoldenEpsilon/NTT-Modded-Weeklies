@@ -584,47 +584,52 @@
             "skin": 0
         },
         {
-            "kills": 96,
-            "subarea": 2,
+            "kills": 384,
+            "subarea": 1,
             "loadout": [
                 {
                     "alias": "Daphne",
                     "wep": "mw_ui_start",
                     "color": 16737962,
-                    "bwep": 0,
-                    "race": 1,
-                    "skin": 1
+                    "bwep": 1,
+                    "race": 7,
+                    "skin": 0
                 }
             ],
             "color": 16737962,
-            "time": 6196,
-            "killed_by": 14,
-            "race": 1,
+            "time": 19531.5,
+            "killed_by": 51,
+            "race": 7,
             "name": "Daphne",
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "tree_pruner",
+                    "wep": "va_martial_rapier",
                     "color": 16737962,
-                    "bwep": "va_gluon_gun",
-                    "race": 1,
-                    "skin": 1
+                    "bwep": "va_martial_sawtooth_sword",
+                    "race": 7,
+                    "skin": 0
                 }
             ],
-            "bwep": "va_gluon_gun",
-            "wep": "tree_pruner",
+            "bwep": "va_martial_sawtooth_sword",
+            "wep": "va_martial_rapier",
             "pizzas": 0,
-            "hard": 6,
-            "loop": 0,
+            "hard": 16,
+            "loop": 1,
             "ultras": [ ],
             "crown": false,
             "mutations": [
+                11,
+                13,
+                "Duplicators",
                 "Compressing Fist",
-                5,
-                1
+                23,
+                "Muscle Memory",
+                "Double Vision",
+                19
             ],
-            "area": 3,
-            "skin": 1
+            "area": 0,
+            "skin": 0
         }
     ]
 }
