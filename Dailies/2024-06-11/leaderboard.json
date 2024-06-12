@@ -1,43 +1,90 @@
 {
     "scores": [
         {
-            "allies": [
-                {
-                    "color": 255,
-                    "bwep": 39,
-                    "wep": 6,
-                    "race": 6,
-                    "skin": 1,
-                    "alias": "PochtIKaRasiK"
-                }
-            ],
+            "pizzas": 0,
             "kills": 11,
             "subarea": 1,
-            "killed_by": -1,
+            "ultras": [ ],
+            "mutations": [ ],
             "time": 477,
             "race": 6,
             "name": "PochtIKaRasiK",
             "loadout": [
                 {
-                    "color": 255,
-                    "bwep": 0,
+                    "alias": "PochtIKaRasiK",
                     "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 255,
                     "race": 6,
-                    "skin": 1,
-                    "alias": "PochtIKaRasiK"
+                    "skin": 1
                 }
             ],
-            "color": 255,
+            "killed_by": -1,
             "bwep": 39,
             "wep": 6,
-            "ultras": [ ],
             "hard": 1,
             "loop": 0,
-            "mutations": [ ],
             "crown": false,
+            "color": 255,
             "area": 1,
             "skin": 1,
-            "pizzas": 0
+            "allies": [
+                {
+                    "alias": "PochtIKaRasiK",
+                    "wep": 6,
+                    "bwep": 39,
+                    "color": 255,
+                    "race": 6,
+                    "skin": 1
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 306,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                26,
+                1,
+                4,
+                25,
+                "Duplicators",
+                27,
+                7
+            ],
+            "time": 16962,
+            "race": 2,
+            "name": "fakuayala859",
+            "loadout": [
+                {
+                    "alias": "fakuayala859",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 27,
+            "bwep": 23,
+            "wep": "va_magnum",
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 5,
+            "skin": 1,
+            "allies": [
+                {
+                    "alias": "fakuayala859",
+                    "wep": "va_magnum",
+                    "bwep": 23,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ]
         }
     ]
 }
