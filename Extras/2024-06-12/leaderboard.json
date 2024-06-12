@@ -4,8 +4,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 7,
                     "bwep": 14,
+                    "wep": 7,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -28,8 +28,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -50,8 +50,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 14,
                     "wep": "toxic carronader",
+                    "bwep": 14,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -74,8 +74,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
@@ -96,22 +96,23 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 14,
-                    "bwep": 0,
+                    "wep": 7,
+                    "bwep": 14,
                     "race": 4,
                     "color": 15628287,
                     "skin": 1
                 }
             ],
-            "kills": 8,
+            "kills": 23,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 2,
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
-                "Explosive Gaze"
+                "Explosive Gaze",
+                "Waste Gland"
             ],
-            "time": 445,
+            "time": 990,
             "race": 4,
             "name": "Buczaj",
             "loadout": [
@@ -124,10 +125,10 @@
                     "skin": 1
                 }
             ],
-            "killed_by": 0,
-            "bwep": 0,
-            "wep": 14,
-            "hard": 1,
+            "killed_by": 72,
+            "bwep": 14,
+            "wep": 7,
+            "hard": 2,
             "loop": 0,
             "crown": 2,
             "color": 15628287,
