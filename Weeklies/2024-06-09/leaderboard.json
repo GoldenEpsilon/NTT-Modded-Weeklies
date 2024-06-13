@@ -741,24 +741,25 @@
             "allies": [
                 {
                     "color": 16737962,
-                    "bwep": 27,
-                    "wep": 6,
+                    "bwep": "mcleod",
+                    "wep": "fire_poker",
                     "race": 10,
                     "skin": 0,
                     "alias": "Daphne"
                 }
             ],
             "color": 16737962,
-            "kills": 76,
+            "kills": 184,
             "subarea": 3,
             "pizzas": 0,
             "ultras": [ ],
             "mutations": [
-                5,
-                25,
-                15
+                4,
+                "Filtering Teeth",
+                9,
+                5
             ],
-            "time": 2931.5,
+            "time": 7384,
             "race": 10,
             "name": "Daphne",
             "loadout": [
@@ -771,13 +772,13 @@
                     "alias": "Daphne"
                 }
             ],
-            "bwep": 27,
-            "wep": 6,
-            "killed_by": 0,
-            "hard": 3,
+            "bwep": "mcleod",
+            "wep": "fire_poker",
+            "killed_by": 17,
+            "hard": 7,
             "loop": 0,
             "crown": false,
-            "area": 1,
+            "area": 3,
             "skin": 0
         }
     ]
