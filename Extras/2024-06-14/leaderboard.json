@@ -85,6 +85,56 @@
             "area": 1,
             "skin": 0,
             "killed_by": 55
+        },
+        {
+            "kills": 173,
+            "subarea": 2,
+            "allies": [
+                {
+                    "bwep": "push piston",
+                    "wep": "abris pistol",
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "race": 4,
+                    "skin": 0
+                }
+            ],
+            "time": 6568,
+            "pizzas": 1,
+            "race": 4,
+            "ultras": [ ],
+            "name": "Daphne",
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze",
+                26,
+                "Slim Pickings",
+                "Disco Nose",
+                "Groupthink",
+                "Steel Nerves",
+                2,
+                "Ruffled Feathers"
+            ],
+            "bwep": "push piston",
+            "wep": "abris pistol",
+            "hard": 7,
+            "loop": 0,
+            "color": 16737962,
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "race": 4,
+                    "skin": 0
+                }
+            ],
+            "crown": 2,
+            "area": 3,
+            "skin": 0,
+            "killed_by": 72
         }
     ]
 }
