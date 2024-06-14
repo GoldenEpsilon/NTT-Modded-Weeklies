@@ -2,51 +2,6 @@
     "scores": [
         {
             "color": 16736708,
-            "kills": 200,
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Dario sos",
-                    "race": 2,
-                    "skin": 0
-                }
-            ],
-            "subarea": 1,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "bwep": 2,
-                    "wep": "SquareGun",
-                    "alias": "Dario sos",
-                    "race": 2,
-                    "skin": 0
-                }
-            ],
-            "ultras": [ ],
-            "mutations": [
-                20,
-                22,
-                "excitedneurons",
-                "Compressing Fist",
-                "Ruffled Feathers"
-            ],
-            "time": 10852,
-            "race": 2,
-            "name": "Dario sos",
-            "pizzas": 0,
-            "bwep": 2,
-            "wep": "SquareGun",
-            "killed_by": 25,
-            "loop": 0,
-            "hard": 9,
-            "crown": false,
-            "area": 5,
-            "skin": 0
-        },
-        {
-            "color": 16736708,
             "kills": 3310,
             "loadout": [
                 {
@@ -737,6 +692,54 @@
             "wep": "va_martial_longsword",
             "killed_by": 26,
             "hard": 11,
+            "loop": 0,
+            "crown": 8,
+            "area": 5,
+            "skin": 0
+        },
+        {
+            "color": 16736708,
+            "kills": 287,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "Dario sos",
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
+            "subarea": 3,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 69,
+                    "wep": 13,
+                    "alias": "Dario sos",
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
+            "ultras": [ ],
+            "mutations": [
+                10,
+                11,
+                3,
+                25,
+                "Garment Regenerator",
+                27,
+                9,
+                14
+            ],
+            "time": 13466,
+            "race": 2,
+            "name": "Dario sos",
+            "pizzas": 0,
+            "bwep": 69,
+            "wep": 13,
+            "killed_by": 25,
+            "hard": 12,
             "loop": 0,
             "crown": 8,
             "area": 5,
