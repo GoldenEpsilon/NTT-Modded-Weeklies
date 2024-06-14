@@ -2,6 +2,7 @@
     "scores": [
         {
             "kills": 3310,
+            "subarea": 1,
             "loadout": [
                 {
                     "color": 16736708,
@@ -12,7 +13,6 @@
                     "alias": "Sir Mittens IV"
                 }
             ],
-            "subarea": 1,
             "allies": [
                 {
                     "color": 16736708,
@@ -55,6 +55,7 @@
         },
         {
             "kills": 1153,
+            "subarea": 3,
             "loadout": [
                 {
                     "color": 5862689,
@@ -65,7 +66,6 @@
                     "alias": "Dragonstrive"
                 }
             ],
-            "subarea": 3,
             "allies": [
                 {
                     "color": 5862689,
@@ -108,6 +108,7 @@
         },
         {
             "kills": 657,
+            "subarea": 1,
             "loadout": [
                 {
                     "color": 16431718,
@@ -142,7 +143,6 @@
                     "alias": "UnK.'s P4"
                 }
             ],
-            "subarea": 1,
             "allies": [
                 {
                     "color": 16431718,
@@ -207,6 +207,7 @@
         },
         {
             "kills": 160,
+            "subarea": 2,
             "loadout": [
                 {
                     "color": 255,
@@ -217,7 +218,6 @@
                     "alias": "blaac"
                 }
             ],
-            "subarea": 2,
             "allies": [
                 {
                     "color": 255,
@@ -251,6 +251,7 @@
         },
         {
             "kills": 394,
+            "subarea": 3,
             "loadout": [
                 {
                     "color": 9532927,
@@ -261,7 +262,6 @@
                     "alias": "Dibble"
                 }
             ],
-            "subarea": 3,
             "allies": [
                 {
                     "color": 9532927,
@@ -299,6 +299,7 @@
         },
         {
             "kills": 197,
+            "subarea": 1,
             "loadout": [
                 {
                     "color": 16736708,
@@ -309,7 +310,6 @@
                     "alias": "fakuayala859"
                 }
             ],
-            "subarea": 1,
             "allies": [
                 {
                     "color": 16736708,
@@ -345,6 +345,7 @@
         },
         {
             "kills": 1219,
+            "subarea": 3,
             "loadout": [
                 {
                     "color": 15628287,
@@ -355,7 +356,6 @@
                     "alias": "Buczaj"
                 }
             ],
-            "subarea": 3,
             "allies": [
                 {
                     "color": 15628287,
@@ -403,6 +403,7 @@
         },
         {
             "kills": 2510,
+            "subarea": 1,
             "loadout": [
                 {
                     "color": 826115,
@@ -413,7 +414,6 @@
                     "alias": "Mr. Marco"
                 }
             ],
-            "subarea": 1,
             "allies": [
                 {
                     "color": 826115,
@@ -457,6 +457,7 @@
         },
         {
             "kills": 119,
+            "subarea": 1,
             "loadout": [
                 {
                     "color": 4517495,
@@ -467,7 +468,6 @@
                     "alias": "LaPerlis_XD"
                 }
             ],
-            "subarea": 1,
             "allies": [
                 {
                     "color": 4517495,
@@ -500,6 +500,7 @@
         },
         {
             "kills": 83,
+            "subarea": 2,
             "loadout": [
                 {
                     "color": 4517495,
@@ -510,7 +511,6 @@
                     "alias": "LaPerlis_XD"
                 }
             ],
-            "subarea": 2,
             "allies": [
                 {
                     "color": 4517495,
@@ -544,6 +544,7 @@
         },
         {
             "kills": 1296,
+            "subarea": 2,
             "loadout": [
                 {
                     "color": 5623039,
@@ -554,7 +555,6 @@
                     "alias": "Hello, weekly?"
                 }
             ],
-            "subarea": 2,
             "allies": [
                 {
                     "color": 5623039,
@@ -598,6 +598,7 @@
         },
         {
             "kills": 2950,
+            "subarea": 1,
             "loadout": [
                 {
                     "color": 16737962,
@@ -608,7 +609,6 @@
                     "alias": "Daphne"
                 }
             ],
-            "subarea": 1,
             "allies": [
                 {
                     "color": 16737962,
@@ -652,6 +652,7 @@
         },
         {
             "kills": 313,
+            "subarea": 1,
             "loadout": [
                 {
                     "color": 16736708,
@@ -662,7 +663,6 @@
                     "alias": "Dario sos"
                 }
             ],
-            "subarea": 1,
             "allies": [
                 {
                     "color": 16736708,
@@ -699,6 +699,7 @@
         },
         {
             "kills": 287,
+            "subarea": 3,
             "loadout": [
                 {
                     "color": 16736708,
@@ -709,7 +710,6 @@
                     "alias": "Dario sos"
                 }
             ],
-            "subarea": 3,
             "allies": [
                 {
                     "color": 16736708,
@@ -747,6 +747,7 @@
         },
         {
             "kills": 769,
+            "subarea": 3,
             "loadout": [
                 {
                     "color": 12133220,
@@ -757,7 +758,6 @@
                     "alias": "lee-mon"
                 }
             ],
-            "subarea": 3,
             "allies": [
                 {
                     "color": 12133220,
@@ -795,6 +795,59 @@
             ],
             "crown": 1,
             "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 1357,
+            "loadout": [
+                {
+                    "color": 12133220,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 1,
+                    "skin": 0,
+                    "alias": "lee-mon"
+                }
+            ],
+            "subarea": 1,
+            "allies": [
+                {
+                    "color": 12133220,
+                    "bwep": "va_breach_cannon",
+                    "wep": "va_pummeler",
+                    "race": 1,
+                    "skin": 0,
+                    "alias": "lee-mon"
+                }
+            ],
+            "killed_by": 17,
+            "time": 40800,
+            "race": 1,
+            "name": "lee-mon",
+            "color": 12133220,
+            "pizzas": 0,
+            "bwep": "va_breach_cannon",
+            "wep": "va_pummeler",
+            "ultras": [
+                [
+                    1,
+                    2
+                ]
+            ],
+            "hard": 32,
+            "loop": 1,
+            "mutations": [
+                14,
+                27,
+                23,
+                10,
+                11,
+                "Compressing Fist",
+                "Double Vision",
+                "Mimicry"
+            ],
+            "crown": 2,
+            "area": 7,
             "skin": 0
         }
     ]
