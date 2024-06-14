@@ -799,35 +799,33 @@
             "killed_by": 17
         },
         {
-            "kills": 405,
-            "subarea": 3,
+            "kills": 121,
+            "subarea": 1,
             "allies": [
                 {
-                    "bwep": 10,
-                    "wep": 119,
+                    "bwep": 21,
+                    "wep": 19,
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "time": 17228,
+            "time": 3490,
             "pizzas": 0,
             "race": 7,
             "ultras": [ ],
             "name": "Daphne",
             "mutations": [
-                13,
-                14,
-                7,
-                27,
-                11,
-                20,
-                26
+                25,
+                26,
+                16,
+                "Duplicators",
+                10
             ],
-            "bwep": 10,
-            "wep": 119,
-            "hard": 15,
+            "bwep": 21,
+            "wep": 19,
+            "hard": 4,
             "loop": 0,
             "color": 16737962,
             "loadout": [
@@ -841,9 +839,9 @@
                 }
             ],
             "crown": false,
-            "area": 7,
+            "area": 2,
             "skin": 1,
-            "killed_by": 37
+            "killed_by": 7
         }
     ]
 }
