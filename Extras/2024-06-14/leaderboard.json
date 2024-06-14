@@ -101,32 +101,37 @@
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
-                "Explosive Gaze"
+                "Explosive Gaze",
+                "Ruffled Feathers",
+                "Waste Gland",
+                25,
+                27,
+                "Mimicry",
+                11,
+                "Scrap Arms",
+                "Confidence"
             ],
-            "kills": 11,
-            "subarea": 1,
-            "pizzas": 0,
-            "time": 106,
+            "kills": 309,
+            "subarea": 3,
+            "pizzas": 1,
+            "time": 17663,
             "race": 4,
-            "killed_by": [
-                null,
-                "SMALL EXPLOSION"
-            ],
+            "killed_by": 27,
             "name": "Hello, weekly?",
-            "bwep": 0,
-            "wep": 7,
+            "bwep": 7,
+            "wep": "rocklet rifle",
             "color": 5623039,
             "allies": [
                 {
                     "alias": "Hello, weekly?",
-                    "bwep": 0,
-                    "wep": 7,
+                    "bwep": 7,
+                    "wep": "rocklet rifle",
                     "color": 5623039,
                     "race": 4,
                     "skin": 1
                 }
             ],
-            "hard": 1,
+            "hard": 12,
             "loop": 0,
             "loadout": [
                 {
@@ -140,7 +145,7 @@
             ],
             "crown": 2,
             "ultras": [ ],
-            "area": 1,
+            "area": 5,
             "skin": 1
         }
     ]
