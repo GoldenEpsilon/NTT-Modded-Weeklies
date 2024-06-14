@@ -1,109 +1,6 @@
 {
     "scores": [
         {
-            "kills": 8,
-            "subarea": 1,
-            "allies": [
-                {
-                    "bwep": 0,
-                    "wep": 7,
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 4,
-                    "skin": 0
-                }
-            ],
-            "time": 509,
-            "pizzas": 0,
-            "race": 4,
-            "ultras": [ ],
-            "name": "Daphne",
-            "mutations": [
-                "Fractured Fingers",
-                "Explosive Ears",
-                "Explosive Gaze"
-            ],
-            "bwep": 0,
-            "wep": 7,
-            "hard": 1,
-            "loop": 0,
-            "color": 16737962,
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 4,
-                    "skin": 0
-                }
-            ],
-            "crown": 2,
-            "area": 1,
-            "skin": 0,
-            "killed_by": 72
-        },
-        {
-            "kills": 4,
-            "subarea": 1,
-            "allies": [
-                {
-                    "bwep": 0,
-                    "wep": 7,
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 4,
-                    "skin": 0
-                }
-            ],
-            "time": 187,
-            "pizzas": 0,
-            "race": 4,
-            "ultras": [ ],
-            "name": "Daphne",
-            "mutations": [
-                "Fractured Fingers",
-                "Explosive Ears",
-                "Explosive Gaze"
-            ],
-            "bwep": 0,
-            "wep": 7,
-            "hard": 1,
-            "loop": 0,
-            "color": 16737962,
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 4,
-                    "skin": 0
-                }
-            ],
-            "crown": 2,
-            "area": 1,
-            "skin": 0,
-            "killed_by": 55
-        },
-        {
-            "kills": 173,
-            "subarea": 2,
-            "allies": [
-                {
-                    "bwep": "push piston",
-                    "wep": "abris pistol",
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 4,
-                    "skin": 0
-                }
-            ],
-            "time": 6568,
-            "pizzas": 1,
-            "race": 4,
-            "ultras": [ ],
-            "name": "Daphne",
             "mutations": [
                 "Fractured Fingers",
                 "Explosive Ears",
@@ -116,25 +13,85 @@
                 2,
                 "Ruffled Feathers"
             ],
+            "kills": 173,
+            "subarea": 2,
+            "pizzas": 1,
+            "time": 6568,
+            "race": 4,
+            "name": "Daphne",
+            "killed_by": 72,
             "bwep": "push piston",
             "wep": "abris pistol",
-            "hard": 7,
-            "loop": 0,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "bwep": "push piston",
+                    "wep": "abris pistol",
+                    "color": 16737962,
+                    "race": 4,
+                    "skin": 0
+                }
+            ],
             "color": 16737962,
+            "loop": 0,
+            "hard": 7,
             "loadout": [
                 {
+                    "alias": "Daphne",
                     "bwep": 0,
                     "wep": "mw_ui_start",
-                    "alias": "Daphne",
                     "color": 16737962,
                     "race": 4,
                     "skin": 0
                 }
             ],
             "crown": 2,
+            "ultras": [ ],
             "area": 3,
-            "skin": 0,
-            "killed_by": 72
+            "skin": 0
+        },
+        {
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze"
+            ],
+            "kills": 7,
+            "subarea": 1,
+            "pizzas": 0,
+            "time": 450,
+            "race": 4,
+            "killed_by": 4,
+            "name": "Hello, weekly?",
+            "bwep": 0,
+            "wep": 7,
+            "color": 5623039,
+            "allies": [
+                {
+                    "alias": "Hello, weekly?",
+                    "bwep": 0,
+                    "wep": 7,
+                    "color": 5623039,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "hard": 1,
+            "loop": 0,
+            "loadout": [
+                {
+                    "alias": "Hello, weekly?",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5623039,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "crown": 2,
+            "ultras": [ ],
+            "area": 1,
+            "skin": 1
         }
     ]
 }
