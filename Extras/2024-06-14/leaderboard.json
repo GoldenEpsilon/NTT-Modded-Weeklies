@@ -55,51 +55,6 @@
                 "Fractured Fingers",
                 "Explosive Ears",
                 "Explosive Gaze",
-                "Pressurized Lungs",
-                11
-            ],
-            "kills": 90,
-            "subarea": 1,
-            "pizzas": 0,
-            "time": 3462,
-            "race": 4,
-            "killed_by": 55,
-            "name": "Hello, weekly?",
-            "bwep": 7,
-            "wep": 7,
-            "color": 5623039,
-            "allies": [
-                {
-                    "alias": "Hello, weekly?",
-                    "bwep": 7,
-                    "wep": 7,
-                    "color": 5623039,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "hard": 4,
-            "loop": 0,
-            "loadout": [
-                {
-                    "alias": "Hello, weekly?",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "color": 5623039,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
-            "crown": 2,
-            "ultras": [ ],
-            "area": 2,
-            "skin": 1
-        },
-        {
-            "mutations": [
-                "Fractured Fingers",
-                "Explosive Ears",
-                "Explosive Gaze",
                 "Mimicry",
                 5,
                 "Filtering Teeth",
@@ -140,6 +95,52 @@
             "crown": 2,
             "ultras": [ ],
             "area": 3,
+            "skin": 1
+        },
+        {
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze"
+            ],
+            "kills": 11,
+            "subarea": 1,
+            "pizzas": 0,
+            "time": 106,
+            "race": 4,
+            "killed_by": [
+                null,
+                "SMALL EXPLOSION"
+            ],
+            "name": "Hello, weekly?",
+            "bwep": 0,
+            "wep": 7,
+            "color": 5623039,
+            "allies": [
+                {
+                    "alias": "Hello, weekly?",
+                    "bwep": 0,
+                    "wep": 7,
+                    "color": 5623039,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "hard": 1,
+            "loop": 0,
+            "loadout": [
+                {
+                    "alias": "Hello, weekly?",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5623039,
+                    "race": 4,
+                    "skin": 1
+                }
+            ],
+            "crown": 2,
+            "ultras": [ ],
+            "area": 1,
             "skin": 1
         }
     ]
