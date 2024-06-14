@@ -848,6 +848,58 @@
                 "Adaptable"
             ],
             "skin": 0
+        },
+        {
+            "kills": 336,
+            "subarea": 1,
+            "allies": [
+                {
+                    "alias": "lee-mon",
+                    "wep": "va_breach_cannon",
+                    "color": 12133220,
+                    "bwep": "va_razorpop",
+                    "race": 1,
+                    "skin": 0
+                }
+            ],
+            "time": 16188,
+            "loadout": [
+                {
+                    "alias": "lee-mon",
+                    "wep": "mw_ui_start",
+                    "color": 12133220,
+                    "bwep": 0,
+                    "race": 1,
+                    "skin": 0
+                }
+            ],
+            "killed_by": [
+                null,
+                "BREACH GRENADE"
+            ],
+            "race": 1,
+            "name": "lee-mon",
+            "color": 12133220,
+            "bwep": "va_razorpop",
+            "wep": "va_breach_cannon",
+            "pizzas": 0,
+            "hard": 14,
+            "loop": 0,
+            "crown": 1,
+            "ultras": [ ],
+            "area": 6,
+            "mutations": [
+                25,
+                4,
+                "Rocket Casings",
+                23,
+                "Scrap Arms",
+                "luckyshot",
+                "powderedgums",
+                "Sloppy Fingers",
+                "Double Vision"
+            ],
+            "skin": 0
         }
     ]
 }
