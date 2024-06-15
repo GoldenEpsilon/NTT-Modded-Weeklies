@@ -1,0 +1,54 @@
+{
+    "scores": [
+        {
+            "pizzas": 1,
+            "kills": 137,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze",
+                12,
+                "Mimicry",
+                "Loner",
+                "Shivering Spine"
+            ],
+            "time": 4301,
+            "race": 4,
+            "name": "Buczaj",
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 255,
+                    "skin": 1
+                }
+            ],
+            "killed_by": [
+                null,
+                "SMALL EXPLOSION"
+            ],
+            "bwep": "abris pistol",
+            "wep": "push piston",
+            "hard": 5,
+            "loop": 0,
+            "crown": 2,
+            "color": 255,
+            "area": 102,
+            "skin": 1,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "push piston",
+                    "bwep": "abris pistol",
+                    "race": 4,
+                    "color": 255,
+                    "skin": 1
+                }
+            ]
+        }
+    ]
+}
