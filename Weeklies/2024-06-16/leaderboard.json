@@ -18,8 +18,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 117,
                     "wep": "ClusterCannon",
+                    "bwep": 117,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -30,8 +30,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -57,8 +57,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "Acro-Bat",
                     "bwep": "fire_poker",
+                    "wep": "Acro-Bat",
                     "race": "acrobat",
                     "color": 255,
                     "skin": 0
@@ -69,8 +69,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "acrobat",
                     "color": 255,
                     "skin": 0
@@ -95,9 +95,9 @@
             "time": 1656,
             "allies": [
                 {
-                    "alias": "fan N1 del bebé ceniza",
-                    "bwep": 3,
+                    "alias": "fan N1 del bebÃ© ceniza",
                     "wep": 6,
+                    "bwep": 3,
                     "race": "Printer",
                     "color": 5623039,
                     "skin": 0
@@ -106,15 +106,15 @@
             "race": "Printer",
             "loadout": [
                 {
-                    "alias": "fan N1 del bebé ceniza",
-                    "bwep": 0,
+                    "alias": "fan N1 del bebÃ© ceniza",
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 5623039,
                     "skin": 0
                 }
             ],
-            "name": "fan N1 del bebé ceniza",
+            "name": "fan N1 del bebÃ© ceniza",
             "killed_by": -1,
             "bwep": 3,
             "wep": 6,
@@ -134,9 +134,9 @@
             "time": 1377,
             "allies": [
                 {
-                    "alias": "fan N1 del beb� ceniza",
-                    "wep": "Acro-Bat",
+                    "alias": "fan N1 del bebé ceniza",
                     "bwep": 21,
+                    "wep": "Acro-Bat",
                     "race": "acrobat",
                     "color": 5623039,
                     "skin": 0
@@ -145,15 +145,15 @@
             "race": "acrobat",
             "loadout": [
                 {
-                    "alias": "fan N1 del beb� ceniza",
-                    "wep": "mw_ui_start",
+                    "alias": "fan N1 del bebé ceniza",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "acrobat",
                     "color": 5623039,
                     "skin": 0
                 }
             ],
-            "name": "fan N1 del beb� ceniza",
+            "name": "fan N1 del bebé ceniza",
             "killed_by": 3,
             "bwep": 21,
             "wep": "Acro-Bat",
@@ -164,6 +164,45 @@
             "pizzas": 0,
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 15,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [ ],
+            "time": 879,
+            "allies": [
+                {
+                    "alias": "fan N1 del beb� ceniza",
+                    "wep": 7,
+                    "bwep": "mcleod",
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
+            "race": 6,
+            "loadout": [
+                {
+                    "alias": "fan N1 del beb� ceniza",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
+            "name": "fan N1 del beb� ceniza",
+            "killed_by": 55,
+            "bwep": "mcleod",
+            "wep": 7,
+            "hard": 2,
+            "loop": 0,
+            "crown": false,
+            "color": 5623039,
+            "pizzas": 0,
+            "area": 1,
+            "skin": 1
         }
     ]
 }
