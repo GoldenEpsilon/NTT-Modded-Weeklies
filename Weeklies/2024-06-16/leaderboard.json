@@ -1,53 +1,6 @@
 {
     "scores": [
         {
-            "kills": 187,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                3,
-                25,
-                7,
-                "concentration",
-                4,
-                "Thick Head",
-                "Filtering Teeth"
-            ],
-            "time": 10832,
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 20,
-                    "wep": 3,
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 2,
-            "name": "Dario sos",
-            "killed_by": 19,
-            "bwep": 20,
-            "wep": 3,
-            "hard": 10,
-            "loop": 0,
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "crown": 8,
-            "color": 16736708,
-            "pizzas": 1,
-            "area": 4,
-            "skin": 0
-        },
-        {
             "kills": 200,
             "ultras": [ ],
             "subarea": 1,
@@ -63,8 +16,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mcleod",
                     "bwep": "va_flechette_flak",
+                    "wep": "mcleod",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -80,6 +33,56 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "crown": 8,
+            "color": 16736708,
+            "pizzas": 1,
+            "area": 5,
+            "skin": 0
+        },
+        {
+            "kills": 309,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                13,
+                "Double Vision",
+                11,
+                "Steel Nerves",
+                "Staked Chest",
+                "Slim Pickings",
+                "Telekinetic Tears",
+                "Groupthink",
+                "powderedgums",
+                "Ruffled Feathers"
+            ],
+            "time": 14735,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "va_hoagie",
+                    "bwep": 22,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 2,
+            "name": "Dario sos",
+            "killed_by": 27,
+            "bwep": 22,
+            "wep": "va_hoagie",
+            "hard": 14,
+            "loop": 0,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "race": 2,
@@ -87,7 +90,7 @@
                     "skin": 0
                 }
             ],
-            "crown": 8,
+            "crown": 1,
             "color": 16736708,
             "pizzas": 1,
             "area": 5,
