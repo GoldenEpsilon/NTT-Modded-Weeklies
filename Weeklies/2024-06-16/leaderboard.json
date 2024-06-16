@@ -1,56 +1,6 @@
 {
     "scores": [
         {
-            "kills": 309,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                13,
-                "Double Vision",
-                11,
-                "Steel Nerves",
-                "Staked Chest",
-                "Slim Pickings",
-                "Telekinetic Tears",
-                "Groupthink",
-                "powderedgums",
-                "Ruffled Feathers"
-            ],
-            "time": 14735,
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 22,
-                    "wep": "va_hoagie",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 2,
-            "name": "Dario sos",
-            "killed_by": 27,
-            "bwep": 22,
-            "wep": "va_hoagie",
-            "hard": 14,
-            "loop": 0,
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "crown": 1,
-            "color": 16736708,
-            "pizzas": 1,
-            "area": 5,
-            "skin": 0
-        },
-        {
             "kills": 368,
             "ultras": [ ],
             "subarea": 1,
@@ -68,8 +18,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "ClusterCannon",
                     "bwep": 117,
+                    "wep": "ClusterCannon",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -77,25 +27,64 @@
             ],
             "race": 2,
             "name": "Dario sos",
+            "pizzas": 1,
             "killed_by": 56,
             "bwep": 117,
             "wep": "ClusterCannon",
             "hard": 15,
             "loop": 0,
+            "crown": 1,
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "crown": 1,
             "color": 16736708,
-            "pizzas": 1,
             "area": 6,
+            "skin": 0
+        },
+        {
+            "kills": 12,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [ ],
+            "time": 1559,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "Acro-Bat",
+                    "bwep": "fire_poker",
+                    "race": "acrobat",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "race": "acrobat",
+            "pizzas": 0,
+            "name": "Buczaj",
+            "killed_by": 4,
+            "bwep": "fire_poker",
+            "wep": "Acro-Bat",
+            "hard": 2,
+            "loop": 0,
+            "crown": false,
+            "color": 255,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "acrobat",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "area": 1,
             "skin": 0
         }
     ]
