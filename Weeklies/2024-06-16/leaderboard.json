@@ -1,52 +1,6 @@
 {
     "scores": [
         {
-            "kills": 200,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                20,
-                "Mimicry",
-                23,
-                "sharpteeth",
-                "Pressurized Lungs",
-                "Absorbing Abs"
-            ],
-            "time": 10199,
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": "va_flechette_flak",
-                    "wep": "mcleod",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 2,
-            "name": "Dario sos",
-            "killed_by": 26,
-            "bwep": "va_flechette_flak",
-            "wep": "mcleod",
-            "hard": 11,
-            "loop": 0,
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "crown": 8,
-            "color": 16736708,
-            "pizzas": 1,
-            "area": 5,
-            "skin": 0
-        },
-        {
             "kills": 309,
             "ultras": [ ],
             "subarea": 3,
@@ -66,8 +20,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "va_hoagie",
                     "bwep": 22,
+                    "wep": "va_hoagie",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -83,6 +37,54 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "crown": 1,
+            "color": 16736708,
+            "pizzas": 1,
+            "area": 5,
+            "skin": 0
+        },
+        {
+            "kills": 368,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                20,
+                13,
+                "Garment Regenerator",
+                1,
+                17,
+                15,
+                "Alchemic Stomach",
+                "Thick Head"
+            ],
+            "time": 16380,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "ClusterCannon",
+                    "bwep": 117,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 2,
+            "name": "Dario sos",
+            "killed_by": 56,
+            "bwep": 117,
+            "wep": "ClusterCannon",
+            "hard": 15,
+            "loop": 0,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "race": 2,
@@ -93,7 +95,7 @@
             "crown": 1,
             "color": 16736708,
             "pizzas": 1,
-            "area": 5,
+            "area": 6,
             "skin": 0
         }
     ]
