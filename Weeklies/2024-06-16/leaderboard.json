@@ -18,8 +18,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "ClusterCannon",
                     "bwep": 117,
+                    "wep": "ClusterCannon",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -30,8 +30,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -57,8 +57,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": "fire_poker",
                     "wep": "Acro-Bat",
+                    "bwep": "fire_poker",
                     "race": "acrobat",
                     "color": 255,
                     "skin": 0
@@ -69,8 +69,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "acrobat",
                     "color": 255,
                     "skin": 0
@@ -95,9 +95,9 @@
             "time": 1656,
             "allies": [
                 {
-                    "alias": "fan N1 del bebé ceniza",
-                    "wep": 6,
+                    "alias": "fan N1 del bebÃ© ceniza",
                     "bwep": 3,
+                    "wep": 6,
                     "race": "Printer",
                     "color": 5623039,
                     "skin": 0
@@ -106,19 +106,58 @@
             "race": "Printer",
             "loadout": [
                 {
-                    "alias": "fan N1 del bebé ceniza",
-                    "wep": "mw_ui_start",
+                    "alias": "fan N1 del bebÃ© ceniza",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "Printer",
                     "color": 5623039,
                     "skin": 0
                 }
             ],
-            "name": "fan N1 del bebé ceniza",
+            "name": "fan N1 del bebÃ© ceniza",
             "killed_by": -1,
             "bwep": 3,
             "wep": 6,
             "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "color": 5623039,
+            "pizzas": 0,
+            "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 9,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [ ],
+            "time": 1377,
+            "allies": [
+                {
+                    "alias": "fan N1 del bebé ceniza",
+                    "wep": "Acro-Bat",
+                    "bwep": 21,
+                    "race": "acrobat",
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "race": "acrobat",
+            "loadout": [
+                {
+                    "alias": "fan N1 del bebé ceniza",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "acrobat",
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "name": "fan N1 del bebé ceniza",
+            "killed_by": 3,
+            "bwep": 21,
+            "wep": "Acro-Bat",
+            "hard": 2,
             "loop": 0,
             "crown": false,
             "color": 5623039,
