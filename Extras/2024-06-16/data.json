@@ -1,0 +1,21 @@
+{
+	"name": "NT3D",
+	"description": "Nuclear Throne Enters the Third Dimension!",
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"disable_crowns": false,
+	"seed": "Random",
+	"mods": [
+		{
+			"download_type": "direct",
+			"name": "NT3D",
+			"filename": "NT3D.zip",
+			"description": "Nuclear Throne 3D#The april fools gag come to life!",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/NT3D.zip"
+		},
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": false,
+}
