@@ -1,7 +1,16 @@
 {
     "scores": [
         {
-            "pizzas": 1,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "bwep": "abris pistol",
+                    "wep": "push piston",
+                    "race": 4,
+                    "color": 255,
+                    "skin": 1
+                }
+            ],
             "kills": 137,
             "ultras": [ ],
             "subarea": 1,
@@ -20,8 +29,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 4,
                     "color": 255,
                     "skin": 1
@@ -39,16 +48,50 @@
             "color": 255,
             "area": 102,
             "skin": 1,
+            "pizzas": 1
+        },
+        {
             "allies": [
                 {
-                    "alias": "Buczaj",
-                    "wep": "push piston",
-                    "bwep": "abris pistol",
+                    "alias": "fan N1 del bebé ceniza",
+                    "wep": 47,
+                    "bwep": 0,
                     "race": 4,
-                    "color": 255,
+                    "color": 5623039,
                     "skin": 1
                 }
-            ]
+            ],
+            "kills": 33,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Fractured Fingers",
+                "Explosive Ears",
+                "Explosive Gaze"
+            ],
+            "time": 678,
+            "race": 4,
+            "name": "fan N1 del bebé ceniza",
+            "loadout": [
+                {
+                    "alias": "fan N1 del bebé ceniza",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": 47,
+            "hard": 1,
+            "loop": 0,
+            "crown": 2,
+            "color": 5623039,
+            "area": 1,
+            "skin": 1,
+            "pizzas": 0
         }
     ]
 }
