@@ -9,8 +9,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 7,
                     "bwep": 19,
+                    "wep": 7,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -26,8 +26,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -37,6 +37,53 @@
             "color": 16736708,
             "pizzas": 0,
             "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 187,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                3,
+                25,
+                7,
+                "concentration",
+                4,
+                "Thick Head",
+                "Filtering Teeth"
+            ],
+            "time": 10832,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": 3,
+                    "bwep": 20,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 2,
+            "name": "Dario sos",
+            "killed_by": 19,
+            "bwep": 20,
+            "wep": 3,
+            "hard": 10,
+            "loop": 0,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "crown": 8,
+            "color": 16736708,
+            "pizzas": 1,
+            "area": 4,
             "skin": 0
         }
     ]
