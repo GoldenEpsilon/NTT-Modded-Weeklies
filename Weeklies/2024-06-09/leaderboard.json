@@ -1,16 +1,7 @@
 {
     "scores": [
         {
-            "allies": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "bwep": "va_martial_longsword",
-                    "wep": 77,
-                    "color": 16736708,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
+            "pizzas": 0,
             "kills": 3310,
             "subarea": 1,
             "ultras": [
@@ -35,8 +26,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708,
                     "race": 6,
                     "skin": 1
@@ -51,43 +42,19 @@
             "color": 16736708,
             "area": 3,
             "skin": 1,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "UnK.",
-                    "bwep": 117,
-                    "wep": "va_amr",
-                    "color": 16431718,
-                    "race": 10,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P2",
-                    "bwep": 87,
-                    "wep": "va_auto_duster_shotgun",
-                    "color": 7460113,
-                    "race": 10,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P3",
-                    "bwep": "va_auto_flechette_shotgun",
-                    "wep": 50,
-                    "color": 2697727,
-                    "race": 10,
-                    "skin": 0
-                },
-                {
-                    "alias": "UnK.'s P4",
-                    "bwep": "va_magnum",
-                    "wep": "va_double_flechette_shotgun",
-                    "color": 16749865,
-                    "race": 10,
-                    "skin": 0
+                    "alias": "Sir Mittens IV",
+                    "wep": 77,
+                    "bwep": "va_martial_longsword",
+                    "color": 16736708,
+                    "race": 6,
+                    "skin": 1
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 657,
             "subarea": 1,
             "ultras": [ ],
@@ -110,32 +77,32 @@
             "loadout": [
                 {
                     "alias": "UnK.",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16431718,
                     "race": 10,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P2",
-                    "bwep": 0,
                     "wep": 1,
+                    "bwep": 0,
                     "color": 7460113,
                     "race": 10,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P3",
-                    "bwep": 0,
                     "wep": 1,
+                    "bwep": 0,
                     "color": 2697727,
                     "race": 10,
                     "skin": 0
                 },
                 {
                     "alias": "UnK.'s P4",
-                    "bwep": 0,
                     "wep": 1,
+                    "bwep": 0,
                     "color": 16749865,
                     "race": 10,
                     "skin": 0
@@ -150,19 +117,43 @@
             "color": 16431718,
             "area": 2,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "blaac",
-                    "wep": 66,
-                    "bwep": "va_snubnose",
-                    "color": 255,
-                    "race": 1,
+                    "alias": "UnK.",
+                    "wep": "va_amr",
+                    "bwep": 117,
+                    "color": 16431718,
+                    "race": 10,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P2",
+                    "wep": "va_auto_duster_shotgun",
+                    "bwep": 87,
+                    "color": 7460113,
+                    "race": 10,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P3",
+                    "wep": 50,
+                    "bwep": "va_auto_flechette_shotgun",
+                    "color": 2697727,
+                    "race": 10,
+                    "skin": 0
+                },
+                {
+                    "alias": "UnK.'s P4",
+                    "wep": "va_double_flechette_shotgun",
+                    "bwep": "va_magnum",
+                    "color": 16749865,
+                    "race": 10,
                     "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 160,
             "subarea": 2,
             "ultras": [ ],
@@ -178,8 +169,8 @@
             "loadout": [
                 {
                     "alias": "blaac",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 1,
                     "skin": 0
@@ -194,19 +185,19 @@
             "color": 255,
             "area": 3,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "Buczaj",
-                    "wep": "va_martial_shortsword",
-                    "bwep": "va_vorpal_war_axe",
-                    "color": 15628287,
-                    "race": 11,
-                    "skin": 1
+                    "alias": "blaac",
+                    "bwep": "va_snubnose",
+                    "wep": 66,
+                    "color": 255,
+                    "race": 1,
+                    "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 1,
             "kills": 1219,
             "subarea": 3,
             "ultras": [
@@ -236,8 +227,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 15628287,
                     "race": 11,
                     "skin": 1
@@ -252,19 +243,19 @@
             "color": 15628287,
             "area": 5,
             "skin": 1,
-            "pizzas": 1
-        },
-        {
             "allies": [
                 {
-                    "alias": "Mr. Marco",
-                    "wep": "va_vorpal_zweihander",
-                    "bwep": 22,
-                    "color": 826115,
-                    "race": 6,
-                    "skin": 0
+                    "alias": "Buczaj",
+                    "bwep": "va_vorpal_war_axe",
+                    "wep": "va_martial_shortsword",
+                    "color": 15628287,
+                    "race": 11,
+                    "skin": 1
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 2510,
             "subarea": 1,
             "ultras": [
@@ -290,8 +281,8 @@
             "loadout": [
                 {
                     "alias": "Mr. Marco",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 826115,
                     "race": 6,
                     "skin": 0
@@ -306,19 +297,19 @@
             "color": 826115,
             "area": 6,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "Hello, weekly?",
-                    "wep": 13,
-                    "bwep": 111,
-                    "color": 5623039,
+                    "alias": "Mr. Marco",
+                    "bwep": 22,
+                    "wep": "va_vorpal_zweihander",
+                    "color": 826115,
                     "race": 6,
-                    "skin": 1
+                    "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 1296,
             "subarea": 2,
             "ultras": [
@@ -344,8 +335,8 @@
             "loadout": [
                 {
                     "alias": "Hello, weekly?",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5623039,
                     "race": 6,
                     "skin": 1
@@ -360,19 +351,19 @@
             "color": 5623039,
             "area": 1,
             "skin": 1,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "Daphne",
-                    "wep": "va_gluon_cleaver",
-                    "bwep": "va_vorpal_war_axe",
-                    "color": 16737962,
+                    "alias": "Hello, weekly?",
+                    "bwep": 111,
+                    "wep": 13,
+                    "color": 5623039,
                     "race": 6,
                     "skin": 1
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 2950,
             "subarea": 1,
             "ultras": [
@@ -398,8 +389,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -414,19 +405,19 @@
             "color": 16737962,
             "area": 1,
             "skin": 1,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "Dario sos",
-                    "bwep": "va_flechette_flak",
-                    "wep": "va_martial_longsword",
-                    "color": 16736708,
-                    "race": 2,
-                    "skin": 0
+                    "alias": "Daphne",
+                    "bwep": "va_vorpal_war_axe",
+                    "wep": "va_gluon_cleaver",
+                    "color": 16737962,
+                    "race": 6,
+                    "skin": 1
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 1,
             "kills": 313,
             "subarea": 1,
             "ultras": [ ],
@@ -445,8 +436,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -461,19 +452,19 @@
             "color": 16736708,
             "area": 5,
             "skin": 0,
-            "pizzas": 1
-        },
-        {
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 69,
-                    "wep": 13,
+                    "wep": "va_martial_longsword",
+                    "bwep": "va_flechette_flak",
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 287,
             "subarea": 3,
             "ultras": [ ],
@@ -493,8 +484,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -509,19 +500,19 @@
             "color": 16736708,
             "area": 5,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "lee-mon",
-                    "bwep": "va_pummeler",
-                    "wep": "va_archmagus_bolt_caster",
-                    "color": 12133220,
-                    "race": 1,
+                    "alias": "Dario sos",
+                    "wep": 13,
+                    "bwep": 69,
+                    "color": 16736708,
+                    "race": 2,
                     "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 2395,
             "subarea": 3,
             "ultras": [
@@ -543,8 +534,8 @@
             "loadout": [
                 {
                     "alias": "lee-mon",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 12133220,
                     "race": 1,
                     "skin": 0
@@ -559,19 +550,19 @@
             "color": 12133220,
             "area": 3,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
                     "alias": "lee-mon",
-                    "bwep": "doubleminigun",
-                    "wep": "va_auto_marksman_rifle",
+                    "wep": "va_archmagus_bolt_caster",
+                    "bwep": "va_pummeler",
                     "color": 12133220,
                     "race": 1,
                     "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 1,
             "kills": 2003,
             "subarea": 1,
             "ultras": [
@@ -597,8 +588,8 @@
             "loadout": [
                 {
                     "alias": "lee-mon",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 12133220,
                     "race": 1,
                     "skin": 0
@@ -613,19 +604,19 @@
             "color": 12133220,
             "area": 3,
             "skin": 0,
-            "pizzas": 1
-        },
-        {
             "allies": [
                 {
-                    "alias": "Dibble",
-                    "wep": "va_gluon_sprayer",
-                    "bwep": "va_martial_rapier",
-                    "color": 9532927,
-                    "race": 15,
+                    "alias": "lee-mon",
+                    "wep": "va_auto_marksman_rifle",
+                    "bwep": "doubleminigun",
+                    "color": 12133220,
+                    "race": 1,
                     "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 1,
             "kills": 1472,
             "subarea": 1,
             "ultras": [
@@ -652,8 +643,8 @@
             "loadout": [
                 {
                     "alias": "Dibble",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 9532927,
                     "race": 15,
                     "skin": 0
@@ -668,19 +659,19 @@
             "color": 9532927,
             "area": 0,
             "skin": 0,
-            "pizzas": 1
-        },
-        {
             "allies": [
                 {
-                    "alias": "fakuayala859",
-                    "bwep": 91,
-                    "wep": "SuperShotgun",
-                    "color": 16736708,
-                    "race": 2,
-                    "skin": 1
+                    "alias": "Dibble",
+                    "bwep": "va_martial_rapier",
+                    "wep": "va_gluon_sprayer",
+                    "color": 9532927,
+                    "race": 15,
+                    "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 358,
             "subarea": 2,
             "ultras": [ ],
@@ -700,8 +691,8 @@
             "loadout": [
                 {
                     "alias": "fakuayala859",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708,
                     "race": 2,
                     "skin": 1
@@ -716,19 +707,19 @@
             "color": 16736708,
             "area": 7,
             "skin": 1,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "Dragonstrive",
-                    "bwep": "va_bigbrainsaw_launcher",
-                    "wep": "va_vorpal_zweihander",
-                    "color": 5862689,
-                    "race": 6,
-                    "skin": 0
+                    "alias": "fakuayala859",
+                    "wep": "SuperShotgun",
+                    "bwep": 91,
+                    "color": 16736708,
+                    "race": 2,
+                    "skin": 1
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 1,
             "kills": 1553,
             "subarea": 1,
             "ultras": [
@@ -754,8 +745,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": 6,
                     "skin": 0
@@ -770,19 +761,19 @@
             "color": 5862689,
             "area": 1,
             "skin": 0,
-            "pizzas": 1
-        },
-        {
             "allies": [
                 {
-                    "alias": "LaPerlis_XD",
-                    "bwep": "va_flechette_shotgun",
-                    "wep": "hand_saw",
-                    "race": 11,
-                    "color": 4517495,
+                    "alias": "Dragonstrive",
+                    "wep": "va_vorpal_zweihander",
+                    "bwep": "va_bigbrainsaw_launcher",
+                    "color": 5862689,
+                    "race": 6,
                     "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 265,
             "ultras": [ ],
             "subarea": 3,
@@ -801,8 +792,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 11,
                     "color": 4517495,
                     "skin": 0
@@ -817,19 +808,19 @@
             "color": 4517495,
             "area": 5,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 113,
-                    "wep": 69,
+                    "wep": "hand_saw",
+                    "bwep": "va_flechette_shotgun",
                     "race": 11,
                     "color": 4517495,
                     "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 0,
             "kills": 335,
             "ultras": [ ],
             "subarea": 2,
@@ -847,8 +838,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 11,
                     "color": 4517495,
                     "skin": 0
@@ -863,19 +854,19 @@
             "color": 4517495,
             "area": 5,
             "skin": 0,
-            "pizzas": 0
-        },
-        {
             "allies": [
                 {
-                    "alias": "fan N1 del bebé ceniza",
-                    "wep": "va_gluon_sprayer",
-                    "bwep": "va_vorpal_war_axe",
-                    "race": 6,
-                    "color": 5623039,
-                    "skin": 1
+                    "alias": "LaPerlis_XD",
+                    "wep": 69,
+                    "bwep": 113,
+                    "race": 11,
+                    "color": 4517495,
+                    "skin": 0
                 }
-            ],
+            ]
+        },
+        {
+            "pizzas": 2,
             "kills": 3141,
             "ultras": [
                 [
@@ -897,12 +888,12 @@
             ],
             "time": 77164.099199999749544,
             "race": 6,
-            "name": "fan N1 del bebé ceniza",
+            "name": "fan N1 del bebÃ© ceniza",
             "loadout": [
                 {
-                    "alias": "fan N1 del bebé ceniza",
-                    "wep": "mw_ui_start",
+                    "alias": "fan N1 del bebÃ© ceniza",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -917,7 +908,65 @@
             "color": 5623039,
             "area": 1,
             "skin": 1,
-            "pizzas": 2
+            "allies": [
+                {
+                    "alias": "fan N1 del bebÃ© ceniza",
+                    "bwep": "va_vorpal_war_axe",
+                    "wep": "va_gluon_sprayer",
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ]
+        },
+        {
+            "pizzas": 1,
+            "kills": 401,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "condensedmeat",
+                13,
+                11,
+                2,
+                12,
+                16,
+                "Steel Nerves",
+                20,
+                "Compressing Fist"
+            ],
+            "time": 20106,
+            "race": 2,
+            "name": "Dario sos",
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 37,
+            "bwep": "va_bigbrainsaw_launcher",
+            "wep": "va_martial_longsword",
+            "hard": 18,
+            "loop": 0,
+            "crown": 1,
+            "color": 16736708,
+            "area": 7,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "va_martial_longsword",
+                    "bwep": "va_bigbrainsaw_launcher",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
         }
     ]
 }
