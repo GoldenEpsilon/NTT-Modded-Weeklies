@@ -156,10 +156,9 @@ global.scoreboard = [
 						]
     	        
     	    },
-    	},
-    	{},
-    	{},
-    	{}
+    	},{
+    	},{
+    	}
     ]
 				
 //get information from file
@@ -169,7 +168,7 @@ update_scoreboard()
 #define update_scoreboard
 global.scoreboard = [[],[],[]]
 
-if debug or debug2 or !mod_exists("mod","ModdedWeeklies"){
+if debug or debug2{
     
     for(var _s = 0;_s<array_length(global.scoreboard);_s++){
     
@@ -322,7 +321,7 @@ draw_set_projection(0, 0)
     
     //var mouse_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,game_width-64,game_height-67,game_width,game_height-37)
     
-    //var _sprt = get_sprMapIcon(player_get_race_id(0),player_get_skin(0))
+    //var _sprt = get_mapsprite(player_get_race_id(0),player_get_skin(0))
     //draw_sprite(_sprt[0],_sprt[1],xx-1*mouse_over,yy+1*mouse_over)
     
     
@@ -386,7 +385,19 @@ draw_set_projection(0, 0)
                     scoreboard_opening[0] = 0
                 }
         }
-        
+        //character name
+        if _opened{
+            draw_set_halign(0)
+            draw_set_color(col)
+            if !is_string(global.scoreboard[global.current_scoreboard][i].race)
+            var _text = string(race_get_name(global.scoreboard[global.current_scoreboard][i].race))
+            else
+                    _text = global.scoreboard[global.current_scoreboard][i].race
+            if _text = "venuz" _text = "yung venuz"
+                
+        	draw_set_font(fntM)
+            draw_text(xx-32+(34*scoreboard_anim)+_pointless_wiggle*0.3,yy+10,_text)
+        }
        
         
         //bgun      //maybe second forloop to render all bweps first for less clipping
@@ -406,7 +417,7 @@ draw_set_projection(0, 0)
         xxx-=32
         
         //mapicon
-        var _sprt = get_sprMapIcon(global.scoreboard[global.current_scoreboard][i].race,global.scoreboard[global.current_scoreboard][i].skin)
+        var _sprt = get_mapsprite(global.scoreboard[global.current_scoreboard][i].race,global.scoreboard[global.current_scoreboard][i].skin)
         draw_sprite_ext(_sprt[0],_sprt[1],round(xx+((176*scoreboard_anim)*_opened)),round(yy+(_pointless_wiggle*!_opened)+((10*scoreboard_anim)*_opened)),1,1,0,_sprt[0]=global.mod_mapicon?col:c_white,1)
         
         //crown
@@ -548,7 +559,7 @@ draw_set_projection(0, 0)
         	var _x = xx+xxx-32+(16*scoreboard_anim)
         	var _y = yy-1
         	//var hover_over = point_in_rectangle(mouse_x-view_xview,mouse_y-view_yview,_x,_y,_x+16,_y+24)
-            var _sprt = get_sprCharSelect(global.scoreboard[global.current_scoreboard][i].race)
+            var _sprt = get_charsprite(global.scoreboard[global.current_scoreboard][i].race)
             draw_sprite_ext(_sprt[0],_sprt[1],_x,_y,1,1,0,_sprt[0]=global.mod_charselect?col:c_white,1)
             var name = global.scoreboard[global.current_scoreboard][i].race
             
@@ -652,56 +663,8 @@ draw_set_projection(0, 0)
     //        		
     //            
             }
-            
-            if array_length(ults) >0 and array_length(ults[0]) >0{
-            //ultra charselect
-            	var m = 0
-            	var _ind = 0
-            	var _x = xx-20+(16*scoreboard_anim)
-        		var _y = yy+15
-				var _spr = mskNone
-				var _name = global.scoreboard[global.current_scoreboard][i].race
-					if mod_exists("skill",ults[m]){
-						with instance_create(0,0,CustomObject){
-							mod_script_call_self("skill",ults[m],"skill_button")
-							_spr = sprite_index
-							instance_delete(id)
-						}
-					}
-					if !is_string(ults[m][0]){
-						_spr = sprEGSkillIcon
-						_ind = (ults[m][0]*3)+ults[m][1]-1-3
-					}else{
-						if mod_exists("race",_name){
-							with instance_create(0,0,CustomObject){
-								mod_script_call_self("race",_name,"race_ultra_button",ults[m][1])
-								_ind = 0
-								_spr = sprite_index
-								instance_delete(id)
-							}
-						}
-					}
-
-				//trace(_spr)
-				//trace(_ind)
-				draw_sprite(_spr,_ind,_x,_y)
                 
             }
-            	
-            }
-            //character name
-        	if _opened{
-        	    draw_set_halign(0)
-        	    draw_set_color(col)
-        	    if !is_string(global.scoreboard[global.current_scoreboard][i].race)
-        	    var _text = string(race_get_name(global.scoreboard[global.current_scoreboard][i].race))
-        	    else
-        	            _text = global.scoreboard[global.current_scoreboard][i].race
-        	    if _text = "venuz" _text = "yung venuz"
-        	        
-        		draw_set_font(fntM)
-        	    draw_text(xx+(8*(array_length(ults)>0))-32+(34*scoreboard_anim)+_pointless_wiggle*0.3,yy+10,_text)
-        	}
         }
         
         
@@ -1454,7 +1417,6 @@ with Loadout{
 			//click
 			global.current_scoreboard = 3
 			scoreboard_opened = -4
-			if !mod_exists("mod","ModdedWeeklies")
 			global.scoreboard = mod_script_call("mod",moddedweeklies_mod_file, "getScores", "Difficulty")
 		}
 		var _active = global.current_scoreboard = 3
@@ -1699,7 +1661,7 @@ return _list;
 
 
 
-#define get_sprMapIcon(race,skin)
+#define get_mapsprite(race,skin)
 var sprt = [sprMapIcon,0]
 if is_string(race){
     sprt = [global.mod_mapicon,0]
@@ -1725,7 +1687,7 @@ if !is_string(skin){
 
 
 return sprt;
-#define get_sprCharSelect(race)
+#define get_charsprite(race)
 var sprt = [sprCharSelect,0]
 if is_string(race){
     sprt = [global.mod_charselect,0]
@@ -1745,29 +1707,6 @@ if is_string(race){
 }
 if is_real(race){
     sprt = [sprCharSelect,race]
-}
-
-return sprt;
-#define get_EGSkillIcon(race)
-var sprt = [sprEGSkillIcon,0]
-if is_string(race){
-    sprt = [global.mod_charselect,0]
-    if mod_exists("race",race){
-        with instance_create(0,0,CustomObject){
-            mod_script_call("race",race,"race_menu_button")
-            sprt[0] = sprite_index
-            instance_delete(id)
-        }
-        
-        sprt[1] = 0
-        //i dont know how to make it use the skin if the sprite is or isnt a sprite strip
-    }
-	if race_get_id(race) > 0 && race_get_id(race) <= 16 {
-		race = race_get_id(race)
-	}
-}
-if is_real(race){
-    sprt = [sprEGSkillIcon,race]
 }
 
 return sprt;
