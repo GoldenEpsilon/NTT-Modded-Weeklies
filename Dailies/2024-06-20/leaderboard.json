@@ -38,6 +38,47 @@
             "pizzas": 0,
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 49,
+            "subarea": 3,
+            "killed_by": 6,
+            "time": 2612,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 7,
+                    "wep": "Acro-Bat",
+                    "race": "acrobat",
+                    "skin": 0,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "race": "acrobat",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "acrobat",
+                    "skin": 0,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "name": "Weird lookin' dog",
+            "color": 16736708,
+            "bwep": 7,
+            "wep": "Acro-Bat",
+            "ultras": [ ],
+            "hard": 3,
+            "loop": 0,
+            "mutations": [
+                "Ruffled Feathers"
+            ],
+            "crown": false,
+            "pizzas": 0,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
