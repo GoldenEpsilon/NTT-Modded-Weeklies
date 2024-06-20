@@ -1,47 +1,6 @@
 {
     "scores": [
         {
-            "kills": 49,
-            "subarea": 3,
-            "killed_by": 6,
-            "time": 2612,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "bwep": 7,
-                    "wep": "Acro-Bat",
-                    "race": "acrobat",
-                    "skin": 0,
-                    "alias": "Weird lookin' dog"
-                }
-            ],
-            "race": "acrobat",
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": "acrobat",
-                    "skin": 0,
-                    "alias": "Weird lookin' dog"
-                }
-            ],
-            "name": "Weird lookin' dog",
-            "color": 16736708,
-            "bwep": 7,
-            "wep": "Acro-Bat",
-            "ultras": [ ],
-            "hard": 3,
-            "loop": 0,
-            "mutations": [
-                "Ruffled Feathers"
-            ],
-            "crown": false,
-            "pizzas": 0,
-            "area": 1,
-            "skin": 0
-        },
-        {
             "kills": 87,
             "subarea": 1,
             "killed_by": 55,
@@ -82,6 +41,52 @@
             "crown": false,
             "pizzas": 1,
             "area": 3,
+            "skin": 0
+        },
+        {
+            "kills": 266,
+            "subarea": 3,
+            "killed_by": 27,
+            "time": 17760,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": "EnergySword",
+                    "wep": 31,
+                    "race": "scales",
+                    "skin": 0,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "race": "scales",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "scales",
+                    "skin": 0,
+                    "alias": "Weird lookin' dog"
+                }
+            ],
+            "name": "Weird lookin' dog",
+            "color": 16736708,
+            "bwep": "EnergySword",
+            "wep": 31,
+            "ultras": [ ],
+            "hard": 12,
+            "loop": 0,
+            "mutations": [
+                "Waste Gland",
+                2,
+                "Mimicry",
+                7,
+                21,
+                5
+            ],
+            "crown": false,
+            "pizzas": 1,
+            "area": 5,
             "skin": 0
         }
     ]
