@@ -6,8 +6,8 @@
                 {
                     "alias": "Dario sos",
                     "color": 16736708,
-                    "bwep": 117,
                     "wep": "ClusterCannon",
+                    "bwep": 117,
                     "race": 2,
                     "skin": 0
                 }
@@ -22,8 +22,8 @@
                 {
                     "alias": "Dario sos",
                     "color": 16736708,
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 2,
                     "skin": 0
                 }
@@ -54,8 +54,8 @@
                 {
                     "alias": "Buczaj",
                     "color": 255,
-                    "wep": "Acro-Bat",
                     "bwep": "fire_poker",
+                    "wep": "Acro-Bat",
                     "race": "acrobat",
                     "skin": 0
                 }
@@ -70,8 +70,8 @@
                 {
                     "alias": "Buczaj",
                     "color": 255,
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "acrobat",
                     "skin": 0
                 }
@@ -93,8 +93,8 @@
                 {
                     "alias": "fan N1 del bebÃƒÂ© ceniza",
                     "color": 5623039,
-                    "bwep": 3,
                     "wep": 6,
+                    "bwep": 3,
                     "race": "Printer",
                     "skin": 0
                 }
@@ -109,8 +109,8 @@
                 {
                     "alias": "fan N1 del bebÃƒÂ© ceniza",
                     "color": 5623039,
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "skin": 0
                 }
@@ -132,8 +132,8 @@
                 {
                     "alias": "fan N1 del bebÃ© ceniza",
                     "color": 5623039,
-                    "wep": "Acro-Bat",
                     "bwep": 21,
+                    "wep": "Acro-Bat",
                     "race": "acrobat",
                     "skin": 0
                 }
@@ -148,8 +148,8 @@
                 {
                     "alias": "fan N1 del bebÃ© ceniza",
                     "color": 5623039,
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "acrobat",
                     "skin": 0
                 }
@@ -171,8 +171,8 @@
                 {
                     "alias": "fan N1 del bebé ceniza",
                     "color": 5623039,
-                    "bwep": "mcleod",
                     "wep": 7,
+                    "bwep": "mcleod",
                     "race": 6,
                     "skin": 1
                 }
@@ -187,8 +187,8 @@
                 {
                     "alias": "fan N1 del bebé ceniza",
                     "color": 5623039,
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "skin": 1
                 }
@@ -210,8 +210,8 @@
                 {
                     "alias": "fakuayala859",
                     "color": 16736708,
-                    "wep": 62,
                     "bwep": 55,
+                    "wep": 62,
                     "race": "scales",
                     "skin": 0
                 }
@@ -226,8 +226,8 @@
                 {
                     "alias": "fakuayala859",
                     "color": 16736708,
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "scales",
                     "skin": 0
                 }
@@ -262,50 +262,8 @@
                 {
                     "alias": "Daphne",
                     "color": 16737962,
-                    "bwep": 13,
-                    "wep": "va_duster_shotgun",
-                    "race": 2,
-                    "skin": 1
-                }
-            ],
-            "kills": 104,
-            "subarea": 1,
-            "pizzas": 0,
-            "time": 3947,
-            "killed_by": 15,
-            "race": 2,
-            "name": "Daphne",
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 2,
-                    "skin": 1
-                }
-            ],
-            "color": 16737962,
-            "bwep": 13,
-            "wep": "va_duster_shotgun",
-            "hard": 5,
-            "loop": 0,
-            "ultras": [ ],
-            "crown": false,
-            "mutations": [
-                19,
-                "Sloppy Fingers"
-            ],
-            "area": 3,
-            "skin": 1
-        },
-        {
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "wep": "mcleod",
                     "bwep": "va_sinusoid_pistol",
+                    "wep": "mcleod",
                     "race": 2,
                     "skin": 1
                 }
@@ -321,8 +279,8 @@
                 {
                     "alias": "Daphne",
                     "color": 16737962,
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "skin": 1
                 }
@@ -341,6 +299,50 @@
                 1
             ],
             "area": 100,
+            "skin": 1
+        },
+        {
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "wep": "mcleod",
+                    "bwep": "va_gluon_gun",
+                    "race": 2,
+                    "skin": 1
+                }
+            ],
+            "kills": 91,
+            "subarea": 1,
+            "pizzas": 0,
+            "time": 3158.5,
+            "killed_by": 10,
+            "race": 2,
+            "name": "Daphne",
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "skin": 1
+                }
+            ],
+            "color": 16737962,
+            "bwep": "va_gluon_gun",
+            "wep": "mcleod",
+            "hard": 4,
+            "loop": 0,
+            "ultras": [ ],
+            "crown": false,
+            "mutations": [
+                "Duplicators",
+                "Mimicry",
+                "Double Vision",
+                "Arcane Arts"
+            ],
+            "area": 2,
             "skin": 1
         }
     ]
