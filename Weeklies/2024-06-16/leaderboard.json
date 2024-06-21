@@ -18,8 +18,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 117,
                     "wep": "ClusterCannon",
+                    "bwep": 117,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -27,23 +27,23 @@
             ],
             "race": 2,
             "name": "Dario sos",
-            "pizzas": 1,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 56,
             "bwep": 117,
             "wep": "ClusterCannon",
             "hard": 15,
             "loop": 0,
             "crown": 1,
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 1,
             "color": 16736708,
             "area": 6,
             "skin": 0
@@ -57,8 +57,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "Acro-Bat",
                     "bwep": "fire_poker",
+                    "wep": "Acro-Bat",
                     "race": "acrobat",
                     "color": 255,
                     "skin": 0
@@ -66,23 +66,23 @@
             ],
             "race": "acrobat",
             "name": "Buczaj",
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "acrobat",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
             "killed_by": 4,
             "bwep": "fire_poker",
             "wep": "Acro-Bat",
             "hard": 2,
             "loop": 0,
             "crown": false,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": "acrobat",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "color": 255,
             "area": 1,
             "skin": 0
@@ -96,8 +96,8 @@
             "allies": [
                 {
                     "alias": "fan N1 del bebÃƒÂ© ceniza",
-                    "bwep": 3,
                     "wep": 6,
+                    "bwep": 3,
                     "race": "Printer",
                     "color": 5623039,
                     "skin": 0
@@ -105,23 +105,23 @@
             ],
             "race": "Printer",
             "name": "fan N1 del bebÃƒÂ© ceniza",
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "fan N1 del bebÃƒÂ© ceniza",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "Printer",
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
             "killed_by": -1,
             "bwep": 3,
             "wep": 6,
             "hard": 1,
             "loop": 0,
             "crown": false,
-            "loadout": [
-                {
-                    "alias": "fan N1 del bebÃƒÂ© ceniza",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": "Printer",
-                    "color": 5623039,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "color": 5623039,
             "area": 1,
             "skin": 0
@@ -135,8 +135,8 @@
             "allies": [
                 {
                     "alias": "fan N1 del bebÃ© ceniza",
-                    "wep": "Acro-Bat",
                     "bwep": 21,
+                    "wep": "Acro-Bat",
                     "race": "acrobat",
                     "color": 5623039,
                     "skin": 0
@@ -144,23 +144,23 @@
             ],
             "race": "acrobat",
             "name": "fan N1 del bebÃ© ceniza",
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "fan N1 del bebÃ© ceniza",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "acrobat",
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
             "killed_by": 3,
             "bwep": 21,
             "wep": "Acro-Bat",
             "hard": 2,
             "loop": 0,
             "crown": false,
-            "loadout": [
-                {
-                    "alias": "fan N1 del bebÃ© ceniza",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": "acrobat",
-                    "color": 5623039,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "color": 5623039,
             "area": 1,
             "skin": 0
@@ -174,8 +174,8 @@
             "allies": [
                 {
                     "alias": "fan N1 del bebé ceniza",
-                    "bwep": "mcleod",
                     "wep": 7,
+                    "bwep": "mcleod",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -183,23 +183,23 @@
             ],
             "race": 6,
             "name": "fan N1 del bebé ceniza",
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "fan N1 del bebé ceniza",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
             "killed_by": 55,
             "bwep": "mcleod",
             "wep": 7,
             "hard": 2,
             "loop": 0,
             "crown": false,
-            "loadout": [
-                {
-                    "alias": "fan N1 del bebé ceniza",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 6,
-                    "color": 5623039,
-                    "skin": 1
-                }
-            ],
+            "pizzas": 0,
             "color": 5623039,
             "area": 1,
             "skin": 1
@@ -217,75 +217,79 @@
             "allies": [
                 {
                     "alias": "fakuayala859",
-                    "bwep": 5,
                     "wep": "va_digsaw_launcher",
+                    "bwep": 5,
                     "race": 2,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
             "race": 2,
-            "pizzas": 0,
             "name": "fakuayala859",
+            "loadout": [
+                {
+                    "alias": "fakuayala859",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
             "killed_by": 17,
             "bwep": 5,
             "wep": "va_digsaw_launcher",
             "hard": 6,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 16736708,
-            "loadout": [
-                {
-                    "alias": "fakuayala859",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 1
-                }
-            ],
             "area": 3,
             "skin": 1
         },
         {
-            "kills": 95,
+            "kills": 224,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                28
+                27,
+                "Double Vision",
+                28,
+                "Sadism",
+                5
             ],
-            "time": 3443,
+            "time": 12234,
             "allies": [
                 {
                     "alias": "fakuayala859",
-                    "wep": 5,
-                    "bwep": "va_sinusoid_pistol",
-                    "race": "acrobat",
+                    "wep": "va_lancer_shotgun",
+                    "bwep": 0,
+                    "race": "Printer",
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "race": "acrobat",
-            "pizzas": 0,
-            "name": "fakuayala859",
-            "killed_by": 4,
-            "bwep": "va_sinusoid_pistol",
-            "wep": 5,
-            "hard": 3,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
+            "race": "Printer",
             "loadout": [
                 {
                     "alias": "fakuayala859",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": "acrobat",
+                    "race": "Printer",
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "area": 1,
+            "name": "fakuayala859",
+            "killed_by": 24,
+            "bwep": 0,
+            "wep": "va_lancer_shotgun",
+            "hard": 9,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 5,
             "skin": 0
         }
     ]
