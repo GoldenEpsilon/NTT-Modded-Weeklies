@@ -7,8 +7,8 @@
             "time": 16380,
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Dario sos",
                     "color": 16736708,
                     "race": 2,
@@ -35,8 +35,8 @@
             "loop": 0,
             "allies": [
                 {
-                    "bwep": 117,
                     "wep": "ClusterCannon",
+                    "bwep": 117,
                     "alias": "Dario sos",
                     "color": 16736708,
                     "race": 2,
@@ -55,8 +55,8 @@
             "time": 1559,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Buczaj",
                     "color": 255,
                     "race": "acrobat",
@@ -74,8 +74,8 @@
             "loop": 0,
             "allies": [
                 {
-                    "wep": "Acro-Bat",
                     "bwep": "fire_poker",
+                    "wep": "Acro-Bat",
                     "alias": "Buczaj",
                     "color": 255,
                     "race": "acrobat",
@@ -94,8 +94,8 @@
             "time": 1656,
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "fan N1 del bebÃƒÂ© ceniza",
                     "color": 5623039,
                     "race": "Printer",
@@ -113,8 +113,8 @@
             "loop": 0,
             "allies": [
                 {
-                    "bwep": 3,
                     "wep": 6,
+                    "bwep": 3,
                     "alias": "fan N1 del bebÃƒÂ© ceniza",
                     "color": 5623039,
                     "race": "Printer",
@@ -133,8 +133,8 @@
             "time": 1377,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "fan N1 del bebÃ© ceniza",
                     "color": 5623039,
                     "race": "acrobat",
@@ -152,8 +152,8 @@
             "loop": 0,
             "allies": [
                 {
-                    "wep": "Acro-Bat",
                     "bwep": 21,
+                    "wep": "Acro-Bat",
                     "alias": "fan N1 del bebÃ© ceniza",
                     "color": 5623039,
                     "race": "acrobat",
@@ -172,8 +172,8 @@
             "time": 879,
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "fan N1 del bebé ceniza",
                     "color": 5623039,
                     "race": 6,
@@ -191,8 +191,8 @@
             "loop": 0,
             "allies": [
                 {
-                    "bwep": "mcleod",
                     "wep": 7,
+                    "bwep": "mcleod",
                     "alias": "fan N1 del bebé ceniza",
                     "color": 5623039,
                     "race": 6,
@@ -211,8 +211,8 @@
             "time": 39375,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "fakuayala859",
                     "color": 16736708,
                     "race": "scales",
@@ -244,8 +244,8 @@
             "loop": 1,
             "allies": [
                 {
-                    "wep": 62,
                     "bwep": 55,
+                    "wep": 62,
                     "alias": "fakuayala859",
                     "color": 16736708,
                     "race": "scales",
@@ -264,8 +264,8 @@
             "time": 5584,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 2,
@@ -288,8 +288,8 @@
             "loop": 0,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": "va_sinusoid_pistol",
+                    "wep": "mcleod",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 2,
@@ -308,8 +308,8 @@
             "time": 35002,
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "The_Hell_Lord",
                     "race": 4,
                     "color": 255,
@@ -346,8 +346,8 @@
             "loop": 1,
             "allies": [
                 {
-                    "bwep": "CombatHeavySlugger",
                     "wep": 86,
+                    "bwep": "CombatHeavySlugger",
                     "alias": "The_Hell_Lord",
                     "race": 4,
                     "color": 255,
@@ -360,47 +360,53 @@
             "skin": 1
         },
         {
-            "kills": 106,
-            "subarea": 1,
-            "killed_by": 41,
-            "time": 6200,
+            "kills": 233,
+            "subarea": 2,
+            "killed_by": 24,
+            "time": 12080.5,
             "loadout": [
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "alias": "Daphne",
-                    "race": 1,
+                    "race": 6,
                     "color": 16737962,
-                    "skin": 1
+                    "skin": 0
                 }
             ],
             "color": 16737962,
-            "race": 1,
+            "race": 6,
             "name": "Daphne",
             "ultras": [ ],
             "mutations": [
-                "Shattered Skull",
-                19,
-                "powderedgums"
+                1,
+                13,
+                "powderedgums",
+                "Slim Pickings",
+                "Iron Skin",
+                "Groupthink",
+                "Loner",
+                "Free Space",
+                2
             ],
-            "bwep": 7,
-            "wep": 3,
-            "hard": 5,
+            "bwep": "va_flechette_flak",
+            "wep": "va_martial_war_pike",
+            "hard": 10,
             "loop": 0,
             "allies": [
                 {
-                    "wep": 3,
-                    "bwep": 7,
+                    "wep": "va_martial_war_pike",
+                    "bwep": "va_flechette_flak",
                     "alias": "Daphne",
-                    "race": 1,
+                    "race": 6,
                     "color": 16737962,
-                    "skin": 1
+                    "skin": 0
                 }
             ],
             "crown": false,
-            "pizzas": 1,
-            "area": 102,
-            "skin": 1
+            "pizzas": 0,
+            "area": 5,
+            "skin": 0
         }
     ]
 }
