@@ -18,8 +18,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708,
                     "race": 2,
                     "skin": 0
@@ -27,24 +27,24 @@
             ],
             "race": 2,
             "name": "Dario sos",
-            "pizzas": 1,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "ClusterCannon",
+                    "bwep": 117,
+                    "color": 16736708,
+                    "race": 2,
+                    "skin": 0
+                }
+            ],
             "killed_by": 56,
             "bwep": 117,
             "wep": "ClusterCannon",
             "hard": 15,
             "loop": 0,
             "crown": 1,
+            "pizzas": 1,
             "color": 16736708,
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 117,
-                    "wep": "ClusterCannon",
-                    "color": 16736708,
-                    "race": 2,
-                    "skin": 0
-                }
-            ],
             "area": 6,
             "skin": 0
         },
@@ -57,8 +57,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": "acrobat",
                     "skin": 0
@@ -66,24 +66,24 @@
             ],
             "race": "acrobat",
             "name": "Buczaj",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "bwep": "fire_poker",
+                    "wep": "Acro-Bat",
+                    "color": 255,
+                    "race": "acrobat",
+                    "skin": 0
+                }
+            ],
             "killed_by": 4,
             "bwep": "fire_poker",
             "wep": "Acro-Bat",
             "hard": 2,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 255,
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "Acro-Bat",
-                    "bwep": "fire_poker",
-                    "color": 255,
-                    "race": "acrobat",
-                    "skin": 0
-                }
-            ],
             "area": 1,
             "skin": 0
         },
@@ -96,8 +96,8 @@
             "loadout": [
                 {
                     "alias": "fan N1 del bebÃƒÂ© ceniza",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5623039,
                     "race": "Printer",
                     "skin": 0
@@ -105,24 +105,24 @@
             ],
             "race": "Printer",
             "name": "fan N1 del bebÃƒÂ© ceniza",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "fan N1 del bebÃƒÂ© ceniza",
+                    "wep": 6,
+                    "bwep": 3,
+                    "color": 5623039,
+                    "race": "Printer",
+                    "skin": 0
+                }
+            ],
             "killed_by": -1,
             "bwep": 3,
             "wep": 6,
             "hard": 1,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 5623039,
-            "allies": [
-                {
-                    "alias": "fan N1 del bebÃƒÂ© ceniza",
-                    "bwep": 3,
-                    "wep": 6,
-                    "color": 5623039,
-                    "race": "Printer",
-                    "skin": 0
-                }
-            ],
             "area": 1,
             "skin": 0
         },
@@ -135,8 +135,8 @@
             "loadout": [
                 {
                     "alias": "fan N1 del bebÃ© ceniza",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5623039,
                     "race": "acrobat",
                     "skin": 0
@@ -144,24 +144,24 @@
             ],
             "race": "acrobat",
             "name": "fan N1 del bebÃ© ceniza",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "fan N1 del bebÃ© ceniza",
+                    "bwep": 21,
+                    "wep": "Acro-Bat",
+                    "color": 5623039,
+                    "race": "acrobat",
+                    "skin": 0
+                }
+            ],
             "killed_by": 3,
             "bwep": 21,
             "wep": "Acro-Bat",
             "hard": 2,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 5623039,
-            "allies": [
-                {
-                    "alias": "fan N1 del bebÃ© ceniza",
-                    "wep": "Acro-Bat",
-                    "bwep": 21,
-                    "color": 5623039,
-                    "race": "acrobat",
-                    "skin": 0
-                }
-            ],
             "area": 1,
             "skin": 0
         },
@@ -174,8 +174,8 @@
             "loadout": [
                 {
                     "alias": "fan N1 del bebé ceniza",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5623039,
                     "race": 6,
                     "skin": 1
@@ -183,24 +183,24 @@
             ],
             "race": 6,
             "name": "fan N1 del bebé ceniza",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "fan N1 del bebé ceniza",
+                    "wep": 7,
+                    "bwep": "mcleod",
+                    "color": 5623039,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
             "killed_by": 55,
             "bwep": "mcleod",
             "wep": 7,
             "hard": 2,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 5623039,
-            "allies": [
-                {
-                    "alias": "fan N1 del bebé ceniza",
-                    "bwep": "mcleod",
-                    "wep": 7,
-                    "color": 5623039,
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
             "area": 1,
             "skin": 1
         },
@@ -227,8 +227,8 @@
             "loadout": [
                 {
                     "alias": "fakuayala859",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": "scales",
                     "skin": 0
@@ -236,24 +236,24 @@
             ],
             "race": "scales",
             "name": "fakuayala859",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "fakuayala859",
+                    "bwep": 55,
+                    "wep": 62,
+                    "color": 16736708,
+                    "race": "scales",
+                    "skin": 0
+                }
+            ],
             "killed_by": 1,
             "bwep": 55,
             "wep": 62,
             "hard": 20,
             "loop": 1,
             "crown": 1,
+            "pizzas": 0,
             "color": 16736708,
-            "allies": [
-                {
-                    "alias": "fakuayala859",
-                    "wep": 62,
-                    "bwep": 55,
-                    "color": 16736708,
-                    "race": "scales",
-                    "skin": 0
-                }
-            ],
             "area": 1,
             "skin": 0
         },
@@ -285,8 +285,8 @@
             "loadout": [
                 {
                     "alias": "The_Hell_Lord",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 4,
                     "color": 255,
                     "skin": 1
@@ -294,24 +294,24 @@
             ],
             "race": 4,
             "name": "The_Hell_Lord",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "The_Hell_Lord",
+                    "wep": 86,
+                    "bwep": "CombatHeavySlugger",
+                    "race": 4,
+                    "color": 255,
+                    "skin": 1
+                }
+            ],
             "killed_by": 94,
             "bwep": "CombatHeavySlugger",
             "wep": 86,
             "hard": 23,
             "loop": 1,
             "crown": 7,
+            "pizzas": 0,
             "color": 255,
-            "allies": [
-                {
-                    "alias": "The_Hell_Lord",
-                    "bwep": "CombatHeavySlugger",
-                    "wep": 86,
-                    "race": 4,
-                    "color": 255,
-                    "skin": 1
-                }
-            ],
             "area": 106,
             "skin": 1
         },
@@ -334,8 +334,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16737962,
                     "skin": 0
@@ -343,24 +343,24 @@
             ],
             "race": 6,
             "name": "Daphne",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": "va_martial_war_pike",
+                    "bwep": "va_flechette_flak",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 0
+                }
+            ],
             "killed_by": 24,
             "bwep": "va_flechette_flak",
             "wep": "va_martial_war_pike",
             "hard": 10,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 16737962,
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "bwep": "va_flechette_flak",
-                    "wep": "va_martial_war_pike",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 0
-                }
-            ],
             "area": 5,
             "skin": 0
         },
@@ -380,8 +380,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 1
@@ -389,24 +389,24 @@
             ],
             "race": "acrobat",
             "name": "Daphne",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": "va_razorpop",
+                    "bwep": "fire_poker",
+                    "race": "acrobat",
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
             "killed_by": 25,
             "bwep": "fire_poker",
             "wep": "va_razorpop",
             "hard": 10,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 16737962,
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "bwep": "fire_poker",
-                    "wep": "va_razorpop",
-                    "race": "acrobat",
-                    "color": 16737962,
-                    "skin": 1
-                }
-            ],
             "area": 5,
             "skin": 1
         },
@@ -421,35 +421,76 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
             "race": 6,
-            "pizzas": 0,
             "name": "Sir Mittens IV",
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "bwep": 6,
+                    "wep": 19,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
             "killed_by": -1,
             "bwep": 6,
             "wep": 19,
             "hard": 3,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 16736708,
-            "allies": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "wep": 19,
-                    "bwep": 6,
-                    "race": 6,
-                    "color": 16736708,
-                    "skin": 1
-                }
-            ],
             "area": 1,
             "skin": 1
+        },
+        {
+            "kills": 54,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                13
+            ],
+            "time": 1746,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 11,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "race": 11,
+            "allies": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": 69,
+                    "bwep": 19,
+                    "race": 11,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "name": "LaPerlis_XD",
+            "killed_by": 61,
+            "bwep": 19,
+            "wep": 69,
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
+            "color": 4517495,
+            "pizzas": 0,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
