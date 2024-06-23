@@ -11,8 +11,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "biggestbandit",
                     "color": 12907068,
                     "skin": 0
@@ -20,23 +20,23 @@
             ],
             "race": "biggestbandit",
             "name": "42ndPotato",
-            "allies": [
-                {
-                    "alias": "42ndPotato",
-                    "bwep": "BiggestRifle",
-                    "wep": 27,
-                    "race": "biggestbandit",
-                    "color": 12907068,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 6,
             "bwep": "BiggestRifle",
             "wep": 27,
             "hard": 3,
             "loop": 0,
             "crown": false,
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "42ndPotato",
+                    "wep": 27,
+                    "bwep": "BiggestRifle",
+                    "race": "biggestbandit",
+                    "color": 12907068,
+                    "skin": 0
+                }
+            ],
             "color": 12907068,
             "area": 1,
             "skin": 0
@@ -59,73 +59,83 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 48,
                     "wep": 81,
+                    "bwep": 48,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
                 }
             ],
             "race": "captain",
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": 48,
-                    "wep": 81,
-                    "race": "captain",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
             "name": "Buczaj",
+            "pizzas": 0,
             "killed_by": 12,
             "bwep": 48,
             "wep": 81,
             "hard": 17,
             "loop": 1,
             "crown": 6,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": 81,
+                    "bwep": 48,
+                    "race": "captain",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
             "color": 255,
-            "pizzas": 0,
             "area": 2,
             "skin": 0
         },
         {
-            "kills": 12,
+            "kills": 300,
             "ultras": [ ],
-            "subarea": 1,
-            "mutations": [ ],
-            "time": 594,
+            "subarea": 3,
+            "mutations": [
+                4,
+                9,
+                23,
+                10,
+                21,
+                7
+            ],
+            "time": 20700,
             "loadout": [
                 {
-                    "alias": "Buczaj",
+                    "alias": "42ndPotato",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": "mom",
-                    "color": 255,
+                    "race": "biggestbandit",
+                    "color": 12907068,
                     "skin": 0
                 }
             ],
-            "race": "mom",
+            "race": "biggestbandit",
+            "pizzas": 0,
+            "name": "42ndPotato",
+            "killed_by": [
+                null,
+                "Titank"
+            ],
+            "bwep": 27,
+            "wep": 66,
+            "hard": 12,
+            "loop": 0,
+            "crown": 4,
+            "color": 12907068,
             "allies": [
                 {
-                    "alias": "Buczaj",
-                    "wep": "toxicball",
-                    "bwep": 0,
-                    "race": "mom",
-                    "color": 255,
+                    "alias": "42ndPotato",
+                    "wep": 66,
+                    "bwep": 27,
+                    "race": "biggestbandit",
+                    "color": 12907068,
                     "skin": 0
                 }
             ],
-            "name": "Buczaj",
-            "killed_by": -1,
-            "bwep": 0,
-            "wep": "toxicball",
-            "hard": 1,
-            "loop": 0,
-            "crown": false,
-            "color": 255,
-            "pizzas": 0,
-            "area": 1,
+            "area": 5,
             "skin": 0
         }
     ]
