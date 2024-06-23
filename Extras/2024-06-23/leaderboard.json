@@ -17,72 +17,74 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
                 }
             ],
             "race": "biggestbandit",
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": 113,
-                    "wep": 88,
-                    "race": "biggestbandit",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
             "name": "Buczaj",
+            "pizzas": 1,
             "killed_by": 53,
             "bwep": 113,
             "wep": 88,
             "hard": 14,
             "loop": 0,
             "crown": false,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": 88,
+                    "bwep": 113,
+                    "race": "biggestbandit",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
             "color": 255,
-            "pizzas": 1,
             "area": 7,
             "skin": 0
         },
         {
-            "kills": 6,
+            "kills": 77,
             "ultras": [ ],
-            "subarea": 1,
-            "mutations": [ ],
-            "time": 422,
+            "subarea": 3,
+            "mutations": [
+                23
+            ],
+            "time": 3349,
             "loadout": [
                 {
-                    "alias": "Buczaj",
+                    "alias": "42ndPotato",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": "medium_dog",
-                    "color": 255,
+                    "race": "biggestbandit",
+                    "color": 12907068,
                     "skin": 0
                 }
             ],
-            "race": "medium_dog",
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "medium_dog_launcher",
-                    "bwep": 2,
-                    "race": "medium_dog",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "name": "Buczaj",
-            "killed_by": 55,
-            "bwep": 2,
-            "wep": "medium_dog_launcher",
-            "hard": 1,
+            "race": "biggestbandit",
+            "pizzas": 0,
+            "name": "42ndPotato",
+            "killed_by": 6,
+            "bwep": "BiggestRifle",
+            "wep": 27,
+            "hard": 3,
             "loop": 0,
             "crown": false,
-            "color": 255,
-            "pizzas": 0,
+            "color": 12907068,
+            "allies": [
+                {
+                    "alias": "42ndPotato",
+                    "wep": 27,
+                    "bwep": "BiggestRifle",
+                    "race": "biggestbandit",
+                    "color": 12907068,
+                    "skin": 0
+                }
+            ],
             "area": 1,
             "skin": 0
         }
