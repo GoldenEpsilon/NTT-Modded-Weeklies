@@ -7,8 +7,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": "acrobat",
                     "skin": 1
@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 3,
                     "wep": "va_gluon_gun",
+                    "bwep": 3,
                     "color": 5862689,
                     "race": "acrobat",
                     "skin": 1
@@ -40,6 +40,49 @@
             "mutations": [
                 "Loner",
                 "Shocked Skin"
+            ]
+        },
+        {
+            "kills": 107,
+            "subarea": 1,
+            "time": 4791,
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5862689,
+                    "race": 11,
+                    "skin": 1
+                }
+            ],
+            "pizzas": 0,
+            "race": 11,
+            "name": "Dragonstrive",
+            "killed_by": 15,
+            "bwep": "smg",
+            "wep": "va_sinusoid_rifle",
+            "color": 5862689,
+            "hard": 5,
+            "loop": 0,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": "smg",
+                    "wep": "va_sinusoid_rifle",
+                    "color": 5862689,
+                    "race": 11,
+                    "skin": 1
+                }
+            ],
+            "crown": false,
+            "area": 3,
+            "ultras": [ ],
+            "skin": 1,
+            "mutations": [
+                "Double Vision",
+                "Rocket Casings",
+                "Mimicry"
             ]
         }
     ]
