@@ -336,6 +336,47 @@
             ],
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 41,
+            "subarea": 3,
+            "killed_by": 55,
+            "time": 2847,
+            "allies": [
+                {
+                    "wep": "medium_dog_launcher",
+                    "bwep": 17,
+                    "alias": "Daphne",
+                    "race": "medium_dog",
+                    "skin": 0,
+                    "color": 16737962
+                }
+            ],
+            "race": "medium_dog",
+            "color": 16737962,
+            "name": "Daphne",
+            "ultras": [ ],
+            "mutations": [
+                2
+            ],
+            "bwep": 17,
+            "wep": "medium_dog_launcher",
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
+            "pizzas": 0,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Daphne",
+                    "race": "medium_dog",
+                    "skin": 0,
+                    "color": 16737962
+                }
+            ],
+            "area": 1,
+            "skin": 0
         }
     ]
 }
