@@ -1,54 +1,6 @@
 {
     "scores": [
         {
-            "kills": 544,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                7,
-                12,
-                3,
-                16,
-                1,
-                5,
-                27,
-                4
-            ],
-            "time": 32610,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": 48,
-                    "wep": 81,
-                    "race": "captain",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "race": "captain",
-            "name": "Buczaj",
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": 48,
-                    "wep": 81,
-                    "race": "captain",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 12,
-            "bwep": 48,
-            "wep": 81,
-            "hard": 17,
-            "loop": 1,
-            "crown": 6,
-            "pizzas": 0,
-            "color": 255,
-            "area": 2,
-            "skin": 0
-        },
-        {
             "kills": 702,
             "ultras": [
                 [
@@ -71,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 12907068,
                     "skin": 0
@@ -83,8 +35,8 @@
             "allies": [
                 {
                     "alias": "42ndPotato",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 12907068,
                     "skin": 0
@@ -124,8 +76,8 @@
             "loadout": [
                 {
                     "alias": "Charlie",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "mom",
                     "color": 9532927,
                     "skin": 0
@@ -135,8 +87,8 @@
             "allies": [
                 {
                     "alias": "Charlie",
-                    "wep": "toxicball",
                     "bwep": 0,
+                    "wep": "toxicball",
                     "race": "mom",
                     "color": 9532927,
                     "skin": 0
@@ -179,8 +131,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -190,8 +142,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -207,6 +159,45 @@
             "color": 255,
             "pizzas": 0,
             "area": 3,
+            "skin": 0
+        },
+        {
+            "kills": 2,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [ ],
+            "time": 279,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "medium_dog",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "race": "medium_dog",
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": 2,
+                    "bwep": "medium_dog_launcher",
+                    "race": "medium_dog",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "name": "Buczaj",
+            "killed_by": -1,
+            "bwep": "medium_dog_launcher",
+            "wep": 2,
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "color": 255,
+            "pizzas": 0,
+            "area": 1,
             "skin": 0
         }
     ]
