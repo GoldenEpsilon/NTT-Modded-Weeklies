@@ -262,47 +262,58 @@
             "skin": 1
         },
         {
-            "kills": 153,
+            "kills": 1778,
             "subarea": 1,
-            "killed_by": 16,
-            "time": 5810.5,
+            "killed_by": 13,
+            "time": 47706,
             "allies": [
                 {
-                    "wep": 4,
-                    "bwep": 27,
+                    "wep": 81,
+                    "bwep": 48,
                     "alias": "Daphne",
-                    "race": "biggestbandit",
-                    "skin": 1,
+                    "race": "captain",
+                    "skin": 0,
                     "color": 16737962
                 }
             ],
-            "race": "biggestbandit",
+            "race": "captain",
             "color": 16737962,
             "name": "Daphne",
-            "ultras": [ ],
-            "mutations": [
-                1,
-                4,
-                10
+            "ultras": [
+                [
+                    "captain",
+                    2
+                ]
             ],
-            "bwep": 27,
-            "wep": 4,
-            "hard": 5,
-            "loop": 0,
-            "crown": false,
+            "mutations": [
+                6,
+                24,
+                17,
+                4,
+                7,
+                2,
+                25,
+                9,
+                5
+            ],
+            "bwep": 48,
+            "wep": 81,
+            "hard": 39,
+            "loop": 2,
+            "crown": 13,
             "pizzas": 0,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
+                    "wep": 81,
+                    "bwep": 48,
                     "alias": "Daphne",
-                    "race": "biggestbandit",
-                    "skin": 1,
+                    "race": "captain",
+                    "skin": 0,
                     "color": 16737962
                 }
             ],
-            "area": 3,
-            "skin": 1
+            "area": 2,
+            "skin": 0
         }
     ]
 }
