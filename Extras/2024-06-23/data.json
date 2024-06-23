@@ -1,0 +1,65 @@
+{
+	"name": "I'M THE BOSS",
+	"description": "PLAY AS NT BOSSES",
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"disable_crowns": false,
+	"seed": "Random",
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Playable Big Bandit",
+			"description": "Play as the biggest bandit around",
+			"url": "https://mr-mediocrist.itch.io/biggestbandit"
+		},
+		{
+			"download_type": "itch",
+			"name": "Mom",
+			"description": "The Mother of all Frogs#Poison anyone standing your way",
+			"url": "https://yokin.itch.io/mom"
+		},
+		{
+			"download_type": "itch",
+			"name": "Medium Dog",
+			"description": "Who's a good boy?#Medium Dog certainly is!",
+			"url": "https://yellowafterlife.itch.io/ntt-medium-dog"
+		},
+		{
+			"download_type": "itch",
+			"name": "Portalspeed",
+			"description": "When you clear a level,#get a speed boost#to get to the#next level faster!",
+			"url": "https://dragonstrive.itch.io/portalspeed"
+		},
+		{
+			"download_type": "itch",
+			"name": "Captain",
+			"description": "Highest authority#Enforce the law on them!",
+			"url": "https://blaac.itch.io/captain"
+		},
+		{
+			"download_type": "direct",
+			"name": "Bosses Plus",
+			"description": "Adds Giga Maggot,#Big Sniper,#and Titank is here#as a special guest!",
+			"filename": "BossesPlus.zip",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/BossesPlusWeeklies.zip?v=new2"
+		},
+		{
+			"download_type": "direct",
+			"url": "https://github.com/13laac/misc_nt_mods/raw/main/no_base_characters.mod.gml",
+			"filename": "no_base_characters.mod.gml",
+			"name": "no base characters",
+			"description": "unloads characters",
+		},
+		{
+			"download_type": "direct",
+			"url": "https://github.com/13laac/misc_nt_mods/raw/main/unlock_bigdog.mod.gml",
+			"filename": "unlock_bigdog.mod.gml",
+			"name": "unlock bigdog",
+			"description": "unlocks base game bigdog",
+		}
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": false,
+}
