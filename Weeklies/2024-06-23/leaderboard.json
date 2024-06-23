@@ -337,22 +337,19 @@
             "skin": 0
         },
         {
-            "kills": 87,
-            "subarea": 1,
-            "killed_by": 7,
-            "time": 4460,
+            "kills": 37,
+            "subarea": 2,
+            "killed_by": 4,
+            "time": 1062.5,
             "pizzas": 0,
             "race": 7,
             "color": 16737962,
             "name": "Daphne",
             "ultras": [ ],
-            "mutations": [
-                "Compressing Fist",
-                5
-            ],
-            "bwep": 21,
-            "wep": 21,
-            "hard": 4,
+            "mutations": [ ],
+            "bwep": 1,
+            "wep": 5,
+            "hard": 2,
             "loop": 0,
             "loadout": [
                 {
@@ -367,15 +364,15 @@
             "crown": false,
             "allies": [
                 {
-                    "wep": 21,
-                    "bwep": 21,
+                    "wep": 5,
+                    "bwep": 1,
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1,
                     "color": 16737962
                 }
             ],
-            "area": 2,
+            "area": 1,
             "skin": 1
         }
     ]
