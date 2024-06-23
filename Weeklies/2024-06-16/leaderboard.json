@@ -554,17 +554,19 @@
             "color": 5623039
         },
         {
-            "kills": 233,
-            "subarea": 1,
+            "kills": 318,
+            "subarea": 3,
             "ultras": [ ],
             "mutations": [
-                8,
-                "Steel Nerves",
-                "Muscle Memory",
-                "va_liquid_state_machine",
-                23
+                7,
+                25,
+                "powderedgums",
+                23,
+                "Mimicry",
+                "luckyshot",
+                17
             ],
-            "time": 10816.5,
+            "time": 11547.5,
             "loadout": [
                 {
                     "bwep": 0,
@@ -578,17 +580,17 @@
             "race": 6,
             "name": "Daphne",
             "pizzas": 0,
-            "bwep": "va_snubnose",
-            "wep": "mcleod",
+            "bwep": 23,
+            "wep": "EnergySword",
             "killed_by": 24,
-            "hard": 9,
+            "hard": 11,
             "loop": 0,
             "crown": false,
             "area": 5,
             "allies": [
                 {
-                    "bwep": "va_snubnose",
-                    "wep": "mcleod",
+                    "bwep": 23,
+                    "wep": "EnergySword",
                     "alias": "Daphne",
                     "race": 6,
                     "skin": 0,
