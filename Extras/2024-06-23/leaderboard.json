@@ -1,53 +1,6 @@
 {
     "scores": [
         {
-            "kills": 433,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                8,
-                11,
-                7,
-                13,
-                10,
-                1,
-                22
-            ],
-            "time": 18804,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": "biggestbandit",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "race": "biggestbandit",
-            "name": "Buczaj",
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "wep": 88,
-                    "bwep": 113,
-                    "race": "biggestbandit",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 53,
-            "bwep": 113,
-            "wep": 88,
-            "hard": 14,
-            "loop": 0,
-            "crown": false,
-            "pizzas": 1,
-            "color": 255,
-            "area": 7,
-            "skin": 0
-        },
-        {
             "kills": 77,
             "ultras": [ ],
             "subarea": 3,
@@ -58,8 +11,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "biggestbandit",
                     "color": 12907068,
                     "skin": 0
@@ -70,8 +23,8 @@
             "allies": [
                 {
                     "alias": "42ndPotato",
-                    "wep": 27,
                     "bwep": "BiggestRifle",
+                    "wep": 27,
                     "race": "biggestbandit",
                     "color": 12907068,
                     "skin": 0
@@ -106,8 +59,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -117,8 +70,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -134,6 +87,45 @@
             "color": 255,
             "pizzas": 0,
             "area": 2,
+            "skin": 0
+        },
+        {
+            "kills": 12,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [ ],
+            "time": 594,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "mom",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "race": "mom",
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "toxicball",
+                    "bwep": 0,
+                    "race": "mom",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "name": "Buczaj",
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": "toxicball",
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "color": 255,
+            "pizzas": 0,
+            "area": 1,
             "skin": 0
         }
     ]
