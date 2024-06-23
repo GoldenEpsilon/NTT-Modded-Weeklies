@@ -13,8 +13,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": 11,
                     "skin": 1
@@ -32,8 +32,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": "smg",
                     "wep": "va_sinusoid_rifle",
+                    "bwep": "smg",
                     "color": 5862689,
                     "race": 11,
                     "skin": 1
@@ -61,8 +61,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 11,
                     "color": 255,
                     "skin": 0
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": "va_marksman_rifle",
                     "wep": "va_martial_rapier",
+                    "bwep": "va_marksman_rifle",
                     "race": 11,
                     "color": 255,
                     "skin": 0
@@ -108,8 +108,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -128,8 +128,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 117,
                     "wep": "va_martial_rapier",
+                    "bwep": 117,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -139,13 +139,18 @@
             "skin": 0
         },
         {
-            "kills": 62,
+            "kills": 306,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                19
+                "Sadism",
+                1,
+                11,
+                16,
+                "Double Vision",
+                "Mimicry"
             ],
-            "time": 2249,
+            "time": 12356,
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
@@ -159,24 +164,24 @@
             "race": 6,
             "pizzas": 0,
             "name": "LaPerlis_XD",
-            "killed_by": 0,
-            "bwep": 19,
-            "wep": 3,
-            "hard": 3,
+            "killed_by": 27,
+            "bwep": "fire_poker",
+            "wep": "va_duster_flak",
+            "hard": 11,
             "loop": 0,
             "crown": false,
             "color": 4517495,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": 3,
-                    "bwep": 19,
+                    "wep": "va_duster_flak",
+                    "bwep": "fire_poker",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
-            "area": 1,
+            "area": 5,
             "skin": 0
         }
     ]
