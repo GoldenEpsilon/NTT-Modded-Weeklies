@@ -388,25 +388,33 @@
             "skin": 1
         },
         {
-            "kills": 180,
-            "subarea": 3,
-            "killed_by": 64,
-            "time": 6305.5,
+            "kills": 414,
+            "subarea": 1,
+            "killed_by": 51,
+            "time": 12687.5,
             "pizzas": 0,
             "race": 7,
             "color": 16737962,
             "name": "Daphne",
             "ultras": [ ],
             "mutations": [
+                "Shattered Skull",
                 "Loner",
-                "Cranial Valve",
-                "Steel Nerves",
-                11,
-                4
+                "Dynamic Calves",
+                "Slim Pickings",
+                "Survivor's Instinct",
+                "Telekinetic Tears",
+                "Thick Head",
+                "Shivering Spine",
+                "Explosive Gaze",
+                10,
+                19,
+                "Mimicry",
+                5
             ],
-            "bwep": 76,
-            "wep": 69,
-            "hard": 7,
+            "bwep": 23,
+            "wep": 23,
+            "hard": 13,
             "loop": 0,
             "loadout": [
                 {
@@ -421,15 +429,15 @@
             "crown": false,
             "allies": [
                 {
-                    "wep": 69,
-                    "bwep": 76,
+                    "wep": 23,
+                    "bwep": 23,
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1,
                     "color": 16737962
                 }
             ],
-            "area": 3,
+            "area": 7,
             "skin": 1
         }
     ]
