@@ -20,23 +20,14 @@
                 4
             ],
             "time": 34429,
-            "loadout": [
-                {
-                    "alias": "42ndPotato",
-                    "bwep": 48,
-                    "wep": 81,
-                    "race": "captain",
-                    "color": 12907068,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "race": "captain",
             "name": "42ndPotato",
             "allies": [
                 {
-                    "alias": "42ndPotato",
-                    "bwep": 48,
                     "wep": 81,
+                    "bwep": 48,
+                    "alias": "42ndPotato",
                     "race": "captain",
                     "color": 12907068,
                     "skin": 0
@@ -48,7 +39,16 @@
             "hard": 25,
             "loop": 1,
             "crown": 4,
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "wep": 81,
+                    "bwep": 48,
+                    "alias": "42ndPotato",
+                    "race": "captain",
+                    "color": 12907068,
+                    "skin": 0
+                }
+            ],
             "color": 12907068,
             "area": 106,
             "skin": 0
@@ -73,22 +73,13 @@
                 22
             ],
             "time": 30036,
-            "loadout": [
-                {
-                    "alias": "Charlie",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": "mom",
-                    "color": 9532927,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "race": "mom",
             "allies": [
                 {
-                    "alias": "Charlie",
-                    "bwep": 0,
                     "wep": "toxicball",
+                    "bwep": 0,
+                    "alias": "Charlie",
                     "race": "mom",
                     "color": 9532927,
                     "skin": 0
@@ -101,8 +92,17 @@
             "hard": 17,
             "loop": 1,
             "crown": 3,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Charlie",
+                    "race": "mom",
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
             "color": 9532927,
-            "pizzas": 0,
             "area": 0,
             "skin": 0
         },
@@ -128,22 +128,13 @@
                 19
             ],
             "time": 81768,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": 48,
-                    "wep": 81,
-                    "race": "captain",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "race": "captain",
             "allies": [
                 {
-                    "alias": "Buczaj",
-                    "bwep": 48,
                     "wep": 81,
+                    "bwep": 48,
+                    "alias": "Buczaj",
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -156,47 +147,56 @@
             "hard": 58,
             "loop": 3,
             "crown": 7,
+            "loadout": [
+                {
+                    "wep": 81,
+                    "bwep": 48,
+                    "alias": "Buczaj",
+                    "race": "captain",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
             "color": 255,
-            "pizzas": 0,
             "area": 3,
             "skin": 0
         },
         {
-            "kills": 2,
+            "kills": 10,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [ ],
-            "time": 279,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": "medium_dog",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "race": "medium_dog",
+            "time": 364,
+            "pizzas": 0,
+            "race": "biggestbandit",
             "allies": [
                 {
-                    "alias": "Buczaj",
-                    "wep": 2,
-                    "bwep": "medium_dog_launcher",
-                    "race": "medium_dog",
-                    "color": 255,
+                    "wep": 3,
+                    "bwep": "BiggestRifle",
+                    "alias": "Mr. Marco",
+                    "race": "biggestbandit",
+                    "color": 826115,
                     "skin": 0
                 }
             ],
-            "name": "Buczaj",
+            "name": "Mr. Marco",
             "killed_by": -1,
-            "bwep": "medium_dog_launcher",
-            "wep": 2,
+            "bwep": "BiggestRifle",
+            "wep": 3,
             "hard": 1,
             "loop": 0,
             "crown": false,
-            "color": 255,
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Mr. Marco",
+                    "race": "biggestbandit",
+                    "color": 826115,
+                    "skin": 0
+                }
+            ],
+            "color": 826115,
             "area": 1,
             "skin": 0
         }
