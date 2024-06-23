@@ -554,45 +554,48 @@
             "color": 5623039
         },
         {
-            "kills": 87,
+            "kills": 233,
             "subarea": 1,
             "ultras": [ ],
             "mutations": [
-                "Compressing Fist",
-                11
+                8,
+                "Steel Nerves",
+                "Muscle Memory",
+                "va_liquid_state_machine",
+                23
             ],
-            "time": 3166,
+            "time": 10816.5,
             "loadout": [
                 {
                     "bwep": 0,
                     "wep": "mw_ui_start",
                     "alias": "Daphne",
-                    "race": 3,
-                    "skin": 1,
+                    "race": 6,
+                    "skin": 0,
                     "color": 16737962
                 }
             ],
-            "race": 3,
+            "race": 6,
             "name": "Daphne",
             "pizzas": 0,
-            "bwep": "mcleod",
-            "wep": "fire_poker",
-            "killed_by": 9,
-            "hard": 4,
+            "bwep": "va_snubnose",
+            "wep": "mcleod",
+            "killed_by": 24,
+            "hard": 9,
             "loop": 0,
             "crown": false,
-            "area": 2,
+            "area": 5,
             "allies": [
                 {
-                    "bwep": "mcleod",
-                    "wep": "fire_poker",
+                    "bwep": "va_snubnose",
+                    "wep": "mcleod",
                     "alias": "Daphne",
-                    "race": 3,
-                    "skin": 1,
+                    "race": 6,
+                    "skin": 0,
                     "color": 16737962
                 }
             ],
-            "skin": 1,
+            "skin": 0,
             "color": 16737962
         }
     ]
