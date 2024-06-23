@@ -215,48 +215,6 @@
             "skin": 0
         },
         {
-            "kills": 127,
-            "subarea": 1,
-            "killed_by": 95,
-            "time": 4507.5,
-            "allies": [
-                {
-                    "wep": 16,
-                    "bwep": 27,
-                    "alias": "Daphne",
-                    "race": "biggestbandit",
-                    "skin": 1,
-                    "color": 16737962
-                }
-            ],
-            "race": "biggestbandit",
-            "color": 16737962,
-            "name": "Daphne",
-            "ultras": [ ],
-            "mutations": [
-                9,
-                19
-            ],
-            "bwep": 27,
-            "wep": 16,
-            "hard": 4,
-            "loop": 0,
-            "crown": false,
-            "pizzas": 0,
-            "loadout": [
-                {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Daphne",
-                    "race": "biggestbandit",
-                    "skin": 1,
-                    "color": 16737962
-                }
-            ],
-            "area": 2,
-            "skin": 1
-        },
-        {
             "kills": 193,
             "subarea": 3,
             "killed_by": [
@@ -287,6 +245,49 @@
             "bwep": 30,
             "wep": 27,
             "hard": 7,
+            "loop": 0,
+            "crown": false,
+            "pizzas": 0,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Daphne",
+                    "race": "biggestbandit",
+                    "skin": 1,
+                    "color": 16737962
+                }
+            ],
+            "area": 3,
+            "skin": 1
+        },
+        {
+            "kills": 153,
+            "subarea": 1,
+            "killed_by": 16,
+            "time": 5810.5,
+            "allies": [
+                {
+                    "wep": 4,
+                    "bwep": 27,
+                    "alias": "Daphne",
+                    "race": "biggestbandit",
+                    "skin": 1,
+                    "color": 16737962
+                }
+            ],
+            "race": "biggestbandit",
+            "color": 16737962,
+            "name": "Daphne",
+            "ultras": [ ],
+            "mutations": [
+                1,
+                4,
+                10
+            ],
+            "bwep": 27,
+            "wep": 4,
+            "hard": 5,
             "loop": 0,
             "crown": false,
             "pizzas": 0,
