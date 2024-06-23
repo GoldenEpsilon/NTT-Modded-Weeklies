@@ -1,84 +1,6 @@
 {
     "scores": [
         {
-            "kills": 1,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [ ],
-            "time": 123,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": "biggestbandit",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "race": "biggestbandit",
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "BiggestRifle",
-                    "bwep": 0,
-                    "race": "biggestbandit",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "name": "Buczaj",
-            "killed_by": -1,
-            "bwep": 0,
-            "wep": "BiggestRifle",
-            "hard": 1,
-            "loop": 0,
-            "crown": false,
-            "color": 255,
-            "pizzas": 0,
-            "area": 1,
-            "skin": 0
-        },
-        {
-            "kills": 8,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [ ],
-            "time": 481,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": "biggestbandit",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "race": "biggestbandit",
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": "BiggestRifle",
-                    "wep": 7,
-                    "race": "biggestbandit",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "name": "Buczaj",
-            "killed_by": 55,
-            "bwep": "BiggestRifle",
-            "wep": 7,
-            "hard": 1,
-            "loop": 0,
-            "crown": false,
-            "color": 255,
-            "pizzas": 0,
-            "area": 1,
-            "skin": 0
-        },
-        {
             "kills": 433,
             "ultras": [ ],
             "subarea": 1,
@@ -95,8 +17,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
@@ -106,8 +28,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 88,
                     "bwep": 113,
+                    "wep": 88,
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
@@ -123,6 +45,45 @@
             "color": 255,
             "pizzas": 1,
             "area": 7,
+            "skin": 0
+        },
+        {
+            "kills": 6,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [ ],
+            "time": 422,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "medium_dog",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "race": "medium_dog",
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "medium_dog_launcher",
+                    "bwep": 2,
+                    "race": "medium_dog",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "name": "Buczaj",
+            "killed_by": 55,
+            "bwep": 2,
+            "wep": "medium_dog_launcher",
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "color": 255,
+            "pizzas": 0,
+            "area": 1,
             "skin": 0
         }
     ]
