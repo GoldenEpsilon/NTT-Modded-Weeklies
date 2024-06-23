@@ -3,50 +3,56 @@
         {
             "kills": 107,
             "subarea": 1,
+            "killed_by": 15,
+            "time": 4791,
+            "pizzas": 0,
+            "race": 11,
+            "color": 5862689,
+            "name": "Dragonstrive",
             "ultras": [ ],
             "mutations": [
                 "Double Vision",
                 "Rocket Casings",
                 "Mimicry"
             ],
-            "time": 4791,
-            "loadout": [
-                {
-                    "alias": "Dragonstrive",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "color": 5862689,
-                    "race": 11,
-                    "skin": 1
-                }
-            ],
-            "race": 11,
-            "name": "Dragonstrive",
-            "pizzas": 0,
-            "killed_by": 15,
             "bwep": "smg",
             "wep": "va_sinusoid_rifle",
             "hard": 5,
             "loop": 0,
-            "crown": false,
-            "allies": [
+            "loadout": [
                 {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Dragonstrive",
-                    "wep": "va_sinusoid_rifle",
-                    "bwep": "smg",
                     "color": 5862689,
                     "race": 11,
                     "skin": 1
                 }
             ],
-            "color": 5862689,
+            "crown": false,
+            "allies": [
+                {
+                    "bwep": "smg",
+                    "wep": "va_sinusoid_rifle",
+                    "alias": "Dragonstrive",
+                    "color": 5862689,
+                    "race": 11,
+                    "skin": 1
+                }
+            ],
             "area": 3,
             "skin": 1
         },
         {
             "kills": 163,
-            "ultras": [ ],
             "subarea": 3,
+            "killed_by": 17,
+            "time": 7735,
+            "pizzas": 1,
+            "race": 11,
+            "color": 255,
+            "name": "Buczaj",
+            "ultras": [ ],
             "mutations": [
                 "Confidence",
                 "Loner",
@@ -57,44 +63,44 @@
                 "Explosive Gaze",
                 "Explosive Ears"
             ],
-            "time": 7735,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 11,
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "race": 11,
-            "name": "Buczaj",
-            "pizzas": 1,
-            "killed_by": 17,
             "bwep": "va_marksman_rifle",
             "wep": "va_martial_rapier",
             "hard": 9,
             "loop": 0,
-            "crown": "outcasts",
-            "allies": [
+            "loadout": [
                 {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Buczaj",
-                    "wep": "va_martial_rapier",
-                    "bwep": "va_marksman_rifle",
                     "race": 11,
                     "color": 255,
                     "skin": 0
                 }
             ],
-            "color": 255,
+            "crown": "outcasts",
+            "allies": [
+                {
+                    "bwep": "va_marksman_rifle",
+                    "wep": "va_martial_rapier",
+                    "alias": "Buczaj",
+                    "race": 11,
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
             "area": 3,
             "skin": 0
         },
         {
             "kills": 234,
-            "ultras": [ ],
             "subarea": 3,
+            "killed_by": 27,
+            "time": 11992,
+            "pizzas": 0,
+            "race": 6,
+            "color": 4517495,
+            "name": "LaPerlis_XD",
+            "ultras": [ ],
             "mutations": [
                 13,
                 4,
@@ -104,32 +110,26 @@
                 14,
                 28
             ],
-            "time": 11992,
+            "bwep": 117,
+            "wep": "va_martial_rapier",
+            "hard": 12,
+            "loop": 0,
             "loadout": [
                 {
-                    "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "LaPerlis_XD",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
-            "race": 6,
-            "pizzas": 0,
-            "name": "LaPerlis_XD",
-            "killed_by": 27,
-            "bwep": 117,
-            "wep": "va_martial_rapier",
-            "hard": 12,
-            "loop": 0,
             "crown": 4,
-            "color": 4517495,
             "allies": [
                 {
-                    "alias": "LaPerlis_XD",
-                    "wep": "va_martial_rapier",
                     "bwep": 117,
+                    "wep": "va_martial_rapier",
+                    "alias": "LaPerlis_XD",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -140,8 +140,14 @@
         },
         {
             "kills": 306,
-            "ultras": [ ],
             "subarea": 3,
+            "killed_by": 27,
+            "time": 12356,
+            "pizzas": 0,
+            "race": 6,
+            "color": 4517495,
+            "name": "LaPerlis_XD",
+            "ultras": [ ],
             "mutations": [
                 "Sadism",
                 1,
@@ -150,32 +156,26 @@
                 "Double Vision",
                 "Mimicry"
             ],
-            "time": 12356,
+            "bwep": "fire_poker",
+            "wep": "va_duster_flak",
+            "hard": 11,
+            "loop": 0,
             "loadout": [
                 {
-                    "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "LaPerlis_XD",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
-            "race": 6,
-            "pizzas": 0,
-            "name": "LaPerlis_XD",
-            "killed_by": 27,
-            "bwep": "fire_poker",
-            "wep": "va_duster_flak",
-            "hard": 11,
-            "loop": 0,
             "crown": false,
-            "color": 4517495,
             "allies": [
                 {
-                    "alias": "LaPerlis_XD",
-                    "wep": "va_duster_flak",
                     "bwep": "fire_poker",
+                    "wep": "va_duster_flak",
+                    "alias": "LaPerlis_XD",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -183,6 +183,59 @@
             ],
             "area": 5,
             "skin": 0
+        },
+        {
+            "kills": 566,
+            "subarea": 3,
+            "killed_by": 91,
+            "time": 21846,
+            "pizzas": 0,
+            "color": 16737962,
+            "race": 7,
+            "name": "Daphne",
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "mutations": [
+                13,
+                14,
+                8,
+                12,
+                7,
+                "Confidence",
+                5,
+                "sharpteeth"
+            ],
+            "bwep": "va_hoagie",
+            "wep": "va_martial_longsword",
+            "hard": 20,
+            "loop": 1,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "alias": "Daphne",
+                    "race": 7,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "crown": 13,
+            "allies": [
+                {
+                    "wep": "va_martial_longsword",
+                    "bwep": "va_hoagie",
+                    "alias": "Daphne",
+                    "race": 7,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
+            "area": 1,
+            "skin": 1
         }
     ]
 }
