@@ -13,8 +13,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5862689,
                     "race": 11,
                     "skin": 1
@@ -32,8 +32,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "va_sinusoid_rifle",
                     "bwep": "smg",
+                    "wep": "va_sinusoid_rifle",
                     "color": 5862689,
                     "race": 11,
                     "skin": 1
@@ -61,8 +61,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 11,
                     "color": 255,
                     "skin": 0
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_martial_rapier",
                     "bwep": "va_marksman_rifle",
+                    "wep": "va_martial_rapier",
                     "race": 11,
                     "color": 255,
                     "skin": 0
@@ -107,8 +107,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -126,8 +126,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_duster_flak",
                     "bwep": "fire_poker",
+                    "wep": "va_duster_flak",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -160,8 +160,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16737962,
                     "skin": 1
@@ -179,8 +179,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "va_hoagie",
                     "wep": "va_martial_longsword",
+                    "bwep": "va_hoagie",
                     "race": 7,
                     "color": 16737962,
                     "skin": 1
@@ -214,8 +214,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16737962,
                     "skin": 1
@@ -233,8 +233,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "va_martial_war_axe",
                     "wep": "EnergyHammer",
+                    "bwep": "va_martial_war_axe",
                     "race": 7,
                     "color": 16737962,
                     "skin": 1
@@ -258,8 +258,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 12907068,
                     "skin": 0
@@ -277,8 +277,8 @@
             "allies": [
                 {
                     "alias": "42ndPotato",
-                    "bwep": 0,
                     "wep": 69,
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 12907068,
                     "skin": 0
@@ -306,8 +306,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -326,8 +326,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "va_caster_hexblade",
                     "wep": 75,
+                    "bwep": "va_caster_hexblade",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -337,18 +337,15 @@
             "skin": 0
         },
         {
-            "kills": 305,
+            "kills": 130,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                13,
-                "condensedmeat",
-                5,
-                1,
-                10,
-                4
+                "Sloppy Fingers",
+                16,
+                10
             ],
-            "time": 13432,
+            "time": 3257,
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
@@ -362,24 +359,24 @@
             "race": 6,
             "pizzas": 0,
             "name": "LaPerlis_XD",
-            "killed_by": 27,
-            "bwep": "va_flechette_flak",
-            "wep": "fire_poker",
-            "hard": 11,
+            "killed_by": 10,
+            "bwep": 4,
+            "wep": 3,
+            "hard": 4,
             "loop": 0,
             "crown": false,
             "color": 4517495,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "fire_poker",
-                    "bwep": "va_flechette_flak",
+                    "wep": 3,
+                    "bwep": 4,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
-            "area": 5,
+            "area": 2,
             "skin": 0
         }
     ]
