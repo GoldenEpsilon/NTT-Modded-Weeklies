@@ -13,8 +13,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": 11,
                     "skin": 1
@@ -32,8 +32,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": "smg",
                     "wep": "va_sinusoid_rifle",
+                    "bwep": "smg",
                     "color": 5862689,
                     "race": 11,
                     "skin": 1
@@ -61,8 +61,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 11,
                     "color": 255,
                     "skin": 0
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": "va_marksman_rifle",
                     "wep": "va_martial_rapier",
+                    "bwep": "va_marksman_rifle",
                     "race": 11,
                     "color": 255,
                     "skin": 0
@@ -104,8 +104,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -124,14 +124,61 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_snubnose",
                     "bwep": "va_duster_shotgun",
+                    "wep": "va_snubnose",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
             "area": 3,
+            "skin": 0
+        },
+        {
+            "kills": 234,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                13,
+                4,
+                "Loner",
+                "Cruelty-Free Veganlust",
+                11,
+                14,
+                28
+            ],
+            "time": 11992,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "race": 6,
+            "pizzas": 0,
+            "name": "LaPerlis_XD",
+            "killed_by": 27,
+            "bwep": 117,
+            "wep": "va_martial_rapier",
+            "hard": 12,
+            "loop": 0,
+            "crown": 4,
+            "color": 4517495,
+            "allies": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": "va_martial_rapier",
+                    "bwep": 117,
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "area": 5,
             "skin": 0
         }
     ]
