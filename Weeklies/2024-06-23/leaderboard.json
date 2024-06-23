@@ -386,6 +386,54 @@
             ],
             "area": 1,
             "skin": 1
+        },
+        {
+            "kills": 185,
+            "subarea": 2,
+            "killed_by": 0,
+            "time": 6288,
+            "pizzas": 0,
+            "race": 7,
+            "color": 16737962,
+            "name": "Daphne",
+            "ultras": [ ],
+            "mutations": [
+                "Slim Pickings",
+                "Aerodynamic Ankles",
+                "Telekinetic Tears",
+                "Shell Cellulite",
+                "Loner",
+                "Rubber Rounds",
+                10,
+                "Mimicry"
+            ],
+            "bwep": 21,
+            "wep": 69,
+            "hard": 6,
+            "loop": 0,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "alias": "Daphne",
+                    "race": 7,
+                    "skin": 1,
+                    "color": 16737962
+                }
+            ],
+            "crown": false,
+            "allies": [
+                {
+                    "wep": 69,
+                    "bwep": 21,
+                    "alias": "Daphne",
+                    "race": 7,
+                    "skin": 1,
+                    "color": 16737962
+                }
+            ],
+            "area": 3,
+            "skin": 1
         }
     ]
 }
