@@ -1,0 +1,43 @@
+{
+    "scores": [
+        {
+            "kills": 1,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [ ],
+            "time": 123,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "biggestbandit",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "race": "biggestbandit",
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "BiggestRifle",
+                    "bwep": 0,
+                    "race": "biggestbandit",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "name": "Buczaj",
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": "BiggestRifle",
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "color": 255,
+            "pizzas": 0,
+            "area": 1,
+            "skin": 0
+        }
+    ]
+}
