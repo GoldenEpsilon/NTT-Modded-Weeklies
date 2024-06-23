@@ -9,6 +9,45 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "biggestbandit",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "race": "biggestbandit",
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "bwep": 0,
+                    "wep": "BiggestRifle",
+                    "race": "biggestbandit",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "name": "Buczaj",
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": "BiggestRifle",
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "color": 255,
+            "pizzas": 0,
+            "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 8,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [ ],
+            "time": 481,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "race": "biggestbandit",
@@ -20,17 +59,17 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "BiggestRifle",
-                    "bwep": 0,
+                    "wep": 7,
+                    "bwep": "BiggestRifle",
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
                 }
             ],
             "name": "Buczaj",
-            "killed_by": -1,
-            "bwep": 0,
-            "wep": "BiggestRifle",
+            "killed_by": 55,
+            "bwep": "BiggestRifle",
+            "wep": 7,
             "hard": 1,
             "loop": 0,
             "crown": false,
