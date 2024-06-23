@@ -18,8 +18,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -30,8 +30,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -71,8 +71,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "bwep": 48,
                     "wep": 81,
+                    "bwep": 48,
                     "race": "captain",
                     "color": 12907068,
                     "skin": 0
@@ -83,8 +83,8 @@
             "allies": [
                 {
                     "alias": "42ndPotato",
-                    "bwep": 48,
                     "wep": 81,
+                    "bwep": 48,
                     "race": "captain",
                     "color": 12907068,
                     "skin": 0
@@ -124,8 +124,8 @@
             "loadout": [
                 {
                     "alias": "Charlie",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "mom",
                     "color": 9532927,
                     "skin": 0
@@ -135,8 +135,8 @@
             "allies": [
                 {
                     "alias": "Charlie",
-                    "bwep": 0,
                     "wep": "toxicball",
+                    "bwep": 0,
                     "race": "mom",
                     "color": 9532927,
                     "skin": 0
@@ -155,47 +155,58 @@
             "skin": 0
         },
         {
-            "kills": 166,
-            "ultras": [ ],
+            "kills": 5582,
+            "ultras": [
+                [
+                    "captain",
+                    1
+                ]
+            ],
             "subarea": 1,
             "mutations": [
+                22,
+                11,
+                10,
                 5,
-                7,
-                14,
-                2
+                12,
+                25,
+                9,
+                24,
+                4,
+                19
             ],
-            "time": 6895,
+            "time": 81768,
             "loadout": [
                 {
-                    "alias": "Charlie",
+                    "alias": "Buczaj",
                     "wep": 81,
                     "bwep": 48,
                     "race": "captain",
-                    "color": 9532927,
+                    "color": 255,
                     "skin": 0
                 }
             ],
             "race": "captain",
             "allies": [
                 {
-                    "alias": "Charlie",
+                    "alias": "Buczaj",
                     "wep": 81,
                     "bwep": 48,
                     "race": "captain",
-                    "color": 9532927,
+                    "color": 255,
                     "skin": 0
                 }
             ],
-            "name": "Charlie",
-            "killed_by": -1,
+            "name": "Buczaj",
+            "killed_by": 103,
             "bwep": 48,
             "wep": 81,
-            "hard": 8,
-            "loop": 0,
-            "crown": 1,
-            "color": 9532927,
+            "hard": 58,
+            "loop": 3,
+            "crown": 7,
+            "color": 255,
             "pizzas": 0,
-            "area": 4,
+            "area": 3,
             "skin": 0
         }
     ]
