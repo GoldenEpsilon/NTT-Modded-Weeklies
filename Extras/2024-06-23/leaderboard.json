@@ -17,8 +17,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
@@ -36,8 +36,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 88,
                     "bwep": 113,
+                    "wep": 88,
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
@@ -58,8 +58,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "biggestbandit",
                     "color": 12907068,
                     "skin": 0
@@ -78,8 +78,49 @@
             "allies": [
                 {
                     "alias": "42ndPotato",
-                    "wep": 27,
                     "bwep": "BiggestRifle",
+                    "wep": 27,
+                    "race": "biggestbandit",
+                    "color": 12907068,
+                    "skin": 0
+                }
+            ],
+            "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 46,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                11
+            ],
+            "time": 1634,
+            "loadout": [
+                {
+                    "alias": "42ndPotato",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "biggestbandit",
+                    "color": 12907068,
+                    "skin": 0
+                }
+            ],
+            "race": "biggestbandit",
+            "pizzas": 0,
+            "name": "42ndPotato",
+            "killed_by": 55,
+            "bwep": 27,
+            "wep": 7,
+            "hard": 2,
+            "loop": 0,
+            "crown": false,
+            "color": 12907068,
+            "allies": [
+                {
+                    "alias": "42ndPotato",
+                    "wep": 7,
+                    "bwep": 27,
                     "race": "biggestbandit",
                     "color": 12907068,
                     "skin": 0
