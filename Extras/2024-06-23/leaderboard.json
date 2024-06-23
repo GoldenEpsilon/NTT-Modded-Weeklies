@@ -9,8 +9,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
@@ -20,8 +20,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "BiggestRifle",
+                    "bwep": 0,
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
@@ -48,8 +48,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
@@ -59,8 +59,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 7,
                     "bwep": "BiggestRifle",
+                    "wep": 7,
                     "race": "biggestbandit",
                     "color": 255,
                     "skin": 0
@@ -76,6 +76,53 @@
             "color": 255,
             "pizzas": 0,
             "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 433,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                8,
+                11,
+                7,
+                13,
+                10,
+                1,
+                22
+            ],
+            "time": 18804,
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "biggestbandit",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "race": "biggestbandit",
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": 88,
+                    "bwep": 113,
+                    "race": "biggestbandit",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "name": "Buczaj",
+            "killed_by": 53,
+            "bwep": 113,
+            "wep": 88,
+            "hard": 14,
+            "loop": 0,
+            "crown": false,
+            "color": 255,
+            "pizzas": 1,
+            "area": 7,
             "skin": 0
         }
     ]
