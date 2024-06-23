@@ -337,20 +337,32 @@
             "skin": 0
         },
         {
-            "kills": 37,
+            "kills": 677,
             "subarea": 2,
-            "killed_by": 4,
-            "time": 1062.5,
-            "pizzas": 0,
+            "killed_by": 5,
+            "time": 19348.5,
+            "pizzas": 1,
             "race": 7,
             "color": 16737962,
             "name": "Daphne",
-            "ultras": [ ],
-            "mutations": [ ],
-            "bwep": 1,
-            "wep": 5,
-            "hard": 2,
-            "loop": 0,
+            "ultras": [
+                "Steel Nerves"
+            ],
+            "mutations": [
+                "Shell Cellulite",
+                "Duplicators",
+                10,
+                "Loner",
+                "Free Space",
+                "powderedgums",
+                27,
+                "Intellect",
+                13
+            ],
+            "bwep": "va_duster_flak",
+            "wep": "va_dustdropper",
+            "hard": 19,
+            "loop": 1,
             "loadout": [
                 {
                     "wep": "mw_ui_start",
@@ -364,8 +376,8 @@
             "crown": false,
             "allies": [
                 {
-                    "wep": 5,
-                    "bwep": 1,
+                    "wep": "va_dustdropper",
+                    "bwep": "va_duster_flak",
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1,
