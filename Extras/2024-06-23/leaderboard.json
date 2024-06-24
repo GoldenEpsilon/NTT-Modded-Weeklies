@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "42ndPotato",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 12907068,
                     "skin": 0
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 12907068,
                     "skin": 0
@@ -79,8 +79,8 @@
             "allies": [
                 {
                     "alias": "Charlie",
-                    "wep": "toxicball",
                     "bwep": 0,
+                    "wep": "toxicball",
                     "race": "mom",
                     "color": 9532927,
                     "skin": 0
@@ -96,8 +96,8 @@
             "loadout": [
                 {
                     "alias": "Charlie",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "mom",
                     "color": 9532927,
                     "skin": 0
@@ -134,8 +134,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -151,8 +151,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": 81,
                     "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -187,8 +187,8 @@
             "allies": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 53,
                     "wep": 13,
+                    "bwep": 53,
                     "race": "biggestbandit",
                     "color": 826115,
                     "skin": 0
@@ -204,8 +204,8 @@
             "loadout": [
                 {
                     "alias": "Mr. Marco",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "biggestbandit",
                     "color": 826115,
                     "skin": 0
@@ -240,8 +240,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": 48,
                     "wep": 81,
+                    "bwep": 48,
                     "race": "captain",
                     "color": 16737962,
                     "skin": 0
@@ -258,8 +258,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 48,
                     "wep": 81,
+                    "bwep": 48,
                     "race": "captain",
                     "color": 16737962,
                     "skin": 0
@@ -286,8 +286,8 @@
             "allies": [
                 {
                     "alias": "peruano goloso",
-                    "wep": 2,
                     "bwep": 50,
+                    "wep": 2,
                     "race": "biggestbandit",
                     "color": 5623039,
                     "skin": 0
@@ -303,6 +303,51 @@
             "loadout": [
                 {
                     "alias": "peruano goloso",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "biggestbandit",
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "color": 5623039,
+            "area": 7,
+            "skin": 0
+        },
+        {
+            "kills": 29,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                25,
+                16
+            ],
+            "time": 3074,
+            "pizzas": 0,
+            "race": "biggestbandit",
+            "allies": [
+                {
+                    "alias": "peruano goloso",
+                    "wep": "BiggestRifle",
+                    "bwep": 3,
+                    "race": "biggestbandit",
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "name": "peruano goloso",
+            "killed_by": [
+                null,
+                "Big Sniper"
+            ],
+            "bwep": 3,
+            "wep": "BiggestRifle",
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
+            "loadout": [
+                {
+                    "alias": "peruano goloso",
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "race": "biggestbandit",
@@ -311,7 +356,7 @@
                 }
             ],
             "color": 5623039,
-            "area": 7,
+            "area": 3,
             "skin": 0
         }
     ]
