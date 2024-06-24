@@ -3,21 +3,6 @@
         {
             "kills": 702,
             "subarea": 3,
-            "killed_by": 93,
-            "time": 34429,
-            "allies": [
-                {
-                    "bwep": 48,
-                    "wep": 81,
-                    "alias": "42ndPotato",
-                    "race": "captain",
-                    "color": 12907068,
-                    "skin": 0
-                }
-            ],
-            "race": "captain",
-            "name": "42ndPotato",
-            "color": 12907068,
             "ultras": [
                 [
                     "captain",
@@ -34,17 +19,32 @@
                 27,
                 4
             ],
+            "time": 34429,
+            "pizzas": 0,
+            "race": "captain",
+            "name": "42ndPotato",
+            "allies": [
+                {
+                    "alias": "42ndPotato",
+                    "wep": 81,
+                    "bwep": 48,
+                    "race": "captain",
+                    "color": 12907068,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 93,
             "bwep": 48,
             "wep": 81,
             "hard": 25,
             "loop": 1,
-            "pizzas": 0,
             "crown": 4,
+            "color": 12907068,
             "loadout": [
                 {
-                    "bwep": 48,
-                    "wep": 81,
                     "alias": "42ndPotato",
+                    "wep": 81,
+                    "bwep": 48,
                     "race": "captain",
                     "color": 12907068,
                     "skin": 0
@@ -56,21 +56,6 @@
         {
             "kills": 394,
             "subarea": 1,
-            "killed_by": 38,
-            "time": 30036,
-            "allies": [
-                {
-                    "bwep": 0,
-                    "wep": "toxicball",
-                    "alias": "Charlie",
-                    "race": "mom",
-                    "color": 9532927,
-                    "skin": 0
-                }
-            ],
-            "race": "mom",
-            "name": "Charlie",
-            "color": 9532927,
             "ultras": [
                 [
                     "mom",
@@ -87,17 +72,32 @@
                 10,
                 22
             ],
+            "time": 30036,
+            "pizzas": 0,
+            "race": "mom",
+            "name": "Charlie",
+            "allies": [
+                {
+                    "alias": "Charlie",
+                    "wep": "toxicball",
+                    "bwep": 0,
+                    "race": "mom",
+                    "color": 9532927,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 38,
             "bwep": 0,
             "wep": "toxicball",
             "hard": 17,
             "loop": 1,
-            "pizzas": 0,
             "crown": 3,
+            "color": 9532927,
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "Charlie",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "mom",
                     "color": 9532927,
                     "skin": 0
@@ -109,21 +109,6 @@
         {
             "kills": 5582,
             "subarea": 1,
-            "killed_by": 103,
-            "time": 81768,
-            "allies": [
-                {
-                    "bwep": 48,
-                    "wep": 81,
-                    "alias": "Buczaj",
-                    "race": "captain",
-                    "color": 255,
-                    "skin": 0
-                }
-            ],
-            "race": "captain",
-            "name": "Buczaj",
-            "color": 255,
             "ultras": [
                 [
                     "captain",
@@ -142,17 +127,32 @@
                 4,
                 19
             ],
+            "time": 81768,
+            "pizzas": 0,
+            "race": "captain",
+            "name": "Buczaj",
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": 81,
+                    "bwep": 48,
+                    "race": "captain",
+                    "color": 255,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 103,
             "bwep": 48,
             "wep": 81,
             "hard": 58,
             "loop": 3,
-            "pizzas": 0,
             "crown": 7,
+            "color": 255,
             "loadout": [
                 {
-                    "bwep": 48,
-                    "wep": 81,
                     "alias": "Buczaj",
+                    "wep": 81,
+                    "bwep": 48,
                     "race": "captain",
                     "color": 255,
                     "skin": 0
@@ -164,21 +164,6 @@
         {
             "kills": 3915,
             "subarea": 3,
-            "killed_by": 25,
-            "time": 108137,
-            "allies": [
-                {
-                    "wep": 13,
-                    "bwep": 53,
-                    "alias": "Mr. Marco",
-                    "race": "biggestbandit",
-                    "color": 826115,
-                    "skin": 0
-                }
-            ],
-            "race": "biggestbandit",
-            "name": "Mr. Marco",
-            "color": 826115,
             "ultras": [
                 [
                     "biggestbandit",
@@ -195,17 +180,32 @@
                 11,
                 22
             ],
+            "time": 108137,
+            "pizzas": 0,
+            "race": "biggestbandit",
+            "name": "Mr. Marco",
+            "allies": [
+                {
+                    "alias": "Mr. Marco",
+                    "bwep": 53,
+                    "wep": 13,
+                    "race": "biggestbandit",
+                    "color": 826115,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 25,
             "bwep": 53,
             "wep": 13,
             "hard": 46,
             "loop": 2,
-            "pizzas": 0,
             "crown": 7,
+            "color": 826115,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Mr. Marco",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "biggestbandit",
                     "color": 826115,
                     "skin": 0
@@ -215,70 +215,8 @@
             "skin": 0
         },
         {
-            "kills": 193,
-            "subarea": 3,
-            "killed_by": [
-                null,
-                "Big Sniper"
-            ],
-            "time": 11728.5,
-            "allies": [
-                {
-                    "wep": 27,
-                    "bwep": 30,
-                    "alias": "Daphne",
-                    "race": "biggestbandit",
-                    "skin": 1,
-                    "color": 16737962
-                }
-            ],
-            "race": "biggestbandit",
-            "color": 16737962,
-            "name": "Daphne",
-            "ultras": [ ],
-            "mutations": [
-                23,
-                13,
-                8,
-                25
-            ],
-            "bwep": 30,
-            "wep": 27,
-            "hard": 7,
-            "loop": 0,
-            "crown": false,
-            "pizzas": 0,
-            "loadout": [
-                {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Daphne",
-                    "race": "biggestbandit",
-                    "skin": 1,
-                    "color": 16737962
-                }
-            ],
-            "area": 3,
-            "skin": 1
-        },
-        {
             "kills": 1778,
             "subarea": 1,
-            "killed_by": 13,
-            "time": 47706,
-            "allies": [
-                {
-                    "wep": 81,
-                    "bwep": 48,
-                    "alias": "Daphne",
-                    "race": "captain",
-                    "skin": 0,
-                    "color": 16737962
-                }
-            ],
-            "race": "captain",
-            "color": 16737962,
-            "name": "Daphne",
             "ultras": [
                 [
                     "captain",
@@ -296,23 +234,84 @@
                 9,
                 5
             ],
+            "time": 47706,
+            "pizzas": 0,
+            "race": "captain",
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 48,
+                    "wep": 81,
+                    "race": "captain",
+                    "color": 16737962,
+                    "skin": 0
+                }
+            ],
+            "name": "Daphne",
+            "killed_by": 13,
             "bwep": 48,
             "wep": 81,
             "hard": 39,
             "loop": 2,
             "crown": 13,
-            "pizzas": 0,
+            "color": 16737962,
             "loadout": [
                 {
-                    "wep": 81,
-                    "bwep": 48,
                     "alias": "Daphne",
+                    "bwep": 48,
+                    "wep": 81,
                     "race": "captain",
-                    "skin": 0,
-                    "color": 16737962
+                    "color": 16737962,
+                    "skin": 0
                 }
             ],
             "area": 2,
+            "skin": 0
+        },
+        {
+            "kills": 333,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                17,
+                23,
+                27,
+                5,
+                3,
+                14
+            ],
+            "time": 17612,
+            "pizzas": 0,
+            "race": "biggestbandit",
+            "allies": [
+                {
+                    "alias": "peruano goloso",
+                    "wep": 2,
+                    "bwep": 50,
+                    "race": "biggestbandit",
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "name": "peruano goloso",
+            "killed_by": 35,
+            "bwep": 50,
+            "wep": 2,
+            "hard": 13,
+            "loop": 0,
+            "crown": false,
+            "loadout": [
+                {
+                    "alias": "peruano goloso",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "biggestbandit",
+                    "color": 5623039,
+                    "skin": 0
+                }
+            ],
+            "color": 5623039,
+            "area": 7,
             "skin": 0
         }
     ]
