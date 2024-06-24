@@ -11,8 +11,8 @@
             "loadout": [
                 {
                     "alias": "scab eater uwu",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "medium_dog",
                     "color": 16755455,
                     "skin": 0
@@ -28,9 +28,62 @@
             "allies": [
                 {
                     "alias": "scab eater uwu",
-                    "wep": 2,
                     "bwep": "medium_dog_launcher",
+                    "wep": 2,
                     "race": "medium_dog",
+                    "color": 16755455,
+                    "skin": 0
+                }
+            ],
+            "color": 16755455,
+            "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 4199,
+            "ultras": [
+                [
+                    "captain",
+                    1
+                ]
+            ],
+            "subarea": 2,
+            "mutations": [
+                7,
+                5,
+                10,
+                24,
+                2,
+                20,
+                16,
+                8
+            ],
+            "time": 80498,
+            "pizzas": 1,
+            "race": "captain",
+            "loadout": [
+                {
+                    "alias": "scab eater uwu",
+                    "wep": 81,
+                    "bwep": 48,
+                    "race": "captain",
+                    "color": 16755455,
+                    "skin": 0
+                }
+            ],
+            "name": "scab eater uwu",
+            "killed_by": 103,
+            "bwep": 48,
+            "wep": 81,
+            "hard": 51,
+            "loop": 3,
+            "crown": 7,
+            "allies": [
+                {
+                    "alias": "scab eater uwu",
+                    "wep": 81,
+                    "bwep": 48,
+                    "race": "captain",
                     "color": 16755455,
                     "skin": 0
                 }
