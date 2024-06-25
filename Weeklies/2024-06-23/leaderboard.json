@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_martial_longsword",
                     "bwep": "va_hoagie",
+                    "wep": "va_martial_longsword",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
@@ -42,8 +42,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "EnergyHammer",
                     "bwep": "va_martial_war_axe",
+                    "wep": "EnergyHammer",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
@@ -96,8 +96,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
@@ -124,8 +124,8 @@
             "allies": [
                 {
                     "alias": "42ndPotato",
-                    "wep": 69,
                     "bwep": 0,
+                    "wep": 69,
                     "color": 12907068,
                     "race": "Printer",
                     "skin": 0
@@ -140,8 +140,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 12907068,
                     "race": "Printer",
                     "skin": 0
@@ -175,8 +175,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_dustdropper",
                     "bwep": "va_duster_flak",
+                    "wep": "va_dustdropper",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
@@ -191,8 +191,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
@@ -229,8 +229,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": "va_breaker_cannon",
                     "wep": "va_hoagie",
+                    "bwep": "va_breaker_cannon",
                     "color": 255,
                     "race": 11,
                     "skin": 0
@@ -245,8 +245,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 255,
                     "race": 11,
                     "skin": 0
@@ -284,8 +284,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "va_basilisk",
                     "wep": 74,
+                    "bwep": "va_basilisk",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -300,8 +300,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -337,8 +337,8 @@
             "allies": [
                 {
                     "alias": "peruano goloso",
-                    "bwep": "va_vorpal_war_axe",
                     "wep": "va_gluon_cleaver",
+                    "bwep": "va_vorpal_war_axe",
                     "color": 5623039,
                     "race": 6,
                     "skin": 1
@@ -353,8 +353,8 @@
             "loadout": [
                 {
                     "alias": "peruano goloso",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5623039,
                     "race": 6,
                     "skin": 1
@@ -390,8 +390,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "va_vorpal_zweihander",
                     "bwep": "EnergyShovel",
+                    "wep": "va_vorpal_zweihander",
                     "color": 5862689,
                     "race": "scales",
                     "skin": 1
@@ -406,8 +406,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5862689,
                     "race": "scales",
                     "skin": 1
@@ -418,31 +418,32 @@
             "skin": 1
         },
         {
-            "kills": 110,
+            "kills": 93,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "Sadism",
-                11
+                25,
+                "powderedgums",
+                20
             ],
-            "time": 3486,
+            "time": 2408,
             "pizzas": 0,
             "race": 6,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
                     "wep": 3,
-                    "bwep": 69,
+                    "bwep": 5,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
             "name": "LaPerlis_XD",
-            "killed_by": 0,
-            "bwep": 69,
+            "killed_by": 6,
+            "bwep": 5,
             "wep": 3,
-            "hard": 4,
+            "hard": 3,
             "loop": 0,
             "crown": false,
             "loadout": [
@@ -456,7 +457,7 @@
                 }
             ],
             "color": 4517495,
-            "area": 2,
+            "area": 1,
             "skin": 0
         }
     ]
