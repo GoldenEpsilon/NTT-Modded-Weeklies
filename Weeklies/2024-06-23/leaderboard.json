@@ -523,11 +523,11 @@
             "skin": 0
         },
         {
-            "kills": 379,
-            "subarea": 1,
-            "killed_by": 36,
-            "time": 15803.5,
-            "pizzas": 1,
+            "kills": 182,
+            "subarea": 3,
+            "killed_by": 14,
+            "time": 5756.5,
+            "pizzas": 0,
             "race": 1,
             "color": 16737962,
             "loadout": [
@@ -536,38 +536,36 @@
                     "bwep": 0,
                     "alias": "Daphne",
                     "race": 1,
-                    "skin": 0,
+                    "skin": 1,
                     "color": 16737962
                 }
             ],
             "name": "Daphne",
             "ultras": [ ],
             "mutations": [
-                "Staked Chest",
-                1,
-                27,
-                "Compressing Fist",
-                "Mimicry",
-                "Sadism",
-                "Scrap Arms"
+                11,
+                10,
+                9,
+                "Double Vision",
+                15
             ],
-            "bwep": "va_martial_war_pike",
-            "wep": "va_lancer_shotgun",
-            "hard": 15,
+            "bwep": 21,
+            "wep": 5,
+            "hard": 7,
             "loop": 0,
-            "crown": 1,
+            "crown": false,
             "allies": [
                 {
-                    "wep": "va_lancer_shotgun",
-                    "bwep": "va_martial_war_pike",
+                    "wep": 5,
+                    "bwep": 21,
                     "alias": "Daphne",
                     "race": 1,
-                    "skin": 0,
+                    "skin": 1,
                     "color": 16737962
                 }
             ],
-            "area": 7,
-            "skin": 0
+            "area": 3,
+            "skin": 1
         }
     ]
 }
