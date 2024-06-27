@@ -9,8 +9,8 @@
             "loadout": [
                 {
                     "alias": "42ndPotato",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "medium_dog",
                     "color": 12907068,
                     "skin": 0
@@ -29,14 +29,56 @@
             "allies": [
                 {
                     "alias": "42ndPotato",
-                    "wep": "medium_dog_launcher",
                     "bwep": 2,
+                    "wep": "medium_dog_launcher",
                     "race": "medium_dog",
                     "color": 12907068,
                     "skin": 0
                 }
             ],
             "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 89,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                10,
+                4
+            ],
+            "time": 5076,
+            "loadout": [
+                {
+                    "alias": "42ndPotato",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "biggestbandit",
+                    "color": 12907068,
+                    "skin": 0
+                }
+            ],
+            "race": "biggestbandit",
+            "pizzas": 0,
+            "name": "42ndPotato",
+            "killed_by": 11,
+            "bwep": 3,
+            "wep": 6,
+            "hard": 4,
+            "loop": 0,
+            "crown": false,
+            "color": 12907068,
+            "allies": [
+                {
+                    "alias": "42ndPotato",
+                    "wep": 6,
+                    "bwep": 3,
+                    "race": "biggestbandit",
+                    "color": 12907068,
+                    "skin": 0
+                }
+            ],
+            "area": 2,
             "skin": 0
         }
     ]
