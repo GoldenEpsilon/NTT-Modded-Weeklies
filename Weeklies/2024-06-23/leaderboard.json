@@ -524,29 +524,35 @@
         },
         {
             "ultras": [ ],
-            "kills": 51,
-            "subarea": 3,
+            "kills": 333,
+            "subarea": 1,
             "mutations": [
-                5
+                10,
+                "Double Vision",
+                7,
+                "Arcane Arts",
+                "Thick Head",
+                1,
+                "excitedneurons"
             ],
-            "time": 2761,
+            "time": 16774.5,
             "pizzas": 0,
             "allies": [
                 {
-                    "bwep": "smg",
-                    "wep": "mateba",
+                    "bwep": "mateba",
+                    "wep": "va_automagic_bolt_caster",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": "scales",
-                    "skin": 0
+                    "skin": 1
                 }
             ],
             "race": "scales",
             "name": "Daphne",
-            "killed_by": 6,
-            "bwep": "smg",
-            "wep": "mateba",
-            "hard": 3,
+            "killed_by": 36,
+            "bwep": "mateba",
+            "wep": "va_automagic_bolt_caster",
+            "hard": 15,
             "loop": 0,
             "loadout": [
                 {
@@ -555,13 +561,13 @@
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": "scales",
-                    "skin": 0
+                    "skin": 1
                 }
             ],
-            "crown": false,
+            "crown": "outcasts",
             "color": 16737962,
-            "area": 1,
-            "skin": 0
+            "area": 7,
+            "skin": 1
         }
     ]
 }
