@@ -523,10 +523,10 @@
             "skin": 0
         },
         {
-            "kills": 182,
-            "subarea": 3,
-            "killed_by": 14,
-            "time": 5756.5,
+            "kills": 198,
+            "subarea": 2,
+            "killed_by": 24,
+            "time": 9250,
             "pizzas": 0,
             "race": 1,
             "color": 16737962,
@@ -543,28 +543,29 @@
             "name": "Daphne",
             "ultras": [ ],
             "mutations": [
-                11,
-                10,
-                9,
-                "Double Vision",
-                15
+                23,
+                26,
+                7,
+                13,
+                27,
+                "Filtering Teeth"
             ],
-            "bwep": 21,
-            "wep": 5,
-            "hard": 7,
+            "bwep": "va_flechette_shotgun",
+            "wep": 114,
+            "hard": 10,
             "loop": 0,
             "crown": false,
             "allies": [
                 {
-                    "wep": 5,
-                    "bwep": 21,
+                    "wep": 114,
+                    "bwep": "va_flechette_shotgun",
                     "alias": "Daphne",
                     "race": 1,
                     "skin": 1,
                     "color": 16737962
                 }
             ],
-            "area": 3,
+            "area": 5,
             "skin": 1
         }
     ]
