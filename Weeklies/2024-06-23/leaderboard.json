@@ -523,10 +523,10 @@
             "skin": 0
         },
         {
-            "kills": 75,
-            "subarea": 1,
-            "killed_by": 11,
-            "time": 8064.5,
+            "kills": 59,
+            "subarea": 3,
+            "killed_by": 0,
+            "time": 2481.5,
             "loadout": [
                 {
                     "wep": "mw_ui_start",
@@ -542,26 +542,27 @@
             "name": "Daphne",
             "ultras": [ ],
             "mutations": [
-                12,
-                "powderedgums"
+                25,
+                20,
+                16
             ],
-            "bwep": 4,
-            "wep": 17,
-            "hard": 4,
+            "bwep": "fire_poker",
+            "wep": 4,
+            "hard": 3,
             "loop": 0,
             "crown": false,
             "pizzas": 0,
             "allies": [
                 {
-                    "wep": 17,
-                    "bwep": 4,
+                    "wep": 4,
+                    "bwep": "fire_poker",
                     "alias": "Daphne",
                     "race": 1,
                     "skin": 1,
                     "color": 16737962
                 }
             ],
-            "area": 2,
+            "area": 1,
             "skin": 1
         }
     ]
