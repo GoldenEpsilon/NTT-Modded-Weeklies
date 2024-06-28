@@ -568,25 +568,25 @@
             "skin": 1
         },
         {
-            "kills": 207,
-            "subarea": 1,
-            "killed_by": 21,
-            "time": 8827,
+            "kills": 179,
+            "subarea": 3,
+            "killed_by": 16,
+            "time": 6337,
             "pizzas": 0,
             "race": 6,
             "name": "Daphne",
             "color": 16737962,
             "ultras": [ ],
-            "bwep": 57,
-            "wep": 3,
+            "bwep": 4,
+            "wep": "mcleod",
             "mutations": [
-                25,
+                16,
+                "Sloppy Fingers",
                 "Mimicry",
-                17,
-                1,
-                12
+                10,
+                13
             ],
-            "hard": 8,
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "loadout": [
@@ -599,11 +599,11 @@
                     "color": 16737962
                 }
             ],
-            "area": 4,
+            "area": 3,
             "allies": [
                 {
-                    "bwep": 57,
-                    "wep": 3,
+                    "bwep": 4,
+                    "wep": "mcleod",
                     "alias": "Daphne",
                     "race": 6,
                     "skin": 0,
