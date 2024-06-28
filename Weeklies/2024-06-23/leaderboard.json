@@ -568,39 +568,27 @@
             "skin": 1
         },
         {
-            "kills": 416,
-            "subarea": 0,
-            "killed_by": 66,
-            "time": 22697,
+            "kills": 207,
+            "subarea": 1,
+            "killed_by": 21,
+            "time": 8827,
             "pizzas": 0,
             "race": 6,
             "name": "Daphne",
             "color": 16737962,
-            "ultras": [
-                [
-                    6,
-                    1
-                ]
-            ],
-            "bwep": 93,
-            "wep": "va_vorpal_longsword",
+            "ultras": [ ],
+            "bwep": 57,
+            "wep": 3,
             "mutations": [
-                "powderedgums",
-                "Slim Pickings",
-                "Dynamic Calves",
-                "Iron Skin",
-                5,
-                "Scrap Arms",
-                15,
-                "Thick Head",
-                "Cruelty-Free Veganlust",
-                "Free Space",
-                10,
-                28
+                25,
+                "Mimicry",
+                17,
+                1,
+                12
             ],
-            "hard": 17,
+            "hard": 8,
             "loop": 0,
-            "crown": "outcasts",
+            "crown": false,
             "loadout": [
                 {
                     "bwep": 0,
@@ -611,11 +599,11 @@
                     "color": 16737962
                 }
             ],
-            "area": 107,
+            "area": 4,
             "allies": [
                 {
-                    "bwep": 93,
-                    "wep": "va_vorpal_longsword",
+                    "bwep": 57,
+                    "wep": 3,
                     "alias": "Daphne",
                     "race": 6,
                     "skin": 0,
