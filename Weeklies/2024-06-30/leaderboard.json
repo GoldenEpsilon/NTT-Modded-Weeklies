@@ -1,52 +1,6 @@
 {
     "scores": [
         {
-            "kills": 265,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                "Shattered Skull",
-                27,
-                "Rocket Casings",
-                28,
-                7,
-                1
-            ],
-            "time": 14913,
-            "allies": [
-                {
-                    "alias": "padre domingo estoy en tu techo",
-                    "wep": "va_martial_longsword",
-                    "bwep": "va_sticky_breacher",
-                    "race": 6,
-                    "color": 5623039,
-                    "skin": 1
-                }
-            ],
-            "race": 6,
-            "name": "padre domingo estoy en tu techo",
-            "pizzas": 0,
-            "killed_by": 98,
-            "bwep": "va_sticky_breacher",
-            "wep": "va_martial_longsword",
-            "hard": 11,
-            "loop": 0,
-            "crown": false,
-            "loadout": [
-                {
-                    "alias": "padre domingo estoy en tu techo",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "color": 5623039,
-                    "skin": 1
-                }
-            ],
-            "color": 5623039,
-            "area": 5,
-            "skin": 1
-        },
-        {
             "kills": 417,
             "ultras": [
                 [
@@ -70,8 +24,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "wep": 75,
                     "bwep": "va_duster_flak",
+                    "wep": 75,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -85,6 +39,47 @@
             "wep": 75,
             "hard": 18,
             "loop": 1,
+            "crown": false,
+            "color": 5623039,
+            "loadout": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
+            "area": 1,
+            "skin": 1
+        },
+        {
+            "kills": 51,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                23
+            ],
+            "time": 1552,
+            "allies": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "wep": 5,
+                    "bwep": 27,
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
+            "race": 6,
+            "pizzas": 0,
+            "name": "padre domingo estoy en tu techo",
+            "killed_by": 0,
+            "bwep": 27,
+            "wep": 5,
+            "hard": 3,
+            "loop": 0,
             "crown": false,
             "color": 5623039,
             "loadout": [
