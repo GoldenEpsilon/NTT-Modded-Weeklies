@@ -32,8 +32,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 111,
                     "wep": "PikeSplinterGun",
+                    "bwep": 111,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 21,
                     "wep": 54,
+                    "bwep": 21,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -91,8 +91,8 @@
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -126,8 +126,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 75,
                     "wep": 27,
+                    "bwep": 75,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -137,8 +137,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -172,8 +172,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": 3,
                     "bwep": 76,
+                    "wep": 3,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -183,8 +183,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -195,29 +195,28 @@
             "skin": 0
         },
         {
-            "kills": 161,
+            "kills": 105,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                11,
-                27,
-                16,
-                4
+                7,
+                15,
+                5
             ],
-            "time": 6873,
-            "pizzas": 0,
+            "time": 4080,
+            "pizzas": 1,
             "race": 6,
             "name": "LaPerlis_XD",
-            "killed_by": 15,
-            "bwep": 8,
-            "wep": 112,
-            "hard": 7,
+            "killed_by": 41,
+            "bwep": 7,
+            "wep": 13,
+            "hard": 5,
             "loop": 0,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": 112,
-                    "bwep": 8,
+                    "wep": 13,
+                    "bwep": 7,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -235,7 +234,7 @@
                 }
             ],
             "color": 4517495,
-            "area": 3,
+            "area": 102,
             "skin": 0
         }
     ]
