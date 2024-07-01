@@ -2,22 +2,12 @@
     "scores": [
         {
             "kills": 1013,
+            "subarea": 1,
             "ultras": [
                 [
                     6,
                     1
                 ]
-            ],
-            "subarea": 1,
-            "allies": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "wep": "PikeSplinterGun",
-                    "bwep": 111,
-                    "race": 6,
-                    "color": 16736708,
-                    "skin": 1
-                }
             ],
             "mutations": [
                 "luckyshot",
@@ -31,27 +21,82 @@
                 21
             ],
             "time": 31063,
-            "race": 6,
-            "name": "Sir Mittens IV",
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
+                    "bwep": 111,
+                    "wep": "PikeSplinterGun",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
-            "killed_by": -1,
             "pizzas": 0,
+            "race": 6,
+            "name": "Sir Mittens IV",
+            "killed_by": -1,
             "bwep": 111,
             "wep": "PikeSplinterGun",
             "hard": 23,
             "loop": 1,
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
             "crown": 7,
             "color": 16736708,
             "area": 3,
+            "skin": 1
+        },
+        {
+            "kills": 207,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "excitedneurons",
+                14,
+                10,
+                3,
+                "powderedgums"
+            ],
+            "time": 10129,
+            "allies": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "wep": 22,
+                    "bwep": 17,
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
+            "pizzas": 1,
+            "race": 6,
+            "name": "padre domingo estoy en tu techo",
+            "killed_by": 24,
+            "bwep": 17,
+            "wep": 22,
+            "hard": 10,
+            "loop": 0,
+            "loadout": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
+            "crown": 1,
+            "color": 5623039,
+            "area": 5,
             "skin": 1
         }
     ]
