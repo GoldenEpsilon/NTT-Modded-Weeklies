@@ -32,8 +32,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 111,
                     "wep": "PikeSplinterGun",
+                    "bwep": 111,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 21,
                     "wep": 54,
+                    "bwep": 21,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -91,8 +91,8 @@
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -101,48 +101,6 @@
             "color": 5623039,
             "area": 7,
             "skin": 1
-        },
-        {
-            "kills": 77,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                8,
-                3
-            ],
-            "time": 3697,
-            "pizzas": 0,
-            "race": 6,
-            "name": "LaPerlis_XD",
-            "killed_by": 10,
-            "bwep": 17,
-            "wep": 6,
-            "hard": 4,
-            "loop": 0,
-            "allies": [
-                {
-                    "alias": "LaPerlis_XD",
-                    "wep": 6,
-                    "bwep": 17,
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
-                }
-            ],
-            "crown": 1,
-            "loadout": [
-                {
-                    "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
-                }
-            ],
-            "color": 4517495,
-            "area": 2,
-            "skin": 0
         },
         {
             "kills": 166,
@@ -166,8 +124,54 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": 3,
                     "bwep": 2,
+                    "wep": 3,
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "crown": 1,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "color": 4517495,
+            "area": 3,
+            "skin": 0
+        },
+        {
+            "kills": 256,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                27,
+                22,
+                1,
+                23,
+                15,
+                11
+            ],
+            "time": 10670,
+            "pizzas": 1,
+            "race": 6,
+            "name": "LaPerlis_XD",
+            "killed_by": 26,
+            "bwep": 75,
+            "wep": 27,
+            "hard": 10,
+            "loop": 0,
+            "allies": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": 27,
+                    "bwep": 75,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -185,7 +189,7 @@
                 }
             ],
             "color": 4517495,
-            "area": 3,
+            "area": 5,
             "skin": 0
         }
     ]
