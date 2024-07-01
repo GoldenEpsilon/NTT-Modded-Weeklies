@@ -16,8 +16,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": "va_sticky_breacher",
                     "wep": "va_martial_longsword",
+                    "bwep": "va_sticky_breacher",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -35,8 +35,8 @@
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -47,16 +47,31 @@
             "skin": 1
         },
         {
-            "kills": 1,
-            "ultras": [ ],
+            "kills": 417,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
             "subarea": 1,
-            "mutations": [ ],
-            "time": 65,
+            "mutations": [
+                12,
+                16,
+                "Sloppy Fingers",
+                "Shattered Skull",
+                "Shell Cellulite",
+                25,
+                3,
+                "Scrap Arms",
+                "powderedgums"
+            ],
+            "time": 23777,
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "wep": 5,
-                    "bwep": 0,
+                    "wep": 75,
+                    "bwep": "va_duster_flak",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -65,11 +80,11 @@
             "race": 6,
             "pizzas": 0,
             "name": "padre domingo estoy en tu techo",
-            "killed_by": -1,
-            "bwep": 0,
-            "wep": 5,
-            "hard": 1,
-            "loop": 0,
+            "killed_by": 84,
+            "bwep": "va_duster_flak",
+            "wep": 75,
+            "hard": 18,
+            "loop": 1,
             "crown": false,
             "color": 5623039,
             "loadout": [
