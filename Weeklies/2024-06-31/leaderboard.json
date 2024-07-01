@@ -3,21 +3,6 @@
         {
             "kills": 1013,
             "subarea": 1,
-            "killed_by": -1,
-            "time": 31063,
-            "allies": [
-                {
-                    "wep": "PikeSplinterGun",
-                    "bwep": 111,
-                    "alias": "Sir Mittens IV",
-                    "race": 6,
-                    "color": 16736708,
-                    "skin": 1
-                }
-            ],
-            "race": 6,
-            "color": 16736708,
-            "name": "Sir Mittens IV",
             "ultras": [
                 [
                     6,
@@ -35,43 +20,43 @@
                 4,
                 21
             ],
+            "time": 31063,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Sir Mittens IV",
+            "killed_by": -1,
             "bwep": 111,
             "wep": "PikeSplinterGun",
-            "pizzas": 0,
             "hard": 23,
             "loop": 1,
-            "loadout": [
+            "allies": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Sir Mittens IV",
+                    "bwep": 111,
+                    "wep": "PikeSplinterGun",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
             "crown": 7,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
             "area": 3,
             "skin": 1
         },
         {
             "kills": 327,
             "subarea": 3,
-            "killed_by": 37,
-            "time": 22338,
-            "allies": [
-                {
-                    "wep": 54,
-                    "bwep": 21,
-                    "alias": "padre domingo estoy en tu techo",
-                    "race": 6,
-                    "color": 5623039,
-                    "skin": 1
-                }
-            ],
-            "race": 6,
-            "color": 5623039,
-            "name": "padre domingo estoy en tu techo",
             "ultras": [ ],
             "mutations": [
                 10,
@@ -83,43 +68,43 @@
                 4,
                 "powderedgums"
             ],
+            "time": 22338,
+            "pizzas": 0,
+            "race": 6,
+            "name": "padre domingo estoy en tu techo",
+            "killed_by": 37,
             "bwep": 21,
             "wep": 54,
-            "pizzas": 0,
             "hard": 15,
             "loop": 0,
-            "loadout": [
+            "allies": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "padre domingo estoy en tu techo",
+                    "bwep": 21,
+                    "wep": 54,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
                 }
             ],
             "crown": 1,
+            "color": 5623039,
+            "loadout": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
             "area": 7,
             "skin": 1
         },
         {
             "kills": 256,
             "subarea": 1,
-            "killed_by": 26,
-            "time": 10670,
-            "allies": [
-                {
-                    "wep": 27,
-                    "bwep": 75,
-                    "alias": "LaPerlis_XD",
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
-                }
-            ],
-            "race": 6,
-            "color": 4517495,
-            "name": "LaPerlis_XD",
             "ultras": [ ],
             "mutations": [
                 27,
@@ -129,43 +114,43 @@
                 15,
                 11
             ],
+            "time": 10670,
+            "pizzas": 1,
+            "race": 6,
+            "name": "LaPerlis_XD",
+            "killed_by": 26,
             "bwep": 75,
             "wep": 27,
-            "pizzas": 1,
             "hard": 10,
             "loop": 0,
-            "loadout": [
+            "allies": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "LaPerlis_XD",
+                    "bwep": 75,
+                    "wep": 27,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
             "crown": 1,
+            "color": 4517495,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
             "area": 5,
             "skin": 0
         },
         {
             "kills": 245,
             "subarea": 2,
-            "killed_by": 24,
-            "time": 12683,
-            "allies": [
-                {
-                    "bwep": 76,
-                    "wep": 3,
-                    "alias": "LaPerlis_XD",
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
-                }
-            ],
-            "race": 6,
-            "color": 4517495,
-            "name": "LaPerlis_XD",
             "ultras": [ ],
             "mutations": [
                 13,
@@ -175,64 +160,123 @@
                 25,
                 23
             ],
+            "time": 12683,
+            "pizzas": 0,
+            "race": 6,
+            "name": "LaPerlis_XD",
+            "killed_by": 24,
             "bwep": 76,
             "wep": 3,
-            "pizzas": 0,
             "hard": 10,
             "loop": 0,
-            "loadout": [
+            "allies": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "LaPerlis_XD",
+                    "wep": 3,
+                    "bwep": 76,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
             "crown": 1,
+            "color": 4517495,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
             "area": 5,
             "skin": 0
         },
         {
             "kills": 40,
             "subarea": 2,
-            "killed_by": 0,
-            "allies": [
-                {
-                    "wep": 39,
-                    "bwep": 7,
-                    "alias": "Daphne",
-                    "race": 6,
-                    "color": 16737962,
-                    "skin": 0
-                }
-            ],
-            "time": 1920,
-            "color": 16737962,
-            "race": 6,
-            "name": "Daphne",
             "ultras": [ ],
             "mutations": [
                 "concentration"
             ],
+            "time": 1920,
+            "pizzas": 0,
+            "race": 6,
+            "name": "Daphne",
+            "killed_by": 0,
             "bwep": 7,
             "wep": 39,
-            "pizzas": 0,
             "hard": 2,
             "loop": 0,
-            "loadout": [
+            "allies": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Daphne",
+                    "bwep": 7,
+                    "wep": 39,
                     "race": 6,
                     "color": 16737962,
                     "skin": 0
                 }
             ],
             "crown": 1,
+            "color": 16737962,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 16737962,
+                    "skin": 0
+                }
+            ],
             "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 182,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                11,
+                5,
+                7,
+                23
+            ],
+            "time": 7719,
+            "pizzas": 0,
+            "race": 6,
+            "name": "LaPerlis_XD",
+            "killed_by": 19,
+            "bwep": 69,
+            "wep": 38,
+            "hard": 8,
+            "loop": 0,
+            "allies": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": 38,
+                    "bwep": 69,
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "crown": 1,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "color": 4517495,
+            "area": 4,
             "skin": 0
         }
     ]
