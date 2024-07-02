@@ -849,7 +849,6 @@ while(day > 365 + isLeapYear(year)){
     day -= 365 + isLeapYear(year);
 }
 var month = 1;
-day -= 1;
 while(day >= daysInMonth(month, year)){
     day -= daysInMonth(month, year);
     month++;
