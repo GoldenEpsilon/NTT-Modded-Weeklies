@@ -862,7 +862,7 @@ trace("current day?:", day);
 trace("current day of the week?:", (unixDays + 4) % 7);*/
 
 
-var weekDay = day - (unixDays + 3) % 7;
+var weekDay = day - (unixDays + 5) % 7;
 var weekMonth = month;
 var weekYear = year;
 if weekDay < 1 {
