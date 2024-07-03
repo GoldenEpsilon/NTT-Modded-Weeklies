@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": "va_duster_flak",
                     "wep": 75,
+                    "bwep": "va_duster_flak",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -53,95 +53,6 @@
             "color": 5623039,
             "area": 1,
             "skin": 1
-        },
-        {
-            "kills": 181,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                11,
-                "Double Vision",
-                25,
-                19,
-                "Filtering Teeth"
-            ],
-            "time": 7139,
-            "allies": [
-                {
-                    "alias": "LaPerlis_XD",
-                    "wep": 27,
-                    "bwep": "va_bolt_caster",
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
-                }
-            ],
-            "race": 6,
-            "pizzas": 0,
-            "name": "LaPerlis_XD",
-            "killed_by": 15,
-            "bwep": "va_bolt_caster",
-            "wep": 27,
-            "hard": 7,
-            "loop": 0,
-            "crown": false,
-            "loadout": [
-                {
-                    "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
-                }
-            ],
-            "color": 4517495,
-            "area": 3,
-            "skin": 0
-        },
-        {
-            "kills": 253,
-            "ultras": [ ],
-            "subarea": 2,
-            "mutations": [
-                "Ruffled Feathers",
-                15,
-                "Shattered Skull",
-                "Shell Cellulite"
-            ],
-            "time": 6932,
-            "allies": [
-                {
-                    "alias": "LaPerlis_XD",
-                    "wep": "mcleod",
-                    "bwep": 75,
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
-                }
-            ],
-            "pizzas": 0,
-            "race": 6,
-            "name": "LaPerlis_XD",
-            "killed_by": 64,
-            "bwep": 75,
-            "wep": "mcleod",
-            "hard": 6,
-            "loop": 0,
-            "crown": false,
-            "loadout": [
-                {
-                    "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
-                }
-            ],
-            "color": 4517495,
-            "area": 3,
-            "skin": 0
         },
         {
             "kills": 760,
@@ -166,8 +77,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_arcsinusoid_cannon",
                     "bwep": "va_martial_rapier",
+                    "wep": "va_arcsinusoid_cannon",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -185,6 +96,47 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "color": 4517495,
+            "area": 2,
+            "skin": 0
+        },
+        {
+            "kills": 43,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                5
+            ],
+            "time": 1675,
+            "allies": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": "smg",
+                    "bwep": 19,
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 0,
+            "race": 6,
+            "name": "LaPerlis_XD",
+            "killed_by": 0,
+            "bwep": 19,
+            "wep": "smg",
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "race": 6,
@@ -193,7 +145,7 @@
                 }
             ],
             "color": 4517495,
-            "area": 2,
+            "area": 1,
             "skin": 0
         }
     ]
