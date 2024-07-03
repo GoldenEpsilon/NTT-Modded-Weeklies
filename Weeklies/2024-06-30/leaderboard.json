@@ -24,82 +24,80 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "wep": 75,
                     "bwep": "va_duster_flak",
+                    "wep": 75,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
                 }
             ],
             "race": 6,
-            "pizzas": 0,
             "name": "padre domingo estoy en tu techo",
+            "loadout": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
             "killed_by": 84,
             "bwep": "va_duster_flak",
             "wep": 75,
             "hard": 18,
             "loop": 1,
             "crown": false,
+            "pizzas": 0,
             "color": 5623039,
-            "loadout": [
-                {
-                    "alias": "padre domingo estoy en tu techo",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "color": 5623039,
-                    "skin": 1
-                }
-            ],
             "area": 1,
             "skin": 1
         },
         {
-            "kills": 288,
+            "kills": 181,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                15,
-                "Shell Cellulite",
-                10,
-                27,
+                11,
+                "Double Vision",
                 25,
-                "Rocket Casings",
-                "luckyshot"
+                19,
+                "Filtering Teeth"
             ],
-            "time": 11746,
+            "time": 7139,
             "allies": [
                 {
-                    "alias": "padre domingo estoy en tu techo",
-                    "wep": 5,
-                    "bwep": "va_duster_shotgun",
+                    "alias": "LaPerlis_XD",
+                    "wep": 27,
+                    "bwep": "va_bolt_caster",
                     "race": 6,
-                    "color": 5623039,
-                    "skin": 1
+                    "color": 4517495,
+                    "skin": 0
                 }
             ],
             "race": 6,
-            "pizzas": 0,
-            "name": "padre domingo estoy en tu techo",
-            "killed_by": -1,
-            "bwep": "va_duster_shotgun",
-            "wep": 5,
-            "hard": 11,
-            "loop": 0,
-            "crown": false,
-            "color": 5623039,
             "loadout": [
                 {
-                    "alias": "padre domingo estoy en tu techo",
+                    "alias": "LaPerlis_XD",
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "race": 6,
-                    "color": 5623039,
-                    "skin": 1
+                    "color": 4517495,
+                    "skin": 0
                 }
             ],
-            "area": 5,
-            "skin": 1
+            "name": "LaPerlis_XD",
+            "killed_by": 15,
+            "bwep": "va_bolt_caster",
+            "wep": 27,
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
+            "color": 4517495,
+            "pizzas": 0,
+            "area": 3,
+            "skin": 0
         }
     ]
 }
