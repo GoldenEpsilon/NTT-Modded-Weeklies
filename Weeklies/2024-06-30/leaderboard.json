@@ -3,9 +3,6 @@
         {
             "kills": 417,
             "subarea": 1,
-            "color": 5623039,
-            "pizzas": 0,
-            "time": 23777,
             "ultras": [
                 [
                     6,
@@ -23,43 +20,43 @@
                 "Scrap Arms",
                 "powderedgums"
             ],
+            "time": 23777,
+            "pizzas": 0,
             "race": 6,
             "name": "padre domingo estoy en tu techo",
-            "allies": [
+            "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5623039,
-                    "wep": 75,
-                    "bwep": "va_duster_flak",
                     "race": 6,
                     "skin": 1
                 }
             ],
+            "killed_by": 84,
             "bwep": "va_duster_flak",
             "wep": 75,
             "hard": 18,
             "loop": 1,
-            "loadout": [
+            "crown": false,
+            "color": 5623039,
+            "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
+                    "wep": 75,
+                    "bwep": "va_duster_flak",
                     "color": 5623039,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "race": 6,
                     "skin": 1
                 }
             ],
-            "crown": false,
-            "killed_by": 84,
             "area": 1,
             "skin": 1
         },
         {
             "kills": 760,
             "subarea": 1,
-            "color": 4517495,
-            "pizzas": 0,
-            "time": 24322,
             "ultras": [
                 [
                     6,
@@ -76,94 +73,43 @@
                 "Compressing Fist",
                 15
             ],
+            "time": 24322,
+            "pizzas": 0,
             "race": 6,
             "name": "LaPerlis_XD",
-            "allies": [
+            "loadout": [
                 {
                     "alias": "LaPerlis_XD",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 4517495,
-                    "bwep": "va_martial_rapier",
-                    "wep": "va_arcsinusoid_cannon",
                     "race": 6,
                     "skin": 0
                 }
             ],
+            "killed_by": 59,
             "bwep": "va_martial_rapier",
             "wep": "va_arcsinusoid_cannon",
             "hard": 21,
             "loop": 1,
-            "loadout": [
+            "crown": false,
+            "color": 4517495,
+            "allies": [
                 {
                     "alias": "LaPerlis_XD",
+                    "bwep": "va_martial_rapier",
+                    "wep": "va_arcsinusoid_cannon",
                     "color": 4517495,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "race": 6,
                     "skin": 0
                 }
             ],
-            "crown": false,
-            "killed_by": 59,
             "area": 2,
             "skin": 0
         },
         {
-            "kills": 411,
-            "subarea": 1,
-            "color": 16737962,
-            "pizzas": 0,
-            "time": 22059,
-            "ultras": [
-                4
-            ],
-            "mutations": [
-                3,
-                25,
-                2,
-                5,
-                "Sadism",
-                10,
-                1,
-                11,
-                "Intellect"
-            ],
-            "race": 7,
-            "name": "Daphne",
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "bwep": 17,
-                    "wep": "SquareGun",
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "bwep": 17,
-            "wep": "SquareGun",
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "hard": 16,
-            "loop": 1,
-            "crown": false,
-            "killed_by": 38,
-            "area": 0,
-            "skin": 1
-        },
-        {
             "kills": 881,
             "subarea": 3,
-            "color": 16737962,
-            "pizzas": 0,
-            "time": 34004.00620000006893,
             "ultras": [
                 [
                     6,
@@ -180,35 +126,87 @@
                 8,
                 "Steel Nerves"
             ],
+            "time": 34004.00620000006893,
+            "pizzas": 0,
             "race": 6,
             "name": "Daphne",
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "wep": "va_vorpal_zweihander",
-                    "bwep": "va_archmagus_bolt_caster",
-                    "race": 6,
-                    "skin": 1
-                }
-            ],
-            "bwep": "va_archmagus_bolt_caster",
-            "wep": "va_vorpal_zweihander",
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "color": 16737962,
                     "wep": "mw_ui_start",
                     "bwep": 0,
+                    "color": 16737962,
                     "race": 6,
                     "skin": 1
                 }
             ],
+            "killed_by": 17,
+            "bwep": "va_archmagus_bolt_caster",
+            "wep": "va_vorpal_zweihander",
             "hard": 25,
             "loop": 1,
             "crown": 7,
-            "killed_by": 17,
+            "color": 16737962,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": "va_vorpal_zweihander",
+                    "bwep": "va_archmagus_bolt_caster",
+                    "color": 16737962,
+                    "race": 6,
+                    "skin": 1
+                }
+            ],
             "area": 3,
+            "skin": 1
+        },
+        {
+            "kills": 360,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                1,
+                4,
+                11,
+                "Slim Pickings",
+                "Shivering Spine",
+                "Cranial Valve",
+                "Double Vision",
+                17,
+                13
+            ],
+            "time": 13618,
+            "pizzas": 0,
+            "race": 6,
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "name": "Sir Mittens IV",
+            "killed_by": -1,
+            "bwep": 10,
+            "wep": 57,
+            "hard": 13,
+            "loop": 0,
+            "crown": false,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": 57,
+                    "bwep": 10,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "color": 16736708,
+            "area": 7,
             "skin": 1
         }
     ]
