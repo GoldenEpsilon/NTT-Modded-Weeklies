@@ -29,8 +29,8 @@
                 {
                     "alias": "padre domingo estoy en tu techo",
                     "color": 5623039,
-                    "bwep": "va_duster_flak",
                     "wep": 75,
+                    "bwep": "va_duster_flak",
                     "race": 6,
                     "skin": 1
                 }
@@ -43,8 +43,8 @@
                 {
                     "alias": "padre domingo estoy en tu techo",
                     "color": 5623039,
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "skin": 1
                 }
@@ -82,8 +82,8 @@
                 {
                     "alias": "LaPerlis_XD",
                     "color": 4517495,
-                    "wep": "va_arcsinusoid_cannon",
                     "bwep": "va_martial_rapier",
+                    "wep": "va_arcsinusoid_cannon",
                     "race": 6,
                     "skin": 0
                 }
@@ -96,8 +96,8 @@
                 {
                     "alias": "LaPerlis_XD",
                     "color": 4517495,
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "skin": 0
                 }
@@ -133,8 +133,8 @@
                 {
                     "alias": "Daphne",
                     "color": 16737962,
-                    "wep": "SquareGun",
                     "bwep": 17,
+                    "wep": "SquareGun",
                     "race": 7,
                     "skin": 1
                 }
@@ -145,8 +145,8 @@
                 {
                     "alias": "Daphne",
                     "color": 16737962,
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "skin": 1
                 }
@@ -156,6 +156,51 @@
             "crown": false,
             "killed_by": 38,
             "area": 0,
+            "skin": 1
+        },
+        {
+            "kills": 286,
+            "subarea": 1,
+            "color": 16737962,
+            "pizzas": 0,
+            "time": 11403,
+            "ultras": [ ],
+            "mutations": [
+                23,
+                9,
+                "Shattered Skull",
+                15,
+                "Mimicry"
+            ],
+            "race": 7,
+            "name": "Daphne",
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "wep": 38,
+                    "bwep": "va_martial_war_axe",
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "bwep": "va_martial_war_axe",
+            "wep": 38,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "hard": 9,
+            "loop": 0,
+            "crown": false,
+            "killed_by": 25,
+            "area": 5,
             "skin": 1
         }
     ]
