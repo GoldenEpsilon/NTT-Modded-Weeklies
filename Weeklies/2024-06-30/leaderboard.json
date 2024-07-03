@@ -2,13 +2,16 @@
     "scores": [
         {
             "kills": 417,
+            "subarea": 1,
+            "color": 5623039,
+            "pizzas": 0,
+            "time": 23777,
             "ultras": [
                 [
                     6,
                     1
                 ]
             ],
-            "subarea": 1,
             "mutations": [
                 12,
                 16,
@@ -20,49 +23,49 @@
                 "Scrap Arms",
                 "powderedgums"
             ],
-            "time": 23777,
+            "race": 6,
+            "name": "padre domingo estoy en tu techo",
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "wep": 75,
-                    "bwep": "va_duster_flak",
-                    "race": 6,
                     "color": 5623039,
+                    "bwep": "va_duster_flak",
+                    "wep": 75,
+                    "race": 6,
                     "skin": 1
                 }
             ],
-            "race": 6,
-            "pizzas": 0,
-            "name": "padre domingo estoy en tu techo",
-            "killed_by": 84,
             "bwep": "va_duster_flak",
             "wep": 75,
             "hard": 18,
             "loop": 1,
-            "crown": false,
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
                     "color": 5623039,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
                     "skin": 1
                 }
             ],
-            "color": 5623039,
+            "crown": false,
+            "killed_by": 84,
             "area": 1,
             "skin": 1
         },
         {
             "kills": 760,
+            "subarea": 1,
+            "color": 4517495,
+            "pizzas": 0,
+            "time": 24322,
             "ultras": [
                 [
                     6,
                     1
                 ]
             ],
-            "subarea": 1,
             "mutations": [
                 27,
                 11,
@@ -73,82 +76,87 @@
                 "Compressing Fist",
                 15
             ],
-            "time": 24322,
+            "race": 6,
+            "name": "LaPerlis_XD",
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "va_martial_rapier",
-                    "wep": "va_arcsinusoid_cannon",
-                    "race": 6,
                     "color": 4517495,
+                    "wep": "va_arcsinusoid_cannon",
+                    "bwep": "va_martial_rapier",
+                    "race": 6,
                     "skin": 0
                 }
             ],
-            "pizzas": 0,
-            "race": 6,
-            "name": "LaPerlis_XD",
-            "killed_by": 59,
             "bwep": "va_martial_rapier",
             "wep": "va_arcsinusoid_cannon",
             "hard": 21,
             "loop": 1,
-            "crown": false,
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 6,
                     "color": 4517495,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
                     "skin": 0
                 }
             ],
-            "color": 4517495,
+            "crown": false,
+            "killed_by": 59,
             "area": 2,
             "skin": 0
         },
         {
-            "kills": 91,
-            "ultras": [ ],
+            "kills": 411,
             "subarea": 1,
+            "color": 16737962,
+            "pizzas": 0,
+            "time": 22059,
+            "ultras": [
+                4
+            ],
             "mutations": [
                 3,
-                "Double Vision",
-                15
+                25,
+                2,
+                5,
+                "Sadism",
+                10,
+                1,
+                11,
+                "Intellect"
             ],
-            "time": 4296,
+            "race": 7,
+            "name": "Daphne",
             "allies": [
                 {
-                    "alias": "LaPerlis_XD",
-                    "wep": "fire_poker",
-                    "bwep": 4,
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
+                    "alias": "Daphne",
+                    "color": 16737962,
+                    "wep": "SquareGun",
+                    "bwep": 17,
+                    "race": 7,
+                    "skin": 1
                 }
             ],
-            "pizzas": 0,
-            "race": 6,
-            "name": "LaPerlis_XD",
-            "killed_by": 15,
-            "bwep": 4,
-            "wep": "fire_poker",
-            "hard": 5,
-            "loop": 0,
-            "crown": false,
+            "bwep": 17,
+            "wep": "SquareGun",
             "loadout": [
                 {
-                    "alias": "LaPerlis_XD",
+                    "alias": "Daphne",
+                    "color": 16737962,
                     "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "color": 4517495,
-                    "skin": 0
+                    "bwep": 1,
+                    "race": 7,
+                    "skin": 1
                 }
             ],
-            "color": 4517495,
-            "area": 3,
-            "skin": 0
+            "hard": 16,
+            "loop": 1,
+            "crown": false,
+            "killed_by": 38,
+            "area": 0,
+            "skin": 1
         }
     ]
 }
