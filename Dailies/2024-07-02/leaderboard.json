@@ -21,8 +21,59 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_martial_war_axe",
                     "bwep": "va_razorpop",
+                    "wep": "va_martial_war_axe",
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "race": 6,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "name": "LaPerlis_XD",
+            "killed_by": 51,
+            "bwep": "va_razorpop",
+            "wep": "va_martial_war_axe",
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
+            "color": 4517495,
+            "pizzas": 0,
+            "area": 5,
+            "skin": 0
+        },
+        {
+            "kills": 422,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                15,
+                "Slim Pickings",
+                "Toxic Thoughts",
+                "Telekinetic Tears",
+                4,
+                "Shell Cellulite",
+                "Thick Head",
+                "Laser Focus",
+                "Cranial Valve",
+                "Sloppy Fingers",
+                8
+            ],
+            "time": 14256,
+            "allies": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": "mcleod",
+                    "bwep": 69,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -40,15 +91,15 @@
                 }
             ],
             "name": "LaPerlis_XD",
-            "killed_by": 51,
-            "bwep": "va_razorpop",
-            "wep": "va_martial_war_axe",
-            "hard": 11,
+            "killed_by": 58,
+            "bwep": 69,
+            "wep": "mcleod",
+            "hard": 14,
             "loop": 0,
-            "crown": false,
+            "crown": 1,
             "color": 4517495,
             "pizzas": 0,
-            "area": 5,
+            "area": 7,
             "skin": 0
         }
     ]
