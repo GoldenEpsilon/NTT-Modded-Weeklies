@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": "va_duster_flak",
                     "wep": 75,
+                    "bwep": "va_duster_flak",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -77,8 +77,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_arcsinusoid_cannon",
                     "bwep": "va_martial_rapier",
+                    "wep": "va_arcsinusoid_cannon",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -96,8 +96,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -108,18 +108,20 @@
             "skin": 0
         },
         {
-            "kills": 74,
+            "kills": 91,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                "Double Vision"
+                3,
+                "Double Vision",
+                15
             ],
-            "time": 2542,
+            "time": 4296,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": 13,
-                    "bwep": 69,
+                    "wep": "fire_poker",
+                    "bwep": 4,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -128,10 +130,10 @@
             "pizzas": 0,
             "race": 6,
             "name": "LaPerlis_XD",
-            "killed_by": 4,
-            "bwep": 69,
-            "wep": 13,
-            "hard": 3,
+            "killed_by": 15,
+            "bwep": 4,
+            "wep": "fire_poker",
+            "hard": 5,
             "loop": 0,
             "crown": false,
             "loadout": [
@@ -145,7 +147,7 @@
                 }
             ],
             "color": 4517495,
-            "area": 1,
+            "area": 3,
             "skin": 0
         }
     ]
