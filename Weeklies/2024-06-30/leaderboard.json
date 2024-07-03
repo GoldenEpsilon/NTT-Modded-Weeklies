@@ -29,8 +29,8 @@
                 {
                     "alias": "padre domingo estoy en tu techo",
                     "color": 5623039,
-                    "wep": 75,
                     "bwep": "va_duster_flak",
+                    "wep": 75,
                     "race": 6,
                     "skin": 1
                 }
@@ -43,8 +43,8 @@
                 {
                     "alias": "padre domingo estoy en tu techo",
                     "color": 5623039,
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "skin": 1
                 }
@@ -82,8 +82,8 @@
                 {
                     "alias": "LaPerlis_XD",
                     "color": 4517495,
-                    "bwep": "va_martial_rapier",
                     "wep": "va_arcsinusoid_cannon",
+                    "bwep": "va_martial_rapier",
                     "race": 6,
                     "skin": 0
                 }
@@ -96,8 +96,8 @@
                 {
                     "alias": "LaPerlis_XD",
                     "color": 4517495,
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "skin": 0
                 }
@@ -133,8 +133,8 @@
                 {
                     "alias": "Daphne",
                     "color": 16737962,
-                    "bwep": 17,
                     "wep": "SquareGun",
+                    "bwep": 17,
                     "race": 7,
                     "skin": 1
                 }
@@ -145,8 +145,8 @@
                 {
                     "alias": "Daphne",
                     "color": 16737962,
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "skin": 1
                 }
@@ -159,17 +159,20 @@
             "skin": 1
         },
         {
-            "kills": 179,
-            "subarea": 2,
+            "kills": 380,
+            "subarea": 1,
             "color": 16737962,
             "pizzas": 0,
-            "time": 7347,
+            "time": 17935,
             "ultras": [ ],
             "mutations": [
-                "Muscle Memory",
-                4,
+                13,
+                7,
                 27,
-                25
+                "Sadism",
+                9,
+                1,
+                "luckyshot"
             ],
             "race": 6,
             "name": "Daphne",
@@ -177,14 +180,14 @@
                 {
                     "alias": "Daphne",
                     "color": 16737962,
-                    "wep": 3,
-                    "bwep": 0,
+                    "wep": "EnergyScrewdriver",
+                    "bwep": "va_martial_rapier",
                     "race": 6,
                     "skin": 1
                 }
             ],
-            "bwep": 0,
-            "wep": 3,
+            "bwep": "va_martial_rapier",
+            "wep": "EnergyScrewdriver",
             "loadout": [
                 {
                     "alias": "Daphne",
@@ -195,11 +198,11 @@
                     "skin": 1
                 }
             ],
-            "hard": 6,
+            "hard": 12,
             "loop": 0,
             "crown": false,
-            "killed_by": 17,
-            "area": 3,
+            "killed_by": 28,
+            "area": 6,
             "skin": 1
         }
     ]
