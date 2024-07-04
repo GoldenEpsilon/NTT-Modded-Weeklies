@@ -15,8 +15,8 @@
             "allies": [
                 {
                     "alias": "Dibble",
-                    "bwep": 7,
                     "wep": "va_sinusoid_pistol",
+                    "bwep": 7,
                     "race": 14,
                     "color": 9532927,
                     "skin": 0
@@ -32,8 +32,8 @@
             "loadout": [
                 {
                     "alias": "Dibble",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 14,
                     "color": 9532927,
                     "skin": 0
@@ -44,30 +44,31 @@
             "skin": 0
         },
         {
-            "kills": 27,
+            "kills": 94,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
-                "Confidence"
+                "Confidence",
+                11
             ],
-            "time": 1063,
+            "time": 3821,
             "pizzas": 0,
             "race": 14,
             "allies": [
                 {
                     "alias": "Dibble",
-                    "wep": 7,
-                    "bwep": 56,
+                    "wep": 6,
+                    "bwep": 7,
                     "race": 14,
                     "color": 9532927,
                     "skin": 0
                 }
             ],
             "name": "Dibble",
-            "killed_by": 0,
-            "bwep": 56,
-            "wep": 7,
-            "hard": 2,
+            "killed_by": 9,
+            "bwep": 7,
+            "wep": 6,
+            "hard": 4,
             "loop": 0,
             "crown": false,
             "loadout": [
@@ -81,7 +82,7 @@
                 }
             ],
             "color": 9532927,
-            "area": 1,
+            "area": 2,
             "skin": 0
         }
     ]
