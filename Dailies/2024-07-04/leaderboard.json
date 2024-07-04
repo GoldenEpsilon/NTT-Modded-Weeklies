@@ -15,8 +15,8 @@
             "allies": [
                 {
                     "alias": "Dibble",
-                    "wep": "va_sinusoid_pistol",
                     "bwep": 7,
+                    "wep": "va_sinusoid_pistol",
                     "race": 14,
                     "color": 9532927,
                     "skin": 0
@@ -32,8 +32,8 @@
             "loadout": [
                 {
                     "alias": "Dibble",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 14,
                     "color": 9532927,
                     "skin": 0
@@ -44,30 +44,37 @@
             "skin": 0
         },
         {
-            "kills": 61,
+            "kills": 237,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 2,
             "mutations": [
-                "Confidence"
+                "Confidence",
+                11,
+                "Sadism",
+                "Slim Pickings",
+                "Cruelty-Free Veganlust",
+                "Shocked Skin",
+                "flamingpalms",
+                26
             ],
-            "time": 1892,
-            "pizzas": 0,
+            "time": 15022,
+            "pizzas": 1,
             "race": 14,
             "allies": [
                 {
                     "alias": "Dibble",
-                    "wep": 56,
-                    "bwep": 7,
+                    "wep": "va_snubnose",
+                    "bwep": "va_auto_duster_shotgun",
                     "race": 14,
                     "color": 9532927,
                     "skin": 0
                 }
             ],
             "name": "Dibble",
-            "killed_by": 6,
-            "bwep": 7,
-            "wep": 56,
-            "hard": 3,
+            "killed_by": 25,
+            "bwep": "va_auto_duster_shotgun",
+            "wep": "va_snubnose",
+            "hard": 11,
             "loop": 0,
             "crown": false,
             "loadout": [
@@ -81,7 +88,7 @@
                 }
             ],
             "color": 9532927,
-            "area": 1,
+            "area": 5,
             "skin": 0
         }
     ]
