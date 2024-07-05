@@ -214,18 +214,19 @@
             "skin": 0
         },
         {
-            "kills": 262,
+            "kills": 340,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                10,
                 23,
+                "Sloppy Fingers",
+                16,
+                19,
                 "Rocket Casings",
-                5,
-                11,
-                13
+                "excitedneurons",
+                "Duplicators"
             ],
-            "time": 11079,
+            "time": 17001,
             "pizzas": 0,
             "loadout": [
                 {
@@ -240,22 +241,22 @@
             "race": 6,
             "color": 16737962,
             "name": "Daphne",
-            "killed_by": 25,
-            "bwep": "va_dustdropper",
-            "wep": 88,
-            "hard": 9,
+            "killed_by": 24,
+            "bwep": 17,
+            "wep": "va_martial_war_pike",
+            "hard": 12,
             "loop": 0,
             "allies": [
                 {
-                    "wep": 88,
-                    "bwep": "va_dustdropper",
+                    "wep": "va_martial_war_pike",
+                    "bwep": 17,
                     "alias": "Daphne",
                     "race": 6,
                     "skin": 0,
                     "color": 16737962
                 }
             ],
-            "crown": false,
+            "crown": 1,
             "area": 5,
             "skin": 0
         }
