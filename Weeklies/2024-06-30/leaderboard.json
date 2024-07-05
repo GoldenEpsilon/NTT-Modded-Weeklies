@@ -26,8 +26,8 @@
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5623039,
                     "race": 6,
                     "skin": 1
@@ -44,8 +44,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": "va_duster_flak",
                     "wep": 75,
+                    "bwep": "va_duster_flak",
                     "color": 5623039,
                     "race": 6,
                     "skin": 1
@@ -79,8 +79,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -97,8 +97,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_arcsinusoid_cannon",
                     "bwep": "va_martial_rapier",
+                    "wep": "va_arcsinusoid_cannon",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -132,8 +132,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -150,8 +150,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "va_archmagus_bolt_caster",
                     "wep": "va_vorpal_zweihander",
+                    "bwep": "va_archmagus_bolt_caster",
                     "color": 16737962,
                     "race": 6,
                     "skin": 1
@@ -185,8 +185,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 6,
                     "skin": 0
@@ -203,8 +203,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "va_vorpal_war_axe",
                     "bwep": 33,
+                    "wep": "va_vorpal_war_axe",
                     "color": 16736708,
                     "race": 6,
                     "skin": 0
@@ -240,8 +240,8 @@
             "loadout": [
                 {
                     "alias": "lee-mon",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 12133220,
                     "race": 5,
                     "skin": 0
@@ -258,8 +258,8 @@
             "allies": [
                 {
                     "alias": "lee-mon",
-                    "bwep": 111,
                     "wep": "va_vorpal_war_axe",
+                    "bwep": 111,
                     "color": 12133220,
                     "race": 5,
                     "skin": 0
@@ -269,18 +269,17 @@
             "skin": 0
         },
         {
-            "kills": 268,
+            "kills": 193,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                27,
-                12,
-                5,
-                1,
-                13,
-                "Mimicry"
+                3,
+                "Rocket Casings",
+                "flamingpalms",
+                25,
+                "Shell Cellulite"
             ],
-            "time": 12579,
+            "time": 7127,
             "pizzas": 0,
             "race": 6,
             "loadout": [
@@ -294,24 +293,24 @@
                 }
             ],
             "name": "LaPerlis_XD",
-            "killed_by": 27,
-            "bwep": "va_dustdropper",
-            "wep": "mcleod",
-            "hard": 11,
+            "killed_by": 15,
+            "bwep": "va_magnum",
+            "wep": 8,
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mcleod",
-                    "bwep": "va_dustdropper",
+                    "wep": 8,
+                    "bwep": "va_magnum",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
             "color": 4517495,
-            "area": 5,
+            "area": 3,
             "skin": 0
         }
     ]
