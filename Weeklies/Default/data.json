@@ -1,10 +1,18 @@
 {
-	"name": "Modded Weekly (DEFAULT) (TELL GOLDEN EPSILON ASAP)",
-	"description": false,
+	"name": "Competitive Framework",
+	"description": "A selection of curated mods#ripe for competitive gameplay!",
 	"can_resubmit": true,
 	"disable_vaults": false,
+	"disable_crowns": false,
 	"seed": "Random",
 	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Adaptation",
+			"description": "Kill loop bosses to#reroll your mutations!#Find the perfect#skill set!",
+			"color": 65300,
+			"url": "https://dragonstrive.itch.io/adaptation"
+		},
 		{
 			"download_type": "itch",
 			"name": "Feels Like Vanilla",
@@ -19,20 +27,67 @@
 			"url": "https://blaac.itch.io/weapon-mutations"
 		},
 		{
+			"download_type": "direct",
+			"name": "LOMuts",
+			"filename": "LOMuts.zip",
+			"description": "Lots of Mutations!#What it sounds like on the tin.#Adds a third ultra#to all characters!",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/LOMuts.zip?v=new"
+		},
+		{
+			"download_type": "itch",
+			"name": "Portalspeed",
+			"description": "When you clear a level,#get a speed boost#to get to the#next level faster!",
+			"url": "https://dragonstrive.itch.io/portalspeed"
+		},
+		{
+			"download_type": "itch",
+			"name": "Varia 10k",
+			"color": 7518239,
+			"description": "A semi-esoteric original-character#based weapon pack that adds#over 80 wild and powerful weapons.",
+			"url": "https://dragonstrive.itch.io/varia-addons"
+		},
+		{
 			"download_type": "itch",
 			"name": "B Mutation Tweaks",
-			"description": "A set of tweaks#to vanilla mutations by blaac",
+			"description": "A set of tweaks#to vanilla mutations by blaac.",
 			"url": "https://blaac.itch.io/bmutations"
 		},
 		{
 			"download_type": "itch",
 			"name": "B Weapon Tweaks",
-			"description": "A bunch of QOL changes#to vanilla weapons by blaac",
+			"description": "A bunch of QOL changes#to vanilla weapons by blaac.",
 			"url": "https://blaac.itch.io/bweapons"
+		},
+		{
+			"download_type": "direct",
+			"name": "Printer",
+			"filename": "Printer.zip",
+			"description": "This mod adds Printer,#a drone printing sentient printer#that is occasionally posessed",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/Printer.zip"
+		},
+		{
+			"download_type": "itch",
+			"name": "Acrobat",
+			"description": "This mod adds Acrobat,#an agile mutant that#eeks the throne for reasons unknown!",
+			"url": "https://dragonstrive.itch.io/acrobat"
+		},
+		{
+			"download_type": "direct",
+			"name": "Writhe",
+			"filename": "Writhe.zip",
+			"description": "This Nuclear Throne mod adds Writhe,#a tangled mess of a mutant#who doesn't really know what's going on.",
+			"url": "https://harry-pollock.itch.io/writhe-nuclear-throne"
+		},
+		{
+			"download_type": "itch",
+			"name": "Scales",
+			"description": "A studious dragon#of superior durability.#Use your active#before taking damage#to counter and#strike back!",
+			"color": 32768,
+			"url": "https://dragonstrive.itch.io/scales",
 		},
 	],
 	"race": false,
-	"wep": false,
+	"wep": [true,3,4,5,6,7,19],
 	"bwep": false,
-	"crown": 1,
+	"crown": false,
 }
