@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_martial_war_axe",
                     "bwep": "AutoSuperShotgun",
+                    "wep": "va_martial_war_axe",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -56,21 +56,20 @@
         },
         {
             "ultras": [ ],
-            "kills": 211,
+            "kills": 108,
             "subarea": 1,
             "mutations": [
+                25,
+                23,
                 11,
-                "Double Vision",
-                "condensedmeat",
-                "Filtering Teeth",
-                "Arcane Arts"
+                "Mimicry"
             ],
-            "time": 8917,
+            "time": 5260,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "hand_saw",
-                    "wep": "va_dustdropper",
+                    "bwep": 3,
+                    "wep": 30,
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -79,10 +78,10 @@
             "pizzas": 0,
             "race": 6,
             "name": "LaPerlis_XD",
-            "killed_by": 26,
-            "bwep": "hand_saw",
-            "wep": "va_dustdropper",
-            "hard": 9,
+            "killed_by": 14,
+            "bwep": 3,
+            "wep": 30,
+            "hard": 5,
             "loop": 0,
             "crown": false,
             "loadout": [
@@ -96,7 +95,7 @@
                 }
             ],
             "color": 4517495,
-            "area": 5,
+            "area": 3,
             "skin": 0
         }
     ]
