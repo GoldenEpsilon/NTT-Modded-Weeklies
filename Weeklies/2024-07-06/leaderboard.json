@@ -4,16 +4,16 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 75,
                     "wep": "va_martial_war_axe",
+                    "bwep": 75,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
             "kills": 380,
-            "subarea": 1,
             "ultras": [ ],
+            "subarea": 1,
             "mutations": [
                 13,
                 "Shell Cellulite",
@@ -29,8 +29,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -51,27 +51,33 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_flechette_flak",
-                    "bwep": 4,
+                    "wep": "va_martial_war_axe",
+                    "bwep": "AutoSuperShotgun",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
-            "kills": 277,
-            "ultras": [ ],
-            "subarea": 2,
-            "mutations": [
-                "Slim Pickings",
-                "Shocked Skin",
-                "Buckshot Back",
-                10,
-                11,
-                "Rocket Casings",
-                "Mimicry",
-                "Duplicators"
+            "kills": 599,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
             ],
-            "time": 11000,
+            "subarea": 3,
+            "mutations": [
+                "Mimicry",
+                7,
+                13,
+                "Telekinetic Tears",
+                "Free Space",
+                "Rubber Rounds",
+                "Cranial Valve",
+                "Shocked Skin",
+                "Explosive Gaze"
+            ],
+            "time": 24376,
             "race": 6,
             "name": "LaPerlis_XD",
             "loadout": [
@@ -84,15 +90,15 @@
                     "skin": 0
                 }
             ],
-            "pizzas": 1,
-            "killed_by": 24,
-            "bwep": 4,
-            "wep": "va_flechette_flak",
-            "hard": 11,
-            "loop": 0,
-            "crown": false,
+            "pizzas": 0,
+            "killed_by": 91,
+            "bwep": "AutoSuperShotgun",
+            "wep": "va_martial_war_axe",
+            "hard": 21,
+            "loop": 1,
+            "crown": 1,
             "color": 4517495,
-            "area": 5,
+            "area": 1,
             "skin": 0
         }
     ]
