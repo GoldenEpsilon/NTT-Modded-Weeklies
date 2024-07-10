@@ -100,32 +100,41 @@
             "skin": 0
         },
         {
-            "kills": 16,
-            "subarea": 2,
+            "kills": 422,
+            "subarea": 3,
             "color": 9820690,
-            "time": 1076,
-            "killed_by": 4,
+            "time": 21629.5,
+            "killed_by": 37,
             "pizzas": 0,
             "race": "scales",
             "name": "{C}lass.ical",
-            "bwep": 1,
-            "wep": 3,
-            "hard": 2,
+            "bwep": "EnergyShovel",
+            "wep": "va_magus_bolt_caster",
+            "hard": 16,
             "loop": 0,
             "ultras": [ ],
-            "mutations": [ ],
-            "crown": false,
+            "mutations": [
+                "Steel Nerves",
+                22,
+                27,
+                21,
+                8,
+                13,
+                "Staked Chest",
+                5
+            ],
+            "crown": 11,
             "allies": [
                 {
                     "alias": "{C}lass.ical",
                     "color": 9820690,
-                    "bwep": 1,
-                    "wep": 3,
+                    "bwep": "EnergyShovel",
+                    "wep": "va_magus_bolt_caster",
                     "race": "scales",
                     "skin": 1
                 }
             ],
-            "area": 1,
+            "area": 7,
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
