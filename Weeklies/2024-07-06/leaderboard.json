@@ -3,16 +3,6 @@
         {
             "kills": 599,
             "subarea": 3,
-            "color": 4517495,
-            "time": 24376,
-            "killed_by": 91,
-            "pizzas": 0,
-            "race": 6,
-            "name": "LaPerlis_XD",
-            "bwep": "AutoSuperShotgun",
-            "wep": "va_martial_war_axe",
-            "hard": 21,
-            "loop": 1,
             "ultras": [
                 [
                     6,
@@ -30,88 +20,43 @@
                 "Shocked Skin",
                 "Explosive Gaze"
             ],
+            "time": 24376,
+            "pizzas": 0,
+            "race": 6,
+            "name": "LaPerlis_XD",
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 4517495,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 91,
+            "bwep": "AutoSuperShotgun",
+            "wep": "va_martial_war_axe",
+            "hard": 21,
+            "loop": 1,
             "crown": 1,
+            "color": 4517495,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "color": 4517495,
                     "bwep": "AutoSuperShotgun",
                     "wep": "va_martial_war_axe",
+                    "color": 4517495,
                     "race": 6,
                     "skin": 0
                 }
             ],
             "area": 1,
-            "loadout": [
-                {
-                    "alias": "LaPerlis_XD",
-                    "color": 4517495,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
-            "skin": 0
-        },
-        {
-            "kills": 212,
-            "subarea": 2,
-            "color": 9820690,
-            "time": 7710,
-            "killed_by": 17,
-            "pizzas": 0,
-            "race": "acrobat",
-            "name": "{C}lass.ical",
-            "bwep": "va_gluon_gun",
-            "wep": "hand_saw",
-            "hard": 6,
-            "loop": 0,
-            "ultras": [ ],
-            "mutations": [
-                "powderedgums",
-                "Sadism",
-                25,
-                17,
-                "Steel Nerves"
-            ],
-            "crown": false,
-            "allies": [
-                {
-                    "alias": "{C}lass.ical",
-                    "color": 9820690,
-                    "bwep": "va_gluon_gun",
-                    "wep": "hand_saw",
-                    "race": "acrobat",
-                    "skin": 0
-                }
-            ],
-            "area": 3,
-            "loadout": [
-                {
-                    "alias": "{C}lass.ical",
-                    "color": 9820690,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": "acrobat",
-                    "skin": 0
-                }
-            ],
             "skin": 0
         },
         {
             "kills": 422,
             "subarea": 3,
-            "color": 9820690,
-            "time": 21629.5,
-            "killed_by": 37,
-            "pizzas": 0,
-            "race": "scales",
-            "name": "{C}lass.ical",
-            "bwep": "EnergyShovel",
-            "wep": "va_magus_bolt_caster",
-            "hard": 16,
-            "loop": 0,
             "ultras": [ ],
             "mutations": [
                 "Steel Nerves",
@@ -123,29 +68,92 @@
                 "Staked Chest",
                 5
             ],
+            "time": 21629.5,
+            "pizzas": 0,
+            "race": "scales",
+            "name": "{C}lass.ical",
+            "loadout": [
+                {
+                    "alias": "{C}lass.ical",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 9820690,
+                    "race": "scales",
+                    "skin": 1
+                }
+            ],
+            "killed_by": 37,
+            "bwep": "EnergyShovel",
+            "wep": "va_magus_bolt_caster",
+            "hard": 16,
+            "loop": 0,
             "crown": 11,
+            "color": 9820690,
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "color": 9820690,
                     "bwep": "EnergyShovel",
                     "wep": "va_magus_bolt_caster",
+                    "color": 9820690,
                     "race": "scales",
                     "skin": 1
                 }
             ],
             "area": 7,
+            "skin": 1
+        },
+        {
+            "kills": 2374,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "subarea": 3,
+            "mutations": [
+                1,
+                13,
+                23,
+                "Muscle Memory",
+                "Thick Head",
+                4,
+                27,
+                "Steel Nerves"
+            ],
+            "time": 57674,
+            "pizzas": 0,
+            "race": 6,
             "loadout": [
                 {
-                    "alias": "{C}lass.ical",
-                    "color": 9820690,
-                    "bwep": 0,
+                    "alias": "Sir Mittens IV",
                     "wep": "mw_ui_start",
-                    "race": "scales",
-                    "skin": 1
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 0
                 }
             ],
-            "skin": 1
+            "name": "Sir Mittens IV",
+            "killed_by": 51,
+            "bwep": 111,
+            "wep": 92,
+            "hard": 38,
+            "loop": 2,
+            "crown": 7,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": 92,
+                    "bwep": 111,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "color": 16736708,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
