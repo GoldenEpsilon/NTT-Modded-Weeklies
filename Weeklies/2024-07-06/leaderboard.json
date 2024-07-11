@@ -27,8 +27,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_martial_war_axe",
                     "bwep": "AutoSuperShotgun",
+                    "wep": "va_martial_war_axe",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -75,8 +75,8 @@
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": "va_magus_bolt_caster",
                     "bwep": "EnergyShovel",
+                    "wep": "va_magus_bolt_caster",
                     "color": 9820690,
                     "race": "scales",
                     "skin": 1
@@ -91,8 +91,8 @@
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 9820690,
                     "race": "scales",
                     "skin": 1
@@ -128,8 +128,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 111,
                     "wep": 92,
+                    "bwep": 111,
                     "race": 6,
                     "color": 16736708,
                     "skin": 0
@@ -144,8 +144,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 0
@@ -156,30 +156,31 @@
             "skin": 0
         },
         {
-            "kills": 56,
+            "kills": 92,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                "condensedmeat"
+                3,
+                "Scrap Arms"
             ],
-            "time": 3700,
+            "time": 3924.5,
             "pizzas": 0,
-            "race": 14,
+            "race": 12,
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": 5,
-                    "bwep": "mcleod",
-                    "race": 14,
+                    "wep": 3,
+                    "bwep": 81,
+                    "race": 12,
                     "color": 9820690,
                     "skin": 0
                 }
             ],
             "name": "{C}lass.ical",
-            "killed_by": 6,
-            "bwep": "mcleod",
-            "wep": 5,
-            "hard": 3,
+            "killed_by": 53,
+            "bwep": 81,
+            "wep": 3,
+            "hard": 4,
             "loop": 0,
             "crown": false,
             "loadout": [
@@ -187,13 +188,13 @@
                     "alias": "{C}lass.ical",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": 14,
+                    "race": 12,
                     "color": 9820690,
                     "skin": 0
                 }
             ],
             "color": 9820690,
-            "area": 1,
+            "area": 2,
             "skin": 0
         }
     ]
