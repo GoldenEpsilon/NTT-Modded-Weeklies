@@ -7,8 +7,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -43,8 +43,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_martial_war_axe",
                     "bwep": "AutoSuperShotgun",
+                    "wep": "va_martial_war_axe",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -61,8 +61,8 @@
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 9820690,
                     "race": "scales",
                     "skin": 1
@@ -91,8 +91,8 @@
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": "va_magus_bolt_caster",
                     "bwep": "EnergyShovel",
+                    "wep": "va_magus_bolt_caster",
                     "color": 9820690,
                     "race": "scales",
                     "skin": 1
@@ -109,8 +109,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708,
                     "race": 6,
                     "skin": 0
@@ -144,8 +144,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 111,
                     "wep": 92,
+                    "bwep": 111,
                     "color": 16736708,
                     "race": 6,
                     "skin": 0
@@ -162,8 +162,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 11,
                     "skin": 1
@@ -188,8 +188,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 5,
                     "bwep": 71,
+                    "wep": 5,
                     "color": 255,
                     "race": 11,
                     "skin": 1
@@ -206,8 +206,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 1,
                     "skin": 1
@@ -234,8 +234,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_hoagie",
                     "bwep": 4,
+                    "wep": "va_hoagie",
                     "color": 16737962,
                     "race": 1,
                     "skin": 1
@@ -246,9 +246,9 @@
             "skin": 1
         },
         {
-            "kills": 125,
-            "subarea": 1,
-            "time": 3870,
+            "kills": 192,
+            "subarea": 3,
+            "time": 6811,
             "loadout": [
                 {
                     "alias": "Daphne",
@@ -263,28 +263,31 @@
             "ultras": [ ],
             "race": 7,
             "mutations": [
-                "powderedgums",
-                "Steel Nerves"
+                16,
+                "Compressing Fist",
+                "Mimicry",
+                "luckyshot",
+                "Thick Head"
             ],
             "name": "Daphne",
-            "bwep": 3,
-            "wep": "va_duster_shotgun",
-            "hard": 4,
+            "bwep": 4,
+            "wep": 17,
+            "hard": 7,
             "loop": 0,
             "pizzas": 0,
             "crown": false,
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": 3,
-                    "wep": "va_duster_shotgun",
+                    "bwep": 4,
+                    "wep": 17,
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "killed_by": 49,
-            "area": 2,
+            "killed_by": 0,
+            "area": 3,
             "skin": 1
         }
     ]
