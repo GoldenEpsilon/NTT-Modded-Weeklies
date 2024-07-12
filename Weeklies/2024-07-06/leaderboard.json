@@ -24,8 +24,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -36,8 +36,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_martial_war_axe",
                     "bwep": "AutoSuperShotgun",
+                    "wep": "va_martial_war_axe",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -77,8 +77,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 0
@@ -89,8 +89,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 111,
                     "wep": 92,
+                    "bwep": 111,
                     "race": 6,
                     "color": 16736708,
                     "skin": 0
@@ -121,8 +121,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 11,
                     "color": 255,
                     "skin": 1
@@ -133,8 +133,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 5,
                     "bwep": 71,
+                    "wep": 5,
                     "race": 11,
                     "color": 255,
                     "skin": 1
@@ -169,8 +169,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16737962,
                     "skin": 1
@@ -181,8 +181,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "minigun",
                     "wep": 106,
+                    "bwep": "minigun",
                     "race": 7,
                     "color": 16737962,
                     "skin": 1
@@ -223,8 +223,8 @@
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 3,
                     "color": 9820690,
                     "skin": 0
@@ -235,8 +235,8 @@
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "bwep": 77,
                     "wep": "va_martial_rapier",
+                    "bwep": 77,
                     "race": 3,
                     "color": 9820690,
                     "skin": 0
@@ -254,19 +254,22 @@
             "skin": 0
         },
         {
-            "kills": 421,
-            "ultras": [ ],
-            "subarea": 1,
+            "kills": 1311,
+            "ultras": [
+                "luckyshot"
+            ],
+            "subarea": 3,
             "mutations": [
                 27,
-                16,
-                "Alchemic Stomach",
+                11,
                 "Mimicry",
-                "Compressing Fist",
-                "luckyshot",
-                "Garment Regenerator"
+                1,
+                "Sloppy Fingers",
+                19,
+                "Dolla Dolla",
+                13
             ],
-            "time": 17962.5,
+            "time": 50869,
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
@@ -281,23 +284,23 @@
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": 17,
-                    "bwep": "va_bolt_upcaster",
+                    "wep": "va_martial_war_axe",
+                    "bwep": "CombatHeavySlugger",
                     "race": 6,
                     "color": 9820690,
                     "skin": 0
                 }
             ],
             "name": "{C}lass.ical",
-            "killed_by": 29,
-            "bwep": "va_bolt_upcaster",
-            "wep": 17,
-            "hard": 12,
-            "loop": 0,
-            "crown": false,
+            "killed_by": 51,
+            "bwep": "CombatHeavySlugger",
+            "wep": "va_martial_war_axe",
+            "hard": 32,
+            "loop": 1,
+            "crown": 9,
             "color": 9820690,
             "pizzas": 0,
-            "area": 6,
+            "area": 5,
             "skin": 0
         }
     ]
