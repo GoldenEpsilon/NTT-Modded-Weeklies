@@ -24,8 +24,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -36,8 +36,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "AutoSuperShotgun",
                     "wep": "va_martial_war_axe",
+                    "bwep": "AutoSuperShotgun",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -77,8 +77,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 16736708,
                     "skin": 0
@@ -89,8 +89,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": 92,
                     "bwep": 111,
+                    "wep": 92,
                     "race": 6,
                     "color": 16736708,
                     "skin": 0
@@ -121,8 +121,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 11,
                     "color": 255,
                     "skin": 1
@@ -133,8 +133,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 71,
                     "wep": 5,
+                    "bwep": 71,
                     "race": 11,
                     "color": 255,
                     "skin": 1
@@ -169,8 +169,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16737962,
                     "skin": 1
@@ -181,8 +181,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": 106,
                     "bwep": "minigun",
+                    "wep": 106,
                     "race": 7,
                     "color": 16737962,
                     "skin": 1
@@ -223,8 +223,8 @@
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 3,
                     "color": 9820690,
                     "skin": 0
@@ -235,8 +235,8 @@
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": "va_martial_rapier",
                     "bwep": 77,
+                    "wep": "va_martial_rapier",
                     "race": 3,
                     "color": 9820690,
                     "skin": 0
@@ -254,42 +254,49 @@
             "skin": 0
         },
         {
-            "kills": 3,
+            "kills": 311,
             "ultras": [ ],
-            "subarea": 1,
-            "mutations": [ ],
-            "time": 119.5,
+            "subarea": 3,
+            "mutations": [
+                "Alchemic Stomach",
+                "Precision Incision",
+                11,
+                "condensedmeat",
+                "Duplicators",
+                "Thick Head"
+            ],
+            "time": 15859,
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": "Printer",
+                    "race": 11,
                     "color": 9820690,
                     "skin": 0
                 }
             ],
-            "race": "Printer",
+            "race": 11,
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": 1,
-                    "bwep": 0,
-                    "race": "Printer",
+                    "wep": 20,
+                    "bwep": 101,
+                    "race": 11,
                     "color": 9820690,
                     "skin": 0
                 }
             ],
             "name": "{C}lass.ical",
-            "killed_by": -1,
-            "bwep": 0,
-            "wep": 1,
-            "hard": 1,
+            "killed_by": 98,
+            "bwep": 101,
+            "wep": 20,
+            "hard": 11,
             "loop": 0,
             "crown": false,
             "color": 9820690,
             "pizzas": 0,
-            "area": 1,
+            "area": 5,
             "skin": 0
         }
     ]
