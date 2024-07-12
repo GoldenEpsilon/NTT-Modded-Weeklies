@@ -23,36 +23,36 @@
             "time": 24376,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "LaPerlis_XD",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
-                    "skin": 0,
-                    "color": 4517495
+                    "color": 4517495,
+                    "skin": 0
                 }
             ],
             "race": 6,
             "name": "LaPerlis_XD",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "bwep": "AutoSuperShotgun",
+                    "wep": "va_martial_war_axe",
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 91,
             "bwep": "AutoSuperShotgun",
             "wep": "va_martial_war_axe",
-            "killed_by": 91,
             "loop": 1,
             "hard": 21,
             "crown": 1,
-            "allies": [
-                {
-                    "wep": "va_martial_war_axe",
-                    "bwep": "AutoSuperShotgun",
-                    "alias": "LaPerlis_XD",
-                    "race": 6,
-                    "skin": 0,
-                    "color": 4517495
-                }
-            ],
+            "pizzas": 0,
             "area": 1,
-            "skin": 0,
-            "color": 4517495
+            "color": 4517495,
+            "skin": 0
         },
         {
             "kills": 2374,
@@ -76,36 +76,36 @@
             "time": 57674,
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "Sir Mittens IV",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
-                    "skin": 0,
-                    "color": 16736708
+                    "color": 16736708,
+                    "skin": 0
                 }
             ],
             "race": 6,
             "name": "Sir Mittens IV",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": 92,
+                    "bwep": 111,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 51,
             "bwep": 111,
             "wep": 92,
-            "killed_by": 51,
             "loop": 2,
             "hard": 38,
             "crown": 7,
-            "allies": [
-                {
-                    "bwep": 111,
-                    "wep": 92,
-                    "alias": "Sir Mittens IV",
-                    "race": 6,
-                    "skin": 0,
-                    "color": 16736708
-                }
-            ],
+            "pizzas": 0,
             "area": 1,
-            "skin": 0,
-            "color": 16736708
+            "color": 16736708,
+            "skin": 0
         },
         {
             "kills": 144,
@@ -120,36 +120,36 @@
             "time": 6657,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Buczaj",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 11,
-                    "skin": 1,
-                    "color": 255
+                    "color": 255,
+                    "skin": 1
                 }
             ],
             "race": 11,
             "name": "Buczaj",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "bwep": 71,
+                    "wep": 5,
+                    "race": 11,
+                    "color": 255,
+                    "skin": 1
+                }
+            ],
+            "killed_by": 51,
             "bwep": 71,
             "wep": 5,
-            "killed_by": 51,
             "loop": 0,
             "hard": 6,
             "crown": false,
-            "allies": [
-                {
-                    "wep": 5,
-                    "bwep": 71,
-                    "alias": "Buczaj",
-                    "race": 11,
-                    "skin": 1,
-                    "color": 255
-                }
-            ],
+            "pizzas": 0,
             "area": 100,
-            "skin": 1,
-            "color": 255
+            "color": 255,
+            "skin": 1
         },
         {
             "kills": 519,
@@ -168,39 +168,39 @@
             "time": 18454,
             "loadout": [
                 {
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
                     "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
-                    "skin": 1,
-                    "color": 16737962
+                    "color": 16737962,
+                    "skin": 1
                 }
             ],
             "race": 7,
             "name": "Daphne",
-            "pizzas": 0,
-            "bwep": "minigun",
-            "wep": 106,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": 106,
+                    "bwep": "minigun",
+                    "race": 7,
+                    "color": 16737962,
+                    "skin": 1
+                }
+            ],
             "killed_by": [
                 null,
                 "ROCKET CASINGS BLAST"
             ],
+            "bwep": "minigun",
+            "wep": 106,
             "loop": 1,
             "hard": 18,
             "crown": 1,
-            "allies": [
-                {
-                    "bwep": "minigun",
-                    "wep": 106,
-                    "alias": "Daphne",
-                    "race": 7,
-                    "skin": 1,
-                    "color": 16737962
-                }
-            ],
+            "pizzas": 0,
             "area": 1,
-            "skin": 1,
-            "color": 16737962
+            "color": 16737962,
+            "skin": 1
         },
         {
             "kills": 868,
@@ -222,90 +222,75 @@
             "time": 41439.5,
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "{C}lass.ical",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 3,
-                    "skin": 0,
-                    "color": 9820690
+                    "color": 9820690,
+                    "skin": 0
                 }
             ],
             "race": 3,
-            "pizzas": 0,
             "name": "{C}lass.ical",
+            "allies": [
+                {
+                    "alias": "{C}lass.ical",
+                    "wep": "va_martial_rapier",
+                    "bwep": 77,
+                    "race": 3,
+                    "color": 9820690,
+                    "skin": 0
+                }
+            ],
             "killed_by": 21,
             "bwep": 77,
             "wep": "va_martial_rapier",
             "hard": 25,
             "loop": 1,
             "crown": 9,
-            "allies": [
-                {
-                    "bwep": 77,
-                    "wep": "va_martial_rapier",
-                    "alias": "{C}lass.ical",
-                    "race": 3,
-                    "skin": 0,
-                    "color": 9820690
-                }
-            ],
+            "pizzas": 0,
             "area": 4,
-            "skin": 0,
-            "color": 9820690
+            "color": 9820690,
+            "skin": 0
         },
         {
-            "kills": 774,
-            "subarea": 3,
-            "ultras": [
-                [
-                    "scales",
-                    1
-                ]
-            ],
-            "mutations": [
-                9,
-                "Telekinetic Tears",
-                "Sadism",
-                "Dynamic Calves",
-                "Loner",
-                "Iron Skin",
-                8,
-                "Cranial Valve",
-                "Double Vision"
-            ],
-            "time": 39712,
+            "kills": 7,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [ ],
+            "time": 831.5,
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "{C}lass.ical",
-                    "race": "scales",
-                    "skin": 0,
-                    "color": 9820690
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "Printer",
+                    "color": 9820690,
+                    "skin": 0
                 }
             ],
-            "race": "scales",
-            "pizzas": 0,
-            "name": "{C}lass.ical",
-            "killed_by": 58,
-            "bwep": "va_martial_war_hammer",
-            "wep": "AutoSuperShotgun",
-            "hard": 21,
-            "loop": 1,
-            "crown": 9,
+            "race": "Printer",
             "allies": [
                 {
-                    "bwep": "va_martial_war_hammer",
-                    "wep": "AutoSuperShotgun",
                     "alias": "{C}lass.ical",
-                    "race": "scales",
-                    "skin": 0,
-                    "color": 9820690
+                    "wep": 21,
+                    "bwep": 1,
+                    "race": "Printer",
+                    "color": 9820690,
+                    "skin": 0
                 }
             ],
+            "name": "{C}lass.ical",
+            "killed_by": -1,
+            "bwep": 1,
+            "wep": 21,
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "color": 9820690,
+            "pizzas": 0,
             "area": 1,
-            "skin": 0,
-            "color": 9820690
+            "skin": 0
         }
     ]
 }
