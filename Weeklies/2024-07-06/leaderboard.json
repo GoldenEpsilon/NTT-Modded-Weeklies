@@ -55,54 +55,6 @@
             "color": 4517495
         },
         {
-            "kills": 422,
-            "subarea": 3,
-            "ultras": [ ],
-            "mutations": [
-                "Steel Nerves",
-                22,
-                27,
-                21,
-                8,
-                13,
-                "Staked Chest",
-                5
-            ],
-            "time": 21629.5,
-            "loadout": [
-                {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "{C}lass.ical",
-                    "race": "scales",
-                    "skin": 1,
-                    "color": 9820690
-                }
-            ],
-            "race": "scales",
-            "name": "{C}lass.ical",
-            "pizzas": 0,
-            "bwep": "EnergyShovel",
-            "wep": "va_magus_bolt_caster",
-            "killed_by": 37,
-            "loop": 0,
-            "hard": 16,
-            "crown": 11,
-            "allies": [
-                {
-                    "wep": "va_magus_bolt_caster",
-                    "bwep": "EnergyShovel",
-                    "alias": "{C}lass.ical",
-                    "race": "scales",
-                    "skin": 1,
-                    "color": 9820690
-                }
-            ],
-            "area": 7,
-            "skin": 1,
-            "color": 9820690
-        },
-        {
             "kills": 2374,
             "subarea": 3,
             "ultras": [
@@ -298,6 +250,60 @@
                 }
             ],
             "area": 4,
+            "skin": 0,
+            "color": 9820690
+        },
+        {
+            "kills": 774,
+            "subarea": 3,
+            "ultras": [
+                [
+                    "scales",
+                    1
+                ]
+            ],
+            "mutations": [
+                9,
+                "Telekinetic Tears",
+                "Sadism",
+                "Dynamic Calves",
+                "Loner",
+                "Iron Skin",
+                8,
+                "Cranial Valve",
+                "Double Vision"
+            ],
+            "time": 39712,
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "{C}lass.ical",
+                    "race": "scales",
+                    "skin": 0,
+                    "color": 9820690
+                }
+            ],
+            "race": "scales",
+            "pizzas": 0,
+            "name": "{C}lass.ical",
+            "killed_by": 58,
+            "bwep": "va_martial_war_hammer",
+            "wep": "AutoSuperShotgun",
+            "hard": 21,
+            "loop": 1,
+            "crown": 9,
+            "allies": [
+                {
+                    "bwep": "va_martial_war_hammer",
+                    "wep": "AutoSuperShotgun",
+                    "alias": "{C}lass.ical",
+                    "race": "scales",
+                    "skin": 0,
+                    "color": 9820690
+                }
+            ],
+            "area": 1,
             "skin": 0,
             "color": 9820690
         }
