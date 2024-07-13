@@ -12,8 +12,8 @@
             "loadout": [
                 {
                     "color": 16737962,
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
@@ -31,8 +31,8 @@
             "allies": [
                 {
                     "color": 16737962,
-                    "wep": "va_snubnose",
                     "bwep": 4,
+                    "wep": "va_snubnose",
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
@@ -40,6 +40,52 @@
             ],
             "crown": false,
             "area": 2,
+            "skin": 1
+        },
+        {
+            "kills": 279,
+            "subarea": 3,
+            "ultras": [ ],
+            "color": 16737962,
+            "mutations": [
+                19,
+                1,
+                4,
+                "Scrap Arms",
+                "Mimicry",
+                "Sadism"
+            ],
+            "loadout": [
+                {
+                    "color": 16737962,
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "alias": "Daphne",
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "time": 12853,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Daphne",
+            "killed_by": 51,
+            "bwep": "va_martial_war_axe",
+            "wep": "va_martial_rapier",
+            "hard": 11,
+            "loop": 0,
+            "allies": [
+                {
+                    "color": 16737962,
+                    "wep": "va_martial_rapier",
+                    "bwep": "va_martial_war_axe",
+                    "alias": "Daphne",
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "crown": false,
+            "area": 5,
             "skin": 1
         }
     ]
