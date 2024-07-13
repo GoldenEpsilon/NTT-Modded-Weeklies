@@ -1,56 +1,42 @@
 {
     "scores": [
         {
-            "kills": 279,
-            "subarea": 3,
-            "ultras": [ ],
-            "color": 16737962,
-            "mutations": [
-                19,
-                1,
-                4,
-                "Scrap Arms",
-                "Mimicry",
-                "Sadism"
-            ],
-            "loadout": [
-                {
-                    "color": 16737962,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "alias": "Daphne",
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "time": 12853,
-            "pizzas": 0,
-            "race": 7,
-            "name": "Daphne",
-            "killed_by": 51,
-            "bwep": "va_martial_war_axe",
-            "wep": "va_martial_rapier",
-            "hard": 11,
-            "loop": 0,
-            "allies": [
-                {
-                    "color": 16737962,
-                    "bwep": "va_martial_war_axe",
-                    "wep": "va_martial_rapier",
-                    "alias": "Daphne",
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "crown": false,
-            "area": 5,
-            "skin": 1
-        },
-        {
             "kills": 382,
             "subarea": 3,
-            "ultras": [ ],
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 2,
+                    "wep": 17,
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "time": 10906,
+            "race": 7,
+            "name": "Daphne",
+            "killed_by": 27,
+            "pizzas": 0,
+            "bwep": 2,
+            "wep": 17,
             "color": 16737962,
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
+            "area": 5,
+            "ultras": [ ],
+            "skin": 1,
             "mutations": [
                 5,
                 "Rocket Casings",
@@ -58,45 +44,45 @@
                 "Sadism",
                 "Thick Head",
                 19
-            ],
-            "loadout": [
-                {
-                    "color": 16737962,
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "alias": "Daphne",
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "time": 10906,
-            "pizzas": 0,
-            "race": 7,
-            "name": "Daphne",
-            "killed_by": 27,
-            "bwep": 2,
-            "wep": 17,
-            "hard": 11,
-            "loop": 0,
-            "allies": [
-                {
-                    "color": 16737962,
-                    "wep": 17,
-                    "bwep": 2,
-                    "alias": "Daphne",
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "crown": false,
-            "area": 5,
-            "skin": 1
+            ]
         },
         {
             "kills": 365,
             "subarea": 1,
-            "ultras": [ ],
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 6,
+                    "wep": "mcleod",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "time": 14542,
+            "race": 7,
+            "name": "Daphne",
+            "killed_by": 30,
+            "pizzas": 0,
+            "bwep": 6,
+            "wep": "mcleod",
             "color": 16737962,
+            "hard": 12,
+            "loop": 0,
+            "crown": false,
+            "area": 6,
+            "ultras": [ ],
+            "skin": 1,
             "mutations": [
                 5,
                 1,
@@ -105,39 +91,54 @@
                 11,
                 8,
                 19
-            ],
+            ]
+        },
+        {
+            "kills": 254,
+            "subarea": 3,
             "loadout": [
                 {
-                    "color": 16737962,
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
                     "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "alias": "Daphne",
-                    "race": 7,
-                    "skin": 1
+                    "color": 5862689,
+                    "race": 3,
+                    "skin": 0
                 }
             ],
-            "time": 14542,
-            "pizzas": 0,
-            "race": 7,
-            "name": "Daphne",
-            "killed_by": 30,
-            "bwep": 6,
-            "wep": "mcleod",
-            "hard": 12,
-            "loop": 0,
             "allies": [
                 {
-                    "color": 16737962,
-                    "wep": "mcleod",
-                    "bwep": 6,
-                    "alias": "Daphne",
-                    "race": 7,
-                    "skin": 1
+                    "alias": "Dragonstrive",
+                    "bwep": 11,
+                    "wep": "minigun",
+                    "color": 5862689,
+                    "race": 3,
+                    "skin": 0
                 }
             ],
+            "time": 11773,
+            "race": 3,
+            "name": "Dragonstrive",
+            "killed_by": 51,
+            "bwep": 11,
+            "wep": "minigun",
+            "pizzas": 0,
+            "color": 5862689,
+            "hard": 11,
+            "loop": 0,
             "crown": false,
-            "area": 6,
-            "skin": 1
+            "area": 5,
+            "ultras": [ ],
+            "skin": 0,
+            "mutations": [
+                3,
+                1,
+                "Alchemic Stomach",
+                "Rocket Casings",
+                "Steel Nerves",
+                "Mimicry",
+                19
+            ]
         }
     ]
 }
