@@ -16,8 +16,8 @@
             "loadout": [
                 {
                     "color": 16737962,
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
@@ -35,8 +35,8 @@
             "allies": [
                 {
                     "color": 16737962,
-                    "wep": "va_martial_rapier",
                     "bwep": "va_martial_war_axe",
+                    "wep": "va_martial_rapier",
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
@@ -62,8 +62,8 @@
             "loadout": [
                 {
                     "color": 16737962,
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
@@ -81,8 +81,8 @@
             "allies": [
                 {
                     "color": 16737962,
-                    "bwep": 2,
                     "wep": 17,
+                    "bwep": 2,
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
@@ -93,14 +93,17 @@
             "skin": 1
         },
         {
-            "kills": 122,
-            "subarea": 2,
+            "kills": 253,
+            "subarea": 1,
             "ultras": [ ],
             "color": 16737962,
             "mutations": [
+                2,
+                13,
+                "Muscle Memory",
                 18,
-                19,
-                "excitedneurons"
+                "Mimicry",
+                "Pressurized Lungs"
             ],
             "loadout": [
                 {
@@ -112,27 +115,27 @@
                     "skin": 1
                 }
             ],
-            "time": 6440,
+            "time": 10684,
             "pizzas": 0,
             "race": 7,
             "name": "Daphne",
-            "killed_by": 15,
-            "bwep": 4,
-            "wep": 10,
-            "hard": 6,
+            "killed_by": 26,
+            "bwep": "va_martial_shortsword",
+            "wep": "fire_poker",
+            "hard": 9,
             "loop": 0,
             "allies": [
                 {
                     "color": 16737962,
-                    "wep": 10,
-                    "bwep": 4,
+                    "wep": "fire_poker",
+                    "bwep": "va_martial_shortsword",
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
                 }
             ],
             "crown": false,
-            "area": 3,
+            "area": 5,
             "skin": 1
         }
     ]
