@@ -17,8 +17,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 11,
                     "wep": "minigun",
+                    "bwep": 11,
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -36,8 +36,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -73,8 +73,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "AutoSuperShotgun",
                     "wep": "va_hoagie",
+                    "bwep": "AutoSuperShotgun",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -92,8 +92,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -120,8 +120,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 78,
                     "bwep": "tree_pruner",
+                    "wep": 78,
                     "race": 4,
                     "color": 255,
                     "skin": 1
@@ -139,8 +139,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 4,
                     "color": 255,
                     "skin": 1
@@ -151,20 +151,21 @@
             "skin": 1
         },
         {
-            "kills": 117,
+            "kills": 198,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "Compressing Fist",
-                "Double Vision",
-                "Mimicry"
+                "Arcane Arts",
+                15,
+                13,
+                "Compressing Fist"
             ],
-            "time": 4555,
+            "time": 7542,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "fire_poker",
-                    "wep": 6,
+                    "bwep": "va_dustdropper",
+                    "wep": "fire_poker",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -173,10 +174,10 @@
             "race": 6,
             "pizzas": 0,
             "name": "LaPerlis_XD",
-            "killed_by": 17,
-            "bwep": "fire_poker",
-            "wep": 6,
-            "hard": 5,
+            "killed_by": 0,
+            "bwep": "va_dustdropper",
+            "wep": "fire_poker",
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "color": 4517495,
@@ -194,21 +195,20 @@
             "skin": 0
         },
         {
-            "kills": 198,
+            "kills": 120,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 2,
             "mutations": [
-                "Arcane Arts",
-                15,
-                13,
-                "Compressing Fist"
+                3,
+                "luckyshot",
+                "Filtering Teeth"
             ],
-            "time": 7542,
+            "time": 5783,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
                     "wep": "fire_poker",
-                    "bwep": "va_dustdropper",
+                    "bwep": 21,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -218,9 +218,9 @@
             "pizzas": 0,
             "name": "LaPerlis_XD",
             "killed_by": 0,
-            "bwep": "va_dustdropper",
+            "bwep": 21,
             "wep": "fire_poker",
-            "hard": 7,
+            "hard": 6,
             "loop": 0,
             "crown": false,
             "color": 4517495,
