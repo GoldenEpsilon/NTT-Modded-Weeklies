@@ -1,11 +1,15 @@
 {
     "scores": [
         {
-            "ultras": [ ],
             "kills": 28,
             "subarea": 2,
-            "mutations": [ ],
+            "pizzas": 0,
             "time": 1554,
+            "color": 255,
+            "race": "acrobat",
+            "name": "Buczaj",
+            "ultras": [ ],
+            "mutations": [ ],
             "allies": [
                 {
                     "alias": "Buczaj",
@@ -16,6 +20,8 @@
                     "skin": 0
                 }
             ],
+            "bwep": 4,
+            "wep": "Acro-Bat",
             "loadout": [
                 {
                     "alias": "Buczaj",
@@ -26,18 +32,51 @@
                     "skin": 0
                 }
             ],
-            "race": "acrobat",
-            "name": "Buczaj",
-            "killed_by": 4,
-            "bwep": 4,
-            "wep": "Acro-Bat",
             "hard": 2,
             "loop": 0,
             "crown": false,
-            "color": 255,
-            "pizzas": 0,
             "area": 1,
-            "skin": 0
+            "skin": 0,
+            "killed_by": 4
+        },
+        {
+            "kills": 1,
+            "subarea": 1,
+            "pizzas": 0,
+            "time": 157.5,
+            "color": 9820690,
+            "race": "scales",
+            "name": "{C}lass.ical",
+            "ultras": [ ],
+            "mutations": [ ],
+            "allies": [
+                {
+                    "bwep": 0,
+                    "wep": "mateba",
+                    "alias": "{C}lass.ical",
+                    "color": 9820690,
+                    "race": "scales",
+                    "skin": 0
+                }
+            ],
+            "bwep": 0,
+            "wep": "mateba",
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "{C}lass.ical",
+                    "color": 9820690,
+                    "race": "scales",
+                    "skin": 0
+                }
+            ],
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "area": 1,
+            "skin": 0,
+            "killed_by": -1
         }
     ]
 }
