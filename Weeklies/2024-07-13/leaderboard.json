@@ -7,8 +7,8 @@
                 {
                     "wep": "minigun",
                     "bwep": 11,
-                    "color": 5862689,
                     "alias": "Dragonstrive",
+                    "color": 5862689,
                     "race": 3,
                     "skin": 0
                 }
@@ -34,8 +34,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "color": 5862689,
                     "alias": "Dragonstrive",
+                    "color": 5862689,
                     "race": 3,
                     "skin": 0
                 }
@@ -54,8 +54,8 @@
                 {
                     "wep": "va_hoagie",
                     "bwep": "AutoSuperShotgun",
-                    "color": 16737962,
                     "alias": "Daphne",
+                    "color": 16737962,
                     "race": 6,
                     "skin": 0
                 }
@@ -90,8 +90,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "color": 16737962,
                     "alias": "Daphne",
+                    "color": 16737962,
                     "race": 6,
                     "skin": 0
                 }
@@ -104,33 +104,32 @@
             "skin": 0
         },
         {
-            "kills": 277,
-            "subarea": 1,
+            "kills": 184,
+            "subarea": 3,
             "allies": [
                 {
-                    "bwep": 2,
-                    "wep": 4,
+                    "bwep": 4,
+                    "wep": 17,
                     "color": 16737962,
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "time": 12280,
+            "time": 7797,
             "race": 7,
             "name": "Daphne",
             "mutations": [
-                19,
-                10,
+                "Rocket Casings",
+                25,
                 "Ruffled Feathers",
-                "Buckshot Back",
-                11,
-                1
+                "Sloppy Fingers",
+                "Steel Nerves"
             ],
             "pizzas": 0,
             "ultras": [ ],
-            "bwep": 2,
-            "wep": 4,
+            "bwep": 4,
+            "wep": 17,
             "color": 16737962,
             "loadout": [
                 {
@@ -142,11 +141,11 @@
                     "skin": 1
                 }
             ],
-            "hard": 13,
+            "hard": 7,
             "loop": 0,
-            "crown": "outcasts",
-            "area": 6,
-            "killed_by": 29,
+            "crown": false,
+            "area": 3,
+            "killed_by": 18,
             "skin": 1
         }
     ]
