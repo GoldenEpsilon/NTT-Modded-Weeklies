@@ -17,8 +17,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 11,
                     "wep": "minigun",
+                    "bwep": 11,
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -26,23 +26,23 @@
             ],
             "race": 3,
             "name": "Dragonstrive",
-            "loadout": [
-                {
-                    "alias": "Dragonstrive",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "color": 5862689,
-                    "race": 3,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 51,
             "bwep": 11,
             "wep": "minigun",
             "hard": 11,
             "loop": 0,
             "crown": false,
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 5862689,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
             "color": 5862689,
             "area": 5,
             "skin": 0
@@ -73,8 +73,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "AutoSuperShotgun",
                     "wep": "va_hoagie",
+                    "bwep": "AutoSuperShotgun",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -82,23 +82,23 @@
             ],
             "race": 6,
             "name": "Daphne",
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "race": 6,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 2,
             "killed_by": 35,
             "bwep": "AutoSuperShotgun",
             "wep": "va_hoagie",
             "hard": 29,
             "loop": 1,
             "crown": 13,
-            "pizzas": 2,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16737962,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
             "color": 16737962,
             "area": 5,
             "skin": 0
@@ -120,35 +120,78 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 78,
                     "bwep": "tree_pruner",
+                    "wep": 78,
                     "race": 4,
                     "color": 255,
                     "skin": 1
                 }
             ],
             "race": 4,
-            "loadout": [
-                {
-                    "alias": "Buczaj",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 4,
-                    "color": 255,
-                    "skin": 1
-                }
-            ],
             "name": "Buczaj",
+            "pizzas": 1,
             "killed_by": 56,
             "bwep": "tree_pruner",
             "wep": 78,
             "hard": 12,
             "loop": 0,
             "crown": "outcasts",
+            "loadout": [
+                {
+                    "alias": "Buczaj",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 4,
+                    "color": 255,
+                    "skin": 1
+                }
+            ],
             "color": 255,
-            "pizzas": 1,
             "area": 5,
             "skin": 1
+        },
+        {
+            "kills": 117,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Compressing Fist",
+                "Double Vision",
+                "Mimicry"
+            ],
+            "time": 4555,
+            "allies": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": 6,
+                    "bwep": "fire_poker",
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "race": 6,
+            "pizzas": 0,
+            "name": "LaPerlis_XD",
+            "killed_by": 17,
+            "bwep": "fire_poker",
+            "wep": 6,
+            "hard": 5,
+            "loop": 0,
+            "crown": false,
+            "color": 4517495,
+            "loadout": [
+                {
+                    "alias": "LaPerlis_XD",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 4517495,
+                    "skin": 0
+                }
+            ],
+            "area": 3,
+            "skin": 0
         }
     ]
 }
