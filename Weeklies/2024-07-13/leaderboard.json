@@ -7,8 +7,8 @@
                 {
                     "wep": "minigun",
                     "bwep": 11,
-                    "alias": "Dragonstrive",
                     "color": 5862689,
+                    "alias": "Dragonstrive",
                     "race": 3,
                     "skin": 0
                 }
@@ -34,8 +34,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Dragonstrive",
                     "color": 5862689,
+                    "alias": "Dragonstrive",
                     "race": 3,
                     "skin": 0
                 }
@@ -54,8 +54,8 @@
                 {
                     "wep": "va_hoagie",
                     "bwep": "AutoSuperShotgun",
-                    "alias": "Daphne",
                     "color": 16737962,
+                    "alias": "Daphne",
                     "race": 6,
                     "skin": 0
                 }
@@ -90,8 +90,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Daphne",
                     "color": 16737962,
+                    "alias": "Daphne",
                     "race": 6,
                     "skin": 0
                 }
@@ -104,32 +104,34 @@
             "skin": 0
         },
         {
-            "kills": 184,
-            "subarea": 3,
+            "kills": 334,
+            "subarea": 1,
             "allies": [
                 {
                     "bwep": 4,
-                    "wep": 17,
+                    "wep": 4,
                     "color": 16737962,
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "time": 7797,
+            "time": 17242,
             "race": 7,
             "name": "Daphne",
             "mutations": [
-                "Rocket Casings",
-                25,
-                "Ruffled Feathers",
-                "Sloppy Fingers",
-                "Steel Nerves"
+                5,
+                "Compressing Fist",
+                1,
+                14,
+                "powderedgums",
+                4,
+                "Rocket Casings"
             ],
             "pizzas": 0,
             "ultras": [ ],
             "bwep": 4,
-            "wep": 17,
+            "wep": 4,
             "color": 16737962,
             "loadout": [
                 {
@@ -141,11 +143,11 @@
                     "skin": 1
                 }
             ],
-            "hard": 7,
+            "hard": 14,
             "loop": 0,
-            "crown": false,
-            "area": 3,
-            "killed_by": 18,
+            "crown": "outcasts",
+            "area": 7,
+            "killed_by": 34,
             "skin": 1
         }
     ]
