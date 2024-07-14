@@ -3,19 +3,7 @@
         {
             "kills": 254,
             "subarea": 3,
-            "allies": [
-                {
-                    "wep": "minigun",
-                    "bwep": 11,
-                    "alias": "Dragonstrive",
-                    "color": 5862689,
-                    "race": 3,
-                    "skin": 0
-                }
-            ],
-            "time": 11773,
-            "race": 3,
-            "name": "Dragonstrive",
+            "ultras": [ ],
             "mutations": [
                 3,
                 1,
@@ -25,44 +13,49 @@
                 "Mimicry",
                 19
             ],
-            "pizzas": 0,
-            "ultras": [ ],
-            "bwep": 11,
-            "wep": "minigun",
-            "color": 5862689,
-            "loadout": [
+            "time": 11773,
+            "allies": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Dragonstrive",
+                    "bwep": 11,
+                    "wep": "minigun",
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
                 }
             ],
+            "race": 3,
+            "name": "Dragonstrive",
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5862689,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 51,
+            "bwep": 11,
+            "wep": "minigun",
             "hard": 11,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
+            "color": 5862689,
             "area": 5,
-            "killed_by": 51,
             "skin": 0
         },
         {
             "kills": 1078,
             "subarea": 1,
-            "allies": [
-                {
-                    "wep": "va_hoagie",
-                    "bwep": "AutoSuperShotgun",
-                    "alias": "Daphne",
-                    "color": 16737962,
-                    "race": 6,
-                    "skin": 0
-                }
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
             ],
-            "time": 35031,
-            "race": 6,
-            "name": "Daphne",
             "mutations": [
                 "powderedgums",
                 "Mimicry",
@@ -76,77 +69,85 @@
                 "Free Space",
                 "Cruelty-Free Veganlust"
             ],
-            "pizzas": 2,
-            "ultras": [
-                [
-                    6,
-                    1
-                ]
-            ],
-            "bwep": "AutoSuperShotgun",
-            "wep": "va_hoagie",
-            "color": 16737962,
-            "loadout": [
+            "time": 35031,
+            "allies": [
                 {
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
                     "alias": "Daphne",
+                    "bwep": "AutoSuperShotgun",
+                    "wep": "va_hoagie",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
                 }
             ],
+            "race": 6,
+            "name": "Daphne",
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "race": 6,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 35,
+            "bwep": "AutoSuperShotgun",
+            "wep": "va_hoagie",
             "hard": 29,
             "loop": 1,
             "crown": 13,
+            "pizzas": 2,
+            "color": 16737962,
             "area": 5,
-            "killed_by": 35,
             "skin": 0
         },
         {
-            "kills": 219,
-            "subarea": 1,
+            "kills": 297,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                "Waste Gland",
+                5,
+                3,
+                1,
+                "Double Vision",
+                "Bursted Chest",
+                "Toxic Thoughts"
+            ],
+            "time": 15309.5,
             "allies": [
                 {
-                    "bwep": 4,
-                    "wep": 30,
-                    "color": 16737962,
-                    "alias": "Daphne",
-                    "race": 7,
+                    "alias": "Buczaj",
+                    "wep": 78,
+                    "bwep": "tree_pruner",
+                    "race": 4,
+                    "color": 255,
                     "skin": 1
                 }
             ],
-            "time": 8213,
-            "race": 7,
-            "name": "Daphne",
-            "mutations": [
-                11,
-                "Mimicry",
-                25,
-                7,
-                "excitedneurons",
-                16
-            ],
-            "pizzas": 0,
-            "ultras": [ ],
-            "bwep": 4,
-            "wep": 30,
-            "color": 16737962,
+            "race": 4,
             "loadout": [
                 {
-                    "bwep": 1,
+                    "alias": "Buczaj",
                     "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "alias": "Daphne",
-                    "race": 7,
+                    "bwep": 0,
+                    "race": 4,
+                    "color": 255,
                     "skin": 1
                 }
             ],
-            "hard": 8,
+            "name": "Buczaj",
+            "killed_by": 56,
+            "bwep": "tree_pruner",
+            "wep": 78,
+            "hard": 12,
             "loop": 0,
-            "crown": false,
-            "area": 4,
-            "killed_by": 19,
+            "crown": "outcasts",
+            "color": 255,
+            "pizzas": 1,
+            "area": 5,
             "skin": 1
         }
     ]
