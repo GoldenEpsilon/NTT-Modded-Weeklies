@@ -17,8 +17,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "minigun",
                     "bwep": 11,
+                    "wep": "minigun",
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -36,8 +36,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -73,8 +73,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_hoagie",
                     "bwep": "AutoSuperShotgun",
+                    "wep": "va_hoagie",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -92,8 +92,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -120,8 +120,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": "tree_pruner",
                     "wep": 78,
+                    "bwep": "tree_pruner",
                     "race": 4,
                     "color": 255,
                     "skin": 1
@@ -139,8 +139,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 4,
                     "color": 255,
                     "skin": 1
@@ -164,8 +164,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "va_dustdropper",
                     "wep": "fire_poker",
+                    "bwep": "va_dustdropper",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -184,8 +184,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -195,20 +195,26 @@
             "skin": 0
         },
         {
-            "kills": 120,
+            "kills": 339,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
-                3,
-                "luckyshot",
-                "Filtering Teeth"
+                "Loner",
+                "Groupthink",
+                4,
+                27,
+                13,
+                19,
+                20,
+                15,
+                "Thick Head"
             ],
-            "time": 5783,
+            "time": 21546,
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "fire_poker",
-                    "bwep": 21,
+                    "wep": "va_martial_longsword",
+                    "bwep": "CombatHeavySlugger",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -217,11 +223,11 @@
             "race": 6,
             "pizzas": 0,
             "name": "LaPerlis_XD",
-            "killed_by": 0,
-            "bwep": 21,
-            "wep": "fire_poker",
-            "hard": 6,
-            "loop": 0,
+            "killed_by": 52,
+            "bwep": "CombatHeavySlugger",
+            "wep": "va_martial_longsword",
+            "hard": 16,
+            "loop": 1,
             "crown": false,
             "color": 4517495,
             "loadout": [
@@ -234,7 +240,7 @@
                     "skin": 0
                 }
             ],
-            "area": 3,
+            "area": 0,
             "skin": 0
         }
     ]
