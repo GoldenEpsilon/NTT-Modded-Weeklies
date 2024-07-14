@@ -77,6 +77,47 @@
             "area": 1,
             "skin": 0,
             "killed_by": -1
+        },
+        {
+            "kills": 29,
+            "subarea": 2,
+            "pizzas": 0,
+            "time": 1622,
+            "color": 9820690,
+            "race": 3,
+            "name": "{C}lass.ical",
+            "ultras": [ ],
+            "mutations": [
+                1
+            ],
+            "allies": [
+                {
+                    "bwep": 1,
+                    "wep": "mcleod",
+                    "alias": "{C}lass.ical",
+                    "color": 9820690,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "bwep": 1,
+            "wep": "mcleod",
+            "loadout": [
+                {
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "{C}lass.ical",
+                    "color": 9820690,
+                    "race": 3,
+                    "skin": 0
+                }
+            ],
+            "hard": 2,
+            "loop": 0,
+            "crown": false,
+            "area": 1,
+            "skin": 0,
+            "killed_by": -1
         }
     ]
 }
