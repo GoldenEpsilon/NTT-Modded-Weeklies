@@ -3,121 +3,121 @@
         {
             "kills": 28,
             "subarea": 2,
-            "pizzas": 0,
-            "time": 1554,
-            "color": 255,
-            "race": "acrobat",
-            "name": "Buczaj",
-            "ultras": [ ],
-            "mutations": [ ],
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 4,
                     "wep": "Acro-Bat",
+                    "bwep": 4,
                     "color": 255,
                     "race": "acrobat",
                     "skin": 0
                 }
             ],
-            "bwep": 4,
-            "wep": "Acro-Bat",
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 255,
                     "race": "acrobat",
                     "skin": 0
                 }
             ],
+            "time": 1554,
+            "race": "acrobat",
+            "name": "Buczaj",
+            "killed_by": 4,
+            "pizzas": 0,
+            "bwep": 4,
+            "wep": "Acro-Bat",
+            "color": 255,
             "hard": 2,
             "loop": 0,
             "crown": false,
             "area": 1,
-            "skin": 0,
-            "killed_by": 4
-        },
-        {
-            "kills": 1,
-            "subarea": 1,
-            "pizzas": 0,
-            "time": 157.5,
-            "color": 9820690,
-            "race": "scales",
-            "name": "{C}lass.ical",
             "ultras": [ ],
-            "mutations": [ ],
-            "allies": [
-                {
-                    "bwep": 0,
-                    "wep": "mateba",
-                    "alias": "{C}lass.ical",
-                    "color": 9820690,
-                    "race": "scales",
-                    "skin": 0
-                }
-            ],
-            "bwep": 0,
-            "wep": "mateba",
-            "loadout": [
-                {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "alias": "{C}lass.ical",
-                    "color": 9820690,
-                    "race": "scales",
-                    "skin": 0
-                }
-            ],
-            "hard": 1,
-            "loop": 0,
-            "crown": false,
-            "area": 1,
             "skin": 0,
-            "killed_by": -1
+            "mutations": [ ]
         },
         {
             "kills": 29,
             "subarea": 2,
-            "pizzas": 0,
-            "time": 1622,
-            "color": 9820690,
-            "race": 3,
-            "name": "{C}lass.ical",
-            "ultras": [ ],
-            "mutations": [
-                1
-            ],
             "allies": [
                 {
-                    "bwep": 1,
-                    "wep": "mcleod",
                     "alias": "{C}lass.ical",
+                    "wep": "mcleod",
+                    "bwep": 1,
                     "color": 9820690,
                     "race": 3,
                     "skin": 0
                 }
             ],
-            "bwep": 1,
-            "wep": "mcleod",
             "loadout": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "{C}lass.ical",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 9820690,
                     "race": 3,
                     "skin": 0
                 }
             ],
+            "time": 1622,
+            "race": 3,
+            "name": "{C}lass.ical",
+            "killed_by": -1,
+            "pizzas": 0,
+            "bwep": 1,
+            "wep": "mcleod",
+            "color": 9820690,
             "hard": 2,
             "loop": 0,
             "crown": false,
             "area": 1,
+            "ultras": [ ],
             "skin": 0,
-            "killed_by": -1
+            "mutations": [
+                1
+            ]
+        },
+        {
+            "kills": 11,
+            "subarea": 1,
+            "allies": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": "mateba",
+                    "color": 5862689,
+                    "race": "scales",
+                    "skin": 0
+                }
+            ],
+            "loadout": [
+                {
+                    "alias": "Dragonstrive",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "color": 5862689,
+                    "race": "scales",
+                    "skin": 0
+                }
+            ],
+            "time": 480,
+            "race": "scales",
+            "name": "Dragonstrive",
+            "killed_by": -1,
+            "bwep": 0,
+            "wep": "mateba",
+            "pizzas": 0,
+            "color": 5862689,
+            "hard": 1,
+            "loop": 0,
+            "crown": false,
+            "area": 1,
+            "ultras": [ ],
+            "skin": 0,
+            "mutations": [ ]
         }
     ]
 }
