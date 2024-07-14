@@ -7,8 +7,8 @@
                 {
                     "wep": "minigun",
                     "bwep": 11,
-                    "alias": "Dragonstrive",
                     "color": 5862689,
+                    "alias": "Dragonstrive",
                     "race": 3,
                     "skin": 0
                 }
@@ -34,8 +34,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Dragonstrive",
                     "color": 5862689,
+                    "alias": "Dragonstrive",
                     "race": 3,
                     "skin": 0
                 }
@@ -54,8 +54,8 @@
                 {
                     "wep": "va_hoagie",
                     "bwep": "AutoSuperShotgun",
-                    "alias": "Daphne",
                     "color": 16737962,
+                    "alias": "Daphne",
                     "race": 6,
                     "skin": 0
                 }
@@ -90,8 +90,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Daphne",
                     "color": 16737962,
+                    "alias": "Daphne",
                     "race": 6,
                     "skin": 0
                 }
@@ -104,47 +104,52 @@
             "skin": 0
         },
         {
-            "kills": 133,
-            "subarea": 1,
+            "kills": 359,
+            "subarea": 3,
             "allies": [
                 {
-                    "bwep": 39,
-                    "wep": 3,
+                    "bwep": "va_magnum",
+                    "wep": 54,
                     "color": 16737962,
                     "alias": "Daphne",
-                    "race": 6,
-                    "skin": 0
+                    "race": 7,
+                    "skin": 1
                 }
             ],
-            "time": 3808,
-            "race": 6,
+            "time": 18941,
+            "race": 7,
             "name": "Daphne",
             "mutations": [
-                2,
-                7,
-                "Shattered Skull"
+                10,
+                16,
+                "Mimicry",
+                5,
+                20,
+                11,
+                "Double Vision",
+                "Duplicators"
             ],
             "pizzas": 0,
             "ultras": [ ],
-            "bwep": 39,
-            "wep": 3,
+            "bwep": "va_magnum",
+            "wep": 54,
             "color": 16737962,
             "loadout": [
                 {
-                    "bwep": 0,
+                    "bwep": 1,
                     "wep": "mw_ui_start",
                     "color": 16737962,
                     "alias": "Daphne",
-                    "race": 6,
-                    "skin": 0
+                    "race": 7,
+                    "skin": 1
                 }
             ],
-            "hard": 4,
+            "hard": 15,
             "loop": 0,
             "crown": false,
-            "area": 2,
-            "killed_by": 95,
-            "skin": 0
+            "area": 7,
+            "killed_by": 55,
+            "skin": 1
         }
     ]
 }
