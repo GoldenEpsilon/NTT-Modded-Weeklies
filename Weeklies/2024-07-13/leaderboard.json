@@ -7,8 +7,8 @@
                 {
                     "wep": "minigun",
                     "bwep": 11,
-                    "alias": "Dragonstrive",
                     "color": 5862689,
+                    "alias": "Dragonstrive",
                     "race": 3,
                     "skin": 0
                 }
@@ -34,8 +34,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Dragonstrive",
                     "color": 5862689,
+                    "alias": "Dragonstrive",
                     "race": 3,
                     "skin": 0
                 }
@@ -54,8 +54,8 @@
                 {
                     "wep": "va_hoagie",
                     "bwep": "AutoSuperShotgun",
-                    "alias": "Daphne",
                     "color": 16737962,
+                    "alias": "Daphne",
                     "race": 6,
                     "skin": 0
                 }
@@ -90,8 +90,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Daphne",
                     "color": 16737962,
+                    "alias": "Daphne",
                     "race": 6,
                     "skin": 0
                 }
@@ -104,33 +104,33 @@
             "skin": 0
         },
         {
-            "kills": 292,
+            "kills": 268,
             "subarea": 3,
             "allies": [
                 {
-                    "bwep": 17,
-                    "wep": 11,
+                    "bwep": 4,
+                    "wep": "va_snubnose",
                     "color": 16737962,
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "time": 11782,
+            "time": 12372,
             "race": 7,
             "name": "Daphne",
             "mutations": [
-                "Rocket Casings",
-                "Compressing Fist",
-                11,
                 "Duplicators",
-                14,
-                "Scrap Arms"
+                23,
+                10,
+                "Rocket Casings",
+                "Thick Head",
+                "Staked Chest"
             ],
             "pizzas": 0,
             "ultras": [ ],
-            "bwep": 17,
-            "wep": 11,
+            "bwep": 4,
+            "wep": "va_snubnose",
             "color": 16737962,
             "loadout": [
                 {
@@ -146,7 +146,7 @@
             "loop": 0,
             "crown": false,
             "area": 5,
-            "killed_by": 51,
+            "killed_by": 27,
             "skin": 1
         }
     ]
