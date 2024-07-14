@@ -7,8 +7,8 @@
                 {
                     "wep": "minigun",
                     "bwep": 11,
-                    "color": 5862689,
                     "alias": "Dragonstrive",
+                    "color": 5862689,
                     "race": 3,
                     "skin": 0
                 }
@@ -34,8 +34,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "color": 5862689,
                     "alias": "Dragonstrive",
+                    "color": 5862689,
                     "race": 3,
                     "skin": 0
                 }
@@ -54,8 +54,8 @@
                 {
                     "wep": "va_hoagie",
                     "bwep": "AutoSuperShotgun",
-                    "color": 16737962,
                     "alias": "Daphne",
+                    "color": 16737962,
                     "race": 6,
                     "skin": 0
                 }
@@ -90,8 +90,8 @@
                 {
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "color": 16737962,
                     "alias": "Daphne",
+                    "color": 16737962,
                     "race": 6,
                     "skin": 0
                 }
@@ -104,30 +104,33 @@
             "skin": 0
         },
         {
-            "kills": 93,
-            "subarea": 3,
+            "kills": 219,
+            "subarea": 1,
             "allies": [
                 {
-                    "bwep": 1,
-                    "wep": 4,
+                    "bwep": 4,
+                    "wep": 30,
                     "color": 16737962,
                     "alias": "Daphne",
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "time": 2285,
+            "time": 8213,
             "race": 7,
             "name": "Daphne",
             "mutations": [
-                9,
-                "Double Vision",
-                4
+                11,
+                "Mimicry",
+                25,
+                7,
+                "excitedneurons",
+                16
             ],
             "pizzas": 0,
             "ultras": [ ],
-            "bwep": 1,
-            "wep": 4,
+            "bwep": 4,
+            "wep": 30,
             "color": 16737962,
             "loadout": [
                 {
@@ -139,11 +142,11 @@
                     "skin": 1
                 }
             ],
-            "hard": 3,
+            "hard": 8,
             "loop": 0,
             "crown": false,
-            "area": 1,
-            "killed_by": 6,
+            "area": 4,
+            "killed_by": 19,
             "skin": 1
         }
     ]
