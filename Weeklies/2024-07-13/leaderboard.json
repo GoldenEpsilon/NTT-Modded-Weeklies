@@ -2,8 +2,8 @@
     "scores": [
         {
             "kills": 254,
-            "subarea": 3,
             "pizzas": 0,
+            "subarea": 3,
             "color": 5862689,
             "time": 11773,
             "race": 3,
@@ -21,8 +21,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "minigun",
                     "bwep": 11,
+                    "wep": "minigun",
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -35,8 +35,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -49,8 +49,8 @@
         },
         {
             "kills": 1078,
-            "subarea": 1,
             "pizzas": 2,
+            "subarea": 1,
             "color": 16737962,
             "time": 35031,
             "race": 6,
@@ -77,8 +77,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_hoagie",
                     "bwep": "AutoSuperShotgun",
+                    "wep": "va_hoagie",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -91,8 +91,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -105,8 +105,8 @@
         },
         {
             "kills": 297,
-            "subarea": 2,
             "pizzas": 1,
+            "subarea": 2,
             "color": 255,
             "time": 15309.5,
             "race": 4,
@@ -124,8 +124,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": "tree_pruner",
                     "wep": 78,
+                    "bwep": "tree_pruner",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -138,8 +138,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -152,8 +152,8 @@
         },
         {
             "kills": 339,
-            "subarea": 1,
             "pizzas": 0,
+            "subarea": 1,
             "color": 4517495,
             "time": 21546,
             "race": 6,
@@ -173,8 +173,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "CombatHeavySlugger",
                     "wep": "va_martial_longsword",
+                    "bwep": "CombatHeavySlugger",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -187,8 +187,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -200,33 +200,30 @@
             "killed_by": 52
         },
         {
-            "kills": 146,
+            "kills": 70,
             "pizzas": 0,
-            "subarea": 2,
+            "subarea": 3,
             "color": 4517495,
-            "time": 5314,
+            "time": 1916,
             "race": 6,
             "ultras": [ ],
             "name": "LaPerlis_XD",
             "mutations": [
-                3,
-                22,
-                11,
-                "Scrap Arms"
+                "Rocket Casings"
             ],
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "bwep": "va_snubnose",
-                    "wep": "mcleod",
+                    "bwep": 6,
+                    "wep": 27,
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
                 }
             ],
-            "bwep": "va_snubnose",
-            "wep": "mcleod",
-            "hard": 6,
+            "bwep": 6,
+            "wep": 27,
+            "hard": 3,
             "loop": 0,
             "loadout": [
                 {
@@ -239,9 +236,9 @@
                 }
             ],
             "crown": false,
-            "area": 3,
+            "area": 1,
             "skin": 0,
-            "killed_by": 17
+            "killed_by": 0
         }
     ]
 }
