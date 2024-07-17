@@ -395,10 +395,10 @@
             "skin": 1
         },
         {
-            "kills": 64,
+            "kills": 366,
             "subarea": 3,
-            "killed_by": 4,
-            "time": 2439,
+            "killed_by": 37,
+            "time": 31145,
             "loadout": [
                 {
                     "color": 16736708,
@@ -413,8 +413,8 @@
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 1,
-                    "wep": 4,
+                    "bwep": "va_bolt_upcaster",
+                    "wep": "EnergySword",
                     "race": 11,
                     "skin": 1,
                     "alias": "Emperor J"
@@ -422,17 +422,24 @@
             ],
             "name": "Emperor J",
             "color": 16736708,
-            "bwep": 1,
-            "wep": 4,
+            "bwep": "va_bolt_upcaster",
+            "wep": "EnergySword",
             "ultras": [ ],
-            "hard": 3,
+            "hard": 16,
             "loop": 0,
             "mutations": [
-                "Rocket Casings"
+                "Staked Chest",
+                23,
+                13,
+                "Loner",
+                "Energized Intestines",
+                "Cruelty-Free Veganlust",
+                "Absorbing Abs",
+                "Ruffled Feathers"
             ],
-            "crown": false,
+            "crown": "outcasts",
             "pizzas": 0,
-            "area": 1,
+            "area": 7,
             "skin": 1
         }
     ]
