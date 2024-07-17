@@ -343,52 +343,6 @@
             "skin": 0
         },
         {
-            "kills": 266,
-            "subarea": 1,
-            "killed_by": 24,
-            "time": 13583,
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": "acrobat",
-                    "skin": 0,
-                    "alias": "Emperor J"
-                }
-            ],
-            "race": "acrobat",
-            "allies": [
-                {
-                    "color": 16736708,
-                    "bwep": "va_razorpop",
-                    "wep": "va_martial_longsword",
-                    "race": "acrobat",
-                    "skin": 0,
-                    "alias": "Emperor J"
-                }
-            ],
-            "name": "Emperor J",
-            "color": 16736708,
-            "bwep": "va_razorpop",
-            "wep": "va_martial_longsword",
-            "ultras": [ ],
-            "hard": 11,
-            "loop": 0,
-            "mutations": [
-                "Staked Chest",
-                8,
-                "powderedgums",
-                14,
-                23,
-                "compoundelbow"
-            ],
-            "crown": 1,
-            "pizzas": 1,
-            "area": 5,
-            "skin": 0
-        },
-        {
             "kills": 432,
             "subarea": 1,
             "killed_by": 36,
@@ -438,6 +392,47 @@
             "crown": false,
             "pizzas": 0,
             "area": 7,
+            "skin": 1
+        },
+        {
+            "kills": 64,
+            "subarea": 3,
+            "killed_by": 4,
+            "time": 2439,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 11,
+                    "skin": 1,
+                    "alias": "Emperor J"
+                }
+            ],
+            "race": 11,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 4,
+                    "race": 11,
+                    "skin": 1,
+                    "alias": "Emperor J"
+                }
+            ],
+            "name": "Emperor J",
+            "color": 16736708,
+            "bwep": 1,
+            "wep": 4,
+            "ultras": [ ],
+            "hard": 3,
+            "loop": 0,
+            "mutations": [
+                "Rocket Casings"
+            ],
+            "crown": false,
+            "pizzas": 0,
+            "area": 1,
             "skin": 1
         }
     ]
