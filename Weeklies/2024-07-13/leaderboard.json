@@ -17,8 +17,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -36,8 +36,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 11,
                     "wep": "minigun",
+                    "bwep": 11,
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -73,8 +73,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -92,8 +92,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "AutoSuperShotgun",
                     "wep": "va_hoagie",
+                    "bwep": "AutoSuperShotgun",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -120,8 +120,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -139,8 +139,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 78,
                     "bwep": "tree_pruner",
+                    "wep": 78,
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -169,8 +169,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -188,8 +188,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_martial_longsword",
                     "bwep": "CombatHeavySlugger",
+                    "wep": "va_martial_longsword",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -223,8 +223,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -242,8 +242,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_masterton",
                     "wep": "va_masterton",
+                    "bwep": "va_masterton",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -265,8 +265,8 @@
             "loadout": [
                 {
                     "alias": "Dibble",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "scales",
                     "color": 9532927,
                     "skin": 0
@@ -284,8 +284,8 @@
             "allies": [
                 {
                     "alias": "Dibble",
-                    "bwep": "mateba",
                     "wep": 7,
+                    "bwep": "mateba",
                     "race": "scales",
                     "color": 9532927,
                     "skin": 0
@@ -312,8 +312,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -331,8 +331,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mcleod",
                     "bwep": 23,
+                    "wep": "mcleod",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
@@ -343,16 +343,15 @@
             "skin": 0
         },
         {
-            "kills": 193,
+            "kills": 135,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 2,
             "mutations": [
-                "Rocket Casings",
-                21,
-                19,
-                "Double Vision"
+                9,
+                "excitedneurons",
+                "Duplicators"
             ],
-            "time": 5908,
+            "time": 5722,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -366,18 +365,18 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 78,
-            "bwep": "va_bolt_caster",
-            "wep": 6,
-            "hard": 7,
+            "killed_by": 15,
+            "bwep": 11,
+            "wep": "smg",
+            "hard": 6,
             "loop": 0,
             "crown": false,
             "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": "va_bolt_caster",
+                    "wep": "smg",
+                    "bwep": 11,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
