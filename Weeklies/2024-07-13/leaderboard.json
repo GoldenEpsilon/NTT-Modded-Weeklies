@@ -389,10 +389,10 @@
             "skin": 0
         },
         {
-            "kills": 242,
+            "kills": 20,
             "subarea": 1,
-            "killed_by": 21,
-            "time": 15209,
+            "killed_by": -1,
+            "time": 874,
             "loadout": [
                 {
                     "color": 16736708,
@@ -407,8 +407,8 @@
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "va_martial_shortsword",
-                    "wep": "va_duster_shotgun",
+                    "bwep": 0,
+                    "wep": 1,
                     "race": 11,
                     "skin": 1,
                     "alias": "Emperor J"
@@ -416,22 +416,15 @@
             ],
             "name": "Emperor J",
             "color": 16736708,
-            "bwep": "va_martial_shortsword",
-            "wep": "va_duster_shotgun",
+            "bwep": 0,
+            "wep": 1,
             "ultras": [ ],
-            "hard": 9,
+            "hard": 1,
             "loop": 0,
-            "mutations": [
-                15,
-                13,
-                "Mimicry",
-                "powderedgums",
-                "Loner",
-                "Shocked Skin"
-            ],
-            "crown": 1,
+            "mutations": [ ],
+            "crown": false,
             "pizzas": 0,
-            "area": 4,
+            "area": 1,
             "skin": 1
         }
     ]
