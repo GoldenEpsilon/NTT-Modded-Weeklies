@@ -389,10 +389,10 @@
             "skin": 0
         },
         {
-            "kills": 20,
+            "kills": 432,
             "subarea": 1,
-            "killed_by": -1,
-            "time": 874,
+            "killed_by": 36,
+            "time": 26317,
             "loadout": [
                 {
                     "color": 16736708,
@@ -407,8 +407,8 @@
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 0,
-                    "wep": 1,
+                    "bwep": 69,
+                    "wep": "va_gauge_gluon_gun",
                     "race": 11,
                     "skin": 1,
                     "alias": "Emperor J"
@@ -416,15 +416,28 @@
             ],
             "name": "Emperor J",
             "color": 16736708,
-            "bwep": 0,
-            "wep": 1,
+            "bwep": 69,
+            "wep": "va_gauge_gluon_gun",
             "ultras": [ ],
-            "hard": 1,
+            "hard": 13,
             "loop": 0,
-            "mutations": [ ],
+            "mutations": [
+                "Loner",
+                23,
+                "Brain Transfer",
+                11,
+                "Slim Pickings",
+                "Shocked Skin",
+                "Cruelty-Free Veganlust",
+                "Sloppy Fingers",
+                "powderedgums",
+                20,
+                17,
+                1
+            ],
             "crown": false,
             "pizzas": 0,
-            "area": 1,
+            "area": 7,
             "skin": 1
         }
     ]
