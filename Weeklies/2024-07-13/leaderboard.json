@@ -424,6 +424,52 @@
             "pizzas": 0,
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 266,
+            "subarea": 1,
+            "killed_by": 24,
+            "time": 13583,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "acrobat",
+                    "skin": 0,
+                    "alias": "Emperor J"
+                }
+            ],
+            "race": "acrobat",
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": "va_razorpop",
+                    "wep": "va_martial_longsword",
+                    "race": "acrobat",
+                    "skin": 0,
+                    "alias": "Emperor J"
+                }
+            ],
+            "name": "Emperor J",
+            "color": 16736708,
+            "bwep": "va_razorpop",
+            "wep": "va_martial_longsword",
+            "ultras": [ ],
+            "hard": 11,
+            "loop": 0,
+            "mutations": [
+                "Staked Chest",
+                8,
+                "powderedgums",
+                14,
+                23,
+                "compoundelbow"
+            ],
+            "crown": 1,
+            "pizzas": 1,
+            "area": 5,
+            "skin": 0
         }
     ]
 }
