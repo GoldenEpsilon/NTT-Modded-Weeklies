@@ -382,6 +382,48 @@
             "pizzas": 0,
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 84,
+            "subarea": 3,
+            "killed_by": 6,
+            "time": 3824,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "acrobat",
+                    "skin": 0,
+                    "alias": "Emperor J"
+                }
+            ],
+            "race": "acrobat",
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 17,
+                    "wep": 5,
+                    "race": "acrobat",
+                    "skin": 0,
+                    "alias": "Emperor J"
+                }
+            ],
+            "name": "Emperor J",
+            "color": 16736708,
+            "bwep": 17,
+            "wep": 5,
+            "ultras": [ ],
+            "hard": 3,
+            "loop": 0,
+            "mutations": [
+                14,
+                "condensedmeat"
+            ],
+            "crown": false,
+            "pizzas": 0,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
