@@ -441,6 +441,50 @@
             "pizzas": 0,
             "area": 7,
             "skin": 1
+        },
+        {
+            "kills": 150,
+            "subarea": 3,
+            "killed_by": 15,
+            "time": 9263,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 11,
+                    "skin": 1,
+                    "alias": "Emperor J"
+                }
+            ],
+            "race": 11,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": 50,
+                    "race": 11,
+                    "skin": 1,
+                    "alias": "Emperor J"
+                }
+            ],
+            "name": "Emperor J",
+            "color": 16736708,
+            "bwep": 1,
+            "wep": 50,
+            "ultras": [ ],
+            "hard": 7,
+            "loop": 0,
+            "mutations": [
+                17,
+                13,
+                "Muscle Memory",
+                7
+            ],
+            "crown": false,
+            "pizzas": 0,
+            "area": 3,
+            "skin": 1
         }
     ]
 }
