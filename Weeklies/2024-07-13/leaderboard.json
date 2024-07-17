@@ -17,8 +17,8 @@
             "loadout": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -29,8 +29,8 @@
             "allies": [
                 {
                     "alias": "Dragonstrive",
-                    "bwep": 11,
                     "wep": "minigun",
+                    "bwep": 11,
                     "color": 5862689,
                     "race": 3,
                     "skin": 0
@@ -73,8 +73,8 @@
             "loadout": [
                 {
                     "alias": "Daphne",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -85,8 +85,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "AutoSuperShotgun",
                     "wep": "va_hoagie",
+                    "bwep": "AutoSuperShotgun",
                     "color": 16737962,
                     "race": 6,
                     "skin": 0
@@ -120,8 +120,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -132,8 +132,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": 78,
                     "bwep": "tree_pruner",
+                    "wep": 78,
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -169,8 +169,8 @@
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -181,8 +181,8 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_martial_longsword",
                     "bwep": "CombatHeavySlugger",
+                    "wep": "va_martial_longsword",
                     "color": 4517495,
                     "race": 6,
                     "skin": 0
@@ -223,8 +223,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -235,8 +235,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_masterton",
                     "wep": "va_masterton",
+                    "bwep": "va_masterton",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -265,8 +265,8 @@
             "loadout": [
                 {
                     "alias": "Dibble",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "scales",
                     "color": 9532927,
                     "skin": 0
@@ -277,8 +277,8 @@
             "allies": [
                 {
                     "alias": "Dibble",
-                    "bwep": "mateba",
                     "wep": 7,
+                    "bwep": "mateba",
                     "race": "scales",
                     "color": 9532927,
                     "skin": 0
@@ -296,18 +296,23 @@
             "skin": 0
         },
         {
-            "kills": 203,
+            "kills": 320,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                "Slim Pickings",
-                "Groupthink",
-                "Rubber Rounds",
+                "Rocket Casings",
+                "Loner",
+                "Aerodynamic Ankles",
+                11,
+                "Thick Head",
                 "Ruffled Feathers",
-                1,
-                "Waste Gland"
+                25,
+                "excitedneurons",
+                "Slim Pickings",
+                "Telekinetic Tears",
+                "Shocked Skin"
             ],
-            "time": 7374,
+            "time": 14762,
             "loadout": [
                 {
                     "alias": "LaPerlis_XD",
@@ -322,23 +327,23 @@
             "allies": [
                 {
                     "alias": "LaPerlis_XD",
-                    "wep": "va_martial_war_axe",
-                    "bwep": 39,
+                    "wep": "va_snubnose",
+                    "bwep": "va_gluon_accelerator",
                     "race": 6,
                     "color": 4517495,
                     "skin": 0
                 }
             ],
             "name": "LaPerlis_XD",
-            "killed_by": 102,
-            "bwep": 39,
-            "wep": "va_martial_war_axe",
-            "hard": 7,
+            "killed_by": 29,
+            "bwep": "va_gluon_accelerator",
+            "wep": "va_snubnose",
+            "hard": 12,
             "loop": 0,
             "crown": false,
             "color": 4517495,
             "pizzas": 0,
-            "area": 3,
+            "area": 6,
             "skin": 0
         }
     ]
