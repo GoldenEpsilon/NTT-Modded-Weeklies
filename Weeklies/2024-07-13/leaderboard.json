@@ -16,8 +16,8 @@
             "time": 11773,
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Dragonstrive",
                     "color": 5862689,
                     "race": 3,
@@ -35,8 +35,8 @@
             "crown": false,
             "allies": [
                 {
-                    "bwep": 11,
                     "wep": "minigun",
+                    "bwep": 11,
                     "alias": "Dragonstrive",
                     "color": 5862689,
                     "race": 3,
@@ -72,8 +72,8 @@
             "time": 35031,
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -91,8 +91,8 @@
             "crown": 13,
             "allies": [
                 {
-                    "bwep": "AutoSuperShotgun",
                     "wep": "va_hoagie",
+                    "bwep": "AutoSuperShotgun",
                     "alias": "Daphne",
                     "color": 16737962,
                     "race": 6,
@@ -119,8 +119,8 @@
             "time": 15309.5,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Buczaj",
                     "color": 255,
                     "race": 4,
@@ -138,8 +138,8 @@
             "crown": "outcasts",
             "allies": [
                 {
-                    "wep": 78,
                     "bwep": "tree_pruner",
+                    "wep": 78,
                     "alias": "Buczaj",
                     "color": 255,
                     "race": 4,
@@ -168,8 +168,8 @@
             "time": 21546,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "LaPerlis_XD",
                     "color": 4517495,
                     "race": 6,
@@ -187,8 +187,8 @@
             "crown": false,
             "allies": [
                 {
-                    "wep": "va_martial_longsword",
                     "bwep": "CombatHeavySlugger",
+                    "wep": "va_martial_longsword",
                     "alias": "LaPerlis_XD",
                     "color": 4517495,
                     "race": 6,
@@ -222,8 +222,8 @@
             "time": 42654,
             "loadout": [
                 {
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "alias": "Chump",
                     "color": 16736708,
                     "race": 7,
@@ -241,8 +241,8 @@
             "crown": 9,
             "allies": [
                 {
-                    "bwep": "va_masterton",
                     "wep": "va_masterton",
+                    "bwep": "va_masterton",
                     "alias": "Chump",
                     "color": 16736708,
                     "race": 7,
@@ -264,8 +264,8 @@
             "time": 3055,
             "loadout": [
                 {
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "alias": "Dibble",
                     "color": 9532927,
                     "race": "scales",
@@ -283,8 +283,8 @@
             "crown": false,
             "allies": [
                 {
-                    "bwep": "mateba",
                     "wep": 7,
+                    "bwep": "mateba",
                     "alias": "Dibble",
                     "color": 9532927,
                     "race": "scales",
@@ -311,8 +311,8 @@
             "time": 12746,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "LaPerlis_XD",
                     "color": 4517495,
                     "race": 6,
@@ -330,8 +330,8 @@
             "crown": false,
             "allies": [
                 {
-                    "wep": "mcleod",
                     "bwep": 23,
+                    "wep": "mcleod",
                     "alias": "LaPerlis_XD",
                     "color": 4517495,
                     "race": 6,
@@ -363,8 +363,8 @@
             "time": 26317,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Emperor J",
                     "color": 16736708,
                     "race": 11,
@@ -382,8 +382,8 @@
             "crown": false,
             "allies": [
                 {
-                    "wep": "va_gauge_gluon_gun",
                     "bwep": 69,
+                    "wep": "va_gauge_gluon_gun",
                     "alias": "Emperor J",
                     "color": 16736708,
                     "race": 11,
@@ -411,8 +411,8 @@
             "time": 31145,
             "loadout": [
                 {
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "alias": "Emperor J",
                     "color": 16736708,
                     "race": 11,
@@ -430,8 +430,8 @@
             "crown": "outcasts",
             "allies": [
                 {
-                    "wep": "EnergySword",
                     "bwep": "va_bolt_upcaster",
+                    "wep": "EnergySword",
                     "alias": "Emperor J",
                     "color": 16736708,
                     "race": 11,
@@ -443,16 +443,23 @@
             "skin": 1
         },
         {
-            "kills": 131,
-            "ultras": [ ],
+            "kills": 1450,
+            "ultras": [
+                19
+            ],
             "subarea": 2,
             "mutations": [
-                16,
+                "condensedmeat",
+                "Confidence",
+                27,
+                21,
+                5,
                 25,
-                7,
-                21
+                "Absorbing Abs",
+                "Staked Chest",
+                "Fission"
             ],
-            "time": 6672,
+            "time": 59505,
             "loadout": [
                 {
                     "wep": "mw_ui_start",
@@ -466,24 +473,24 @@
             "race": 11,
             "pizzas": 0,
             "name": "Emperor J",
-            "killed_by": 0,
-            "bwep": 17,
-            "wep": 6,
-            "hard": 6,
-            "loop": 0,
-            "crown": false,
+            "killed_by": 51,
+            "bwep": 113,
+            "wep": "va_double_flechette_shotgun",
+            "hard": 32,
+            "loop": 1,
+            "crown": "outcasts",
             "color": 16736708,
             "allies": [
                 {
-                    "wep": 6,
-                    "bwep": 17,
+                    "wep": "va_double_flechette_shotgun",
+                    "bwep": 113,
                     "alias": "Emperor J",
                     "race": 11,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
-            "area": 3,
+            "area": 7,
             "skin": 1
         }
     ]
