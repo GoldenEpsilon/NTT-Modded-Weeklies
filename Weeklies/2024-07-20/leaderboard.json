@@ -1,95 +1,6 @@
 {
     "scores": [
         {
-            "kills": 176,
-            "subarea": 2,
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "bwep": 1,
-                    "wep": 4,
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "time": 5925,
-            "race": 7,
-            "killed_by": 11,
-            "name": "Daphne",
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "bwep": 1,
-            "wep": 4,
-            "color": 16737962,
-            "pizzas": 0,
-            "hard": 6,
-            "loop": 0,
-            "crown": false,
-            "ultras": [ ],
-            "area": 3,
-            "skin": 1,
-            "mutations": [
-                11,
-                "Ruffled Feathers",
-                "Filtering Teeth",
-                14,
-                25
-            ]
-        },
-        {
-            "kills": 164,
-            "subarea": 1,
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "bwep": 3,
-                    "wep": "va_martial_rapier",
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "time": 8336,
-            "race": 7,
-            "killed_by": 21,
-            "name": "Daphne",
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "bwep": 3,
-            "wep": "va_martial_rapier",
-            "color": 16737962,
-            "pizzas": 0,
-            "hard": 8,
-            "loop": 0,
-            "crown": false,
-            "ultras": [ ],
-            "area": 4,
-            "skin": 1,
-            "mutations": [
-                1,
-                5,
-                14,
-                "Duplicators"
-            ]
-        },
-        {
             "kills": 349,
             "subarea": 3,
             "allies": [
@@ -135,6 +46,49 @@
                 "Sadism",
                 27,
                 "excitedneurons"
+            ]
+        },
+        {
+            "kills": 118,
+            "subarea": 2,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 1,
+                    "wep": 4,
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "time": 4799,
+            "race": 7,
+            "killed_by": 14,
+            "name": "Daphne",
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "bwep": 1,
+            "wep": 4,
+            "color": 16737962,
+            "pizzas": 0,
+            "hard": 6,
+            "loop": 0,
+            "crown": false,
+            "ultras": [ ],
+            "area": 3,
+            "skin": 1,
+            "mutations": [
+                "Rocket Casings",
+                1,
+                "Mimicry"
             ]
         }
     ]
