@@ -49,21 +49,21 @@
             ]
         },
         {
-            "kills": 193,
+            "kills": 338,
             "subarea": 3,
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": "va_snubnose",
-                    "wep": 17,
+                    "bwep": "va_martial_sawtooth_sword",
+                    "wep": "va_hyper_magnum",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "time": 7971.5,
+            "time": 21803.5,
             "race": 7,
-            "killed_by": 17,
+            "killed_by": 37,
             "name": "Daphne",
             "loadout": [
                 {
@@ -75,21 +75,25 @@
                     "skin": 1
                 }
             ],
-            "bwep": "va_snubnose",
-            "wep": 17,
+            "bwep": "va_martial_sawtooth_sword",
+            "wep": "va_hyper_magnum",
             "color": 16737962,
             "pizzas": 0,
-            "hard": 7,
+            "hard": 16,
             "loop": 0,
-            "crown": false,
+            "crown": 1,
             "ultras": [ ],
-            "area": 3,
+            "area": 7,
             "skin": 1,
             "mutations": [
-                5,
-                "Filtering Teeth",
-                18,
-                19
+                27,
+                28,
+                "Ruffled Feathers",
+                16,
+                11,
+                8,
+                "Thick Head",
+                "Mimicry"
             ]
         }
     ]
