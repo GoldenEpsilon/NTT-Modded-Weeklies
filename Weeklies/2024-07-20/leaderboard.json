@@ -44,6 +44,50 @@
                 14,
                 25
             ]
+        },
+        {
+            "kills": 164,
+            "subarea": 1,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 3,
+                    "wep": "va_martial_rapier",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "time": 8336,
+            "race": 7,
+            "killed_by": 21,
+            "name": "Daphne",
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "bwep": 3,
+            "wep": "va_martial_rapier",
+            "color": 16737962,
+            "pizzas": 0,
+            "hard": 8,
+            "loop": 0,
+            "crown": false,
+            "ultras": [ ],
+            "area": 4,
+            "skin": 1,
+            "mutations": [
+                1,
+                5,
+                14,
+                "Duplicators"
+            ]
         }
     ]
 }
