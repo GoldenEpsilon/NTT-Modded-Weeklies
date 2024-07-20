@@ -49,21 +49,21 @@
             ]
         },
         {
-            "kills": 118,
-            "subarea": 2,
+            "kills": 193,
+            "subarea": 3,
             "allies": [
                 {
                     "alias": "Daphne",
-                    "bwep": 1,
-                    "wep": 4,
+                    "bwep": "va_snubnose",
+                    "wep": 17,
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
                 }
             ],
-            "time": 4799,
+            "time": 7971.5,
             "race": 7,
-            "killed_by": 14,
+            "killed_by": 17,
             "name": "Daphne",
             "loadout": [
                 {
@@ -75,20 +75,21 @@
                     "skin": 1
                 }
             ],
-            "bwep": 1,
-            "wep": 4,
+            "bwep": "va_snubnose",
+            "wep": 17,
             "color": 16737962,
             "pizzas": 0,
-            "hard": 6,
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "ultras": [ ],
             "area": 3,
             "skin": 1,
             "mutations": [
-                "Rocket Casings",
-                1,
-                "Mimicry"
+                5,
+                "Filtering Teeth",
+                18,
+                19
             ]
         }
     ]
