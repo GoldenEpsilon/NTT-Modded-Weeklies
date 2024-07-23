@@ -3,40 +3,7 @@
         {
             "kills": 349,
             "subarea": 3,
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "bwep": "smartgun",
-                    "wep": 2,
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "time": 22283.5,
-            "race": 7,
-            "killed_by": 34,
-            "name": "Daphne",
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "bwep": "smartgun",
-            "wep": 2,
-            "color": 16737962,
-            "pizzas": 0,
-            "hard": 15,
-            "loop": 0,
-            "crown": false,
             "ultras": [ ],
-            "area": 7,
-            "skin": 1,
             "mutations": [
                 "Duplicators",
                 "Mimicry",
@@ -46,45 +13,45 @@
                 "Sadism",
                 27,
                 "excitedneurons"
-            ]
+            ],
+            "time": 22283.5,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": 2,
+                    "bwep": "smartgun",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "race": 7,
+            "name": "Daphne",
+            "pizzas": 0,
+            "killed_by": 34,
+            "bwep": "smartgun",
+            "wep": 2,
+            "hard": 15,
+            "loop": 0,
+            "crown": false,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "color": 16737962,
+            "area": 7,
+            "skin": 1
         },
         {
             "kills": 338,
             "subarea": 3,
-            "allies": [
-                {
-                    "alias": "Daphne",
-                    "bwep": "va_martial_sawtooth_sword",
-                    "wep": "va_hyper_magnum",
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "time": 21803.5,
-            "race": 7,
-            "killed_by": 37,
-            "name": "Daphne",
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
-            "bwep": "va_martial_sawtooth_sword",
-            "wep": "va_hyper_magnum",
-            "color": 16737962,
-            "pizzas": 0,
-            "hard": 16,
-            "loop": 0,
-            "crown": 1,
             "ultras": [ ],
-            "area": 7,
-            "skin": 1,
             "mutations": [
                 27,
                 28,
@@ -94,7 +61,88 @@
                 8,
                 "Thick Head",
                 "Mimicry"
-            ]
+            ],
+            "time": 21803.5,
+            "allies": [
+                {
+                    "alias": "Daphne",
+                    "wep": "va_hyper_magnum",
+                    "bwep": "va_martial_sawtooth_sword",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "race": 7,
+            "name": "Daphne",
+            "pizzas": 0,
+            "killed_by": 37,
+            "bwep": "va_martial_sawtooth_sword",
+            "wep": "va_hyper_magnum",
+            "hard": 16,
+            "loop": 0,
+            "crown": 1,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
+            "color": 16737962,
+            "area": 7,
+            "skin": 1
+        },
+        {
+            "kills": 401,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                17,
+                "Ruffled Feathers",
+                "Energized Intestines",
+                "Garment Regenerator",
+                "Thick Head",
+                "Mimicry",
+                13,
+                "Absorbing Abs"
+            ],
+            "time": 23614,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": 30,
+                    "bwep": "va_martial_longsword",
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "race": 6,
+            "pizzas": 0,
+            "name": "Sir Mittens IV",
+            "killed_by": 38,
+            "bwep": "va_martial_longsword",
+            "wep": 30,
+            "hard": 17,
+            "loop": 1,
+            "crown": 1,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "area": 0,
+            "skin": 1
         }
     ]
 }
