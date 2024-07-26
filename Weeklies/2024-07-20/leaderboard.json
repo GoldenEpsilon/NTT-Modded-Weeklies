@@ -18,8 +18,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": 2,
                     "bwep": "smartgun",
+                    "wep": 2,
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
@@ -27,23 +27,23 @@
             ],
             "race": 7,
             "name": "Daphne",
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
             "killed_by": 34,
             "bwep": "smartgun",
             "wep": 2,
             "hard": 15,
             "loop": 0,
             "crown": false,
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
+            "pizzas": 0,
             "color": 16737962,
             "area": 7,
             "skin": 1
@@ -66,8 +66,8 @@
             "allies": [
                 {
                     "alias": "Daphne",
-                    "wep": "va_hyper_magnum",
                     "bwep": "va_martial_sawtooth_sword",
+                    "wep": "va_hyper_magnum",
                     "color": 16737962,
                     "race": 7,
                     "skin": 1
@@ -75,23 +75,23 @@
             ],
             "race": 7,
             "name": "Daphne",
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Daphne",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "race": 7,
+                    "skin": 1
+                }
+            ],
             "killed_by": 37,
             "bwep": "va_martial_sawtooth_sword",
             "wep": "va_hyper_magnum",
             "hard": 16,
             "loop": 0,
             "crown": 1,
-            "loadout": [
-                {
-                    "alias": "Daphne",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "color": 16737962,
-                    "race": 7,
-                    "skin": 1
-                }
-            ],
+            "pizzas": 0,
             "color": 16737962,
             "area": 7,
             "skin": 1
@@ -114,23 +114,67 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": 30,
                     "bwep": "va_martial_longsword",
+                    "wep": 30,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
             "race": 6,
-            "pizzas": 0,
             "name": "Sir Mittens IV",
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
             "killed_by": 38,
             "bwep": "va_martial_longsword",
             "wep": 30,
             "hard": 17,
             "loop": 1,
             "crown": 1,
+            "pizzas": 0,
             "color": 16736708,
+            "area": 0,
+            "skin": 1
+        },
+        {
+            "kills": 1631,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                "Sadism",
+                "Muscle Memory",
+                11,
+                27,
+                4,
+                "Precision Incision",
+                "Thick Head",
+                9
+            ],
+            "time": 47782,
+            "allies": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "wep": "va_gauge_gluon_gun",
+                    "bwep": 70,
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
+            "race": 6,
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
@@ -141,7 +185,16 @@
                     "skin": 1
                 }
             ],
-            "area": 0,
+            "name": "Sir Mittens IV",
+            "killed_by": 28,
+            "bwep": 70,
+            "wep": "va_gauge_gluon_gun",
+            "hard": 30,
+            "loop": 1,
+            "crown": 7,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 6,
             "skin": 1
         }
     ]
