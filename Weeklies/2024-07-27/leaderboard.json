@@ -3,7 +3,27 @@
         {
             "kills": 218,
             "subarea": 1,
+            "time": 8930,
+            "killed_by": -1,
+            "pizzas": 0,
+            "race": 12,
+            "name": "lee-mon",
+            "allies": [
+                {
+                    "color": 12133220,
+                    "bwep": 10,
+                    "wep": "va_breach_cannon",
+                    "race": 12,
+                    "skin": 1,
+                    "alias": "lee-mon"
+                }
+            ],
+            "color": 12133220,
+            "bwep": 10,
+            "wep": "va_breach_cannon",
             "ultras": [ ],
+            "hard": 9,
+            "loop": 0,
             "mutations": [
                 25,
                 "Duplicators",
@@ -11,49 +31,49 @@
                 "Steel Nerves",
                 22
             ],
-            "time": 8930,
-            "pizzas": 0,
-            "race": 12,
-            "name": "lee-mon",
+            "crown": 1,
             "loadout": [
                 {
-                    "alias": "lee-mon",
+                    "color": 12133220,
                     "bwep": 0,
                     "wep": "mw_ui_start",
-                    "color": 12133220,
                     "race": 12,
-                    "skin": 1
+                    "skin": 1,
+                    "alias": "lee-mon"
                 }
             ],
-            "killed_by": -1,
-            "bwep": 10,
-            "wep": "va_breach_cannon",
-            "hard": 9,
-            "loop": 0,
-            "crown": 1,
-            "allies": [
-                {
-                    "alias": "lee-mon",
-                    "bwep": 10,
-                    "wep": "va_breach_cannon",
-                    "color": 12133220,
-                    "race": 12,
-                    "skin": 1
-                }
-            ],
-            "color": 12133220,
             "area": 4,
             "skin": 1
         },
         {
             "kills": 577,
+            "subarea": 2,
+            "time": 20614,
+            "killed_by": 91,
+            "pizzas": 0,
+            "race": 7,
+            "name": "Chump",
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 90,
+                    "wep": 90,
+                    "race": 7,
+                    "skin": 0,
+                    "alias": "Chump"
+                }
+            ],
+            "color": 16736708,
+            "bwep": 90,
+            "wep": 90,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 2,
+            "hard": 18,
+            "loop": 1,
             "mutations": [
                 "Steel Nerves",
                 11,
@@ -65,82 +85,61 @@
                 "Shell Cellulite",
                 8
             ],
-            "time": 20614,
-            "pizzas": 0,
-            "race": 7,
+            "crown": false,
             "loadout": [
                 {
-                    "alias": "Chump",
+                    "color": 16736708,
                     "bwep": 1,
                     "wep": "mw_ui_start",
                     "race": 7,
-                    "color": 16736708,
-                    "skin": 0
+                    "skin": 0,
+                    "alias": "Chump"
                 }
             ],
-            "name": "Chump",
-            "killed_by": 91,
-            "bwep": 90,
-            "wep": 90,
-            "hard": 18,
-            "loop": 1,
-            "crown": false,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 90,
-                    "wep": 90,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "color": 16736708,
             "area": 1,
             "skin": 0
         },
         {
-            "kills": 173,
-            "ultras": [ ],
+            "kills": 112,
             "subarea": 1,
-            "mutations": [
-                "Absorbing Abs",
-                "Garment Regenerator",
-                20,
-                "Compressing Fist"
-            ],
-            "time": 8739,
+            "killed_by": -1,
+            "time": 5064,
             "pizzas": 0,
-            "race": 7,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
-            "killed_by": 21,
-            "bwep": 6,
-            "wep": "hand_saw",
-            "hard": 8,
-            "loop": 0,
-            "crown": false,
+            "race": "scales",
             "allies": [
                 {
-                    "alias": "Chump",
-                    "wep": "hand_saw",
-                    "bwep": 6,
-                    "race": 7,
                     "color": 16736708,
-                    "skin": 0
+                    "bwep": "va_sinusoid_pistol",
+                    "wep": 17,
+                    "race": "scales",
+                    "skin": 0,
+                    "alias": "fela"
                 }
             ],
+            "name": "fela",
             "color": 16736708,
-            "area": 4,
+            "bwep": "va_sinusoid_pistol",
+            "wep": 17,
+            "ultras": [ ],
+            "hard": 4,
+            "loop": 0,
+            "mutations": [
+                4,
+                "flamingpalms",
+                20
+            ],
+            "crown": false,
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "scales",
+                    "skin": 0,
+                    "alias": "fela"
+                }
+            ],
+            "area": 2,
             "skin": 0
         }
     ]
