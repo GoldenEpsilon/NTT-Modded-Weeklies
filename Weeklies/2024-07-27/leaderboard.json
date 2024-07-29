@@ -18,8 +18,8 @@
             "loadout": [
                 {
                     "alias": "lee-mon",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 12133220,
                     "race": 12,
                     "skin": 1
@@ -34,8 +34,8 @@
             "allies": [
                 {
                     "alias": "lee-mon",
-                    "bwep": 10,
                     "wep": "va_breach_cannon",
+                    "bwep": 10,
                     "color": 12133220,
                     "race": 12,
                     "skin": 1
@@ -71,8 +71,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -88,8 +88,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 90,
                     "wep": 90,
+                    "bwep": 90,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -100,15 +100,14 @@
             "skin": 0
         },
         {
-            "kills": 159,
+            "kills": 135,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                "powderedgums",
                 23,
-                20
+                11
             ],
-            "time": 3320,
+            "time": 3955,
             "pizzas": 0,
             "race": 7,
             "loadout": [
@@ -122,17 +121,17 @@
                 }
             ],
             "name": "Chump",
-            "killed_by": 7,
-            "bwep": 1,
-            "wep": 5,
+            "killed_by": 0,
+            "bwep": 13,
+            "wep": 6,
             "hard": 4,
             "loop": 0,
             "crown": false,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 5,
-                    "bwep": 1,
+                    "wep": 6,
+                    "bwep": 13,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
