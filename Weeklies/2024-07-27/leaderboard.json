@@ -1,7 +1,9 @@
 {
     "scores": [
         {
-            "pizzas": 0,
+            "kills": 218,
+            "subarea": 1,
+            "ultras": [ ],
             "mutations": [
                 25,
                 "Duplicators",
@@ -9,16 +11,15 @@
                 "Steel Nerves",
                 22
             ],
-            "kills": 218,
-            "subarea": 1,
             "time": 8930,
+            "pizzas": 0,
             "race": 12,
             "name": "lee-mon",
-            "allies": [
+            "loadout": [
                 {
-                    "bwep": 10,
-                    "wep": "va_breach_cannon",
                     "alias": "lee-mon",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 12133220,
                     "race": 12,
                     "skin": 1
@@ -29,21 +30,74 @@
             "wep": "va_breach_cannon",
             "hard": 9,
             "loop": 0,
-            "color": 12133220,
             "crown": 1,
-            "area": 4,
-            "loadout": [
+            "allies": [
                 {
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
                     "alias": "lee-mon",
+                    "wep": "va_breach_cannon",
+                    "bwep": 10,
                     "color": 12133220,
                     "race": 12,
                     "skin": 1
                 }
             ],
-            "skin": 1,
-            "ultras": [ ]
+            "color": 12133220,
+            "area": 4,
+            "skin": 1
+        },
+        {
+            "kills": 577,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "subarea": 2,
+            "mutations": [
+                "Steel Nerves",
+                11,
+                "excitedneurons",
+                23,
+                10,
+                "Loner",
+                "Laser Focus",
+                "Shell Cellulite",
+                8
+            ],
+            "time": 20614,
+            "pizzas": 0,
+            "race": 7,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Chump",
+            "killed_by": 91,
+            "bwep": 90,
+            "wep": 90,
+            "hard": 18,
+            "loop": 1,
+            "crown": false,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 90,
+                    "bwep": 90,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "color": 16736708,
+            "area": 1,
+            "skin": 0
         }
     ]
 }
