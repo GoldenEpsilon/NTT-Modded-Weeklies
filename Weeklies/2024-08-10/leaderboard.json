@@ -3,6 +3,7 @@
         {
             "color": 16736708,
             "kills": 934,
+            "subarea": 1,
             "allies": [
                 {
                     "color": 16736708,
@@ -13,7 +14,6 @@
                     "skin": 0
                 }
             ],
-            "subarea": 1,
             "ultras": [
                 [
                     7,
@@ -55,25 +55,23 @@
         },
         {
             "color": 16736708,
-            "kills": 120,
+            "kills": 57,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "tree_pruner",
-                    "wep": 6,
+                    "bwep": "mcleod",
+                    "wep": "mcleod",
                     "alias": "Chump",
                     "race": 7,
                     "skin": 0
                 }
             ],
-            "subarea": 2,
+            "subarea": 3,
             "ultras": [ ],
             "mutations": [
-                "compoundelbow",
-                "Sadism",
-                "Duplicators"
+                21
             ],
-            "time": 4840,
+            "time": 1788,
             "race": 7,
             "name": "Chump",
             "loadout": [
@@ -87,13 +85,13 @@
                 }
             ],
             "pizzas": 0,
-            "bwep": "tree_pruner",
-            "wep": 6,
-            "killed_by": 14,
-            "hard": 6,
+            "bwep": "mcleod",
+            "wep": "mcleod",
+            "killed_by": 6,
+            "hard": 3,
             "loop": 0,
             "crown": false,
-            "area": 3,
+            "area": 1,
             "skin": 0
         }
     ]
