@@ -1,19 +1,8 @@
 {
     "scores": [
         {
-            "color": 16736708,
             "kills": 934,
             "subarea": 1,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "bwep": 12,
-                    "wep": "va_pummeler",
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
             "ultras": [
                 [
                     7,
@@ -31,67 +20,83 @@
                 10
             ],
             "time": 27351,
-            "race": 7,
-            "name": "Chump",
-            "loadout": [
+            "allies": [
                 {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
                     "alias": "Chump",
+                    "wep": "va_pummeler",
+                    "bwep": 12,
+                    "color": 16736708,
                     "race": 7,
                     "skin": 0
                 }
             ],
+            "race": 7,
+            "name": "Chump",
             "pizzas": 0,
+            "killed_by": 29,
             "bwep": 12,
             "wep": "va_pummeler",
-            "killed_by": 29,
             "hard": 26,
             "loop": 1,
             "crown": 1,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "area": 4,
             "skin": 0
         },
         {
-            "color": 16736708,
-            "kills": 57,
+            "kills": 263,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Steel Nerves",
+                "Shattered Skull",
+                "Double Vision",
+                8,
+                10,
+                "condensedmeat"
+            ],
+            "time": 10007,
             "allies": [
                 {
-                    "color": 16736708,
-                    "bwep": "mcleod",
-                    "wep": "mcleod",
                     "alias": "Chump",
+                    "wep": 5,
+                    "bwep": 71,
                     "race": 7,
+                    "color": 16736708,
                     "skin": 0
                 }
             ],
-            "subarea": 3,
-            "ultras": [ ],
-            "mutations": [
-                21
-            ],
-            "time": 1788,
             "race": 7,
-            "name": "Chump",
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
             "pizzas": 0,
-            "bwep": "mcleod",
-            "wep": "mcleod",
-            "killed_by": 6,
-            "hard": 3,
+            "name": "Chump",
+            "killed_by": 26,
+            "bwep": 71,
+            "wep": 5,
+            "hard": 9,
             "loop": 0,
             "crown": false,
-            "area": 1,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "area": 5,
             "skin": 0
         }
     ]
