@@ -23,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -42,8 +42,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_basilisk",
                     "bwep": "SuperShotgun",
+                    "wep": "va_basilisk",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,15 +54,19 @@
             "skin": 0
         },
         {
-            "kills": 70,
+            "kills": 499,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                25,
-                15,
-                11
+                21,
+                "Shell Cellulite",
+                10,
+                5,
+                "Thick Head",
+                "Rocket Casings",
+                15
             ],
-            "time": 2813,
+            "time": 19708,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -77,17 +81,17 @@
             "pizzas": 0,
             "name": "Chump",
             "killed_by": 0,
-            "bwep": 5,
-            "wep": 6,
-            "hard": 3,
-            "loop": 0,
+            "bwep": "va_auto_magnum",
+            "wep": 85,
+            "hard": 17,
+            "loop": 1,
             "crown": false,
             "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 5,
+                    "wep": 85,
+                    "bwep": "va_auto_magnum",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
