@@ -23,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -42,8 +42,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "SuperShotgun",
                     "wep": "va_basilisk",
+                    "bwep": "SuperShotgun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,20 +54,15 @@
             "skin": 0
         },
         {
-            "kills": 380,
+            "kills": 70,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "excitedneurons",
-                "Compressing Fist",
-                "Shattered Skull",
-                "Loner",
-                "Energized Intestines",
-                2,
-                10,
-                15
+                25,
+                15,
+                11
             ],
-            "time": 13588,
+            "time": 2813,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -81,10 +76,10 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 34,
-            "bwep": 33,
+            "killed_by": 0,
+            "bwep": 5,
             "wep": 6,
-            "hard": 13,
+            "hard": 3,
             "loop": 0,
             "crown": false,
             "color": 16736708,
@@ -92,13 +87,13 @@
                 {
                     "alias": "Chump",
                     "wep": 6,
-                    "bwep": 33,
+                    "bwep": 5,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "area": 7,
+            "area": 1,
             "skin": 0
         }
     ]
