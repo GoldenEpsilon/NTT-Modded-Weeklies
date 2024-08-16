@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_pummeler",
                     "bwep": 12,
+                    "wep": "va_pummeler",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -32,60 +32,49 @@
             ],
             "race": 7,
             "name": "Chump",
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "killed_by": 29,
             "bwep": 12,
             "wep": "va_pummeler",
             "hard": 26,
             "loop": 1,
             "crown": 1,
+            "pizzas": 0,
             "color": 16736708,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
             "area": 4,
             "skin": 0
         },
         {
-            "kills": 263,
+            "kills": 182,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "Steel Nerves",
-                "Shattered Skull",
-                "Double Vision",
-                8,
-                10,
-                "condensedmeat"
+                11,
+                "Fractured Fingers",
+                "Ruffled Feathers",
+                8
             ],
-            "time": 10007,
+            "time": 8073,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 5,
-                    "bwep": 71,
+                    "wep": 19,
+                    "bwep": "va_sinusoid_pistol",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "killed_by": 26,
-            "bwep": 71,
-            "wep": 5,
-            "hard": 9,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -96,7 +85,16 @@
                     "skin": 0
                 }
             ],
-            "area": 5,
+            "name": "Chump",
+            "killed_by": 18,
+            "bwep": "va_sinusoid_pistol",
+            "wep": 19,
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 3,
             "skin": 0
         }
     ]
