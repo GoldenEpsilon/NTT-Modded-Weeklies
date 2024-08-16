@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 12,
                     "wep": "va_pummeler",
+                    "bwep": 12,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -35,8 +35,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -54,21 +54,21 @@
             "skin": 0
         },
         {
-            "kills": 182,
+            "kills": 203,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                11,
-                "Fractured Fingers",
-                "Ruffled Feathers",
-                8
+                27,
+                "excitedneurons",
+                10,
+                5
             ],
-            "time": 8073,
+            "time": 7074,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 19,
-                    "bwep": "va_sinusoid_pistol",
+                    "wep": "smg",
+                    "bwep": 19,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -86,9 +86,9 @@
                 }
             ],
             "name": "Chump",
-            "killed_by": 18,
-            "bwep": "va_sinusoid_pistol",
-            "wep": 19,
+            "killed_by": 15,
+            "bwep": 19,
+            "wep": "smg",
             "hard": 7,
             "loop": 0,
             "crown": false,
