@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 12,
                     "wep": "va_pummeler",
+                    "bwep": 12,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -35,8 +35,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -54,23 +54,30 @@
             "skin": 0
         },
         {
-            "kills": 113,
-            "ultras": [ ],
-            "subarea": 2,
-            "mutations": [
-                "Slim Pickings",
-                "Cranial Valve",
-                "Aerodynamic Ankles",
-                15,
-                23,
-                25
+            "kills": 1149,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
             ],
-            "time": 5508,
+            "subarea": 1,
+            "mutations": [
+                11,
+                "Shattered Skull",
+                14,
+                "powderedgums",
+                "Thick Head",
+                15,
+                8,
+                "Garment Regenerator"
+            ],
+            "time": 32474,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 19,
-                    "bwep": 17,
+                    "wep": "va_basilisk",
+                    "bwep": "SuperShotgun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -88,15 +95,15 @@
                 }
             ],
             "name": "Chump",
-            "killed_by": 15,
-            "bwep": 17,
-            "wep": 19,
-            "hard": 6,
-            "loop": 0,
-            "crown": false,
+            "killed_by": 58,
+            "bwep": "SuperShotgun",
+            "wep": "va_basilisk",
+            "hard": 30,
+            "loop": 1,
+            "crown": 1,
             "color": 16736708,
             "pizzas": 0,
-            "area": 3,
+            "area": 7,
             "skin": 0
         }
     ]
