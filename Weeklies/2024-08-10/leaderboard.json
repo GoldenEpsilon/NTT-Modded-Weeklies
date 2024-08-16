@@ -1,67 +1,24 @@
 {
     "scores": [
         {
-            "kills": 934,
-            "subarea": 1,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "mutations": [
-                "Compressing Fist",
-                23,
-                "Staked Chest",
-                "Garment Regenerator",
-                "compoundelbow",
-                "sharpteeth",
-                "Double Vision",
-                10
-            ],
-            "time": 27351,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_pummeler",
-                    "bwep": 12,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "race": 7,
-            "name": "Chump",
+            "kills": 1149,
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
-                    "color": 16736708,
+                    "wep": "mw_ui_start",
                     "race": 7,
+                    "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 29,
-            "bwep": 12,
-            "wep": "va_pummeler",
-            "hard": 26,
-            "loop": 1,
-            "crown": 1,
-            "pizzas": 0,
-            "color": 16736708,
-            "area": 4,
-            "skin": 0
-        },
-        {
-            "kills": 1149,
+            "subarea": 1,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 1,
             "mutations": [
                 11,
                 "Shattered Skull",
@@ -73,17 +30,30 @@
                 "Garment Regenerator"
             ],
             "time": 32474,
+            "race": 7,
+            "name": "Chump",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_basilisk",
                     "bwep": "SuperShotgun",
+                    "wep": "va_basilisk",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "race": 7,
+            "pizzas": 0,
+            "killed_by": 58,
+            "bwep": "SuperShotgun",
+            "wep": "va_basilisk",
+            "hard": 30,
+            "loop": 1,
+            "crown": 1,
+            "color": 16736708,
+            "area": 7,
+            "skin": 0
+        },
+        {
             "loadout": [
                 {
                     "alias": "Chump",
@@ -94,16 +64,37 @@
                     "skin": 0
                 }
             ],
+            "kills": 116,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [
+                "Loner",
+                "Laser Focus",
+                "excitedneurons",
+                "Rocket Casings"
+            ],
+            "time": 4189,
+            "race": 7,
             "name": "Chump",
-            "killed_by": 58,
-            "bwep": "SuperShotgun",
-            "wep": "va_basilisk",
-            "hard": 30,
-            "loop": 1,
-            "crown": 1,
-            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 19,
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "pizzas": 0,
-            "area": 7,
+            "killed_by": 15,
+            "bwep": 1,
+            "wep": 19,
+            "hard": 5,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 3,
             "skin": 0
         }
     ]
