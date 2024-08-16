@@ -23,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -42,8 +42,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "SuperShotgun",
                     "wep": "va_basilisk",
+                    "bwep": "SuperShotgun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,19 +54,21 @@
             "skin": 0
         },
         {
-            "kills": 499,
+            "kills": 322,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 2,
             "mutations": [
-                21,
                 "Shell Cellulite",
-                10,
+                8,
+                "Scrap Arms",
+                14,
+                11,
                 5,
-                "Thick Head",
-                "Rocket Casings",
-                15
+                "Slim Pickings",
+                "Disco Nose",
+                "Shocked Skin"
             ],
-            "time": 19708,
+            "time": 15177,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -80,24 +82,24 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 0,
-            "bwep": "va_auto_magnum",
-            "wep": 85,
-            "hard": 17,
-            "loop": 1,
+            "killed_by": 58,
+            "bwep": "CombatHeavySlugger",
+            "wep": "va_mass_driver",
+            "hard": 14,
+            "loop": 0,
             "crown": false,
             "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 85,
-                    "bwep": "va_auto_magnum",
+                    "wep": "va_mass_driver",
+                    "bwep": "CombatHeavySlugger",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "area": 1,
+            "area": 7,
             "skin": 0
         }
     ]
