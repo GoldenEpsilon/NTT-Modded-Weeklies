@@ -1,54 +1,6 @@
 {
     "scores": [
         {
-            "kills": 407,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                27,
-                "Ruffled Feathers",
-                "Rocket Casings",
-                1,
-                "Explosive Gaze",
-                8,
-                15,
-                "excitedneurons"
-            ],
-            "time": 20392,
-            "race": 7,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 37,
-            "bwep": "va_auto_marksman_rifle",
-            "wep": "va_lancer_shotgun",
-            "hard": 16,
-            "loop": 0,
-            "crown": 1,
-            "color": 16736708,
-            "area": 7,
-            "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": "va_auto_marksman_rifle",
-                    "wep": "va_lancer_shotgun",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
-        },
-        {
             "kills": 1380,
             "ultras": [
                 [
@@ -67,8 +19,64 @@
                 8,
                 7
             ],
+            "pizzas": 0,
             "time": 36072,
             "race": 7,
+            "name": "Chump",
+            "killed_by": 29,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "bwep": 23,
+            "wep": "Tsunami",
+            "hard": 30,
+            "loop": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 23,
+                    "wep": "Tsunami",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "crown": 1,
+            "color": 16736708,
+            "area": 6,
+            "skin": 0
+        },
+        {
+            "kills": 1066,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "subarea": 2,
+            "mutations": [
+                21,
+                1,
+                "Confidence",
+                "Energized Intestines",
+                9,
+                "condensedmeat",
+                "luckyshot",
+                5
+            ],
+            "pizzas": 0,
+            "time": 32954,
+            "race": 7,
+            "name": "Chump",
+            "killed_by": 94,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -79,27 +87,24 @@
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 29,
-            "bwep": 23,
-            "wep": "Tsunami",
-            "hard": 30,
-            "loop": 1,
-            "crown": 1,
-            "color": 16736708,
-            "area": 6,
-            "skin": 0,
+            "bwep": "va_automagic_bolt_caster",
+            "wep": "va_automagic_bolt_caster",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "Tsunami",
-                    "bwep": 23,
+                    "wep": "va_automagic_bolt_caster",
+                    "bwep": "va_automagic_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
-            ]
+            ],
+            "hard": 27,
+            "loop": 1,
+            "crown": 1,
+            "color": 16736708,
+            "area": 5,
+            "skin": 0
         }
     ]
 }
