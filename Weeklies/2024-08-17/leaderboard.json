@@ -27,8 +27,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -41,8 +41,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "Tsunami",
                     "bwep": 23,
+                    "wep": "Tsunami",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,23 +54,20 @@
             "skin": 0
         },
         {
-            "kills": 325,
+            "kills": 186,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "Rocket Casings",
-                21,
-                "Shell Cellulite",
-                25,
                 11,
-                10,
-                "condensedmeat"
+                8,
+                "Confidence",
+                "Ruffled Feathers"
             ],
             "pizzas": 0,
-            "time": 12959,
+            "time": 5918,
             "race": 7,
             "name": "Chump",
-            "killed_by": 28,
+            "killed_by": 78,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -81,23 +78,23 @@
                     "skin": 0
                 }
             ],
-            "bwep": "va_lancer_shotgun",
-            "wep": "va_lancer_shotgun",
+            "bwep": 1,
+            "wep": 4,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_lancer_shotgun",
-                    "bwep": "va_lancer_shotgun",
+                    "wep": 4,
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "hard": 12,
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 6,
+            "area": 3,
             "skin": 0
         }
     ]
