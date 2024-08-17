@@ -27,8 +27,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -41,8 +41,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "Tsunami",
                     "bwep": 23,
+                    "wep": "Tsunami",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,30 +54,24 @@
             "skin": 0
         },
         {
-            "kills": 906,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "subarea": 1,
+            "kills": 269,
+            "ultras": [ ],
+            "subarea": 3,
             "mutations": [
-                11,
                 "Shattered Skull",
-                8,
-                27,
-                "Thick Head",
-                "Free Space",
-                "Groupthink",
-                "Sloppy Fingers",
-                4
+                10,
+                "Slim Pickings",
+                "Aerodynamic Ankles",
+                "Telekinetic Tears",
+                "Ruffled Feathers",
+                11,
+                "Laser Focus"
             ],
             "pizzas": 0,
-            "time": 26014,
+            "time": 11128,
             "race": 7,
             "name": "Chump",
-            "killed_by": 15,
+            "killed_by": 51,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -88,23 +82,23 @@
                     "skin": 0
                 }
             ],
-            "bwep": 23,
-            "wep": 23,
+            "bwep": 75,
+            "wep": "va_dustdropper",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 23,
-                    "bwep": 23,
+                    "wep": "va_dustdropper",
+                    "bwep": 75,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "hard": 22,
-            "loop": 1,
-            "crown": 1,
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
             "color": 16736708,
-            "area": 3,
+            "area": 5,
             "skin": 0
         }
     ]
