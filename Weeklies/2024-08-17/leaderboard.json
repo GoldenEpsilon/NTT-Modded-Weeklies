@@ -19,8 +19,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -40,8 +40,61 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_lancer_shotgun",
                     "bwep": "va_auto_marksman_rifle",
+                    "wep": "va_lancer_shotgun",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "kills": 1380,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                "Shattered Skull",
+                "Compressing Fist",
+                10,
+                "Thick Head",
+                "Steel Nerves",
+                "Shell Cellulite",
+                8,
+                7
+            ],
+            "time": 36072,
+            "race": 7,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Chump",
+            "pizzas": 0,
+            "killed_by": 29,
+            "bwep": 23,
+            "wep": "Tsunami",
+            "hard": 30,
+            "loop": 1,
+            "crown": 1,
+            "color": 16736708,
+            "area": 6,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "Tsunami",
+                    "bwep": 23,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
