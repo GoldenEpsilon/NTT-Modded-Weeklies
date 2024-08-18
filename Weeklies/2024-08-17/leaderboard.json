@@ -1,14 +1,25 @@
 {
     "scores": [
         {
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "color": 16736708,
             "kills": 1380,
+            "subarea": 1,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 1,
             "mutations": [
                 "Shattered Skull",
                 "Compressing Fist",
@@ -19,86 +30,74 @@
                 8,
                 7
             ],
-            "pizzas": 0,
             "time": 36072,
             "race": 7,
             "name": "Chump",
-            "killed_by": 29,
-            "loadout": [
+            "pizzas": 0,
+            "allies": [
                 {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
                     "color": 16736708,
+                    "bwep": 23,
+                    "wep": "Tsunami",
+                    "alias": "Chump",
+                    "race": 7,
                     "skin": 0
                 }
             ],
             "bwep": 23,
             "wep": "Tsunami",
+            "killed_by": 29,
             "hard": 30,
             "loop": 1,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 23,
-                    "wep": "Tsunami",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
             "crown": 1,
-            "color": 16736708,
             "area": 6,
             "skin": 0
         },
         {
-            "kills": 269,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                "Shattered Skull",
-                10,
-                "Slim Pickings",
-                "Aerodynamic Ankles",
-                "Telekinetic Tears",
-                "Ruffled Feathers",
-                11,
-                "Laser Focus"
-            ],
-            "pizzas": 0,
-            "time": 11128,
-            "race": 7,
-            "name": "Chump",
-            "killed_by": 51,
             "loadout": [
                 {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
                     "color": 16736708,
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "alias": "Chump",
+                    "race": 7,
                     "skin": 0
                 }
             ],
-            "bwep": 75,
-            "wep": "va_dustdropper",
+            "color": 16736708,
+            "kills": 330,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [
+                "excitedneurons",
+                21,
+                8,
+                "condensedmeat",
+                "powderedgums",
+                "Duplicators",
+                5
+            ],
+            "time": 17381,
+            "race": 7,
+            "name": "Chump",
+            "pizzas": 0,
             "allies": [
                 {
-                    "alias": "Chump",
-                    "wep": "va_dustdropper",
-                    "bwep": 75,
-                    "race": 7,
                     "color": 16736708,
+                    "bwep": 23,
+                    "wep": "va_martial_longsword",
+                    "alias": "Chump",
+                    "race": 7,
                     "skin": 0
                 }
             ],
-            "hard": 11,
+            "bwep": 23,
+            "wep": "va_martial_longsword",
+            "killed_by": 34,
+            "hard": 13,
             "loop": 0,
             "crown": false,
-            "color": 16736708,
-            "area": 5,
+            "area": 7,
             "skin": 0
         }
     ]
