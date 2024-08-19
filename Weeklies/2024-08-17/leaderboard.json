@@ -4,8 +4,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "Tsunami",
                     "bwep": 23,
+                    "wep": "Tsunami",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -42,8 +42,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -57,8 +57,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_automagic_bolt_caster",
                     "bwep": "Spreader",
+                    "wep": "va_automagic_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -97,6 +97,47 @@
             "loadout": [
                 {
                     "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "color": 16736708,
+            "area": 7,
+            "skin": 0
+        },
+        {
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 6,
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "kills": 41,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                8
+            ],
+            "time": 824,
+            "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 61,
+            "bwep": 1,
+            "wep": 6,
+            "hard": 2,
+            "loop": 0,
+            "crown": false,
+            "loadout": [
+                {
+                    "alias": "Chump",
                     "wep": "mw_ui_start",
                     "bwep": 1,
                     "race": 7,
@@ -105,7 +146,7 @@
                 }
             ],
             "color": 16736708,
-            "area": 7,
+            "area": 1,
             "skin": 0
         }
     ]
