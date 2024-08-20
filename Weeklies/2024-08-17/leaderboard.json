@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "Tsunami",
                     "bwep": 23,
+                    "wep": "Tsunami",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -42,8 +42,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -78,8 +78,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_automagic_bolt_caster",
                     "bwep": "Spreader",
+                    "wep": "va_automagic_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -97,8 +97,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -109,20 +109,21 @@
             "skin": 0
         },
         {
-            "kills": 108,
+            "kills": 142,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                23,
-                "excitedneurons",
-                "Double Vision"
+                11,
+                "Rocket Casings",
+                "Shattered Skull",
+                "powderedgums"
             ],
-            "time": 5152,
+            "time": 6295,
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": 6,
-                    "bwep": 38,
+                    "bwep": 10,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -131,10 +132,10 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 15,
-            "bwep": 38,
+            "killed_by": 21,
+            "bwep": 10,
             "wep": 6,
-            "hard": 7,
+            "hard": 8,
             "loop": 0,
             "crown": false,
             "color": 16736708,
@@ -148,7 +149,7 @@
                     "skin": 0
                 }
             ],
-            "area": 3,
+            "area": 4,
             "skin": 0
         }
     ]
