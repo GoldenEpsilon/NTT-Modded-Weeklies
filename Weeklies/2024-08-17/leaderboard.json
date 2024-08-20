@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 23,
                     "wep": "Tsunami",
+                    "bwep": 23,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -32,23 +32,23 @@
             ],
             "race": 7,
             "name": "Chump",
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 29,
             "bwep": 23,
             "wep": "Tsunami",
             "hard": 30,
             "loop": 1,
             "crown": 1,
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
             "area": 6,
             "skin": 0
@@ -78,8 +78,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "Spreader",
                     "wep": "va_automagic_bolt_caster",
+                    "bwep": "Spreader",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -87,47 +87,13 @@
             ],
             "race": 7,
             "name": "Chump",
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 37,
             "bwep": "Spreader",
             "wep": "va_automagic_bolt_caster",
             "hard": 34,
             "loop": 1,
             "crown": 1,
-            "pizzas": 0,
-            "color": 16736708,
-            "area": 7,
-            "skin": 0
-        },
-        {
-            "kills": 83,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                5,
-                "condensedmeat"
-            ],
-            "time": 2707,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 6,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 7,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -138,16 +104,51 @@
                     "skin": 0
                 }
             ],
+            "color": 16736708,
+            "area": 7,
+            "skin": 0
+        },
+        {
+            "kills": 108,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                23,
+                "excitedneurons",
+                "Double Vision"
+            ],
+            "time": 5152,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 6,
+                    "bwep": 38,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 7,
+            "pizzas": 0,
             "name": "Chump",
-            "killed_by": 50,
-            "bwep": 6,
+            "killed_by": 15,
+            "bwep": 38,
             "wep": 6,
-            "hard": 4,
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "pizzas": 0,
-            "area": 2,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "area": 3,
             "skin": 0
         }
     ]
