@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 23,
                     "wep": "Tsunami",
+                    "bwep": 23,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -42,8 +42,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -78,8 +78,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "Spreader",
                     "wep": "va_automagic_bolt_caster",
+                    "bwep": "Spreader",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -97,8 +97,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -109,23 +109,24 @@
             "skin": 0
         },
         {
-            "kills": 265,
+            "kills": 299,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
+                "Ruffled Feathers",
+                25,
                 "compoundelbow",
-                11,
-                14,
-                "Mimicry",
-                "Garment Regenerator",
-                "Double Vision"
+                23,
+                1,
+                "Energized Intestines",
+                21
             ],
-            "time": 12130,
+            "time": 11484,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_automagic_bolt_caster",
-                    "bwep": 6,
+                    "wep": 6,
+                    "bwep": 63,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -135,11 +136,11 @@
             "pizzas": 0,
             "name": "Chump",
             "killed_by": 27,
-            "bwep": 6,
-            "wep": "va_automagic_bolt_caster",
-            "hard": 12,
+            "bwep": 63,
+            "wep": 6,
+            "hard": 11,
             "loop": 0,
-            "crown": 1,
+            "crown": false,
             "color": 16736708,
             "loadout": [
                 {
