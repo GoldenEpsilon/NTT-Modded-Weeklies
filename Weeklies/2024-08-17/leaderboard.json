@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "Tsunami",
                     "bwep": 23,
+                    "wep": "Tsunami",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -32,23 +32,23 @@
             ],
             "race": 7,
             "name": "Chump",
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 29,
             "bwep": 23,
             "wep": "Tsunami",
             "hard": 30,
             "loop": 1,
             "crown": 1,
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
             "area": 6,
             "skin": 0
@@ -78,8 +78,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_automagic_bolt_caster",
                     "bwep": "Spreader",
+                    "wep": "va_automagic_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -87,49 +87,60 @@
             ],
             "race": 7,
             "name": "Chump",
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 37,
             "bwep": "Spreader",
             "wep": "va_automagic_bolt_caster",
             "hard": 34,
             "loop": 1,
             "crown": 1,
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
             "area": 7,
             "skin": 0
         },
         {
-            "kills": 186,
+            "kills": 265,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                20,
                 "compoundelbow",
-                "Shattered Skull",
-                15
+                11,
+                14,
+                "Mimicry",
+                "Garment Regenerator",
+                "Double Vision"
             ],
-            "time": 7853,
+            "time": 12130,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 17,
-                    "bwep": 69,
+                    "wep": "va_automagic_bolt_caster",
+                    "bwep": 6,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 27,
+            "bwep": 6,
+            "wep": "va_automagic_bolt_caster",
+            "hard": 12,
+            "loop": 0,
+            "crown": 1,
+            "color": 16736708,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -140,16 +151,7 @@
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "killed_by": 19,
-            "bwep": 69,
-            "wep": 17,
-            "hard": 8,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "pizzas": 0,
-            "area": 4,
+            "area": 5,
             "skin": 0
         }
     ]
