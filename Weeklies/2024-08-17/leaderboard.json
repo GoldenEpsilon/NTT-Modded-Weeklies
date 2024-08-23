@@ -26,8 +26,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -42,8 +42,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_automagic_bolt_caster",
                     "bwep": "va_automagic_bolt_caster",
+                    "wep": "va_automagic_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,18 +54,17 @@
             "skin": 0
         },
         {
-            "kills": 239,
+            "kills": 175,
             "ultras": [ ],
             "subarea": 2,
             "mutations": [
-                21,
-                "Garment Regenerator",
-                "Absorbing Abs",
-                5,
-                "Double Vision",
-                "Staked Chest"
+                "Slim Pickings",
+                "Cranial Valve",
+                "Laser Focus",
+                23,
+                5
             ],
-            "time": 9330,
+            "time": 6418,
             "pizzas": 0,
             "race": 7,
             "loadout": [
@@ -79,24 +78,24 @@
                 }
             ],
             "name": "Chump",
-            "killed_by": 26,
-            "bwep": 30,
-            "wep": 66,
-            "hard": 10,
+            "killed_by": 15,
+            "bwep": 2,
+            "wep": 6,
+            "hard": 6,
             "loop": 0,
             "crown": false,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 66,
-                    "bwep": 30,
+                    "wep": 6,
+                    "bwep": 2,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "color": 16736708,
-            "area": 5,
+            "area": 3,
             "skin": 0
         }
     ]
