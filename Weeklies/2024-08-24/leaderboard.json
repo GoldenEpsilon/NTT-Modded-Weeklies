@@ -20,8 +20,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -41,8 +41,61 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_razorpop",
                     "bwep": "SuperShotgun",
+                    "wep": "va_razorpop",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "kills": 1440,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                27,
+                11,
+                "Shattered Skull",
+                "powderedgums",
+                "Double Vision",
+                1,
+                8,
+                "Thick Head"
+            ],
+            "time": 37896,
+            "race": 7,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Chump",
+            "pizzas": 0,
+            "killed_by": 58,
+            "bwep": 93,
+            "wep": "va_dustdropper",
+            "hard": 35,
+            "loop": 2,
+            "crown": 1,
+            "color": 16736708,
+            "area": 0,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_dustdropper",
+                    "bwep": 93,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
