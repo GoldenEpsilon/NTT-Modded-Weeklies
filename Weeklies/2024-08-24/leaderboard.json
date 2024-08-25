@@ -1,55 +1,6 @@
 {
     "scores": [
         {
-            "kills": 367,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                "excitedneurons",
-                "Slim Pickings",
-                "Energized Intestines",
-                "Cranial Valve",
-                "powderedgums",
-                "Shattered Skull",
-                5,
-                "compoundelbow",
-                10
-            ],
-            "time": 12491,
-            "race": 7,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 36,
-            "bwep": "SuperShotgun",
-            "wep": "va_razorpop",
-            "hard": 14,
-            "loop": 0,
-            "crown": 1,
-            "color": 16736708,
-            "area": 7,
-            "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": "SuperShotgun",
-                    "wep": "va_razorpop",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
-        },
-        {
             "kills": 1440,
             "ultras": [
                 [
@@ -69,7 +20,52 @@
                 "Thick Head"
             ],
             "time": 37896,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "race": 7,
+            "name": "Chump",
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 93,
+                    "wep": "va_dustdropper",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 58,
+            "bwep": 93,
+            "wep": "va_dustdropper",
+            "hard": 35,
+            "loop": 2,
+            "crown": 1,
+            "pizzas": 0,
+            "color": 16736708,
+            "area": 0,
+            "skin": 0
+        },
+        {
+            "kills": 322,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "Sloppy Fingers",
+                8,
+                "Rocket Casings",
+                23,
+                22,
+                20
+            ],
+            "time": 13461,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -80,27 +76,28 @@
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 58,
-            "bwep": 93,
-            "wep": "va_dustdropper",
-            "hard": 35,
-            "loop": 2,
-            "crown": 1,
-            "color": 16736708,
-            "area": 0,
-            "skin": 0,
+            "race": 7,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_dustdropper",
-                    "bwep": 93,
+                    "wep": 17,
+                    "bwep": "minigun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
-            ]
+            ],
+            "name": "Chump",
+            "killed_by": 27,
+            "bwep": "minigun",
+            "wep": 17,
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 5,
+            "skin": 0
         }
     ]
 }
