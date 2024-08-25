@@ -23,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -35,8 +35,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 93,
                     "wep": "va_dustdropper",
+                    "bwep": 93,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,18 +54,17 @@
             "skin": 0
         },
         {
-            "kills": 322,
+            "kills": 186,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                "Sloppy Fingers",
-                8,
-                "Rocket Casings",
-                23,
-                22,
-                20
+                25,
+                "Compressing Fist",
+                "Sadism",
+                "powderedgums",
+                15
             ],
-            "time": 13461,
+            "time": 6435,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -80,23 +79,23 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 17,
-                    "bwep": "minigun",
+                    "wep": "va_toxic_flechette_shotgun",
+                    "bwep": 21,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 27,
-            "bwep": "minigun",
-            "wep": 17,
-            "hard": 11,
+            "killed_by": 17,
+            "bwep": 21,
+            "wep": "va_toxic_flechette_shotgun",
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "color": 16736708,
             "pizzas": 0,
-            "area": 5,
+            "area": 3,
             "skin": 0
         }
     ]
