@@ -23,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -42,8 +42,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_dustdropper",
                     "bwep": 93,
+                    "wep": "va_dustdropper",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,18 +54,23 @@
             "skin": 0
         },
         {
-            "kills": 310,
+            "kills": 408,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 3,
             "mutations": [
-                8,
-                "excitedneurons",
-                "Ruffled Feathers",
-                "Rocket Casings",
-                "Energized Intestines",
-                "Garment Regenerator"
+                "Absorbing Abs",
+                "Slim Pickings",
+                "Buckshot Back",
+                "Iron Skin",
+                9,
+                25,
+                4,
+                "Staked Chest",
+                23,
+                "compoundelbow",
+                12
             ],
-            "time": 9771,
+            "time": 17746,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -79,24 +84,24 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 23,
-            "bwep": 6,
-            "wep": 117,
-            "hard": 10,
+            "killed_by": 37,
+            "bwep": "PikeSplinterGun",
+            "wep": 62,
+            "hard": 15,
             "loop": 0,
             "crown": false,
             "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 117,
-                    "bwep": 6,
+                    "wep": 62,
+                    "bwep": "PikeSplinterGun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "area": 5,
+            "area": 7,
             "skin": 0
         }
     ]
