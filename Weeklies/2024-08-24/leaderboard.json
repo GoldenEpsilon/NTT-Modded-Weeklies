@@ -23,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -35,8 +35,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_dustdropper",
                     "bwep": 93,
+                    "wep": "va_dustdropper",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,18 +54,14 @@
             "skin": 0
         },
         {
-            "kills": 345,
+            "kills": 86,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                "Rocket Casings",
-                "Scrap Arms",
-                "condensedmeat",
-                21,
-                23,
-                20
+                "Shell Cellulite",
+                "Sloppy Fingers"
             ],
-            "time": 12625,
+            "time": 3508,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -80,23 +76,23 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 30,
-                    "bwep": "DiscoBallGun",
+                    "wep": 34,
+                    "bwep": 69,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 28,
-            "bwep": "DiscoBallGun",
-            "wep": 30,
-            "hard": 12,
+            "killed_by": 62,
+            "bwep": 69,
+            "wep": 34,
+            "hard": 4,
             "loop": 0,
             "crown": false,
             "color": 16736708,
             "pizzas": 0,
-            "area": 6,
+            "area": 2,
             "skin": 0
         }
     ]
