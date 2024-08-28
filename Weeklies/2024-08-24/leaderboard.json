@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_masterton",
                     "wep": 93,
+                    "bwep": "va_masterton",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -37,8 +37,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,34 +55,41 @@
             "skin": 0
         },
         {
-            "kills": 253,
-            "ultras": [ ],
-            "subarea": 3,
+            "kills": 1052,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "subarea": 1,
             "mutations": [
-                "Shattered Skull",
-                "Double Vision",
-                "Sadism",
+                "Compressing Fist",
                 "Loner",
-                "Free Space",
+                "Energized Intestines",
+                "Absorbing Abs",
+                11,
+                "compoundelbow",
+                "Duplicators",
                 "Rubber Rounds",
                 "Shivering Spine",
-                5,
-                4
+                "Double Vision",
+                20
             ],
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": "PlasmaCarbine",
+                    "wep": 62,
+                    "bwep": "SeekerBundle",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "time": 10692,
+            "time": 24345,
             "race": 7,
             "name": "Chump",
-            "killed_by": 27,
+            "killed_by": 92,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -93,14 +100,14 @@
                     "skin": 0
                 }
             ],
-            "bwep": "PlasmaCarbine",
-            "wep": 6,
+            "bwep": "SeekerBundle",
+            "wep": 62,
             "pizzas": 0,
-            "hard": 11,
-            "loop": 0,
-            "crown": false,
+            "hard": 26,
+            "loop": 1,
+            "crown": 1,
             "color": 16736708,
-            "area": 5,
+            "area": 4,
             "skin": 0
         }
     ]
