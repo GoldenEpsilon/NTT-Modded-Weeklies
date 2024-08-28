@@ -23,8 +23,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 93,
                     "bwep": "va_masterton",
+                    "wep": 93,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -37,8 +37,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,32 +55,34 @@
             "skin": 0
         },
         {
-            "kills": 264,
+            "kills": 253,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                25,
-                "compoundelbow",
-                "Confidence",
-                27,
-                "Steel Nerves",
-                14,
-                28
+                "Shattered Skull",
+                "Double Vision",
+                "Sadism",
+                "Loner",
+                "Free Space",
+                "Rubber Rounds",
+                "Shivering Spine",
+                5,
+                4
             ],
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": 6,
-                    "bwep": 12,
+                    "bwep": "PlasmaCarbine",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "time": 10613,
+            "time": 10692,
             "race": 7,
             "name": "Chump",
-            "killed_by": 25,
+            "killed_by": 27,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -91,7 +93,7 @@
                     "skin": 0
                 }
             ],
-            "bwep": 12,
+            "bwep": "PlasmaCarbine",
             "wep": 6,
             "pizzas": 0,
             "hard": 11,
