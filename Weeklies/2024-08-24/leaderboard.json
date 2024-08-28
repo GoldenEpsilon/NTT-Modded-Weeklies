@@ -1,59 +1,6 @@
 {
     "scores": [
         {
-            "kills": 1440,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "subarea": 1,
-            "mutations": [
-                27,
-                11,
-                "Shattered Skull",
-                "powderedgums",
-                "Double Vision",
-                1,
-                8,
-                "Thick Head"
-            ],
-            "time": 37896,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 7,
-            "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 93,
-                    "wep": "va_dustdropper",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 58,
-            "bwep": 93,
-            "wep": "va_dustdropper",
-            "hard": 35,
-            "loop": 2,
-            "crown": 1,
-            "pizzas": 0,
-            "color": 16736708,
-            "area": 0,
-            "skin": 0
-        },
-        {
             "kills": 2719,
             "ultras": [
                 [
@@ -73,7 +20,70 @@
                 "Shattered Skull",
                 "Mimicry"
             ],
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": "va_masterton",
+                    "wep": 93,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "time": 54933,
+            "race": 7,
+            "name": "Chump",
+            "killed_by": 94,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "bwep": "va_masterton",
+            "wep": 93,
+            "hard": 55,
+            "loop": 3,
+            "pizzas": 1,
+            "crown": 1,
+            "color": 16736708,
+            "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 332,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                10,
+                "compoundelbow",
+                "Loner",
+                "Cranial Valve",
+                4,
+                "Slim Pickings",
+                "Aerodynamic Ankles",
+                "Iron Skin",
+                28,
+                16
+            ],
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 6,
+                    "bwep": "va_dustdropper",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "time": 13857,
+            "race": 7,
+            "name": "Chump",
+            "killed_by": 58,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -84,27 +94,14 @@
                     "skin": 0
                 }
             ],
-            "race": 7,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 93,
-                    "bwep": "va_masterton",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
-            "killed_by": 94,
-            "bwep": "va_masterton",
-            "wep": 93,
-            "hard": 55,
-            "loop": 3,
-            "crown": 1,
+            "bwep": "va_dustdropper",
+            "wep": 6,
+            "pizzas": 0,
+            "hard": 13,
+            "loop": 0,
+            "crown": false,
             "color": 16736708,
-            "pizzas": 1,
-            "area": 1,
+            "area": 7,
             "skin": 0
         }
     ]
