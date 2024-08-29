@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 93,
                     "bwep": "va_masterton",
+                    "wep": 93,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,24 +55,27 @@
             "skin": 0
         },
         {
-            "kills": 317,
+            "kills": 357,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
+                "Slim Pickings",
+                "Energized Intestines",
+                "Groupthink",
+                10,
                 5,
-                "compoundelbow",
+                1,
                 20,
-                25,
-                21,
                 "Sloppy Fingers",
-                4
+                11,
+                8
             ],
-            "time": 12859,
+            "time": 14186,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_bolt_upcaster",
-                    "bwep": "va_bolt_upcaster",
+                    "wep": 112,
+                    "bwep": 63,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -81,11 +84,11 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 28,
-            "bwep": "va_bolt_upcaster",
-            "wep": "va_bolt_upcaster",
-            "hard": 12,
-            "loop": 0,
+            "killed_by": 38,
+            "bwep": 63,
+            "wep": 112,
+            "hard": 16,
+            "loop": 1,
             "crown": false,
             "color": 16736708,
             "loadout": [
@@ -98,7 +101,7 @@
                     "skin": 0
                 }
             ],
-            "area": 6,
+            "area": 0,
             "skin": 0
         }
     ]
