@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_masterton",
                     "wep": 93,
+                    "bwep": "va_masterton",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -36,8 +36,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,20 +55,24 @@
             "skin": 0
         },
         {
-            "kills": 169,
+            "kills": 351,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 2,
             "mutations": [
-                "compoundelbow",
-                "Duplicators",
-                5
+                "Double Vision",
+                "Confidence",
+                11,
+                27,
+                "Garment Regenerator",
+                16,
+                "excitedneurons"
             ],
-            "time": 4513,
+            "time": 15240,
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": 17,
-                    "bwep": 1,
+                    "bwep": "va_blood_magnum",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -86,15 +90,15 @@
                 }
             ],
             "name": "Chump",
-            "killed_by": 15,
-            "bwep": 1,
+            "killed_by": 36,
+            "bwep": "va_blood_magnum",
             "wep": 17,
-            "hard": 5,
+            "hard": 14,
             "loop": 0,
             "crown": false,
             "color": 16736708,
             "pizzas": 0,
-            "area": 3,
+            "area": 7,
             "skin": 0
         }
     ]
