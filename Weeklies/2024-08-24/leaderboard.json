@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_masterton",
                     "wep": 93,
+                    "bwep": "va_masterton",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,27 +55,21 @@
             "skin": 0
         },
         {
-            "kills": 357,
+            "kills": 138,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "Slim Pickings",
-                "Energized Intestines",
-                "Groupthink",
-                10,
-                5,
-                1,
+                "Confidence",
                 20,
-                "Sloppy Fingers",
-                11,
-                8
+                2,
+                5
             ],
-            "time": 14186,
+            "time": 6423,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 112,
-                    "bwep": 63,
+                    "wep": 6,
+                    "bwep": 13,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -84,11 +78,11 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 38,
-            "bwep": 63,
-            "wep": 112,
-            "hard": 16,
-            "loop": 1,
+            "killed_by": 15,
+            "bwep": 13,
+            "wep": 6,
+            "hard": 7,
+            "loop": 0,
             "crown": false,
             "color": 16736708,
             "loadout": [
@@ -101,7 +95,7 @@
                     "skin": 0
                 }
             ],
-            "area": 0,
+            "area": 3,
             "skin": 0
         }
     ]
