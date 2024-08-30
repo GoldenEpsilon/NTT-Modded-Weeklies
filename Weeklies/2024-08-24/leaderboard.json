@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_masterton",
                     "wep": 93,
+                    "bwep": "va_masterton",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -33,69 +33,53 @@
             ],
             "race": 7,
             "name": "Chump",
-            "pizzas": 1,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 94,
             "bwep": "va_masterton",
             "wep": 93,
             "hard": 55,
             "loop": 3,
             "crown": 1,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 1,
             "color": 16736708,
             "area": 1,
             "skin": 0
         },
         {
-            "kills": 1345,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "subarea": 3,
+            "kills": 480,
+            "ultras": [ ],
+            "subarea": 1,
             "mutations": [
+                "Rocket Casings",
                 21,
-                11,
-                8,
                 "Staked Chest",
-                25,
-                "Loner",
-                "Toxic Thoughts",
-                "Mimicry",
-                "Double Vision",
-                14
+                "excitedneurons",
+                "Garment Regenerator",
+                "Compressing Fist",
+                "Thick Head",
+                "Duplicators"
             ],
-            "time": 35663,
+            "time": 20115,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_automagic_bolt_caster",
-                    "bwep": "SeekerBundle",
+                    "wep": 66,
+                    "bwep": "minigun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "killed_by": 34,
-            "bwep": "SeekerBundle",
-            "wep": "va_automagic_bolt_caster",
-            "hard": 34,
-            "loop": 1,
-            "crown": 1,
-            "color": 16736708,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -106,7 +90,16 @@
                     "skin": 0
                 }
             ],
-            "area": 7,
+            "name": "Chump",
+            "killed_by": 58,
+            "bwep": "minigun",
+            "wep": 66,
+            "hard": 18,
+            "loop": 1,
+            "crown": 1,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 1,
             "skin": 0
         }
     ]
