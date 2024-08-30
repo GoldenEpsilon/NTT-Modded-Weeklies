@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_masterton",
                     "wep": 93,
+                    "bwep": "va_masterton",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,23 +55,18 @@
             "skin": 0
         },
         {
-            "kills": 282,
+            "kills": 85,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "Loner",
-                "Bursted Chest",
-                27,
-                20,
-                "Rocket Casings",
-                "Shattered Skull"
+                16
             ],
-            "time": 10510,
+            "time": 2075,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 71,
-                    "bwep": 17,
+                    "wep": 4,
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -80,13 +75,10 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": [
-                null,
-                "ROCKET CASINGS BLAST"
-            ],
-            "bwep": 17,
-            "wep": 71,
-            "hard": 9,
+            "killed_by": 4,
+            "bwep": 1,
+            "wep": 4,
+            "hard": 3,
             "loop": 0,
             "crown": false,
             "color": 16736708,
@@ -100,7 +92,7 @@
                     "skin": 0
                 }
             ],
-            "area": 5,
+            "area": 1,
             "skin": 0
         }
     ]
