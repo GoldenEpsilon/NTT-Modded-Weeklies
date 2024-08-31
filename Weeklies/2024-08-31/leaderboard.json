@@ -25,8 +25,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -46,8 +46,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 33,
                     "wep": "va_auto_magnum",
+                    "bwep": 33,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,21 +55,20 @@
             ]
         },
         {
-            "kills": 373,
+            "kills": 353,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
+                "compoundelbow",
+                1,
+                21,
+                "Compressing Fist",
                 "Shell Cellulite",
-                10,
-                "Double Vision",
-                "Slim Pickings",
-                "Cruelty-Free Veganlust",
-                "Shocked Skin",
-                5,
-                "Ruffled Feathers",
-                1
+                25,
+                "Staked Chest",
+                "powderedgums"
             ],
-            "time": 12391,
+            "time": 14421,
             "race": 7,
             "loadout": [
                 {
@@ -83,10 +82,10 @@
             ],
             "name": "Chump",
             "pizzas": 0,
-            "killed_by": 36,
-            "bwep": 5,
-            "wep": 69,
-            "hard": 13,
+            "killed_by": 37,
+            "bwep": 10,
+            "wep": 6,
+            "hard": 15,
             "loop": 0,
             "crown": false,
             "color": 16736708,
@@ -95,8 +94,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 69,
-                    "bwep": 5,
+                    "wep": 6,
+                    "bwep": 10,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
