@@ -1,55 +1,6 @@
 {
     "scores": [
         {
-            "kills": 394,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                "condensedmeat",
-                11,
-                1,
-                "Loner",
-                "Dynamic Calves",
-                9,
-                "Double Vision",
-                21,
-                "Thick Head"
-            ],
-            "time": 16734,
-            "race": 7,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 37,
-            "bwep": 6,
-            "wep": 6,
-            "hard": 16,
-            "loop": 0,
-            "crown": 1,
-            "color": 16736708,
-            "area": 7,
-            "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 6,
-                    "wep": 6,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
-        },
-        {
             "kills": 559,
             "ultras": [
                 [
@@ -74,8 +25,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -95,8 +46,57 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_auto_magnum",
                     "bwep": 33,
+                    "wep": "va_auto_magnum",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "kills": 373,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Shell Cellulite",
+                10,
+                "Double Vision",
+                "Slim Pickings",
+                "Cruelty-Free Veganlust",
+                "Shocked Skin",
+                5,
+                "Ruffled Feathers",
+                1
+            ],
+            "time": 12391,
+            "race": 7,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Chump",
+            "pizzas": 0,
+            "killed_by": 36,
+            "bwep": 5,
+            "wep": 69,
+            "hard": 13,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 7,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 69,
+                    "bwep": 5,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
