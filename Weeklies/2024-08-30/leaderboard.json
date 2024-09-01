@@ -3,7 +3,6 @@
         {
             "color": 16736708,
             "kills": 363,
-            "subarea": 2,
             "allies": [
                 {
                     "color": 16736708,
@@ -14,6 +13,7 @@
                     "skin": 0
                 }
             ],
+            "subarea": 2,
             "ultras": [ ],
             "mutations": [
                 "Shell Cellulite",
@@ -50,29 +50,27 @@
         },
         {
             "color": 16736708,
-            "kills": 290,
+            "kills": 186,
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": 23,
-                    "wep": 90,
+                    "bwep": 38,
+                    "wep": 71,
                     "alias": "Chump",
                     "race": 7,
                     "skin": 0
                 }
             ],
-            "subarea": 1,
+            "subarea": 3,
             "ultras": [ ],
             "mutations": [
-                "Compressing Fist",
-                "excitedneurons",
-                10,
-                15,
-                20,
                 25,
-                "Steel Nerves"
+                "Duplicators",
+                14,
+                "Shattered Skull",
+                "Compressing Fist"
             ],
-            "time": 13426,
+            "time": 6459,
             "race": 7,
             "name": "Chump",
             "loadout": [
@@ -86,13 +84,13 @@
                 }
             ],
             "pizzas": 0,
-            "bwep": 23,
-            "wep": 90,
-            "killed_by": 34,
-            "hard": 13,
+            "bwep": 38,
+            "wep": 71,
+            "killed_by": 17,
+            "hard": 7,
             "loop": 0,
             "crown": false,
-            "area": 7,
+            "area": 3,
             "skin": 0
         }
     ]
