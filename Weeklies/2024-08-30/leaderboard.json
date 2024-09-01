@@ -3,6 +3,7 @@
         {
             "color": 16736708,
             "kills": 106,
+            "subarea": 1,
             "allies": [
                 {
                     "color": 16736708,
@@ -13,7 +14,6 @@
                     "skin": 0
                 }
             ],
-            "subarea": 1,
             "ultras": [ ],
             "mutations": [
                 "Ruffled Feathers",
@@ -42,6 +42,54 @@
             "loop": 0,
             "crown": false,
             "area": 3,
+            "skin": 0
+        },
+        {
+            "color": 16736708,
+            "kills": 363,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": "va_duster_shotgun",
+                    "wep": 21,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "subarea": 2,
+            "ultras": [ ],
+            "mutations": [
+                "Shell Cellulite",
+                "Loner",
+                "Shocked Skin",
+                "Staked Chest",
+                20,
+                "Garment Regenerator",
+                5,
+                "powderedgums"
+            ],
+            "time": 15400,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 0,
+            "bwep": "va_duster_shotgun",
+            "wep": 21,
+            "killed_by": 34,
+            "hard": 14,
+            "loop": 0,
+            "crown": false,
+            "area": 7,
             "skin": 0
         }
     ]
