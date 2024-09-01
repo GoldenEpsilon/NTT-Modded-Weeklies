@@ -2,51 +2,8 @@
     "scores": [
         {
             "color": 16736708,
-            "kills": 106,
-            "subarea": 1,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "bwep": "va_double_duster_shotgun",
-                    "wep": 5,
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "ultras": [ ],
-            "mutations": [
-                "Ruffled Feathers",
-                25,
-                "Cranial Valve",
-                "Double Vision"
-            ],
-            "time": 5062,
-            "race": 7,
-            "name": "Chump",
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "pizzas": 0,
-            "bwep": "va_double_duster_shotgun",
-            "wep": 5,
-            "killed_by": 15,
-            "hard": 5,
-            "loop": 0,
-            "crown": false,
-            "area": 3,
-            "skin": 0
-        },
-        {
-            "color": 16736708,
             "kills": 363,
+            "subarea": 2,
             "allies": [
                 {
                     "color": 16736708,
@@ -57,7 +14,6 @@
                     "skin": 0
                 }
             ],
-            "subarea": 2,
             "ultras": [ ],
             "mutations": [
                 "Shell Cellulite",
@@ -87,6 +43,53 @@
             "wep": 21,
             "killed_by": 34,
             "hard": 14,
+            "loop": 0,
+            "crown": false,
+            "area": 7,
+            "skin": 0
+        },
+        {
+            "color": 16736708,
+            "kills": 290,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 23,
+                    "wep": 90,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [
+                "Compressing Fist",
+                "excitedneurons",
+                10,
+                15,
+                20,
+                25,
+                "Steel Nerves"
+            ],
+            "time": 13426,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 0,
+            "bwep": 23,
+            "wep": 90,
+            "killed_by": 34,
+            "hard": 13,
             "loop": 0,
             "crown": false,
             "area": 7,
