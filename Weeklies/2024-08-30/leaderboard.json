@@ -1,19 +1,8 @@
 {
     "scores": [
         {
-            "color": 16736708,
             "kills": 363,
             "subarea": 2,
-            "allies": [
-                {
-                    "color": 16736708,
-                    "bwep": "va_duster_shotgun",
-                    "wep": 21,
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
             "ultras": [ ],
             "mutations": [
                 "Shell Cellulite",
@@ -26,70 +15,82 @@
                 "powderedgums"
             ],
             "time": 15400,
-            "race": 7,
-            "name": "Chump",
-            "loadout": [
+            "allies": [
                 {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
                     "alias": "Chump",
+                    "wep": 21,
+                    "bwep": "va_duster_shotgun",
+                    "color": 16736708,
                     "race": 7,
                     "skin": 0
                 }
             ],
+            "race": 7,
+            "name": "Chump",
             "pizzas": 0,
+            "killed_by": 34,
             "bwep": "va_duster_shotgun",
             "wep": 21,
-            "killed_by": 34,
             "hard": 14,
             "loop": 0,
             "crown": false,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "area": 7,
             "skin": 0
         },
         {
-            "color": 16736708,
-            "kills": 131,
+            "kills": 211,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                13,
+                12,
+                11,
+                18
+            ],
+            "time": 5679,
             "allies": [
                 {
-                    "color": 16736708,
-                    "bwep": 5,
-                    "wep": 6,
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
+                    "alias": "padre domingo estoy en tu techo",
+                    "wep": 3,
+                    "bwep": "va_double_duster_shotgun",
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
                 }
             ],
-            "subarea": 1,
-            "ultras": [ ],
-            "mutations": [
-                21,
-                "Confidence",
-                "Shell Cellulite"
-            ],
-            "time": 4920,
-            "race": 7,
-            "name": "Chump",
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "pizzas": 0,
-            "bwep": 5,
-            "wep": 6,
+            "race": 6,
+            "pizzas": 1,
+            "name": "padre domingo estoy en tu techo",
             "killed_by": 15,
-            "hard": 5,
+            "bwep": "va_double_duster_shotgun",
+            "wep": 3,
+            "hard": 7,
             "loop": 0,
             "crown": false,
+            "color": 5623039,
+            "loadout": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
             "area": 3,
-            "skin": 0
+            "skin": 1
         }
     ]
 }
