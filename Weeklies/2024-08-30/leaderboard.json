@@ -18,8 +18,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_duster_shotgun",
                     "wep": 21,
+                    "bwep": "va_duster_shotgun",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -30,8 +30,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -62,8 +62,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": "va_double_duster_shotgun",
                     "wep": 3,
+                    "bwep": "va_double_duster_shotgun",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -74,8 +74,8 @@
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -93,48 +93,6 @@
             "skin": 1
         },
         {
-            "kills": 112,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                "Steel Nerves",
-                "condensedmeat"
-            ],
-            "time": 4114,
-            "allies": [
-                {
-                    "alias": "Dario sos",
-                    "wep": 7,
-                    "bwep": 3,
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 2,
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Dario sos",
-            "killed_by": 55,
-            "bwep": 3,
-            "wep": 7,
-            "hard": 4,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "pizzas": 0,
-            "area": 2,
-            "skin": 0
-        },
-        {
             "kills": 144,
             "ultras": [ ],
             "subarea": 2,
@@ -147,8 +105,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": 3,
                     "bwep": 17,
+                    "wep": 3,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -158,8 +116,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -175,6 +133,55 @@
             "color": 16736708,
             "pizzas": 0,
             "area": 3,
+            "skin": 0
+        },
+        {
+            "kills": 426,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Steel Nerves",
+                13,
+                7,
+                18,
+                "condensedmeat",
+                "Confidence",
+                1,
+                "Shell Cellulite",
+                4
+            ],
+            "time": 28395,
+            "allies": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "va_martial_longsword",
+                    "bwep": 76,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 2,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Dario sos",
+            "killed_by": 104,
+            "bwep": 76,
+            "wep": "va_martial_longsword",
+            "hard": 19,
+            "loop": 1,
+            "crown": 1,
+            "color": 16736708,
+            "pizzas": 1,
+            "area": 0,
             "skin": 0
         }
     ]
