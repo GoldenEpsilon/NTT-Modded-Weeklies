@@ -1,62 +1,14 @@
 {
     "scores": [
         {
-            "kills": 363,
-            "subarea": 2,
-            "ultras": [ ],
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "mutations": [
-                "Shell Cellulite",
-                "Loner",
-                "Shocked Skin",
-                "Staked Chest",
-                20,
-                "Garment Regenerator",
-                5,
-                "powderedgums"
-            ],
-            "time": 15400,
-            "race": 7,
-            "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": "va_duster_shotgun",
-                    "wep": 21,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 34,
-            "pizzas": 0,
-            "bwep": "va_duster_shotgun",
-            "wep": 21,
-            "hard": 14,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "area": 7,
-            "skin": 0
-        },
-        {
             "kills": 211,
             "ultras": [ ],
             "subarea": 2,
             "loadout": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -74,8 +26,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": "va_double_duster_shotgun",
                     "wep": 3,
+                    "bwep": "va_double_duster_shotgun",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -99,8 +51,8 @@
             "loadout": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -123,8 +75,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 76,
                     "wep": "va_martial_longsword",
+                    "bwep": 76,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -153,8 +105,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -176,8 +128,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_basilisk",
                     "bwep": 93,
+                    "wep": "va_basilisk",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -192,6 +144,56 @@
             "crown": 1,
             "color": 16736708,
             "area": 5,
+            "skin": 0
+        },
+        {
+            "kills": 427,
+            "ultras": [ ],
+            "subarea": 3,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "mutations": [
+                8,
+                "Shell Cellulite",
+                "condensedmeat",
+                "Duplicators",
+                "Slim Pickings",
+                "Shocked Skin",
+                "Groupthink",
+                "Shattered Skull",
+                "powderedgums",
+                5
+            ],
+            "time": 15888,
+            "race": 7,
+            "name": "Chump",
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 8,
+                    "bwep": 8,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 37,
+            "pizzas": 0,
+            "bwep": 8,
+            "wep": 8,
+            "hard": 15,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 7,
             "skin": 0
         }
     ]
