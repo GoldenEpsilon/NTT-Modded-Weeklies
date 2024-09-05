@@ -14,8 +14,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "bwep": "va_double_duster_shotgun",
                     "wep": 3,
+                    "bwep": "va_double_duster_shotgun",
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -23,23 +23,23 @@
             ],
             "race": 6,
             "name": "padre domingo estoy en tu techo",
-            "pizzas": 1,
+            "loadout": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
             "killed_by": 15,
             "bwep": "va_double_duster_shotgun",
             "wep": 3,
             "hard": 7,
             "loop": 0,
             "crown": false,
-            "loadout": [
-                {
-                    "alias": "padre domingo estoy en tu techo",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 6,
-                    "color": 5623039,
-                    "skin": 1
-                }
-            ],
+            "pizzas": 1,
             "color": 5623039,
             "area": 3,
             "skin": 1
@@ -63,8 +63,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "bwep": 76,
                     "wep": "va_martial_longsword",
+                    "bwep": 76,
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -72,23 +72,23 @@
             ],
             "race": 2,
             "name": "Dario sos",
-            "pizzas": 1,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 104,
             "bwep": 76,
             "wep": "va_martial_longsword",
             "hard": 19,
             "loop": 1,
             "crown": 1,
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 1,
             "color": 16736708,
             "area": 0,
             "skin": 0
@@ -116,8 +116,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_basilisk",
                     "bwep": 93,
+                    "wep": "va_basilisk",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -125,56 +125,50 @@
             ],
             "race": 7,
             "name": "Chump",
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 89,
             "bwep": 93,
             "wep": "va_basilisk",
             "hard": 45,
             "loop": 2,
             "crown": 1,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "color": 16736708,
             "area": 5,
             "skin": 0
         },
         {
-            "kills": 123,
+            "kills": 195,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                1,
-                "Double Vision"
+                11,
+                "Rocket Casings",
+                "Steel Nerves",
+                "Ruffled Feathers",
+                10
             ],
-            "time": 2835,
+            "time": 7446,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 4,
-                    "bwep": 1,
+                    "wep": 2,
+                    "bwep": "va_snubnose",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "killed_by": 9,
-            "bwep": 1,
-            "wep": 4,
-            "hard": 4,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -185,7 +179,16 @@
                     "skin": 0
                 }
             ],
-            "area": 2,
+            "name": "Chump",
+            "killed_by": 19,
+            "bwep": "va_snubnose",
+            "wep": 2,
+            "hard": 8,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 4,
             "skin": 0
         }
     ]
