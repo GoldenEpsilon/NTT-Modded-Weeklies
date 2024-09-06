@@ -14,8 +14,8 @@
             "allies": [
                 {
                     "alias": "padre domingo estoy en tu techo",
-                    "wep": 3,
                     "bwep": "va_double_duster_shotgun",
+                    "wep": 3,
                     "race": 6,
                     "color": 5623039,
                     "skin": 1
@@ -23,23 +23,23 @@
             ],
             "race": 6,
             "name": "padre domingo estoy en tu techo",
-            "loadout": [
-                {
-                    "alias": "padre domingo estoy en tu techo",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 6,
-                    "color": 5623039,
-                    "skin": 1
-                }
-            ],
+            "pizzas": 1,
             "killed_by": 15,
             "bwep": "va_double_duster_shotgun",
             "wep": 3,
             "hard": 7,
             "loop": 0,
             "crown": false,
-            "pizzas": 1,
+            "loadout": [
+                {
+                    "alias": "padre domingo estoy en tu techo",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 5623039,
+                    "skin": 1
+                }
+            ],
             "color": 5623039,
             "area": 3,
             "skin": 1
@@ -63,8 +63,8 @@
             "allies": [
                 {
                     "alias": "Dario sos",
-                    "wep": "va_martial_longsword",
                     "bwep": 76,
+                    "wep": "va_martial_longsword",
                     "race": 2,
                     "color": 16736708,
                     "skin": 0
@@ -72,23 +72,23 @@
             ],
             "race": 2,
             "name": "Dario sos",
-            "loadout": [
-                {
-                    "alias": "Dario sos",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": 2,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 1,
             "killed_by": 104,
             "bwep": 76,
             "wep": "va_martial_longsword",
             "hard": 19,
             "loop": 1,
             "crown": 1,
-            "pizzas": 1,
+            "loadout": [
+                {
+                    "alias": "Dario sos",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 2,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
             "area": 0,
             "skin": 0
@@ -116,8 +116,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 93,
                     "wep": "va_basilisk",
+                    "bwep": 93,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -125,61 +125,13 @@
             ],
             "race": 7,
             "name": "Chump",
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 89,
             "bwep": 93,
             "wep": "va_basilisk",
             "hard": 45,
             "loop": 2,
             "crown": 1,
-            "pizzas": 0,
-            "color": 16736708,
-            "area": 5,
-            "skin": 0
-        },
-        {
-            "kills": 908,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "subarea": 1,
-            "mutations": [
-                "Staked Chest",
-                "Double Vision",
-                11,
-                21,
-                25,
-                "compoundelbow",
-                27,
-                20,
-                "Loner",
-                "Free Space",
-                "Buckshot Back"
-            ],
-            "time": 27106,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 60,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "race": 7,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -190,16 +142,52 @@
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "killed_by": 21,
-            "bwep": 60,
-            "wep": 6,
-            "hard": 25,
-            "loop": 1,
-            "crown": 1,
             "color": 16736708,
+            "area": 5,
+            "skin": 0
+        },
+        {
+            "kills": 152,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                5,
+                "compoundelbow",
+                20,
+                25
+            ],
+            "time": 7650,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 71,
+                    "bwep": "va_martial_war_pike",
+                    "race": "Printer",
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": "Printer",
             "pizzas": 0,
-            "area": 4,
+            "name": "Chump",
+            "killed_by": 15,
+            "bwep": "va_martial_war_pike",
+            "wep": 71,
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "Printer",
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "area": 3,
             "skin": 0
         }
     ]
