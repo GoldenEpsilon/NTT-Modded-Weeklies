@@ -1,6 +1,16 @@
 {
     "scores": [
         {
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_automagic_bolt_caster",
+                    "bwep": 11,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "kills": 379,
             "subarea": 2,
             "ultras": [ ],
@@ -17,16 +27,6 @@
                 "Scrap Arms"
             ],
             "time": 12995,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
             "race": 7,
             "name": "Chump",
             "pizzas": 0,
@@ -36,30 +36,53 @@
             "hard": 14,
             "loop": 0,
             "crown": false,
-            "color": 16736708,
-            "allies": [
+            "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 11,
-                    "wep": "va_automagic_bolt_caster",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
                 }
             ],
+            "color": 16736708,
             "area": 7,
             "skin": 0
         },
         {
-            "kills": 98,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 69,
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "kills": 294,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
                 11,
-                "Duplicators",
-                25
+                7,
+                "Confidence",
+                5,
+                "Shattered Skull",
+                "Loner",
+                "Laser Focus"
             ],
-            "time": 4291,
+            "time": 11055,
+            "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 27,
+            "bwep": 1,
+            "wep": 69,
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -70,27 +93,8 @@
                     "skin": 0
                 }
             ],
-            "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "killed_by": 17,
-            "bwep": "mcleod",
-            "wep": 6,
-            "hard": 5,
-            "loop": 0,
-            "crown": false,
             "color": 16736708,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 6,
-                    "bwep": "mcleod",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "area": 3,
+            "area": 5,
             "skin": 0
         }
     ]
