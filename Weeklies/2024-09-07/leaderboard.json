@@ -1,17 +1,6 @@
 {
     "scores": [
         {
-            "color": 16736708,
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
             "kills": 379,
             "subarea": 2,
             "ultras": [ ],
@@ -28,75 +17,80 @@
                 "Scrap Arms"
             ],
             "time": 12995,
-            "race": 7,
-            "name": "Chump",
-            "allies": [
+            "loadout": [
                 {
-                    "color": 16736708,
-                    "bwep": 11,
-                    "wep": "va_automagic_bolt_caster",
                     "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708,
                     "race": 7,
                     "skin": 0
                 }
             ],
+            "race": 7,
+            "name": "Chump",
             "pizzas": 0,
+            "killed_by": 53,
             "bwep": 11,
             "wep": "va_automagic_bolt_caster",
-            "killed_by": 53,
             "hard": 14,
             "loop": 0,
             "crown": false,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_automagic_bolt_caster",
+                    "bwep": 11,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "area": 7,
             "skin": 0
         },
         {
-            "color": 16736708,
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "alias": "Chump",
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "kills": 356,
-            "subarea": 3,
+            "kills": 92,
             "ultras": [ ],
+            "subarea": 1,
             "mutations": [
                 25,
-                "Confidence",
-                "excitedneurons",
-                14,
-                "Thick Head",
-                "Slim Pickings",
-                "Buckshot Back",
-                "Energized Intestines",
-                "Sadism"
+                "Compressing Fist",
+                "Double Vision"
             ],
-            "time": 11985,
-            "race": 7,
-            "name": "Chump",
-            "allies": [
+            "time": 3794,
+            "loadout": [
                 {
-                    "color": 16736708,
-                    "bwep": 69,
-                    "wep": 17,
                     "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
+                    "color": 16736708,
                     "skin": 0
                 }
             ],
+            "race": 7,
             "pizzas": 0,
-            "bwep": 69,
-            "wep": 17,
-            "killed_by": 98,
-            "hard": 11,
+            "name": "Chump",
+            "killed_by": 7,
+            "bwep": "va_eekhammer",
+            "wep": "va_eekhammer",
+            "hard": 4,
             "loop": 0,
             "crown": false,
-            "area": 5,
+            "color": 16736708,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_eekhammer",
+                    "bwep": "va_eekhammer",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "area": 2,
             "skin": 0
         }
     ]
