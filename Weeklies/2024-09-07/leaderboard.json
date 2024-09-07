@@ -3,6 +3,7 @@
         {
             "color": 16736708,
             "kills": 186,
+            "subarea": 1,
             "allies": [
                 {
                     "color": 16736708,
@@ -13,7 +14,6 @@
                     "skin": 0
                 }
             ],
-            "subarea": 1,
             "ultras": [ ],
             "mutations": [
                 "Loner",
@@ -44,6 +44,56 @@
             "loop": 0,
             "crown": false,
             "area": 5,
+            "skin": 0
+        },
+        {
+            "color": 16736708,
+            "kills": 379,
+            "allies": [
+                {
+                    "color": 16736708,
+                    "bwep": 11,
+                    "wep": "va_automagic_bolt_caster",
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "subarea": 2,
+            "ultras": [ ],
+            "mutations": [
+                "Slim Pickings",
+                "Cranial Valve",
+                "Telekinetic Tears",
+                21,
+                "excitedneurons",
+                "Shell Cellulite",
+                "powderedgums",
+                29,
+                25,
+                "Scrap Arms"
+            ],
+            "time": 12995,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 0,
+            "bwep": 11,
+            "wep": "va_automagic_bolt_caster",
+            "killed_by": 53,
+            "hard": 14,
+            "loop": 0,
+            "crown": false,
+            "area": 7,
             "skin": 0
         }
     ]
