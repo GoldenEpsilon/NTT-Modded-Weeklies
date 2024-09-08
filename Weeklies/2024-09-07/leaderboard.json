@@ -20,8 +20,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 11,
                     "wep": "va_automagic_bolt_caster",
+                    "bwep": 11,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -32,8 +32,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -51,23 +51,23 @@
             "skin": 0
         },
         {
-            "kills": 138,
+            "kills": 186,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
                 "Double Vision",
-                "Ruffled Feathers",
-                "Loner",
-                "Free Space",
-                "Rubber Rounds",
-                "Telekinetic Tears"
+                8,
+                "Staked Chest",
+                "Slim Pickings",
+                "Toxic Thoughts",
+                "Rubber Rounds"
             ],
-            "time": 4663,
+            "time": 7930,
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": 6,
-                    "bwep": 8,
+                    "bwep": 66,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -86,9 +86,9 @@
             ],
             "name": "Chump",
             "killed_by": 15,
-            "bwep": 8,
+            "bwep": 66,
             "wep": 6,
-            "hard": 5,
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "color": 16736708,
