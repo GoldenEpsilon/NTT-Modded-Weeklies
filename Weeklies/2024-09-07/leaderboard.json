@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "hyperrifle",
                     "wep": 11,
+                    "bwep": "hyperrifle",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -36,8 +36,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,24 +55,31 @@
             "skin": 0
         },
         {
-            "kills": 282,
-            "ultras": [ ],
+            "kills": 941,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
             "subarea": 1,
             "mutations": [
                 "Double Vision",
-                25,
-                "Mimicry",
-                "compoundelbow",
+                21,
                 "Confidence",
                 20,
-                "Steel Nerves"
+                8,
+                27,
+                "Mimicry",
+                "Loner",
+                "Laser Focus"
             ],
-            "time": 11144,
+            "time": 20845,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 30,
+                    "wep": "va_archmagus_bolt_caster",
+                    "bwep": 62,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -90,15 +97,15 @@
                 }
             ],
             "name": "Chump",
-            "killed_by": 34,
-            "bwep": 30,
-            "wep": 6,
-            "hard": 14,
-            "loop": 0,
+            "killed_by": 11,
+            "bwep": 62,
+            "wep": "va_archmagus_bolt_caster",
+            "hard": 21,
+            "loop": 1,
             "crown": 1,
             "color": 16736708,
             "pizzas": 0,
-            "area": 7,
+            "area": 2,
             "skin": 0
         }
     ]
