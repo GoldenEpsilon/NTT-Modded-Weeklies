@@ -24,8 +24,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 11,
                     "bwep": "hyperrifle",
+                    "wep": 11,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -33,59 +33,69 @@
             ],
             "race": 7,
             "name": "Chump",
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 51,
             "bwep": "hyperrifle",
             "wep": 11,
             "hard": 33,
             "loop": 1,
             "crown": 1,
-            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
             "area": 7,
             "skin": 0
         },
         {
-            "kills": 941,
+            "kills": 786,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 1,
+            "subarea": 2,
             "mutations": [
-                "Double Vision",
-                21,
-                "Confidence",
-                20,
-                8,
-                27,
-                "Mimicry",
+                "powderedgums",
+                "Compressing Fist",
                 "Loner",
-                "Laser Focus"
+                "Cranial Valve",
+                10,
+                "Shattered Skull",
+                21,
+                25,
+                "Staked Chest",
+                4
             ],
-            "time": 20845,
+            "time": 23124,
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": "va_archmagus_bolt_caster",
-                    "bwep": 62,
+                    "bwep": 10,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 91,
+            "bwep": 10,
+            "wep": "va_archmagus_bolt_caster",
+            "hard": 22,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -96,16 +106,7 @@
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "killed_by": 11,
-            "bwep": 62,
-            "wep": "va_archmagus_bolt_caster",
-            "hard": 21,
-            "loop": 1,
-            "crown": 1,
-            "color": 16736708,
-            "pizzas": 0,
-            "area": 2,
+            "area": 3,
             "skin": 0
         }
     ]
