@@ -28,8 +28,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 11,
                     "bwep": "hyperrifle",
+                    "wep": 11,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -42,8 +42,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -70,8 +70,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mcleod",
                     "bwep": "va_duster_shotgun",
+                    "wep": "mcleod",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -84,8 +84,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -97,48 +97,46 @@
             "skin": 1
         },
         {
-            "kills": 227,
+            "kills": 84,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                "compoundelbow",
-                1,
-                "Staked Chest",
-                "Rocket Casings",
-                "Absorbing Abs"
+                "Loner",
+                "Shocked Skin",
+                11
             ],
             "pizzas": 0,
-            "time": 9464,
-            "race": "Printer",
+            "time": 2572,
+            "race": 7,
             "name": "Chump",
-            "killed_by": 69,
+            "killed_by": 11,
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": 6,
-                    "bwep": 0,
-                    "race": "Printer",
+                    "bwep": 5,
+                    "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "bwep": 0,
+            "bwep": 5,
             "wep": 6,
             "loadout": [
                 {
                     "alias": "Chump",
                     "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": "Printer",
+                    "bwep": 1,
+                    "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "hard": 9,
+            "hard": 4,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 5,
+            "area": 2,
             "skin": 0
         }
     ]
