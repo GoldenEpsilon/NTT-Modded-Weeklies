@@ -20,36 +20,36 @@
                 "Steel Nerves",
                 "Compressing Fist"
             ],
-            "pizzas": 0,
             "time": 32491,
+            "pizzas": 0,
             "race": 7,
             "name": "Chump",
-            "killed_by": 51,
-            "allies": [
+            "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": "hyperrifle",
-                    "wep": 11,
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
+            "killed_by": 51,
             "bwep": "hyperrifle",
             "wep": 11,
             "hard": 33,
             "loop": 1,
-            "loadout": [
+            "crown": 1,
+            "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
+                    "wep": 11,
+                    "bwep": "hyperrifle",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "crown": 1,
             "color": 16736708,
             "area": 7,
             "skin": 0
@@ -62,70 +62,59 @@
                 "condensedmeat",
                 "Muscle Memory"
             ],
-            "pizzas": 0,
             "time": 2555,
+            "pizzas": 0,
             "race": 6,
             "name": "Sir Mittens IV",
-            "killed_by": 6,
-            "allies": [
+            "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": "va_duster_shotgun",
-                    "wep": "mcleod",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
+            "killed_by": 6,
             "bwep": "va_duster_shotgun",
             "wep": "mcleod",
             "hard": 3,
             "loop": 0,
-            "loadout": [
+            "crown": false,
+            "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
+                    "wep": "mcleod",
+                    "bwep": "va_duster_shotgun",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
-            "crown": false,
             "color": 16736708,
             "area": 1,
             "skin": 1
         },
         {
-            "kills": 307,
+            "kills": 385,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 2,
             "mutations": [
-                16,
+                "excitedneurons",
+                "Slim Pickings",
+                "Shivering Spine",
+                "Free Space",
+                "Iron Skin",
                 11,
-                "Loner",
-                "Rubber Rounds",
-                "Rocket Casings",
-                "condensedmeat",
-                "excitedneurons"
+                "Double Vision",
+                10,
+                5,
+                "Rocket Casings"
             ],
+            "time": 13085,
             "pizzas": 0,
-            "time": 11862,
             "race": 7,
-            "name": "Chump",
-            "killed_by": 98,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_marksman_rifle",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "bwep": 1,
-            "wep": "va_marksman_rifle",
             "loadout": [
                 {
                     "alias": "Chump",
@@ -136,11 +125,25 @@
                     "skin": 0
                 }
             ],
-            "hard": 12,
+            "name": "Chump",
+            "killed_by": 58,
+            "bwep": 89,
+            "wep": 2,
+            "hard": 15,
             "loop": 0,
             "crown": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 2,
+                    "bwep": 89,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
-            "area": 5,
+            "area": 7,
             "skin": 0
         }
     ]
