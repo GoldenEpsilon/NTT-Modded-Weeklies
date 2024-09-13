@@ -12,8 +12,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 11,
                     "bwep": "hyperrifle",
+                    "wep": 11,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -38,8 +38,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -61,8 +61,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mcleod",
                     "bwep": "va_duster_shotgun",
+                    "wep": "mcleod",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -80,8 +80,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -97,32 +97,30 @@
             "skin": 1
         },
         {
-            "kills": 263,
+            "kills": 119,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 2,
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": 6,
-                    "bwep": 22,
+                    "bwep": 21,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "mutations": [
-                16,
-                "Waste Gland",
-                8,
-                "Staked Chest",
-                7,
-                2
+                25,
+                3,
+                "Double Vision",
+                17
             ],
-            "time": 11228,
+            "time": 5293,
             "race": 7,
             "name": "Chump",
             "pizzas": 0,
-            "killed_by": 27,
+            "killed_by": 14,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -133,13 +131,13 @@
                     "skin": 0
                 }
             ],
-            "bwep": 22,
+            "bwep": 21,
             "wep": 6,
-            "hard": 11,
+            "hard": 6,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 5,
+            "area": 3,
             "skin": 0
         }
     ]
