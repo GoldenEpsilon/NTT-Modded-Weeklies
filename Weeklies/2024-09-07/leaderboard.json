@@ -12,8 +12,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "hyperrifle",
                     "wep": 11,
+                    "bwep": "hyperrifle",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -38,8 +38,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -61,8 +61,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": "va_duster_shotgun",
                     "wep": "mcleod",
+                    "bwep": "va_duster_shotgun",
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -80,8 +80,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -97,30 +97,39 @@
             "skin": 1
         },
         {
-            "kills": 119,
-            "ultras": [ ],
-            "subarea": 2,
+            "kills": 912,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "subarea": 1,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 21,
+                    "wep": "va_lancer_shotgun",
+                    "bwep": 106,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "mutations": [
-                25,
-                3,
-                "Double Vision",
-                17
+                "Confidence",
+                "excitedneurons",
+                "powderedgums",
+                28,
+                1,
+                "Shattered Skull",
+                "Compressing Fist",
+                "Double Vision"
             ],
-            "time": 5293,
+            "time": 22226,
             "race": 7,
             "name": "Chump",
             "pizzas": 0,
-            "killed_by": 14,
+            "killed_by": 12,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -131,13 +140,13 @@
                     "skin": 0
                 }
             ],
-            "bwep": 21,
-            "wep": 6,
-            "hard": 6,
-            "loop": 0,
-            "crown": false,
+            "bwep": 106,
+            "wep": "va_lancer_shotgun",
+            "hard": 21,
+            "loop": 1,
+            "crown": 1,
             "color": 16736708,
-            "area": 3,
+            "area": 2,
             "skin": 0
         }
     ]
