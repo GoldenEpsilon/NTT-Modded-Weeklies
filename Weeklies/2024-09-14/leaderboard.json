@@ -23,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -35,8 +35,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 105,
                     "bwep": "va_mass_driver",
+                    "wep": 105,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,27 +54,16 @@
             "skin": 0
         },
         {
-            "kills": 493,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "subarea": 1,
+            "kills": 181,
+            "ultras": [ ],
+            "subarea": 3,
             "mutations": [
-                27,
-                "compoundelbow",
-                5,
-                22,
-                "Compressing Fist",
-                "Slim Pickings",
-                "Toxic Thoughts",
-                "Energized Intestines",
-                "Mimicry",
-                "Thick Head"
+                "Double Vision",
+                "Shattered Skull",
+                23,
+                20
             ],
-            "time": 18946,
+            "time": 5615,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -89,23 +78,23 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_hyper_sniper",
-                    "bwep": 66,
+                    "wep": 10,
+                    "bwep": 69,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 53,
-            "bwep": 66,
-            "wep": "va_hyper_sniper",
-            "hard": 17,
-            "loop": 1,
+            "killed_by": 16,
+            "bwep": 69,
+            "wep": 10,
+            "hard": 7,
+            "loop": 0,
             "crown": false,
             "color": 16736708,
             "pizzas": 0,
-            "area": 1,
+            "area": 3,
             "skin": 0
         }
     ]
