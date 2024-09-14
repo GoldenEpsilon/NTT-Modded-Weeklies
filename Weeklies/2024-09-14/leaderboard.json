@@ -24,8 +24,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -45,8 +45,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_mass_driver",
                     "wep": 105,
+                    "bwep": "va_mass_driver",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,18 +54,15 @@
             ]
         },
         {
-            "kills": 302,
+            "kills": 102,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                "powderedgums",
-                "Absorbing Abs",
-                27,
-                "compoundelbow",
-                11,
-                22
+                "Shell Cellulite",
+                1,
+                8
             ],
-            "time": 10463,
+            "time": 4644,
             "race": 7,
             "loadout": [
                 {
@@ -79,20 +76,20 @@
             ],
             "name": "Chump",
             "pizzas": 0,
-            "killed_by": 26,
-            "bwep": 5,
-            "wep": 91,
-            "hard": 11,
+            "killed_by": 15,
+            "bwep": 50,
+            "wep": 1,
+            "hard": 5,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 5,
+            "area": 3,
             "skin": 0,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 91,
-                    "bwep": 5,
+                    "wep": 1,
+                    "bwep": 50,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
