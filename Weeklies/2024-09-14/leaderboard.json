@@ -23,8 +23,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -42,8 +42,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 105,
                     "bwep": "va_mass_driver",
+                    "wep": 105,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,16 +54,27 @@
             "skin": 0
         },
         {
-            "kills": 127,
-            "ultras": [ ],
-            "subarea": 2,
-            "mutations": [
-                15,
-                22,
-                "compoundelbow",
-                "Shell Cellulite"
+            "kills": 1050,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
             ],
-            "time": 6968,
+            "subarea": 1,
+            "mutations": [
+                5,
+                11,
+                20,
+                "Double Vision",
+                "Shell Cellulite",
+                "Shattered Skull",
+                25,
+                "Loner",
+                "Aerodynamic Ankles",
+                "Steel Nerves"
+            ],
+            "time": 29935,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -77,24 +88,24 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 51,
-            "bwep": 21,
-            "wep": 66,
-            "hard": 6,
-            "loop": 0,
+            "killed_by": 25,
+            "bwep": 38,
+            "wep": "CombatHeavySlugger",
+            "hard": 25,
+            "loop": 1,
             "crown": false,
             "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 66,
-                    "bwep": 21,
+                    "wep": "CombatHeavySlugger",
+                    "bwep": 38,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "area": 3,
+            "area": 5,
             "skin": 0
         }
     ]
