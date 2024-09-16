@@ -4,8 +4,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -44,8 +44,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "CombatHeavySlugger",
                     "bwep": 38,
+                    "wep": "CombatHeavySlugger",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -66,34 +66,34 @@
                     "skin": 0
                 }
             ],
-            "kills": 397,
+            "kills": 354,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
+                "excitedneurons",
                 "Confidence",
-                4,
-                13,
-                "Absorbing Abs",
-                23,
-                "flamingpalms",
-                "Steel Nerves",
-                27
+                "Rocket Casings",
+                2,
+                8,
+                "Thick Head",
+                25,
+                10
             ],
-            "time": 16864,
+            "time": 15184,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 34,
-            "bwep": 77,
-            "wep": 22,
+            "killed_by": 37,
+            "bwep": 4,
+            "wep": "smg",
             "hard": 15,
             "loop": 0,
             "crown": false,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 22,
-                    "bwep": 77,
+                    "wep": "smg",
+                    "bwep": 4,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
