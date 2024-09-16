@@ -1,16 +1,6 @@
 {
     "scores": [
         {
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "CombatHeavySlugger",
-                    "bwep": 38,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
             "kills": 1050,
             "ultras": [
                 [
@@ -31,64 +21,78 @@
                 "Aerodynamic Ankles",
                 "Steel Nerves"
             ],
+            "pizzas": 0,
             "time": 29935,
             "race": 7,
             "name": "Chump",
-            "pizzas": 0,
             "killed_by": 25,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 38,
+                    "wep": "CombatHeavySlugger",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "bwep": 38,
             "wep": "CombatHeavySlugger",
             "hard": 25,
             "loop": 1,
-            "crown": false,
-            "color": 16736708,
-            "area": 5,
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
+            "crown": false,
+            "color": 16736708,
+            "area": 5,
             "skin": 0
         },
         {
+            "kills": 1479,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                11,
+                "condensedmeat",
+                "Double Vision",
+                "Absorbing Abs",
+                "Thick Head",
+                "compoundelbow",
+                "Staked Chest",
+                "Slim Pickings",
+                "Rubber Rounds",
+                "Energized Intestines"
+            ],
+            "pizzas": 1,
+            "time": 34370,
+            "race": 7,
+            "name": "Chump",
+            "killed_by": 94,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 8,
-                    "bwep": "va_breach_cannon",
+                    "wep": "PikeSplinterGun",
+                    "bwep": 113,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "kills": 349,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                8,
-                21,
-                "Steel Nerves",
-                "excitedneurons",
-                "Confidence",
-                "Waste Gland"
-            ],
-            "time": 11578,
-            "race": 7,
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 27,
-            "bwep": "va_breach_cannon",
-            "wep": 8,
-            "hard": 11,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "area": 5,
+            "bwep": 113,
+            "wep": "PikeSplinterGun",
             "loadout": [
                 {
                     "alias": "Chump",
@@ -99,6 +103,11 @@
                     "skin": 0
                 }
             ],
+            "hard": 37,
+            "loop": 2,
+            "crown": 1,
+            "color": 16736708,
+            "area": 1,
             "skin": 0
         }
     ]
