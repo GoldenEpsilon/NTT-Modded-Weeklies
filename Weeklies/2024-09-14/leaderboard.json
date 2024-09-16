@@ -1,11 +1,11 @@
 {
     "scores": [
         {
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
+                    "bwep": 38,
+                    "wep": "CombatHeavySlugger",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -33,29 +33,58 @@
             ],
             "time": 29935,
             "race": 7,
-            "pizzas": 0,
             "name": "Chump",
+            "pizzas": 0,
             "killed_by": 25,
             "bwep": 38,
             "wep": "CombatHeavySlugger",
             "hard": 25,
             "loop": 1,
             "crown": false,
-            "allies": [
+            "color": 16736708,
+            "area": 5,
+            "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "CombatHeavySlugger",
-                    "bwep": 38,
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "color": 16736708,
-            "area": 5,
             "skin": 0
         },
         {
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 17,
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "kills": 115,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Rocket Casings",
+                "Confidence"
+            ],
+            "time": 3456,
+            "race": 7,
+            "name": "Chump",
+            "pizzas": 0,
+            "killed_by": 0,
+            "bwep": 1,
+            "wep": 17,
+            "hard": 4,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 2,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -66,38 +95,6 @@
                     "skin": 0
                 }
             ],
-            "kills": 205,
-            "ultras": [ ],
-            "subarea": 2,
-            "mutations": [
-                15,
-                11,
-                21,
-                "Absorbing Abs",
-                5
-            ],
-            "time": 8561,
-            "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "killed_by": 24,
-            "bwep": 76,
-            "wep": 66,
-            "hard": 10,
-            "loop": 0,
-            "crown": false,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 66,
-                    "bwep": 76,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "color": 16736708,
-            "area": 5,
             "skin": 0
         }
     ]
