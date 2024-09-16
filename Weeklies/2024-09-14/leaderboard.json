@@ -4,8 +4,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 38,
                     "wep": "CombatHeavySlugger",
+                    "bwep": 38,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -46,8 +46,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -59,32 +59,36 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 17,
-                    "bwep": 1,
+                    "wep": 61,
+                    "bwep": "minigun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "kills": 115,
+            "kills": 228,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                "Rocket Casings",
-                "Confidence"
+                4,
+                "powderedgums",
+                11,
+                "Loner",
+                "Disco Nose",
+                9
             ],
-            "time": 3456,
+            "time": 8153,
             "race": 7,
             "name": "Chump",
             "pizzas": 0,
-            "killed_by": 0,
-            "bwep": 1,
-            "wep": 17,
-            "hard": 4,
+            "killed_by": 26,
+            "bwep": "minigun",
+            "wep": 61,
+            "hard": 9,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 2,
+            "area": 5,
             "loadout": [
                 {
                     "alias": "Chump",
