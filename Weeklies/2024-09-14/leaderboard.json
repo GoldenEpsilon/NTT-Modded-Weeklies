@@ -1,11 +1,11 @@
 {
     "scores": [
         {
-            "allies": [
+            "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 38,
-                    "wep": "CombatHeavySlugger",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -41,11 +41,11 @@
             "hard": 25,
             "loop": 1,
             "crown": false,
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
+                    "wep": "CombatHeavySlugger",
+                    "bwep": 38,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -56,30 +56,6 @@
             "skin": 0
         },
         {
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 1,
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "kills": 7,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [ ],
-            "time": 382,
-            "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "killed_by": -1,
-            "bwep": 1,
-            "wep": 1,
-            "hard": 1,
-            "loop": 0,
-            "crown": false,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -90,8 +66,37 @@
                     "skin": 0
                 }
             ],
+            "kills": 186,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                20,
+                12,
+                "compoundelbow",
+                "powderedgums"
+            ],
+            "time": 7666,
+            "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 19,
+            "bwep": "va_razorpop",
+            "wep": 6,
+            "hard": 8,
+            "loop": 0,
+            "crown": false,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 6,
+                    "bwep": "va_razorpop",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
-            "area": 1,
+            "area": 4,
             "skin": 0
         }
     ]
