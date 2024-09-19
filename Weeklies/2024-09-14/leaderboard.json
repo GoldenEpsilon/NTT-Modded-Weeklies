@@ -25,8 +25,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -37,8 +37,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 113,
                     "wep": "PikeSplinterGun",
+                    "bwep": 113,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -69,8 +69,8 @@
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "scales",
                     "color": 9820690,
                     "skin": 0
@@ -81,8 +81,8 @@
             "allies": [
                 {
                     "alias": "{C}lass.ical",
-                    "wep": "mateba",
                     "bwep": 75,
+                    "wep": "mateba",
                     "race": "scales",
                     "color": 9820690,
                     "skin": 0
@@ -100,26 +100,27 @@
             "skin": 0
         },
         {
-            "kills": 743,
+            "kills": 5042,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                21,
-                "Loner",
-                "Iron Skin",
-                "Waste Gland",
+                "Absorbing Abs",
                 5,
-                "compoundelbow",
-                "Mimicry",
-                "Thick Head",
-                "Compressing Fist"
+                14,
+                "Slim Pickings",
+                "Energized Intestines",
+                "Laser Focus",
+                21,
+                11,
+                27,
+                "compoundelbow"
             ],
-            "time": 26244,
+            "time": 72998,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -134,23 +135,23 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_gatling_digsaw_launcher",
-                    "bwep": "SeekerBundle",
+                    "wep": "va_automagic_bolt_caster",
+                    "bwep": "va_bigbrainsaw_launcher",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 17,
-            "bwep": "SeekerBundle",
-            "wep": "va_gatling_digsaw_launcher",
-            "hard": 24,
-            "loop": 1,
+            "killed_by": 103,
+            "bwep": "va_bigbrainsaw_launcher",
+            "wep": "va_automagic_bolt_caster",
+            "hard": 76,
+            "loop": 4,
             "crown": 1,
             "color": 16736708,
             "pizzas": 0,
-            "area": 3,
+            "area": 5,
             "skin": 0
         }
     ]
