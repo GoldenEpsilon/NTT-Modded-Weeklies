@@ -4,6 +4,16 @@
             "kills": 210,
             "subarea": 2,
             "ultras": [ ],
+            "allies": [
+                {
+                    "alias": "{C}lass.ical",
+                    "wep": "mateba",
+                    "bwep": 75,
+                    "race": "scales",
+                    "color": 9820690,
+                    "skin": 0
+                }
+            ],
             "mutations": [
                 "Ruffled Feathers",
                 3,
@@ -11,36 +21,26 @@
                 "compoundelbow"
             ],
             "time": 8145.5,
+            "race": "scales",
+            "name": "{C}lass.ical",
             "loadout": [
                 {
                     "alias": "{C}lass.ical",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
-                    "race": "scales",
-                    "color": 9820690,
-                    "skin": 0
-                }
-            ],
-            "race": "scales",
-            "name": "{C}lass.ical",
-            "allies": [
-                {
-                    "alias": "{C}lass.ical",
-                    "bwep": 75,
-                    "wep": "mateba",
+                    "bwep": 0,
                     "race": "scales",
                     "color": 9820690,
                     "skin": 0
                 }
             ],
             "killed_by": 0,
+            "pizzas": 0,
             "bwep": 75,
             "wep": "mateba",
             "hard": 6,
             "loop": 0,
             "crown": false,
             "color": 9820690,
-            "pizzas": 0,
             "area": 3,
             "skin": 0
         },
@@ -53,6 +53,16 @@
                 ]
             ],
             "subarea": 1,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": "va_bigbrainsaw_launcher",
+                    "wep": "va_automagic_bolt_caster",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "mutations": [
                 "Absorbing Abs",
                 5,
@@ -66,61 +76,59 @@
                 "compoundelbow"
             ],
             "time": 72998,
+            "race": 7,
+            "name": "Chump",
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "race": 7,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_automagic_bolt_caster",
-                    "bwep": "va_bigbrainsaw_launcher",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
             "killed_by": 103,
+            "pizzas": 0,
             "bwep": "va_bigbrainsaw_launcher",
             "wep": "va_automagic_bolt_caster",
             "hard": 76,
             "loop": 4,
             "crown": 1,
             "color": 16736708,
-            "pizzas": 0,
             "area": 5,
             "skin": 0
         },
         {
-            "kills": 727,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
+            "kills": 376,
+            "ultras": [ ],
+            "subarea": 2,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_quad_digsaw_launcher",
+                    "bwep": 10,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
             ],
-            "subarea": 1,
             "mutations": [
-                11,
-                "Shell Cellulite",
-                "Compressing Fist",
-                8,
+                21,
+                "excitedneurons",
+                28,
                 "Shattered Skull",
+                5,
+                "Double Vision",
+                "Loner",
+                "Shivering Spine",
                 "Slim Pickings",
-                "Telekinetic Tears",
-                "Shocked Skin",
-                "Thick Head",
-                "Steel Nerves"
+                "Energized Intestines",
+                "Laser Focus"
             ],
-            "time": 22793,
+            "time": 16759,
+            "race": 7,
+            "name": "Chump",
             "loadout": [
                 {
                     "alias": "Chump",
@@ -131,27 +139,15 @@
                     "skin": 0
                 }
             ],
-            "race": 7,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_double_duster_shotgun",
-                    "bwep": 38,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
-            "killed_by": 10,
-            "bwep": 38,
-            "wep": "va_double_duster_shotgun",
-            "hard": 20,
-            "loop": 1,
+            "killed_by": 34,
+            "pizzas": 0,
+            "bwep": 10,
+            "wep": "va_quad_digsaw_launcher",
+            "hard": 14,
+            "loop": 0,
             "crown": false,
             "color": 16736708,
-            "pizzas": 0,
-            "area": 2,
+            "area": 7,
             "skin": 0
         }
     ]
