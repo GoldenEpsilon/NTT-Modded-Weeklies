@@ -25,8 +25,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -44,8 +44,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_archmagus_bolt_caster",
                     "bwep": 11,
+                    "wep": "va_archmagus_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -56,21 +56,18 @@
             "skin": 0
         },
         {
-            "kills": 348,
+            "kills": 255,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 2,
             "mutations": [
                 "compoundelbow",
+                "powderedgums",
+                8,
+                14,
                 23,
-                "Slim Pickings",
-                "Energized Intestines",
-                "Buckshot Back",
-                "Ruffled Feathers",
-                11,
-                2,
-                21
+                "Thick Head"
             ],
-            "time": 13689,
+            "time": 10028,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -84,24 +81,24 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 34,
-            "bwep": 6,
-            "wep": 6,
-            "hard": 13,
+            "killed_by": 23,
+            "bwep": "minigun",
+            "wep": 21,
+            "hard": 10,
             "loop": 0,
             "crown": false,
             "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 6,
+                    "wep": 21,
+                    "bwep": "minigun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "area": 7,
+            "area": 5,
             "skin": 0
         }
     ]
