@@ -11,49 +11,51 @@
                 "Waste Gland"
             ],
             "time": 4782,
-            "race": 7,
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
+            "race": 7,
             "name": "Chump",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 75,
+                    "bwep": 69,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 15,
             "bwep": 69,
             "wep": 75,
             "hard": 5,
             "loop": 0,
             "crown": false,
+            "pizzas": 0,
             "color": 16736708,
             "area": 3,
-            "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 69,
-                    "wep": 75,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
+            "skin": 0
         },
         {
-            "kills": 96,
+            "kills": 183,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                14,
-                5
+                23,
+                15,
+                25,
+                10,
+                14
             ],
-            "time": 2521,
-            "race": 7,
+            "time": 6636,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -64,27 +66,28 @@
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 59,
-            "bwep": 5,
-            "wep": 5,
-            "hard": 4,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "area": 2,
-            "skin": 0,
+            "race": 7,
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": 5,
-                    "bwep": 5,
+                    "bwep": "va_gluon_gun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
-            ]
+            ],
+            "name": "Chump",
+            "killed_by": 19,
+            "bwep": "va_gluon_gun",
+            "wep": 5,
+            "hard": 8,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 4,
+            "skin": 0
         }
     ]
 }
