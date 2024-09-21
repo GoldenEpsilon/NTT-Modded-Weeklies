@@ -15,8 +15,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_gluon_gun",
                     "wep": 5,
+                    "bwep": "va_gluon_gun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -46,15 +46,16 @@
             "skin": 0
         },
         {
-            "kills": 138,
+            "kills": 144,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 3,
             "mutations": [
-                "compoundelbow",
-                "Rocket Casings",
-                4
+                8,
+                14,
+                "Shattered Skull",
+                11
             ],
-            "time": 5113,
+            "time": 5301,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -69,18 +70,18 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 1,
-                    "bwep": 1,
+                    "wep": "va_duster_shotgun",
+                    "bwep": 5,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 0,
-            "bwep": 1,
-            "wep": 1,
-            "hard": 6,
+            "killed_by": 17,
+            "bwep": 5,
+            "wep": "va_duster_shotgun",
+            "hard": 7,
             "loop": 0,
             "crown": false,
             "color": 16736708,
