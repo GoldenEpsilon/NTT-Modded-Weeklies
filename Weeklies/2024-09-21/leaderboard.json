@@ -15,8 +15,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 5,
                     "bwep": "va_gluon_gun",
+                    "wep": 5,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -46,16 +46,27 @@
             "skin": 0
         },
         {
-            "kills": 144,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                8,
-                14,
-                "Shattered Skull",
-                11
+            "kills": 3589,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
             ],
-            "time": 5301,
+            "subarea": 1,
+            "mutations": [
+                21,
+                10,
+                27,
+                "compoundelbow",
+                "Slim Pickings",
+                "Energized Intestines",
+                "Rubber Rounds",
+                "Absorbing Abs",
+                "Double Vision",
+                8
+            ],
+            "time": 61966,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -70,23 +81,23 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_duster_shotgun",
-                    "bwep": 5,
+                    "wep": "va_archmagus_bolt_caster",
+                    "bwep": 11,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 17,
-            "bwep": 5,
-            "wep": "va_duster_shotgun",
-            "hard": 7,
-            "loop": 0,
-            "crown": false,
+            "killed_by": 94,
+            "bwep": 11,
+            "wep": "va_archmagus_bolt_caster",
+            "hard": 59,
+            "loop": 3,
+            "crown": 1,
             "color": 16736708,
             "pizzas": 0,
-            "area": 3,
+            "area": 4,
             "skin": 0
         }
     ]
