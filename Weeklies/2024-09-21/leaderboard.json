@@ -25,8 +25,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -34,37 +34,40 @@
             ],
             "race": 7,
             "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_archmagus_bolt_caster",
-                    "bwep": 11,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": 94,
             "bwep": 11,
             "wep": "va_archmagus_bolt_caster",
             "hard": 59,
             "loop": 3,
             "crown": 1,
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 11,
+                    "wep": "va_archmagus_bolt_caster",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
             "area": 4,
             "skin": 0
         },
         {
-            "kills": 146,
+            "kills": 279,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
+                "Staked Chest",
                 21,
-                "powderedgums",
-                "sharpteeth"
+                3,
+                "Absorbing Abs",
+                9,
+                "compoundelbow"
             ],
-            "time": 3788,
+            "time": 11628,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -76,26 +79,26 @@
                 }
             ],
             "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 27,
+            "bwep": 112,
+            "wep": 6,
+            "hard": 11,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "mcleod",
-                    "bwep": "hand_spade",
+                    "wep": 6,
+                    "bwep": 112,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "killed_by": 8,
-            "bwep": "hand_spade",
-            "wep": "mcleod",
-            "hard": 4,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "pizzas": 0,
-            "area": 2,
+            "area": 5,
             "skin": 0
         }
     ]
