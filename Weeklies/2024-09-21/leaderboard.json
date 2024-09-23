@@ -4,8 +4,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_archmagus_bolt_caster",
                     "bwep": 11,
+                    "wep": "va_archmagus_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -44,8 +44,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -59,30 +59,32 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 4,
+                    "wep": 17,
+                    "bwep": "smartgun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "kills": 174,
+            "kills": 251,
             "ultras": [ ],
             "subarea": 2,
             "mutations": [
-                "powderedgums",
+                14,
+                "Confidence",
+                28,
+                "excitedneurons",
                 "compoundelbow",
-                5,
-                "Staked Chest"
+                "Thick Head"
             ],
-            "time": 5085,
+            "time": 10978,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 0,
-            "bwep": 4,
-            "wep": 6,
-            "hard": 6,
+            "killed_by": 25,
+            "bwep": "smartgun",
+            "wep": 17,
+            "hard": 10,
             "loop": 0,
             "crown": false,
             "loadout": [
@@ -96,7 +98,7 @@
                 }
             ],
             "color": 16736708,
-            "area": 3,
+            "area": 5,
             "skin": 0
         }
     ]
