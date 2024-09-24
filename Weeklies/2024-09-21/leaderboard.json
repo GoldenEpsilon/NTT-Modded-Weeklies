@@ -25,8 +25,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -44,8 +44,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_archmagus_bolt_caster",
                     "bwep": 11,
+                    "wep": "va_archmagus_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -78,8 +78,8 @@
             "loadout": [
                 {
                     "alias": "fred",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
@@ -97,8 +97,8 @@
             "allies": [
                 {
                     "alias": "fred",
-                    "bwep": "va_smartsaw_launcher",
                     "wep": "va_gluon_cleaver",
+                    "bwep": "va_smartsaw_launcher",
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
@@ -109,19 +109,11 @@
             "skin": 0
         },
         {
-            "kills": 331,
+            "kills": 16,
             "ultras": [ ],
             "subarea": 1,
-            "mutations": [
-                14,
-                23,
-                27,
-                "Mimicry",
-                4,
-                "Thick Head",
-                1
-            ],
-            "time": 19196,
+            "mutations": [ ],
+            "time": 696,
             "loadout": [
                 {
                     "alias": "fred",
@@ -135,24 +127,24 @@
             "race": "acrobat",
             "pizzas": 0,
             "name": "fred",
-            "killed_by": 34,
-            "bwep": "fire_poker",
-            "wep": "va_heavy_breach_cannon",
-            "hard": 13,
+            "killed_by": 4,
+            "bwep": 27,
+            "wep": "Acro-Bat",
+            "hard": 1,
             "loop": 0,
             "crown": false,
             "color": 16737962,
             "allies": [
                 {
                     "alias": "fred",
-                    "wep": "va_heavy_breach_cannon",
-                    "bwep": "fire_poker",
+                    "wep": "Acro-Bat",
+                    "bwep": 27,
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
                 }
             ],
-            "area": 7,
+            "area": 1,
             "skin": 0
         }
     ]
