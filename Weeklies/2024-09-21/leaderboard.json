@@ -25,8 +25,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -37,8 +37,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_archmagus_bolt_caster",
                     "bwep": 11,
+                    "wep": "va_archmagus_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -69,8 +69,8 @@
             "loadout": [
                 {
                     "alias": "fred",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "fred",
-                    "bwep": "fire_poker",
                     "wep": "va_gluon_gun",
+                    "bwep": "fire_poker",
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
@@ -100,15 +100,14 @@
             "skin": 0
         },
         {
-            "kills": 129,
+            "kills": 68,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "Filtering Teeth",
-                "Fractured Fingers",
-                23
+                14,
+                13
             ],
-            "time": 4368,
+            "time": 2248,
             "loadout": [
                 {
                     "alias": "fred",
@@ -123,23 +122,23 @@
             "allies": [
                 {
                     "alias": "fred",
-                    "wep": 13,
-                    "bwep": "va_gluon_gun",
+                    "wep": "fire_poker",
+                    "bwep": "va_snubnose",
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
                 }
             ],
             "name": "fred",
-            "killed_by": 7,
-            "bwep": "va_gluon_gun",
-            "wep": 13,
-            "hard": 4,
+            "killed_by": 0,
+            "bwep": "va_snubnose",
+            "wep": "fire_poker",
+            "hard": 3,
             "loop": 0,
             "crown": false,
             "color": 16737962,
             "pizzas": 0,
-            "area": 2,
+            "area": 1,
             "skin": 0
         }
     ]
