@@ -1,16 +1,6 @@
 {
     "scores": [
         {
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
             "kills": 3589,
             "ultras": [
                 [
@@ -32,30 +22,6 @@
                 8
             ],
             "time": 61966,
-            "race": 7,
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 94,
-            "bwep": 11,
-            "wep": "va_archmagus_bolt_caster",
-            "hard": 59,
-            "loop": 3,
-            "crown": 1,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 11,
-                    "wep": "va_archmagus_bolt_caster",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "color": 16736708,
-            "area": 4,
-            "skin": 0
-        },
-        {
             "loadout": [
                 {
                     "alias": "Chump",
@@ -66,39 +32,68 @@
                     "skin": 0
                 }
             ],
-            "kills": 224,
-            "ultras": [ ],
-            "subarea": 2,
-            "mutations": [
-                "Shell Cellulite",
-                "Compressing Fist",
-                "Double Vision",
-                11,
-                19,
-                "Thick Head"
-            ],
-            "time": 9356,
             "race": 7,
-            "pizzas": 0,
             "name": "Chump",
-            "killed_by": 24,
-            "bwep": 11,
-            "wep": 11,
-            "hard": 10,
-            "loop": 0,
-            "crown": false,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 11,
+                    "wep": "va_archmagus_bolt_caster",
                     "bwep": 11,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
+            "killed_by": 94,
+            "bwep": 11,
+            "wep": "va_archmagus_bolt_caster",
+            "hard": 59,
+            "loop": 3,
+            "crown": 1,
+            "pizzas": 0,
             "color": 16736708,
-            "area": 5,
+            "area": 4,
+            "skin": 0
+        },
+        {
+            "kills": 30,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "Double Vision"
+            ],
+            "time": 2495,
+            "loadout": [
+                {
+                    "alias": "fred",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "race": "acrobat",
+                    "color": 16737962,
+                    "skin": 0
+                }
+            ],
+            "race": "acrobat",
+            "allies": [
+                {
+                    "alias": "fred",
+                    "wep": "Acro-Bat",
+                    "bwep": 69,
+                    "race": "acrobat",
+                    "color": 16737962,
+                    "skin": 0
+                }
+            ],
+            "name": "fred",
+            "killed_by": 3,
+            "bwep": 69,
+            "wep": "Acro-Bat",
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
+            "color": 16737962,
+            "pizzas": 0,
+            "area": 1,
             "skin": 0
         }
     ]
