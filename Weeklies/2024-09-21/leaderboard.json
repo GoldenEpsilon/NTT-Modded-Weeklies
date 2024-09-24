@@ -25,8 +25,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -37,8 +37,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_archmagus_bolt_caster",
                     "bwep": 11,
+                    "wep": "va_archmagus_bolt_caster",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -69,8 +69,8 @@
             "loadout": [
                 {
                     "alias": "fred",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "fred",
-                    "bwep": "fire_poker",
                     "wep": "va_gluon_gun",
+                    "bwep": "fire_poker",
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
@@ -100,15 +100,25 @@
             "skin": 0
         },
         {
-            "kills": 138,
-            "ultras": [ ],
+            "kills": 749,
+            "ultras": [
+                [
+                    "acrobat",
+                    2
+                ]
+            ],
             "subarea": 1,
             "mutations": [
-                "Alchemic Stomach",
-                "Confidence",
-                "Ruffled Feathers"
+                "luckyshot",
+                5,
+                "Absorbing Abs",
+                "excitedneurons",
+                4,
+                11,
+                19,
+                "Sadism"
             ],
-            "time": 4959,
+            "time": 30773,
             "loadout": [
                 {
                     "alias": "fred",
@@ -123,19 +133,19 @@
             "allies": [
                 {
                     "alias": "fred",
-                    "wep": "Acro-Bat",
-                    "bwep": 21,
+                    "wep": "va_gluon_cleaver",
+                    "bwep": "va_smartsaw_launcher",
                     "race": "acrobat",
                     "color": 16737962,
                     "skin": 0
                 }
             ],
             "name": "fred",
-            "killed_by": 9,
-            "bwep": 21,
-            "wep": "Acro-Bat",
-            "hard": 4,
-            "loop": 0,
+            "killed_by": 94,
+            "bwep": "va_smartsaw_launcher",
+            "wep": "va_gluon_cleaver",
+            "hard": 20,
+            "loop": 1,
             "crown": false,
             "color": 16737962,
             "pizzas": 0,
