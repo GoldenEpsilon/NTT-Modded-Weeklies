@@ -1,14 +1,25 @@
 {
     "scores": [
         {
+            "allies": [
+                {
+                    "color": 16736708,
+                    "wep": "va_archmagus_bolt_caster",
+                    "bwep": 11,
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
+            "color": 16736708,
             "kills": 3589,
+            "subarea": 1,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 1,
             "mutations": [
                 21,
                 10,
@@ -22,48 +33,48 @@
                 8
             ],
             "time": 61966,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
             "race": 7,
             "name": "Chump",
-            "allies": [
+            "loadout": [
                 {
-                    "alias": "Chump",
-                    "wep": "va_archmagus_bolt_caster",
-                    "bwep": 11,
-                    "race": 7,
                     "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "alias": "Chump",
+                    "race": 7,
                     "skin": 0
                 }
             ],
-            "killed_by": 94,
+            "pizzas": 0,
             "bwep": 11,
             "wep": "va_archmagus_bolt_caster",
+            "killed_by": 94,
             "hard": 59,
             "loop": 3,
             "crown": 1,
-            "pizzas": 0,
-            "color": 16736708,
             "area": 4,
             "skin": 0
         },
         {
+            "allies": [
+                {
+                    "color": 16737962,
+                    "bwep": "va_smartsaw_launcher",
+                    "wep": "va_gluon_cleaver",
+                    "alias": "fred",
+                    "race": "acrobat",
+                    "skin": 0
+                }
+            ],
+            "color": 16737962,
             "kills": 749,
+            "subarea": 1,
             "ultras": [
                 [
                     "acrobat",
                     2
                 ]
             ],
-            "subarea": 1,
             "mutations": [
                 "luckyshot",
                 5,
@@ -75,78 +86,74 @@
                 "Sadism"
             ],
             "time": 30773,
-            "loadout": [
-                {
-                    "alias": "fred",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
-                    "race": "acrobat",
-                    "color": 16737962,
-                    "skin": 0
-                }
-            ],
             "race": "acrobat",
             "name": "fred",
-            "allies": [
+            "loadout": [
                 {
-                    "alias": "fred",
-                    "bwep": "va_smartsaw_launcher",
-                    "wep": "va_gluon_cleaver",
-                    "race": "acrobat",
                     "color": 16737962,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "alias": "fred",
+                    "race": "acrobat",
                     "skin": 0
                 }
             ],
-            "killed_by": 94,
+            "pizzas": 0,
             "bwep": "va_smartsaw_launcher",
             "wep": "va_gluon_cleaver",
+            "killed_by": 94,
             "hard": 20,
             "loop": 1,
             "crown": false,
-            "pizzas": 0,
-            "color": 16737962,
             "area": 2,
             "skin": 0
         },
         {
-            "kills": 89,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                1,
-                "Muscle Memory"
-            ],
-            "time": 3037,
-            "loadout": [
-                {
-                    "alias": "fred",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "race": "acrobat",
-                    "color": 16737962,
-                    "skin": 0
-                }
-            ],
-            "race": "acrobat",
+            "color": 16736708,
             "allies": [
                 {
-                    "alias": "fred",
-                    "wep": "Acro-Bat",
-                    "bwep": "va_snubnose",
-                    "race": "acrobat",
-                    "color": 16737962,
+                    "color": 16736708,
+                    "bwep": 5,
+                    "wep": 69,
+                    "alias": "Chump",
+                    "race": 7,
                     "skin": 0
                 }
             ],
-            "name": "fred",
-            "killed_by": 6,
-            "bwep": "va_snubnose",
-            "wep": "Acro-Bat",
-            "hard": 3,
-            "loop": 0,
-            "crown": false,
-            "color": 16737962,
+            "kills": 498,
+            "subarea": 2,
+            "ultras": [ ],
+            "mutations": [
+                5,
+                10,
+                "Shattered Skull",
+                "Loner",
+                "Cranial Valve",
+                1,
+                11,
+                8,
+                "Double Vision"
+            ],
+            "time": 20155,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "alias": "Chump",
+                    "race": 7,
+                    "skin": 0
+                }
+            ],
             "pizzas": 0,
+            "bwep": 5,
+            "wep": 69,
+            "killed_by": 4,
+            "hard": 18,
+            "loop": 1,
+            "crown": false,
             "area": 1,
             "skin": 0
         }
