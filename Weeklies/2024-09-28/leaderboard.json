@@ -21,19 +21,28 @@
                 16
             ],
             "time": 36306,
-            "race": 7,
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
+            "race": 7,
             "name": "Chump",
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "minigun",
+                    "bwep": 90,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": [
                 null,
                 "ROCKET CASINGS BLAST"
@@ -43,38 +52,26 @@
             "hard": 35,
             "loop": 2,
             "crown": 1,
+            "pizzas": 0,
             "color": 16736708,
             "area": 0,
-            "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 90,
-                    "wep": "minigun",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
+            "skin": 0
         },
         {
-            "kills": 393,
+            "kills": 316,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                "excitedneurons",
+                11,
                 14,
+                15,
                 "Double Vision",
-                "Rocket Casings",
-                1,
-                "Slim Pickings",
-                "Iron Skin",
-                "Cruelty-Free Veganlust",
-                "Ruffled Feathers",
-                25
+                10,
+                "Fractured Fingers",
+                "Loner",
+                "Iron Skin"
             ],
-            "time": 16509,
-            "race": 7,
+            "time": 13426,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -85,27 +82,28 @@
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "pizzas": 0,
-            "killed_by": 37,
-            "bwep": "minigun",
-            "wep": 47,
-            "hard": 16,
-            "loop": 0,
-            "crown": 1,
-            "color": 16736708,
-            "area": 7,
-            "skin": 0,
+            "race": 7,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 47,
-                    "bwep": "minigun",
+                    "wep": 23,
+                    "bwep": "va_double_duster_shotgun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
-            ]
+            ],
+            "name": "Chump",
+            "killed_by": 51,
+            "bwep": "va_double_duster_shotgun",
+            "wep": 23,
+            "hard": 13,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "pizzas": 0,
+            "area": 7,
+            "skin": 0
         }
     ]
 }
