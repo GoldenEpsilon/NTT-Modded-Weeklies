@@ -24,8 +24,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -33,16 +33,7 @@
             ],
             "race": 7,
             "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 90,
-                    "wep": "minigun",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "pizzas": 0,
             "killed_by": [
                 null,
                 "ROCKET CASINGS BLAST"
@@ -52,32 +43,35 @@
             "hard": 35,
             "loop": 2,
             "crown": 1,
-            "pizzas": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "minigun",
+                    "bwep": 90,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "color": 16736708,
             "area": 0,
             "skin": 0
         },
         {
-            "kills": 890,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "subarea": 1,
+            "kills": 345,
+            "ultras": [ ],
+            "subarea": 2,
             "mutations": [
+                "Rocket Casings",
+                15,
+                22,
                 "Shell Cellulite",
-                10,
-                11,
-                "Loner",
-                "Cranial Valve",
-                "condensedmeat",
-                "Duplicators",
                 "Waste Gland",
-                "powderedgums"
+                14,
+                25,
+                28
             ],
-            "time": 21694,
+            "time": 15087,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -89,26 +83,26 @@
                 }
             ],
             "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 35,
+            "bwep": 8,
+            "wep": "va_lancer_shotgun",
+            "hard": 14,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 69,
-                    "bwep": 69,
+                    "wep": "va_lancer_shotgun",
+                    "bwep": 8,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "name": "Chump",
-            "killed_by": 13,
-            "bwep": 69,
-            "wep": 69,
-            "hard": 20,
-            "loop": 1,
-            "crown": false,
-            "color": 16736708,
-            "pizzas": 0,
-            "area": 2,
+            "area": 7,
             "skin": 0
         }
     ]
