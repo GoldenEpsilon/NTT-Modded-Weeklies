@@ -24,8 +24,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -46,8 +46,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "minigun",
                     "bwep": 90,
+                    "wep": "minigun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -58,20 +58,18 @@
             "skin": 0
         },
         {
-            "kills": 345,
+            "kills": 233,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 3,
             "mutations": [
-                "Rocket Casings",
-                15,
-                22,
-                "Shell Cellulite",
-                "Waste Gland",
-                14,
-                25,
-                28
+                1,
+                "Shattered Skull",
+                "excitedneurons",
+                16,
+                10,
+                "Sloppy Fingers"
             ],
-            "time": 15087,
+            "time": 9956,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -85,24 +83,24 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "killed_by": 35,
-            "bwep": 8,
-            "wep": "va_lancer_shotgun",
-            "hard": 14,
+            "killed_by": 27,
+            "bwep": "smg",
+            "wep": 17,
+            "hard": 11,
             "loop": 0,
             "crown": false,
             "color": 16736708,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_lancer_shotgun",
-                    "bwep": 8,
+                    "wep": 17,
+                    "bwep": "smg",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "area": 7,
+            "area": 5,
             "skin": 0
         }
     ]
