@@ -134,6 +134,45 @@
             ],
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 15,
+            "subarea": 1,
+            "killed_by": 4,
+            "time": 385.5,
+            "loadout": [
+                {
+                    "color": 10066329,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "Printer",
+                    "skin": 0,
+                    "alias": "vomiting skeleton"
+                }
+            ],
+            "race": "Printer",
+            "pizzas": 0,
+            "name": "vomiting skeleton",
+            "color": 10066329,
+            "bwep": 0,
+            "wep": 3,
+            "ultras": [ ],
+            "hard": 1,
+            "loop": 0,
+            "mutations": [ ],
+            "crown": false,
+            "allies": [
+                {
+                    "color": 10066329,
+                    "bwep": 0,
+                    "wep": 3,
+                    "race": "Printer",
+                    "skin": 0,
+                    "alias": "vomiting skeleton"
+                }
+            ],
+            "area": 1,
+            "skin": 0
         }
     ]
 }
