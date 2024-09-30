@@ -2,13 +2,36 @@
     "scores": [
         {
             "kills": 1320,
+            "subarea": 1,
+            "time": 36306,
+            "killed_by": [
+                null,
+                "ROCKET CASINGS BLAST"
+            ],
+            "loadout": [
+                {
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "skin": 0,
+                    "alias": "Chump"
+                }
+            ],
+            "race": 7,
+            "name": "Chump",
+            "pizzas": 0,
+            "color": 16736708,
+            "bwep": 90,
+            "wep": "minigun",
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 1,
+            "hard": 35,
+            "loop": 2,
             "mutations": [
                 "excitedneurons",
                 "Rocket Casings",
@@ -20,85 +43,57 @@
                 "Double Vision",
                 16
             ],
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
+            "crown": 1,
             "allies": [
                 {
-                    "alias": "Chump",
+                    "color": 16736708,
                     "wep": "minigun",
                     "bwep": 90,
                     "race": 7,
-                    "color": 16736708,
-                    "skin": 0
+                    "skin": 0,
+                    "alias": "Chump"
                 }
             ],
-            "time": 36306,
-            "race": 7,
-            "name": "Chump",
-            "killed_by": [
-                null,
-                "ROCKET CASINGS BLAST"
-            ],
-            "pizzas": 0,
-            "bwep": 90,
-            "wep": "minigun",
-            "hard": 35,
-            "loop": 2,
-            "crown": 1,
-            "color": 16736708,
             "area": 0,
             "skin": 0
         },
         {
-            "kills": 225,
-            "ultras": [ ],
-            "subarea": 3,
+            "kills": 6,
+            "subarea": 1,
+            "killed_by": -1,
+            "time": 286.5,
             "loadout": [
                 {
-                    "alias": "Chump",
+                    "color": 10066329,
+                    "bwep": 0,
                     "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
+                    "race": "acrobat",
+                    "skin": 0,
+                    "alias": "vomiting skeleton"
                 }
             ],
-            "mutations": [
-                "compoundelbow",
-                15,
-                28,
-                4
-            ],
+            "race": "acrobat",
+            "pizzas": 0,
+            "name": "vomiting skeleton",
+            "color": 10066329,
+            "bwep": 0,
+            "wep": "Acro-Bat",
+            "ultras": [ ],
+            "hard": 1,
+            "loop": 0,
+            "mutations": [ ],
+            "crown": false,
             "allies": [
                 {
-                    "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 23,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
+                    "color": 10066329,
+                    "bwep": 0,
+                    "wep": "Acro-Bat",
+                    "race": "acrobat",
+                    "skin": 0,
+                    "alias": "vomiting skeleton"
                 }
             ],
-            "time": 6327,
-            "race": 7,
-            "name": "Chump",
-            "killed_by": 0,
-            "bwep": 23,
-            "wep": 6,
-            "pizzas": 0,
-            "hard": 7,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "area": 3,
+            "area": 1,
             "skin": 0
         }
     ]
