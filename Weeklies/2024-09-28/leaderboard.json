@@ -95,6 +95,45 @@
             ],
             "area": 1,
             "skin": 0
+        },
+        {
+            "kills": 13,
+            "subarea": 1,
+            "killed_by": -1,
+            "time": 595.5,
+            "loadout": [
+                {
+                    "color": 10066329,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": "scales",
+                    "skin": 0,
+                    "alias": "vomiting skeleton"
+                }
+            ],
+            "race": "scales",
+            "pizzas": 0,
+            "name": "vomiting skeleton",
+            "color": 10066329,
+            "bwep": 17,
+            "wep": "mateba",
+            "ultras": [ ],
+            "hard": 1,
+            "loop": 0,
+            "mutations": [ ],
+            "crown": false,
+            "allies": [
+                {
+                    "color": 10066329,
+                    "bwep": 17,
+                    "wep": "mateba",
+                    "race": "scales",
+                    "skin": 0,
+                    "alias": "vomiting skeleton"
+                }
+            ],
+            "area": 1,
+            "skin": 0
         }
     ]
 }
