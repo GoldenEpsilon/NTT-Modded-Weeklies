@@ -14,8 +14,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -35,8 +35,57 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 4,
                     "bwep": 1,
+                    "wep": 4,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "kills": 461,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "Double Vision",
+                "powderedgums",
+                "Shell Cellulite",
+                "excitedneurons",
+                "Ruffled Feathers",
+                "Rocket Casings",
+                28,
+                "Loner",
+                "Cranial Valve"
+            ],
+            "time": 15523,
+            "race": 7,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Chump",
+            "pizzas": 0,
+            "killed_by": 37,
+            "bwep": "CombatHeavySlugger",
+            "wep": 17,
+            "hard": 15,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 7,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 17,
+                    "bwep": "CombatHeavySlugger",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
