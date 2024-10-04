@@ -1,15 +1,30 @@
 {
     "scores": [
         {
-            "pizzas": 0,
             "kills": 1507,
+            "subarea": 1,
+            "killed_by": 94,
+            "pizzas": 0,
+            "time": 35217,
+            "loadout": [
+                {
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "alias": "Chump",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 7,
+            "name": "Chump",
+            "color": 16736708,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 1,
             "mutations": [
                 11,
                 "Shattered Skull",
@@ -21,85 +36,68 @@
                 "Telekinetic Tears",
                 10
             ],
-            "time": 35217,
-            "race": 7,
-            "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 33,
-                    "bwep": "CombatHeavySlugger",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 94,
             "bwep": "CombatHeavySlugger",
             "wep": 33,
             "hard": 33,
             "loop": 2,
-            "crown": false,
-            "color": 16736708,
-            "area": 1,
-            "loadout": [
+            "allies": [
                 {
+                    "wep": 33,
+                    "bwep": "CombatHeavySlugger",
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
+            "crown": false,
+            "area": 1,
             "skin": 0
         },
         {
+            "kills": 251,
+            "subarea": 2,
+            "killed_by": 24,
             "pizzas": 0,
-            "kills": 334,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                "Shell Cellulite",
-                "condensedmeat",
-                "Waste Gland",
-                27,
-                "Loner",
-                "Cranial Valve",
-                "Shattered Skull",
-                29
-            ],
-            "time": 14768,
-            "race": 7,
-            "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_auto_duster_shotgun",
-                    "bwep": 23,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 81,
-            "bwep": 23,
-            "wep": "va_auto_duster_shotgun",
-            "hard": 15,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "area": 7,
+            "time": 13703,
             "loadout": [
                 {
-                    "alias": "Chump",
                     "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
+                    "bwep": 0,
+                    "alias": "Discord from the show Discord!",
+                    "race": "Printer",
+                    "skin": 0,
+                    "color": 16736708
                 }
             ],
+            "race": "Printer",
+            "color": 16736708,
+            "name": "Discord from the show Discord!",
+            "ultras": [ ],
+            "mutations": [
+                5,
+                16,
+                10,
+                "Scrap Arms",
+                23,
+                "Shattered Skull"
+            ],
+            "bwep": 8,
+            "wep": 2,
+            "hard": 10,
+            "loop": 0,
+            "allies": [
+                {
+                    "wep": 2,
+                    "bwep": 8,
+                    "alias": "Discord from the show Discord!",
+                    "race": "Printer",
+                    "skin": 0,
+                    "color": 16736708
+                }
+            ],
+            "crown": false,
+            "area": 5,
             "skin": 0
         }
     ]
