@@ -27,8 +27,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "CombatHeavySlugger",
                     "wep": 33,
+                    "bwep": "CombatHeavySlugger",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -73,8 +73,8 @@
             "allies": [
                 {
                     "alias": "Discord from the show Discord!",
-                    "bwep": 8,
                     "wep": 2,
+                    "bwep": 8,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -89,8 +89,8 @@
             "loadout": [
                 {
                     "alias": "Discord from the show Discord!",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": "Printer",
                     "color": 16736708,
                     "skin": 0
@@ -101,33 +101,46 @@
             "skin": 0
         },
         {
-            "kills": 145,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                10,
-                "Shell Cellulite"
+            "kills": 842,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
             ],
-            "time": 3209,
+            "subarea": 3,
+            "mutations": [
+                "Loner",
+                "Energized Intestines",
+                25,
+                "condensedmeat",
+                21,
+                15,
+                "Double Vision",
+                "Absorbing Abs",
+                10,
+                "Staked Chest"
+            ],
+            "time": 25492,
             "pizzas": 0,
             "race": 7,
             "allies": [
                 {
                     "alias": "Chump",
                     "wep": 6,
-                    "bwep": 5,
+                    "bwep": "Tsunami",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 95,
-            "bwep": 5,
+            "killed_by": 91,
+            "bwep": "Tsunami",
             "wep": 6,
-            "hard": 4,
-            "loop": 0,
-            "crown": false,
+            "hard": 25,
+            "loop": 1,
+            "crown": 1,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -139,7 +152,7 @@
                 }
             ],
             "color": 16736708,
-            "area": 2,
+            "area": 3,
             "skin": 0
         }
     ]
