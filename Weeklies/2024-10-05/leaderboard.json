@@ -27,8 +27,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -43,8 +43,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 2,
                     "bwep": 17,
+                    "wep": 2,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -55,21 +55,16 @@
             "skin": 0
         },
         {
-            "kills": 335,
+            "kills": 191,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                2,
-                "Shell Cellulite",
-                "Shattered Skull",
-                1,
+                15,
                 "Staked Chest",
-                5,
-                "Slim Pickings",
-                "Toxic Thoughts",
-                "Shocked Skin"
+                "Double Vision",
+                "Compressing Fist"
             ],
-            "time": 14845,
+            "time": 6371,
             "pizzas": 0,
             "race": 7,
             "loadout": [
@@ -83,24 +78,24 @@
                 }
             ],
             "name": "Chump",
-            "killed_by": 29,
-            "bwep": 61,
-            "wep": 21,
-            "hard": 12,
+            "killed_by": 21,
+            "bwep": 6,
+            "wep": 6,
+            "hard": 8,
             "loop": 0,
             "crown": false,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 21,
-                    "bwep": 61,
+                    "wep": 6,
+                    "bwep": 6,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "color": 16736708,
-            "area": 6,
+            "area": 4,
             "skin": 0
         }
     ]
