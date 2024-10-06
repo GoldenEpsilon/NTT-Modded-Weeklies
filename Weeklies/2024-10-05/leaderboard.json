@@ -13,55 +13,26 @@
                 "Cranial Valve",
                 "Shattered Skull"
             ],
-            "pizzas": 0,
             "time": 5615,
+            "pizzas": 0,
             "race": 7,
             "name": "Chump",
-            "killed_by": 52,
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
+                    "bwep": 10,
+                    "wep": 6,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
+            "killed_by": 52,
             "bwep": 10,
             "wep": 6,
             "hard": 6,
             "loop": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 10,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
             "crown": false,
-            "color": 16736708,
-            "area": 3,
-            "skin": 0
-        },
-        {
-            "kills": 149,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                "Garment Regenerator",
-                20,
-                15,
-                8
-            ],
-            "pizzas": 0,
-            "time": 6536,
-            "race": 7,
-            "name": "Chump",
-            "killed_by": 18,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -72,21 +43,6 @@
                     "skin": 0
                 }
             ],
-            "bwep": 5,
-            "wep": 21,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 5,
-                    "wep": 21,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "hard": 7,
-            "loop": 0,
-            "crown": false,
             "color": 16736708,
             "area": 3,
             "skin": 0
@@ -102,11 +58,70 @@
                 1,
                 9
             ],
-            "pizzas": 0,
             "time": 8027,
+            "pizzas": 0,
             "race": 7,
             "name": "Chump",
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 21,
+                    "wep": "va_double_duster_shotgun",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
             "killed_by": 25,
+            "bwep": 21,
+            "wep": "va_double_duster_shotgun",
+            "hard": 9,
+            "loop": 0,
+            "crown": false,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "color": 16736708,
+            "area": 5,
+            "skin": 0
+        },
+        {
+            "kills": 136,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "Duplicators",
+                "condensedmeat",
+                "Shattered Skull",
+                "Shell Cellulite"
+            ],
+            "time": 5727,
+            "pizzas": 0,
+            "race": 7,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 62,
+                    "bwep": 17,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Chump",
+            "killed_by": 14,
+            "bwep": 17,
+            "wep": 62,
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -117,23 +132,8 @@
                     "skin": 0
                 }
             ],
-            "bwep": 21,
-            "wep": "va_double_duster_shotgun",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_double_duster_shotgun",
-                    "bwep": 21,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "hard": 9,
-            "loop": 0,
-            "crown": false,
             "color": 16736708,
-            "area": 5,
+            "area": 3,
             "skin": 0
         }
     ]
