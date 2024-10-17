@@ -1,16 +1,6 @@
 {
     "scores": [
         {
-            "allies": [
-                {
-                    "alias": "Sir Mittens IV",
-                    "wep": 119,
-                    "bwep": 13,
-                    "race": 6,
-                    "color": 16736708,
-                    "skin": 1
-                }
-            ],
             "kills": 337,
             "ultras": [ ],
             "subarea": 1,
@@ -25,18 +15,18 @@
                 "Mimicry"
             ],
             "time": 18208,
-            "race": 6,
-            "name": "Sir Mittens IV",
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
+                    "bwep": 13,
+                    "wep": 119,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
+            "race": 6,
+            "name": "Sir Mittens IV",
             "pizzas": 0,
             "killed_by": 56,
             "bwep": 13,
@@ -44,9 +34,72 @@
             "hard": 16,
             "loop": 1,
             "crown": false,
+            "loadout": [
+                {
+                    "alias": "Sir Mittens IV",
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
+                    "race": 6,
+                    "color": 16736708,
+                    "skin": 1
+                }
+            ],
             "color": 16736708,
             "area": 0,
             "skin": 1
+        },
+        {
+            "kills": 408,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "subarea": 1,
+            "mutations": [
+                "Steel Nerves",
+                8,
+                "Shattered Skull",
+                "Double Vision",
+                "Waste Gland",
+                14,
+                "luckyshot",
+                5
+            ],
+            "time": 18724,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 69,
+                    "bwep": 23,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 53,
+            "bwep": 23,
+            "wep": 69,
+            "hard": 17,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "area": 1,
+            "skin": 0
         }
     ]
 }
