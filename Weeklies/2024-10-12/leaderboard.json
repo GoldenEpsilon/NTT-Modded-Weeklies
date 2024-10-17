@@ -18,8 +18,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 13,
                     "wep": 119,
+                    "bwep": 13,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -37,8 +37,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "race": 6,
                     "color": 16736708,
                     "skin": 1
@@ -71,8 +71,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 69,
                     "bwep": 23,
+                    "wep": 69,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -91,6 +91,51 @@
             "loadout": [
                 {
                     "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "area": 1,
+            "skin": 0
+        },
+        {
+            "kills": 164,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                "Shell Cellulite",
+                "Loner",
+                "Energized Intestines",
+                3,
+                11
+            ],
+            "time": 4931,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 71,
+                    "bwep": 21,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "killed_by": 0,
+            "bwep": 21,
+            "wep": 71,
+            "hard": 6,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "alias": "Chump",
                     "wep": "mw_ui_start",
                     "bwep": 1,
                     "race": 7,
@@ -98,7 +143,7 @@
                     "skin": 0
                 }
             ],
-            "area": 1,
+            "area": 3,
             "skin": 0
         }
     ]
