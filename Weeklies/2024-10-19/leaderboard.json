@@ -24,11 +24,11 @@
             "race": "acrobat",
             "pizzas": 1,
             "name": "Sir Mittens IV",
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
+                    "bwep": 111,
+                    "wep": "va_vorpal_war_axe",
                     "race": "acrobat",
                     "color": 16736708,
                     "skin": 0
@@ -43,11 +43,11 @@
             "color": 16736708,
             "area": 3,
             "skin": 0,
-            "allies": [
+            "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "va_vorpal_war_axe",
-                    "bwep": 111,
+                    "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "acrobat",
                     "color": 16736708,
                     "skin": 0
@@ -74,11 +74,11 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
+                    "wep": "SquareGun",
+                    "bwep": "va_gatling_digsaw_launcher",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -93,11 +93,11 @@
             "color": 16736708,
             "area": 0,
             "skin": 0,
-            "allies": [
+            "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_gatling_digsaw_launcher",
-                    "wep": "SquareGun",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -122,11 +122,11 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
+                    "wep": 30,
+                    "bwep": 10,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -141,28 +141,6 @@
             "color": 16736708,
             "area": 7,
             "skin": 0,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": 10,
-                    "wep": 30,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
-        },
-        {
-            "kills": 91,
-            "ultras": [ ],
-            "subarea": 3,
-            "mutations": [
-                21
-            ],
-            "time": 2398,
-            "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
             "loadout": [
                 {
                     "alias": "Chump",
@@ -172,21 +150,57 @@
                     "color": 16736708,
                     "skin": 0
                 }
+            ]
+        },
+        {
+            "kills": 946,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
             ],
-            "killed_by": 6,
-            "bwep": 4,
-            "wep": 17,
-            "hard": 3,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "area": 1,
-            "skin": 0,
+            "subarea": 3,
+            "mutations": [
+                "Slim Pickings",
+                "Iron Skin",
+                "Cranial Valve",
+                "Shattered Skull",
+                "Shell Cellulite",
+                "powderedgums",
+                "Thick Head",
+                "Double Vision",
+                5,
+                "condensedmeat"
+            ],
+            "time": 26096,
+            "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 17,
-                    "bwep": 4,
+                    "wep": "va_lancer_shotgun",
+                    "bwep": "va_fumigator",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 59,
+            "bwep": "va_fumigator",
+            "wep": "va_lancer_shotgun",
+            "hard": 23,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 3,
+            "skin": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
