@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 61,
                     "bwep": 23,
+                    "wep": 61,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -38,8 +38,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -80,8 +80,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "va_vorpal_war_axe",
                     "bwep": 111,
+                    "wep": "va_vorpal_war_axe",
                     "race": "acrobat",
                     "color": 16736708,
                     "skin": 0
@@ -92,8 +92,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "acrobat",
                     "color": 16736708,
                     "skin": 0
@@ -126,8 +126,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 12,
                     "wep": 6,
+                    "bwep": 12,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -138,8 +138,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -148,36 +148,43 @@
             "skin": 0
         },
         {
-            "kills": 154,
+            "kills": 403,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
-                14,
-                "excitedneurons",
-                21
+                21,
+                "Rocket Casings",
+                "Slim Pickings",
+                "Energized Intestines",
+                "Toxic Thoughts",
+                "Thick Head",
+                8,
+                "Compressing Fist",
+                "Staked Chest",
+                "excitedneurons"
             ],
-            "time": 5017,
+            "time": 17751,
             "pizzas": 0,
             "race": 7,
             "name": "Chump",
-            "killed_by": 17,
-            "bwep": 17,
-            "wep": "va_digsaw_launcher",
-            "hard": 6,
-            "loop": 0,
+            "killed_by": 38,
+            "bwep": "va_gatling_digsaw_launcher",
+            "wep": "SquareGun",
+            "hard": 16,
+            "loop": 1,
             "crown": false,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_digsaw_launcher",
-                    "bwep": 17,
+                    "wep": "SquareGun",
+                    "bwep": "va_gatling_digsaw_launcher",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "color": 16736708,
-            "area": 3,
+            "area": 0,
             "loadout": [
                 {
                     "alias": "Chump",
