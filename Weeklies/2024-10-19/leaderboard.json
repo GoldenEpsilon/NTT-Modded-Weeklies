@@ -4,8 +4,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "race": "acrobat",
                     "color": 16736708,
                     "skin": 0
@@ -36,8 +36,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "va_vorpal_war_axe",
                     "bwep": 111,
+                    "wep": "va_vorpal_war_axe",
                     "race": "acrobat",
                     "color": 16736708,
                     "skin": 0
@@ -58,8 +58,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -91,8 +91,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_fumigator",
                     "wep": "va_lancer_shotgun",
+                    "bwep": "va_fumigator",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -120,33 +120,34 @@
                     "skin": 0
                 }
             ],
-            "kills": 212,
+            "kills": 293,
             "ultras": [ ],
-            "subarea": 1,
+            "subarea": 3,
             "mutations": [
-                "excitedneurons",
-                "Waste Gland",
-                5,
-                4,
-                "Thick Head"
+                "Staked Chest",
+                "Double Vision",
+                10,
+                11,
+                15,
+                20
             ],
-            "time": 8784,
+            "time": 11709,
             "race": 7,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_snubnose",
-                    "bwep": 4,
+                    "wep": "va_dustdropper",
+                    "bwep": "ClusterCannon",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 26,
-            "bwep": 4,
-            "wep": "va_snubnose",
-            "hard": 9,
+            "killed_by": 27,
+            "bwep": "ClusterCannon",
+            "wep": "va_dustdropper",
+            "hard": 11,
             "loop": 0,
             "crown": false,
             "color": 16736708,
