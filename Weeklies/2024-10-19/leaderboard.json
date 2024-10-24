@@ -121,38 +121,39 @@
                 }
             ],
             "color": 16736708,
-            "kills": 269,
-            "subarea": 2,
+            "kills": 384,
+            "subarea": 1,
             "pizzas": 0,
             "ultras": [ ],
             "mutations": [
-                11,
-                "Double Vision",
-                "compoundelbow",
-                "powderedgums",
+                10,
                 5,
-                "Staked Chest"
+                "Compressing Fist",
+                11,
+                "compoundelbow",
+                "Staked Chest",
+                28
             ],
-            "time": 10659,
+            "time": 13328,
             "race": 7,
             "name": "Chump",
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "va_gauge_gluon_gun",
-                    "wep": "va_snubnose",
+                    "bwep": 117,
+                    "wep": 22,
                     "alias": "Chump",
                     "race": 7,
                     "skin": 0
                 }
             ],
-            "bwep": "va_gauge_gluon_gun",
-            "wep": "va_snubnose",
-            "killed_by": 25,
-            "hard": 10,
+            "bwep": 117,
+            "wep": 22,
+            "killed_by": 34,
+            "hard": 13,
             "loop": 0,
             "crown": false,
-            "area": 5,
+            "area": 7,
             "skin": 0
         }
     ]
