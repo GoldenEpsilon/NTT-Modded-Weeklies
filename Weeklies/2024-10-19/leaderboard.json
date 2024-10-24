@@ -121,37 +121,38 @@
                 }
             ],
             "color": 16736708,
-            "kills": 230,
+            "kills": 269,
             "subarea": 2,
             "pizzas": 0,
             "ultras": [ ],
             "mutations": [
-                "Shell Cellulite",
-                21,
+                11,
                 "Double Vision",
-                "Compressing Fist",
-                "Absorbing Abs"
+                "compoundelbow",
+                "powderedgums",
+                5,
+                "Staked Chest"
             ],
-            "time": 8774,
+            "time": 10659,
             "race": 7,
             "name": "Chump",
             "allies": [
                 {
                     "color": 16736708,
-                    "bwep": "va_quad_digsaw_launcher",
-                    "wep": 62,
+                    "bwep": "va_gauge_gluon_gun",
+                    "wep": "va_snubnose",
                     "alias": "Chump",
                     "race": 7,
                     "skin": 0
                 }
             ],
-            "bwep": "va_quad_digsaw_launcher",
-            "wep": 62,
-            "killed_by": 52,
+            "bwep": "va_gauge_gluon_gun",
+            "wep": "va_snubnose",
+            "killed_by": 25,
             "hard": 10,
             "loop": 0,
             "crown": false,
-            "area": 100,
+            "area": 5,
             "skin": 0
         }
     ]
