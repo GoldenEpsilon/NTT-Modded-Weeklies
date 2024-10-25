@@ -4,8 +4,8 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 111,
                     "wep": "va_vorpal_war_axe",
+                    "bwep": 111,
                     "color": 16736708,
                     "race": "acrobat",
                     "skin": 0
@@ -43,8 +43,8 @@
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708,
                     "race": "acrobat",
                     "skin": 0
@@ -58,8 +58,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_lancer_shotgun",
                     "bwep": "va_fumigator",
+                    "wep": "va_lancer_shotgun",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -98,8 +98,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -113,43 +113,53 @@
             "allies": [
                 {
                     "alias": "Sir Mittens IV",
-                    "wep": "hand_saw",
-                    "bwep": 21,
-                    "race": 9,
+                    "wep": "va_vorpal_longsword",
+                    "bwep": "va_breaker_cannon",
+                    "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
-            "kills": 125,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                "Steel Nerves",
-                7,
-                "Ruffled Feathers"
+            "kills": 1261,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
             ],
-            "time": 4149,
-            "race": 9,
-            "pizzas": 0,
+            "subarea": 3,
+            "mutations": [
+                "Confidence",
+                "Steel Nerves",
+                8,
+                "Waste Gland",
+                14,
+                9,
+                "Garment Regenerator",
+                "Fractured Fingers"
+            ],
+            "time": 41363.018599999530124,
+            "race": 6,
+            "pizzas": 2,
             "name": "Sir Mittens IV",
-            "killed_by": -1,
-            "bwep": 21,
-            "wep": "hand_saw",
-            "hard": 4,
-            "loop": 0,
-            "crown": false,
+            "killed_by": 98,
+            "bwep": "va_breaker_cannon",
+            "wep": "va_vorpal_longsword",
+            "hard": 32,
+            "loop": 1,
+            "crown": 1,
             "loadout": [
                 {
                     "alias": "Sir Mittens IV",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "race": 9,
+                    "race": 6,
                     "color": 16736708,
                     "skin": 1
                 }
             ],
             "color": 16736708,
-            "area": 2,
+            "area": 5,
             "skin": 1
         }
     ]
