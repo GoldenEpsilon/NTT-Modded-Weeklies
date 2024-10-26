@@ -20,8 +20,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 62,
                     "bwep": 21,
+                    "wep": 62,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -35,6 +35,53 @@
             "crown": false,
             "color": 16736708,
             "area": 6,
+            "skin": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "kills": 272,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                "compoundelbow",
+                10,
+                "Double Vision",
+                20,
+                25,
+                "Compressing Fist",
+                5
+            ],
+            "time": 8347,
+            "race": 7,
+            "name": "Chump",
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 62,
+                    "bwep": "hyperrifle",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 25,
+            "bwep": "hyperrifle",
+            "wep": 62,
+            "hard": 10,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 5,
             "skin": 0,
             "loadout": [
                 {
