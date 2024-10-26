@@ -4,8 +4,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -29,8 +29,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 21,
                     "wep": 62,
+                    "bwep": 21,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -58,36 +58,44 @@
                     "skin": 0
                 }
             ],
-            "kills": 96,
+            "kills": 453,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                "Absorbing Abs",
-                "Shattered Skull",
-                "Double Vision"
+                5,
+                14,
+                15,
+                "Loner",
+                "Dynamic Calves",
+                21,
+                "Slim Pickings",
+                "Cranial Valve",
+                "Cruelty-Free Veganlust",
+                "Shell Cellulite",
+                12
             ],
-            "time": 3283,
+            "time": 19039,
             "race": 7,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 4,
-                    "bwep": 1,
+                    "wep": 73,
+                    "bwep": "va_lancer_shotgun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "name": "Chump",
-            "killed_by": 15,
-            "bwep": 1,
-            "wep": 4,
-            "hard": 5,
-            "loop": 0,
+            "killed_by": 53,
+            "bwep": "va_lancer_shotgun",
+            "wep": 73,
+            "hard": 17,
+            "loop": 1,
             "crown": false,
             "color": 16736708,
             "pizzas": 0,
-            "area": 3,
+            "area": 1,
             "skin": 0
         }
     ]
