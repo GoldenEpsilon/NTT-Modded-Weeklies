@@ -1,90 +1,6 @@
 {
     "scores": [
         {
-            "pizzas": 0,
-            "kills": 453,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                5,
-                14,
-                15,
-                "Loner",
-                "Dynamic Calves",
-                21,
-                "Slim Pickings",
-                "Cranial Valve",
-                "Cruelty-Free Veganlust",
-                "Shell Cellulite",
-                12
-            ],
-            "time": 19039,
-            "race": 7,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 73,
-                    "bwep": "va_lancer_shotgun",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
-            "killed_by": 53,
-            "bwep": "va_lancer_shotgun",
-            "wep": 73,
-            "hard": 17,
-            "loop": 1,
-            "crown": false,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "color": 16736708,
-            "area": 1,
-            "skin": 0
-        },
-        {
-            "pizzas": 0,
-            "kills": 480,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                20,
-                8,
-                5,
-                "Absorbing Abs",
-                "Staked Chest",
-                "Compressing Fist",
-                1,
-                4
-            ],
-            "time": 18136,
-            "race": 7,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "bwep": "minigun",
-                    "wep": 22,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "name": "Chump",
-            "killed_by": 4,
-            "bwep": "minigun",
-            "wep": 22,
-            "hard": 17,
-            "loop": 1,
-            "crown": false,
             "loadout": [
                 {
                     "alias": "Chump",
@@ -95,12 +11,6 @@
                     "skin": 0
                 }
             ],
-            "color": 16736708,
-            "area": 1,
-            "skin": 0
-        },
-        {
-            "pizzas": 0,
             "kills": 958,
             "ultras": [
                 [
@@ -128,8 +38,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 11,
                     "bwep": 90,
+                    "wep": 11,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -142,6 +52,12 @@
             "hard": 25,
             "loop": 1,
             "crown": 1,
+            "pizzas": 0,
+            "color": 16736708,
+            "area": 3,
+            "skin": 0
+        },
+        {
             "loadout": [
                 {
                     "alias": "Chump",
@@ -152,7 +68,36 @@
                     "skin": 0
                 }
             ],
+            "kills": 94,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                "Shell Cellulite",
+                "Loner",
+                "Cranial Valve",
+                5
+            ],
+            "time": 4286,
+            "race": 7,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 6,
+                    "bwep": 21,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "name": "Chump",
+            "killed_by": 17,
+            "bwep": 21,
+            "wep": 6,
+            "hard": 5,
+            "loop": 0,
+            "crown": false,
             "color": 16736708,
+            "pizzas": 0,
             "area": 3,
             "skin": 0
         }
