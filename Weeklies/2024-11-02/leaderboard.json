@@ -20,8 +20,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -39,8 +39,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "Spreader",
                     "bwep": 10,
+                    "wep": "Spreader",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -68,8 +68,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -87,8 +87,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_auto_flechette_shotgun",
                     "wep": "va_lancer_shotgun",
+                    "bwep": "va_auto_flechette_shotgun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -96,18 +96,21 @@
             ]
         },
         {
-            "kills": 235,
+            "kills": 378,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                "Staked Chest",
-                23,
-                8,
-                21,
+                4,
+                1,
+                "Loner",
+                "Telekinetic Tears",
+                15,
                 "Scrap Arms",
-                "Steel Nerves"
+                8,
+                "Sloppy Fingers",
+                "Shell Cellulite"
             ],
-            "time": 12100,
+            "time": 14733,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
@@ -121,20 +124,20 @@
                     "skin": 0
                 }
             ],
-            "killed_by": 27,
-            "bwep": 89,
-            "wep": "va_bigsaw_launcher",
-            "hard": 11,
+            "killed_by": 37,
+            "bwep": 69,
+            "wep": "SuperShotgun",
+            "hard": 15,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 5,
+            "area": 7,
             "skin": 0,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_bigsaw_launcher",
-                    "bwep": 89,
+                    "wep": "SuperShotgun",
+                    "bwep": 69,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
