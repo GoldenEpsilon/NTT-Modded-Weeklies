@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 33,
                     "wep": 23,
+                    "bwep": 33,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -45,8 +45,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,41 +54,35 @@
             ]
         },
         {
-            "kills": 354,
+            "kills": 67,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                11,
-                "Rocket Casings",
-                10,
-                25,
-                5,
-                "Ruffled Feathers",
-                "Thick Head",
-                14
+                "Absorbing Abs",
+                "Mimicry"
             ],
-            "time": 11825,
+            "time": 2689,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": "va_magnum",
-                    "bwep": "va_quad_digsaw_launcher",
+                    "wep": 21,
+                    "bwep": 21,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 28,
-            "bwep": "va_quad_digsaw_launcher",
-            "wep": "va_magnum",
-            "hard": 12,
+            "killed_by": 7,
+            "bwep": 21,
+            "wep": 21,
+            "hard": 4,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 6,
+            "area": 2,
             "skin": 0,
             "loadout": [
                 {
