@@ -19,8 +19,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 60,
                     "wep": 114,
+                    "bwep": 60,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -40,8 +40,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -49,26 +49,22 @@
             ]
         },
         {
-            "kills": 328,
+            "kills": 128,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 2,
             "mutations": [
-                4,
-                "compoundelbow",
-                "Loner",
-                "Dynamic Calves",
-                15,
-                10,
-                14,
-                11
+                "excitedneurons",
+                13,
+                25,
+                "Waste Gland"
             ],
-            "time": 12617,
+            "time": 5184,
             "race": 7,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 6,
-                    "bwep": 76,
+                    "wep": 17,
+                    "bwep": 4,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -76,14 +72,14 @@
             ],
             "name": "Chump",
             "pizzas": 0,
-            "killed_by": 27,
-            "bwep": 76,
-            "wep": 6,
-            "hard": 11,
+            "killed_by": 15,
+            "bwep": 4,
+            "wep": 17,
+            "hard": 6,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 5,
+            "area": 3,
             "skin": 0,
             "loadout": [
                 {
