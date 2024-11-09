@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 23,
                     "bwep": 33,
+                    "wep": 23,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -45,8 +45,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,16 +54,20 @@
             ]
         },
         {
-            "kills": 156,
+            "kills": 290,
             "ultras": [ ],
             "subarea": 3,
             "mutations": [
-                "condensedmeat",
-                15,
-                "excitedneurons",
-                "Absorbing Abs"
+                "Shattered Skull",
+                11,
+                5,
+                "compoundelbow",
+                "Slim Pickings",
+                "Cranial Valve",
+                "Iron Skin",
+                "Double Vision"
             ],
-            "time": 6223,
+            "time": 10069,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
@@ -71,20 +75,20 @@
                 {
                     "alias": "Chump",
                     "wep": 5,
-                    "bwep": 4,
+                    "bwep": 71,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 16,
-            "bwep": 4,
+            "killed_by": 24,
+            "bwep": 71,
             "wep": 5,
-            "hard": 7,
+            "hard": 11,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 3,
+            "area": 5,
             "skin": 0,
             "loadout": [
                 {
