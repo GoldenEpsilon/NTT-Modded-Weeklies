@@ -19,8 +19,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 114,
                     "bwep": 60,
+                    "wep": 114,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -40,8 +40,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -49,24 +49,26 @@
             ]
         },
         {
-            "kills": 283,
+            "kills": 380,
             "ultras": [ ],
             "subarea": 1,
             "mutations": [
-                "Ruffled Feathers",
-                11,
-                23,
-                "Scrap Arms",
+                14,
                 "condensedmeat",
-                "Garment Regenerator"
+                20,
+                "powderedgums",
+                "Ruffled Feathers",
+                "Shattered Skull",
+                "Absorbing Abs",
+                "Thick Head"
             ],
-            "time": 7230,
+            "time": 16476,
             "race": 7,
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 69,
-                    "bwep": "va_duster_shotgun",
+                    "wep": 49,
+                    "bwep": 33,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -74,17 +76,14 @@
             ],
             "name": "Chump",
             "pizzas": 0,
-            "killed_by": [
-                null,
-                "GREED"
-            ],
-            "bwep": "va_duster_shotgun",
-            "wep": 69,
-            "hard": 8,
+            "killed_by": 36,
+            "bwep": 33,
+            "wep": 49,
+            "hard": 13,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 4,
+            "area": 7,
             "skin": 0,
             "loadout": [
                 {
