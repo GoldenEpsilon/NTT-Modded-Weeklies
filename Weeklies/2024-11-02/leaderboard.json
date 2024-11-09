@@ -26,8 +26,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 33,
                     "wep": 23,
+                    "bwep": 33,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -45,8 +45,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -54,41 +54,40 @@
             ]
         },
         {
-            "kills": 290,
+            "kills": 344,
             "ultras": [ ],
-            "subarea": 3,
+            "subarea": 1,
             "mutations": [
-                "Shattered Skull",
-                11,
-                5,
-                "compoundelbow",
-                "Slim Pickings",
+                15,
+                "Confidence",
+                1,
+                "Ruffled Feathers",
+                "Steel Nerves",
                 "Cranial Valve",
-                "Iron Skin",
-                "Double Vision"
+                "Rocket Casings"
             ],
-            "time": 10069,
+            "time": 14795,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 5,
-                    "bwep": 71,
+                    "wep": "va_magnum",
+                    "bwep": 61,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 24,
-            "bwep": 71,
-            "wep": 5,
-            "hard": 11,
+            "killed_by": 36,
+            "bwep": 61,
+            "wep": "va_magnum",
+            "hard": 13,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 5,
+            "area": 7,
             "skin": 0,
             "loadout": [
                 {
