@@ -2,8 +2,9 @@
     "scores": [
         {
             "kills": 415,
-            "ultras": [ ],
+            "pizzas": 0,
             "subarea": 2,
+            "ultras": [ ],
             "mutations": [
                 "powderedgums",
                 11,
@@ -16,22 +17,12 @@
             ],
             "time": 13133,
             "race": 7,
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 114,
-                    "bwep": 60,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
             "name": "Chump",
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -45,34 +36,34 @@
             "crown": false,
             "color": 16736708,
             "area": 7,
-            "pizzas": 0,
-            "skin": 0
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": 60,
+                    "wep": 114,
+                    "color": 16736708,
+                    "race": 7,
+                    "skin": 0
+                }
+            ]
         },
         {
-            "ultras": [ ],
             "kills": 40,
+            "pizzas": 0,
             "subarea": 3,
+            "ultras": [ ],
             "mutations": [
                 "Waste Gland"
             ],
             "time": 1722,
-            "allies": [
-                {
-                    "alias": "Buczaj",
-                    "bwep": 7,
-                    "wep": "va_gluon_gun",
-                    "color": 255,
-                    "race": 4,
-                    "skin": 1
-                }
-            ],
             "race": 4,
             "name": "Buczaj",
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
                     "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -86,8 +77,60 @@
             "crown": false,
             "color": 255,
             "area": 1,
+            "skin": 1,
+            "allies": [
+                {
+                    "alias": "Buczaj",
+                    "wep": "va_gluon_gun",
+                    "bwep": 7,
+                    "color": 255,
+                    "race": 4,
+                    "skin": 1
+                }
+            ]
+        },
+        {
             "pizzas": 0,
-            "skin": 1
+            "kills": 156,
+            "subarea": 1,
+            "ultras": [ ],
+            "mutations": [
+                "compoundelbow",
+                26,
+                11
+            ],
+            "time": 3386,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 10,
+            "bwep": 5,
+            "wep": "va_duster_shotgun",
+            "hard": 4,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 2,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_duster_shotgun",
+                    "bwep": 5,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
         }
     ]
 }
