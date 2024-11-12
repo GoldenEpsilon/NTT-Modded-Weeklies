@@ -21,8 +21,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 60,
                     "wep": 114,
+                    "bwep": 60,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -40,8 +40,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -62,8 +62,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_gluon_gun",
                     "bwep": 7,
+                    "wep": "va_gluon_gun",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -81,8 +81,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -111,8 +111,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 66,
                     "bwep": "va_smartsaw_launcher",
+                    "wep": 66,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -126,6 +126,57 @@
             "crown": false,
             "color": 16736708,
             "area": 7,
+            "skin": 0,
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "kills": 339,
+            "ultras": [ ],
+            "subarea": 1,
+            "mutations": [
+                22,
+                "Rocket Casings",
+                "Loner",
+                "Shivering Spine",
+                "Mimicry",
+                8,
+                23,
+                "compoundelbow",
+                "Slim Pickings",
+                "Cranial Valve",
+                "Shocked Skin"
+            ],
+            "time": 17008,
+            "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_lancer_shotgun",
+                    "bwep": "va_bigbrainsaw_launcher",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 58,
+            "bwep": "va_bigbrainsaw_launcher",
+            "wep": "va_lancer_shotgun",
+            "hard": 16,
+            "loop": 1,
+            "crown": false,
+            "color": 16736708,
+            "area": 0,
             "skin": 0,
             "loadout": [
                 {
