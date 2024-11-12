@@ -21,8 +21,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 60,
                     "wep": 114,
+                    "bwep": 60,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -40,8 +40,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "color": 16736708,
                     "race": 7,
                     "skin": 0
@@ -62,8 +62,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_gluon_gun",
                     "bwep": 7,
+                    "wep": "va_gluon_gun",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -81,8 +81,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -113,8 +113,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "va_bigbrainsaw_launcher",
                     "wep": "va_lancer_shotgun",
+                    "bwep": "va_bigbrainsaw_launcher",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -132,8 +132,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -163,8 +163,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "SuperShotgun",
                     "wep": "va_lancer_shotgun",
+                    "bwep": "SuperShotgun",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -182,8 +182,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -191,41 +191,47 @@
             ]
         },
         {
-            "kills": 185,
-            "ultras": [ ],
+            "kills": 1110,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
             "subarea": 3,
             "mutations": [
+                23,
                 11,
-                3,
-                25,
+                "Loner",
+                "Energized Intestines",
+                "Double Vision",
+                14,
+                "Absorbing Abs",
                 "compoundelbow",
-                "Fractured Fingers",
-                "Slim Pickings",
-                "Cranial Valve",
-                "Aerodynamic Ankles"
+                1
             ],
-            "time": 6875,
+            "time": 27387,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 17,
-                    "bwep": 61,
+                    "wep": 63,
+                    "bwep": "SeekerBundle",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 16,
-            "bwep": 61,
-            "wep": 17,
-            "hard": 7,
-            "loop": 0,
-            "crown": false,
+            "killed_by": 94,
+            "bwep": "SeekerBundle",
+            "wep": 63,
+            "hard": 30,
+            "loop": 1,
+            "crown": 1,
             "color": 16736708,
-            "area": 3,
+            "area": 5,
             "skin": 0,
             "loadout": [
                 {
