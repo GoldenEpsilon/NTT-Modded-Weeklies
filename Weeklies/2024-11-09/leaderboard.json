@@ -1,54 +1,6 @@
 {
     "scores": [
         {
-            "kills": 415,
-            "subarea": 2,
-            "ultras": [ ],
-            "mutations": [
-                "powderedgums",
-                11,
-                "Shattered Skull",
-                "excitedneurons",
-                "Shell Cellulite",
-                "Alchemic Stomach",
-                "Duplicators",
-                22
-            ],
-            "time": 13133,
-            "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": 114,
-                    "bwep": 60,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 58,
-            "bwep": 60,
-            "wep": 114,
-            "hard": 14,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "area": 7,
-            "skin": 0,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "color": 16736708,
-                    "race": 7,
-                    "skin": 0
-                }
-            ]
-        },
-        {
             "kills": 40,
             "subarea": 3,
             "ultras": [ ],
@@ -59,11 +11,11 @@
             "race": 4,
             "pizzas": 0,
             "name": "Buczaj",
-            "allies": [
+            "loadout": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 7,
-                    "wep": "va_gluon_gun",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -78,115 +30,14 @@
             "color": 255,
             "area": 1,
             "skin": 1,
-            "loadout": [
+            "allies": [
                 {
                     "alias": "Buczaj",
-                    "bwep": 0,
-                    "wep": "mw_ui_start",
+                    "wep": "va_gluon_gun",
+                    "bwep": 7,
                     "color": 255,
                     "race": 4,
                     "skin": 1
-                }
-            ]
-        },
-        {
-            "kills": 339,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                22,
-                "Rocket Casings",
-                "Loner",
-                "Shivering Spine",
-                "Mimicry",
-                8,
-                23,
-                "compoundelbow",
-                "Slim Pickings",
-                "Cranial Valve",
-                "Shocked Skin"
-            ],
-            "time": 17008,
-            "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_lancer_shotgun",
-                    "bwep": "va_bigbrainsaw_launcher",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 58,
-            "bwep": "va_bigbrainsaw_launcher",
-            "wep": "va_lancer_shotgun",
-            "hard": 16,
-            "loop": 1,
-            "crown": false,
-            "color": 16736708,
-            "area": 0,
-            "skin": 0,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ]
-        },
-        {
-            "kills": 355,
-            "ultras": [ ],
-            "subarea": 1,
-            "mutations": [
-                "Shattered Skull",
-                "powderedgums",
-                "Slim Pickings",
-                "Aerodynamic Ankles",
-                "Shivering Spine",
-                "Shell Cellulite",
-                "Double Vision",
-                11,
-                14,
-                29
-            ],
-            "time": 15734,
-            "race": 7,
-            "pizzas": 0,
-            "name": "Chump",
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_lancer_shotgun",
-                    "bwep": "SuperShotgun",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "killed_by": 38,
-            "bwep": "SuperShotgun",
-            "wep": "va_lancer_shotgun",
-            "hard": 16,
-            "loop": 1,
-            "crown": false,
-            "color": 16736708,
-            "area": 0,
-            "skin": 0,
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
                 }
             ]
         },
@@ -214,11 +65,11 @@
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
-            "allies": [
+            "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": 63,
-                    "bwep": "SeekerBundle",
+                    "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -233,10 +84,53 @@
             "color": 16736708,
             "area": 5,
             "skin": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "bwep": "SeekerBundle",
+                    "wep": 63,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ]
+        },
+        {
+            "kills": 95,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                "Staked Chest",
+                "Loner",
+                "Energized Intestines"
+            ],
+            "time": 1858,
+            "race": 7,
+            "pizzas": 0,
+            "name": "Chump",
             "loadout": [
                 {
                     "alias": "Chump",
                     "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "killed_by": 0,
+            "bwep": 1,
+            "wep": 27,
+            "hard": 3,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 1,
+            "skin": 0,
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 27,
                     "bwep": 1,
                     "race": 7,
                     "color": 16736708,
