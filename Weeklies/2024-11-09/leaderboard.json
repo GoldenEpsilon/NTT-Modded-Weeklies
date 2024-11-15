@@ -14,8 +14,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_gluon_gun",
                     "bwep": 7,
+                    "wep": "va_gluon_gun",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -33,8 +33,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -68,8 +68,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "SeekerBundle",
                     "wep": 63,
+                    "bwep": "SeekerBundle",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -87,8 +87,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -96,46 +96,46 @@
             ]
         },
         {
-            "kills": 466,
+            "kills": 2701,
             "ultras": [
                 [
                     7,
                     1
                 ]
             ],
-            "subarea": 1,
+            "subarea": 2,
             "mutations": [
-                14,
-                "Waste Gland",
-                15,
-                "Scrap Arms",
                 "Compressing Fist",
-                "compoundelbow",
-                "powderedgums",
-                "Garment Regenerator"
+                1,
+                "Scrap Arms",
+                "Absorbing Abs",
+                21,
+                "Thick Head",
+                27,
+                11
             ],
-            "time": 17761,
+            "time": 60039,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 10,
-                    "bwep": "va_smartsaw_launcher",
+                    "wep": 11,
+                    "bwep": "va_bigsaw_launcher",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 58,
-            "bwep": "va_smartsaw_launcher",
-            "wep": 10,
-            "hard": 17,
-            "loop": 1,
-            "crown": false,
+            "killed_by": -1,
+            "bwep": "va_bigsaw_launcher",
+            "wep": 11,
+            "hard": 47,
+            "loop": 2,
+            "crown": 9,
             "color": 16736708,
-            "area": 1,
+            "area": 7,
             "skin": 0,
             "loadout": [
                 {
