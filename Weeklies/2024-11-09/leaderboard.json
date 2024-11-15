@@ -14,8 +14,8 @@
             "allies": [
                 {
                     "alias": "Buczaj",
-                    "wep": "va_gluon_gun",
                     "bwep": 7,
+                    "wep": "va_gluon_gun",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -33,8 +33,8 @@
             "loadout": [
                 {
                     "alias": "Buczaj",
-                    "wep": "mw_ui_start",
                     "bwep": 0,
+                    "wep": "mw_ui_start",
                     "color": 255,
                     "race": 4,
                     "skin": 1
@@ -68,8 +68,8 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": "SeekerBundle",
                     "wep": 63,
+                    "bwep": "SeekerBundle",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -87,8 +87,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "bwep": 1,
                     "wep": "mw_ui_start",
+                    "bwep": 1,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -96,39 +96,38 @@
             ]
         },
         {
-            "kills": 229,
+            "kills": 205,
             "ultras": [ ],
-            "subarea": 2,
+            "subarea": 1,
             "mutations": [
-                5,
-                "Rocket Casings",
-                "Loner",
-                "Groupthink",
-                21,
-                8
+                "Absorbing Abs",
+                "Garment Regenerator",
+                "Shell Cellulite",
+                20,
+                9
             ],
-            "time": 10693,
+            "time": 7253,
             "race": 7,
             "pizzas": 0,
             "name": "Chump",
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 10,
-                    "bwep": 1,
+                    "wep": "va_sawed_off_duster_shotgun",
+                    "bwep": 23,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
-            "killed_by": 23,
-            "bwep": 1,
-            "wep": 10,
-            "hard": 10,
+            "killed_by": 21,
+            "bwep": 23,
+            "wep": "va_sawed_off_duster_shotgun",
+            "hard": 8,
             "loop": 0,
             "crown": false,
             "color": 16736708,
-            "area": 5,
+            "area": 4,
             "skin": 0,
             "loadout": [
                 {
