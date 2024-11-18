@@ -4,16 +4,16 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "wep": 38,
                     "bwep": 38,
+                    "wep": 38,
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "kills": 196,
-            "ultras": [ ],
             "subarea": 1,
+            "ultras": [ ],
             "mutations": [
                 20,
                 "Shell Cellulite",
@@ -27,8 +27,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -43,6 +43,57 @@
             "crown": false,
             "color": 16736708,
             "area": 4,
+            "skin": 0
+        },
+        {
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": "va_toxic_breach_cannon",
+                    "bwep": "va_dustdropper",
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "kills": 365,
+            "ultras": [ ],
+            "subarea": 2,
+            "mutations": [
+                "Staked Chest",
+                "Loner",
+                "Toxic Thoughts",
+                21,
+                10,
+                "powderedgums",
+                20,
+                "Double Vision"
+            ],
+            "time": 14834,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 0,
+            "killed_by": [
+                null,
+                "TOXIC BREACH GRENADE"
+            ],
+            "bwep": "va_dustdropper",
+            "wep": "va_toxic_breach_cannon",
+            "hard": 14,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 7,
             "skin": 0
         }
     ]
