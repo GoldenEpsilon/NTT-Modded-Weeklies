@@ -4,61 +4,16 @@
             "allies": [
                 {
                     "alias": "Chump",
-                    "bwep": 38,
-                    "wep": 38,
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "kills": 196,
-            "subarea": 1,
-            "ultras": [ ],
-            "mutations": [
-                20,
-                "Shell Cellulite",
-                "Garment Regenerator",
-                "Ruffled Feathers",
-                "Thick Head"
-            ],
-            "time": 7412,
-            "race": 7,
-            "name": "Chump",
-            "loadout": [
-                {
-                    "alias": "Chump",
-                    "bwep": 1,
-                    "wep": "mw_ui_start",
-                    "race": 7,
-                    "color": 16736708,
-                    "skin": 0
-                }
-            ],
-            "pizzas": 0,
-            "killed_by": 21,
-            "bwep": 38,
-            "wep": 38,
-            "hard": 8,
-            "loop": 0,
-            "crown": false,
-            "color": 16736708,
-            "area": 4,
-            "skin": 0
-        },
-        {
-            "allies": [
-                {
-                    "alias": "Chump",
-                    "wep": "va_toxic_breach_cannon",
                     "bwep": "va_dustdropper",
+                    "wep": "va_toxic_breach_cannon",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
                 }
             ],
             "kills": 365,
-            "ultras": [ ],
             "subarea": 2,
+            "ultras": [ ],
             "mutations": [
                 "Staked Chest",
                 "Loner",
@@ -75,8 +30,8 @@
             "loadout": [
                 {
                     "alias": "Chump",
-                    "wep": "mw_ui_start",
                     "bwep": 1,
+                    "wep": "mw_ui_start",
                     "race": 7,
                     "color": 16736708,
                     "skin": 0
@@ -94,6 +49,50 @@
             "crown": false,
             "color": 16736708,
             "area": 7,
+            "skin": 0
+        },
+        {
+            "allies": [
+                {
+                    "alias": "Chump",
+                    "wep": 4,
+                    "bwep": 4,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "kills": 198,
+            "ultras": [ ],
+            "subarea": 3,
+            "mutations": [
+                14,
+                22,
+                5,
+                "compoundelbow"
+            ],
+            "time": 6690,
+            "race": 7,
+            "name": "Chump",
+            "loadout": [
+                {
+                    "alias": "Chump",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "race": 7,
+                    "color": 16736708,
+                    "skin": 0
+                }
+            ],
+            "pizzas": 0,
+            "killed_by": 15,
+            "bwep": 4,
+            "wep": 4,
+            "hard": 7,
+            "loop": 0,
+            "crown": false,
+            "color": 16736708,
+            "area": 3,
             "skin": 0
         }
     ]
