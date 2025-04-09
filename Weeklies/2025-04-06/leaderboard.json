@@ -1,38 +1,17 @@
 {
     "scores": [
         {
-            "bwep": "va_vorpal_longsword",
             "time": 41767,
-            "loop": 1,
-            "skin": 1,
-            "loadout": [
-                {
-                    "color": 16736708,
-                    "race": 6,
-                    "skin": 1,
-                    "alias": "Sir Mittens IV",
-                    "wep": "mw_ui_start",
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "color": 16736708,
-                    "race": 6,
-                    "skin": 1,
-                    "alias": "Sir Mittens IV",
-                    "wep": "va_amr",
-                    "bwep": "va_vorpal_longsword"
-                }
-            ],
+            "bwep": "va_vorpal_longsword",
             "ultras": [
                 [
                     6,
                     1
                 ]
             ],
+            "loop": 1,
             "killed_by": 28,
-            "pizzas": 0,
+            "skin": 1,
             "mutations": [
                 "luckyshot",
                 20,
@@ -50,8 +29,82 @@
             "crown": false,
             "hard": 27,
             "subarea": 2,
-            "wep": "va_amr",
-            "color": 16736708
+            "color": 16736708,
+            "loadout": [
+                {
+                    "race": 6,
+                    "skin": 1,
+                    "alias": "Sir Mittens IV",
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "race": 6,
+                    "skin": 1,
+                    "alias": "Sir Mittens IV",
+                    "color": 16736708,
+                    "wep": "va_amr",
+                    "bwep": "va_vorpal_longsword"
+                }
+            ],
+            "pizzas": 0,
+            "wep": "va_amr"
+        },
+        {
+            "time": 32550,
+            "bwep": 106,
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "loop": 1,
+            "killed_by": 89,
+            "skin": 1,
+            "mutations": [
+                "Confidence",
+                "Garment Regenerator",
+                27,
+                7,
+                "luckyshot",
+                4,
+                "Mimicry",
+                11
+            ],
+            "kills": 983,
+            "area": 3,
+            "race": 6,
+            "name": "Sir Mittens IV",
+            "crown": 1,
+            "hard": 26,
+            "subarea": 3,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "race": 6,
+                    "skin": 1,
+                    "alias": "Sir Mittens IV",
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "race": 6,
+                    "skin": 1,
+                    "alias": "Sir Mittens IV",
+                    "color": 16736708,
+                    "wep": "va_vorpal_longsword",
+                    "bwep": 106
+                }
+            ],
+            "wep": "va_vorpal_longsword",
+            "pizzas": 0
         }
     ]
 }
