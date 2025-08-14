@@ -45,6 +45,49 @@
             "color": 16736708,
             "pizzas": 0,
             "loop": 0
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 15,
+            "mutations": [
+                13,
+                "Muscle Memory",
+                "Absorbing Abs"
+            ],
+            "kills": 122,
+            "bwep": 6,
+            "hard": 5,
+            "subarea": 1,
+            "area": 3,
+            "name": "BIG FAT DRAGONS IN YOUR AREA",
+            "crown": false,
+            "skin": 1,
+            "race": 7,
+            "time": 4871,
+            "wep": 13,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 7,
+                    "wep": "mw_ui_start",
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 1
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 7,
+                    "wep": 13,
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 6
+                }
+            ],
+            "color": 16736708,
+            "pizzas": 0,
+            "loop": 0
         }
     ]
 }
