@@ -48,52 +48,6 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 26,
-            "mutations": [
-                3,
-                20,
-                13,
-                9,
-                "Thick Head",
-                23
-            ],
-            "kills": 248,
-            "bwep": "mcleod",
-            "hard": 11,
-            "subarea": 3,
-            "area": 5,
-            "name": "BIG FAT DRAGONS IN YOUR AREA",
-            "crown": false,
-            "skin": 1,
-            "race": 7,
-            "time": 13638,
-            "wep": "va_martial_rapier",
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 7,
-                    "wep": "mw_ui_start",
-                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
-                    "color": 16736708,
-                    "bwep": 1
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 7,
-                    "wep": "va_martial_rapier",
-                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
-                    "color": 16736708,
-                    "bwep": "mcleod"
-                }
-            ],
-            "color": 16736708,
-            "pizzas": 0,
-            "loop": 0
-        },
-        {
-            "ultras": [ ],
             "killed_by": 27,
             "mutations": [
                 "Sadism",
@@ -136,6 +90,53 @@
             ],
             "color": 16736708,
             "pizzas": 1,
+            "loop": 0
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 29,
+            "mutations": [
+                "compoundelbow",
+                "Scrap Arms",
+                9,
+                21,
+                "powderedgums",
+                7,
+                5
+            ],
+            "kills": 314,
+            "bwep": 6,
+            "hard": 12,
+            "subarea": 1,
+            "area": 6,
+            "name": "BIG FAT DRAGONS IN YOUR AREA",
+            "crown": false,
+            "skin": 1,
+            "race": 7,
+            "time": 14685,
+            "wep": 10,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 7,
+                    "wep": "mw_ui_start",
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 1
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 7,
+                    "wep": 10,
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 6
+                }
+            ],
+            "color": 16736708,
+            "pizzas": 0,
             "loop": 0
         }
     ]
