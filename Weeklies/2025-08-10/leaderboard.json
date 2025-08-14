@@ -48,23 +48,26 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 15,
+            "killed_by": 26,
             "mutations": [
+                3,
+                20,
                 13,
-                "Muscle Memory",
-                "Absorbing Abs"
+                9,
+                "Thick Head",
+                23
             ],
-            "kills": 122,
-            "bwep": 6,
-            "hard": 5,
-            "subarea": 1,
-            "area": 3,
+            "kills": 248,
+            "bwep": "mcleod",
+            "hard": 11,
+            "subarea": 3,
+            "area": 5,
             "name": "BIG FAT DRAGONS IN YOUR AREA",
             "crown": false,
             "skin": 1,
             "race": 7,
-            "time": 4871,
-            "wep": 13,
+            "time": 13638,
+            "wep": "va_martial_rapier",
             "loadout": [
                 {
                     "skin": 1,
@@ -79,10 +82,10 @@
                 {
                     "skin": 1,
                     "race": 7,
-                    "wep": 13,
+                    "wep": "va_martial_rapier",
                     "alias": "BIG FAT DRAGONS IN YOUR AREA",
                     "color": 16736708,
-                    "bwep": 6
+                    "bwep": "mcleod"
                 }
             ],
             "color": 16736708,
