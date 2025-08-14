@@ -91,6 +91,52 @@
             "color": 16736708,
             "pizzas": 0,
             "loop": 0
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 27,
+            "mutations": [
+                "Sadism",
+                "Ruffled Feathers",
+                16,
+                "Mimicry",
+                11,
+                "Alchemic Stomach"
+            ],
+            "kills": 247,
+            "bwep": 74,
+            "hard": 12,
+            "subarea": 3,
+            "area": 5,
+            "name": "BIG FAT DRAGONS IN YOUR AREA",
+            "crown": false,
+            "skin": 1,
+            "race": 7,
+            "time": 17103,
+            "wep": "va_auto_duster_shotgun",
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 7,
+                    "wep": "mw_ui_start",
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 1
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 7,
+                    "wep": "va_auto_duster_shotgun",
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 74
+                }
+            ],
+            "color": 16736708,
+            "pizzas": 1,
+            "loop": 0
         }
     ]
 }
