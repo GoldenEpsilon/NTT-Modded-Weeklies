@@ -2,52 +2,6 @@
     "scores": [
         {
             "ultras": [ ],
-            "killed_by": 51,
-            "mutations": [
-                "Shell Cellulite",
-                "Garment Regenerator",
-                "Arcane Arts",
-                "Muscle Memory",
-                "Thick Head",
-                10
-            ],
-            "kills": 287,
-            "bwep": "va_flechette_shotgun",
-            "hard": 11,
-            "subarea": 3,
-            "area": 5,
-            "name": "BIG FAT DRAGONS IN YOUR AREA",
-            "crown": false,
-            "skin": 1,
-            "race": 6,
-            "time": 15661,
-            "wep": 13,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 6,
-                    "wep": "mw_ui_start",
-                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
-                    "color": 16736708,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 6,
-                    "wep": 13,
-                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
-                    "color": 16736708,
-                    "bwep": "va_flechette_shotgun"
-                }
-            ],
-            "color": 16736708,
-            "pizzas": 0,
-            "loop": 0
-        },
-        {
-            "ultras": [ ],
             "killed_by": 27,
             "mutations": [
                 "Sadism",
@@ -67,7 +21,6 @@
             "skin": 1,
             "race": 7,
             "time": 17103,
-            "wep": "va_auto_duster_shotgun",
             "loadout": [
                 {
                     "skin": 1,
@@ -78,6 +31,7 @@
                     "bwep": 1
                 }
             ],
+            "wep": "va_auto_duster_shotgun",
             "allies": [
                 {
                     "skin": 1,
@@ -88,8 +42,8 @@
                     "bwep": 74
                 }
             ],
-            "color": 16736708,
             "pizzas": 1,
+            "color": 16736708,
             "loop": 0
         },
         {
@@ -114,7 +68,6 @@
             "skin": 1,
             "race": 7,
             "time": 14685,
-            "wep": 10,
             "loadout": [
                 {
                     "skin": 1,
@@ -125,6 +78,7 @@
                     "bwep": 1
                 }
             ],
+            "wep": 10,
             "allies": [
                 {
                     "skin": 1,
@@ -135,8 +89,49 @@
                     "bwep": 6
                 }
             ],
-            "color": 16736708,
             "pizzas": 0,
+            "color": 16736708,
+            "loop": 0
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 0,
+            "mutations": [
+                "Rocket Casings"
+            ],
+            "kills": 48,
+            "bwep": 4,
+            "hard": 3,
+            "subarea": 3,
+            "area": 1,
+            "name": "BIG FAT DRAGONS IN YOUR AREA",
+            "crown": false,
+            "skin": 0,
+            "race": "scales",
+            "time": 2349,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": "mw_ui_start",
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": "mateba",
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 4
+                }
+            ],
+            "wep": "mateba",
+            "pizzas": 0,
+            "color": 16736708,
             "loop": 0
         }
     ]
