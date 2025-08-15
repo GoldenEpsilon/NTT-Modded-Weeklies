@@ -2,99 +2,6 @@
     "scores": [
         {
             "ultras": [ ],
-            "killed_by": 27,
-            "mutations": [
-                "Sadism",
-                "Ruffled Feathers",
-                16,
-                "Mimicry",
-                11,
-                "Alchemic Stomach"
-            ],
-            "kills": 247,
-            "bwep": 74,
-            "hard": 12,
-            "subarea": 3,
-            "area": 5,
-            "name": "BIG FAT DRAGONS IN YOUR AREA",
-            "crown": false,
-            "skin": 1,
-            "race": 7,
-            "time": 17103,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 7,
-                    "wep": "mw_ui_start",
-                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
-                    "color": 16736708,
-                    "bwep": 1
-                }
-            ],
-            "wep": "va_auto_duster_shotgun",
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 7,
-                    "wep": "va_auto_duster_shotgun",
-                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
-                    "color": 16736708,
-                    "bwep": 74
-                }
-            ],
-            "pizzas": 1,
-            "color": 16736708,
-            "loop": 0
-        },
-        {
-            "ultras": [ ],
-            "killed_by": 29,
-            "mutations": [
-                "compoundelbow",
-                "Scrap Arms",
-                9,
-                21,
-                "powderedgums",
-                7,
-                5
-            ],
-            "kills": 314,
-            "bwep": 6,
-            "hard": 12,
-            "subarea": 1,
-            "area": 6,
-            "name": "BIG FAT DRAGONS IN YOUR AREA",
-            "crown": false,
-            "skin": 1,
-            "race": 7,
-            "time": 14685,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 7,
-                    "wep": "mw_ui_start",
-                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
-                    "color": 16736708,
-                    "bwep": 1
-                }
-            ],
-            "wep": 10,
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 7,
-                    "wep": 10,
-                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
-                    "color": 16736708,
-                    "bwep": 6
-                }
-            ],
-            "pizzas": 0,
-            "color": 16736708,
-            "loop": 0
-        },
-        {
-            "ultras": [ ],
             "killed_by": 34,
             "mutations": [
                 23,
@@ -139,6 +46,54 @@
             "pizzas": 1,
             "color": 16736708,
             "loop": 0
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 5,
+            "mutations": [
+                "Telekinetic Tears",
+                25,
+                "Muscle Memory",
+                27,
+                8,
+                "powderedgums",
+                "Cranial Valve",
+                1
+            ],
+            "kills": 566,
+            "bwep": "va_sticky_breacher",
+            "hard": 18,
+            "subarea": 2,
+            "area": 1,
+            "name": "BIG FAT DRAGONS IN YOUR AREA",
+            "crown": false,
+            "skin": 0,
+            "race": "scales",
+            "time": 32198,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": "mw_ui_start",
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": 23,
+                    "alias": "BIG FAT DRAGONS IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": "va_sticky_breacher"
+                }
+            ],
+            "wep": 23,
+            "pizzas": 0,
+            "color": 16736708,
+            "loop": 1
         }
     ]
 }
