@@ -95,20 +95,26 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 0,
+            "killed_by": 34,
             "mutations": [
-                "Rocket Casings"
+                23,
+                20,
+                "Muscle Memory",
+                "Fractured Fingers",
+                7,
+                13,
+                "Scrap Arms"
             ],
-            "kills": 48,
-            "bwep": 4,
-            "hard": 3,
-            "subarea": 3,
-            "area": 1,
+            "kills": 333,
+            "bwep": "va_auto_magnum",
+            "hard": 14,
+            "subarea": 1,
+            "area": 7,
             "name": "BIG FAT DRAGONS IN YOUR AREA",
             "crown": false,
             "skin": 0,
             "race": "scales",
-            "time": 2349,
+            "time": 20119,
             "loadout": [
                 {
                     "skin": 0,
@@ -123,14 +129,14 @@
                 {
                     "skin": 0,
                     "race": "scales",
-                    "wep": "mateba",
+                    "wep": "mcleod",
                     "alias": "BIG FAT DRAGONS IN YOUR AREA",
                     "color": 16736708,
-                    "bwep": 4
+                    "bwep": "va_auto_magnum"
                 }
             ],
-            "wep": "mateba",
-            "pizzas": 0,
+            "wep": "mcleod",
+            "pizzas": 1,
             "color": 16736708,
             "loop": 0
         }
