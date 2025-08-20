@@ -55,19 +55,20 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 19,
+            "killed_by": 24,
             "mutations": [
-                "excitedneurons",
-                "Steel Nerves",
-                13,
-                "sharpteeth",
+                16,
+                "Ruffled Feathers",
+                23,
+                14,
+                20,
                 5
             ],
-            "kills": 210,
-            "bwep": "hand_saw",
-            "hard": 8,
-            "subarea": 1,
-            "area": 4,
+            "kills": 239,
+            "bwep": 2,
+            "hard": 10,
+            "subarea": 2,
+            "area": 5,
             "name": "SMALL CUTE PONIES IN YOUR AREA",
             "crown": false,
             "skin": 1,
@@ -86,15 +87,15 @@
                 {
                     "skin": 1,
                     "race": 10,
-                    "wep": 4,
+                    "wep": "va_martial_hand_axe",
                     "alias": "SMALL CUTE PONIES IN YOUR AREA",
                     "color": 16736708,
-                    "bwep": "hand_saw"
+                    "bwep": 2
                 }
             ],
             "pizzas": 0,
-            "time": 9204,
-            "wep": 4,
+            "time": 13054,
+            "wep": "va_martial_hand_axe",
             "color": 16736708,
             "loop": 0
         }
