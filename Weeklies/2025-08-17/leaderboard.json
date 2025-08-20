@@ -46,6 +46,59 @@
             "wep": 11,
             "color": 16736708,
             "loop": 0
+        },
+        {
+            "ultras": [
+                [
+                    10,
+                    2
+                ]
+            ],
+            "killed_by": 38,
+            "mutations": [
+                20,
+                "Sadism",
+                21,
+                1,
+                "compoundelbow",
+                "Absorbing Abs",
+                16,
+                5
+            ],
+            "kills": 346,
+            "bwep": "EnergySword",
+            "hard": 16,
+            "subarea": 1,
+            "area": 0,
+            "name": "SMALL CUTE PONIES IN YOUR AREA",
+            "crown": false,
+            "skin": 1,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 10,
+                    "wep": "mw_ui_start",
+                    "alias": "SMALL CUTE PONIES IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": 0
+                }
+            ],
+            "race": 10,
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 10,
+                    "wep": 63,
+                    "alias": "SMALL CUTE PONIES IN YOUR AREA",
+                    "color": 16736708,
+                    "bwep": "EnergySword"
+                }
+            ],
+            "pizzas": 0,
+            "time": 22783,
+            "wep": 63,
+            "color": 16736708,
+            "loop": 1
         }
     ]
 }
