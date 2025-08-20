@@ -54,20 +54,30 @@
             "loop": 1
         },
         {
-            "ultras": [ ],
-            "killed_by": 14,
-            "mutations": [
-                21,
-                "Double Vision",
-                10
+            "ultras": [
+                [
+                    10,
+                    2
+                ]
             ],
-            "kills": 124,
-            "bwep": 1,
-            "hard": 5,
+            "killed_by": 94,
+            "mutations": [
+                10,
+                1,
+                "Mimicry",
+                20,
+                3,
+                "Shattered Skull",
+                "Thick Head",
+                13
+            ],
+            "kills": 1204,
+            "bwep": 22,
+            "hard": 25,
             "subarea": 1,
-            "area": 3,
+            "area": 4,
             "name": "SMALL CUTE PONIES IN YOUR AREA",
-            "crown": false,
+            "crown": 7,
             "skin": 1,
             "loadout": [
                 {
@@ -84,17 +94,17 @@
                 {
                     "skin": 1,
                     "race": 10,
-                    "wep": 21,
+                    "wep": 74,
                     "alias": "SMALL CUTE PONIES IN YOUR AREA",
                     "color": 16736708,
-                    "bwep": 1
+                    "bwep": 22
                 }
             ],
             "pizzas": 0,
-            "time": 7765,
-            "wep": 21,
+            "time": 36968,
+            "wep": 74,
             "color": 16736708,
-            "loop": 0
+            "loop": 1
         }
     ]
 }
