@@ -55,17 +55,19 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 15,
+            "killed_by": 19,
             "mutations": [
-                "Garment Regenerator",
-                8,
-                21
+                "excitedneurons",
+                "Steel Nerves",
+                13,
+                "sharpteeth",
+                5
             ],
-            "kills": 105,
-            "bwep": 6,
-            "hard": 5,
+            "kills": 210,
+            "bwep": "hand_saw",
+            "hard": 8,
             "subarea": 1,
-            "area": 3,
+            "area": 4,
             "name": "SMALL CUTE PONIES IN YOUR AREA",
             "crown": false,
             "skin": 1,
@@ -84,15 +86,15 @@
                 {
                     "skin": 1,
                     "race": 10,
-                    "wep": 2,
+                    "wep": 4,
                     "alias": "SMALL CUTE PONIES IN YOUR AREA",
                     "color": 16736708,
-                    "bwep": 6
+                    "bwep": "hand_saw"
                 }
             ],
             "pizzas": 0,
-            "time": 4824,
-            "wep": 2,
+            "time": 9204,
+            "wep": 4,
             "color": 16736708,
             "loop": 0
         }
