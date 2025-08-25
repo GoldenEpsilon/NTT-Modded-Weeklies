@@ -59,52 +59,45 @@
             ]
         },
         {
-            "kills": 270,
-            "bwep": 20,
-            "hard": 12,
+            "kills": 57,
+            "bwep": 1,
+            "hard": 3,
             "subarea": 3,
-            "area": 5,
+            "area": 1,
             "name": "SPC",
             "loadout": [
                 {
-                    "skin": 0,
+                    "skin": 1,
                     "alias": "SPC",
-                    "race": "scales",
+                    "race": 4,
                     "color": 3937500,
                     "wep": "mw_ui_start",
                     "bwep": 0
                 }
             ],
-            "crown": 8,
-            "skin": 0,
+            "crown": false,
+            "skin": 1,
             "allies": [
                 {
-                    "skin": 0,
+                    "skin": 1,
                     "alias": "SPC",
-                    "race": "scales",
+                    "race": 4,
                     "color": 3937500,
-                    "wep": "hand_saw",
-                    "bwep": 20
+                    "wep": "fire_poker",
+                    "bwep": 1
                 }
             ],
-            "race": "scales",
+            "race": 4,
             "pizzas": 0,
             "color": 3937500,
-            "time": 13136,
-            "wep": "hand_saw",
+            "time": 1729,
+            "wep": "fire_poker",
             "ultras": [ ],
             "loop": 0,
-            "killed_by": 25,
+            "killed_by": 4,
             "mutations": [
-                23,
-                "concentration",
-                13,
-                25,
-                "Sloppy Fingers",
                 11,
-                19,
-                "Loner",
-                "Explosive Gaze"
+                "Ruffled Feathers"
             ]
         }
     ]
