@@ -1,31 +1,17 @@
 {
     "scores": [
         {
-            "mutations": [
-                23,
-                "Duplicators",
-                3,
-                1,
-                13,
-                "Rocket Casings",
-                "Shattered Skull",
-                "excitedneurons"
-            ],
-            "kills": 388,
-            "bwep": "va_caster_hexblade",
-            "hard": 14,
-            "subarea": 1,
-            "area": 7,
+            "kills": 1019,
+            "bwep": 35,
+            "hard": 26,
+            "subarea": 2,
+            "area": 5,
             "name": "SPC",
-            "crown": 8,
-            "skin": 0,
-            "race": "Printer",
-            "color": 3937500,
-            "time": 16052,
-            "wep": "va_magus_bolt_caster",
+            "crown": false,
+            "skin": 1,
             "loadout": [
                 {
-                    "skin": 0,
+                    "skin": 1,
                     "alias": "SPC",
                     "race": "Printer",
                     "color": 3937500,
@@ -33,22 +19,30 @@
                     "bwep": 0
                 }
             ],
+            "race": "Printer",
             "allies": [
                 {
-                    "skin": 0,
+                    "skin": 1,
                     "alias": "SPC",
                     "race": "Printer",
                     "color": 3937500,
-                    "wep": "va_magus_bolt_caster",
-                    "bwep": "va_caster_hexblade"
+                    "wep": "EnergyHammer",
+                    "bwep": 35
                 }
             ],
-            "ultras": [ ],
             "pizzas": 0,
-            "loop": 0,
-            "killed_by": 34
-        },
-        {
+            "color": 3937500,
+            "time": 32169,
+            "wep": "EnergyHammer",
+            "ultras": [
+                3,
+                [
+                    "Printer",
+                    2
+                ]
+            ],
+            "loop": 1,
+            "killed_by": 25,
             "mutations": [
                 "Confidence",
                 22,
@@ -62,49 +56,61 @@
                 "Slim Pickings",
                 "Bursted Chest",
                 "Cruelty-Free Veganlust"
-            ],
-            "kills": 1019,
-            "bwep": 35,
-            "hard": 26,
+            ]
+        },
+        {
+            "kills": 521,
+            "bwep": "va_super_duster_flak",
+            "hard": 18,
             "subarea": 2,
-            "area": 5,
+            "area": 100,
             "name": "SPC",
-            "crown": false,
-            "skin": 1,
-            "race": "Printer",
-            "color": 3937500,
-            "time": 32169,
-            "wep": "EnergyHammer",
             "loadout": [
                 {
-                    "skin": 1,
+                    "skin": 0,
                     "alias": "SPC",
-                    "race": "Printer",
+                    "race": "acrobat",
                     "color": 3937500,
                     "wep": "mw_ui_start",
                     "bwep": 0
                 }
             ],
+            "crown": false,
+            "skin": 0,
             "allies": [
                 {
-                    "skin": 1,
+                    "skin": 0,
                     "alias": "SPC",
-                    "race": "Printer",
+                    "race": "acrobat",
                     "color": 3937500,
-                    "wep": "EnergyHammer",
-                    "bwep": 35
+                    "wep": "va_martial_war_hammer",
+                    "bwep": "va_super_duster_flak"
                 }
             ],
+            "race": "acrobat",
+            "pizzas": 0,
+            "color": 3937500,
+            "time": 25462,
+            "wep": "va_martial_war_hammer",
             "ultras": [
-                3,
                 [
-                    "Printer",
+                    "acrobat",
                     2
                 ]
             ],
-            "pizzas": 0,
             "loop": 1,
-            "killed_by": 25
+            "killed_by": 53,
+            "mutations": [
+                27,
+                11,
+                23,
+                "Loner",
+                "Dynamic Calves",
+                3,
+                13,
+                18,
+                "Steel Nerves"
+            ]
         }
     ]
 }
