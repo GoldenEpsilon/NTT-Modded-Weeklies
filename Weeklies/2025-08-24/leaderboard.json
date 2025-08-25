@@ -59,57 +59,52 @@
             ]
         },
         {
-            "kills": 521,
-            "bwep": "va_super_duster_flak",
-            "hard": 18,
-            "subarea": 2,
-            "area": 100,
+            "kills": 270,
+            "bwep": 20,
+            "hard": 12,
+            "subarea": 3,
+            "area": 5,
             "name": "SPC",
             "loadout": [
                 {
                     "skin": 0,
                     "alias": "SPC",
-                    "race": "acrobat",
+                    "race": "scales",
                     "color": 3937500,
                     "wep": "mw_ui_start",
                     "bwep": 0
                 }
             ],
-            "crown": false,
+            "crown": 8,
             "skin": 0,
             "allies": [
                 {
                     "skin": 0,
                     "alias": "SPC",
-                    "race": "acrobat",
+                    "race": "scales",
                     "color": 3937500,
-                    "wep": "va_martial_war_hammer",
-                    "bwep": "va_super_duster_flak"
+                    "wep": "hand_saw",
+                    "bwep": 20
                 }
             ],
-            "race": "acrobat",
+            "race": "scales",
             "pizzas": 0,
             "color": 3937500,
-            "time": 25462,
-            "wep": "va_martial_war_hammer",
-            "ultras": [
-                [
-                    "acrobat",
-                    2
-                ]
-            ],
-            "loop": 1,
-            "killed_by": 53,
+            "time": 13136,
+            "wep": "hand_saw",
+            "ultras": [ ],
+            "loop": 0,
+            "killed_by": 25,
             "mutations": [
-                27,
-                11,
                 23,
-                "Loner",
-                "Dynamic Calves",
-                3,
+                "concentration",
                 13,
-                18,
-                "Steel Nerves"
+                25,
+                "Sloppy Fingers",
+                11,
+                19,
+                "Loner",
+                "Explosive Gaze"
             ]
         }
     ]
