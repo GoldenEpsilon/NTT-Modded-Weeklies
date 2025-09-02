@@ -2,52 +2,6 @@
     "scores": [
         {
             "ultras": [ ],
-            "killed_by": 27,
-            "mutations": [
-                27,
-                14,
-                "Arcane Arts",
-                "Fractured Fingers",
-                26,
-                "Rocket Casings"
-            ],
-            "kills": 316,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": "scales",
-                    "wep": "mw_ui_start",
-                    "alias": "Creature Features",
-                    "color": 16736708,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": "scales",
-                    "wep": "smg",
-                    "alias": "Creature Features",
-                    "color": 16736708,
-                    "bwep": "mcleod"
-                }
-            ],
-            "bwep": "mcleod",
-            "pizzas": 0,
-            "hard": 11,
-            "subarea": 3,
-            "area": 5,
-            "name": "Creature Features",
-            "crown": false,
-            "skin": 0,
-            "race": "scales",
-            "time": 17608,
-            "wep": "smg",
-            "color": 16736708,
-            "loop": 0
-        },
-        {
-            "ultras": [ ],
             "killed_by": 51,
             "mutations": [
                 "Rocket Casings",
@@ -93,6 +47,55 @@
             "wep": 37,
             "color": 16736708,
             "loop": 1
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 0,
+            "mutations": [
+                "Muscle Memory",
+                25,
+                8,
+                "Mimicry",
+                "Garment Regenerator",
+                "Slim Pickings",
+                "Free Space",
+                "Explosive Gaze",
+                "Bursted Chest"
+            ],
+            "kills": 179,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": "mw_ui_start",
+                    "alias": "Creature Features",
+                    "color": 16736708,
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": "PlasmaBeamer",
+                    "alias": "Creature Features",
+                    "color": 16736708,
+                    "bwep": 37
+                }
+            ],
+            "bwep": 37,
+            "pizzas": 1,
+            "hard": 9,
+            "subarea": 1,
+            "area": 4,
+            "name": "Creature Features",
+            "crown": false,
+            "skin": 0,
+            "race": "scales",
+            "time": 13389,
+            "wep": "PlasmaBeamer",
+            "color": 16736708,
+            "loop": 0
         }
     ]
 }
