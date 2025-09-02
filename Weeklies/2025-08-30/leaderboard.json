@@ -44,6 +44,52 @@
             "wep": 79,
             "color": 16736708,
             "loop": 0
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 27,
+            "mutations": [
+                27,
+                14,
+                "Arcane Arts",
+                "Fractured Fingers",
+                26,
+                "Rocket Casings"
+            ],
+            "kills": 316,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": "mw_ui_start",
+                    "alias": "Creature Features",
+                    "color": 16736708,
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": "smg",
+                    "alias": "Creature Features",
+                    "color": 16736708,
+                    "bwep": "mcleod"
+                }
+            ],
+            "bwep": "mcleod",
+            "pizzas": 0,
+            "hard": 11,
+            "subarea": 3,
+            "area": 5,
+            "name": "Creature Features",
+            "crown": false,
+            "skin": 0,
+            "race": "scales",
+            "time": 17608,
+            "wep": "smg",
+            "color": 16736708,
+            "loop": 0
         }
     ]
 }
