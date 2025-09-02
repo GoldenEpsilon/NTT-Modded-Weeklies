@@ -2,51 +2,6 @@
     "scores": [
         {
             "ultras": [ ],
-            "killed_by": 56,
-            "mutations": [
-                10,
-                "excitedneurons",
-                7,
-                "Ruffled Feathers",
-                "Mimicry"
-            ],
-            "kills": 207,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": "scales",
-                    "wep": "mw_ui_start",
-                    "alias": "Creature Features",
-                    "color": 16736708,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": "scales",
-                    "wep": 79,
-                    "alias": "Creature Features",
-                    "color": 16736708,
-                    "bwep": "va_martial_hand_axe"
-                }
-            ],
-            "bwep": "va_martial_hand_axe",
-            "pizzas": 1,
-            "hard": 9,
-            "subarea": 1,
-            "area": 4,
-            "name": "Creature Features",
-            "crown": false,
-            "skin": 0,
-            "race": "scales",
-            "time": 12216,
-            "wep": 79,
-            "color": 16736708,
-            "loop": 0
-        },
-        {
-            "ultras": [ ],
             "killed_by": 27,
             "mutations": [
                 27,
@@ -90,6 +45,54 @@
             "wep": "smg",
             "color": 16736708,
             "loop": 0
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 51,
+            "mutations": [
+                "Rocket Casings",
+                "Mimicry",
+                13,
+                8,
+                5,
+                "excitedneurons",
+                11,
+                20
+            ],
+            "kills": 559,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": "mw_ui_start",
+                    "alias": "Creature Features",
+                    "color": 16736708,
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "wep": 37,
+                    "alias": "Creature Features",
+                    "color": 16736708,
+                    "bwep": "va_auto_marksman_rifle"
+                }
+            ],
+            "bwep": "va_auto_marksman_rifle",
+            "pizzas": 1,
+            "hard": 18,
+            "subarea": 1,
+            "area": 1,
+            "name": "Creature Features",
+            "crown": false,
+            "skin": 0,
+            "race": "scales",
+            "time": 22148,
+            "wep": 37,
+            "color": 16736708,
+            "loop": 1
         }
     ]
 }
