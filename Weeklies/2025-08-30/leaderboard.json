@@ -50,19 +50,15 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 0,
+            "killed_by": 24,
             "mutations": [
+                11,
                 "Muscle Memory",
-                25,
-                8,
-                "Mimicry",
-                "Garment Regenerator",
-                "Slim Pickings",
-                "Free Space",
-                "Explosive Gaze",
-                "Bursted Chest"
+                5,
+                "powderedgums",
+                "Thick Head"
             ],
-            "kills": 179,
+            "kills": 213,
             "loadout": [
                 {
                     "skin": 0,
@@ -77,23 +73,23 @@
                 {
                     "skin": 0,
                     "race": "scales",
-                    "wep": "PlasmaBeamer",
+                    "wep": 38,
                     "alias": "Creature Features",
                     "color": 16736708,
-                    "bwep": 37
+                    "bwep": "mateba"
                 }
             ],
-            "bwep": 37,
-            "pizzas": 1,
+            "bwep": "mateba",
+            "pizzas": 0,
             "hard": 9,
             "subarea": 1,
-            "area": 4,
+            "area": 5,
             "name": "Creature Features",
             "crown": false,
             "skin": 0,
             "race": "scales",
-            "time": 13389,
-            "wep": "PlasmaBeamer",
+            "time": 13401,
+            "wep": 38,
             "color": 16736708,
             "loop": 0
         }
