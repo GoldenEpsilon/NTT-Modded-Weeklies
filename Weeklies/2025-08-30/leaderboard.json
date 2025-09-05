@@ -49,21 +49,33 @@
             "loop": 1
         },
         {
-            "ultras": [ ],
+            "ultras": [
+                [
+                    "acrobat",
+                    2
+                ]
+            ],
             "killed_by": 0,
             "mutations": [
-                21
+                4,
+                23,
+                "Mimicry",
+                8,
+                "Arcane Arts",
+                13,
+                14,
+                "Shattered Skull"
             ],
-            "kills": 46,
-            "bwep": "Acro-Bat",
-            "hard": 3,
-            "subarea": 3,
+            "kills": 538,
+            "bwep": "va_martial_longsword",
+            "hard": 18,
+            "subarea": 2,
             "area": 1,
             "name": "Creature Features",
             "crown": false,
             "skin": 0,
             "race": "acrobat",
-            "time": 2435,
+            "time": 28637,
             "loadout": [
                 {
                     "skin": 0,
@@ -78,16 +90,16 @@
                 {
                     "skin": 0,
                     "race": "acrobat",
-                    "wep": 7,
+                    "wep": 22,
                     "alias": "Creature Features",
                     "color": 16736708,
-                    "bwep": "Acro-Bat"
+                    "bwep": "va_martial_longsword"
                 }
             ],
-            "wep": 7,
+            "wep": 22,
             "pizzas": 0,
             "color": 16736708,
-            "loop": 0
+            "loop": 1
         }
     ]
 }
