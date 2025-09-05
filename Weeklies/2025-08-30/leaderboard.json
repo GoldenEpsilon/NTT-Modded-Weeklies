@@ -14,6 +14,14 @@
                 20
             ],
             "kills": 559,
+            "bwep": "va_auto_marksman_rifle",
+            "hard": 18,
+            "subarea": 1,
+            "area": 1,
+            "name": "Creature Features",
+            "crown": false,
+            "skin": 0,
+            "race": "scales",
             "loadout": [
                 {
                     "skin": 0,
@@ -24,6 +32,7 @@
                     "bwep": 0
                 }
             ],
+            "time": 22148,
             "allies": [
                 {
                     "skin": 0,
@@ -34,35 +43,36 @@
                     "bwep": "va_auto_marksman_rifle"
                 }
             ],
-            "bwep": "va_auto_marksman_rifle",
-            "pizzas": 1,
-            "hard": 18,
-            "subarea": 1,
-            "area": 1,
-            "name": "Creature Features",
-            "crown": false,
-            "skin": 0,
-            "race": "scales",
-            "time": 22148,
             "wep": 37,
+            "pizzas": 1,
             "color": 16736708,
             "loop": 1
         },
         {
             "ultras": [ ],
-            "killed_by": 24,
+            "killed_by": 69,
             "mutations": [
-                11,
                 "Muscle Memory",
-                5,
-                "powderedgums",
-                "Thick Head"
+                3,
+                "Filtering Teeth",
+                "Scrap Arms",
+                22,
+                1
             ],
-            "kills": 213,
+            "kills": 260,
+            "bwep": 13,
+            "hard": 10,
+            "subarea": 1,
+            "area": 5,
+            "name": "Creature Features",
+            "crown": false,
+            "skin": 0,
+            "race": "acrobat",
+            "time": 13665,
             "loadout": [
                 {
                     "skin": 0,
-                    "race": "scales",
+                    "race": "acrobat",
                     "wep": "mw_ui_start",
                     "alias": "Creature Features",
                     "color": 16736708,
@@ -72,24 +82,15 @@
             "allies": [
                 {
                     "skin": 0,
-                    "race": "scales",
-                    "wep": 38,
+                    "race": "acrobat",
+                    "wep": "va_martial_war_pike",
                     "alias": "Creature Features",
                     "color": 16736708,
-                    "bwep": "mateba"
+                    "bwep": 13
                 }
             ],
-            "bwep": "mateba",
-            "pizzas": 0,
-            "hard": 9,
-            "subarea": 1,
-            "area": 5,
-            "name": "Creature Features",
-            "crown": false,
-            "skin": 0,
-            "race": "scales",
-            "time": 13401,
-            "wep": 38,
+            "wep": "va_martial_war_pike",
+            "pizzas": 1,
             "color": 16736708,
             "loop": 0
         }
