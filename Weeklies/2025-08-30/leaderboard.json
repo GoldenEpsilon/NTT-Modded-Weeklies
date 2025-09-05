@@ -50,25 +50,20 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 26,
+            "killed_by": 0,
             "mutations": [
-                4,
-                15,
-                "Garment Regenerator",
-                1,
-                "Shattered Skull",
-                "Sadism"
+                21
             ],
-            "kills": 285,
-            "bwep": "laserminigun",
-            "hard": 11,
-            "subarea": 2,
-            "area": 5,
+            "kills": 46,
+            "bwep": "Acro-Bat",
+            "hard": 3,
+            "subarea": 3,
+            "area": 1,
             "name": "Creature Features",
             "crown": false,
             "skin": 0,
             "race": "acrobat",
-            "time": 13212,
+            "time": 2435,
             "loadout": [
                 {
                     "skin": 0,
@@ -83,14 +78,14 @@
                 {
                     "skin": 0,
                     "race": "acrobat",
-                    "wep": 76,
+                    "wep": 7,
                     "alias": "Creature Features",
                     "color": 16736708,
-                    "bwep": "laserminigun"
+                    "bwep": "Acro-Bat"
                 }
             ],
-            "wep": 76,
-            "pizzas": 1,
+            "wep": 7,
+            "pizzas": 0,
             "color": 16736708,
             "loop": 0
         }
