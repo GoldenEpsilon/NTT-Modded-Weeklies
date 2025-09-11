@@ -14,6 +14,14 @@
                 7
             ],
             "kills": 404,
+            "bwep": "va_martial_sawtooth_sword",
+            "hard": 16,
+            "subarea": 1,
+            "area": 0,
+            "name": "Creature Features",
+            "skin": 0,
+            "crown": false,
+            "race": "acrobat",
             "loadout": [
                 {
                     "skin": 0,
@@ -24,7 +32,7 @@
                     "bwep": 0
                 }
             ],
-            "bwep": "va_martial_sawtooth_sword",
+            "time": 28066,
             "allies": [
                 {
                     "skin": 0,
@@ -35,18 +43,51 @@
                     "bwep": "va_martial_sawtooth_sword"
                 }
             ],
-            "hard": 16,
-            "subarea": 1,
-            "pizzas": 0,
-            "area": 0,
-            "name": "Creature Features",
-            "skin": 0,
-            "crown": false,
-            "race": "acrobat",
-            "time": 28066,
             "wep": "va_hyper_sniper",
+            "pizzas": 0,
             "color": 16736708,
             "loop": 1
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 5,
+            "mutations": [
+                "Scrap Arms"
+            ],
+            "kills": 52,
+            "bwep": "Acro-Bat",
+            "hard": 3,
+            "subarea": 3,
+            "area": 1,
+            "name": "Creature Features",
+            "crown": false,
+            "skin": 0,
+            "race": "acrobat",
+            "time": 1830,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "acrobat",
+                    "wep": "mw_ui_start",
+                    "alias": "Creature Features",
+                    "color": 16736708,
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "acrobat",
+                    "wep": 17,
+                    "alias": "Creature Features",
+                    "color": 16736708,
+                    "bwep": "Acro-Bat"
+                }
+            ],
+            "wep": 17,
+            "pizzas": 0,
+            "color": 16736708,
+            "loop": 0
         }
     ]
 }
