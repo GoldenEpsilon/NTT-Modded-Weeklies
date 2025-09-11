@@ -50,23 +50,24 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 18,
+            "killed_by": 24,
             "mutations": [
-                21,
-                "Staked Chest",
                 13,
+                14,
+                "Muscle Memory",
+                1,
                 "Arcane Arts"
             ],
-            "kills": 207,
-            "bwep": "mcleod",
-            "hard": 7,
-            "subarea": 3,
-            "area": 3,
+            "kills": 209,
+            "bwep": 117,
+            "hard": 9,
+            "subarea": 1,
+            "area": 5,
             "name": "Creature Features",
             "crown": false,
             "skin": 0,
             "race": "acrobat",
-            "time": 7167,
+            "time": 10509,
             "loadout": [
                 {
                     "skin": 0,
@@ -81,13 +82,13 @@
                 {
                     "skin": 0,
                     "race": "acrobat",
-                    "wep": 6,
+                    "wep": "Acro-Bat",
                     "alias": "Creature Features",
                     "color": 16736708,
-                    "bwep": "mcleod"
+                    "bwep": 117
                 }
             ],
-            "wep": 6,
+            "wep": "Acro-Bat",
             "pizzas": 0,
             "color": 16736708,
             "loop": 0
