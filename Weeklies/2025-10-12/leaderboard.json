@@ -12,7 +12,6 @@
                     "bwep": 1
                 }
             ],
-            "color": 16736708,
             "allies": [
                 {
                     "skin": 1,
@@ -23,8 +22,9 @@
                     "bwep": 6
                 }
             ],
-            "bwep": 6,
             "pizzas": 0,
+            "color": 16736708,
+            "bwep": 6,
             "hard": 18,
             "subarea": 1,
             "area": 1,
@@ -48,6 +48,49 @@
             "time": 16259.5,
             "wep": 63,
             "loop": 1
+        },
+        {
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 7,
+                    "alias": "SMALL CUTE PONIES IN YOUR AREA",
+                    "wep": "mw_ui_start",
+                    "color": 16736708,
+                    "bwep": 1
+                }
+            ],
+            "kills": 125,
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 7,
+                    "alias": "SMALL CUTE PONIES IN YOUR AREA",
+                    "wep": 17,
+                    "color": 16736708,
+                    "bwep": 23
+                }
+            ],
+            "pizzas": 0,
+            "color": 16736708,
+            "bwep": 23,
+            "hard": 6,
+            "subarea": 2,
+            "area": 3,
+            "ultras": [ ],
+            "killed_by": 15,
+            "mutations": [
+                "excitedneurons",
+                "Ruffled Feathers",
+                "Rocket Casings"
+            ],
+            "name": "SMALL CUTE PONIES IN YOUR AREA",
+            "skin": 1,
+            "crown": false,
+            "race": 7,
+            "time": 4916,
+            "wep": 17,
+            "loop": 0
         }
     ]
 }
