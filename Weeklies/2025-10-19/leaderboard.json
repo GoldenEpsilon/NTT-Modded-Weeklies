@@ -58,34 +58,39 @@
                     "alias": "I am NOT being Ratatouille'd"
                 }
             ],
-            "kills": 59,
+            "kills": 346,
             "allies": [
                 {
                     "skin": 0,
                     "race": 6,
                     "color": 16736708,
-                    "wep": 19,
+                    "wep": "laserminigun",
                     "bwep": 39,
                     "alias": "I am NOT being Ratatouille'd"
                 }
             ],
-            "pizzas": 0,
+            "pizzas": 1,
             "ultras": [ ],
-            "killed_by": 6,
+            "killed_by": 30,
             "bwep": 39,
             "mutations": [
-                "Scrap Arms",
-                4
+                "Rocket Casings",
+                5,
+                10,
+                21,
+                17,
+                "compoundelbow",
+                9
             ],
-            "hard": 3,
-            "subarea": 3,
-            "area": 1,
+            "hard": 13,
+            "subarea": 1,
+            "area": 6,
             "name": "I am NOT being Ratatouille'd",
             "crown": false,
             "skin": 0,
             "race": 6,
-            "time": 2769,
-            "wep": 19,
+            "time": 18431,
+            "wep": "laserminigun",
             "loop": 0
         }
     ]
