@@ -2,52 +2,6 @@
     "scores": [
         {
             "color": 16736708,
-            "kills": 282,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "alias": "I am NOT being Ratatouille'd",
-                    "bwep": 1
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 7,
-                    "color": 16736708,
-                    "wep": 37,
-                    "alias": "I am NOT being Ratatouille'd",
-                    "bwep": "va_signal_flare"
-                }
-            ],
-            "pizzas": 0,
-            "ultras": [ ],
-            "killed_by": 24,
-            "bwep": "va_signal_flare",
-            "subarea": 1,
-            "mutations": [
-                13,
-                "Muscle Memory",
-                14,
-                "luckyshot",
-                7,
-                "flamingpalms"
-            ],
-            "hard": 9,
-            "area": 5,
-            "name": "I am NOT being Ratatouille'd",
-            "crown": false,
-            "skin": 1,
-            "race": 7,
-            "time": 12210.5,
-            "wep": 37,
-            "loop": 0
-        },
-        {
-            "color": 16736708,
             "loadout": [
                 {
                     "skin": 0,
@@ -92,6 +46,59 @@
             "time": 18431,
             "wep": "laserminigun",
             "loop": 0
+        },
+        {
+            "color": 16736708,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "I am NOT being Ratatouille'd"
+                }
+            ],
+            "kills": 1211,
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "color": 16736708,
+                    "wep": 89,
+                    "bwep": 12,
+                    "alias": "I am NOT being Ratatouille'd"
+                }
+            ],
+            "pizzas": 1,
+            "ultras": [
+                [
+                    "scales",
+                    2
+                ]
+            ],
+            "killed_by": 93,
+            "bwep": 12,
+            "mutations": [
+                27,
+                "Staked Chest",
+                3,
+                "compoundelbow",
+                23,
+                26,
+                "Rocket Casings",
+                5
+            ],
+            "hard": 26,
+            "subarea": 3,
+            "area": 106,
+            "name": "I am NOT being Ratatouille'd",
+            "crown": 7,
+            "skin": 0,
+            "race": "scales",
+            "time": 40952,
+            "wep": 89,
+            "loop": 1
         }
     ]
 }
