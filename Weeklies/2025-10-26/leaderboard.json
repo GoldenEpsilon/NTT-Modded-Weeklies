@@ -44,6 +44,53 @@
             ],
             "loop": 0,
             "pizzas": 1
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 36,
+            "mutations": [
+                "Shell Cellulite",
+                13,
+                "compoundelbow",
+                23,
+                22,
+                "Arcane Arts",
+                "Muscle Memory"
+            ],
+            "kills": 356,
+            "bwep": "PikeSplinterGun",
+            "hard": 13,
+            "subarea": 1,
+            "area": 7,
+            "name": "I am NOT being Ratatouille'd",
+            "crown": false,
+            "skin": 1,
+            "race": 10,
+            "time": 15992,
+            "wep": 13,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 10,
+                    "wep": "mw_ui_start",
+                    "alias": "I am NOT being Ratatouille'd",
+                    "color": 16736708,
+                    "bwep": 0
+                }
+            ],
+            "color": 16736708,
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 10,
+                    "wep": 13,
+                    "alias": "I am NOT being Ratatouille'd",
+                    "color": 16736708,
+                    "bwep": "PikeSplinterGun"
+                }
+            ],
+            "loop": 0,
+            "pizzas": 0
         }
     ]
 }
