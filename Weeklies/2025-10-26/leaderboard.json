@@ -49,25 +49,19 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 55,
-            "mutations": [
-                13,
-                7,
-                17,
-                "Feed Forward Network",
-                "Muscle Memory"
-            ],
-            "kills": 298,
-            "bwep": 7,
-            "hard": 8,
-            "subarea": 3,
-            "area": 3,
+            "killed_by": -1,
+            "mutations": [ ],
+            "kills": 43,
+            "bwep": 0,
+            "hard": 1,
+            "subarea": 1,
+            "area": 1,
             "name": "I am NOT being Ratatouille'd",
             "crown": false,
             "skin": 0,
             "race": "scales",
-            "time": 10371,
-            "wep": 20,
+            "time": 844,
+            "wep": "mateba",
             "loadout": [
                 {
                     "skin": 0,
@@ -83,14 +77,14 @@
                 {
                     "skin": 0,
                     "race": "scales",
-                    "wep": 20,
+                    "wep": "mateba",
                     "alias": "I am NOT being Ratatouille'd",
                     "color": 16736708,
-                    "bwep": 7
+                    "bwep": 0
                 }
             ],
             "loop": 0,
-            "pizzas": 1
+            "pizzas": 0
         }
     ]
 }
