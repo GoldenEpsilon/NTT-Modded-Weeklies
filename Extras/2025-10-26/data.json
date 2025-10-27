@@ -1,0 +1,42 @@
+{
+	"name": "House Clash Week One",
+    "weekly": true,
+	"description": "MANY new weapons and mutations on the first week",
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"disable_crowns": false,
+	"index": 5,
+	"seed": "Random",
+	"mods": [
+                {
+			"download_type": "direct",
+			"name": "LOMuts",
+			"filename": "LOMuts.zip",
+			"description": "Lots of Mutations!#What it sounds like on the tin.#Adds a third ultra#to all characters!",
+			"url": "https://github.com/GoldenEpsilon/NTT-Modded-Weeklies/raw/main/ExtraMods/LOMuts.zip?v=new"
+		},
+		{
+			"download_type": "itch",
+			"name": "Where The Gunz At",
+			"description": "A powerful and wacky weapon pack#with a wide range of zainy,#unique firearms.",
+			"url": "https://mr-marcog.itch.io/where-the-gunz-at"
+		},
+		{
+			"download_type": "itch",
+			"name": "BSkills",
+			"description": "Some new mutations.",
+			"url": "https://blaac.itch.io/weapon-mutations"
+		},
+		{
+			"download_type": "direct",
+			"name": "Defpack",
+			"description": "You know it! You love it!#It's the most clasic NTT weapon pack.",
+			"filename": "defpack.zip",
+			"url": "https://github.com/jsburger/defpack/archive/refs/heads/experimental.zip"
+		}
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": false
+}
