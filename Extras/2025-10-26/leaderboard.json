@@ -117,11 +117,11 @@
             ]
         },
         {
-            "kills": 141,
-            "bwep": 38,
-            "hard": 6,
-            "subarea": 1,
-            "area": 3,
+            "kills": 280,
+            "bwep": 80,
+            "hard": 14,
+            "subarea": 3,
+            "area": 5,
             "name": "SPC",
             "loadout": [
                 {
@@ -133,7 +133,7 @@
                     "bwep": 0
                 }
             ],
-            "crown": false,
+            "crown": 11,
             "skin": 1,
             "allies": [
                 {
@@ -141,23 +141,26 @@
                     "alias": "SPC",
                     "race": 4,
                     "color": 4261187,
-                    "wep": 1,
-                    "bwep": 38
+                    "wep": "sonic hammer",
+                    "bwep": 80
                 }
             ],
             "race": 4,
             "pizzas": 1,
             "color": 4261187,
-            "time": 5774,
-            "wep": 1,
+            "time": 27934,
+            "wep": "sonic hammer",
             "ultras": [ ],
             "loop": 0,
-            "killed_by": 15,
+            "killed_by": 24,
             "mutations": [
                 13,
                 3,
                 17,
-                "Garment Regenerator"
+                "concentration",
+                "condensedmeat",
+                25,
+                23
             ]
         }
     ]
