@@ -1,35 +1,20 @@
 {
     "scores": [
         {
-            "loadout": [
-                {
-                    "skin": 1,
-                    "alias": "Jaz-I-Lantern",
-                    "race": 6,
-                    "color": 13281508,
-                    "wep": "mw_ui_start",
-                    "bwep": 0
-                }
-            ],
             "allies": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
                     "race": 6,
-                    "color": 13281508,
                     "wep": 3,
-                    "bwep": "abris rifle"
+                    "alias": "Jaz-I-Lantern",
+                    "bwep": "abris rifle",
+                    "color": 13281508
                 }
             ],
             "pizzas": 0,
-            "kills": 160,
-            "color": 13281508,
             "ultras": [ ],
-            "bwep": "abris rifle",
-            "hard": 6,
-            "subarea": 2,
             "killed_by": 51,
-            "area": 3,
+            "kills": 160,
             "mutations": [
                 "prismaticiris",
                 11,
@@ -37,91 +22,95 @@
                 13,
                 "Ruffled Feathers"
             ],
+            "bwep": "abris rifle",
+            "hard": 6,
+            "subarea": 2,
+            "area": 3,
             "name": "Jaz-I-Lantern",
             "skin": 1,
             "crown": false,
             "race": 6,
             "time": 8435,
             "wep": 3,
-            "loop": 0
-        },
-        {
+            "loop": 0,
+            "color": 13281508,
             "loadout": [
                 {
                     "skin": 1,
-                    "alias": "Lightspeed",
-                    "race": 11,
-                    "color": 16737962,
+                    "race": 6,
                     "wep": "mw_ui_start",
-                    "bwep": 0
+                    "alias": "Jaz-I-Lantern",
+                    "bwep": 0,
+                    "color": 13281508
                 }
-            ],
+            ]
+        },
+        {
             "allies": [
                 {
                     "skin": 1,
-                    "alias": "Lightspeed",
                     "race": 11,
-                    "color": 16737962,
                     "wep": 13,
-                    "bwep": 7
+                    "alias": "Lightspeed",
+                    "bwep": 7,
+                    "color": 16737962
                 }
             ],
             "pizzas": 0,
-            "kills": 111,
-            "color": 16737962,
             "ultras": [ ],
-            "bwep": 7,
-            "hard": 4,
-            "subarea": 1,
             "killed_by": -1,
-            "area": 2,
+            "kills": 111,
             "mutations": [
                 18,
                 23
             ],
+            "bwep": 7,
+            "hard": 4,
+            "subarea": 1,
+            "area": 2,
             "name": "Lightspeed",
             "crown": false,
             "skin": 1,
             "race": 11,
             "time": 9141,
             "wep": 13,
-            "loop": 0
-        },
-        {
+            "loop": 0,
+            "color": 16737962,
             "loadout": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
-                    "race": 6,
-                    "color": 13281508,
+                    "race": 11,
                     "wep": "mw_ui_start",
-                    "bwep": 0
+                    "alias": "Lightspeed",
+                    "bwep": 0,
+                    "color": 16737962
                 }
-            ],
+            ]
+        },
+        {
             "allies": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
                     "race": 6,
-                    "color": 13281508,
                     "wep": 2,
-                    "bwep": "abris pistol"
+                    "alias": "Jaz-I-Lantern",
+                    "bwep": "abris pistol",
+                    "color": 13281508
                 }
             ],
             "pizzas": 1,
-            "color": 13281508,
-            "kills": 135,
             "ultras": [ ],
-            "bwep": "abris pistol",
-            "subarea": 2,
             "killed_by": 15,
-            "hard": 7,
+            "kills": 135,
             "mutations": [
                 18,
                 23,
                 "Scrap Arms",
                 22
             ],
+            "bwep": "abris pistol",
+            "subarea": 2,
+            "hard": 7,
             "area": 3,
             "name": "Jaz-I-Lantern",
             "skin": 1,
@@ -129,52 +118,65 @@
             "race": 6,
             "time": 6227,
             "wep": 2,
-            "loop": 0
-        },
-        {
+            "loop": 0,
+            "color": 13281508,
             "loadout": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
                     "race": 6,
-                    "color": 13281508,
                     "wep": "mw_ui_start",
-                    "bwep": 0
+                    "alias": "Jaz-I-Lantern",
+                    "bwep": 0,
+                    "color": 13281508
                 }
-            ],
+            ]
+        },
+        {
             "allies": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
                     "race": 6,
-                    "color": 13281508,
-                    "wep": "bow",
-                    "bwep": 39
+                    "wep": 29,
+                    "alias": "Lightspeed",
+                    "bwep": 3,
+                    "color": 16737962
                 }
             ],
             "pizzas": 0,
-            "color": 13281508,
-            "kills": 76,
             "ultras": [ ],
-            "bwep": 39,
-            "killed_by": 6,
-            "hard": 3,
-            "subarea": 3,
+            "killed_by": 36,
             "mutations": [
-                1,
-                "Loner",
-                "Iron Skin",
-                13,
-                3
+                27,
+                "prismaticiris",
+                "Garment Regenerator",
+                "Sadism",
+                "Bursted Chest",
+                "Laser Focus",
+                "Thick Head"
             ],
-            "area": 1,
-            "name": "Jaz-I-Lantern",
+            "kills": 389,
+            "bwep": 3,
+            "hard": 16,
+            "subarea": 2,
+            "area": 7,
+            "name": "Lightspeed",
+            "crown": "outcasts",
             "skin": 1,
-            "crown": false,
             "race": 6,
-            "time": 4084,
-            "wep": "bow",
-            "loop": 0
+            "time": 21486,
+            "wep": 29,
+            "loop": 0,
+            "color": 16737962,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "wep": "mw_ui_start",
+                    "alias": "Lightspeed",
+                    "bwep": 0,
+                    "color": 16737962
+                }
+            ]
         }
     ]
 }
