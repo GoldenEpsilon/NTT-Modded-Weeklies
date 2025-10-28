@@ -5,32 +5,32 @@
             "bwep": 111,
             "hard": 20,
             "subarea": 2,
-            "area": 1,
-            "name": "Jaz-I-Lantern",
             "loadout": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
                     "race": 6,
                     "color": 13281508,
                     "wep": "mw_ui_start",
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "Jaz-I-Lantern"
                 }
             ],
-            "skin": 1,
-            "crown": 1,
+            "area": 1,
             "allies": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
                     "race": 6,
                     "color": 13281508,
                     "wep": 40,
-                    "bwep": 111
+                    "bwep": 111,
+                    "alias": "Jaz-I-Lantern"
                 }
             ],
-            "race": 6,
             "pizzas": 0,
+            "name": "Jaz-I-Lantern",
+            "crown": 1,
+            "skin": 1,
+            "race": 6,
             "color": 13281508,
             "time": 27845,
             "wep": 40,
@@ -59,32 +59,32 @@
             "bwep": 111,
             "hard": 30,
             "subarea": 2,
-            "area": 5,
-            "name": "SPC",
             "loadout": [
                 {
                     "skin": 0,
-                    "alias": "SPC",
                     "race": 14,
                     "color": 4261187,
                     "wep": "mw_ui_start",
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "SPC"
                 }
             ],
-            "crown": 7,
-            "skin": 0,
+            "area": 5,
             "allies": [
                 {
                     "skin": 0,
-                    "alias": "SPC",
                     "race": 9,
                     "color": 4261187,
                     "wep": 24,
-                    "bwep": 111
+                    "bwep": 111,
+                    "alias": "SPC"
                 }
             ],
-            "race": 9,
             "pizzas": 1,
+            "name": "SPC",
+            "skin": 0,
+            "crown": 7,
+            "race": 9,
             "color": 4261187,
             "time": 41753,
             "wep": 24,
@@ -117,51 +117,43 @@
             ]
         },
         {
-            "kills": 280,
-            "bwep": 80,
-            "hard": 14,
-            "subarea": 3,
-            "area": 5,
-            "name": "SPC",
+            "kills": 38,
+            "bwep": 1,
+            "hard": 2,
+            "subarea": 2,
             "loadout": [
                 {
                     "skin": 1,
-                    "alias": "SPC",
-                    "race": 4,
-                    "color": 4261187,
+                    "race": 11,
+                    "color": 16737962,
                     "wep": "mw_ui_start",
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "Lightspeed"
                 }
             ],
-            "crown": 11,
-            "skin": 1,
+            "area": 1,
             "allies": [
                 {
                     "skin": 1,
-                    "alias": "SPC",
-                    "race": 4,
-                    "color": 4261187,
-                    "wep": "sonic hammer",
-                    "bwep": 80
+                    "race": 11,
+                    "color": 16737962,
+                    "wep": 7,
+                    "bwep": 1,
+                    "alias": "Lightspeed"
                 }
             ],
-            "race": 4,
-            "pizzas": 1,
-            "color": 4261187,
-            "time": 27934,
-            "wep": "sonic hammer",
+            "pizzas": 0,
+            "name": "Lightspeed",
+            "skin": 1,
+            "crown": false,
+            "race": 11,
+            "color": 16737962,
+            "time": 1032,
+            "wep": 7,
             "ultras": [ ],
             "loop": 0,
-            "killed_by": 24,
-            "mutations": [
-                13,
-                3,
-                17,
-                "concentration",
-                "condensedmeat",
-                25,
-                23
-            ]
+            "killed_by": 5,
+            "mutations": [ ]
         }
     ]
 }
