@@ -1,7 +1,41 @@
 {
     "scores": [
         {
+            "kills": 356,
+            "bwep": "PikeSplinterGun",
+            "subarea": 1,
+            "hard": 13,
+            "area": 7,
+            "name": "I am NOT being Ratatouille'd",
+            "crown": false,
+            "skin": 1,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "alias": "I am NOT being Ratatouille'd",
+                    "race": 10,
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0
+                }
+            ],
+            "race": 10,
+            "allies": [
+                {
+                    "skin": 1,
+                    "alias": "I am NOT being Ratatouille'd",
+                    "race": 10,
+                    "color": 16736708,
+                    "wep": 13,
+                    "bwep": "PikeSplinterGun"
+                }
+            ],
+            "pizzas": 0,
+            "color": 16736708,
+            "time": 15992,
+            "wep": 13,
             "ultras": [ ],
+            "loop": 0,
             "killed_by": 36,
             "mutations": [
                 "Shell Cellulite",
@@ -11,82 +45,92 @@
                 22,
                 "Arcane Arts",
                 "Muscle Memory"
-            ],
-            "kills": 356,
-            "bwep": "PikeSplinterGun",
-            "hard": 13,
-            "subarea": 1,
-            "area": 7,
-            "name": "I am NOT being Ratatouille'd",
-            "crown": false,
-            "skin": 1,
-            "race": 10,
-            "time": 15992,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 10,
-                    "wep": "mw_ui_start",
-                    "alias": "I am NOT being Ratatouille'd",
-                    "color": 16736708,
-                    "bwep": 0
-                }
-            ],
-            "wep": 13,
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 10,
-                    "wep": 13,
-                    "alias": "I am NOT being Ratatouille'd",
-                    "color": 16736708,
-                    "bwep": "PikeSplinterGun"
-                }
-            ],
-            "pizzas": 0,
-            "color": 16736708,
-            "loop": 0
+            ]
         },
         {
-            "ultras": [ ],
-            "killed_by": 3,
-            "mutations": [
-                23
-            ],
             "kills": 28,
             "bwep": 1,
-            "hard": 2,
             "subarea": 2,
+            "hard": 2,
             "area": 1,
             "name": "Senjey",
             "crown": false,
             "skin": 1,
-            "race": "Printer",
-            "time": 1157,
             "loadout": [
                 {
                     "skin": 1,
-                    "race": "Printer",
-                    "wep": "mw_ui_start",
                     "alias": "Senjey",
+                    "race": "Printer",
                     "color": 4517495,
+                    "wep": "mw_ui_start",
                     "bwep": 0
                 }
             ],
+            "race": "Printer",
             "allies": [
                 {
                     "skin": 1,
-                    "race": "Printer",
-                    "wep": 27,
                     "alias": "Senjey",
+                    "race": "Printer",
                     "color": 4517495,
+                    "wep": 27,
                     "bwep": 1
                 }
             ],
-            "wep": 27,
             "pizzas": 0,
             "color": 4517495,
-            "loop": 0
+            "time": 1157,
+            "wep": 27,
+            "ultras": [ ],
+            "loop": 0,
+            "killed_by": 3,
+            "mutations": [
+                23
+            ]
+        },
+        {
+            "kills": 173,
+            "bwep": 0,
+            "hard": 5,
+            "subarea": 1,
+            "area": 3,
+            "name": "SPC",
+            "loadout": [
+                {
+                    "skin": 1,
+                    "alias": "SPC",
+                    "race": "Printer",
+                    "color": 4261187,
+                    "wep": "mw_ui_start",
+                    "bwep": 0
+                }
+            ],
+            "crown": false,
+            "skin": 1,
+            "allies": [
+                {
+                    "skin": 1,
+                    "alias": "SPC",
+                    "race": "Printer",
+                    "color": 4261187,
+                    "wep": 19,
+                    "bwep": 0
+                }
+            ],
+            "race": "Printer",
+            "pizzas": 0,
+            "color": 4261187,
+            "time": 4862,
+            "wep": 19,
+            "ultras": [ ],
+            "loop": 0,
+            "killed_by": 15,
+            "mutations": [
+                11,
+                "Double Vision",
+                "Precision Incision",
+                13
+            ]
         }
     ]
 }
