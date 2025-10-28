@@ -5,7 +5,6 @@
             "bwep": 111,
             "hard": 20,
             "subarea": 2,
-            "area": 1,
             "loadout": [
                 {
                     "skin": 1,
@@ -16,6 +15,7 @@
                     "alias": "Jaz-I-Lantern"
                 }
             ],
+            "area": 1,
             "allies": [
                 {
                     "skin": 1,
@@ -59,7 +59,6 @@
             "bwep": 111,
             "hard": 30,
             "subarea": 2,
-            "area": 5,
             "loadout": [
                 {
                     "skin": 0,
@@ -70,6 +69,7 @@
                     "alias": "SPC"
                 }
             ],
+            "area": 5,
             "allies": [
                 {
                     "skin": 0,
@@ -121,7 +121,6 @@
             "bwep": 27,
             "hard": 9,
             "subarea": 3,
-            "area": 3,
             "loadout": [
                 {
                     "skin": 1,
@@ -132,6 +131,7 @@
                     "alias": "Lightspeed"
                 }
             ],
+            "area": 3,
             "allies": [
                 {
                     "skin": 1,
@@ -159,9 +159,9 @@
             ]
         },
         {
-            "kills": 67,
-            "bwep": 1,
-            "hard": 3,
+            "kills": 172,
+            "bwep": "sonic hammer",
+            "hard": 9,
             "subarea": 3,
             "loadout": [
                 {
@@ -173,30 +173,32 @@
                     "alias": "Lightspeed"
                 }
             ],
-            "area": 1,
+            "area": 3,
             "allies": [
                 {
                     "skin": 1,
                     "race": 11,
                     "color": 16737962,
-                    "wep": 7,
-                    "bwep": 1,
+                    "wep": 66,
+                    "bwep": "sonic hammer",
                     "alias": "Lightspeed"
                 }
             ],
-            "pizzas": 0,
+            "pizzas": 1,
             "name": "Lightspeed",
             "skin": 1,
-            "crown": false,
+            "crown": 4,
             "race": 11,
             "color": 16737962,
-            "time": 2756,
-            "wep": 7,
+            "time": 9733,
+            "wep": 66,
             "ultras": [ ],
             "loop": 0,
-            "killed_by": 55,
+            "killed_by": -1,
             "mutations": [
-                13
+                13,
+                1,
+                17
             ]
         }
     ]
