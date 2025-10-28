@@ -131,6 +131,45 @@
                 "Precision Incision",
                 13
             ]
+        },
+        {
+            "kills": 52,
+            "bwep": "mateba",
+            "hard": 3,
+            "subarea": 3,
+            "area": 1,
+            "name": "SPC",
+            "loadout": [
+                {
+                    "skin": 1,
+                    "alias": "SPC",
+                    "race": "scales",
+                    "color": 4261187,
+                    "wep": "mw_ui_start",
+                    "bwep": 0
+                }
+            ],
+            "crown": false,
+            "skin": 1,
+            "allies": [
+                {
+                    "skin": 1,
+                    "alias": "SPC",
+                    "race": "scales",
+                    "color": 4261187,
+                    "wep": 17,
+                    "bwep": "mateba"
+                }
+            ],
+            "race": "scales",
+            "pizzas": 0,
+            "color": 4261187,
+            "time": 1710,
+            "wep": 17,
+            "ultras": [ ],
+            "loop": 0,
+            "killed_by": -1,
+            "mutations": [ ]
         }
     ]
 }
