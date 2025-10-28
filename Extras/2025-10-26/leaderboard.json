@@ -117,11 +117,11 @@
             ]
         },
         {
-            "kills": 38,
-            "bwep": 0,
-            "hard": 2,
-            "subarea": 2,
-            "area": 1,
+            "kills": 141,
+            "bwep": 38,
+            "hard": 6,
+            "subarea": 1,
+            "area": 3,
             "name": "SPC",
             "loadout": [
                 {
@@ -142,19 +142,22 @@
                     "race": 4,
                     "color": 4261187,
                     "wep": 1,
-                    "bwep": 0
+                    "bwep": 38
                 }
             ],
             "race": 4,
-            "pizzas": 0,
+            "pizzas": 1,
             "color": 4261187,
-            "time": 834,
+            "time": 5774,
             "wep": 1,
             "ultras": [ ],
             "loop": 0,
-            "killed_by": 5,
+            "killed_by": 15,
             "mutations": [
-                11
+                13,
+                3,
+                17,
+                "Garment Regenerator"
             ]
         }
     ]
