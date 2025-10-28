@@ -1,5 +1,49 @@
 {
     "scores": [
-        
+        {
+            "loadout": [
+                {
+                    "skin": 1,
+                    "alias": "Jaz-I-Lantern",
+                    "race": 6,
+                    "color": 13281508,
+                    "wep": "mw_ui_start",
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "alias": "Jaz-I-Lantern",
+                    "race": 6,
+                    "color": 13281508,
+                    "wep": 0,
+                    "bwep": 2
+                }
+            ],
+            "pizzas": 1,
+            "color": 13281508,
+            "kills": 215,
+            "ultras": [ ],
+            "bwep": 2,
+            "killed_by": 24,
+            "hard": 11,
+            "subarea": 1,
+            "mutations": [
+                "Garment Regenerator",
+                13,
+                "Double Vision",
+                "Mimicry",
+                7
+            ],
+            "area": 5,
+            "name": "Jaz-I-Lantern",
+            "skin": 1,
+            "crown": 1,
+            "race": 6,
+            "time": 12405,
+            "wep": 0,
+            "loop": 0
+        }
     ]
 }
