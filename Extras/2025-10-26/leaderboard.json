@@ -56,7 +56,10 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 55,
+            "killed_by": [
+                null,
+                " EXPLOSION"
+            ],
             "loadout": [
                 {
                     "skin": 1,
@@ -70,30 +73,35 @@
             "mutations": [
                 13,
                 1,
-                "Double Vision"
+                25,
+                23,
+                "Garment Regenerator",
+                "condensedmeat",
+                "Confidence",
+                3
             ],
             "allies": [
                 {
                     "skin": 1,
                     "race": 6,
                     "alias": "Jaz-I-Lantern",
-                    "wep": 39,
+                    "wep": "explosive bow",
                     "color": 13281508,
-                    "bwep": 7
+                    "bwep": "gunhammer"
                 }
             ],
             "pizzas": 1,
-            "kills": 127,
-            "bwep": 7,
-            "hard": 5,
-            "subarea": 1,
-            "area": 102,
+            "kills": 284,
+            "bwep": "gunhammer",
+            "hard": 12,
+            "subarea": 3,
+            "area": 5,
             "name": "Jaz-I-Lantern",
             "crown": false,
             "skin": 1,
             "race": 6,
-            "time": 6096,
-            "wep": 39,
+            "time": 15889,
+            "wep": "explosive bow",
             "color": 13281508,
             "loop": 0
         }
