@@ -5,6 +5,7 @@
             "bwep": 111,
             "hard": 20,
             "subarea": 2,
+            "area": 1,
             "loadout": [
                 {
                     "skin": 1,
@@ -15,7 +16,6 @@
                     "alias": "Jaz-I-Lantern"
                 }
             ],
-            "area": 1,
             "allies": [
                 {
                     "skin": 1,
@@ -59,6 +59,7 @@
             "bwep": 111,
             "hard": 30,
             "subarea": 2,
+            "area": 5,
             "loadout": [
                 {
                     "skin": 0,
@@ -69,7 +70,6 @@
                     "alias": "SPC"
                 }
             ],
-            "area": 5,
             "allies": [
                 {
                     "skin": 0,
@@ -117,49 +117,11 @@
             ]
         },
         {
-            "kills": 116,
-            "bwep": 1,
-            "hard": 4,
-            "subarea": 1,
-            "area": 2,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 11,
-                    "color": 16737962,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "Lightspeed"
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 11,
-                    "color": 16737962,
-                    "wep": 7,
-                    "bwep": 1,
-                    "alias": "Lightspeed"
-                }
-            ],
-            "pizzas": 0,
-            "name": "Lightspeed",
-            "skin": 1,
-            "crown": false,
-            "race": 11,
-            "color": 16737962,
-            "time": 3567,
-            "wep": 7,
-            "ultras": [ ],
-            "loop": 0,
-            "killed_by": 55,
-            "mutations": [ ]
-        },
-        {
             "kills": 166,
             "bwep": 1,
             "hard": 7,
             "subarea": 2,
+            "area": 3,
             "loadout": [
                 {
                     "skin": 1,
@@ -170,7 +132,6 @@
                     "alias": "Lightspeed"
                 }
             ],
-            "area": 3,
             "allies": [
                 {
                     "skin": 1,
@@ -192,6 +153,48 @@
             "ultras": [ ],
             "loop": 0,
             "killed_by": 14,
+            "mutations": [ ]
+        },
+        {
+            "kills": 110,
+            "bwep": 7,
+            "hard": 4,
+            "subarea": 1,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 11,
+                    "color": 16737962,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Lightspeed"
+                }
+            ],
+            "area": 2,
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 11,
+                    "color": 16737962,
+                    "wep": "abris pistol",
+                    "bwep": 7,
+                    "alias": "Lightspeed"
+                }
+            ],
+            "pizzas": 0,
+            "name": "Lightspeed",
+            "skin": 1,
+            "crown": false,
+            "race": 11,
+            "color": 16737962,
+            "time": 3432,
+            "wep": "abris pistol",
+            "ultras": [ ],
+            "loop": 0,
+            "killed_by": [
+                null,
+                "small explosion"
+            ],
             "mutations": [ ]
         }
     ]
