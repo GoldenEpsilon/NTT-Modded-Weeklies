@@ -1,39 +1,23 @@
 {
     "scores": [
         {
-            "loadout": [
-                {
-                    "skin": 1,
-                    "alias": "Jaz-I-Lantern",
-                    "race": 6,
-                    "color": 13281508,
-                    "wep": "mw_ui_start",
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "alias": "Jaz-I-Lantern",
-                    "race": 6,
-                    "color": 13281508,
-                    "wep": 40,
-                    "bwep": 111
-                }
-            ],
-            "pizzas": 0,
-            "color": 13281508,
-            "kills": 704,
             "ultras": [
                 [
                     6,
                     1
                 ]
             ],
-            "bwep": 111,
-            "subarea": 2,
             "killed_by": 51,
-            "hard": 20,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "alias": "Jaz-I-Lantern",
+                    "wep": "mw_ui_start",
+                    "color": 13281508,
+                    "bwep": 0
+                }
+            ],
             "mutations": [
                 10,
                 13,
@@ -45,6 +29,21 @@
                 "Loner",
                 "Dynamic Calves"
             ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "alias": "Jaz-I-Lantern",
+                    "wep": 40,
+                    "color": 13281508,
+                    "bwep": 111
+                }
+            ],
+            "pizzas": 0,
+            "kills": 704,
+            "bwep": 111,
+            "subarea": 2,
+            "hard": 20,
             "area": 1,
             "name": "Jaz-I-Lantern",
             "skin": 1,
@@ -52,48 +51,50 @@
             "race": 6,
             "time": 27845,
             "wep": 40,
+            "color": 13281508,
             "loop": 1
         },
         {
+            "ultras": [ ],
+            "killed_by": 55,
             "loadout": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
                     "race": 6,
-                    "color": 13281508,
+                    "alias": "Jaz-I-Lantern",
                     "wep": "mw_ui_start",
+                    "color": 13281508,
                     "bwep": 0
                 }
+            ],
+            "mutations": [
+                13,
+                1,
+                "Double Vision"
             ],
             "allies": [
                 {
                     "skin": 1,
-                    "alias": "Jaz-I-Lantern",
                     "race": 6,
+                    "alias": "Jaz-I-Lantern",
+                    "wep": 39,
                     "color": 13281508,
-                    "wep": 7,
-                    "bwep": 39
+                    "bwep": 7
                 }
             ],
-            "pizzas": 0,
-            "color": 13281508,
-            "kills": 62,
-            "ultras": [ ],
-            "bwep": 39,
-            "killed_by": 0,
-            "hard": 3,
-            "subarea": 3,
-            "mutations": [
-                13,
-                1
-            ],
-            "area": 1,
+            "pizzas": 1,
+            "kills": 127,
+            "bwep": 7,
+            "hard": 5,
+            "subarea": 1,
+            "area": 102,
             "name": "Jaz-I-Lantern",
-            "skin": 1,
             "crown": false,
+            "skin": 1,
             "race": 6,
-            "time": 3347,
-            "wep": 7,
+            "time": 6096,
+            "wep": 39,
+            "color": 13281508,
             "loop": 0
         }
     ]
