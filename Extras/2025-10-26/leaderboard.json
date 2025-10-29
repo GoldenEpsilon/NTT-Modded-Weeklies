@@ -246,13 +246,13 @@
             ]
         },
         {
-            "kills": 159,
-            "bwep": 27,
-            "hard": 7,
-            "subarea": 2,
-            "area": 3,
+            "kills": 215,
+            "bwep": "wide slugger",
+            "hard": 11,
+            "subarea": 1,
+            "area": 5,
             "name": "Lightspeed",
-            "crown": false,
+            "crown": 8,
             "skin": 1,
             "loadout": [
                 {
@@ -270,22 +270,24 @@
                     "skin": 1,
                     "race": 11,
                     "color": 16737962,
-                    "wep": 30,
-                    "bwep": 27,
+                    "wep": "bouncer disc gun",
+                    "bwep": "wide slugger",
                     "alias": "Lightspeed"
                 }
             ],
             "color": 16737962,
             "pizzas": 1,
-            "time": 7758,
-            "wep": 30,
+            "time": 10790,
+            "wep": "bouncer disc gun",
             "ultras": [ ],
             "loop": 0,
-            "killed_by": 51,
+            "killed_by": 69,
             "mutations": [
                 13,
                 1,
-                17
+                17,
+                25,
+                23
             ]
         }
     ]
