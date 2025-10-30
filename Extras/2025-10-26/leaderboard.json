@@ -210,8 +210,8 @@
         },
         {
             "ultras": [ ],
-            "killed_by": -1,
-            "kills": 2,
+            "killed_by": 0,
+            "kills": 1,
             "mutations": [ ],
             "bwep": 0,
             "hard": 1,
@@ -219,14 +219,14 @@
             "area": 1,
             "name": "silentmelli",
             "crown": false,
-            "skin": 0,
-            "race": 6,
-            "time": 102,
-            "wep": 39,
+            "skin": 1,
+            "race": 4,
+            "time": 100,
+            "wep": 1,
             "loadout": [
                 {
-                    "skin": 0,
-                    "race": 6,
+                    "skin": 1,
+                    "race": 4,
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "alias": "silentmelli",
@@ -235,9 +235,9 @@
             ],
             "allies": [
                 {
-                    "skin": 0,
-                    "race": 6,
-                    "wep": 39,
+                    "skin": 1,
+                    "race": 4,
+                    "wep": 1,
                     "bwep": 0,
                     "alias": "silentmelli",
                     "color": 16736708
