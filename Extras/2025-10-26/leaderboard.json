@@ -210,26 +210,19 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 16,
-            "kills": 133,
-            "mutations": [
-                13,
-                1,
-                25,
-                23,
-                "concentration",
-                7
-            ],
-            "bwep": 27,
-            "hard": 6,
+            "killed_by": -1,
+            "kills": 2,
+            "mutations": [ ],
+            "bwep": 0,
+            "hard": 1,
             "subarea": 1,
-            "area": 3,
+            "area": 1,
             "name": "silentmelli",
             "crown": false,
             "skin": 0,
             "race": 6,
-            "time": 6360,
-            "wep": "abris pistol",
+            "time": 102,
+            "wep": 39,
             "loadout": [
                 {
                     "skin": 0,
@@ -244,14 +237,14 @@
                 {
                     "skin": 0,
                     "race": 6,
-                    "wep": "abris pistol",
-                    "bwep": 27,
+                    "wep": 39,
+                    "bwep": 0,
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
             "loop": 0,
-            "pizzas": 1,
+            "pizzas": 0,
             "color": 16736708
         }
     ]
