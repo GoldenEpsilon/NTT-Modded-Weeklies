@@ -221,26 +221,24 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 19,
-            "kills": 205,
-            "mutations": [
-                13,
-                1,
-                25,
-                23,
-                "concentration",
-                5
+            "killed_by": [
+                null,
+                "small explosion"
             ],
-            "bwep": "explosive bow",
-            "hard": 10,
-            "subarea": 1,
-            "area": 4,
+            "kills": 52,
+            "mutations": [
+                13
+            ],
+            "bwep": 1,
+            "hard": 3,
+            "subarea": 3,
+            "area": 1,
             "name": "silentmelli",
-            "crown": "outcasts",
+            "crown": false,
             "skin": 1,
             "race": 11,
-            "time": 12300,
-            "wep": 66,
+            "time": 2584,
+            "wep": "abris pistol",
             "loadout": [
                 {
                     "skin": 1,
@@ -255,14 +253,14 @@
                 {
                     "skin": 1,
                     "race": 11,
-                    "wep": 66,
-                    "bwep": "explosive bow",
+                    "wep": "abris pistol",
+                    "bwep": 1,
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
             "loop": 0,
-            "pizzas": 1,
+            "pizzas": 0,
             "color": 16736708
         }
     ]
