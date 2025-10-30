@@ -221,30 +221,30 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 17,
-            "kills": 186,
+            "killed_by": 19,
+            "kills": 205,
             "mutations": [
                 13,
-                3,
+                1,
                 25,
                 23,
                 "concentration",
-                7
+                5
             ],
-            "bwep": 38,
-            "hard": 8,
-            "subarea": 3,
-            "area": 3,
+            "bwep": "explosive bow",
+            "hard": 10,
+            "subarea": 1,
+            "area": 4,
             "name": "silentmelli",
-            "crown": false,
+            "crown": "outcasts",
             "skin": 1,
-            "race": 4,
-            "time": 8033,
+            "race": 11,
+            "time": 12300,
             "wep": 66,
             "loadout": [
                 {
                     "skin": 1,
-                    "race": 4,
+                    "race": 11,
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "alias": "silentmelli",
@@ -254,9 +254,9 @@
             "allies": [
                 {
                     "skin": 1,
-                    "race": 4,
+                    "race": 11,
                     "wep": 66,
-                    "bwep": 38,
+                    "bwep": "explosive bow",
                     "alias": "silentmelli",
                     "color": 16736708
                 }
