@@ -220,38 +220,27 @@
             "color": 16736708
         },
         {
-            "ultras": [
-                [
-                    4,
-                    2
-                ]
-            ],
-            "killed_by": 38,
-            "kills": 412,
+            "ultras": [ ],
+            "killed_by": 15,
+            "kills": 135,
             "mutations": [
-                11,
+                13,
                 1,
                 25,
                 23,
-                "concentration",
-                7,
-                "Confidence",
-                "Recurrent Neural Network",
-                "flamingpalms",
-                27,
                 "prismaticiris",
-                "Shell Cellulite"
+                "Confidence"
             ],
-            "bwep": "thundercrash",
-            "hard": 18,
+            "bwep": "abris pistol",
+            "hard": 6,
             "subarea": 1,
-            "area": 0,
+            "area": 3,
             "name": "silentmelli",
-            "crown": "outcasts",
+            "crown": false,
             "skin": 1,
             "race": 4,
-            "time": 25736,
-            "wep": 76,
+            "time": 4457,
+            "wep": "fire revolver",
             "loadout": [
                 {
                     "skin": 1,
@@ -266,13 +255,13 @@
                 {
                     "skin": 1,
                     "race": 4,
-                    "wep": 76,
-                    "bwep": "thundercrash",
+                    "wep": "fire revolver",
+                    "bwep": "abris pistol",
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
-            "loop": 1,
+            "loop": 0,
             "pizzas": 1,
             "color": 16736708
         }
