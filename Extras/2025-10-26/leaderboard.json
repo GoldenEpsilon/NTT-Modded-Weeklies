@@ -221,22 +221,26 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 4,
-            "kills": 86,
+            "killed_by": 17,
+            "kills": 186,
             "mutations": [
                 13,
-                3
+                3,
+                25,
+                23,
+                "concentration",
+                7
             ],
-            "bwep": 7,
-            "hard": 3,
+            "bwep": 38,
+            "hard": 8,
             "subarea": 3,
-            "area": 1,
+            "area": 3,
             "name": "silentmelli",
             "crown": false,
             "skin": 1,
             "race": 4,
-            "time": 2337,
-            "wep": 1,
+            "time": 8033,
+            "wep": 66,
             "loadout": [
                 {
                     "skin": 1,
@@ -251,14 +255,14 @@
                 {
                     "skin": 1,
                     "race": 4,
-                    "wep": 1,
-                    "bwep": 7,
+                    "wep": 66,
+                    "bwep": 38,
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
             "loop": 0,
-            "pizzas": 0,
+            "pizzas": 1,
             "color": 16736708
         }
     ]
