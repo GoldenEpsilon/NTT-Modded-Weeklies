@@ -210,19 +210,29 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 0,
-            "kills": 1,
-            "mutations": [ ],
-            "bwep": 0,
-            "hard": 1,
+            "killed_by": 28,
+            "kills": 329,
+            "mutations": [
+                13,
+                1,
+                25,
+                23,
+                "concentration",
+                7,
+                "Confidence",
+                "Recurrent Neural Network",
+                "Thick Head"
+            ],
+            "bwep": "duelist",
+            "hard": 13,
             "subarea": 1,
-            "area": 1,
+            "area": 6,
             "name": "silentmelli",
             "crown": false,
             "skin": 1,
             "race": 4,
-            "time": 100,
-            "wep": 1,
+            "time": 19903,
+            "wep": "sonic hammer",
             "loadout": [
                 {
                     "skin": 1,
@@ -237,14 +247,14 @@
                 {
                     "skin": 1,
                     "race": 4,
-                    "wep": 1,
-                    "bwep": 0,
+                    "wep": "sonic hammer",
+                    "bwep": "duelist",
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
             "loop": 0,
-            "pizzas": 0,
+            "pizzas": 1,
             "color": 16736708
         }
     ]
