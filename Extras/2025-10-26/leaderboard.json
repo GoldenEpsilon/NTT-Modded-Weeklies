@@ -102,60 +102,6 @@
         {
             "ultras": [
                 [
-                    9,
-                    1
-                ]
-            ],
-            "kills": 882,
-            "killed_by": 21,
-            "mutations": [
-                13,
-                1,
-                25,
-                23,
-                "prismaticiris",
-                "Confidence",
-                3,
-                27,
-                "Thick Head"
-            ],
-            "bwep": 0,
-            "subarea": 1,
-            "hard": 25,
-            "area": 4,
-            "name": "silentmelli",
-            "crown": false,
-            "skin": 0,
-            "race": 9,
-            "time": 36227,
-            "wep": "duelist",
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": 9,
-                    "wep": "mw_ui_start",
-                    "alias": "silentmelli",
-                    "bwep": 0,
-                    "color": 16736708
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": 9,
-                    "wep": "duelist",
-                    "alias": "silentmelli",
-                    "bwep": 0,
-                    "color": 16736708
-                }
-            ],
-            "loop": 1,
-            "pizzas": 1,
-            "color": 16736708
-        },
-        {
-            "ultras": [
-                [
                     11,
                     2
                 ]
@@ -254,6 +200,59 @@
             ],
             "loop": 1,
             "pizzas": 0,
+            "color": 16736708
+        },
+        {
+            "ultras": [
+                [
+                    9,
+                    1
+                ]
+            ],
+            "killed_by": 25,
+            "kills": 1116,
+            "mutations": [
+                13,
+                1,
+                17,
+                "concentration",
+                7,
+                "Confidence",
+                "Feed Forward Network",
+                "Thick Head"
+            ],
+            "bwep": 0,
+            "hard": 30,
+            "subarea": 3,
+            "area": 5,
+            "name": "silentmelli",
+            "crown": 7,
+            "skin": 0,
+            "race": 9,
+            "time": 39867,
+            "wep": 0,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": 9,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "silentmelli",
+                    "color": 16736708
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": 9,
+                    "wep": 0,
+                    "bwep": 0,
+                    "alias": "silentmelli",
+                    "color": 16736708
+                }
+            ],
+            "loop": 1,
+            "pizzas": 1,
             "color": 16736708
         }
     ]
