@@ -8,6 +8,7 @@
                 ]
             ],
             "killed_by": 51,
+            "kills": 704,
             "mutations": [
                 10,
                 13,
@@ -19,7 +20,6 @@
                 "Loner",
                 "Dynamic Calves"
             ],
-            "kills": 704,
             "bwep": 111,
             "subarea": 2,
             "hard": 20,
@@ -28,31 +28,31 @@
             "skin": 1,
             "crown": 1,
             "race": 6,
+            "time": 27845,
+            "wep": 40,
             "loadout": [
                 {
                     "skin": 1,
                     "race": 6,
-                    "alias": "Jaz-I-Lantern",
                     "wep": "mw_ui_start",
-                    "color": 13281508,
-                    "bwep": 0
+                    "alias": "Jaz-I-Lantern",
+                    "bwep": 0,
+                    "color": 13281508
                 }
             ],
-            "time": 27845,
             "allies": [
                 {
                     "skin": 1,
                     "race": 6,
-                    "alias": "Jaz-I-Lantern",
                     "wep": 40,
-                    "color": 13281508,
-                    "bwep": 111
+                    "alias": "Jaz-I-Lantern",
+                    "bwep": 111,
+                    "color": 13281508
                 }
             ],
-            "wep": 40,
+            "loop": 1,
             "pizzas": 0,
-            "color": 13281508,
-            "loop": 1
+            "color": 13281508
         },
         {
             "ultras": [
@@ -62,6 +62,7 @@
                 ]
             ],
             "killed_by": -1,
+            "kills": 1231,
             "mutations": [
                 "Reincarnation",
                 13,
@@ -81,7 +82,6 @@
                 "Rubber Rounds",
                 14
             ],
-            "kills": 1231,
             "bwep": 111,
             "subarea": 2,
             "hard": 30,
@@ -90,35 +90,36 @@
             "crown": 7,
             "skin": 0,
             "race": 9,
+            "time": 41753,
+            "wep": 24,
             "loadout": [
                 {
                     "skin": 0,
                     "race": 14,
-                    "alias": "SPC",
                     "wep": "mw_ui_start",
-                    "color": 4261187,
-                    "bwep": 0
+                    "alias": "SPC",
+                    "bwep": 0,
+                    "color": 4261187
                 }
             ],
-            "time": 41753,
             "allies": [
                 {
                     "skin": 0,
                     "race": 9,
-                    "alias": "SPC",
                     "wep": 24,
-                    "color": 4261187,
-                    "bwep": 111
+                    "alias": "SPC",
+                    "bwep": 111,
+                    "color": 4261187
                 }
             ],
-            "wep": 24,
+            "loop": 1,
             "pizzas": 1,
-            "color": 4261187,
-            "loop": 1
+            "color": 4261187
         },
         {
             "ultras": [ ],
             "killed_by": 69,
+            "kills": 215,
             "mutations": [
                 13,
                 1,
@@ -126,7 +127,6 @@
                 25,
                 23
             ],
-            "kills": 215,
             "bwep": "wide slugger",
             "hard": 11,
             "subarea": 1,
@@ -135,37 +135,38 @@
             "skin": 1,
             "crown": 8,
             "race": 11,
+            "time": 10790,
+            "wep": "bouncer disc gun",
             "loadout": [
                 {
                     "skin": 1,
                     "race": 11,
-                    "alias": "Lightspeed",
                     "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0
+                    "alias": "Lightspeed",
+                    "bwep": 0,
+                    "color": 16737962
                 }
             ],
-            "time": 10790,
             "allies": [
                 {
                     "skin": 1,
                     "race": 11,
-                    "alias": "Lightspeed",
                     "wep": "bouncer disc gun",
-                    "color": 16737962,
-                    "bwep": "wide slugger"
+                    "alias": "Lightspeed",
+                    "bwep": "wide slugger",
+                    "color": 16737962
                 }
             ],
-            "wep": "bouncer disc gun",
+            "loop": 0,
             "pizzas": 1,
-            "color": 16737962,
-            "loop": 0
+            "color": 16737962
         },
         {
             "ultras": [
                 27
             ],
             "killed_by": 5,
+            "kills": 589,
             "mutations": [
                 11,
                 1,
@@ -177,7 +178,6 @@
                 3,
                 "Dolla Dolla"
             ],
-            "kills": 589,
             "bwep": 119,
             "hard": 20,
             "subarea": 2,
@@ -187,14 +187,15 @@
             "skin": 0,
             "race": 6,
             "time": 37806,
+            "wep": "sonic hammer",
             "loadout": [
                 {
                     "skin": 0,
                     "race": 6,
                     "wep": "mw_ui_start",
                     "alias": "silentmelli",
-                    "color": 16736708,
-                    "bwep": 0
+                    "bwep": 0,
+                    "color": 16736708
                 }
             ],
             "allies": [
@@ -203,14 +204,52 @@
                     "race": 6,
                     "wep": "sonic hammer",
                     "alias": "silentmelli",
-                    "color": 16736708,
-                    "bwep": 119
+                    "bwep": 119,
+                    "color": 16736708
                 }
             ],
-            "wep": "sonic hammer",
+            "loop": 1,
             "pizzas": 1,
-            "color": 16736708,
-            "loop": 1
+            "color": 16736708
+        },
+        {
+            "ultras": [ ],
+            "killed_by": 55,
+            "kills": 9,
+            "mutations": [ ],
+            "bwep": 39,
+            "hard": 1,
+            "subarea": 1,
+            "area": 1,
+            "name": "silentmelli",
+            "crown": false,
+            "skin": 0,
+            "race": 6,
+            "time": 468,
+            "wep": 7,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": 6,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "silentmelli",
+                    "color": 16736708
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": 6,
+                    "wep": 7,
+                    "bwep": 39,
+                    "alias": "silentmelli",
+                    "color": 16736708
+                }
+            ],
+            "loop": 0,
+            "pizzas": 0,
+            "color": 16736708
         }
     ]
 }
