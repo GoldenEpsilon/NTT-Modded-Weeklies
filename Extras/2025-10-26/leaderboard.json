@@ -220,29 +220,39 @@
             "color": 16736708
         },
         {
-            "ultras": [ ],
-            "killed_by": [
-                null,
-                "small explosion"
+            "ultras": [
+                [
+                    9,
+                    1
+                ]
             ],
-            "kills": 52,
+            "killed_by": 21,
+            "kills": 882,
             "mutations": [
-                13
+                13,
+                1,
+                25,
+                23,
+                "prismaticiris",
+                "Confidence",
+                3,
+                27,
+                "Thick Head"
             ],
-            "bwep": 1,
-            "hard": 3,
-            "subarea": 3,
-            "area": 1,
+            "bwep": 0,
+            "hard": 25,
+            "subarea": 1,
+            "area": 4,
             "name": "silentmelli",
             "crown": false,
-            "skin": 1,
-            "race": 11,
-            "time": 2584,
-            "wep": "abris pistol",
+            "skin": 0,
+            "race": 9,
+            "time": 36227,
+            "wep": "duelist",
             "loadout": [
                 {
-                    "skin": 1,
-                    "race": 11,
+                    "skin": 0,
+                    "race": 9,
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "alias": "silentmelli",
@@ -251,16 +261,16 @@
             ],
             "allies": [
                 {
-                    "skin": 1,
-                    "race": 11,
-                    "wep": "abris pistol",
-                    "bwep": 1,
+                    "skin": 0,
+                    "race": 9,
+                    "wep": "duelist",
+                    "bwep": 0,
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
-            "loop": 0,
-            "pizzas": 0,
+            "loop": 1,
+            "pizzas": 1,
             "color": 16736708
         }
     ]
