@@ -210,26 +210,32 @@
         },
         {
             "ultras": [ ],
-            "killed_by": -1,
-            "kills": 50,
+            "killed_by": 78,
+            "kills": 900,
             "mutations": [
                 13,
-                3
+                1,
+                25,
+                23,
+                7,
+                "Confidence",
+                "Echo State Network",
+                "Thick Head"
             ],
-            "bwep": 7,
-            "hard": 3,
+            "bwep": "thundercrash",
+            "hard": 26,
             "subarea": 3,
-            "area": 1,
+            "area": 3,
             "name": "silentmelli",
-            "crown": false,
+            "crown": "outcasts",
             "skin": 1,
-            "race": 4,
-            "time": 1853,
-            "wep": 1,
+            "race": 11,
+            "time": 42051,
+            "wep": "impact fist",
             "loadout": [
                 {
                     "skin": 1,
-                    "race": 4,
+                    "race": 11,
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "alias": "silentmelli",
@@ -239,14 +245,14 @@
             "allies": [
                 {
                     "skin": 1,
-                    "race": 4,
-                    "wep": 1,
-                    "bwep": 7,
+                    "race": 11,
+                    "wep": "impact fist",
+                    "bwep": "thundercrash",
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
-            "loop": 0,
+            "loop": 1,
             "pizzas": 0,
             "color": 16736708
         }
