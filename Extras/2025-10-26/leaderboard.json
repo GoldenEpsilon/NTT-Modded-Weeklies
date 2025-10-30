@@ -214,19 +214,25 @@
         },
         {
             "ultras": [ ],
-            "killed_by": 55,
-            "kills": 9,
-            "mutations": [ ],
+            "killed_by": [
+                null,
+                "small explosion"
+            ],
+            "kills": 50,
+            "mutations": [
+                "Double Vision",
+                "Muscle Memory"
+            ],
             "bwep": 39,
-            "hard": 1,
-            "subarea": 1,
+            "hard": 3,
+            "subarea": 3,
             "area": 1,
             "name": "silentmelli",
             "crown": false,
             "skin": 0,
             "race": 6,
-            "time": 468,
-            "wep": 7,
+            "time": 1485,
+            "wep": "abris pistol",
             "loadout": [
                 {
                     "skin": 0,
@@ -241,7 +247,7 @@
                 {
                     "skin": 0,
                     "race": 6,
-                    "wep": 7,
+                    "wep": "abris pistol",
                     "bwep": 39,
                     "alias": "silentmelli",
                     "color": 16736708
