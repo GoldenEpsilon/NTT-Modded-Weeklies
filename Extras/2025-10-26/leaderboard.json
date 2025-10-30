@@ -214,25 +214,25 @@
         },
         {
             "ultras": [ ],
-            "killed_by": [
-                null,
-                "small explosion"
-            ],
-            "kills": 50,
+            "killed_by": 57,
+            "kills": 169,
             "mutations": [
                 "Double Vision",
-                "Muscle Memory"
+                "Muscle Memory",
+                25,
+                23,
+                "prismaticiris"
             ],
-            "bwep": 39,
-            "hard": 3,
-            "subarea": 3,
-            "area": 1,
+            "bwep": "abris pistol",
+            "hard": 7,
+            "subarea": 2,
+            "area": 3,
             "name": "silentmelli",
             "crown": false,
             "skin": 0,
             "race": 6,
-            "time": 1485,
-            "wep": "abris pistol",
+            "time": 7424,
+            "wep": "golden thunder revolver",
             "loadout": [
                 {
                     "skin": 0,
@@ -247,14 +247,14 @@
                 {
                     "skin": 0,
                     "race": 6,
-                    "wep": "abris pistol",
-                    "bwep": 39,
+                    "wep": "golden thunder revolver",
+                    "bwep": "abris pistol",
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
             "loop": 0,
-            "pizzas": 0,
+            "pizzas": 1,
             "color": 16736708
         }
     ]
