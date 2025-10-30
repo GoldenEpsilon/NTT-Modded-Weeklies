@@ -216,17 +216,17 @@
             ]
         },
         {
-            "kills": 158,
-            "bwep": 1,
-            "hard": 7,
-            "subarea": 2,
+            "kills": 4914,
+            "bwep": "andromeda launcher",
+            "hard": 57,
+            "subarea": 1,
             "area": 3,
             "name": "SPC",
-            "crown": false,
+            "crown": 7,
             "skin": 0,
             "race": 11,
             "color": 4261187,
-            "time": 5463,
+            "time": 52352,
             "loadout": [
                 {
                     "skin": 0,
@@ -243,24 +243,31 @@
                     "alias": "SPC",
                     "race": 11,
                     "color": 4261187,
-                    "wep": 38,
-                    "bwep": 1
+                    "wep": 24,
+                    "bwep": "andromeda launcher"
                 }
             ],
-            "wep": 38,
+            "wep": 24,
             "pizzas": 1,
-            "ultras": [ ],
-            "loop": 0,
-            "killed_by": [
-                null,
-                "GREED"
+            "ultras": [
+                [
+                    11,
+                    2
+                ]
             ],
+            "loop": 3,
+            "killed_by": 16,
             "mutations": [
                 11,
+                1,
                 3,
-                17,
-                "Garment Regenerator",
-                7
+                25,
+                23,
+                "Confidence",
+                "Recurrent Neural Network",
+                "Thick Head",
+                27,
+                17
             ]
         }
     ]
