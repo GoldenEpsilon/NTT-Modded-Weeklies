@@ -213,28 +213,39 @@
             "color": 16736708
         },
         {
-            "ultras": [ ],
-            "killed_by": 19,
-            "kills": 199,
+            "ultras": [
+                [
+                    4,
+                    2
+                ]
+            ],
+            "killed_by": 89,
+            "kills": 702,
             "mutations": [
                 13,
                 1,
                 25,
                 23,
-                "concentration",
-                7,
-                "Confidence"
+                "prismaticiris",
+                "Confidence",
+                3,
+                27,
+                "Thick Head",
+                17,
+                "Double Vision",
+                "Loner",
+                "Iron Skin"
             ],
-            "bwep": 66,
-            "hard": 9,
-            "subarea": 1,
-            "area": 4,
+            "bwep": "fire gunhammer",
+            "hard": 21,
+            "subarea": 3,
+            "area": 1,
             "name": "silentmelli",
-            "crown": false,
+            "crown": 7,
             "skin": 1,
             "race": 4,
-            "time": 9797,
-            "wep": "sonic hammer",
+            "time": 34227,
+            "wep": "duelist",
             "loadout": [
                 {
                     "skin": 1,
@@ -249,13 +260,13 @@
                 {
                     "skin": 1,
                     "race": 4,
-                    "wep": "sonic hammer",
-                    "bwep": 66,
+                    "wep": "duelist",
+                    "bwep": "fire gunhammer",
                     "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
-            "loop": 0,
+            "loop": 1,
             "pizzas": 1,
             "color": 16736708
         }
