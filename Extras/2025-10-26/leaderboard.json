@@ -1,13 +1,13 @@
 {
     "scores": [
         {
+            "pizzas": 0,
             "ultras": [
                 [
                     6,
                     1
                 ]
             ],
-            "kills": 704,
             "killed_by": 51,
             "mutations": [
                 10,
@@ -20,6 +20,7 @@
                 "Loner",
                 "Dynamic Calves"
             ],
+            "kills": 704,
             "bwep": 111,
             "subarea": 2,
             "hard": 20,
@@ -30,12 +31,14 @@
             "race": 6,
             "time": 27845,
             "wep": 40,
+            "loop": 1,
+            "color": 13281508,
             "loadout": [
                 {
                     "skin": 1,
                     "race": 6,
-                    "wep": "mw_ui_start",
                     "alias": "Jaz-I-Lantern",
+                    "wep": "mw_ui_start",
                     "bwep": 0,
                     "color": 13281508
                 }
@@ -44,19 +47,16 @@
                 {
                     "skin": 1,
                     "race": 6,
-                    "wep": 40,
                     "alias": "Jaz-I-Lantern",
+                    "wep": 40,
                     "bwep": 111,
                     "color": 13281508
                 }
-            ],
-            "loop": 1,
-            "pizzas": 0,
-            "color": 13281508
+            ]
         },
         {
+            "pizzas": 1,
             "ultras": [ ],
-            "kills": 215,
             "killed_by": 69,
             "mutations": [
                 13,
@@ -65,6 +65,7 @@
                 25,
                 23
             ],
+            "kills": 215,
             "bwep": "wide slugger",
             "hard": 11,
             "subarea": 1,
@@ -75,12 +76,14 @@
             "race": 11,
             "time": 10790,
             "wep": "bouncer disc gun",
+            "loop": 0,
+            "color": 16737962,
             "loadout": [
                 {
                     "skin": 1,
                     "race": 11,
-                    "wep": "mw_ui_start",
                     "alias": "Lightspeed",
+                    "wep": "mw_ui_start",
                     "bwep": 0,
                     "color": 16737962
                 }
@@ -89,24 +92,21 @@
                 {
                     "skin": 1,
                     "race": 11,
-                    "wep": "bouncer disc gun",
                     "alias": "Lightspeed",
+                    "wep": "bouncer disc gun",
                     "bwep": "wide slugger",
                     "color": 16737962
                 }
-            ],
-            "loop": 0,
-            "pizzas": 1,
-            "color": 16737962
+            ]
         },
         {
+            "pizzas": 1,
             "ultras": [
                 [
                     11,
                     2
                 ]
             ],
-            "kills": 4914,
             "killed_by": 16,
             "mutations": [
                 11,
@@ -120,6 +120,7 @@
                 27,
                 17
             ],
+            "kills": 4914,
             "bwep": "andromeda launcher",
             "hard": 57,
             "subarea": 1,
@@ -130,12 +131,14 @@
             "race": 11,
             "time": 52352,
             "wep": 24,
+            "loop": 3,
+            "color": 4261187,
             "loadout": [
                 {
                     "skin": 0,
                     "race": 11,
-                    "wep": "mw_ui_start",
                     "alias": "SPC",
+                    "wep": "mw_ui_start",
                     "bwep": 0,
                     "color": 4261187
                 }
@@ -144,65 +147,15 @@
                 {
                     "skin": 0,
                     "race": 11,
-                    "wep": 24,
                     "alias": "SPC",
+                    "wep": 24,
                     "bwep": "andromeda launcher",
                     "color": 4261187
                 }
-            ],
-            "loop": 3,
+            ]
+        },
+        {
             "pizzas": 1,
-            "color": 4261187
-        },
-        {
-            "ultras": [ ],
-            "killed_by": 78,
-            "kills": 900,
-            "mutations": [
-                13,
-                1,
-                25,
-                23,
-                7,
-                "Confidence",
-                "Echo State Network",
-                "Thick Head"
-            ],
-            "bwep": "thundercrash",
-            "hard": 26,
-            "subarea": 3,
-            "area": 3,
-            "name": "silentmelli",
-            "crown": "outcasts",
-            "skin": 1,
-            "race": 11,
-            "time": 42051,
-            "wep": "impact fist",
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 11,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "silentmelli",
-                    "color": 16736708
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 11,
-                    "wep": "impact fist",
-                    "bwep": "thundercrash",
-                    "alias": "silentmelli",
-                    "color": 16736708
-                }
-            ],
-            "loop": 1,
-            "pizzas": 0,
-            "color": 16736708
-        },
-        {
             "ultras": [
                 [
                     9,
@@ -210,7 +163,6 @@
                 ]
             ],
             "killed_by": 25,
-            "kills": 1116,
             "mutations": [
                 13,
                 1,
@@ -221,6 +173,7 @@
                 "Feed Forward Network",
                 "Thick Head"
             ],
+            "kills": 1116,
             "bwep": 0,
             "hard": 30,
             "subarea": 3,
@@ -231,13 +184,15 @@
             "race": 9,
             "time": 39867,
             "wep": 0,
+            "loop": 1,
+            "color": 16736708,
             "loadout": [
                 {
                     "skin": 0,
                     "race": 9,
+                    "alias": "silentmelli",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "silentmelli",
                     "color": 16736708
                 }
             ],
@@ -245,15 +200,65 @@
                 {
                     "skin": 0,
                     "race": 9,
+                    "alias": "silentmelli",
                     "wep": 0,
                     "bwep": 0,
+                    "color": 16736708
+                }
+            ]
+        },
+        {
+            "pizzas": 1,
+            "ultras": [
+                [
+                    9,
+                    1
+                ]
+            ],
+            "killed_by": 5,
+            "mutations": [
+                13,
+                1,
+                "Double Vision",
+                "concentration",
+                7,
+                "Confidence",
+                3,
+                27
+            ],
+            "kills": 1633,
+            "bwep": "duelist",
+            "hard": 39,
+            "subarea": 3,
+            "area": 1,
+            "name": "silentmelli",
+            "crown": 7,
+            "skin": 0,
+            "race": 9,
+            "time": 74064,
+            "wep": "impact fist",
+            "loop": 2,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": 9,
                     "alias": "silentmelli",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
                     "color": 16736708
                 }
             ],
-            "loop": 1,
-            "pizzas": 1,
-            "color": 16736708
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": 9,
+                    "alias": "silentmelli",
+                    "wep": "impact fist",
+                    "bwep": "duelist",
+                    "color": 16736708
+                }
+            ]
         }
     ]
 }
