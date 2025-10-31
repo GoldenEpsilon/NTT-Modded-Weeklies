@@ -162,59 +162,6 @@
                     1
                 ]
             ],
-            "killed_by": 25,
-            "mutations": [
-                13,
-                1,
-                17,
-                "concentration",
-                7,
-                "Confidence",
-                "Feed Forward Network",
-                "Thick Head"
-            ],
-            "kills": 1116,
-            "bwep": 0,
-            "hard": 30,
-            "subarea": 3,
-            "area": 5,
-            "name": "silentmelli",
-            "crown": 7,
-            "skin": 0,
-            "race": 9,
-            "time": 39867,
-            "wep": 0,
-            "loop": 1,
-            "color": 16736708,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": 9,
-                    "alias": "silentmelli",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "color": 16736708
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": 9,
-                    "alias": "silentmelli",
-                    "wep": 0,
-                    "bwep": 0,
-                    "color": 16736708
-                }
-            ]
-        },
-        {
-            "pizzas": 1,
-            "ultras": [
-                [
-                    9,
-                    1
-                ]
-            ],
             "killed_by": 5,
             "mutations": [
                 13,
@@ -256,6 +203,53 @@
                     "alias": "silentmelli",
                     "wep": "impact fist",
                     "bwep": "duelist",
+                    "color": 16736708
+                }
+            ]
+        },
+        {
+            "pizzas": 1,
+            "ultras": [ ],
+            "killed_by": 21,
+            "mutations": [
+                13,
+                1,
+                25,
+                23,
+                "concentration",
+                7,
+                "Confidence"
+            ],
+            "kills": 213,
+            "bwep": 40,
+            "hard": 9,
+            "subarea": 1,
+            "area": 4,
+            "name": "silentmelli",
+            "crown": false,
+            "skin": 0,
+            "race": 6,
+            "time": 9765,
+            "wep": "sonic hammer",
+            "loop": 0,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": 6,
+                    "alias": "silentmelli",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": 6,
+                    "alias": "silentmelli",
+                    "wep": "sonic hammer",
+                    "bwep": 40,
                     "color": 16736708
                 }
             ]
