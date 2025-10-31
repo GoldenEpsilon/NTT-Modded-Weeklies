@@ -209,8 +209,10 @@
         },
         {
             "pizzas": 1,
-            "ultras": [ ],
-            "killed_by": 21,
+            "ultras": [
+                "Recurrent Neural Network"
+            ],
+            "killed_by": 0,
             "mutations": [
                 13,
                 1,
@@ -218,20 +220,22 @@
                 23,
                 "concentration",
                 7,
-                "Confidence"
+                "Confidence",
+                27,
+                "Dolla Dolla"
             ],
-            "kills": 213,
-            "bwep": 40,
-            "hard": 9,
-            "subarea": 1,
-            "area": 4,
+            "kills": 619,
+            "bwep": "thundercrash",
+            "hard": 23,
+            "subarea": 3,
+            "area": 1,
             "name": "silentmelli",
-            "crown": false,
+            "crown": 9,
             "skin": 0,
             "race": 6,
-            "time": 9765,
-            "wep": "sonic hammer",
-            "loop": 0,
+            "time": 31304,
+            "wep": "rapier",
+            "loop": 1,
             "color": 16736708,
             "loadout": [
                 {
@@ -248,8 +252,8 @@
                     "skin": 0,
                     "race": 6,
                     "alias": "silentmelli",
-                    "wep": "sonic hammer",
-                    "bwep": 40,
+                    "wep": "rapier",
+                    "bwep": "thundercrash",
                     "color": 16736708
                 }
             ]
