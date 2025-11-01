@@ -1,166 +1,41 @@
 {
     "scores": [
         {
-            "kills": 102,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": "Printer",
-                    "alias": "littlemanstann",
-                    "wep": "mw_ui_start",
-                    "color": 6714618,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": "Printer",
-                    "alias": "littlemanstann",
-                    "wep": 50,
-                    "color": 6714618,
-                    "bwep": 0
-                }
-            ],
-            "pizzas": 0,
-            "color": 6714618,
-            "bwep": 0,
-            "hard": 5,
-            "subarea": 1,
-            "area": 3,
-            "ultras": [ ],
-            "killed_by": 59,
-            "mutations": [
-                25,
-                "powderedgums",
-                "excitedneurons",
-                23,
-                5
-            ],
+            "kills": 290,
+            "bwep": 11,
+            "subarea": 3,
+            "hard": 11,
+            "area": 5,
             "name": "littlemanstann",
             "skin": 0,
             "crown": false,
-            "race": "Printer",
-            "time": 8446,
-            "wep": 50,
-            "loop": 0
-        },
-        {
-            "kills": 111,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": "scales",
-                    "alias": "littlemanstann",
-                    "wep": "mw_ui_start",
-                    "color": 6714618,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": "scales",
-                    "alias": "littlemanstann",
-                    "wep": "mateba",
-                    "color": 6714618,
-                    "bwep": "va_lok_pistol"
-                }
-            ],
-            "pizzas": 0,
-            "color": 6714618,
-            "bwep": "va_lok_pistol",
-            "hard": 5,
-            "subarea": 1,
-            "area": 3,
-            "ultras": [ ],
-            "killed_by": 15,
-            "mutations": [
-                "Rocket Casings",
-                22,
-                "Confidence"
-            ],
-            "name": "littlemanstann",
-            "skin": 1,
-            "crown": false,
             "race": "scales",
-            "time": 6625.5,
-            "wep": "mateba",
-            "loop": 0
-        },
-        {
-            "kills": 122,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": "acrobat",
-                    "alias": "littlemanstann",
-                    "wep": "mw_ui_start",
-                    "color": 6714618,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": "acrobat",
-                    "alias": "littlemanstann",
-                    "wep": "Acro-Bat",
-                    "color": 6714618,
-                    "bwep": 17
-                }
-            ],
-            "pizzas": 0,
             "color": 6714618,
-            "bwep": 17,
-            "hard": 3,
-            "subarea": 3,
-            "area": 1,
-            "ultras": [ ],
-            "killed_by": 4,
-            "mutations": [
-                "Slim Pickings",
-                "Shivering Spine",
-                "Groupthink",
-                11
-            ],
-            "name": "littlemanstann",
-            "skin": 1,
-            "crown": false,
-            "race": "acrobat",
-            "time": 3409.5,
-            "wep": "Acro-Bat",
-            "loop": 0
-        },
-        {
-            "kills": 290,
             "loadout": [
                 {
                     "skin": 0,
                     "race": "scales",
-                    "alias": "littlemanstann",
-                    "wep": "mw_ui_start",
                     "color": 6714618,
-                    "bwep": 0
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "littlemanstann"
                 }
             ],
+            "time": 15564,
             "allies": [
                 {
                     "skin": 0,
                     "race": "scales",
-                    "alias": "littlemanstann",
+                    "color": 6714618,
                     "wep": "va_martial_rapier",
-                    "color": 6714618,
-                    "bwep": 11
+                    "bwep": 11,
+                    "alias": "littlemanstann"
                 }
             ],
+            "wep": "va_martial_rapier",
             "pizzas": 0,
-            "color": 6714618,
-            "bwep": 11,
-            "hard": 11,
-            "subarea": 3,
-            "area": 5,
             "ultras": [ ],
+            "loop": 0,
             "killed_by": 98,
             "mutations": [
                 14,
@@ -169,14 +44,46 @@
                 10,
                 "Double Vision",
                 13
-            ],
-            "name": "littlemanstann",
-            "skin": 0,
+            ]
+        },
+        {
+            "kills": 16,
+            "bwep": 0,
+            "hard": 1,
+            "subarea": 1,
+            "area": 1,
+            "name": "The_Hell_Lord",
             "crown": false,
-            "race": "scales",
-            "time": 15564,
-            "wep": "va_martial_rapier",
-            "loop": 0
+            "skin": 1,
+            "race": 4,
+            "color": 255,
+            "time": 977,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 4,
+                    "color": 255,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "The_Hell_Lord"
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 4,
+                    "color": 255,
+                    "wep": 1,
+                    "bwep": 0,
+                    "alias": "The_Hell_Lord"
+                }
+            ],
+            "wep": 1,
+            "pizzas": 0,
+            "ultras": [ ],
+            "loop": 0,
+            "killed_by": -1,
+            "mutations": [ ]
         }
     ]
 }
