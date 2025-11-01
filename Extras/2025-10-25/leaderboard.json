@@ -1,6 +1,38 @@
 {
     "scores": [
         {
+            "kills": 704,
+            "bwep": 111,
+            "hard": 20,
+            "subarea": 2,
+            "area": 1,
+            "name": "Jaz-I-Lantern",
+            "skin": 1,
+            "crown": 1,
+            "race": 6,
+            "color": 13281508,
+            "time": 27845,
+            "wep": 40,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "color": 13281508,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Jaz-I-Lantern"
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "color": 13281508,
+                    "wep": 40,
+                    "bwep": 111,
+                    "alias": "Jaz-I-Lantern"
+                }
+            ],
             "pizzas": 0,
             "ultras": [
                 [
@@ -8,6 +40,7 @@
                     1
                 ]
             ],
+            "loop": 1,
             "killed_by": 51,
             "mutations": [
                 10,
@@ -19,44 +52,44 @@
                 "Sadism",
                 "Loner",
                 "Dynamic Calves"
-            ],
-            "kills": 704,
-            "bwep": 111,
-            "subarea": 2,
-            "hard": 20,
-            "area": 1,
-            "name": "Jaz-I-Lantern",
+            ]
+        },
+        {
+            "kills": 215,
+            "bwep": "wide slugger",
+            "subarea": 1,
+            "hard": 11,
+            "area": 5,
+            "name": "Lightspeed",
             "skin": 1,
-            "crown": 1,
-            "race": 6,
-            "time": 27845,
-            "wep": 40,
-            "loop": 1,
-            "color": 13281508,
+            "crown": 8,
+            "race": 11,
+            "color": 16737962,
+            "time": 10790,
+            "wep": "bouncer disc gun",
             "loadout": [
                 {
                     "skin": 1,
-                    "race": 6,
-                    "alias": "Jaz-I-Lantern",
+                    "race": 11,
+                    "color": 16737962,
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "color": 13281508
+                    "alias": "Lightspeed"
                 }
             ],
             "allies": [
                 {
                     "skin": 1,
-                    "race": 6,
-                    "alias": "Jaz-I-Lantern",
-                    "wep": 40,
-                    "bwep": 111,
-                    "color": 13281508
+                    "race": 11,
+                    "color": 16737962,
+                    "wep": "bouncer disc gun",
+                    "bwep": "wide slugger",
+                    "alias": "Lightspeed"
                 }
-            ]
-        },
-        {
+            ],
             "pizzas": 1,
             "ultras": [ ],
+            "loop": 0,
             "killed_by": 69,
             "mutations": [
                 13,
@@ -64,42 +97,41 @@
                 17,
                 25,
                 23
-            ],
-            "kills": 215,
-            "bwep": "wide slugger",
-            "hard": 11,
+            ]
+        },
+        {
+            "kills": 4914,
+            "bwep": "andromeda launcher",
             "subarea": 1,
-            "area": 5,
-            "name": "Lightspeed",
-            "skin": 1,
-            "crown": 8,
+            "hard": 57,
+            "area": 3,
+            "name": "SPC",
+            "crown": 7,
+            "skin": 0,
             "race": 11,
-            "time": 10790,
-            "wep": "bouncer disc gun",
-            "loop": 0,
-            "color": 16737962,
+            "color": 4261187,
+            "time": 52352,
+            "wep": 24,
             "loadout": [
                 {
-                    "skin": 1,
+                    "skin": 0,
                     "race": 11,
-                    "alias": "Lightspeed",
+                    "color": 4261187,
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "color": 16737962
+                    "alias": "SPC"
                 }
             ],
             "allies": [
                 {
-                    "skin": 1,
+                    "skin": 0,
                     "race": 11,
-                    "alias": "Lightspeed",
-                    "wep": "bouncer disc gun",
-                    "bwep": "wide slugger",
-                    "color": 16737962
+                    "color": 4261187,
+                    "wep": 24,
+                    "bwep": "andromeda launcher",
+                    "alias": "SPC"
                 }
-            ]
-        },
-        {
+            ],
             "pizzas": 1,
             "ultras": [
                 [
@@ -107,6 +139,7 @@
                     2
                 ]
             ],
+            "loop": 3,
             "killed_by": 16,
             "mutations": [
                 11,
@@ -119,42 +152,41 @@
                 "Thick Head",
                 27,
                 17
-            ],
-            "kills": 4914,
-            "bwep": "andromeda launcher",
-            "hard": 57,
-            "subarea": 1,
-            "area": 3,
-            "name": "SPC",
+            ]
+        },
+        {
+            "kills": 1633,
+            "bwep": "duelist",
+            "subarea": 3,
+            "hard": 39,
+            "area": 1,
+            "name": "silentmelli",
             "crown": 7,
             "skin": 0,
-            "race": 11,
-            "time": 52352,
-            "wep": 24,
-            "loop": 3,
-            "color": 4261187,
+            "race": 9,
+            "color": 16736708,
+            "time": 74064,
+            "wep": "impact fist",
             "loadout": [
                 {
                     "skin": 0,
-                    "race": 11,
-                    "alias": "SPC",
+                    "race": 9,
+                    "color": 16736708,
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "color": 4261187
+                    "alias": "silentmelli"
                 }
             ],
             "allies": [
                 {
                     "skin": 0,
-                    "race": 11,
-                    "alias": "SPC",
-                    "wep": 24,
-                    "bwep": "andromeda launcher",
-                    "color": 4261187
+                    "race": 9,
+                    "color": 16736708,
+                    "wep": "impact fist",
+                    "bwep": "duelist",
+                    "alias": "silentmelli"
                 }
-            ]
-        },
-        {
+            ],
             "pizzas": 1,
             "ultras": [
                 [
@@ -162,6 +194,7 @@
                     1
                 ]
             ],
+            "loop": 2,
             "killed_by": 5,
             "mutations": [
                 13,
@@ -172,90 +205,60 @@
                 "Confidence",
                 3,
                 27
-            ],
-            "kills": 1633,
-            "bwep": "duelist",
-            "hard": 39,
-            "subarea": 3,
-            "area": 1,
-            "name": "silentmelli",
-            "crown": 7,
-            "skin": 0,
-            "race": 9,
-            "time": 74064,
-            "wep": "impact fist",
-            "loop": 2,
-            "color": 16736708,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": 9,
-                    "alias": "silentmelli",
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "color": 16736708
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": 9,
-                    "alias": "silentmelli",
-                    "wep": "impact fist",
-                    "bwep": "duelist",
-                    "color": 16736708
-                }
             ]
         },
         {
-            "pizzas": 1,
-            "ultras": [
-                "Recurrent Neural Network"
-            ],
-            "killed_by": 0,
-            "mutations": [
-                13,
-                1,
-                25,
-                23,
-                "concentration",
-                7,
-                "Confidence",
-                27,
-                "Dolla Dolla"
-            ],
-            "kills": 619,
-            "bwep": "thundercrash",
+            "kills": 626,
+            "bwep": "vector shotgun",
             "hard": 23,
             "subarea": 3,
             "area": 1,
             "name": "silentmelli",
-            "crown": 9,
+            "crown": 5,
             "skin": 0,
             "race": 6,
-            "time": 31304,
-            "wep": "rapier",
-            "loop": 1,
             "color": 16736708,
+            "time": 40570,
             "loadout": [
                 {
                     "skin": 0,
                     "race": 6,
-                    "alias": "silentmelli",
+                    "color": 16736708,
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "color": 16736708
+                    "alias": "silentmelli"
                 }
             ],
+            "wep": 119,
             "allies": [
                 {
                     "skin": 0,
                     "race": 6,
-                    "alias": "silentmelli",
-                    "wep": "rapier",
-                    "bwep": "thundercrash",
-                    "color": 16736708
+                    "color": 16736708,
+                    "wep": 119,
+                    "bwep": "vector shotgun",
+                    "alias": "silentmelli"
                 }
+            ],
+            "pizzas": 1,
+            "ultras": [
+                "Cruelty-Free Veganlust"
+            ],
+            "loop": 1,
+            "killed_by": 55,
+            "mutations": [
+                13,
+                3,
+                25,
+                23,
+                1,
+                "condensedmeat",
+                "Sadism",
+                27,
+                "Thick Head",
+                "Slim Pickings",
+                "Iron Skin",
+                "Dolla Dolla"
             ]
         }
     ]
