@@ -849,11 +849,10 @@ while(day > 365 + isLeapYear(year)){
     day -= 365 + isLeapYear(year);
 }
 var month = 1;
-while(day >= daysInMonth(month, year)){
+while(day > daysInMonth(month, year)){
     day -= daysInMonth(month, year);
     month++;
 }
-day += 1;
 /*trace("Unix time at Yellow's website:", unixTime);
 trace("Days since Unix Epoch:", unixDays);
 trace("current year?:", year);
