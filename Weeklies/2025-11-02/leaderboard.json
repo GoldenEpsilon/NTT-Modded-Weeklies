@@ -84,6 +84,59 @@
             "loop": 0,
             "killed_by": -1,
             "mutations": [ ]
+        },
+        {
+            "kills": 1035,
+            "bwep": "va_marksman_rifle",
+            "hard": 26,
+            "subarea": 1,
+            "area": 4,
+            "name": "littlemanstann",
+            "crown": 1,
+            "skin": 0,
+            "race": "scales",
+            "color": 6714618,
+            "time": 38480,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "color": 6714618,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "littlemanstann"
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "scales",
+                    "color": 6714618,
+                    "wep": "va_digsaw_launcher",
+                    "bwep": "va_marksman_rifle",
+                    "alias": "littlemanstann"
+                }
+            ],
+            "wep": "va_digsaw_launcher",
+            "pizzas": 0,
+            "ultras": [
+                [
+                    "scales",
+                    2
+                ]
+            ],
+            "loop": 1,
+            "killed_by": 21,
+            "mutations": [
+                "Rocket Casings",
+                "Staked Chest",
+                11,
+                21,
+                27,
+                "Arcane Arts",
+                2,
+                23
+            ]
         }
     ]
 }
