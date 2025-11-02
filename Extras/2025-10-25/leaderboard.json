@@ -208,53 +208,60 @@
             ]
         },
         {
-            "kills": 1125,
-            "bwep": "thundercrash",
-            "hard": 31,
-            "subarea": 3,
-            "area": 5,
+            "kills": 3105,
+            "bwep": 111,
+            "hard": 54,
+            "subarea": 2,
+            "area": 1,
             "name": "silentmelli",
-            "crown": 7,
+            "crown": 11,
             "skin": 0,
-            "race": 6,
+            "race": 9,
             "color": 16736708,
-            "time": 37510,
+            "time": 101270,
             "loadout": [
                 {
                     "skin": 0,
-                    "race": 6,
+                    "race": 9,
                     "color": 16736708,
                     "wep": "mw_ui_start",
                     "bwep": 0,
                     "alias": "silentmelli"
                 }
             ],
-            "wep": 24,
+            "wep": 92,
             "allies": [
                 {
                     "skin": 0,
-                    "race": 6,
+                    "race": 9,
                     "color": 16736708,
-                    "wep": 24,
-                    "bwep": "thundercrash",
+                    "wep": 92,
+                    "bwep": 111,
                     "alias": "silentmelli"
                 }
             ],
             "pizzas": 1,
             "ultras": [
-                22
+                [
+                    9,
+                    1
+                ]
             ],
-            "loop": 1,
-            "killed_by": 28,
+            "loop": 3,
+            "killed_by": 103,
             "mutations": [
                 13,
                 1,
                 17,
-                "concentration",
-                7,
-                "Confidence",
-                "Feed Forward Network",
-                "Dolla Dolla"
+                25,
+                23,
+                "condensedmeat",
+                3,
+                27,
+                "Thick Head",
+                "Slim Pickings",
+                "Dynamic Calves",
+                "Energized Intestines"
             ]
         }
     ]
