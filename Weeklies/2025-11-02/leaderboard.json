@@ -93,21 +93,21 @@
             ]
         },
         {
-            "kills": 169,
-            "bwep": "va_bolt_caster",
-            "hard": 6,
-            "subarea": 2,
-            "area": 3,
+            "kills": 120,
+            "bwep": 46,
+            "hard": 3,
+            "subarea": 3,
+            "area": 1,
             "name": "littlemanstann",
             "crown": false,
-            "skin": 0,
-            "race": "acrobat",
+            "skin": 1,
+            "race": 9,
             "color": 6714618,
-            "time": 6974.5,
+            "time": 2969,
             "loadout": [
                 {
-                    "skin": 0,
-                    "race": "acrobat",
+                    "skin": 1,
+                    "race": 9,
                     "color": 6714618,
                     "wep": "mw_ui_start",
                     "bwep": 0,
@@ -116,24 +116,22 @@
             ],
             "allies": [
                 {
-                    "skin": 0,
-                    "race": "acrobat",
+                    "skin": 1,
+                    "race": 9,
                     "color": 6714618,
-                    "wep": "Acro-Bat",
-                    "bwep": "va_bolt_caster",
+                    "wep": "hand_spade",
+                    "bwep": 46,
                     "alias": "littlemanstann"
                 }
             ],
-            "wep": "Acro-Bat",
+            "wep": "hand_spade",
             "pizzas": 0,
             "ultras": [ ],
             "loop": 0,
-            "killed_by": 14,
+            "killed_by": 61,
             "mutations": [
-                "Sloppy Fingers",
-                "Muscle Memory",
-                13,
-                11
+                "Arcane Arts",
+                8
             ]
         }
     ]
