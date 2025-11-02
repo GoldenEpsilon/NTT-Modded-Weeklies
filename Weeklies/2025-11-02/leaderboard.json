@@ -1,52 +1,6 @@
 {
     "scores": [
         {
-            "kills": 290,
-            "bwep": 11,
-            "subarea": 3,
-            "hard": 11,
-            "area": 5,
-            "name": "littlemanstann",
-            "skin": 0,
-            "crown": false,
-            "race": "scales",
-            "color": 6714618,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": "scales",
-                    "color": 6714618,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "littlemanstann"
-                }
-            ],
-            "time": 15564,
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": "scales",
-                    "color": 6714618,
-                    "wep": "va_martial_rapier",
-                    "bwep": 11,
-                    "alias": "littlemanstann"
-                }
-            ],
-            "wep": "va_martial_rapier",
-            "pizzas": 0,
-            "ultras": [ ],
-            "loop": 0,
-            "killed_by": 98,
-            "mutations": [
-                14,
-                3,
-                7,
-                10,
-                "Double Vision",
-                13
-            ]
-        },
-        {
             "kills": 16,
             "bwep": 0,
             "hard": 1,
@@ -136,6 +90,50 @@
                 "Arcane Arts",
                 2,
                 23
+            ]
+        },
+        {
+            "kills": 169,
+            "bwep": "va_bolt_caster",
+            "hard": 6,
+            "subarea": 2,
+            "area": 3,
+            "name": "littlemanstann",
+            "crown": false,
+            "skin": 0,
+            "race": "acrobat",
+            "color": 6714618,
+            "time": 6974.5,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "acrobat",
+                    "color": 6714618,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "littlemanstann"
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "acrobat",
+                    "color": 6714618,
+                    "wep": "Acro-Bat",
+                    "bwep": "va_bolt_caster",
+                    "alias": "littlemanstann"
+                }
+            ],
+            "wep": "Acro-Bat",
+            "pizzas": 0,
+            "ultras": [ ],
+            "loop": 0,
+            "killed_by": 14,
+            "mutations": [
+                "Sloppy Fingers",
+                "Muscle Memory",
+                13,
+                11
             ]
         }
     ]
