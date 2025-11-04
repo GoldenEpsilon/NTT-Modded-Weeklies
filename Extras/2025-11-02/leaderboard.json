@@ -5,7 +5,6 @@
             "bwep": 5,
             "subarea": 2,
             "hard": 6,
-            "area": 100,
             "loadout": [
                 {
                     "skin": 1,
@@ -16,6 +15,7 @@
                     "alias": "Jaz-I-Lantern"
                 }
             ],
+            "area": 100,
             "allies": [
                 {
                     "skin": 1,
@@ -49,6 +49,7 @@
             "bwep": 0,
             "hard": 11,
             "subarea": 3,
+            "area": 5,
             "loadout": [
                 {
                     "skin": 0,
@@ -59,7 +60,6 @@
                     "alias": "silentmelli"
                 }
             ],
-            "area": 5,
             "allies": [
                 {
                     "skin": 0,
@@ -90,6 +90,45 @@
                 11,
                 22
             ]
+        },
+        {
+            "kills": 0,
+            "bwep": 0,
+            "hard": 0,
+            "subarea": 0,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "dragon",
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "silentmelli"
+                }
+            ],
+            "area": 1,
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "dragon",
+                    "color": 16736708,
+                    "wep": "dragon_sword",
+                    "bwep": 0,
+                    "alias": "silentmelli"
+                }
+            ],
+            "pizzas": 0,
+            "name": "silentmelli",
+            "skin": 0,
+            "crown": 1,
+            "race": "dragon",
+            "color": 16736708,
+            "time": 0,
+            "wep": "mw_ui_start",
+            "ultras": [ ],
+            "loop": 0,
+            "killed_by": -1,
+            "mutations": [ ]
         }
     ]
 }
