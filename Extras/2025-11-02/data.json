@@ -1,0 +1,29 @@
+{
+	"name": "House Clash Week Two",
+	"weekly": true,
+	"description": "Dragon Time!",
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"disable_crowns": false,
+	"index": 5,
+	"seed": "12344321",
+	"mods": [
+                {
+			"download_type": "direct",
+			"name": "Dragon",
+			"filename": "dragon.zip",
+			"description": "Dragon form Katana ZERO!",
+			"url": "https://github.com/SenjeyB/DragonModv100/raw/main/dragon.zip?v=new"
+		},
+		{
+			"download_type": "itch",
+			"name": "Grillskills",
+			"description": "Pick any mutations on level up!",
+			"url": "https://gimmick.itch.io/grillskills"
+		}
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": 8
+}

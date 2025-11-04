@@ -1,0 +1,50 @@
+{
+	"name": "Backrooms Weapon Bundle",
+	"description": "MANY new weapons, plus backrooms#for the true mystery box experience!",
+	"can_resubmit": true,
+	"disable_vaults": false,
+	"disable_crowns": false,
+	"index": 2,
+	"seed": "Random",
+	"mods": [
+		{
+			"download_type": "itch",
+			"name": "Feels Like Vanilla",
+			"description": "16 simple but unique#vanilla-style weapons",
+			"url": "https://dragonstrive.itch.io/feels-like-vanilla"
+		},
+		{
+			"download_type": "itch",
+			"name": "Varia 10k",
+			"color": 7518239,
+			"description": "A semi-esoteric original-character#based weapon pack that adds#over 80 wild and powerful weapons.",
+			"url": "https://dragonstrive.itch.io/varia-addons"
+		},
+		{
+			"download_type": "itch",
+			"name": "Where The Gunz At",
+			"color": 15663281,
+			"description": "A powerful and wacky weapon pack#with a wide range of zainy,#unique firearms.",
+			"url": "https://mr-marcog.itch.io/where-the-gunz-at"
+		},
+		{
+			"download_type": "itch",
+			"name": "Backrooms",
+			"color": 7126983,
+			"description": "Endless corridors#Endless enemy waves#How long can you survive?",
+			"url": "https://dragonstrive.itch.io/the-backrooms"
+		},
+		{
+			"download_type": "direct",
+			"name": "Defpack",
+			"color": 16748682,
+			"description": "You know it! You love it!#It's the most clasic NTT weapon pack.",
+			"filename": "defpack.zip",
+			"url": "https://github.com/jsburger/defpack/archive/refs/heads/experimental.zip"
+		}
+	],
+	"race": false,
+	"wep": false,
+	"bwep": false,
+	"crown": false
+}
