@@ -143,26 +143,42 @@
         },
         {
             "pizzas": 0,
-            "ultras": [ ],
-            "killed_by": 6,
-            "mutations": [ ],
-            "kills": 2,
-            "bwep": 3,
-            "hard": 1,
-            "subarea": 3,
-            "area": 1,
+            "ultras": [
+                "Steel Nerves",
+                [
+                    "Printer",
+                    2
+                ]
+            ],
+            "killed_by": 25,
+            "mutations": [
+                11,
+                25,
+                7,
+                "Iron Skin",
+                "Mimicry",
+                "Thick Head",
+                "Dolla Dolla",
+                1,
+                "Compressing Fist"
+            ],
+            "kills": 1523,
+            "bwep": "va_pummeler",
+            "hard": 29,
+            "subarea": 2,
+            "area": 5,
             "name": "silentmelli",
-            "crown": false,
+            "crown": 7,
             "skin": 0,
-            "race": 6,
-            "time": 635,
-            "wep": 39,
-            "loop": 0,
+            "race": "Printer",
+            "time": 61733,
+            "wep": "tree_pruner",
+            "loop": 1,
             "color": 16736708,
             "loadout": [
                 {
                     "skin": 0,
-                    "race": 6,
+                    "race": "Printer",
                     "alias": "silentmelli",
                     "wep": "mw_ui_start",
                     "bwep": 0,
@@ -172,10 +188,10 @@
             "allies": [
                 {
                     "skin": 0,
-                    "race": 6,
+                    "race": "Printer",
                     "alias": "silentmelli",
-                    "wep": 39,
-                    "bwep": 3,
+                    "wep": "tree_pruner",
+                    "bwep": "va_pummeler",
                     "color": 16736708
                 }
             ]
