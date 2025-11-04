@@ -1,6 +1,10 @@
 {
     "scores": [
         {
+            "pizzas": 0,
+            "ultras": [ ],
+            "killed_by": -1,
+            "mutations": [ ],
             "kills": 16,
             "bwep": 0,
             "hard": 1,
@@ -10,68 +14,32 @@
             "crown": false,
             "skin": 1,
             "race": 4,
-            "color": 255,
             "time": 977,
+            "wep": 1,
+            "loop": 0,
+            "color": 255,
             "loadout": [
                 {
                     "skin": 1,
                     "race": 4,
-                    "color": 255,
+                    "alias": "The_Hell_Lord",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "The_Hell_Lord"
+                    "color": 255
                 }
             ],
             "allies": [
                 {
                     "skin": 1,
                     "race": 4,
-                    "color": 255,
+                    "alias": "The_Hell_Lord",
                     "wep": 1,
                     "bwep": 0,
-                    "alias": "The_Hell_Lord"
+                    "color": 255
                 }
-            ],
-            "wep": 1,
-            "pizzas": 0,
-            "ultras": [ ],
-            "loop": 0,
-            "killed_by": -1,
-            "mutations": [ ]
+            ]
         },
         {
-            "kills": 1035,
-            "bwep": "va_marksman_rifle",
-            "hard": 26,
-            "subarea": 1,
-            "area": 4,
-            "name": "littlemanstann",
-            "crown": 1,
-            "skin": 0,
-            "race": "scales",
-            "color": 6714618,
-            "time": 38480,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": "scales",
-                    "color": 6714618,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "littlemanstann"
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": "scales",
-                    "color": 6714618,
-                    "wep": "va_digsaw_launcher",
-                    "bwep": "va_marksman_rifle",
-                    "alias": "littlemanstann"
-                }
-            ],
-            "wep": "va_digsaw_launcher",
             "pizzas": 0,
             "ultras": [
                 [
@@ -79,7 +47,6 @@
                     2
                 ]
             ],
-            "loop": 1,
             "killed_by": 21,
             "mutations": [
                 "Rocket Casings",
@@ -90,48 +57,88 @@
                 "Arcane Arts",
                 2,
                 23
-            ]
-        },
-        {
-            "kills": 120,
-            "bwep": 46,
-            "hard": 3,
-            "subarea": 3,
-            "area": 1,
+            ],
+            "kills": 1035,
+            "bwep": "va_marksman_rifle",
+            "hard": 26,
+            "subarea": 1,
+            "area": 4,
             "name": "littlemanstann",
-            "crown": false,
-            "skin": 1,
-            "race": 9,
+            "crown": 1,
+            "skin": 0,
+            "race": "scales",
+            "time": 38480,
+            "wep": "va_digsaw_launcher",
+            "loop": 1,
             "color": 6714618,
-            "time": 2969,
             "loadout": [
                 {
-                    "skin": 1,
-                    "race": 9,
-                    "color": 6714618,
+                    "skin": 0,
+                    "race": "scales",
+                    "alias": "littlemanstann",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "littlemanstann"
+                    "color": 6714618
                 }
             ],
             "allies": [
                 {
-                    "skin": 1,
-                    "race": 9,
-                    "color": 6714618,
-                    "wep": "hand_spade",
-                    "bwep": 46,
-                    "alias": "littlemanstann"
+                    "skin": 0,
+                    "race": "scales",
+                    "alias": "littlemanstann",
+                    "wep": "va_digsaw_launcher",
+                    "bwep": "va_marksman_rifle",
+                    "color": 6714618
                 }
-            ],
-            "wep": "hand_spade",
+            ]
+        },
+        {
             "pizzas": 0,
             "ultras": [ ],
-            "loop": 0,
-            "killed_by": 61,
+            "killed_by": 24,
             "mutations": [
-                "Arcane Arts",
-                8
+                "Shell Cellulite",
+                13,
+                "powderedgums",
+                "Slim Pickings",
+                "Shocked Skin",
+                "Cranial Valve",
+                "Ruffled Feathers",
+                11,
+                "Thick Head"
+            ],
+            "kills": 271,
+            "bwep": "va_martial_longsword",
+            "hard": 10,
+            "subarea": 2,
+            "area": 5,
+            "name": "silentmelli",
+            "crown": false,
+            "skin": 0,
+            "race": 6,
+            "time": 12874,
+            "wep": "va_duster_shotgun",
+            "loop": 0,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": 6,
+                    "alias": "silentmelli",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": 6,
+                    "alias": "silentmelli",
+                    "wep": "va_duster_shotgun",
+                    "bwep": "va_martial_longsword",
+                    "color": 16736708
+                }
             ]
         }
     ]
