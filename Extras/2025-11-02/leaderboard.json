@@ -92,42 +92,49 @@
             "loop": 0
         },
         {
-            "kills": 0,
+            "kills": 273,
             "color": 13281508,
             "bwep": 0,
-            "hard": 0,
-            "subarea": 0,
-            "area": 1,
+            "hard": 13,
+            "subarea": 3,
+            "area": 5,
             "ultras": [ ],
-            "killed_by": -1,
+            "killed_by": 27,
             "pizzas": 0,
             "name": "Jaz-I-Lantern",
-            "crown": 8,
+            "crown": 11,
             "loadout": [
                 {
-                    "skin": 1,
-                    "race": 6,
+                    "skin": 0,
+                    "race": "dragon",
                     "wep": "mw_ui_start",
                     "alias": "Jaz-I-Lantern",
                     "color": 13281508,
                     "bwep": 0
                 }
             ],
-            "skin": 1,
-            "mutations": [ ],
-            "race": 6,
+            "skin": 0,
+            "mutations": [
+                23,
+                13,
+                1,
+                11,
+                3,
+                22
+            ],
+            "race": "dragon",
             "allies": [
                 {
-                    "skin": 1,
-                    "race": 6,
-                    "wep": 39,
+                    "skin": 0,
+                    "race": "dragon",
+                    "wep": "dragon_sword",
                     "alias": "Jaz-I-Lantern",
                     "color": 13281508,
                     "bwep": 0
                 }
             ],
-            "time": 0,
-            "wep": "mw_ui_start",
+            "time": 13134.000000000187356,
+            "wep": "dragon_sword",
             "loop": 0
         }
     ]
