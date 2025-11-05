@@ -166,27 +166,36 @@
                 }
             ],
             "pizzas": 0,
-            "kills": 154,
+            "kills": 531,
             "color": 16737962,
             "bwep": 0,
-            "hard": 5,
-            "subarea": 1,
-            "area": 3,
-            "ultras": [ ],
-            "killed_by": 17,
+            "hard": 19,
+            "subarea": 2,
+            "area": 1,
+            "ultras": [
+                [
+                    "dragon",
+                    2
+                ]
+            ],
+            "killed_by": 1,
             "name": "Lightspeed",
-            "crown": 8,
+            "crown": 11,
             "skin": 0,
             "mutations": [
                 1,
+                13,
+                11,
+                23,
+                22,
+                27,
                 7,
-                4,
-                13
+                4
             ],
             "race": "dragon",
-            "time": 5514.333333333361225,
+            "time": 22521.666666666304081,
             "wep": "dragon_sword",
-            "loop": 0
+            "loop": 1
         }
     ]
 }
