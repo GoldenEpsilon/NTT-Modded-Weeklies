@@ -216,6 +216,45 @@
             "time": 224.999999999999687,
             "wep": "dragon_sword",
             "loop": 0
+        },
+        {
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "dragon",
+                    "wep": "mw_ui_start",
+                    "alias": "Lightspeed",
+                    "color": 16737962,
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "dragon",
+                    "wep": "dragon_sword",
+                    "alias": "Lightspeed",
+                    "color": 16737962,
+                    "bwep": 0
+                }
+            ],
+            "pizzas": 0,
+            "kills": 6,
+            "color": 16737962,
+            "bwep": 0,
+            "hard": 1,
+            "subarea": 1,
+            "area": 1,
+            "ultras": [ ],
+            "killed_by": 1,
+            "name": "Lightspeed",
+            "crown": 8,
+            "skin": 0,
+            "mutations": [ ],
+            "race": "dragon",
+            "time": 315.666666666667652,
+            "wep": "dragon_sword",
+            "loop": 0
         }
     ]
 }
