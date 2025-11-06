@@ -1,13 +1,45 @@
 {
     "scores": [
         {
+            "kills": 801,
+            "bwep": 0,
+            "hard": 18,
+            "subarea": 1,
+            "area": 3,
+            "name": "silentmelli",
+            "crown": 7,
+            "skin": 0,
+            "race": "dragon",
+            "color": 16736708,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "dragon",
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "silentmelli"
+                }
+            ],
+            "time": 18808.333333333626797,
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "dragon",
+                    "color": 16736708,
+                    "wep": "dragon_sword",
+                    "bwep": 0,
+                    "alias": "silentmelli"
+                }
+            ],
+            "killed_by": 94,
+            "wep": "dragon_sword",
             "ultras": [
                 [
                     "dragon",
                     2
                 ]
             ],
-            "killed_by": 94,
             "mutations": [
                 23,
                 13,
@@ -19,49 +51,49 @@
                 9,
                 4
             ],
-            "kills": 801,
+            "pizzas": 0,
+            "loop": 1
+        },
+        {
+            "kills": 531,
             "bwep": 0,
-            "hard": 18,
-            "subarea": 1,
-            "area": 3,
-            "name": "silentmelli",
-            "crown": 7,
+            "hard": 19,
+            "subarea": 2,
+            "area": 1,
+            "name": "Lightspeed",
+            "crown": 11,
             "skin": 0,
             "race": "dragon",
-            "time": 18808.333333333626797,
-            "wep": "dragon_sword",
-            "color": 16736708,
-            "pizzas": 0,
-            "loop": 1,
+            "color": 16737962,
             "loadout": [
                 {
                     "skin": 0,
                     "race": "dragon",
-                    "alias": "silentmelli",
+                    "color": 16737962,
                     "wep": "mw_ui_start",
-                    "color": 16736708,
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "Lightspeed"
                 }
             ],
+            "time": 22521.666666666304081,
             "allies": [
                 {
                     "skin": 0,
                     "race": "dragon",
-                    "alias": "silentmelli",
+                    "color": 16737962,
                     "wep": "dragon_sword",
-                    "color": 16736708,
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "Lightspeed"
                 }
-            ]
-        },
-        {
+            ],
+            "killed_by": 1,
+            "wep": "dragon_sword",
             "ultras": [
                 [
                     "dragon",
                     2
                 ]
             ],
-            "killed_by": 1,
             "mutations": [
                 1,
                 13,
@@ -72,49 +104,49 @@
                 7,
                 4
             ],
-            "kills": 531,
+            "pizzas": 0,
+            "loop": 1
+        },
+        {
+            "kills": 1957,
             "bwep": 0,
-            "hard": 19,
-            "subarea": 2,
-            "area": 1,
-            "name": "Lightspeed",
-            "crown": 11,
+            "hard": 34,
+            "subarea": 1,
+            "area": 7,
+            "name": "Jaz-I-Lantern",
+            "crown": 7,
             "skin": 0,
             "race": "dragon",
-            "time": 22521.666666666304081,
-            "wep": "dragon_sword",
-            "color": 16737962,
-            "pizzas": 0,
-            "loop": 1,
+            "color": 13281508,
             "loadout": [
                 {
                     "skin": 0,
                     "race": "dragon",
-                    "alias": "Lightspeed",
+                    "color": 13281508,
                     "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "Jaz-I-Lantern"
                 }
             ],
+            "time": 41200.999999999767169,
             "allies": [
                 {
                     "skin": 0,
                     "race": "dragon",
-                    "alias": "Lightspeed",
+                    "color": 13281508,
                     "wep": "dragon_sword",
-                    "color": 16737962,
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "Jaz-I-Lantern"
                 }
-            ]
-        },
-        {
+            ],
+            "killed_by": 35,
+            "wep": "dragon_sword",
             "ultras": [
                 [
                     "dragon",
                     2
                 ]
             ],
-            "killed_by": 35,
             "mutations": [
                 13,
                 23,
@@ -126,88 +158,52 @@
                 4,
                 7
             ],
-            "kills": 1957,
-            "bwep": 0,
-            "hard": 34,
-            "subarea": 1,
-            "area": 7,
-            "name": "Jaz-I-Lantern",
-            "crown": 7,
-            "skin": 0,
-            "race": "dragon",
-            "time": 41200.999999999767169,
-            "wep": "dragon_sword",
-            "color": 13281508,
             "pizzas": 0,
-            "loop": 1,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": "dragon",
-                    "alias": "Jaz-I-Lantern",
-                    "wep": "mw_ui_start",
-                    "color": 13281508,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": "dragon",
-                    "alias": "Jaz-I-Lantern",
-                    "wep": "dragon_sword",
-                    "color": 13281508,
-                    "bwep": 0
-                }
-            ]
+            "loop": 1
         },
         {
-            "ultras": [ ],
-            "killed_by": 37,
-            "mutations": [
-                13,
-                23,
-                11,
-                22,
-                1,
-                27,
-                9,
-                4
-            ],
-            "kills": 385,
+            "kills": 161,
             "bwep": 0,
-            "hard": 16,
-            "subarea": 3,
-            "area": 7,
-            "name": "Jaz-I-Lantern",
+            "hard": 6,
+            "subarea": 1,
+            "area": 3,
+            "name": "silentmelli",
             "crown": 8,
             "skin": 0,
             "race": "dragon",
-            "time": 15000.666666666769743,
-            "wep": "dragon_sword",
-            "color": 13281508,
-            "pizzas": 0,
-            "loop": 0,
+            "color": 16736708,
             "loadout": [
                 {
                     "skin": 0,
                     "race": "dragon",
-                    "alias": "Jaz-I-Lantern",
+                    "color": 16736708,
                     "wep": "mw_ui_start",
-                    "color": 13281508,
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "silentmelli"
                 }
             ],
             "allies": [
                 {
                     "skin": 0,
                     "race": "dragon",
-                    "alias": "Jaz-I-Lantern",
+                    "color": 16736708,
                     "wep": "dragon_sword",
-                    "color": 13281508,
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "silentmelli"
                 }
-            ]
+            ],
+            "time": 3156.33333333333394,
+            "wep": "dragon_sword",
+            "killed_by": 60,
+            "ultras": [ ],
+            "mutations": [
+                14,
+                17,
+                21,
+                1
+            ],
+            "pizzas": 1,
+            "loop": 0
         }
     ]
 }
