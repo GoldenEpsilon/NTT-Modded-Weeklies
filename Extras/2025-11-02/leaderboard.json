@@ -162,11 +162,11 @@
             "loop": 1
         },
         {
-            "kills": 137,
+            "kills": 193,
             "bwep": 0,
-            "hard": 4,
-            "subarea": 1,
-            "area": 2,
+            "hard": 7,
+            "subarea": 2,
+            "area": 3,
             "name": "silentmelli",
             "crown": 8,
             "skin": 0,
@@ -192,16 +192,18 @@
                     "alias": "silentmelli"
                 }
             ],
-            "time": 2934.333333333348492,
+            "time": 4064.000000000008185,
             "wep": "dragon_sword",
-            "killed_by": 62,
+            "killed_by": 15,
             "ultras": [ ],
             "mutations": [
-                21,
                 17,
-                5
+                14,
+                5,
+                1,
+                21
             ],
-            "pizzas": 0,
+            "pizzas": 1,
             "loop": 0
         }
     ]
