@@ -163,45 +163,6 @@
             "loop": 5
         },
         {
-            "kills": 14,
-            "bwep": 0,
-            "hard": 1,
-            "subarea": 1,
-            "area": 1,
-            "pizzas": 0,
-            "loadout": [
-                {
-                    "alias": "...",
-                    "skin": 0,
-                    "race": "dragon",
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "alias": "...",
-                    "skin": 0,
-                    "race": "dragon",
-                    "color": 16736708,
-                    "wep": 1,
-                    "bwep": 0
-                }
-            ],
-            "name": "...",
-            "skin": 0,
-            "crown": 8,
-            "race": "dragon",
-            "color": 16736708,
-            "time": 450.999999999999943,
-            "wep": 1,
-            "ultras": [ ],
-            "killed_by": -1,
-            "mutations": [ ],
-            "loop": 0
-        },
-        {
             "kills": 273,
             "bwep": 0,
             "hard": 11,
@@ -244,6 +205,49 @@
                 27,
                 11,
                 8
+            ],
+            "loop": 0
+        },
+        {
+            "kills": 87,
+            "bwep": 0,
+            "hard": 3,
+            "subarea": 3,
+            "area": 1,
+            "pizzas": 0,
+            "loadout": [
+                {
+                    "alias": "...",
+                    "skin": 0,
+                    "race": "dragon",
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "alias": "...",
+                    "skin": 0,
+                    "race": "dragon",
+                    "color": 16736708,
+                    "wep": 1,
+                    "bwep": 0
+                }
+            ],
+            "name": "...",
+            "skin": 0,
+            "crown": 8,
+            "race": "dragon",
+            "color": 16736708,
+            "time": 2567.000000000004093,
+            "wep": 1,
+            "ultras": [ ],
+            "killed_by": 4,
+            "mutations": [
+                11,
+                22,
+                4
             ],
             "loop": 0
         }
