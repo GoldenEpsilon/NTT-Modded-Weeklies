@@ -1,0 +1,23 @@
+{
+    "name": "House Clash Week three",
+	"weekly": true,
+    "description": "The backrooms",
+    "can_resubmit": true,
+    "disable_vaults": false,
+    "disable_crowns": false,
+    "index": 5,
+    "seed": "666",
+    "mods": [
+        {
+            "download_type": "itch",
+            "name": "Backrooms",
+            "color": 7126983,
+            "description": "The final challenge#Can you survive in the liminal spaces?",
+            "url": "https://dragonstrive.itch.io/the-backrooms"
+        }
+    ],
+    "race": false,
+    "wep": false,
+    "bwep": false,
+    "crown": false
+}
