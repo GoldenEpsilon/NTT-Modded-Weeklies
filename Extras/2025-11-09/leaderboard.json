@@ -5,7 +5,6 @@
             "bwep": 35,
             "subarea": 1,
             "hard": 31,
-            "area": "backrooms",
             "loadout": [
                 {
                     "skin": 1,
@@ -16,6 +15,7 @@
                     "alias": "Lightspeed"
                 }
             ],
+            "area": "backrooms",
             "allies": [
                 {
                     "skin": 1,
@@ -61,6 +61,7 @@
             "bwep": 13,
             "hard": 20,
             "subarea": 1,
+            "area": "backrooms",
             "loadout": [
                 {
                     "skin": 0,
@@ -71,7 +72,6 @@
                     "alias": "silentmelli"
                 }
             ],
-            "area": "backrooms",
             "allies": [
                 {
                     "skin": 0,
@@ -113,9 +113,9 @@
             ]
         },
         {
-            "kills": 333,
-            "bwep": 124,
-            "hard": 10,
+            "kills": 4205,
+            "bwep": 97,
+            "hard": 46,
             "subarea": 2,
             "loadout": [
                 {
@@ -133,8 +133,8 @@
                     "skin": 1,
                     "race": 5,
                     "color": 16736708,
-                    "wep": 88,
-                    "bwep": 124,
+                    "wep": 92,
+                    "bwep": 97,
                     "alias": "silentmelli"
                 }
             ],
@@ -144,21 +144,25 @@
             "crown": false,
             "race": 5,
             "color": 16736708,
-            "time": 10336,
-            "wep": 88,
+            "time": 54090,
+            "wep": 92,
             "ultras": [
                 [
                     5,
-                    2
+                    1
                 ]
             ],
-            "loop": 0,
-            "killed_by": [
-                51,
-                "@qENTITY"
-            ],
+            "loop": 2,
+            "killed_by": 51,
             "mutations": [
-                23
+                11,
+                22,
+                13,
+                27,
+                1,
+                9,
+                8,
+                5
             ]
         }
     ]
