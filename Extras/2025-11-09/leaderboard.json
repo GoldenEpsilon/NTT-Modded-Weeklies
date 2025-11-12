@@ -1,13 +1,46 @@
 {
     "scores": [
         {
+            "kills": 1955,
+            "bwep": 35,
+            "subarea": 1,
+            "hard": 31,
+            "area": "backrooms",
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "color": 16737962,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "Lightspeed"
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "color": 16737962,
+                    "wep": 24,
+                    "bwep": 35,
+                    "alias": "Lightspeed"
+                }
+            ],
+            "pizzas": 0,
+            "name": "Lightspeed",
+            "skin": 1,
+            "crown": false,
+            "race": 6,
+            "color": 16737962,
+            "time": 31873,
+            "wep": 24,
             "ultras": [
                 [
                     6,
                     1
                 ]
             ],
-            "pizzas": 0,
+            "loop": 0,
             "killed_by": [
                 51,
                 "@qENTITY"
@@ -21,90 +54,62 @@
                 17,
                 20,
                 26
-            ],
-            "kills": 1955,
-            "bwep": 35,
-            "hard": 31,
-            "subarea": 1,
-            "area": "backrooms",
-            "name": "Lightspeed",
-            "crown": false,
-            "skin": 1,
-            "race": 6,
-            "time": 31873,
-            "wep": 24,
-            "color": 16737962,
-            "loop": 0,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 6,
-                    "alias": "Lightspeed",
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 6,
-                    "alias": "Lightspeed",
-                    "wep": 24,
-                    "color": 16737962,
-                    "bwep": 35
-                }
             ]
         },
         {
+            "kills": 915,
+            "bwep": 13,
+            "hard": 20,
+            "subarea": 1,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": 6,
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "silentmelli"
+                }
+            ],
+            "area": "backrooms",
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": 6,
+                    "color": 16736708,
+                    "wep": 76,
+                    "bwep": 13,
+                    "alias": "silentmelli"
+                }
+            ],
+            "pizzas": 0,
+            "name": "silentmelli",
+            "skin": 0,
+            "crown": false,
+            "race": 6,
+            "color": 16736708,
+            "time": 22758,
+            "wep": 76,
             "ultras": [
                 [
                     6,
                     1
                 ]
             ],
-            "pizzas": 0,
+            "loop": 0,
             "killed_by": [
                 51,
                 "@qENTITY"
             ],
             "mutations": [
+                9,
+                1,
+                22,
+                11,
+                6,
+                13,
                 17,
-                23,
-                6
-            ],
-            "kills": 614,
-            "bwep": 117,
-            "hard": 16,
-            "subarea": 1,
-            "area": "backrooms",
-            "name": "Lightspeed",
-            "crown": false,
-            "skin": 1,
-            "race": 6,
-            "time": 15332,
-            "wep": 26,
-            "color": 16737962,
-            "loop": 0,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 6,
-                    "alias": "Lightspeed",
-                    "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 6,
-                    "alias": "Lightspeed",
-                    "wep": 26,
-                    "color": 16737962,
-                    "bwep": 117
-                }
+                23
             ]
         }
     ]
