@@ -5,6 +5,7 @@
             "bwep": 35,
             "subarea": 1,
             "hard": 31,
+            "area": "backrooms",
             "loadout": [
                 {
                     "skin": 1,
@@ -15,7 +16,6 @@
                     "alias": "Lightspeed"
                 }
             ],
-            "area": "backrooms",
             "allies": [
                 {
                     "skin": 1,
@@ -61,7 +61,6 @@
             "bwep": 13,
             "hard": 20,
             "subarea": 1,
-            "area": "backrooms",
             "loadout": [
                 {
                     "skin": 0,
@@ -72,6 +71,7 @@
                     "alias": "silentmelli"
                 }
             ],
+            "area": "backrooms",
             "allies": [
                 {
                     "skin": 0,
@@ -113,9 +113,9 @@
             ]
         },
         {
-            "kills": 764,
-            "bwep": 88,
-            "hard": 18,
+            "kills": 333,
+            "bwep": 124,
+            "hard": 10,
             "subarea": 2,
             "loadout": [
                 {
@@ -133,8 +133,8 @@
                     "skin": 1,
                     "race": 5,
                     "color": 16736708,
-                    "wep": 12,
-                    "bwep": 88,
+                    "wep": 88,
+                    "bwep": 124,
                     "alias": "silentmelli"
                 }
             ],
@@ -144,12 +144,12 @@
             "crown": false,
             "race": 5,
             "color": 16736708,
-            "time": 19909,
-            "wep": 12,
+            "time": 10336,
+            "wep": 88,
             "ultras": [
                 [
                     5,
-                    1
+                    2
                 ]
             ],
             "loop": 0,
@@ -158,9 +158,7 @@
                 "@qENTITY"
             ],
             "mutations": [
-                1,
-                5,
-                9
+                23
             ]
         }
     ]
