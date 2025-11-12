@@ -5,7 +5,6 @@
             "bwep": 35,
             "subarea": 1,
             "hard": 31,
-            "area": "backrooms",
             "loadout": [
                 {
                     "skin": 1,
@@ -16,6 +15,7 @@
                     "alias": "Lightspeed"
                 }
             ],
+            "area": "backrooms",
             "allies": [
                 {
                     "skin": 1,
@@ -61,6 +61,7 @@
             "bwep": 13,
             "hard": 20,
             "subarea": 1,
+            "area": "backrooms",
             "loadout": [
                 {
                     "skin": 0,
@@ -71,7 +72,6 @@
                     "alias": "silentmelli"
                 }
             ],
-            "area": "backrooms",
             "allies": [
                 {
                     "skin": 0,
@@ -110,6 +110,57 @@
                 13,
                 17,
                 23
+            ]
+        },
+        {
+            "kills": 764,
+            "bwep": 88,
+            "hard": 18,
+            "subarea": 2,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 5,
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "alias": "silentmelli"
+                }
+            ],
+            "area": "backrooms",
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 5,
+                    "color": 16736708,
+                    "wep": 12,
+                    "bwep": 88,
+                    "alias": "silentmelli"
+                }
+            ],
+            "pizzas": 0,
+            "name": "silentmelli",
+            "skin": 1,
+            "crown": false,
+            "race": 5,
+            "color": 16736708,
+            "time": 19909,
+            "wep": 12,
+            "ultras": [
+                [
+                    5,
+                    1
+                ]
+            ],
+            "loop": 0,
+            "killed_by": [
+                51,
+                "@qENTITY"
+            ],
+            "mutations": [
+                1,
+                5,
+                9
             ]
         }
     ]
