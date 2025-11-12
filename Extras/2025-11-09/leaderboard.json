@@ -55,6 +55,57 @@
                     "bwep": 35
                 }
             ]
+        },
+        {
+            "ultras": [
+                [
+                    6,
+                    1
+                ]
+            ],
+            "pizzas": 0,
+            "killed_by": [
+                51,
+                "@qENTITY"
+            ],
+            "mutations": [
+                17,
+                23,
+                6
+            ],
+            "kills": 614,
+            "bwep": 117,
+            "hard": 16,
+            "subarea": 1,
+            "area": "backrooms",
+            "name": "Lightspeed",
+            "crown": false,
+            "skin": 1,
+            "race": 6,
+            "time": 15332,
+            "wep": 26,
+            "color": 16737962,
+            "loop": 0,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "alias": "Lightspeed",
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "bwep": 0
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 6,
+                    "alias": "Lightspeed",
+                    "wep": 26,
+                    "color": 16737962,
+                    "bwep": 117
+                }
+            ]
         }
     ]
 }
