@@ -1,68 +1,46 @@
 {
     "scores": [
         {
-            "ultras": [
-                [
-                    6,
-                    1
-                ]
-            ],
-            "killed_by": [
-                51,
-                "@qENTITY"
-            ],
-            "mutations": [
-                7,
-                1,
-                27,
-                24,
-                13,
-                17,
-                20,
-                26
-            ],
-            "kills": 1955,
-            "bwep": 35,
-            "hard": 31,
-            "subarea": 1,
+            "kills": 4205,
+            "bwep": 97,
+            "hard": 46,
+            "subarea": 2,
             "area": "backrooms",
-            "name": "Lightspeed",
+            "name": "silentmelli",
             "skin": 1,
             "crown": false,
-            "race": 6,
-            "time": 31873,
-            "wep": 24,
-            "color": 16737962,
+            "race": 5,
+            "color": 16736708,
+            "time": 54090,
             "loadout": [
                 {
                     "skin": 1,
-                    "race": 6,
-                    "alias": "Lightspeed",
+                    "race": 5,
+                    "color": 16736708,
                     "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "silentmelli"
                 }
             ],
+            "wep": 92,
             "allies": [
                 {
                     "skin": 1,
-                    "race": 6,
-                    "alias": "Lightspeed",
-                    "wep": 24,
-                    "color": 16737962,
-                    "bwep": 35
+                    "race": 5,
+                    "color": 16736708,
+                    "wep": 92,
+                    "bwep": 97,
+                    "alias": "silentmelli"
                 }
             ],
-            "loop": 0,
-            "pizzas": 0
-        },
-        {
+            "pizzas": 0,
             "ultras": [
                 [
                     5,
                     1
                 ]
             ],
+            "loop": 2,
             "killed_by": 51,
             "mutations": [
                 11,
@@ -73,49 +51,49 @@
                 9,
                 8,
                 5
-            ],
-            "kills": 4205,
-            "bwep": 97,
-            "subarea": 2,
-            "hard": 46,
+            ]
+        },
+        {
+            "kills": 2206,
+            "bwep": 111,
+            "subarea": 1,
+            "hard": 33,
             "area": "backrooms",
-            "name": "silentmelli",
-            "skin": 1,
+            "name": "Lightspeed",
             "crown": false,
-            "race": 5,
-            "time": 54090,
-            "wep": 92,
-            "color": 16736708,
+            "skin": 1,
+            "race": 6,
+            "color": 16737962,
+            "time": 34955,
             "loadout": [
                 {
                     "skin": 1,
-                    "race": 5,
-                    "alias": "silentmelli",
+                    "race": 6,
+                    "color": 16737962,
                     "wep": "mw_ui_start",
-                    "color": 16736708,
-                    "bwep": 0
+                    "bwep": 0,
+                    "alias": "Lightspeed"
                 }
             ],
+            "wep": 92,
             "allies": [
                 {
                     "skin": 1,
-                    "race": 5,
-                    "alias": "silentmelli",
+                    "race": 6,
+                    "color": 16737962,
                     "wep": 92,
-                    "color": 16736708,
-                    "bwep": 97
+                    "bwep": 111,
+                    "alias": "Lightspeed"
                 }
             ],
-            "loop": 2,
-            "pizzas": 0
-        },
-        {
+            "pizzas": 0,
             "ultras": [
                 [
                     6,
                     1
                 ]
             ],
+            "loop": 2,
             "killed_by": 51,
             "mutations": [
                 1,
@@ -125,41 +103,63 @@
                 11,
                 20,
                 13
-            ],
-            "kills": 2206,
-            "bwep": 111,
-            "hard": 33,
-            "subarea": 1,
+            ]
+        },
+        {
+            "kills": 1034,
+            "bwep": 3,
+            "hard": 21,
+            "subarea": 2,
             "area": "backrooms",
-            "name": "Lightspeed",
+            "name": "...",
             "crown": false,
-            "skin": 1,
-            "race": 6,
-            "time": 34955,
-            "wep": 92,
-            "color": 16737962,
+            "skin": 0,
+            "race": 7,
+            "color": 16736708,
+            "time": 24133,
             "loadout": [
                 {
-                    "skin": 1,
-                    "race": 6,
-                    "alias": "Lightspeed",
+                    "skin": 0,
+                    "race": 7,
+                    "color": 16736708,
                     "wep": "mw_ui_start",
-                    "color": 16737962,
-                    "bwep": 0
+                    "bwep": 1,
+                    "alias": "..."
                 }
             ],
             "allies": [
                 {
-                    "skin": 1,
-                    "race": 6,
-                    "alias": "Lightspeed",
-                    "wep": 92,
-                    "color": 16737962,
-                    "bwep": 111
+                    "skin": 0,
+                    "race": 7,
+                    "color": 16736708,
+                    "wep": 105,
+                    "bwep": 3,
+                    "alias": "..."
                 }
             ],
-            "loop": 2,
-            "pizzas": 0
+            "wep": 105,
+            "pizzas": 0,
+            "ultras": [
+                [
+                    7,
+                    1
+                ]
+            ],
+            "loop": 0,
+            "killed_by": [
+                51,
+                "@qENTITY"
+            ],
+            "mutations": [
+                11,
+                13,
+                2,
+                7,
+                8,
+                26,
+                23,
+                9
+            ]
         }
     ]
 }
