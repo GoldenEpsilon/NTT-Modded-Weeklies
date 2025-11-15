@@ -160,6 +160,56 @@
                 23,
                 9
             ]
+        },
+        {
+            "kills": 662,
+            "bwep": 37,
+            "hard": 16,
+            "subarea": 2,
+            "area": "backrooms",
+            "name": "...",
+            "crown": false,
+            "skin": 0,
+            "race": 7,
+            "color": 16736708,
+            "time": 16158,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": 7,
+                    "color": 16736708,
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "alias": "..."
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": 7,
+                    "color": 16736708,
+                    "wep": 10,
+                    "bwep": 37,
+                    "alias": "..."
+                }
+            ],
+            "wep": 10,
+            "pizzas": 0,
+            "ultras": [
+                [
+                    7,
+                    2
+                ]
+            ],
+            "loop": 0,
+            "killed_by": [
+                51,
+                "@qENTITY"
+            ],
+            "mutations": [
+                3,
+                17
+            ]
         }
     ]
 }
