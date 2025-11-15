@@ -215,9 +215,9 @@
             ]
         },
         {
-            "kills": 167,
-            "bwep": 17,
-            "hard": 6,
+            "kills": 2233,
+            "bwep": 92,
+            "hard": 33,
             "subarea": 2,
             "area": "backrooms",
             "name": "...",
@@ -225,7 +225,7 @@
             "skin": 0,
             "race": 7,
             "color": 16736708,
-            "time": 4591,
+            "time": 37604,
             "loadout": [
                 {
                     "skin": 0,
@@ -241,12 +241,12 @@
                     "skin": 0,
                     "race": 7,
                     "color": 16736708,
-                    "wep": 7,
-                    "bwep": 17,
+                    "wep": "raygun",
+                    "bwep": 92,
                     "alias": "..."
                 }
             ],
-            "wep": 7,
+            "wep": "raygun",
             "pizzas": 0,
             "ultras": [
                 [
@@ -254,11 +254,17 @@
                     2
                 ]
             ],
-            "loop": 0,
-            "killed_by": 55,
+            "loop": 2,
+            "killed_by": 94,
             "mutations": [
+                27,
+                11,
+                3,
+                9,
                 13,
-                9
+                8,
+                1,
+                4
             ]
         }
     ]
