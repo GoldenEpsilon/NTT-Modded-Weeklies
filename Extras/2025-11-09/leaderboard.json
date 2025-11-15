@@ -1,38 +1,6 @@
 {
     "scores": [
         {
-            "kills": 4205,
-            "bwep": 97,
-            "hard": 46,
-            "subarea": 2,
-            "area": "backrooms",
-            "name": "silentmelli",
-            "skin": 1,
-            "crown": false,
-            "race": 5,
-            "color": 16736708,
-            "time": 54090,
-            "loadout": [
-                {
-                    "skin": 1,
-                    "race": 5,
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "bwep": 0,
-                    "alias": "silentmelli"
-                }
-            ],
-            "wep": 92,
-            "allies": [
-                {
-                    "skin": 1,
-                    "race": 5,
-                    "color": 16736708,
-                    "wep": 92,
-                    "bwep": 97,
-                    "alias": "silentmelli"
-                }
-            ],
             "pizzas": 0,
             "ultras": [
                 [
@@ -40,7 +8,6 @@
                     1
                 ]
             ],
-            "loop": 2,
             "killed_by": 51,
             "mutations": [
                 11,
@@ -51,41 +18,42 @@
                 9,
                 8,
                 5
-            ]
-        },
-        {
-            "kills": 2206,
-            "bwep": 111,
-            "subarea": 1,
-            "hard": 33,
+            ],
+            "kills": 4205,
+            "bwep": 97,
+            "hard": 46,
+            "subarea": 2,
             "area": "backrooms",
-            "name": "Lightspeed",
-            "crown": false,
+            "name": "silentmelli",
             "skin": 1,
-            "race": 6,
-            "color": 16737962,
-            "time": 34955,
+            "crown": false,
+            "race": 5,
+            "time": 54090,
+            "wep": 92,
+            "loop": 2,
+            "color": 16736708,
             "loadout": [
                 {
                     "skin": 1,
-                    "race": 6,
-                    "color": 16737962,
+                    "race": 5,
+                    "alias": "silentmelli",
                     "wep": "mw_ui_start",
                     "bwep": 0,
-                    "alias": "Lightspeed"
+                    "color": 16736708
                 }
             ],
-            "wep": 92,
             "allies": [
                 {
                     "skin": 1,
-                    "race": 6,
-                    "color": 16737962,
+                    "race": 5,
+                    "alias": "silentmelli",
                     "wep": 92,
-                    "bwep": 111,
-                    "alias": "Lightspeed"
+                    "bwep": 97,
+                    "color": 16736708
                 }
-            ],
+            ]
+        },
+        {
             "pizzas": 0,
             "ultras": [
                 [
@@ -93,7 +61,6 @@
                     1
                 ]
             ],
-            "loop": 2,
             "killed_by": 51,
             "mutations": [
                 1,
@@ -103,150 +70,42 @@
                 11,
                 20,
                 13
-            ]
-        },
-        {
-            "kills": 1034,
-            "bwep": 3,
-            "hard": 21,
-            "subarea": 2,
-            "area": "backrooms",
-            "name": "...",
-            "crown": false,
-            "skin": 0,
-            "race": 7,
-            "color": 16736708,
-            "time": 24133,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": 7,
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "alias": "..."
-                }
             ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": 7,
-                    "color": 16736708,
-                    "wep": 105,
-                    "bwep": 3,
-                    "alias": "..."
-                }
-            ],
-            "wep": 105,
-            "pizzas": 0,
-            "ultras": [
-                [
-                    7,
-                    1
-                ]
-            ],
-            "loop": 0,
-            "killed_by": [
-                51,
-                "@qENTITY"
-            ],
-            "mutations": [
-                11,
-                13,
-                2,
-                7,
-                8,
-                26,
-                23,
-                9
-            ]
-        },
-        {
-            "kills": 993,
-            "bwep": 74,
-            "hard": 21,
-            "subarea": 2,
-            "area": "backrooms",
-            "name": "...",
-            "crown": false,
-            "skin": 0,
-            "race": 7,
-            "color": 16736708,
-            "time": 20870,
-            "loadout": [
-                {
-                    "skin": 0,
-                    "race": 7,
-                    "color": 16736708,
-                    "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "alias": "..."
-                }
-            ],
-            "allies": [
-                {
-                    "skin": 0,
-                    "race": 7,
-                    "color": 16736708,
-                    "wep": "raygun",
-                    "bwep": 74,
-                    "alias": "..."
-                }
-            ],
-            "wep": "raygun",
-            "pizzas": 0,
-            "ultras": [
-                [
-                    7,
-                    2
-                ]
-            ],
-            "loop": 0,
-            "killed_by": [
-                null,
-                "RAY GUN"
-            ],
-            "mutations": [
-                27,
-                11,
-                13,
-                7,
-                23
-            ]
-        },
-        {
-            "kills": 2233,
-            "bwep": 92,
+            "kills": 2206,
+            "bwep": 111,
+            "subarea": 1,
             "hard": 33,
-            "subarea": 2,
             "area": "backrooms",
-            "name": "...",
+            "name": "Lightspeed",
             "crown": false,
-            "skin": 0,
-            "race": 7,
-            "color": 16736708,
-            "time": 37604,
+            "skin": 1,
+            "race": 6,
+            "time": 34955,
+            "wep": 92,
+            "loop": 2,
+            "color": 16737962,
             "loadout": [
                 {
-                    "skin": 0,
-                    "race": 7,
-                    "color": 16736708,
+                    "skin": 1,
+                    "race": 6,
+                    "alias": "Lightspeed",
                     "wep": "mw_ui_start",
-                    "bwep": 1,
-                    "alias": "..."
+                    "bwep": 0,
+                    "color": 16737962
                 }
             ],
             "allies": [
                 {
-                    "skin": 0,
-                    "race": 7,
-                    "color": 16736708,
-                    "wep": "raygun",
-                    "bwep": 92,
-                    "alias": "..."
+                    "skin": 1,
+                    "race": 6,
+                    "alias": "Lightspeed",
+                    "wep": 92,
+                    "bwep": 111,
+                    "color": 16737962
                 }
-            ],
-            "wep": "raygun",
+            ]
+        },
+        {
             "pizzas": 0,
             "ultras": [
                 [
@@ -254,7 +113,6 @@
                     2
                 ]
             ],
-            "loop": 2,
             "killed_by": 94,
             "mutations": [
                 27,
@@ -265,6 +123,92 @@
                 8,
                 1,
                 4
+            ],
+            "kills": 2233,
+            "bwep": 92,
+            "hard": 33,
+            "subarea": 2,
+            "area": "backrooms",
+            "name": "...",
+            "crown": false,
+            "skin": 0,
+            "race": 7,
+            "time": 37604,
+            "wep": "raygun",
+            "loop": 2,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": 7,
+                    "alias": "...",
+                    "wep": "mw_ui_start",
+                    "bwep": 1,
+                    "color": 16736708
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": 7,
+                    "alias": "...",
+                    "wep": "raygun",
+                    "bwep": 92,
+                    "color": 16736708
+                }
+            ]
+        },
+        {
+            "pizzas": 0,
+            "ultras": [
+                [
+                    5,
+                    1
+                ]
+            ],
+            "killed_by": 51,
+            "mutations": [
+                5,
+                13,
+                1,
+                11,
+                7,
+                4,
+                22,
+                10
+            ],
+            "kills": 1682,
+            "bwep": 37,
+            "hard": 28,
+            "subarea": 2,
+            "area": "backrooms",
+            "name": "silentmelli",
+            "crown": false,
+            "skin": 1,
+            "race": 5,
+            "time": 32766,
+            "wep": 10,
+            "loop": 0,
+            "color": 16736708,
+            "loadout": [
+                {
+                    "skin": 1,
+                    "race": 5,
+                    "alias": "silentmelli",
+                    "wep": "mw_ui_start",
+                    "bwep": 0,
+                    "color": 16736708
+                }
+            ],
+            "allies": [
+                {
+                    "skin": 1,
+                    "race": 5,
+                    "alias": "silentmelli",
+                    "wep": 10,
+                    "bwep": 37,
+                    "color": 16736708
+                }
             ]
         }
     ]
