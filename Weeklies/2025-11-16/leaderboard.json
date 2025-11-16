@@ -38,6 +38,45 @@
             "wep": 0,
             "color": 16737962,
             "loop": 0
+        },
+        {
+            "loadout": [
+                {
+                    "skin": 0,
+                    "race": "acrobat",
+                    "alias": "Lightspeed",
+                    "wep": "mw_ui_start",
+                    "color": 16737962,
+                    "bwep": 0
+                }
+            ],
+            "ultras": [ ],
+            "killed_by": 0,
+            "allies": [
+                {
+                    "skin": 0,
+                    "race": "acrobat",
+                    "alias": "Lightspeed",
+                    "wep": "Acro-Bat",
+                    "color": 16737962,
+                    "bwep": 0
+                }
+            ],
+            "mutations": [ ],
+            "pizzas": 0,
+            "kills": 3,
+            "bwep": 0,
+            "hard": 1,
+            "subarea": 1,
+            "area": 1,
+            "name": "Lightspeed",
+            "crown": false,
+            "skin": 0,
+            "race": "acrobat",
+            "time": 1082,
+            "wep": "Acro-Bat",
+            "color": 16737962,
+            "loop": 0
         }
     ]
 }
